@@ -14,7 +14,7 @@ _Your Blaze Camp plan_
 
 ## Before you start
 
-- Trained through your compound lifts (no extra sets of their own): Biceps, Triceps.
+- Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.
 - Two-leg lifts are about 53 % of your lower-body lifting sets (your sport's guide is about 30 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 
 ## Basic Instruction
@@ -109,8 +109,8 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Back | 10 | 11 | 13 |
 | Chest | 10 | 11 | 13 |
 | Shoulders | 10 | 11 | 13 |
-| Biceps | - (7) | - (7) | - (7) |
-| Triceps | - (7) | - (7) | - (8) |
+| Biceps | 7 (4 direct) | 7 (4 direct) | 7 (4 direct) |
+| Triceps | 7 (4 direct) | 7 (4 direct) | 8 (4 direct) |
 | Calves | 12 | 12 | 12 |
 | **Total** | **72** | **77** | **87** |
 
@@ -140,8 +140,8 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Back | 10 10 10 11 · 11 11 11 12 · 12 12 13 13 | 13 |
 | Chest | 10 10 10 10 · 11 11 11 11 · 12 12 13 13 | 13 |
 | Shoulders | 10 10 10 10 · 10 11 11 11 · 13 13 13 13 | 13 |
-| Biceps | 7 7 7 7 · 7 7 7 7 · 7 7 7 7 | no exercise of its own |
-| Triceps | 7 7 7 7 · 7 7 7 7 · 8 8 8 8 | no exercise of its own |
+| Biceps | 7 7 7 7 · 7 7 7 7 · 7 7 7 7 | held: 4 direct sets a week |
+| Triceps | 7 7 7 7 · 7 7 7 7 · 8 8 8 8 | held: 4 direct sets a week |
 | Calves | 12 12 12 12 · 12 12 12 12 · 12 12 12 12 | 12 |
 | **Total** | 72 73 74 75 · 76 77 78 79 · 81 83 87 87 | 87 |
 

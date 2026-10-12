@@ -3501,6 +3501,34 @@
     ],
     "status": "approved rule; the circuit keeps one round count for every station (OBSERVED BYOP BOOTCAMP)"
    },
+   "two_day_arm_slot": {
+    "groups": [
+     "biceps",
+     "triceps"
+    ],
+    "sets": [
+     2,
+     3
+    ],
+    "refs": [
+     "R4-SES-03",
+     "R4-SES-05",
+     "CH5-02",
+     "CH5-03",
+     "OBSERVED BYOP AESTHETICS Day 1 Bicep 2 x 20"
+    ],
+    "status": "approved rule (R4-SES-03: the band is for big groups); 2-3 sets PROPOSED (review r5 08 M1)"
+   },
+   "held_groups_notice": true,
+   "work_lead": {
+    "twins_alternate": true,
+    "refs": [
+     "VOL-07",
+     "R3-VOL-03",
+     "R4-SES-05"
+    ],
+    "status": "approved rules (VOL-07, R3-VOL-03) read on the main lifts"
+   },
    "refs": [
     "VOL-07",
     "R3-VOL-03",
@@ -11741,6 +11769,24 @@
     ]
    },
    "contacts_per_leg_key": "reps.contacts_per_leg",
+   "held_groups": {
+    "cell_key": "ui.plan.sets_with_direct",
+    "final_key": "ui.plan.final_held",
+    "refs": [
+     "CH5-02",
+     "R4-SES-05",
+     "CX-04"
+    ]
+   },
+   "sets_display_cap_final": true,
+   "optional_bonus_line": {
+    "key": "ui.plan.optional_bonus_big",
+    "refs": [
+     "CH5-03",
+     "R3-VOL-03",
+     "CX-04"
+    ]
+   },
    "refs": [
     "R4-PRG-02",
     "R4-PRG-03",

@@ -552,7 +552,9 @@ for (const [mname, model] of MODELS) {
       const p = planOf('01');
       const st = p.meta.stairway[0];
       assert.deepEqual(st.credit_only_groups, ['biceps', 'triceps']);
-      assert.ok(p.meta.warnings.some(w => w.key === 'warning.credit_only_groups' && w.args.group.includes('biceps')));
+      // (converted, G-202 / CH5-02: the swimmer's arms hold the slot-5 exercise, so they are said as held at its sets, not as credit only)
+      assert.deepEqual(st.held_groups, ['biceps', 'triceps']);
+      assert.ok(p.meta.warnings.some(w => w.key === 'warning.slot_held_groups' && w.args.group.includes('biceps')));
       for (const w of p.weeks) assert.deepEqual(w.credit_only_groups, w.block_type === 'stairway' ? ['biceps', 'triceps'] : w.credit_only_groups);
     });
 

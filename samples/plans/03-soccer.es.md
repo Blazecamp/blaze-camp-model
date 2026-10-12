@@ -15,7 +15,7 @@ _Tu plan Blaze Camp_
 ## Antes de empezar
 
 - Tu temporada está cerca: las últimas 2 semanas de este plan son de pretemporada (más velocidad y potencia, menos series).
-- Se entrenan con el trabajo de tu deporte y los ejercicios compuestos (sin series extra): bíceps y tríceps.
+- Bíceps y tríceps: un ejercicio propio en los días de entrenamiento (el espacio de brazos de la plantilla), con sus series fijas. No suben de series como los demás grupos: progrésalos con peso y repeticiones.
 - Los ejercicios a dos piernas son cerca del 50 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
 - Este plan no cuenta tus 2 prácticas de equipo por semana: tómalas en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).
 
@@ -55,7 +55,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 - ¿Algo te duele? Primero usa uno de los cambios de la lista, luego quita entre un tercio y la mitad de las series de ese ejercicio y, si sigue, quítalo por el resto del bloque. Consulta a un profesional si el dolor sigue.
 - ¿La vida se interpuso por varias semanas (enfermedad, viajes, trabajo)? Detén el bloque, toma la semana suave recomendada si quieres y luego crea un bloque nuevo.
 - Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
-- Desactivar el bloque de accesorios quita todas las series directas de Bíceps, Tríceps y Pantorrillas.
+- Desactivar el bloque de accesorios quita todas las series directas de bíceps, tríceps y pantorrillas.
 - Tú (o tu entrenador) también puedes cambiar las series de cualquier ejercicio en cualquier día o semana: el plan es una plantilla.
 - El tiempo que aparece en cada día es un estimado promedio, solo como información: nada de este plan se recorta ni se cambia por tiempo. ¿Quieres un día más corto? Usa las superseries sugeridas o quita lo que el día marca como más fácil de quitar.
 
@@ -117,9 +117,9 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Cadera (glúteos + isquiotibiales) | 11 | 13 | 16 |
 | Espalda | 10 | 11 | 14 |
 | Pecho | 10 | 10 | 11 |
-| Hombros | 10 | 10 | 12 |
-| Bíceps | - (5) | - (5) | - (6) |
-| Tríceps | - (5) | - (5) | - (5) |
+| Hombros | 10 | 10 | 11 |
+| Bíceps | 5 (2 directas) | 5 (2 directas) | 6 (2 directas) |
+| Tríceps | 5 (2 directas) | 5 (2 directas) | 5 (2 directas) |
 | Pantorrillas | 9 | 9 | 11 |
 | **Total** | **59** | **63** | **76** |
 
@@ -148,9 +148,9 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Cadera (glúteos + isquiotibiales) | 11 13 13 14 14 16 | 16 |
 | Espalda | 10 10 11 12 13 14 | 14 |
 | Pecho | 10 10 10 10 11 11 | 11 |
-| Hombros | 10 10 10 10 12 12 | 11 |
-| Bíceps | 5 5 5 5 5 6 | sin ejercicio propio |
-| Tríceps | 5 5 5 5 5 5 | sin ejercicio propio |
+| Hombros | 10 10 10 10 11 11 | 11 |
+| Bíceps | 5 5 5 5 5 6 | fijas: 2 series directas por semana |
+| Tríceps | 5 5 5 5 5 5 | fijas: 2 series directas por semana |
 | Pantorrillas | 9 9 9 10 10 11 | 11 |
 | **Total** | 59 61 63 67 71 76 | 76 |
 

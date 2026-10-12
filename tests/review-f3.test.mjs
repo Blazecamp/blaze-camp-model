@@ -217,10 +217,14 @@ describe('v0.4 fix round 1 / F3: selection, dosing and the printed plan (coach-e
     assert.ok(/\| Back \| \d/.test(table));
     // (engine 0.6.0, converted - COACH-CH5 CH5-02 / DECISIONS G-198: 08's arms are trained in slot 5 now; the credit-only row is read on
     // the football plan, whose arms stay credit-only in the stairway)
-    const s2 = unesc(md('02', 'en'));
+    // (converted again, G-202 / CH5-02: 01's and 02's arms hold slot 5 and print their sets with their direct sets; the "-" row is read on
+    // a copy of 02 whose arms have no exercise of their own)
+    const q2 = JSON.parse(JSON.stringify(plan('02')));
+    for (const st of q2.meta.stairway) st.held_groups = [];
+    const s2 = unesc(renderPlan(q2, model, { lang: 'en' }));
     assert.ok(/\| Biceps \| - \(\d/.test(s2.slice(s2.indexOf('## ' + t('en', 'ui.plan.weekly_sets_groups')))), 'a credit-only group shows "-" with its helper sets');
     const s1 = unesc(md('01', 'en'));
-    assert.ok(/\| Biceps \| - \(\d/.test(s1), 'a credit-only group shows "-" with its helper sets');
+    assert.ok(/\| Biceps \| \d+ \(\d+ direct\)/.test(s1), 'a held group shows its sets with its direct sets');
   });
 
   // ------------------------------------------------------------------------------------------------ small copy fixes

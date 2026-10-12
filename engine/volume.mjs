@@ -613,6 +613,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   };
   const isoMainMax = () => { const M = PX.iso_main_day_max; if (!M) return maxEx; return Math.min(maxEx, isoFourthOpen() ? M.hardest : M.default); };
   const workMin = (slot) => (slot.role === 'work' && (PX.work_min_from_hint_families || []).includes(layout.family) && Array.isArray(slot.sets_hint) ? Math.min(maxEx, Math.max(P.min_sets, slot.sets_hint[0])) : P.min_sets);
+
   let calfMainMax = calfPer; // set once the block knows whether an optional-day Calves slot carries the rest (below)
   const boundsOf0 = (slot, di) => {
     if (slot.origin === 'bonus') return isMainDi(di) && PX.main_day_extra ? [PX.main_day_extra.sets[0], Math.min(isoMainMax(), PX.main_day_extra.sets[1])] : [BN.sets[0], Math.min(maxEx, BN.sets[1])];
@@ -633,6 +634,10 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const GMAX = V.x3 && V.x3.group_max && isNum(V.x3.group_max.sets) ? V.x3.group_max.sets : null;
   const focusGroup = (g) => !!g && (X.linesOfGroup[g] || []).some(l => prio.includes(l));
   const bigGroup = (g) => !!g && (X.linesOfGroup[g] || []).some(l => ((X.defs[l] || {}).class) === 'big');
+  // v0.6 G-200: the arms of a 2-day plan are dosed in their slot (rules.placement.x3.two_day_arm_slot)
+  const ARM2 = D9.two_day && !circuitPlan && PX3.two_day_arm_slot && Array.isArray(PX3.two_day_arm_slot.sets) ? PX3.two_day_arm_slot : null;
+  const armSlotGroup = (g) => !!ARM2 && !!g && (ARM2.groups || []).includes(g) && !focusGroup(g);
+  const WL = PX3.work_lead || null;
   const wpOn = () => { const W = PX3.work_over_paired; return !!W && (W.families || []).includes(layout.family) && (!W.modifiers || W.modifiers.includes(D9.modifier_id)); };
   const boundsOf = (slot, di) => {
     const b = boundsOf0(slot, di);
@@ -646,6 +651,9 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       const many = !!g0 && allSlots().filter(([s2]) => owner[s2.slot_id] === g0 && hasPick(s2) && sets[s2.slot_id] !== 0).length >= (AP.min_group_exercises || 0);
       if (many && ex && (AP.credit_classes || []).includes(ex.credit_class) && !(ex.tags || []).some(t => (AP.not_tags || []).includes(t))) hi = Math.min(hi, AP.max);
     }
+    // v0.6 G-200 (R4-SES-03 the 6-8 band is for the big groups; R4-SES-05 slot 5; review r5 08 M1): on a 2-day plan an arm's exercise
+    // of a training day holds rules.placement.x3.two_day_arm_slot.sets (2-3)
+    if (armSlotGroup(owner[slot.slot_id]) && isMainDi(di) && slot.origin !== 'bonus') return [Math.min(b[0], ARM2.sets[0]), Math.min(Math.max(b[0], hi), ARM2.sets[1])];
     const SM = PX3.start_max_sets;
     if (SM && boundWeek && boundWeek.stair_week === 1 && stair && !flatSets && (SM.families || []).includes(layout.family) && !(SM.focus_exempt && focusGroup(owner[slot.slot_id]))) {
       const k = kindOf(slot);
@@ -875,7 +883,19 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         return [c, c.n <= Math.min(...mine.map(c2 => c2.n)) && ahead <= (LF.max_ahead || 0) ? 0 : 1];
       }));
       const kWork = (c) => kWorkMap.get(c);
-      cands.sort((a, b) => a.opt - b.opt || kCmp(a) - kCmp(b) || pri(a) - pri(b) || kLead(a) - kLead(b) || kTest(a) - kTest(b) || kSpill(a) - kSpill(b) || kIso(a) - kIso(b) || (twinDays(a.di, b.di) ? 0 : kWork(a) - kWork(b)) || a.n - b.n || kStep(a) - kStep(b) || (twinDays(a.di, b.di) ? 0 : kPair(a) - kPair(b)) || kBonus(a) - kBonus(b) || dist(a.di) - dist(b.di) || a.pos - b.pos);
+      // v0.6 G-201 (VOL-07; R3-VOL-03 'alternate between the two exposures'; review r5 06 m10: the hex-bar deadlift flat at 3 while the
+      // hip thrust took every step): read per candidate, so the order stays transitive - the main two-leg lift whose twin (the same day
+      // type's other exposure, also in line for the set) holds more sets goes first, whatever a Focus bias prefers inside the group; a
+      // step that would put it more than one set above another compound lift of its group on its own day waits (the staircase, VOL-07)
+      const isWorkLift = (c) => !!WL && isMainDi(c.di) && c.s.role === 'work' && c.s.origin !== 'bonus' && kindOf(c.s) === 'resistance' && !isCircuitSlot(c.s);
+      const kTwinGo = (c) => {
+        if (!WL || !WL.twins_alternate || !isWorkLift(c)) return 1;
+        const tw = cands.find(c2 => c2 !== c && isWorkLift(c2) && twinDays(c2.di, c.di));
+        if (!tw || !(c.n < tw.n)) return 1;
+        const rest = daySlotsOf(c.di).filter(s2 => s2 !== c.s && owner[s2.slot_id] === g && active(s2) && kindOf(s2) === 'resistance' && s2.origin !== 'bonus' && !isCircuitSlot(s2)).map(s2 => sets[s2.slot_id]);
+        return rest.length && c.n + 1 - Math.min(...rest) > 1 ? 1 : 0;
+      };
+      cands.sort((a, b) => a.opt - b.opt || kCmp(a) - kCmp(b) || kTwinGo(a) - kTwinGo(b) || pri(a) - pri(b) || kLead(a) - kLead(b) || kTest(a) - kTest(b) || kSpill(a) - kSpill(b) || kIso(a) - kIso(b) || (twinDays(a.di, b.di) ? 0 : kWork(a) - kWork(b)) || a.n - b.n || kStep(a) - kStep(b) || (twinDays(a.di, b.di) ? 0 : kPair(a) - kPair(b)) || kBonus(a) - kBonus(b) || dist(a.di) - dist(b.di) || a.pos - b.pos);
       return cands;
     };
     if (ppRatio && balanceOn && cands.some(c => isPress(c.s))) {
@@ -909,7 +929,10 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       // optional day's fly): on 2 training days the training days hold the band's low end for every trained group first
       const T2 = PX3.two_day_main_floor;
       if (!(T2 && T2.enabled && V.two_day)) return null;
-      for (const l of D9.lines || []) { const g = X.groupOfLine[l]; if (g && g !== 'calves' && !(D9.credit_only || []).includes(l) && D9.carriers && D9.carriers[g] === l) out[g] = V.two_day.weekly_sets[0]; }
+      // (G-200, review r5 08 M1: R4-SES-03 asks the band of the BIG groups - the line classes rules.volume.two_day.big_classes names,
+      // as the floor check reads it; slot 5 doses the arms, and the shoulders climb to their final sets with the optional day's place)
+      const bigLine = (l) => (V.two_day.big_classes || ['big']).includes((X.defs[l] || {}).class);
+      for (const l of D9.lines || []) { const g = X.groupOfLine[l]; if (g && g !== 'calves' && !(ARM2 && !bigLine(l)) && !armSlotGroup(g) && !(D9.credit_only || []).includes(l) && D9.carriers && D9.carriers[g] === l) out[g] = V.two_day.weekly_sets[0]; }
       return Object.keys(out).length ? out : null;
     }
     for (const g of D9.floor_groups || []) if (g !== 'calves') out[g] = FL.value;
@@ -1235,7 +1258,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     return (X.linesOfGroup[g] || []).some(l => !!(CT.lines || {})[l]);
   };
   const noBonusFor = (g) => {
-    if (classSoft(g)) return true;
+    if (classSoft(g) || armSlotGroup(g)) return true;
     const NB = PX2.bonus_order && PX2.bonus_order.not_for;
     return !!NB && (NB.modifiers || []).includes(D9.modifier_id) && (NB.groups || []).includes(g) && !(X.linesOfGroup[g] || []).some(l => prio.includes(l));
   };
@@ -1359,6 +1382,18 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     // what the slots hold at most, opening the bonus exercises a group needs (scratch: the real ones open with their exercise block)
     const want = {}; for (const g of trained) want[g] = planned[g];
     let reach = reachable(want);
+    // v0.6 G-200 (R4-SES-03; R4-SES-05 slot 5; review r5 08 M1): a 2-day plan's arms start at what their slot holds at its fewest sets
+    // and end at what it holds at its most (with the helper credit of the other lifts) - their own final sets, never a bonus exercise
+    if (ARM2 && !flatSets) {
+      let moved = false;
+      for (const g of trained) {
+        if (!armSlotGroup(g)) continue;
+        const lo = Math.floor((struct[g] || 0) + EPS), hi = Math.max(lo, Math.floor((reach[g] || 0) + EPS));
+        if (start[g] > lo) start[g] = lo;
+        if (planned[g] !== hi) { planned[g] = hi; want[g] = hi; moved = true; }
+      }
+      if (moved) reach = reachable(want);
+    }
     // the 8th exercise of a training day (opened for real: it is part of the block from its first week)
     if (EXS && !flatSets) {
       // v0.5 fix round 2 (sample 06 major; COACH-R4 R4-SES-05 'the days that they do 8 exercises, they're just going to be adding an
@@ -2000,7 +2035,14 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     }
     for (const g of below) warnings.push({ code: 'below_floor_template', key: 'warning.below_floor_template', args: { group: g, held: round2(Math.min(...bw.map(w => w.weekly_sets_by_group[g] || 0))), floor: needOf(g) } });
     for (const g of floorOnOptional) warnings.push({ code: 'floor_needs_optional_day', key: 'warning.floor_needs_optional_day', args: { group: g, held: round2(Math.min(...bw.map(w => w.main_sets_by_group[g] || 0))), floor: needOf(g) } });
-    if (blockInfo.creditOnly.length) warnings.push({ code: 'credit_only_groups', key: 'warning.credit_only_groups', args: { group: blockInfo.creditOnly.slice() } });
+    // v0.6 G-202 (CH5-02 every athletic A / B day holds slot 5; reviews r5 01 / 02 M1, 03 m1: 'no exercise of its own' printed over a
+    // curl and a Tate press): a group the stairway leaves to the helper credit is credit-only only while it has no direct set in the
+    // block; a group with an exercise of its own (the arm slot) is said as held at its slot's sets, not stepped
+    const directOfGroup = (w, g) => (R.muscles.groups.members[g] || [g]).reduce((a, m) => a + ((w.direct_sets_by_muscle || {})[m] || 0), 0);
+    blockInfo.held = blockInfo.creditOnly.filter(g => bw.some(w => directOfGroup(w, g) > EPS));
+    const noDirect = blockInfo.creditOnly.filter(g => !blockInfo.held.includes(g));
+    if (noDirect.length) warnings.push({ code: 'credit_only_groups', key: 'warning.credit_only_groups', args: { group: noDirect } });
+    if (blockInfo.held.length && PX3.held_groups_notice) warnings.push({ code: 'slot_held_groups', key: 'warning.slot_held_groups', args: { group: blockInfo.held.slice() } });
     // (the back's final sets lifted for the balance are its ceiling in this block - the level's own top number still bounds them)
     const capOut = { ...bt0.cap };
     // v0.6 (G-112 / G-113): a final-sets number a profile rule lowered is never under what the template's lifts credit the line at
@@ -2014,7 +2056,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     if (blockInfo.balanced && blockInfo.balanced.group && isNum(blockInfo.balanced.top)) { const l = blockInfo.carrier[blockInfo.balanced.group]; if (l && isNum(capOut[l])) capOut[l] = Math.max(capOut[l], blockInfo.balanced.top); }
     blockTargetsOut.push({
       training_block: tb.n, N, start: { ...bt0.start }, cap: capOut,
-      groups: blockInfo.trained.slice(), credit_only_groups: blockInfo.creditOnly.slice(), carrier: { ...blockInfo.carrier },
+      groups: blockInfo.trained.slice(), credit_only_groups: blockInfo.creditOnly.slice(), held_groups: (blockInfo.held || []).slice(), carrier: { ...blockInfo.carrier },
       group_start: { ...blockInfo.start }, group_top: { ...blockInfo.top }, planned_start: { ...blockInfo.planned_start }, planned_top: { ...blockInfo.planned_top },
       schedule: Object.fromEntries(blockInfo.trained.map(g => [g, schedule[g].slice()])),
       lambda: Object.fromEntries(blockInfo.trained.map(g => [g, round4(blockInfo.lambda[g])])),

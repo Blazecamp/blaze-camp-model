@@ -1312,6 +1312,8 @@ function buildMeta(C, v, weeks = []) {
       lowered: [], dropped_groups: [],
       start: b ? orderedMap(b.start, lineOrder, x => x) : null, cap: b ? orderedMap(b.cap, lineOrder, x => x) : null,
       groups: b ? (b.groups || []).slice() : [], credit_only_groups: b ? (b.credit_only_groups || []).slice() : [],
+      // v0.6 G-202 (CH5-02): the credit-only groups that still hold an exercise of their own (the arm slot), held at its sets
+      held_groups: b ? (b.held_groups || []).slice() : [],
       group_start: b ? orderedMap(b.group_start || {}, groupOrder, x => x) : {}, group_top: b ? orderedMap(b.group_top || {}, groupOrder, x => x) : {},
       planned_top: b ? orderedMap(b.planned_top || {}, groupOrder, x => x) : {},
       schedule: b ? orderedMap(b.schedule || {}, groupOrder, x => x.slice()) : {},

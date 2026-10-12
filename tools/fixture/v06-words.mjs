@@ -73,6 +73,17 @@ export function amendRulesW6(rules) {
     team_practice_line: { key: 'ui.plan.team_practice', refs: ['CH5-01'] },
     // 03 m12: a one-leg jump says 'per leg'
     contacts_per_leg_key: 'reps.contacts_per_leg',
+    // G-202 (COACH-CH5 CH5-02 'all should have it and be adjustable always'; reviews r5 01 / 02 M1, 03 m1): a group the stairway leaves
+    // to the helper credit but that holds an exercise of its own (meta.stairway[].held_groups: the arm slot) is never called
+    // 'no exercise of its own': the tables print its sets with its direct sets, the final column says it is held, not stepped
+    held_groups: { cell_key: 'ui.plan.sets_with_direct', final_key: 'ui.plan.final_held', refs: ['CH5-02', 'R4-SES-05', 'CX-04'] },
+    // G-203 (R4-PRG-04 'never above the level's top'; review r5 07 m11: chest 28 printed next to 'Final sets 27'): a weekly number
+    // whose helper credit takes it less than one set above the group's final sets prints as the final sets (the JSON keeps the exact
+    // quarter credits)
+    sets_display_cap_final: true,
+    // G-204 (COACH-CH5 CH5-03 'they should reach more if needed'; H10 'said plainly'; review r5 06 m1: 5 of the back's 25 sets sit on
+    // the optional days and the plan never says so): one line up front per big group whose final sets need an optional day's bonus
+    optional_bonus_line: { key: 'ui.plan.optional_bonus_big', refs: ['CH5-03', 'R3-VOL-03', 'CX-04'] },
     refs: ['R4-PRG-02', 'R4-PRG-03', 'R4-SES-02', 'R4-LIB-05', 'CX-02', 'CX-04', 'CH5-01', 'PRG-07', 'VOL-03', 'GEN-01', 'GEN-08', 'R2-GEN-08'],
     status: 'approved rules (the coach ids above); PROPOSED: the wording of every new line (machine-written Spanish listed in es_review.priority_review)'
   };
@@ -150,6 +161,12 @@ export const UI_W6 = {
   'ui.plan.team_practice_one': ['This plan does not count your weekly team practice: take it into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).', 'Este plan no cuenta tu práctica de equipo semanal: tómala en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).'],
   'effort.intensifier_days_one': ['Last week: one intensifier on {days}: a MYO set on the day\'s last small-muscle or machine exercise', 'Última semana: un intensificador el {days}: una serie MYO en el último ejercicio de músculo pequeño o de máquina del día'],
   'effort.drift_intensifier_days_one': ['Week {week}: one intensifier on {days}: a MYO set on the day\'s last small-muscle or machine exercise.', 'Semana {week}: un intensificador el {days}: una serie MYO en el último ejercicio de músculo pequeño o de máquina del día.'],
+  // G-202 (CH5-02): a group with its own slot exercise but no stairway target (PROPOSED wording)
+  'warning.slot_held_groups': ['{group}: one exercise of their own on the training days (the template\'s arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.', '{group}: un ejercicio propio en los días de entrenamiento (el espacio de brazos de la plantilla), con sus series fijas. No suben de series como los demás grupos: progrésalos con peso y repeticiones.'],
+  'ui.plan.sets_with_direct': ['{n} ({direct} direct)', '{n} ({direct} directas)'],
+  'ui.plan.final_held': ['held: {direct} direct sets a week', 'fijas: {direct} series directas por semana'],
+  // G-204 (CH5-03): a big group whose final sets need the optional day's bonus exercises (PROPOSED wording)
+  'ui.plan.optional_bonus_big': ['{group}: {n} of its {top} final sets sit on your optional days ({exercises}). Skip those days and {group_lc} ends at about {main}.', '{group}: {n} de sus {top} series finales están en tus días opcionales ({exercises}). Si te saltas esos días, {group_lc} termina en unas {main}.'],
   'instruction.2_bridge_optional': ['In this plan your cardio sits on your optional day ({days}): do it there, or on any other free day.', 'En este plan tu cardio cae en tu día opcional ({days}): hazlo ahí o en cualquier otro día libre.']
 };
 

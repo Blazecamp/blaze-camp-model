@@ -261,6 +261,7 @@
         },
         "groups": [],
         "credit_only_groups": [],
+        "held_groups": [],
         "group_start": {},
         "group_top": {},
         "planned_top": {},

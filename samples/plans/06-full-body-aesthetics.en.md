@@ -19,6 +19,7 @@ _Your Blaze Camp plan_
 - Biceps: this template holds 18 weekly sets, below the planned 25. Add an exercise if you want more.
 - Triceps: this template holds 20 weekly sets, below the planned 25. Add an exercise if you want more.
 - Weeks 11 and 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
+- Back: 5 of its 25 final sets sit on your optional days (Machine Row (Close / Neutral Grip), Wednesday; Lat Pulldown (Close Grip), Saturday). Skip those days and back ends at about 20.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -159,7 +160,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hanging Rotational Knees-to-Chest (hanging oblique knee raise) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Seated DB Lateral Raise | 2 3 3 3 · 3 3 3 3 · 3 4 4 4 | 15 to 20 Reps |
 | Barbell Bench Press | 4 4 4 4 · 4 4 4 5 · 5 5 5 5 | 12, 10, 8, then 20 light → 12, 10, 8, 8, then 20 light |
-| Barbell Hip Thrust | 3 3 3 3 · 3 4 4 4 · 4 5 5 5 | 8 to 12 Reps |
+| Barbell Hip Thrust | 3 3 3 3 · 3 4 4 4 · 4 4 5 5 | 8 to 12 Reps |
 | Incline Barbell Bench Press → Incline Barbell Bench Press - close grip (hands shoulder-width) → Incline Barbell Bench Press - 1-second pause at the bottom | 3 3 3 3 · 4 4 4 4 · 4 4 5 5 | 8-10 Reps |
 | Staggered-Stance (Kickstand) DB Deadlift → Rear-Foot-on-Wall DB Deadlift (RDL) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8 to 12 per side |
 | EZ-Bar Skullcrusher → EZ-Bar Skullcrusher - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 4 4 4 4 | 10 to 12 Reps |
@@ -200,11 +201,11 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Cable Side Raise (leaning) | 2 2 2 2 · 3 3 3 3 · 4 4 4 4 | 15 to 20 per side |
 | Flat DB Bench Press → Flat DB Bench Press - 1-second pause at the bottom | 3 3 4 4 · 4 4 4 4 · 5 5 5 5 | 8 to 12 Reps → 12, 10, 8, then 20 light → 12, 10, 8, 8, then 20 light |
-| Hex (Trap) Bar Deadlift | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 8-10 Reps |
+| Hex (Trap) Bar Deadlift | 3 3 3 3 · 3 3 3 3 · 3 4 4 4 | 8-10 Reps |
 | Incline DB Bench Press | 3 3 3 3 · 3 3 4 4 · 4 4 4 5 | 8 to 12 Reps |
 | Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee | 2 2 3 3 · 3 3 3 3 · 3 3 3 3 | 8 to 12 per side |
 | Cable Triceps Push-down → Cable Triceps Pushdown - straight bar, pronated grip | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
-| Lying Leg Curl (machine) → Lying Leg Curl (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 15 to 20 Reps |
+| Lying Leg Curl (machine) → Lying Leg Curl (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
 | Machine Fly (Pec Deck) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
 
 ### Saturday · Optional day
@@ -3689,7 +3690,7 @@ _Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on Leg Extension (machine) (Monday): 3 → 4 sets
-- +1 set on Barbell Hip Thrust (Tuesday): 4 → 5 sets
+- +1 set on Hex (Trap) Bar Deadlift (Friday): 3 → 4 sets
 - +1 set on Seated DB Lateral Raise (Tuesday): 3 → 4 sets
 - +1 set on Dumbbell Concentration Curl (Thursday): 3 → 4 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Wednesday): 2 → 3 sets
@@ -3768,7 +3769,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Crunch + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
-_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 8.5 min saved)_
+_Superset to save time: Barbell Bench Press + Barbell Hip Thrust (about 7 min saved)_
 _Superset to save time: Incline Barbell Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 5.5 min saved)_
 _Superset to save time: EZ-Bar Skullcrusher - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Seated Leg Curl (machine), EZ-Bar Skullcrusher - 1-second squeeze at the top · bonus exercises: Cable Triceps Pushdown - straight bar, supinated (reverse) grip_
@@ -3798,7 +3799,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Flat DB Bench Press (keeps the horizontal press; loses the heavier barbell load) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
-3. **Barbell Hip Thrust** — 5 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
@@ -3953,10 +3954,10 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · B2 - deadlift + push
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
-_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 7 min saved)_
 _Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 5.5 min saved)_
 _Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip · bonus exercises: Machine Fly (Pec Deck)_
@@ -3987,7 +3988,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
-3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Hex (Trap) Bar Deadlift** — 4 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
@@ -4079,7 +4080,7 @@ _Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on Leg Extension (machine) (Thursday): 3 → 4 sets
-- +1 set on Lying Leg Curl (machine) (Friday): 2 → 3 sets
+- +1 set on Barbell Hip Thrust (Tuesday): 4 → 5 sets
 - +1 set on Lat Pulldown (Rope Attachment) (Thursday): 4 → 5 sets
 - +1 set on Incline Barbell Bench Press (Tuesday): 4 → 5 sets
 - +1 set on Incline / Side-Lying Cable Lateral Raise (Saturday): 2 → 3 sets
@@ -4348,9 +4349,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
-_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 7 min saved)_
 _Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 5.5 min saved)_
-_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip · bonus exercises: Machine Fly (Pec Deck)_
 
 **Warm-up**
@@ -4379,7 +4380,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
-3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Hex (Trap) Bar Deadlift** — 4 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
@@ -4400,7 +4401,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
-2. **Lying Leg Curl (machine) - one leg at a time** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+2. **Lying Leg Curl (machine) - one leg at a time** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`
@@ -4736,9 +4737,9 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 _Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
-_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Flat DB Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 7 min saved)_
 _Superset to save time: Incline DB Bench Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 5.5 min saved)_
-_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 5 min saved)_
+_Superset to save time: Cable Triceps Pushdown - straight bar, pronated grip + Lying Leg Curl (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Lying Leg Curl (machine) - one leg at a time, Cable Triceps Pushdown - straight bar, pronated grip · bonus exercises: Machine Fly (Pec Deck)_
 
 **Warm-up**
@@ -4767,7 +4768,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Pyramid: the first set at a mid weight, each set a little heavier as the reps drop, the last heavy set at your heaviest weight; then drop to a light weight for the back-off set.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
-3. **Hex (Trap) Bar Deadlift** — 3 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+3. **Hex (Trap) Bar Deadlift** — 4 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
@@ -4788,7 +4789,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Cable Triceps Push-down (keeps the triceps work; loses little - same movement, another grip or position) / Overhead Cable Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, supinated (reverse) grip (keeps the triceps work; loses little - same movement, another grip or position) / EZ-Bar Skullcrusher (keeps the triceps work; loses the constant cable tension)
    - [Watch how](https://www.youtube.com/results?search_query=Cable%20Triceps%20Pushdown%20-%20straight%20bar%2C%20pronated%20grip) · Name to copy into YouTube: `Cable Triceps Pushdown - straight bar, pronated grip`
-2. **Lying Leg Curl (machine) - one leg at a time** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+2. **Lying Leg Curl (machine) - one leg at a time** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Seated Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Nordic Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Lying Leg Curl (machine)`

@@ -332,6 +332,7 @@
           "calves"
         ],
         "credit_only_groups": [],
+        "held_groups": [],
         "group_start": {
           "quads": 20,
           "hips": 20,

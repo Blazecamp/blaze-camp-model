@@ -177,13 +177,16 @@ describe('printed-copy minors of the round-4 reviews', () => {
     assert.match(t('en', 'plan.stair_level'), /11 = your hardest week/);
   });
   it('rev02-m14 / rev08-m4: "trained through your sport work" only with sport practice days; otherwise "your compound lifts"', () => {
-    assert.ok(mdOf('02').includes(head('warning.credit_only_groups_lifts')) && !mdOf('02').includes(head('warning.credit_only_groups')), '02: 0 practice days');
+    // (converted, G-202 / CH5-02: 01's and 02's arms hold the slot-5 exercise and are said as held, so the two wordings are read on copies
+    // whose arms are credit-only)
+    const withCredit = (n) => { const q = clone(planOf(n)); q.meta.warnings = q.meta.warnings.filter(w => w.code !== 'slot_held_groups'); q.meta.warnings.push({ code: 'credit_only_groups', key: 'warning.credit_only_groups', args: { group: ['biceps', 'triceps'] } }); return unesc(renderPlan(q, model, { lang: 'en' })); };
+    { const o2 = withCredit('02'); assert.ok(o2.includes(head('warning.credit_only_groups_lifts')) && !o2.includes(head('warning.credit_only_groups')), '02: 0 practice days'); }
     // (converted, COACH-CH5 CH5-02 / G-198: the recreational player's A / B days now train the arms in slot 5, so 08 has no credit-only
     // group left; the wording is read on a copy of 08 whose arms are credit-only again)
     { const q = clone(planOf('08')); q.meta.warnings.push({ code: 'credit_only_groups', key: 'warning.credit_only_groups', args: { group: ['biceps'] } });
       const out = unesc(renderPlan(q, model, { lang: 'en' }));
       assert.ok(out.includes(head('warning.credit_only_groups_lifts')), '08: a recreational player'); }
-    assert.ok(mdOf('01').includes(head('warning.credit_only_groups')), '01: 6 pool days a week');
+    assert.ok(withCredit('01').includes(head('warning.credit_only_groups')), '01: 6 pool days a week');
   });
   it('R4-SES-02 rev02-m8 rev03-m12 rev06-m10: the header prints the real exercise count of the training days', () => {
     for (const n of SAMPLES) {

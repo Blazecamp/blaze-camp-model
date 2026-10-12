@@ -370,3 +370,23 @@ Sample scores: 01 99.13 to 99.13, 02 98.45 to 98.85, 03 99.00 to 99.00, 04 91.83
 12. **Shoulder hot spots other than the swimmer's.** The incline-first rule is applied to the swimmer only. Should throwers and volleyball players press the same way?
 13. **Circuit rounds.** One more round in the last two weeks is the engine's reading of "3 to 5 rounds". Confirm, or name the weeks.
 14. **Pulling against pressing.** A press may now lead the pulls by one set while the back sits on its number for the week. Confirm.
+
+# Engine 0.6.0, fix round on the round-5 reviews (2026-10-12)
+
+Decisions G-200 ... G-206 (`engine/DECISIONS.md`); tests `tests/v06-fix2.test.mjs`. Only 06 and 08 change their sets; 01-05 and 07 change
+words only.
+
+- **01, 02, 03 (arm words, CH5-02).** The arms are no longer called "trained through your compound lifts (no extra sets)" or "no exercise
+  of its own". Up front: "Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets ...".
+  Tables: 01 Biceps "6 (2 direct)", final "held: 2 direct sets a week"; 02 "7 (4 direct)"; 03 (ES) "5 (2 directas)". Spanish group names
+  are lower case in the accessories line.
+- **08 (2-day arms, R4-SES-03).** Hammer curl and triceps extension 2 → 3 sets (were 4 x 15-20); no Friday arm bonus; biceps / triceps
+  3.5 → 5 of final 5 (were 7.5 → 9 above a final 8). Shoulders 6.25 → 8 of 8 with a Friday rear-delt fly (were capped at 7 of 8). The big
+  groups keep 6+ sets on the training days.
+- **06 (hips, R3-VOL-03).** The hex-bar deadlift takes a step (3 → 4 in week 10) and the hip thrust 3 → 4 → 5, alternating. "Back: 5 of
+  its 25 final sets sit on your optional days ..." is printed up front (CH5-03). Hips week 12 prints 27 (27.25 in the JSON).
+- **07 (display).** Chest prints 27 in weeks 10-12 (27.5 in the JSON), biceps and shoulders 25: no number above "Final sets".
+- **04 (display).** Shoulders' final sets print 13, what the plan reaches (the class top 12 plus helper credit the lifts cannot give back).
+- **Not fixed: 02 M1, the DB bench ahead of Friday's RDL** (G-205). The RDL holds 2 sets for weeks 1-9 and 3 from week 10; no later hip
+  lift of its day passes it. Making the RDL lead its press broke the staircase or the B1-first alternation on 11-17 other athletic
+  benchmark plans; it is a coach question (G-205).

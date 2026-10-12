@@ -96,9 +96,9 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Quads | 20 | 21 | 25 |
 | Hips (glutes + hamstrings) | 21 | 22 | 25 |
 | Back (Focus) | 22 | 24 | 27 |
-| Chest (Focus) | 22 | 23 | 28 |
-| Shoulders | 23 | 23 | 26 |
-| Biceps | 16 | 19 | 26 |
+| Chest (Focus) | 22 | 23 | 27 |
+| Shoulders | 23 | 23 | 25 |
+| Biceps | 16 | 19 | 25 |
 | Triceps | 15 | 19 | 25 |
 | Calves | 6 | 7 | 10 |
 | **Total** | **122** | **135** | **164** |
@@ -127,9 +127,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Quads | 20 20 21 21 · 21 21 22 23 · 24 24 25 25 | 25 |
 | Hips (glutes + hamstrings) | 21 21 22 22 · 22 22 22 22 · 23 24 25 25 | 25 |
 | Back | 22 23 23 23 · 23 24 24 25 · 25 26 27 27 | 27 |
-| Chest | 22 22 23 23 · 23 23 25 26 · 26 27 28 28 | 27 |
-| Shoulders | 23 23 23 23 · 23 23 23 24 · 25 25 26 26 | 25 |
-| Biceps | 16 17 17 18 · 19 19 20 21 · 22 25 26 26 | 25 |
+| Chest | 22 22 23 23 · 23 23 25 26 · 26 27 27 27 | 27 |
+| Shoulders | 23 23 23 23 · 23 23 23 24 · 25 25 25 25 | 25 |
+| Biceps | 16 17 17 18 · 19 19 20 21 · 22 25 25 25 | 25 |
 | Triceps | 15 16 16 17 · 18 19 21 21 · 22 24 25 25 | 25 |
 | Calves | 6 6 6 6 · 7 7 8 8 · 9 9 10 10 | 10 |
 | **Total** | 122 125 128 130 · 133 135 141 145 · 151 157 164 164 | 164 |

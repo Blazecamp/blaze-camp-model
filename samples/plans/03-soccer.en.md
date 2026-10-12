@@ -15,7 +15,7 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - Your season is close: the last 2 weeks of this plan are pre-season (more speed and power, fewer sets).
-- Trained through your sport work and compound lifts (no extra sets): Biceps, Triceps.
+- Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.
 - Two-leg lifts are about 50 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 - This plan does not count your 2 team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).
 
@@ -117,9 +117,9 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Hips (glutes + hamstrings) | 11 | 13 | 16 |
 | Back | 10 | 11 | 14 |
 | Chest | 10 | 10 | 11 |
-| Shoulders | 10 | 10 | 12 |
-| Biceps | - (5) | - (5) | - (6) |
-| Triceps | - (5) | - (5) | - (5) |
+| Shoulders | 10 | 10 | 11 |
+| Biceps | 5 (2 direct) | 5 (2 direct) | 6 (2 direct) |
+| Triceps | 5 (2 direct) | 5 (2 direct) | 5 (2 direct) |
 | Calves | 9 | 9 | 11 |
 | **Total** | **59** | **63** | **76** |
 
@@ -148,9 +148,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hips (glutes + hamstrings) | 11 13 13 14 14 16 | 16 |
 | Back | 10 10 11 12 13 14 | 14 |
 | Chest | 10 10 10 10 11 11 | 11 |
-| Shoulders | 10 10 10 10 12 12 | 11 |
-| Biceps | 5 5 5 5 5 6 | no exercise of its own |
-| Triceps | 5 5 5 5 5 5 | no exercise of its own |
+| Shoulders | 10 10 10 10 11 11 | 11 |
+| Biceps | 5 5 5 5 5 6 | held: 2 direct sets a week |
+| Triceps | 5 5 5 5 5 5 | held: 2 direct sets a week |
 | Calves | 9 9 9 10 10 11 | 11 |
 | **Total** | 59 61 63 67 71 76 | 76 |
 

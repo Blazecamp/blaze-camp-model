@@ -330,6 +330,7 @@
           "calves"
         ],
         "credit_only_groups": [],
+        "held_groups": [],
         "group_start": {
           "quads": 16,
           "hips": 22,
@@ -79651,8 +79652,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 23,
-        "hamstrings": 15.25,
-        "glutes": 15.25,
+        "hamstrings": 16,
+        "glutes": 14.5,
         "chest": 21,
         "lats_upper_back": 23,
         "side_delts": 12,
@@ -79669,8 +79670,8 @@
       },
       "direct_sets_by_muscle": {
         "quads": 23,
-        "hamstrings": 13,
-        "glutes": 9,
+        "hamstrings": 14,
+        "glutes": 8,
         "chest": 21,
         "lats_upper_back": 23,
         "side_delts": 12,
@@ -79687,8 +79688,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 23,
-        "hamstrings": 14.25,
-        "glutes": 11.25,
+        "hamstrings": 15,
+        "glutes": 10.5,
         "chest": 21,
         "lats_upper_back": 19,
         "shoulders": 21,
@@ -79698,8 +79699,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 23,
-        "hamstrings": 15.25,
-        "glutes": 15.25,
+        "hamstrings": 16,
+        "glutes": 14.5,
         "chest": 21,
         "lats_upper_back": 23,
         "shoulders": 25.5,
@@ -79824,9 +79825,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "barbell-hip-thrust",
-            "day": "Tue",
-            "slot_id": "Tue.B1.s06"
+            "exercise": "hex-trap-bar-deadlift",
+            "day": "Fri",
+            "slot_id": "Fri.B2.s06"
           }
         },
         {
@@ -81505,7 +81506,7 @@
           "label_key": "day.aesthetics.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 119,
+          "est_minutes": 116,
           "aerobic_minutes": 30,
           "exercise_count": 8,
           "skeleton": "gym_B",
@@ -81540,7 +81541,7 @@
                 "Tue.B1.s05",
                 "Tue.B1.s06"
               ],
-              "minutes_saved": 8.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -82234,7 +82235,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust",
                     "copy_name": "Barbell Hip Thrust"
                   },
-                  "sets": 5,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -85854,7 +85855,7 @@
           "label_key": "day.aesthetics.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 115,
+          "est_minutes": 117,
           "aerobic_minutes": 30,
           "exercise_count": 8,
           "skeleton": "gym_B",
@@ -85889,7 +85890,7 @@
                 "Fri.B2.s05",
                 "Fri.B2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -86593,7 +86594,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -88607,7 +88608,7 @@
       "weekly_sets_by_muscle": {
         "quads": 24,
         "hamstrings": 16.25,
-        "glutes": 15.25,
+        "glutes": 15.5,
         "chest": 22,
         "lats_upper_back": 24,
         "side_delts": 13,
@@ -88643,7 +88644,7 @@
       "main_sets_by_muscle": {
         "quads": 24,
         "hamstrings": 15.25,
-        "glutes": 11.25,
+        "glutes": 11.5,
         "chest": 22,
         "lats_upper_back": 20,
         "shoulders": 21.25,
@@ -88654,7 +88655,7 @@
       "weekly_sets_by_line": {
         "quads": 24,
         "hamstrings": 16.25,
-        "glutes": 15.25,
+        "glutes": 15.5,
         "chest": 22,
         "lats_upper_back": 24,
         "shoulders": 26.75,
@@ -88779,9 +88780,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "lying-leg-curl-machine",
-            "day": "Fri",
-            "slot_id": "Fri.B2.s10"
+            "exercise": "barbell-hip-thrust",
+            "day": "Tue",
+            "slot_id": "Tue.B1.s06"
           }
         },
         {
@@ -94825,7 +94826,7 @@
           "label_key": "day.aesthetics.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 118,
+          "est_minutes": 119,
           "aerobic_minutes": 30,
           "exercise_count": 8,
           "skeleton": "gym_B",
@@ -94860,7 +94861,7 @@
                 "Fri.B2.s05",
                 "Fri.B2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -94878,7 +94879,7 @@
                 "Fri.B2.s09",
                 "Fri.B2.s10"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -95564,7 +95565,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -96156,7 +96157,7 @@
                     "url": "https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)",
                     "copy_name": "Lying Leg Curl (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -97578,7 +97579,7 @@
       "weekly_sets_by_muscle": {
         "quads": 25,
         "hamstrings": 16.25,
-        "glutes": 15.5,
+        "glutes": 15.75,
         "chest": 23,
         "lats_upper_back": 25,
         "side_delts": 13,
@@ -97614,7 +97615,7 @@
       "main_sets_by_muscle": {
         "quads": 25,
         "hamstrings": 15.25,
-        "glutes": 11.5,
+        "glutes": 11.75,
         "chest": 23,
         "lats_upper_back": 20,
         "shoulders": 21.5,
@@ -97625,7 +97626,7 @@
       "weekly_sets_by_line": {
         "quads": 25,
         "hamstrings": 16.25,
-        "glutes": 15.5,
+        "glutes": 15.75,
         "chest": 23,
         "lats_upper_back": 25,
         "shoulders": 27,
@@ -103809,7 +103810,7 @@
                 "Fri.B2.s05",
                 "Fri.B2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -103827,7 +103828,7 @@
                 "Fri.B2.s09",
                 "Fri.B2.s10"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -104513,7 +104514,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -105105,7 +105106,7 @@
                     "url": "https://www.youtube.com/results?search_query=Lying%20Leg%20Curl%20(machine)",
                     "copy_name": "Lying Leg Curl (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -106549,7 +106550,7 @@
         15,
         15,
         15,
-        15.25,
+        16,
         16.25,
         16.25
       ],
@@ -106563,9 +106564,9 @@
         13.75,
         14,
         14.25,
-        15.25,
-        15.25,
-        15.5
+        14.5,
+        15.5,
+        15.75
       ],
       "chest": [
         16,
@@ -106775,7 +106776,7 @@
         15,
         15,
         15,
-        15.25,
+        16,
         16.25,
         16.25
       ],
@@ -106789,9 +106790,9 @@
         13.75,
         14,
         14.25,
-        15.25,
-        15.25,
-        15.5
+        14.5,
+        15.5,
+        15.75
       ],
       "chest": [
         16,

@@ -18,7 +18,7 @@
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2755,
+   "en_keys": 2759,
    "es_missing": 805
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -60183,6 +60183,34 @@
      ],
      "status": "approved rule; the circuit keeps one round count for every station (OBSERVED BYOP BOOTCAMP)"
     },
+    "two_day_arm_slot": {
+     "groups": [
+      "biceps",
+      "triceps"
+     ],
+     "sets": [
+      2,
+      3
+     ],
+     "refs": [
+      "R4-SES-03",
+      "R4-SES-05",
+      "CH5-02",
+      "CH5-03",
+      "OBSERVED BYOP AESTHETICS Day 1 Bicep 2 x 20"
+     ],
+     "status": "approved rule (R4-SES-03: the band is for big groups); 2-3 sets PROPOSED (review r5 08 M1)"
+    },
+    "held_groups_notice": true,
+    "work_lead": {
+     "twins_alternate": true,
+     "refs": [
+      "VOL-07",
+      "R3-VOL-03",
+      "R4-SES-05"
+     ],
+     "status": "approved rules (VOL-07, R3-VOL-03) read on the main lifts"
+    },
     "refs": [
      "VOL-07",
      "R3-VOL-03",
@@ -68423,6 +68451,24 @@
      ]
     },
     "contacts_per_leg_key": "reps.contacts_per_leg",
+    "held_groups": {
+     "cell_key": "ui.plan.sets_with_direct",
+     "final_key": "ui.plan.final_held",
+     "refs": [
+      "CH5-02",
+      "R4-SES-05",
+      "CX-04"
+     ]
+    },
+    "sets_display_cap_final": true,
+    "optional_bonus_line": {
+     "key": "ui.plan.optional_bonus_big",
+     "refs": [
+      "CH5-03",
+      "R3-VOL-03",
+      "CX-04"
+     ]
+    },
     "refs": [
      "R4-PRG-02",
      "R4-PRG-03",
@@ -157258,6 +157304,7 @@
    "ui.plan.exercise": "Exercise",
    "ui.plan.final_capped": "{held} of {planned}",
    "ui.plan.final_credit_only": "no exercise of its own",
+   "ui.plan.final_held": "held: {direct} direct sets a week",
    "ui.plan.focus_add": "(+{n} sets a week over the balanced plan, built into the stairway)",
    "ui.plan.focus_row": "↳ {muscle} (Focus)",
    "ui.plan.focus_tag": "(Focus)",
@@ -157283,6 +157330,7 @@
    "ui.plan.notes": "Notes",
    "ui.plan.off_day": "Off",
    "ui.plan.olympic_sets": "{n} Olympic-lift sets",
+   "ui.plan.optional_bonus_big": "{group}: {n} of its {top} final sets sit on your optional days ({exercises}). Skip those days and {group_lc} ends at about {main}.",
    "ui.plan.optional_cardio_counts": "optional lifting; the cardio counts",
    "ui.plan.optional_day": "Optional day",
    "ui.plan.optional_short": "optional",
@@ -157343,6 +157391,7 @@
    "ui.plan.sets_not_direct": "- ({n})",
    "ui.plan.sets_rounded": "Numbers are rounded to whole sets.",
    "ui.plan.sets_this_week": "Sets this week",
+   "ui.plan.sets_with_direct": "{n} ({direct} direct)",
    "ui.plan.skill_dose": "{min}-{max} min of quality practice",
    "ui.plan.sport_day": "Practice / sport",
    "ui.plan.sprint_m": "{n} m of sprints",
@@ -157442,6 +157491,7 @@
    "warning.play_48h": "Your hardest gym day is less than 48 h before {day}: consider moving it",
    "warning.release_missing": "Read and accept the terms and the release of liability first. No plan is built without it.",
    "warning.session_minutes_retired": "Session length is no longer asked: the plan is sized by exercises, and how long a session takes is up to you. The time shown on each day is only an estimate.",
+   "warning.slot_held_groups": "{group}: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.",
    "warning.split_style_unavailable": "That split is not available for {days} days: we used the default week",
    "warning.two_day_rule": "With {days} training days a week every big muscle group is trained with about {low}-{high} weekly sets instead of 10 or more. A third training day would let every group reach 10.",
    "warning.v2_days": "You picked fewer weekdays than training days",
@@ -159215,6 +159265,7 @@
    "ui.plan.exercise": "Ejercicio",
    "ui.plan.final_capped": "{held} de {planned}",
    "ui.plan.final_credit_only": "sin ejercicio propio",
+   "ui.plan.final_held": "fijas: {direct} series directas por semana",
    "ui.plan.focus_add": "(+{n} series por semana sobre el plan equilibrado, incluidas en la escalera)",
    "ui.plan.focus_row": "↳ {muscle} (Enfoque)",
    "ui.plan.focus_tag": "(Enfoque)",
@@ -159240,6 +159291,7 @@
    "ui.plan.notes": "Notas",
    "ui.plan.off_day": "Descanso",
    "ui.plan.olympic_sets": "{n} series de levantamiento olímpico",
+   "ui.plan.optional_bonus_big": "{group}: {n} de sus {top} series finales están en tus días opcionales ({exercises}). Si te saltas esos días, {group_lc} termina en unas {main}.",
    "ui.plan.optional_cardio_counts": "pesas opcionales; el cardio cuenta",
    "ui.plan.optional_day": "Día opcional",
    "ui.plan.optional_short": "opcional",
@@ -159300,6 +159352,7 @@
    "ui.plan.sets_not_direct": "- ({n})",
    "ui.plan.sets_rounded": "Los números están redondeados a series enteras.",
    "ui.plan.sets_this_week": "Series de esta semana",
+   "ui.plan.sets_with_direct": "{n} ({direct} directas)",
    "ui.plan.skill_dose": "{min}-{max} min de práctica de calidad",
    "ui.plan.sport_day": "Práctica / deporte",
    "ui.plan.sprint_m": "{n} m de sprints",
@@ -159399,6 +159452,7 @@
    "warning.play_48h": "Tu día más duro de gimnasio está a menos de 48 h del {day}: considera moverlo",
    "warning.release_missing": "Primero lee y acepta los términos y la liberación de responsabilidad. Sin eso no se crea ningún plan.",
    "warning.session_minutes_retired": "Ya no se pregunta la duración de la sesión: el plan se arma por número de ejercicios, y cuánto dura cada sesión depende de ti. El tiempo que aparece en cada día es solo un estimado.",
+   "warning.slot_held_groups": "{group}: un ejercicio propio en los días de entrenamiento (el espacio de brazos de la plantilla), con sus series fijas. No suben de series como los demás grupos: progrésalos con peso y repeticiones.",
    "warning.split_style_unavailable": "Esa división no está disponible para {days} días: usamos la semana por defecto",
    "warning.two_day_rule": "Con {days} días de entrenamiento a la semana, cada grupo muscular grande se entrena con unas {low}-{high} series semanales en lugar de 10 o más. Un tercer día de entrenamiento permitiría que cada grupo llegue a 10.",
    "warning.v2_days": "Elegiste menos días de la semana que días de entrenamiento",

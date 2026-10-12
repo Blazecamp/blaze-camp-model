@@ -318,6 +318,10 @@
           "biceps",
           "triceps"
         ],
+        "held_groups": [
+          "biceps",
+          "triceps"
+        ],
         "group_start": {
           "quads": 11,
           "hips": 11,
@@ -845,8 +849,8 @@
         }
       },
       {
-        "code": "credit_only_groups",
-        "key": "warning.credit_only_groups",
+        "code": "slot_held_groups",
+        "key": "warning.slot_held_groups",
         "args": {
           "group": [
             "biceps",

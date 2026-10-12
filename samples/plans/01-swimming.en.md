@@ -14,7 +14,7 @@ _Your Blaze Camp plan_
 
 ## Before you start
 
-- Trained through your sport work and compound lifts (no extra sets): Biceps, Triceps.
+- Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.
 - Weeks 11 and 12 include Christmas / New Year: move a session (or a test day) by a day or two if you need to; plan longer holidays between blocks.
 - This plan does not count your 6 team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).
 
@@ -117,8 +117,8 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Back | 15 | 17 | 21 |
 | Chest | 10 | 11 | 14 |
 | Shoulders | 10 | 11 | 13 |
-| Biceps | - (6) | - (6) | - (7) |
-| Triceps | - (4) | - (4) | - (5) |
+| Biceps | 6 (2 direct) | 6 (2 direct) | 7 (2 direct) |
+| Triceps | 4 (2 direct) | 4 (2 direct) | 5 (2 direct) |
 | Calves | 9 | 9 | 11 |
 | **Total** | **64** | **70** | **86** |
 
@@ -146,8 +146,8 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Back | 15 16 16 16 · 17 17 18 19 · 19 20 21 21 | 21 |
 | Chest | 10 10 10 11 · 11 11 12 12 · 13 13 14 14 | 14 |
 | Shoulders | 10 11 11 11 · 11 11 11 11 · 12 13 13 13 | 13 |
-| Biceps | 6 6 6 6 · 6 6 7 7 · 7 7 7 7 | no exercise of its own |
-| Triceps | 4 4 4 4 · 4 4 4 4 · 5 5 5 5 | no exercise of its own |
+| Biceps | 6 6 6 6 · 6 6 7 7 · 7 7 7 7 | held: 2 direct sets a week |
+| Triceps | 4 4 4 4 · 4 4 4 4 · 5 5 5 5 | held: 2 direct sets a week |
 | Calves | 9 9 9 9 · 9 9 9 9 · 10 10 11 11 | 11 |
 | **Total** | 64 65 67 68 · 69 70 73 76 · 79 81 86 86 | 86 |
 

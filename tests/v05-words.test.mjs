@@ -352,12 +352,12 @@ for (const [mname, model] of MODELS) {
           assert.ok(row, `${n}: the ${g} row`);
           const cells = row.split('|').map(x => x.trim());
           // the recount from the items, week by week (a set counts at most 1.0 to a group)
-          const want = p.weeks.map(w => { let v = 0; for (const d of w.days) for (const it of itemsOf(d)) v += (typeof it.sets === 'number' ? it.sets : 0) * (groupCredits(model, it.credits || {})[g] || 0); return String(Math.round(v)); }); // (v0.6 words, converted - DECISIONS G-174: the table prints whole sets)
+          const want = p.weeks.map(w => { let v = 0; for (const d of w.days) for (const it of itemsOf(d)) v += (typeof it.sets === 'number' ? it.sets : 0) * (groupCredits(model, it.credits || {})[g] || 0); const fin = (st.capped || []).find(x => x.group === g) ? st.capped.find(x => x.group === g).held : Math.max(st.group_top[g], Math.floor((st.realized_top || {})[g] + 1e-9 || 0)); return String(v > fin && v - fin < 1 - 1e-9 && Math.round(v) > fin ? fin : Math.round(v)); }); // (v0.6 words, converted - DECISIONS G-174: the table prints whole sets; G-203: never above the final sets)
           assert.deepEqual(cells[2].split(/ · | /).filter(Boolean), want, `${n} ${g}`);
           const cap = (st.capped || []).find(x => x.group === g);
-          assert.equal(cells[3], cap ? t('en', 'ui.plan.final_capped', { held: cap.held, planned: cap.planned }) : String(Math.round(st.group_top[g])), `${n} ${g}: final sets`);
+          assert.equal(cells[3], cap ? t('en', 'ui.plan.final_capped', { held: cap.held, planned: cap.planned }) : String(Math.max(st.group_top[g], Math.floor(((st.realized_top || {})[g] || 0) + 1e-9))), `${n} ${g}: final sets`); // (G-203: a whole set of helper credit above a lowered top prints what the plan reaches)
         }
-        for (const g of (st.credit_only_groups || []).filter(x => p.weeks.some(w => (w.weekly_sets_by_group || {})[x] > 0))) { const row = out.split('\n').find(l => l.startsWith('| ' + t('en', 'group.' + g) + ' | ') && l.includes(t('en', 'ui.plan.final_credit_only'))); assert.ok(row, `${n}: ${g} has no exercise of its own`); }
+        for (const g of (st.credit_only_groups || []).filter(x => !(st.held_groups || []).includes(x) && p.weeks.some(w => (w.weekly_sets_by_group || {})[x] > 0))) { /* (G-202: a held group - the arm slot - is not 'no exercise of its own') */ const row = out.split('\n').find(l => l.startsWith('| ' + t('en', 'group.' + g) + ' | ') && l.includes(t('en', 'ui.plan.final_credit_only'))); assert.ok(row, `${n}: ${g} has no exercise of its own`); }
         assert.ok(out.split('\n').some(l => l.startsWith('| **' + t('en', 'ui.plan.total') + '** | ' + p.weeks.slice(0, 2).map(w => Math.round(w.total_resistance_sets)).join(' '))));
       }
       // sample 06: chest is capped by the template and the table says '13 of 25'

@@ -955,6 +955,8 @@
   "ui.plan.easy_to_remove_line",
   "ui.plan.edit_day",
   "ui.plan.est_line",
+  "ui.plan.final_held",
+  "ui.plan.optional_bonus_big",
   "ui.plan.progress.double",
   "ui.plan.progress_circuit_v6",
   "ui.plan.progress_circuit_v6_flat",
@@ -970,6 +972,7 @@
   "ui.plan.session_size_range",
   "ui.plan.sets_by_week_note",
   "ui.plan.sets_rounded",
+  "ui.plan.sets_with_direct",
   "ui.plan.swap_note",
   "ui.plan.team_practice",
   "ui.plan.team_practice_one",
@@ -977,6 +980,7 @@
   "warning.credit_only_groups_lifts",
   "warning.pain_plan_no_lift",
   "warning.pain_plan_plain_no_lift",
-  "warning.release_missing"
+  "warning.release_missing",
+  "warning.slot_held_groups"
  ]
 }

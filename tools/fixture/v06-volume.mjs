@@ -81,6 +81,23 @@ export function amendRulesV06(rules) {
     // G-110 (CX-03 / R4-PRG-04 'never above the level's top'; H10 / H17 'said, never hidden'; review 05 M3): a timed circuit whose
     // uniform rounds take a group above its top number says so (meta.stairway[].over_top, warning.circuit_over_top)
     circuit_over_top: { enabled: true, margin: 0, refs: ['CX-03', 'R4-PRG-04', 'R4-SES-04'], status: 'approved rule; the circuit keeps one round count for every station (OBSERVED BYOP BOOTCAMP)' },
+    // G-200 (R4-SES-03 'every BIG muscle group ... about 6-8'; R4-SES-05 slot 5 = one biceps / triceps exercise; CH5-02; OBSERVED BYOP
+    // AESTHETICS Day 1 'Bicep' 2 x '20 Reps'; review r5 08 M1: 4-set curls and an arm day on a 2-day plan, the arms above their own
+    // final sets while the shoulders sat at 7 of 8): on a 2-day plan the training days' 6-set band is not asked of the arms; their slot-5
+    // exercise holds 2-3 sets, they take no bonus exercise, and their final sets are what that slot and the helper credit hold. The
+    // optional day's places go to the groups that need them (the shoulders first).
+    two_day_arm_slot: { groups: ['biceps', 'triceps'], sets: [2, 3],
+      refs: ['R4-SES-03', 'R4-SES-05', 'CH5-02', 'CH5-03', 'OBSERVED BYOP AESTHETICS Day 1 Bicep 2 x 20'], status: 'approved rule (R4-SES-03: the band is for big groups); 2-3 sets PROPOSED (review r5 08 M1)' },
+    // G-202 (CH5-02; reviews r5 01 / 02 M1): a credit-only group that holds an exercise of its own (the arm slot) is said as held at
+    // its slot's sets (warning.slot_held_groups), never as 'no exercise of its own' (warning.credit_only_groups: no direct set at all)
+    held_groups_notice: true,
+    // G-201 (VOL-07 'add it to the first exercise on the list'; R3-VOL-03 'alternate between the two exposures'; R4-SES-05 slot 2 = the
+    // day's main lower lift; review r5 06 m10: the hex-bar deadlift flat at 3 for 12 weeks while the hip thrust took every step): the
+    // two main two-leg lifts of one day type alternate their steps - the one that holds fewer sets goes first, whatever a Focus bias
+    // prefers inside the group - while the step keeps its day's staircase (at most one set above the day's other compound lifts of
+    // the group). Review r5 02 M1's 'the DB bench never ahead of the RDL' is not done here: G-205.
+    work_lead: { twins_alternate: true,
+      refs: ['VOL-07', 'R3-VOL-03', 'R4-SES-05'], status: 'approved rules (VOL-07, R3-VOL-03) read on the main lifts' },
     refs: ['VOL-07', 'R3-VOL-03', 'R4-SES-03', 'R4-SES-05', 'CX-01', 'CX-03', 'CX-04', 'VOL-01'],
     status: 'engine 0.6 volume package (round-4 coach-eye reviews); readings of approved answers, the numbers PROPOSED'
   };

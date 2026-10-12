@@ -93,11 +93,11 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 |  | Week 1 | Week 4 | Week 8 |
 |---|---|---|---|
 | Quads | 12 | 14 | 18 |
-| Hips (glutes + hamstrings) | 12 | 15 | 19 |
+| Hips (glutes + hamstrings) | 12 | 15 | 18 |
 | Back | 12 | 13 | 15 |
 | Chest | 11 | 12 | 14 |
-| Shoulders | 13 | 13 | 14 |
-| Biceps | 10 | 10 | 12 |
+| Shoulders | 13 | 13 | 13 |
+| Biceps | 10 | 10 | 11 |
 | Triceps | 11 | 11 | 11 |
 | Calves | 6 | 6 | 8 |
 | **Total** | **74** | **80** | **94** |
@@ -124,11 +124,11 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Muscle group | Sets each week (weeks 1-8) | Final sets |
 |---|---|---|
 | Quads | 12 13 14 14 · 15 17 18 18 | 18 |
-| Hips (glutes + hamstrings) | 12 13 15 15 · 16 16 19 19 | 18 |
+| Hips (glutes + hamstrings) | 12 13 15 15 · 16 16 18 18 | 18 |
 | Back | 12 12 12 13 · 14 14 15 15 | 15 |
 | Chest | 11 11 11 12 · 12 13 14 14 | 14 |
-| Shoulders | 13 13 13 13 · 13 13 14 14 | 12 |
-| Biceps | 10 10 10 10 · 11 11 12 12 | 11 |
+| Shoulders | 13 13 13 13 · 13 13 13 13 | 13 |
+| Biceps | 10 10 10 10 · 11 11 11 11 | 11 |
 | Triceps | 11 11 11 11 · 11 11 11 11 | 11 |
 | Calves | 6 6 6 6 · 7 7 8 8 | 8 |
 | **Total** | 74 76 78 80 · 84 87 94 94 | 94 |

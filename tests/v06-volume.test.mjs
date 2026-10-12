@@ -161,9 +161,12 @@ describe('v0.6 volume - R3-VOL-03 the optional day and the bonus exercise', () =
     assert.ok(itemsOf({ days: [extra.d] }).filter(x => x.it.group === 'biceps' && x.it.sets).length >= 2);
     assert.ok(extra.d.exercise_count <= p.meta.session_size.range[1]);
   });
-  it('R4-SES-03 (G-106, 08 M2): on 2 training days the training days hold the 6-8 band for the shoulders every week', () => {
+  // (converted, G-200 / review r5 08 M1: R4-SES-03's band is for the BIG groups - the training days hold it for quads, hips, back and
+  // chest; the shoulders, a small line, reach their 8 with the optional day's place that the arms no longer take)
+  it('R4-SES-03 (G-106 / G-200, 08 M2): on 2 training days the training days hold the 6-8 band for the big groups every week; the shoulders reach the band', () => {
     const p = planOf('08');
-    for (const w of stair(p)) assert.ok(w.main_sets_by_group.shoulders >= R.volume.two_day.weekly_sets[0] - EPS, `w${w.n} ${w.main_sets_by_group.shoulders}`);
+    for (const w of stair(p)) for (const g of ['quads', 'hips', 'back', 'chest']) assert.ok(w.main_sets_by_group[g] >= R.volume.two_day.weekly_sets[0] - EPS, `w${w.n} ${g} ${w.main_sets_by_group[g]}`);
+    for (const w of stair(p)) assert.ok(w.weekly_sets_by_group.shoulders >= R.volume.two_day.weekly_sets[0] - EPS, `w${w.n} shoulders ${w.weekly_sets_by_group.shoulders}`);
   });
 });
 

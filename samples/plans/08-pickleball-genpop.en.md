@@ -15,7 +15,6 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - With 2 training days a week every big muscle group is trained with about 6-8 weekly sets instead of 10 or more. A third training day would let every group reach 10.
-- Shoulders: this template holds 7 weekly sets, below the planned 8. Add an exercise if you want more.
 - You told us about pain in your knee (worse with deep knee bends). What this plan does about it: it leaves out the lifts that load it hardest and says so on the lift, it holds Quads at the same sets instead of adding more (progress with reps and load), and it tells you where to stop on the lifts that bend it. If the pain grows, stop and see a professional.
 - Weeks 11 and 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
 - You play 3 or more times a week: every week has half the jumps and no extra agility drills.
@@ -85,18 +84,18 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 1 | 2.0 ▮▮ | 3 in the tank | 44 |
-| 2 | 2.6 ▮▮▮ | 3 in the tank | 44 |
-| 3 | 3.2 ▮▮▮ | 3 in the tank | 44 |
-| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 44 |
-| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 45 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 45 |
-| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 45 |
-| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 45 |
-| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 46 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 46 |
-| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 49 |
-| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 51 |
+| 1 | 2.0 ▮▮ | 3 in the tank | 36 |
+| 2 | 2.6 ▮▮▮ | 3 in the tank | 36 |
+| 3 | 3.2 ▮▮▮ | 3 in the tank | 37 |
+| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 37 |
+| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 38 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 38 |
+| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 39 |
+| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 39 |
+| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 40 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 41 |
+| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 44 |
+| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 44 |
 
 weeks 1-4: Getting used to it (small steps) · weeks 5-8: Driving it · weeks 9-12: Hardest weeks
 
@@ -115,20 +114,20 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Quads | 6 | 6 | 6 |
 | Hips (glutes + hamstrings) | 7 | 7 | 8 |
 | Back | 6 | 7 | 8 |
-| Chest | 6 | 6 | 8 |
-| Shoulders | 6 | 7 | 7 |
-| Biceps | 8 | 8 | 9 |
-| Triceps | 8 | 8 | 9 |
+| Chest | 6 | 7 | 8 |
+| Shoulders | 6 | 7 | 8 |
+| Biceps | 4 | 4 | 5 |
+| Triceps | 4 | 4 | 5 |
 | Calves | 4 | 4 | 4 |
-| **Total** | **44** | **45** | **51** |
+| **Total** | **36** | **38** | **44** |
 
 ### Week 1 at a glance
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
-| Monday | A - squat + pull | about 75-90 min | Quads 3, Back 2, Biceps 1, Calves 1 |
-| Thursday | B - deadlift + push | about 75-90 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 2, Triceps 1 |
-| Friday | Optional day | about 50-60 min | Biceps 1, Triceps 1 |
+| Monday | A - squat + pull | about 70-90 min | Quads 3, Back 2, Biceps 1, Calves 1 |
+| Thursday | B - deadlift + push | about 70-85 min | Hips (glutes + hamstrings) 3, Chest 1, Shoulders 2, Triceps 1 |
+| Friday | Optional day | about 40-50 min | Shoulders 1 |
 
 ## Training block, week by week · Week 1-12
 
@@ -136,19 +135,19 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 
 ### Weekly sets per muscle group, week by week · Week 1-12
 
-_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end; "7 of 8" means this template's exercises hold 7 of the 8 planned sets. Numbers are rounded to whole sets._
+_Counted from this plan's exercises, one number per week (a dot separates the exercise blocks). "Final sets" is where the stairway is planned to end. Numbers are rounded to whole sets._
 
 | Muscle group | Sets each week (weeks 1-12) | Final sets |
 |---|---|---|
 | Quads | 6 6 6 6 · 6 6 6 6 · 6 6 6 6 | 6 |
 | Hips (glutes + hamstrings) | 7 7 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
-| Back | 6 6 6 6 · 7 7 7 7 · 7 7 7 8 | 8 |
-| Chest | 6 6 6 6 · 6 6 6 6 · 7 7 7 8 | 8 |
-| Shoulders | 6 6 6 6 · 7 7 7 7 · 7 7 7 7 | 7 of 8 |
-| Biceps | 8 8 8 8 · 8 8 8 8 · 8 8 9 9 | 8 |
-| Triceps | 8 8 8 8 · 8 8 8 8 · 8 8 9 9 | 8 |
+| Back | 6 6 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
+| Chest | 6 6 6 6 · 7 7 7 7 · 7 7 8 8 | 8 |
+| Shoulders | 6 6 7 7 · 7 7 8 8 · 8 8 8 8 | 8 |
+| Biceps | 4 4 4 4 · 4 4 4 4 · 5 5 5 5 | 5 |
+| Triceps | 4 4 4 4 · 4 4 4 4 · 4 5 5 5 | 5 |
 | Calves | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 4 |
-| **Total** | 44 44 44 44 · 45 45 45 45 · 46 46 49 51 | 51 |
+| **Total** | 36 36 37 37 · 38 38 39 39 · 40 41 44 44 | 44 |
 
 ### Monday · A - squat + pull
 
@@ -159,11 +158,11 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contacts → 2 contacts per leg |
 | Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 per side → 6 per side |
 | Kettlebell Swing (Russian) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Seal Row - DB (Supinated Grip) → Seal Row - DB (Pronated Grip) | 3 3 3 3 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
+| Seal Row - DB (Supinated Grip) → Seal Row - DB (Pronated Grip) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | Hack Squat (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 8 to 12 Reps |
-| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 12 to 15 per side → 8 to 12 per side |
+| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 to 15 per side → 8 to 12 per side |
 | Step-Up (forward and lateral) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
-| Dumbbell Hammer Curl | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Dumbbell Hammer Curl | 2 2 2 2 · 2 2 2 2 · 3 3 3 3 | 15 to 20 Reps |
 | Leg Extension (machine) → Leg Extension (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
 | Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
 
@@ -176,13 +175,13 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contacts → 12 contacts → 15 contacts |
 | Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 Reps → 5 per side → 6 per side |
 | Split-Stance Contralateral Single-Arm KB Swing | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Flat DB Bench Press | 3 3 3 3 · 3 3 3 3 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
+| Flat DB Bench Press | 3 3 3 3 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 to 15 Reps → 10 to 12 Reps |
-| Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 10 to 12 Reps → 8 to 12 Reps |
+| Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
-| Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 to 20 Reps |
 | Seated Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
-| KB Face Pull → KB Face Pull - 1-second squeeze at the top | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| KB Face Pull → KB Face Pull - 1-second squeeze at the top | 2 2 2 2 · 2 2 3 3 · 3 3 3 3 | 15 to 20 Reps |
 | Standing DB Calf Raise (deficit optional) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps |
 
 ### Friday · Optional day
@@ -190,8 +189,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Exercise | Sets | Reps |
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
-| Dumbbell Triceps Kickback (one or both arms) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 15 to 20 per side |
-| Supine (Lying) Biceps Curl | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 15 to 20 Reps |
+| Bent-Over DB Reverse Fly | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
 
 ## Week 1 — Getting used to it (small steps)
 
@@ -200,7 +198,7 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 6 jump contacts · 27 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -271,7 +269,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -292,7 +290,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
@@ -362,7 +360,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
@@ -370,7 +368,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -384,9 +382,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -397,17 +395,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -429,7 +421,7 @@ _Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 6 jump contacts · 30 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -497,7 +489,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -518,7 +510,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
@@ -584,7 +576,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
@@ -592,7 +584,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -606,9 +598,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -619,17 +611,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -646,7 +632,7 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
 _Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- +1 set on Seal Row - DB (Supinated Grip) (Monday): 3 → 4 sets
 
 **Athletic work this week:** 6 jump contacts · 33 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
@@ -694,7 +680,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
-1. **Seal Row - DB (Supinated Grip)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Seal Row - DB (Supinated Grip)** — 4 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses the free-weight balance work) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
@@ -719,7 +705,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -740,7 +726,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
@@ -806,7 +792,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
@@ -814,7 +800,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -828,9 +814,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -841,17 +827,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -916,7 +896,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
 
 **Strength**
-1. **Seal Row - DB (Supinated Grip)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Seal Row - DB (Supinated Grip)** — 4 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses the free-weight balance work) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
@@ -941,7 +921,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -962,7 +942,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
@@ -1028,7 +1008,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
@@ -1036,7 +1016,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **KB Face Pull** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1050,9 +1030,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1063,17 +1043,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
@@ -1094,12 +1068,12 @@ _Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 - Monday: Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump; Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Leg Extension (machine) → Leg Extension (machine) - one leg at a time
 - Thursday: Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops; Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops; Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift; KB Face Pull → KB Face Pull - 1-second squeeze at the top
 - Jumps move to Receive-Create 2: Land & Go
-- +1 set on Seal Row - DB (Supinated Grip) (Monday): 3 → 4 sets
+- +1 set on Flat DB Bench Press (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
@@ -1166,7 +1140,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -1187,7 +1161,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -1231,7 +1205,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -1251,7 +1225,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
@@ -1259,7 +1233,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **KB Face Pull - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1273,9 +1247,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1286,17 +1260,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -1318,7 +1286,7 @@ _Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
@@ -1385,7 +1353,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -1406,7 +1374,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -1450,7 +1418,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -1470,7 +1438,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
@@ -1478,7 +1446,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **KB Face Pull - 1-second squeeze at the top** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1492,9 +1460,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1505,17 +1473,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -1532,12 +1494,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
 _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- +1 set on KB Face Pull (Thursday): 2 → 3 sets
 
 **Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
@@ -1604,7 +1566,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -1669,7 +1631,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -1689,7 +1651,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
@@ -1697,7 +1659,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **KB Face Pull - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1711,9 +1673,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1724,17 +1686,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -1756,7 +1712,7 @@ _Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 8 jump contacts · 42 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
@@ -1823,7 +1779,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -1888,7 +1844,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
@@ -1908,7 +1864,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
@@ -1916,7 +1872,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **KB Face Pull - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1930,9 +1886,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1943,17 +1899,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
@@ -1974,12 +1924,12 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 - Monday: Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L); Seal Row - DB (Supinated Grip) → Seal Row - DB (Pronated Grip); Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom)
 - Thursday: Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops; Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg); Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom; Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher
 - Jumps move to Receive-Create 3: Repeat
-- +1 set on Flat DB Bench Press (Thursday): 3 → 4 sets
+- +1 set on Dumbbell Hammer Curl (Monday): 2 → 3 sets
 
 **Athletic work this week:** 8 jump contacts · 45 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Lateral Box Step-up Jump + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
@@ -2046,7 +1996,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -2067,7 +2017,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 80-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
@@ -2131,7 +2081,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Floor Dumbbell Skullcrusher** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
@@ -2139,7 +2089,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **KB Face Pull - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2153,9 +2103,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2166,17 +2116,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -2193,12 +2137,12 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
 _Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- +1 set on Floor Dumbbell Skullcrusher (Thursday): 2 → 3 sets
 
 **Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Lateral Box Step-up Jump + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
@@ -2265,7 +2209,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -2286,7 +2230,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
@@ -2350,7 +2294,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Floor Dumbbell Skullcrusher** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
@@ -2358,7 +2302,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **KB Face Pull - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2372,9 +2316,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-60 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2385,17 +2329,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 2 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -2413,8 +2351,8 @@ _Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on 45-Degree Hyperextension (back/hip extension) (Thursday): 2 → 3 sets
-- +1 set on Supine (Lying) Biceps Curl (Friday): 2 → 3 sets
-- +1 set on Dumbbell Triceps Kickback (one or both arms) (Friday): 2 → 3 sets
+- +1 set on Single-Arm Lat Pulldown (Monday): 3 → 4 sets
+- +1 set on Incline DB Bench Press (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 8 jump contacts · 54 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
@@ -2473,7 +2411,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 4 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
@@ -2486,7 +2424,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -2507,7 +2445,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
@@ -2560,7 +2498,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press - 1-second pause at the bottom** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
@@ -2571,7 +2509,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Floor Dumbbell Skullcrusher** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
@@ -2579,7 +2517,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **KB Face Pull - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2593,9 +2531,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-65 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2606,17 +2544,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 3 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -2635,13 +2567,12 @@ _Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 _Last week: one intensifier on each of these days (Monday and Thursday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- +1 set on Single-Arm Lat Pulldown (Monday): 3 → 4 sets
-- +1 set on Incline DB Bench Press (Thursday): 3 → 4 sets
+- Same sets: add a little load or reps this week
 
 **Athletic work this week:** 8 jump contacts · 57 ankle-hop contacts · 52 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 85-105 min (an estimate, for information only)_
+_Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Lateral Box Step-up Jump + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
@@ -2708,7 +2639,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -2729,7 +2660,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
@@ -2793,7 +2724,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
 
 **Accessories**
-1. **Floor Dumbbell Skullcrusher** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
@@ -2801,7 +2732,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+3. **KB Face Pull - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2815,9 +2746,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 50-65 min (an estimate, for information only)_
+_Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Supine (Lying) Biceps Curl, Dumbbell Triceps Kickback (one or both arms)_
+_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2828,17 +2759,11 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Sup
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Accessories**
-1. **Dumbbell Triceps Kickback (one or both arms) (bonus)** — 3 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Progress: when you hit 20 per side on every set with 1 left in the tank, add weight next time and start again at 15.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Triceps%20Kickback%20(one%20or%20both%20arms)) · Name to copy into YouTube: `Dumbbell Triceps Kickback (one or both arms)`
-2. **Supine (Lying) Biceps Curl (bonus)** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Bonus exercise to reach your weekly sets
-   - Swap for: Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
+   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk

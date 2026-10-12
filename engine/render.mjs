@@ -233,6 +233,35 @@ function fmtSets(model, x) {
   if (typeof x !== 'number') return '–';
   return V6(model).sets_display === 'whole' ? String(Math.round(x)) : fmtNum(x);
 }
+/** v0.6 G-203 (R4-PRG-04; review r5 07 m11): a group's weekly number as printed - helper credit that takes it less than one set above
+ *  the group's final sets of its training block prints as the final sets, so a whole-set table never reads above its 'Final sets' */
+function fmtGroupSets(plan, model, w, g, x) {
+  if (typeof x !== 'number' || !V6(model).sets_display_cap_final || V6(model).sets_display !== 'whole') return fmtSets(model, x);
+  const fin = groupFinalOf(plan, w && w.training_block, g);
+  return typeof fin === 'number' && x > fin && x - fin < 1 - 1e-9 && Math.round(x) > fin ? String(fin) : fmtSets(model, x);
+}
+/** the final sets a block prints for a group (what the template holds when it is capped), or null */
+function groupFinalOf(plan, tbn, g) {
+  const rec = Array.isArray(plan.meta && plan.meta.stairway) ? plan.meta.stairway.find(x => x && x.training_block === tbn) : null;
+  if (!rec || (rec.credit_only_groups || []).includes(g)) return null;
+  const cap = (rec.capped || []).find(x => x && x.group === g);
+  if (cap && typeof cap.held === 'number') return cap.held;
+  if (typeof (rec.group_top || {})[g] !== 'number') return null;
+  // (a group whose helper credit from lifts that never close - R4-SES-04 - holds a whole set or more above its lowered top prints
+  // what the plan really reaches, in whole sets: the class member's shoulders, G-113)
+  const real = (rec.realized_top || {})[g];
+  return typeof real === 'number' ? Math.max(rec.group_top[g], Math.floor(real + 1e-9)) : rec.group_top[g];
+}
+/** v0.6 G-202 (CH5-02): a credit-only group that holds an exercise of its own in this week's block (meta.stairway[].held_groups) */
+function heldGroup(plan, w, g) {
+  const rec = Array.isArray(plan.meta && plan.meta.stairway) ? plan.meta.stairway.find(x => x && w && x.training_block === w.training_block) : null;
+  return !!rec && (rec.held_groups || []).includes(g);
+}
+/** the direct sets a week gives a group (its members' sets as a main mover) */
+function directOfGroup(model, w, g) {
+  const ms = (model.rules.muscles.groups.members || {})[g] || [g];
+  return ms.reduce((a, m) => a + (((w && w.direct_sets_by_muscle) || {})[m] || 0), 0);
+}
 /** the v0.6 words rules (rules.render.v6), or {} */
 function V6(model) { return (model.rules.render && model.rules.render.v6) || {}; }
 /** '12 Oct 2026' / '12 oct 2026' from an ISO date (fix round 2 / F3; R2-GEN-08; RECHECK v0.4 05 minor: machine dates in client copy) */
@@ -490,7 +519,8 @@ function noticesSection(plan, model, o) {
   const TP = V6(model).team_practice_line;
   const m0 = plan.meta || {};
   const teamPractice = !!(TP && has(model, TP.key) && m0.profile && m0.profile.competitive === 'competitive' && m0.season && typeof m0.season.practice_days === 'number' && m0.season.practice_days > 0);
-  if (!shown.length && !hol.length && !heavyPlay && !teamPractice) return [];
+  const optBonus = optionalBonusLines(plan, model, o);
+  if (!shown.length && !hol.length && !heavyPlay && !teamPractice && !optBonus.length) return [];
   const L = [];
   L.push('## ' + t('ui.plan.before_you_start'), '');
   // v0.5 fix round 1 (sample 03 major: the same sentence three times - jumps, ankle hops, cuts): the athletic shortfalls are one line
@@ -516,8 +546,42 @@ function noticesSection(plan, model, o) {
   if (hol.length && has(model, 'ui.plan.holiday_weeks')) L.push('- ' + t(!testInHol && has(model, 'ui.plan.holiday_weeks_no_test') ? 'ui.plan.holiday_weeks_no_test' : 'ui.plan.holiday_weeks', { weeks: andList(model, o.lang, hol.map(String)) }));
   if (heavyPlay) L.push('- ' + t('ui.plan.heavy_play_plan'));
   if (teamPractice) L.push('- ' + t(m0.season.practice_days === 1 && has(model, TP.key + '_one') ? TP.key + '_one' : TP.key, { n: m0.season.practice_days }));
+  for (const x of optBonus) L.push('- ' + x);
   L.push('');
   return L;
+}
+
+/**
+ * v0.6 G-204 (COACH-CH5 CH5-03 'they should reach more if needed, no cap until 35'; H10 'said plainly'; review r5 06 m1): a big group
+ * whose final sets need the optional days' bonus exercises says so once: how many of its final sets sit there, on which exercises,
+ * and where it ends without them. Read on the last week of each stairway block.
+ */
+function optionalBonusLines(plan, model, o) {
+  const OB = V6(model).optional_bonus_line;
+  if (!OB || !has(model, OB.key) || plan.status !== 'ok') return [];
+  const X = model.rules.muscles;
+  const big = (g) => Object.entries((X.lines && X.lines.defs) || {}).some(([, d]) => d && d.group === g && d.class === 'big');
+  const out = [];
+  for (const rec of (Array.isArray(plan.meta && plan.meta.stairway) ? plan.meta.stairway : [])) {
+    const ws = (plan.weeks || []).filter(w => w.training_block === rec.training_block && w.block_type === 'stairway');
+    const last = ws[ws.length - 1];
+    if (!last) continue;
+    for (const g of [...new Set((rec.bonus || []).map(b => b.group))]) {
+      if (!big(g) || typeof (rec.group_top || {})[g] !== 'number') continue;
+      const its = [];
+      for (const d of last.days || []) {
+        if (d.kind !== 'optional') continue;
+        for (const b of d.blocks || []) for (const it of b.items || []) if (it.origin === 'bonus' && it.group === g && typeof it.sets === 'number' && it.sets > 0) its.push({ d, it });
+      }
+      const n = its.reduce((a, x) => a + x.it.sets, 0);
+      if (!n) continue;
+      const top = rec.group_top[g];
+      const exercises = its.map(x => model.t(o.lang, x.it.name_key || ('exercise.' + x.it.exercise_id + '.name')) + ', ' + weekdayIn(model, o.lang, x.d.weekday)).join('; ');
+      const name = model.t(o.lang, 'group.' + g);
+      out.push(esc(model.t(o.lang, OB.key, { group: name, group_lc: name.charAt(0).toLowerCase() + name.slice(1), n: fmtSets(model, n), top: fmtSets(model, top), exercises, main: fmtSets(model, Math.max(0, Math.min(top, (last.weekly_sets_by_group || {})[g] || top) - n)) })));
+    }
+  }
+  return out;
 }
 
 /** the plan weeks that hold Christmas (Dec 24-26) or New Year (Dec 31 - Jan 1), from the start date (R2-PER-02, R3-PER-01; RECHECK
@@ -696,7 +760,9 @@ function adjustGuide(plan, model, o) {
     const blocks = names.some(x => x.includes(',')) ? names.join('; ') : andList(model, o.lang, names);
     L.push('- ' + (names.length ? esc(model.t(o.lang, 'guide.adjust.edit_blocks', { blocks })) : t('guide.adjust.edit_none')) + tail);
     const acc = kinds.includes('accessories') ? accessoryOnlyGroups(plan, model) : [];
-    if (acc.length && has(model, 'guide.adjust.accessories')) L.push('- ' + esc(model.t(o.lang, 'guide.adjust.accessories', { groups: andList(model, o.lang, acc.map(g => model.t(o.lang, 'group.' + g))) })));
+    // (v0.6, review r5 08 m15 / R2-GEN-08: Spanish group names in lower case inside the sentence)
+    const accName = (g) => { const w = model.t(o.lang, 'group.' + g); return o.lang === 'es' ? w.charAt(0).toLowerCase() + w.slice(1) : w; };
+    if (acc.length && has(model, 'guide.adjust.accessories')) L.push('- ' + esc(model.t(o.lang, 'guide.adjust.accessories', { groups: andList(model, o.lang, acc.map(accName)) })));
     if ((plan.weeks || []).some(w => (w.days || []).some(d => (d.toggle_items || []).length)) && has(model, 'guide.adjust.edit_stations')) L.push('- ' + t('guide.adjust.edit_stations'));
   } else if (has(model, 'guide.adjust.edit')) L.push('- ' + t('guide.adjust.edit'));
   // v0.5 / V3 (COACH-CX CX-02 / CX-04 'they should be able to edit ... on that week or that day'): the sets are editable too; and
@@ -832,11 +898,16 @@ function weeklySetsSection(plan, model, o) {
     for (const g of model.rules.muscles.groups.order.filter(x => x !== 'core')) {
       const vals = picks.map(w => (w.weekly_sets_by_group || {})[g]);
       // v0.5: a group with no exercise of its own in the template gets its work from the other lifts (credit only)
-      const ntOf = (w) => ((w.credit_only_groups || []).includes(g) ? { group: g, reason: 'credit_only' } : null);
+      // (v0.6 G-202, CH5-02: a group with an exercise of its own - the arm slot - is not 'no exercise of its own': its sets, with its
+      // direct sets)
+      const HG = V6(model).held_groups;
+      const held = (w) => !!HG && heldGroup(plan, w, g) && directOfGroup(model, w, g) > 0;
+      const ntOf = (w) => ((w.credit_only_groups || []).includes(g) && !held(w) ? { group: g, reason: 'credit_only' } : null);
       if (!vals.some(v => typeof v === 'number' && v > 0) && !(allRows && picks.some(w => ntOf(w)))) continue;
       const cell = (w, v) => {
         const nt = ntOf(w);
-        if (!nt) return fmtSets(model, v);
+        if (!nt && held(w) && has(model, HG.cell_key)) return t(HG.cell_key, { n: fmtSets(model, v), direct: fmtSets(model, directOfGroup(model, w, g)) });
+        if (!nt) return fmtGroupSets(plan, model, w, g, v);
         if (!allRows) return '-';
         if (!(typeof v === 'number' && v > 0)) return '-';
         return nt.reason === 'class_lift' && has(model, 'ui.plan.sets_class_lift') ? t('ui.plan.sets_class_lift', { n: fmtSets(model, v) }) : t('ui.plan.sets_not_direct', { n: fmtSets(model, v) });
@@ -1085,7 +1156,7 @@ function setsByWeekTable(plan, tb, model, o) {
   const rec = (Array.isArray(plan.meta && plan.meta.stairway) ? plan.meta.stairway.find(x => x && x.training_block === tb.n) : null) || null;
   const ebs = (plan.shape.exercise_blocks || []).filter(e => e.training_block === tb.n);
   const chunks = ebs.length ? ebs.map(e => weeks.filter(w => w.n >= e.weeks[0] && w.n <= e.weeks[1])).filter(c => c.length) : [weeks];
-  const row = (get) => chunks.map(c => c.map(w => fmtSets(model, get(w))).join(' ')).join(DOT);
+  const row = (get, g) => chunks.map(c => c.map(w => (g ? fmtGroupSets(plan, model, w, g, get(w)) : fmtSets(model, get(w)))).join(' ')).join(DOT);
   const rows = [];
   let example = null;
   for (const g of model.rules.muscles.groups.order.filter(x => x !== 'core')) {
@@ -1094,11 +1165,15 @@ function setsByWeekTable(plan, tb, model, o) {
     let fin = '–';
     if (rec) {
       const cap = (rec.capped || []).find(x => x && x.group === g);
-      if ((rec.credit_only_groups || []).includes(g)) fin = has(model, 'ui.plan.final_credit_only') ? t('ui.plan.final_credit_only') : '–';
+      const HG = V6(model).held_groups;
+      const last = weeks[weeks.length - 1];
+      // (v0.6 G-202, CH5-02: a credit-only group that holds the arm slot reads 'held: n direct sets a week', not 'no exercise of its own')
+      if (HG && (rec.held_groups || []).includes(g) && has(model, HG.final_key)) fin = t(HG.final_key, { direct: fmtSets(model, directOfGroup(model, last, g)) });
+      else if ((rec.credit_only_groups || []).includes(g)) fin = has(model, 'ui.plan.final_credit_only') ? t('ui.plan.final_credit_only') : '–';
       else if (cap && has(model, 'ui.plan.final_capped')) { fin = t('ui.plan.final_capped', { held: fmtSets(model, cap.held), planned: fmtSets(model, cap.planned) }); if (!example) example = cap; }
-      else if (typeof (rec.group_top || {})[g] === 'number') fin = fmtSets(model, rec.group_top[g]);
+      else if (typeof (rec.group_top || {})[g] === 'number') fin = fmtSets(model, V6(model).sets_display_cap_final ? groupFinalOf(plan, tb.n, g) : rec.group_top[g]);
     }
-    rows.push([t('group.' + g), row(w => (w.weekly_sets_by_group || {})[g]), fin]);
+    rows.push([t('group.' + g), row(w => (w.weekly_sets_by_group || {})[g], g), fin]);
   }
   if (!rows.length) return [];
   // a block with no stairway of sets (a timed circuit, a maintenance or pre-season block) has no final sets to show: two columns
@@ -1125,7 +1200,7 @@ function weekMacro(plan, n, model, o) {
   if (w.test) L.push('**' + t(testHeaderKey(w, model)) + '** (' + (w.test.items || []).map(i => t('tests.' + i)).join(', ') + ')', '');
   for (const a of accelLines(w, model, o, plan)) L.push('_' + a + '_', '');
   const sets = model.rules.muscles.groups.order.filter(g => g !== 'core' && typeof (w.weekly_sets_by_group || {})[g] === 'number' && w.weekly_sets_by_group[g] > 0)
-    .map(g => t('group.' + g) + ' ' + fmtSets(model, w.weekly_sets_by_group[g]));
+    .map(g => t('group.' + g) + ' ' + fmtGroupSets(plan, model, w, g, w.weekly_sets_by_group[g]));
   if (sets.length && has(model, 'ui.plan.sets_this_week')) L.push('**' + t('ui.plan.sets_this_week') + ':** ' + [...sets, t('ui.plan.total') + ' ' + fmtSets(model, w.total_resistance_sets)].join(DOT), '');
   const ab = athleticLine(plan, w, model, o);
   if (ab) L.push(ab, '');
