@@ -38,29 +38,26 @@ describe('R4-SES-03 / CH5-03 (G-207, G-208): 2 days - the shoulders hold the ban
     for (const w of p.weeks) for (const g of ['quads', 'hips', 'back', 'chest']) assert.ok(w.main_sets_by_group[g] >= 6 - EPS, g + ' week ' + w.n);
     for (const w of p.weeks) for (const { it } of itemsOf(w)) if (['biceps', 'triceps'].includes(groupOfEx(it.exercise_id)) && typeof it.sets === 'number') assert.ok(it.sets >= 2 && it.sets <= 3, it.exercise_id + ' ' + it.sets);
   });
-  it('08: the optional-day bonus is extra - the shoulders climb to their final sets, never above them, and arrive at the end', () => {
+  // (converted in the round-7 fix round, G-221 / G-223: the training days hold the shoulders inside the band, so they take no bonus - the
+  // optional day's fly is gone and the shoulders' final sets are what Monday and Thursday hold)
+  it('08: the shoulders take no bonus - their final sets are what the training days hold, inside the band, never above it', () => {
     const p = planOf('08');
     const st = p.meta.stairway[0];
-    assert.ok((st.bonus || []).some(b => b.group === 'shoulders'));
+    assert.ok(!(st.bonus || []).some(b => b.group === 'shoulders') && !(st.main_bonus || []).some(b => b.group === 'shoulders'));
     const fin = st.group_top.shoulders;
     const last = p.weeks[p.weeks.length - 1];
+    assert.ok(Math.abs(last.main_sets_by_group.shoulders - last.weekly_sets_by_group.shoulders) < EPS, 'every shoulder set on the training days');
     assert.ok(last.weekly_sets_by_group.shoulders >= fin - EPS && last.weekly_sets_by_group.shoulders < fin + 1 - EPS, 'final ' + fin + ' vs ' + last.weekly_sets_by_group.shoulders);
-    assert.ok(last.main_sets_by_group.shoulders < fin - EPS, 'the final depends on the optional day');
+    assert.ok(fin <= R.volume.two_day.weekly_sets[1], 'inside the 2-day band');
     const ws = p.weeks.map(w => w.weekly_sets_by_group.shoulders);
     ws.slice(1).forEach((v, i) => assert.ok(v >= ws[i] - EPS, 'never down'));
-    assert.ok(ws[0] < fin - EPS, 'the shoulders climb');
   });
-  it('08: the "skip that day" line prints for the shoulders, EN and ES, with what the training days hold', () => {
-    const p = planOf('08');
-    const fin = p.meta.stairway[0].group_top.shoulders;
-    const last = p.weeks[p.weeks.length - 1];
-    const en = unesc(mdOf('08', 'en')).split('\n').find(l => l.startsWith('- ' + t('en', 'group.shoulders') + ':') && l.includes('optional day'));
-    assert.ok(en, 'EN line');
-    assert.ok(en.includes('of its ' + fin + ' final sets') && en.includes('Skip that day'), en);
-    const about = Number(/about (\d+)/.exec(en)[1]);
-    assert.ok(Math.abs(about - last.main_sets_by_group.shoulders) <= 0.5 + EPS && about >= 6, en);
-    const es = unesc(mdOf('08', 'es')).split('\n').find(l => l.startsWith('- ' + t('es', 'group.shoulders') + ':') && l.includes('día opcional'));
-    assert.ok(es && es.includes('Si te saltas ese día'), 'ES line');
+  it('08: no "skip that day" line for the shoulders (nothing of theirs sits on the optional day), EN and ES; no "shoulders ends" anywhere', () => {
+    for (const lang of ['en', 'es']) {
+      const md = unesc(mdOf('08', lang));
+      assert.ok(!md.split('\n').some(l => l.startsWith('- ' + t(lang, 'group.shoulders') + ':') && (l.includes('optional day') || l.includes('día opcional'))), lang);
+      assert.ok(!/shoulders ends|hombros termina/.test(md), lang);
+    }
   });
   it('every sample: a group whose final sets hold an optional day\'s bonus exercise is named up front (not only big groups)', () => {
     for (const n of Object.keys(NAMES)) {
@@ -71,7 +68,8 @@ describe('R4-SES-03 / CH5-03 (G-207, G-208): 2 days - the shoulders hold the ban
         const last = ws[ws.length - 1];
         if (!last) continue;
         const onOpt = new Set(last.days.filter(d => d.kind === 'optional').flatMap(d => d.blocks.flatMap(b => b.items)).filter(i => i.origin === 'bonus' && i.sets > 0).map(i => i.group));
-        for (const g of onOpt) if (typeof (rec.group_top || {})[g] === 'number') assert.ok(md.split('\n').some(l => l.startsWith('- ' + t('en', 'group.' + g) + ':') && /final sets sit on your optional day/.test(l)), n + ' ' + g);
+        // (G-222: a group whose bonuses sit on an optional day and a training day is named by the training-day line)
+        for (const g of onOpt) if (typeof (rec.group_top || {})[g] === 'number') assert.ok(md.split('\n').some(l => l.startsWith('- ' + t('en', 'group.' + g) + ':') && /final sets sit on (your optional day|a bonus exercise|bonus exercises)/.test(l)), n + ' ' + g);
       }
     }
   });
@@ -94,20 +92,19 @@ describe('VOL-07 / CH5-03 (G-209): the day\'s first lift of a group leads it; th
       }
     }
   });
-  it('02: Tuesday\'s incline press never out-sets the bench press; the chest still reaches 13 (a training-day bonus, CH5-03)', () => {
+  // (converted in the round-7 fix round, G-219: every chest press at its cap of 4 holds 12; a 2-set bonus would take chest to 14, above its
+  // final 13 - so chest is held at 12 of 13 and the plan says so, with no fly)
+  it('02: Tuesday\'s incline press never out-sets the bench press; chest holds 12 of 13 on its presses, said, with no bonus', () => {
     const p = planOf('02');
     const bench = series(p, 'Tue.B1.s08'), incline = series(p, 'Tue.B1.s10');
     const tests = p.weeks.map(w => itemsOf(w).filter(x => x.it.slot_id === 'Tue.B1.s08.test').length);
     incline.forEach((v, i) => assert.ok(v <= bench[i] + tests[i], 'week ' + (i + 1) + ': incline ' + v + ' bench ' + bench[i]));
     assert.ok(Math.max(...incline) <= R.placement.x3.athlete_press_max.max);
     const st = p.meta.stairway[0];
-    assert.equal(st.group_top.chest, 13);
-    assert.ok(!(st.capped || []).some(c => c.group === 'chest'), 'not capped');
-    assert.ok(p.weeks[p.weeks.length - 1].weekly_sets_by_group.chest >= 13 - EPS);
-    // the bonus is the extra: it never holds more than a template chest lift of its day, and takes no step before they are full
-    const tue = p.weeks[p.weeks.length - 2].days.find(d => d.weekday === 'Tue').blocks.flatMap(b => b.items);
-    const bonus = tue.filter(i => i.origin === 'bonus' && groupOfEx(i.exercise_id) === 'chest');
-    assert.equal(bonus.length, 1);
+    assert.equal(st.group_top.chest, 12);
+    assert.ok((st.capped || []).some(c => c.group === 'chest' && c.held === 12 && c.planned === 13), 'capped and said');
+    assert.ok(unesc(mdOf('02')).includes(t('en', 'warning.capped_by_template', { group: t('en', 'group.chest'), held: 12, planned: 13 }).slice(0, 30)));
+    for (const w of p.weeks) assert.ok(!itemsOf(w).some(x => x.it.origin === 'bonus' && groupOfEx(x.it.exercise_id) === 'chest'), 'no chest bonus, week ' + w.n);
   });
   it('CH5-03: a training day\'s bonus exercise never repeats a compound pattern the day before trained', () => {
     const NR = R.placement.x3.bonus_no_repeat_previous_day;
@@ -220,6 +217,204 @@ describe('R2-PER-07 (G-214): a day that holds a test carries no intensifier', ()
     for (const lang of ['en', 'es']) {
       const md = unesc(mdOf('02', lang));
       assert.ok(md.includes(t(lang, 'effort.intensifier_days_one', { days: t(lang, 'weekday.Fri') }).split(':')[0]), lang);
+    }
+  });
+});
+
+// ---- engine 0.6 fix round on the round-7 coach-eye reviews (reviews/coach-eye-r7/02-football.md M1, 08-pickleball-genpop.md M1):
+// one rule for every bonus exercise of a group (rules.placement.x3.bonus_last; DECISIONS G-217..G-224). The caps are re-derived here
+// from the rules (level top, a training day's isolation 3 / 4 in the hardest weeks, an optional-day Focus slot, the athlete's press cap
+// with later_capped, the 2-day arm slot, the physique first week) - independent of engine/volume.mjs. A tested lift counts its test set.
+const X1 = R.placement.x1 || {}, X2 = R.placement.x2 || {}, X3 = R.placement.x3 || {};
+const BL = X3.bonus_last || {};
+const isGroupBonus = (it) => it.origin === 'bonus' && !(BL.template_whys || []).includes(((it.why || [])[0] || {}).key);
+function bonusRows(p, w) {
+  const rows = [];
+  for (const d of w.days) {
+    const items = d.blocks.flatMap(b => b.items.map(it => ({ it, b })));
+    for (const { it, b } of items) {
+      if (!it.exercise_id || typeof it.sets !== 'number' || it.sets <= 0 || it.role === 'test') continue;
+      // (the group the item's own credits give it - joint care counts no sets, rules.prehab)
+      const cr = it.credits || {};
+      const full = R.muscles.groups.order.filter(g2 => (R.muscles.groups.members[g2] || []).some(m => (cr[m] || 0) >= 1 - EPS));
+      const g = it.group && full.includes(it.group) ? it.group : full[0];
+      if (!g || g === 'calves' || (ex(it.exercise_id) || {}).is_athletic) continue;
+      const test = items.find(x => x.it.role === 'test' && x.it.slot_id === it.slot_id + '.test');
+      rows.push({ d, b, it, g, sets: it.sets + (test && typeof test.it.sets === 'number' ? test.it.sets : 0), bonus: isGroupBonus(it), e: ex(it.exercise_id) });
+    }
+  }
+  return rows;
+}
+function capOf(p, w, N, r, rows) {
+  let cap = R.placement.max_sets_per_exercise[p.meta.level.client];
+  const main = r.d.kind === 'main', iso = r.e.exercise_class === 'isolation';
+  if (main && iso && X1.iso_main_day_max && r.it.origin !== 'bonus') { const M = X1.iso_main_day_max; cap = Math.min(cap, w.phase === M.phase || (X2.iso_fourth_from_share && w.stair_week > N * X2.iso_fourth_from_share + EPS) ? M.hardest : M.default); }
+  if (!main && r.it.origin === 'template' && (r.it.role === 'focus' || r.it.bucket === 'FOCUS')) cap = Math.min(cap, R.placement.optional_focus.sets[1]);
+  const AP = X3.athlete_press_max;
+  if (AP && AP.families.includes(p.meta.family)) {
+    const many = rows.filter(x => x.g === r.g).length >= (AP.min_group_exercises || 0);
+    const held = (x) => AP.credit_classes.includes(x.e.credit_class) && !(x.e.tags || []).some(tg => (AP.not_tags || []).includes(tg));
+    if (many && held(r)) cap = Math.min(cap, AP.max);
+    if (many && AP.later_capped && main && r.it.origin !== 'bonus') { const day = rows.filter(x => x.d === r.d && x.g === r.g && x.it.origin !== 'bonus'); if (day.length && day[0] !== r && held(day[0])) cap = Math.min(cap, AP.max); }
+  }
+  if (p.meta.two_day && main && X3.two_day_arm_slot && X3.two_day_arm_slot.groups.includes(r.g)) cap = Math.min(cap, X3.two_day_arm_slot.sets[1]);
+  const SM = X3.start_max_sets;
+  if (SM && w.stair_week === 1 && SM.families.includes(p.meta.family)) cap = Math.min(cap, iso || r.it.origin === 'bonus' ? SM.isolation : SM.compound);
+  return Math.max(cap, r.sets);
+}
+const stairWeeks = (p, rec) => p.weeks.filter(w => w.training_block === rec.training_block && w.block_type === 'stairway');
+
+describe('VOL-07 / CH5-03 (G-217, G-218, G-219): a bonus exercise opens only when its group\'s template lifts are at their tops and still short', () => {
+  it('rules.placement.x3.bonus_last is on in both builds', () => {
+    assert.ok(BL.enabled && BL.open_when_needed && BL.whole_bonus_only && BL.template_first && BL.first_exposure_first && BL.two_day_no_extra && BL.print_last);
+    assert.deepEqual(loadFixtureModel().rules.placement.x3.bonus_last, BL);
+  });
+  for (const n of Object.keys(NAMES)) it(n + ': a bonus opens in an exercise block that ends with every template lift of its group at its top; its group needs it in every block it is open', () => {
+    const p = planOf(n);
+    for (const rec of p.meta.stairway || []) {
+      if (rec.circuit) continue;
+      const ws = stairWeeks(p, rec), N = ws.length;
+      const rowsW = ws.map(w => bonusRows(p, w));
+      for (const id of [...new Set(rowsW.flat().filter(r => r.bonus).map(r => r.it.slot_id))]) {
+        const i0 = rowsW.findIndex(rows => rows.some(r => r.it.slot_id === id));
+        const r0 = rowsW[i0].find(r => r.it.slot_id === id);
+        const last = ws.map((w, i) => i).filter(i => ws[i].exercise_block === ws[i0].exercise_block).pop();
+        const below = rowsW[last].filter(r => r.g === r0.g && !r.bonus && r.sets < capOf(p, ws[last], N, r, rowsW[last]));
+        assert.deepEqual(below.map(r => r.it.exercise_id), [], n + ': ' + r0.it.exercise_id + ' opens in week ' + ws[i0].n);
+        // (and every exercise block it is open in needs it: the group without it is under its number at the block's last week)
+        for (const eb of new Set(ws.filter((w, i) => rowsW[i].some(r => r.it.slot_id === id)).map(w => w.exercise_block))) {
+          const li = ws.map((w, i) => i).filter(i => ws[i].exercise_block === eb).pop();
+          const bon = rowsW[li].filter(r => r.g === r0.g && r.bonus).reduce((a, r) => a + r.sets, 0);
+          assert.ok((ws[li].weekly_sets_by_group[r0.g] || 0) - bon < ws[li].target_by_group[r0.g] - EPS, n + ' ' + r0.g + ' exercise block ' + eb + ' holds its number without its bonus');
+        }
+      }
+    }
+  });
+  for (const n of Object.keys(NAMES)) it(n + ': a bonus never takes a set while a template lift of its group, on any day, is under its top', () => {
+    const p = planOf(n);
+    for (const rec of p.meta.stairway || []) {
+      if (rec.circuit) continue;
+      const ws = stairWeeks(p, rec), N = ws.length;
+      const rowsW = ws.map(w => bonusRows(p, w));
+      for (let i = 0; i < N; i++) for (const r of rowsW[i].filter(x => x.bonus)) {
+        const prev = i > 0 ? rowsW[i - 1].find(x => x.it.slot_id === r.it.slot_id) : null;
+        const fewest = r.d.kind === 'main' ? X1.main_day_extra.sets[0] : R.placement.bonus.sets[0];
+        const stepped = prev ? r.sets > prev.sets : r.sets > fewest;
+        if (!stepped) continue;
+        const below = rowsW[i].filter(x => x.g === r.g && !x.bonus && x.sets < capOf(p, ws[i], N, x, rowsW[i]));
+        assert.deepEqual(below.map(x => x.d.weekday + ' ' + x.it.exercise_id + ' ' + x.sets), [], n + ' week ' + ws[i].n + ': ' + r.it.exercise_id + ' takes a set');
+      }
+    }
+  });
+  for (const n of Object.keys(NAMES)) it(n + ': a group never goes above its final sets or its level top because of a bonus', () => {
+    const p = planOf(n);
+    for (const rec of p.meta.stairway || []) {
+      if (rec.circuit) continue;
+      const ws = stairWeeks(p, rec);
+      const gs = new Set(ws.flatMap(w => bonusRows(p, w).filter(r => r.bonus).map(r => r.g)));
+      for (const g of gs) for (const w of ws) {
+        const v = w.weekly_sets_by_group[g] || 0;
+        assert.ok(v < rec.group_top[g] + 1 - EPS, n + ' ' + g + ' week ' + w.n + ': ' + v + ' vs final ' + rec.group_top[g]);
+        const line = (rec.carrier || {})[g];
+        if (line && typeof (rec.cap || {})[line] === 'number') assert.ok(v < rec.cap[line] + 1 - EPS, n + ' ' + g + ' week ' + w.n + ': ' + v + ' vs top ' + rec.cap[line]);
+      }
+    }
+  });
+  it('02: no chest bonus at all; Tuesday\'s bench (the day\'s first press, the tested lift) reaches its cap of 4 and holds it, every press ends at 4', () => {
+    const p = planOf('02');
+    const AP = X3.athlete_press_max.max;
+    const tests = p.weeks.map(w => itemsOf(w).filter(x => x.it.slot_id === 'Tue.B1.s08.test').length);
+    const bench = series(p, 'Tue.B1.s08').map((v, i) => v + tests[i]), dbBench = series(p, 'Fri.B2.s08'), incline = series(p, 'Tue.B1.s10');
+    const first = bench.findIndex(v => v >= AP);
+    assert.ok(first >= 0 && first <= 2, 'the bench holds 4 from week ' + (first + 1));
+    bench.slice(first).forEach((v, i) => assert.equal(v, AP, 'week ' + (first + i + 1)));
+    assert.equal(dbBench[dbBench.length - 1], AP);
+    assert.equal(incline[incline.length - 1], AP);
+    assert.ok(!p.weeks.some(w => itemsOf(w).some(x => x.it.origin === 'bonus')), 'no bonus exercise in 02');
+  });
+  it('01: the chest fly opens with the last exercise block (week 9), after every chest press can reach 4; the back holds 20 of 21 on its rows, said', () => {
+    const p = planOf('01');
+    const st = p.meta.stairway[0];
+    const fly = (st.main_bonus || []).find(b => b.group === 'chest');
+    assert.ok(fly, 'a chest bonus on a training day');
+    const s = series(p, fly.slot_id);
+    const w0 = s.findIndex(v => v !== null && v > 0);
+    assert.equal(p.weeks[w0].exercise_block, Math.max(...p.weeks.map(w => w.exercise_block)), 'opens with the last exercise block');
+    assert.ok(!(st.main_bonus || []).some(b => b.group === 'back') && !(st.bonus || []).some(b => b.group === 'back'));
+    assert.ok((st.capped || []).some(c => c.group === 'back' && c.held === 20 && c.planned === 21));
+  });
+});
+
+describe('R3-VOL-03 (G-220): the same template station on the two exposures of a day type - the first exposure steps first', () => {
+  for (const n of Object.keys(NAMES)) it(n + ': the second exposure\'s lift never takes a set ahead of the first\'s while the first is under its top', () => {
+    const p = planOf(n);
+    const stem = (d) => String(d.day_type || d.weekday).replace(/[ ]?[12]$/, '');
+    const pos = (it) => String(it.station_id).split('.').slice(1).join('.');
+    for (const rec of p.meta.stairway || []) {
+      if (rec.circuit) continue;
+      const ws = stairWeeks(p, rec), N = ws.length;
+      for (let i = 1; i < N; i++) {
+        const rows = bonusRows(p, ws[i]), prevRows = bonusRows(p, ws[i - 1]);
+        const mains = ws[i].days.filter(d => d.kind === 'main');
+        for (const a of mains) for (const b of mains) {
+          if (a === b || stem(a) !== stem(b) || mains.indexOf(a) > mains.indexOf(b)) continue;
+          for (const ra of rows.filter(x => x.d === a && x.it.origin === 'template')) {
+            const rb = rows.find(x => x.d === b && x.it.origin === 'template' && pos(x.it) === pos(ra.it) && x.g === ra.g);
+            if (!rb) continue;
+            const pa = prevRows.find(x => x.it.slot_id === ra.it.slot_id), pb = prevRows.find(x => x.it.slot_id === rb.it.slot_id);
+            if (!pa || !pb || pb.sets !== pa.sets || rb.sets <= pb.sets || ra.it.role === 'test') continue;
+            // (Friday's lift stepped from a tie: Tuesday's took the step too, or was at its top - or a test week held it)
+            assert.ok(ra.sets > pa.sets || ra.sets >= capOf(p, ws[i], N, ra, rows) || !!ws[i].test, n + ' week ' + ws[i].n + ': ' + b.weekday + ' ' + rb.it.exercise_id + ' ' + pb.sets + '->' + rb.sets + ' ahead of ' + a.weekday + ' ' + ra.it.exercise_id + ' ' + ra.sets);
+          }
+        }
+      }
+    }
+  });
+  it('02: Tuesday\'s bench takes its 4th set before Friday\'s DB bench', () => {
+    const p = planOf('02');
+    const tests = p.weeks.map(w => itemsOf(w).filter(x => x.it.slot_id === 'Tue.B1.s08.test').length);
+    const bench = series(p, 'Tue.B1.s08').map((v, i) => v + tests[i]), db = series(p, 'Fri.B2.s08');
+    assert.ok(bench.findIndex(v => v >= 4) < db.findIndex(v => v >= 4), bench.join(' ') + ' / ' + db.join(' '));
+  });
+});
+
+describe('R4-SES-03 / CH5-03 (G-221): 2 days - a group the training days hold inside the band takes no bonus', () => {
+  it('08: no bonus exercise for the shoulders; they stay inside 6-8 and never above back, chest or hips', () => {
+    const p = planOf('08');
+    for (const w of p.weeks) {
+      assert.ok(!itemsOf(w).some(x => isGroupBonus(x.it) && groupOfEx(x.it.exercise_id) === 'shoulders'), 'week ' + w.n);
+      const sh = w.weekly_sets_by_group.shoulders;
+      assert.ok(sh >= R.volume.two_day.weekly_sets[0] - EPS && sh <= R.volume.two_day.weekly_sets[1] + EPS, 'week ' + w.n + ': ' + sh);
+      // (whole sets, as the plan prints them: a quarter of helper credit is not a set - G-174)
+      for (const g of ['back', 'chest', 'hips']) assert.ok(Math.floor(sh + EPS) <= Math.floor(w.weekly_sets_by_group[g] + EPS), 'week ' + w.n + ': shoulders ' + sh + ' above ' + g + ' ' + w.weekly_sets_by_group[g]);
+    }
+  });
+});
+
+describe('CH5-03 / VOL-07 (G-222): a bonus prints last in its day, says why, and the plan says how many final sets sit on it', () => {
+  for (const n of Object.keys(NAMES)) it(n + ': a group\'s bonus is the last lift of its day and carries the "done last ... final number" note', () => {
+    const p = planOf(n);
+    for (const w of p.weeks) for (const d of w.days) {
+      const seq = d.blocks.filter(b => ['strength', 'accessories'].includes(b.kind)).flatMap(b => b.items).filter(it => it.exercise_id && (typeof it.sets !== 'number' || it.sets > 0));
+      const k = seq.findIndex(isGroupBonus);
+      if (k < 0) continue;
+      assert.ok(seq.slice(k).every(isGroupBonus), n + ' week ' + w.n + ' ' + d.weekday);
+      for (const it of seq.slice(k)) assert.ok((it.notes || []).some(x => x.key === BL.note_key), it.exercise_id);
+    }
+  });
+  it('01: the up-front line names the chest fly, from week 9, with the final sets it carries - EN and ES', () => {
+    const p = planOf('01');
+    const top = p.meta.stairway[0].group_top.chest;
+    const en = unesc(mdOf('01', 'en')).split('\n').find(l => l.startsWith('- ' + t('en', 'group.chest') + ':') && l.includes('bonus exercise'));
+    assert.ok(en && en.includes('of its ' + top + ' final sets') && en.includes('from week 9') && en.includes('total ends at about'), en);
+    const es = unesc(renderPlan(p, model, { lang: 'es' })).split('\n').find(l => l.startsWith('- ' + t('es', 'group.chest') + ':') && l.includes('ejercicio extra'));
+    assert.ok(es && es.includes('desde la semana 9') && es.includes('el total de'), es);
+  });
+  it('every sample, EN and ES: no "<group> ends at about" / "<grupo> termina en unas" (the total ends)', () => {
+    for (const n of Object.keys(NAMES)) for (const lang of ['en', 'es']) {
+      const md = renderPlan(planOf(n), model, { lang });
+      assert.ok(!/ (shoulders|biceps|triceps|quads|hips|calves|back|chest) ends at about/i.test(md), n + ' ' + lang);
+      assert.ok(!/(hombros|bíceps|tríceps|cuádriceps|cadera|pantorrillas|espalda|pecho) termina en unas/i.test(md), n + ' ' + lang);
     }
   });
 });

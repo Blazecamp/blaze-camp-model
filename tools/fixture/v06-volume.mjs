@@ -107,6 +107,25 @@ export function amendRulesV06(rules) {
     // the group). Review r5 02 M1's 'the DB bench never ahead of the RDL' is not done here: G-205.
     work_lead: { twins_alternate: true,
       refs: ['VOL-07', 'R3-VOL-03', 'R4-SES-05'], status: 'approved rules (VOL-07, R3-VOL-03) read on the main lifts' },
+    // G-217..G-222 (VOL-07 'if there are 3 exercises and I need to add an extra set of volume, then I add it to the first exercise on
+    // the list ... 4, 3, 3'; CH5-03 'they should reach more IF NEEDED'; R3-VOL-03 'alternate between the two exposures ... Monday's
+    // first, then Thursday's'; R4-SES-03 2 days 'about 6-8'; R4-PRG-04 'never above the level's top'; reviews r7 02 M1 and 08 M1: a
+    // bonus exercise opened, or took a set, while the group's template lifts still had room, or when the training days already held the
+    // group's band): ONE rule for every bonus exercise of a group (the optional day's and a training day's; the template's own extra
+    // station and a muscle's direct minimum are template work, not a group's bonus)
+    //  - open_when_needed (a): a bonus opens only in the exercise block whose weeks the group's template lifts, every one at its own
+    //    top (athlete_press_max included), cannot take to the group's weekly number - never from week 1 'to be safe'
+    //  - whole_bonus_only (a, c): a bonus opens only when the template lifts at their tops plus the bonus's fewest sets stay inside the
+    //    group's final sets; a shortfall smaller than a bonus exercise is held at what the slots give and said (H10, G-107)
+    //  - template_first (b): a bonus never takes a set while a template lift of its group has room; the day's first lift leads
+    //  - first_exposure_first (b): on a tie, the first exposure of a day type steps before the second (Tuesday's bench before
+    //    Friday's DB bench), then they alternate (R3-VOL-03)
+    //  - two_day_no_extra (c): on 2 days a group the training days already hold inside the band takes no bonus (retires G-207's
+    //    'the optional day's bonus is extra')
+    //  - print_last (d): a group's bonus prints last in its day and its note says it carries the last sets to the final number
+    bonus_last: { enabled: true, open_when_needed: true, whole_bonus_only: true, template_first: true, first_exposure_first: true, two_day_no_extra: true, print_last: true,
+      note_key: 'note.bonus_final', line_key: 'ui.plan.bonus_line_main', template_whys: ['why.template_extra_station', 'why.muscle_direct_exercise'], refs: ['VOL-07', 'CH5-03', 'R3-VOL-03', 'R4-SES-03', 'R4-PRG-04', 'H10'],
+      status: 'approved rules (VOL-07, CH5-03 \'if needed\', R3-VOL-03, R4-SES-03) read together (reviews r7 02 / 08 M1); the hold of a shortfall smaller than a bonus exercise is PROPOSED (G-219)' },
     refs: ['VOL-07', 'R3-VOL-03', 'R4-SES-03', 'R4-SES-05', 'CX-01', 'CX-03', 'CX-04', 'VOL-01'],
     status: 'engine 0.6 volume package (round-4 coach-eye reviews); readings of approved answers, the numbers PROPOSED'
   };
@@ -159,6 +178,17 @@ export const UI_V06 = {
   // without them is kept for a week next to a test week, where the test takes the place of the tested lift's top set)
   'changes.sets_added_n': ['+{n} sets on {exercise} ({day}): {from} → {to} sets', '+{n} series en {exercise} ({day}): {from} → {to} series'],
   'changes.sets_added_n_plain': ['+{n} sets on {exercise} ({day})', '+{n} series en {exercise} ({day})'],
+  // G-222 (VOL-07; CH5-03 'if needed'; review r7 08 M1: 'Bonus exercise to reach your weekly sets' on a fly the training days did not
+  // need): a group's bonus exercise says why it is there (PROPOSED wording)
+  'note.bonus_final': ['Bonus exercise, done last: your template\'s lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.', 'Ejercicio extra, al final: los ejercicios de tu plantilla para este grupo muscular ya están en su máximo de series, así que este suma las últimas series para llegar a tu número final.'],
+  // G-217: a muscle's own direct-minimum exercise is template work, not a group's bonus - its own reason (PROPOSED wording)
+  'why.muscle_direct_exercise': ['An extra exercise at the end of the day for {group}: one of its muscles needs direct sets of its own (the side delts on a physique plan)', 'Un ejercicio extra al final del día para {group}: uno de sus músculos necesita series directas propias (el deltoides lateral en un plan de físico)'],
+  // G-222 (CH5-03; H10 'said plainly'; G-204 / G-208 style; review r7 02 m16): a group whose final sets sit partly on a training day's bonus
+  // exercise says so up front - how many, where (from which week, when it comes in later) and where the group ends without it
+  // (PROPOSED wording)
+  'ui.plan.bonus_line_main': ['{group}: {n} of its {top} final sets sit on a bonus exercise, done last in its day ({exercises}), because your template\'s lifts for it are at their top sets. Skip it and the {group_lc} total ends at about {main}.', '{group}: {n} de sus {top} series finales están en un ejercicio extra, al final de su día ({exercises}), porque los ejercicios de tu plantilla para este grupo ya están en su máximo de series. Si lo omites, el total de {group_lc} queda en unas {main}.'],
+  'ui.plan.bonus_line_main_n': ['{group}: {n} of its {top} final sets sit on bonus exercises, done last in their days ({exercises}), because your template\'s lifts for it are at their top sets. Skip them and the {group_lc} total ends at about {main}.', '{group}: {n} de sus {top} series finales están en ejercicios extra, al final de su día ({exercises}), porque los ejercicios de tu plantilla para este grupo ya están en su máximo de series. Si los omites, el total de {group_lc} queda en unas {main}.'],
+  'ui.plan.bonus_from_week': [', from week {week}', ', desde la semana {week}'],
   'why.bonus_main_day': ['Extra {group} sets: a short bonus exercise at the end of a training day that already trains it (no optional day can take it)', 'Series extra de {group}: un ejercicio extra corto al final de un día de entrenamiento que ya lo trabaja (ningún día opcional puede llevarlo)'],
   'warning.circuit_over_top': ['{group}: every station runs the same rounds, so this group reaches {held} weekly sets, above its usual top of {top}. If you want to stay at the top, skip one {group} station in the extra round.', '{group}: todas las estaciones hacen las mismas rondas, así que este grupo llega a {held} series por semana, por encima de su tope habitual de {top}. Si quieres quedarte en el tope, salta una estación de {group} en la ronda extra.']
 };

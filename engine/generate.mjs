@@ -390,6 +390,10 @@ function withAddedSlots(base, added, model, addedFills = {}) {
       const at = day.blocks.findIndex(b => order.indexOf(b.kind) > order.indexOf(slot.block));
       if (at < 0) day.blocks.push(blk); else day.blocks.splice(at, 0, blk);
     }
+    // v0.6 G-222 (rules.placement.x3.bonus_last.print_last; VOL-07 the bonus is the extra; R4-SES-04 the easiest to remove): a group's
+    // bonus exercise goes last in its block - after the day's template lifts, whatever its class (E-87 still places the template's own
+    // added stations)
+    if (groupBonusSlot(slot, model) && BLx(model).print_last) { blk.slots.push(slot); continue; }
     const ex = slot.block !== 'circuit' ? exOfAdded(slot) : null;
     const at = ex && ex.exercise_class === 'compound' ? blk.slots.findIndex(s => smallAfter(slot, ex, s)) : -1;
     if (at >= 0) blk.slots.splice(at, 0, slot); else blk.slots.push(slot);
@@ -398,6 +402,16 @@ function withAddedSlots(base, added, model, addedFills = {}) {
 }
 
 function bucketDef(model, b) { try { return model.bucket(b); } catch { return null; } }
+
+/** v0.6 G-217 (rules.placement.x3.bonus_last): the rule's settings, {} when the model has none */
+function BLx(model) { const B = model.rules.placement.x3 && model.rules.placement.x3.bonus_last; return B && B.enabled ? B : {}; }
+/** a group's bonus exercise (not the template's own extra station, not a muscle's direct-minimum exercise) */
+export function groupBonusSlot(slot, model) {
+  const B = BLx(model);
+  if (!B.enabled || !slot || slot.origin !== 'bonus') return false;
+  const k = ((slot.why || [])[0] || {}).key;
+  return !(B.template_whys || []).includes(k);
+}
 
 /**
  * v0.4 fix round 2 / F1 (E-151; RECHECK v0.4 05 majors: the KB swing and the overhead throw came after a full strength circuit, and the
@@ -1337,7 +1351,9 @@ function buildMeta(C, v, weeks = []) {
       arrival_week: b ? orderedMap(b.arrival_week || {}, groupOrder, x => x) : {},
       realized_arrival_week: b ? orderedMap(b.realized_arrival_week || {}, groupOrder, x => x) : {}, realized_top: b ? orderedMap(b.realized_top || {}, groupOrder, x => x) : {},
       capped: b ? (b.capped || []).map(c => ({ ...c })) : [], below_floor: b ? (b.below_floor || []).slice() : [],
-      bonus: b ? (b.bonus || []).map(x => ({ ...x })) : [], focus_closed: b ? (b.focus_closed || []).map(x => ({ ...x })) : [], acceleration: acc, circuit: !!(b && b.circuit),
+      bonus: b ? (b.bonus || []).map(x => ({ ...x })) : [],
+      // v0.6 G-217: a group's bonus exercises on a training day, with the exercise block each one opens with
+      main_bonus: b ? (b.main_bonus || []).map(x => ({ ...x })) : [], focus_closed: b ? (b.focus_closed || []).map(x => ({ ...x })) : [], acceleration: acc, circuit: !!(b && b.circuit),
       // v0.6 G-110: a timed circuit's groups that the uniform rounds take above their top number (said up front)
       over_top: b ? (b.over_top || []).map(x => ({ ...x })) : [],
       // v0.5 fix round 1: where the floor is read (the training days), the groups that hold it only with the optional day, the groups

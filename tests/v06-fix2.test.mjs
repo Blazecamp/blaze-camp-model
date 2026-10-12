@@ -58,7 +58,7 @@ describe('CH5-02 (G-202): a group with its own arm-slot exercise is not called c
 });
 
 describe('R4-SES-03 (G-200): 2 days - the band is for the big groups, the arms sit in slot 5 at 2-3 sets', () => {
-  it('08: no arm exercise above 3 sets, no arm bonus, the arms never above their final sets; the shoulders reach 8 of 8', () => {
+  it('08: no arm exercise above 3 sets, no arm bonus, the arms never above their final sets; the shoulders end at what the training days hold', () => {
     const p = planOf('08');
     const A = R.placement.x3.two_day_arm_slot;
     assert.deepEqual(A.sets, [2, 3]);
@@ -74,11 +74,12 @@ describe('R4-SES-03 (G-200): 2 days - the band is for the big groups, the arms s
       assert.ok(st.group_top[g] <= R.volume.two_day.weekly_sets[0], g + ' final ' + st.group_top[g] + ' under the big groups\' band');
     }
     // (G-207, converted: the training days hold the shoulders at the band and the optional-day fly is extra - final 9, 7 of them on
-    // Monday + Thursday)
-    assert.equal(st.group_top.shoulders, 9);
-    assert.ok(p.weeks[p.weeks.length - 1].weekly_sets_by_group.shoulders >= 9 - EPS);
-    assert.ok(!(st.capped || []).some(c => c.group === 'shoulders'), 'shoulders no longer capped');
-    assert.ok((st.bonus || []).some(b => b.group === 'shoulders'), 'the optional day\'s place goes to the shoulders');
+    // Monday + Thursday; converted again in the round-7 fix round, G-221: a group the training days hold inside the band takes no bonus -
+    // the shoulders' final sets are the 7 Monday + Thursday hold, not capped, and the optional day holds no bonus for anyone)
+    assert.equal(st.group_top.shoulders, 7);
+    assert.ok(p.weeks[p.weeks.length - 1].weekly_sets_by_group.shoulders >= 7 - EPS);
+    assert.ok(!(st.capped || []).some(c => c.group === 'shoulders'), 'shoulders not capped');
+    assert.ok(!(st.bonus || []).some(b => b.group === 'shoulders'), 'no optional-day shoulder bonus');
     assert.ok(!(st.bonus || []).some(b => ['biceps', 'triceps'].includes(b.group)));
     // the big groups keep the 6-set band on the training days
     for (const w of p.weeks) for (const g of ['quads', 'hips', 'back', 'chest']) assert.ok(w.main_sets_by_group[g] >= 6 - EPS, g + ' week ' + w.n);

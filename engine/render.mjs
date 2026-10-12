@@ -564,28 +564,40 @@ function optionalBonusLines(plan, model, o) {
   if (!OB || !has(model, OB.key) || plan.status !== 'ok') return [];
   const X = model.rules.muscles;
   const big = (g) => Object.entries((X.lines && X.lines.defs) || {}).some(([, d]) => d && d.group === g && d.class === 'big');
+  // v0.6 G-222 (rules.placement.x3.bonus_last; CH5-03; H10 'said plainly'; review r7 02 m16: a Tuesday fly held 3 of chest's 13 final
+  // sets and nothing up front said so): a training day's bonus exercise of a group is said the same way, with the week it comes in
+  const BLr = model.rules.placement.x3 && model.rules.placement.x3.bonus_last;
+  const mainKey = BLr && BLr.enabled && BLr.line_key && has(model, BLr.line_key) ? BLr.line_key : null;
   const out = [];
   for (const rec of (Array.isArray(plan.meta && plan.meta.stairway) ? plan.meta.stairway : [])) {
     const ws = (plan.weeks || []).filter(w => w.training_block === rec.training_block && w.block_type === 'stairway');
     const last = ws[ws.length - 1];
     if (!last) continue;
-    for (const g of [...new Set((rec.bonus || []).map(b => b.group))]) {
+    const optIds = new Set((rec.bonus || []).map(b => b.slot_id));
+    const mainIds = new Set(mainKey ? (rec.main_bonus || []).map(b => b.slot_id) : []);
+    for (const g of [...new Set([...(rec.bonus || []), ...(mainKey ? rec.main_bonus || [] : [])].map(b => b.group))]) {
       // (G-208, review r6 08 M1: with rules.render.v6.optional_bonus_line.all_groups every group whose final sets hold an optional day's
       // bonus exercise says so - the shoulders of a 2-day plan too - not only the big groups)
       if (!(OB.all_groups || big(g)) || typeof (rec.group_top || {})[g] !== 'number') continue;
       const its = [];
       for (const d of last.days || []) {
-        if (d.kind !== 'optional') continue;
-        for (const b of d.blocks || []) for (const it of b.items || []) if (it.origin === 'bonus' && it.group === g && typeof it.sets === 'number' && it.sets > 0) its.push({ d, it });
+        for (const b of d.blocks || []) for (const it of b.items || []) {
+          if (it.origin !== 'bonus' || it.group !== g || typeof it.sets !== 'number' || it.sets <= 0) continue;
+          if (d.kind === 'optional' ? optIds.has(it.slot_id) || !mainKey : mainIds.has(it.slot_id)) its.push({ d, it });
+        }
       }
       const n = its.reduce((a, x) => a + x.it.sets, 0);
       if (!n) continue;
       const top = rec.group_top[g];
-      const exercises = its.map(x => model.t(o.lang, x.it.name_key || ('exercise.' + x.it.exercise_id + '.name')) + ', ' + weekdayIn(model, o.lang, x.d.weekday)).join('; ');
+      // (G-217: a bonus that comes in with a later exercise block says from which week)
+      const fromOf = (id) => ws.find(w => (w.days || []).some(d => (d.blocks || []).some(b => (b.items || []).some(it => it.slot_id === id && typeof it.sets === 'number' && it.sets > 0))));
+      const exercises = its.map(x => { const f = mainKey && has(model, 'ui.plan.bonus_from_week') ? fromOf(x.it.slot_id) : null; return model.t(o.lang, x.it.name_key || ('exercise.' + x.it.exercise_id + '.name')) + ', ' + weekdayIn(model, o.lang, x.d.weekday) + (f && f !== ws[0] ? model.t(o.lang, 'ui.plan.bonus_from_week', { week: f.n }) : ''); }).join('; ');
       const name = model.t(o.lang, 'group.' + g);
+      const onMain = its.some(x => x.d.kind !== 'optional');
       // (G-208: every bonus exercise of the group on one optional day - 'skip that day')
       const oneDay = new Set(its.map(x => x.d.weekday)).size === 1 && has(model, 'ui.plan.optional_bonus_one_day');
-      out.push(esc(model.t(o.lang, oneDay ? 'ui.plan.optional_bonus_one_day' : OB.key, { group: name, group_lc: name.charAt(0).toLowerCase() + name.slice(1), n: fmtSets(model, n), top: fmtSets(model, top), exercises, main: fmtSets(model, Math.max(0, Math.min(top, (last.weekly_sets_by_group || {})[g] || top) - n)) })));
+      const key = onMain && mainKey ? (its.length > 1 && has(model, mainKey + '_n') ? mainKey + '_n' : mainKey) : oneDay ? 'ui.plan.optional_bonus_one_day' : OB.key;
+      out.push(esc(model.t(o.lang, key, { group: name, group_lc: name.charAt(0).toLowerCase() + name.slice(1), n: fmtSets(model, n), top: fmtSets(model, top), exercises, main: fmtSets(model, Math.max(0, Math.min(top, (last.weekly_sets_by_group || {})[g] || top) - n)) })));
     }
   }
   return out;

@@ -264,7 +264,7 @@
           "hamstrings": 0.2987,
           "chest": 0.6482,
           "lats_upper_back": 0.6482,
-          "shoulders": 0.2632,
+          "shoulders": 0.3451,
           "biceps": 1.1635,
           "triceps": 1.1635,
           "calves": 0
@@ -310,7 +310,7 @@
           "hips": 7,
           "back": 6,
           "chest": 6,
-          "shoulders": 8,
+          "shoulders": 6,
           "biceps": 3,
           "triceps": 3,
           "calves": 4
@@ -320,7 +320,7 @@
           "hips": 8,
           "back": 8,
           "chest": 8,
-          "shoulders": 9,
+          "shoulders": 7,
           "biceps": 5,
           "triceps": 5,
           "calves": 4
@@ -330,7 +330,7 @@
           "hips": 8,
           "back": 8,
           "chest": 8,
-          "shoulders": 9,
+          "shoulders": 7,
           "biceps": 5,
           "triceps": 5,
           "calves": 4
@@ -393,18 +393,18 @@
             8
           ],
           "shoulders": [
-            8,
-            8,
-            8,
-            8,
-            8,
-            8,
-            8,
-            8,
-            8,
-            8,
-            8,
-            9
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            7
           ],
           "biceps": [
             3,
@@ -454,7 +454,7 @@
           "hips": 0.2987,
           "back": 0.6482,
           "chest": 0.6482,
-          "shoulders": 0.2632,
+          "shoulders": 0.3451,
           "biceps": 1.1635,
           "triceps": 1.1635,
           "calves": 0
@@ -484,19 +484,15 @@
           "hips": 8,
           "back": 8,
           "chest": 8,
-          "shoulders": 9,
+          "shoulders": 7,
           "biceps": 5,
           "triceps": 5,
           "calves": 4
         },
         "capped": [],
         "below_floor": [],
-        "bonus": [
-          {
-            "group": "shoulders",
-            "slot_id": "Fri.OPT.x01"
-          }
-        ],
+        "bonus": [],
+        "main_bonus": [],
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
@@ -1633,7 +1629,7 @@
         "glutes": null,
         "chest": 6,
         "lats_upper_back": 6,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -1645,7 +1641,7 @@
         "chest": 6,
         "lats_upper_back": 6,
         "side_delts": 1,
-        "rear_delts": 6.75,
+        "rear_delts": 4.75,
         "biceps": 3.5,
         "triceps": 3.5,
         "calves": 4,
@@ -1663,7 +1659,7 @@
         "chest": 6,
         "lats_upper_back": 6,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 2,
         "triceps": 2,
         "calves": 4,
@@ -1691,7 +1687,7 @@
         "glutes": 2,
         "chest": 6,
         "lats_upper_back": 6,
-        "shoulders": 8.25,
+        "shoulders": 6.25,
         "biceps": 3.5,
         "triceps": 3.5,
         "calves": 4
@@ -1701,7 +1697,7 @@
         "hips": 7,
         "back": 6,
         "chest": 6,
-        "shoulders": 8.25,
+        "shoulders": 6.25,
         "biceps": 3.5,
         "triceps": 3.5,
         "calves": 4
@@ -1721,7 +1717,7 @@
         "hips": 7,
         "back": 6,
         "chest": 6,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -1741,12 +1737,9 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 38,
+      "total_resistance_sets": 36,
       "rise_vs_prev": null,
       "athletic_budget": {
         "plyo_share": 0.35,
@@ -5564,27 +5557,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -5760,155 +5745,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -6105,7 +5943,7 @@
         "glutes": null,
         "chest": 6,
         "lats_upper_back": 6,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -6117,7 +5955,7 @@
         "chest": 6,
         "lats_upper_back": 6,
         "side_delts": 1,
-        "rear_delts": 6.75,
+        "rear_delts": 4.75,
         "biceps": 3.5,
         "triceps": 3.5,
         "calves": 4,
@@ -6135,7 +5973,7 @@
         "chest": 6,
         "lats_upper_back": 6,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 2,
         "triceps": 2,
         "calves": 4,
@@ -6163,7 +6001,7 @@
         "glutes": 2,
         "chest": 6,
         "lats_upper_back": 6,
-        "shoulders": 8.25,
+        "shoulders": 6.25,
         "biceps": 3.5,
         "triceps": 3.5,
         "calves": 4
@@ -6173,7 +6011,7 @@
         "hips": 7,
         "back": 6,
         "chest": 6,
-        "shoulders": 8.25,
+        "shoulders": 6.25,
         "biceps": 3.5,
         "triceps": 3.5,
         "calves": 4
@@ -6193,7 +6031,7 @@
         "hips": 7,
         "back": 6,
         "chest": 6,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -6213,12 +6051,9 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 38,
+      "total_resistance_sets": 36,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.3636,
@@ -9994,27 +9829,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -10190,155 +10017,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -10535,7 +10215,7 @@
         "glutes": null,
         "chest": 6,
         "lats_upper_back": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -10547,7 +10227,7 @@
         "chest": 6,
         "lats_upper_back": 7,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4,
@@ -10565,7 +10245,7 @@
         "chest": 6,
         "lats_upper_back": 7,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 2,
         "triceps": 2,
         "calves": 4,
@@ -10593,7 +10273,7 @@
         "glutes": 2,
         "chest": 6,
         "lats_upper_back": 7,
-        "shoulders": 8.5,
+        "shoulders": 6.5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4
@@ -10603,7 +10283,7 @@
         "hips": 7,
         "back": 7,
         "chest": 6,
-        "shoulders": 8.5,
+        "shoulders": 6.5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4
@@ -10623,7 +10303,7 @@
         "hips": 7,
         "back": 7,
         "chest": 6,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -10643,13 +10323,10 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 39,
-      "rise_vs_prev": 0.0263,
+      "total_resistance_sets": 37,
+      "rise_vs_prev": 0.0278,
       "athletic_budget": {
         "plyo_share": 0.3773,
         "stage": "RC1",
@@ -14428,27 +14105,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -14624,155 +14293,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -14969,7 +14491,7 @@
         "glutes": null,
         "chest": 6,
         "lats_upper_back": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -14981,7 +14503,7 @@
         "chest": 6,
         "lats_upper_back": 7,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4,
@@ -14999,7 +14521,7 @@
         "chest": 6,
         "lats_upper_back": 7,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 2,
         "triceps": 2,
         "calves": 4,
@@ -15027,7 +14549,7 @@
         "glutes": 2,
         "chest": 6,
         "lats_upper_back": 7,
-        "shoulders": 8.5,
+        "shoulders": 6.5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4
@@ -15037,7 +14559,7 @@
         "hips": 7,
         "back": 7,
         "chest": 6,
-        "shoulders": 8.5,
+        "shoulders": 6.5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4
@@ -15057,7 +14579,7 @@
         "hips": 7,
         "back": 7,
         "chest": 6,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -15077,12 +14599,9 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 39,
+      "total_resistance_sets": 37,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.3909,
@@ -18858,27 +18377,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -19054,155 +18565,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -19399,7 +18763,7 @@
         "glutes": null,
         "chest": 6,
         "lats_upper_back": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -19411,7 +18775,7 @@
         "chest": 6,
         "lats_upper_back": 7,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4,
@@ -19429,7 +18793,7 @@
         "chest": 6,
         "lats_upper_back": 7,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 2,
         "triceps": 2,
         "calves": 4,
@@ -19457,7 +18821,7 @@
         "glutes": 2,
         "chest": 6,
         "lats_upper_back": 7,
-        "shoulders": 8.5,
+        "shoulders": 6.5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4
@@ -19467,7 +18831,7 @@
         "hips": 7,
         "back": 7,
         "chest": 6,
-        "shoulders": 8.5,
+        "shoulders": 6.5,
         "biceps": 3.75,
         "triceps": 3.5,
         "calves": 4
@@ -19487,7 +18851,7 @@
         "hips": 7,
         "back": 7,
         "chest": 6,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -19507,12 +18871,9 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 39,
+      "total_resistance_sets": 37,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.4045,
@@ -23387,27 +22748,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -23587,159 +22940,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -23936,7 +23138,7 @@
         "glutes": null,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -23948,7 +23150,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 3.75,
         "triceps": 3.75,
         "calves": 4,
@@ -23966,7 +23168,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 2,
         "triceps": 2,
         "calves": 4,
@@ -23994,7 +23196,7 @@
         "glutes": 2,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 3.75,
         "triceps": 3.75,
         "calves": 4
@@ -24004,7 +23206,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 3.75,
         "triceps": 3.75,
         "calves": 4
@@ -24024,7 +23226,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -24044,13 +23246,10 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 40,
-      "rise_vs_prev": 0.0256,
+      "total_resistance_sets": 38,
+      "rise_vs_prev": 0.027,
       "athletic_budget": {
         "plyo_share": 0.4182,
         "stage": "RC2",
@@ -27911,27 +27110,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -28111,159 +27302,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -28460,7 +27500,7 @@
         "glutes": null,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -28472,7 +27512,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 3.75,
         "triceps": 3.75,
         "calves": 4,
@@ -28490,7 +27530,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 2,
         "triceps": 2,
         "calves": 4,
@@ -28518,7 +27558,7 @@
         "glutes": 2,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 3.75,
         "triceps": 3.75,
         "calves": 4
@@ -28528,7 +27568,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 3.75,
         "triceps": 3.75,
         "calves": 4
@@ -28548,7 +27588,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 3,
         "triceps": 3,
         "calves": 4
@@ -28568,12 +27608,9 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 40,
+      "total_resistance_sets": 38,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.4318,
@@ -32431,27 +31468,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -32631,159 +31660,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -32980,7 +31858,7 @@
         "glutes": null,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 4,
         "triceps": 3,
         "calves": 4
@@ -32992,7 +31870,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 4.75,
         "triceps": 3.75,
         "calves": 4,
@@ -33010,7 +31888,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 3,
         "triceps": 2,
         "calves": 4,
@@ -33038,7 +31916,7 @@
         "glutes": 2,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 4.75,
         "triceps": 3.75,
         "calves": 4
@@ -33048,7 +31926,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 4.75,
         "triceps": 3.75,
         "calves": 4
@@ -33068,7 +31946,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 4,
         "triceps": 3,
         "calves": 4
@@ -33088,13 +31966,10 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 41,
-      "rise_vs_prev": 0.025,
+      "total_resistance_sets": 39,
+      "rise_vs_prev": 0.0263,
       "athletic_budget": {
         "plyo_share": 0.4455,
         "stage": "RC2",
@@ -36955,27 +35830,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -37155,159 +36022,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -37504,7 +36220,7 @@
         "glutes": null,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 4,
         "triceps": 3,
         "calves": 4
@@ -37516,7 +36232,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 4.75,
         "triceps": 3.75,
         "calves": 4,
@@ -37534,7 +36250,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 3,
         "triceps": 2,
         "calves": 4,
@@ -37562,7 +36278,7 @@
         "glutes": 2,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 4.75,
         "triceps": 3.75,
         "calves": 4
@@ -37572,7 +36288,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 4.75,
         "triceps": 3.75,
         "calves": 4
@@ -37592,7 +36308,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 4,
         "triceps": 3,
         "calves": 4
@@ -37612,12 +36328,9 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 41,
+      "total_resistance_sets": 39,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.4591,
@@ -41493,27 +40206,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -41693,159 +40398,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -42042,7 +40596,7 @@
         "glutes": null,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 4,
         "triceps": 4,
         "calves": 4
@@ -42054,7 +40608,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 4.75,
         "triceps": 4.75,
         "calves": 4,
@@ -42072,7 +40626,7 @@
         "chest": 7,
         "lats_upper_back": 7,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 3,
         "triceps": 3,
         "calves": 4,
@@ -42100,7 +40654,7 @@
         "glutes": 2,
         "chest": 7,
         "lats_upper_back": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 4.75,
         "triceps": 4.75,
         "calves": 4
@@ -42110,7 +40664,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8.75,
+        "shoulders": 6.75,
         "biceps": 4.75,
         "triceps": 4.75,
         "calves": 4
@@ -42130,7 +40684,7 @@
         "hips": 7,
         "back": 7,
         "chest": 7,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 4,
         "triceps": 4,
         "calves": 4
@@ -42150,13 +40704,10 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 42,
-      "rise_vs_prev": 0.0244,
+      "total_resistance_sets": 40,
+      "rise_vs_prev": 0.0256,
       "athletic_budget": {
         "plyo_share": 0.4727,
         "stage": "RC3",
@@ -46018,27 +44569,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -46218,159 +44761,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1-2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -46567,7 +44959,7 @@
         "glutes": null,
         "chest": 8,
         "lats_upper_back": 8,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 4,
         "triceps": 4,
         "calves": 4
@@ -46579,7 +44971,7 @@
         "chest": 8,
         "lats_upper_back": 8,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 5,
         "triceps": 5,
         "calves": 4,
@@ -46597,7 +44989,7 @@
         "chest": 8,
         "lats_upper_back": 8,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 3,
         "triceps": 3,
         "calves": 4,
@@ -46625,7 +45017,7 @@
         "glutes": 2.25,
         "chest": 8,
         "lats_upper_back": 8,
-        "shoulders": 9,
+        "shoulders": 7,
         "biceps": 5,
         "triceps": 5,
         "calves": 4
@@ -46635,7 +45027,7 @@
         "hips": 8,
         "back": 8,
         "chest": 8,
-        "shoulders": 9,
+        "shoulders": 7,
         "biceps": 5,
         "triceps": 5,
         "calves": 4
@@ -46655,7 +45047,7 @@
         "hips": 8,
         "back": 8,
         "chest": 8,
-        "shoulders": 8,
+        "shoulders": 6,
         "biceps": 4,
         "triceps": 4,
         "calves": 4
@@ -46675,13 +45067,10 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 45,
-      "rise_vs_prev": 0.0714,
+      "total_resistance_sets": 43,
+      "rise_vs_prev": 0.075,
       "athletic_budget": {
         "plyo_share": 0.4864,
         "stage": "RC3",
@@ -50559,27 +48948,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -50759,159 +49140,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1-2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -51097,7 +49327,7 @@
         "hamstrings": 0,
         "chest": 0,
         "lats_upper_back": 0,
-        "shoulders": 0.125,
+        "shoulders": 0.1667,
         "biceps": 0.25,
         "triceps": 0.25,
         "calves": 0
@@ -51108,7 +49338,7 @@
         "glutes": null,
         "chest": 8,
         "lats_upper_back": 8,
-        "shoulders": 9,
+        "shoulders": 7,
         "biceps": 5,
         "triceps": 5,
         "calves": 4
@@ -51120,7 +49350,7 @@
         "chest": 8,
         "lats_upper_back": 8,
         "side_delts": 1,
-        "rear_delts": 7,
+        "rear_delts": 5,
         "biceps": 5,
         "triceps": 5,
         "calves": 4,
@@ -51138,7 +49368,7 @@
         "chest": 8,
         "lats_upper_back": 8,
         "side_delts": 0,
-        "rear_delts": 6,
+        "rear_delts": 4,
         "biceps": 3,
         "triceps": 3,
         "calves": 4,
@@ -51166,7 +49396,7 @@
         "glutes": 2.25,
         "chest": 8,
         "lats_upper_back": 8,
-        "shoulders": 9,
+        "shoulders": 7,
         "biceps": 5,
         "triceps": 5,
         "calves": 4
@@ -51176,7 +49406,7 @@
         "hips": 8,
         "back": 8,
         "chest": 8,
-        "shoulders": 9,
+        "shoulders": 7,
         "biceps": 5,
         "triceps": 5,
         "calves": 4
@@ -51196,7 +49426,7 @@
         "hips": 8,
         "back": 8,
         "chest": 8,
-        "shoulders": 9,
+        "shoulders": 7,
         "biceps": 5,
         "triceps": 5,
         "calves": 4
@@ -51216,12 +49446,9 @@
           "chest": 2,
           "shoulders": 1,
           "triceps": 1
-        },
-        "Fri": {
-          "shoulders": 1
         }
       },
-      "total_resistance_sets": 45,
+      "total_resistance_sets": 43,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.5,
@@ -55100,27 +53327,19 @@
           "label_key": "day.athletic.2.OPT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 42,
           "aerobic_minutes": 30,
-          "exercise_count": 1,
+          "exercise_count": 0,
           "skeleton": null,
-          "easy_to_remove": [
-            {
-              "slot_id": "Fri.OPT.x01",
-              "kind": "bonus_exercise"
-            }
-          ],
+          "easy_to_remove": [],
           "supersets_on": false,
           "superset_recommendations": [],
           "toggle_blocks": [
             "core",
-            "accessories",
             "aerobic"
           ],
           "toggle_items": [],
-          "groups": {
-            "shoulders": 1
-          },
+          "groups": {},
           "why": [
             {
               "key": "why.play_spacing",
@@ -55300,159 +53519,8 @@
               "removable": false
             },
             {
-              "kind": "accessories",
-              "position": 2,
-              "movable": false,
-              "circuit": null,
-              "items": [
-                {
-                  "slot_id": "Fri.OPT.x01",
-                  "station_id": "OPT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "shoulders",
-                  "exercise_id": "bent-over-db-reverse-fly",
-                  "name_key": "exercise.bent-over-db-reverse-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
-                    "copy_name": "Bent-Over DB Reverse Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 1,
-                    "rpe_min": 9,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "rear_delts": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "seated-chest-to-thighs-db-reverse-fly",
-                    "floor-prone-y-t-raises",
-                    "machine-reverse-fly-rear-delt-pec-deck",
-                    "rear-delt-db-row"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "seated-chest-to-thighs-db-reverse-fly",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "floor-prone-y-t-raises",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "machine-reverse-fly-rear-delt-pec-deck",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "rear-delt-db-row",
-                      "keeps": "swap.keeps.ISO_REAR",
-                      "loses": "swap.loses.plane"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_optional_day",
-                      "ref": "R3-VOL-03",
-                      "args": {
-                        "group": "shoulders"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.hotspot",
-                      "ref": "D-23"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                }
-              ],
-              "id": "blk.fri-opt.accessories.1",
-              "toggle": true,
-              "removable": true
-            },
-            {
               "kind": "aerobic",
-              "position": 3,
+              "position": 2,
               "movable": false,
               "circuit": null,
               "items": [
@@ -55617,20 +53685,20 @@
   ],
   "summary": {
     "total_resistance_sets_by_week": [
+      36,
+      36,
+      37,
+      37,
+      37,
       38,
       38,
       39,
       39,
-      39,
       40,
-      40,
-      41,
-      41,
-      42,
-      45,
-      45
+      43,
+      43
     ],
-    "max_weekly_rise": 0.0714,
+    "max_weekly_rise": 0.075,
     "planned_steps_max": 0.3333,
     "stair_levels": [
       2,
@@ -55732,18 +53800,18 @@
         1
       ],
       "rear_delts": [
-        6.75,
-        6.75,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7,
-        7
+        4.75,
+        4.75,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
       ],
       "biceps": [
         3.5,
@@ -55944,18 +54012,18 @@
         8
       ],
       "shoulders": [
-        8.25,
-        8.25,
-        8.5,
-        8.5,
-        8.5,
-        8.75,
-        8.75,
-        8.75,
-        8.75,
-        8.75,
-        9,
-        9
+        6.25,
+        6.25,
+        6.5,
+        6.5,
+        6.5,
+        6.75,
+        6.75,
+        6.75,
+        6.75,
+        6.75,
+        7,
+        7
       ],
       "biceps": [
         3.5,
@@ -56058,18 +54126,18 @@
         8
       ],
       "shoulders": [
-        8.25,
-        8.25,
-        8.5,
-        8.5,
-        8.5,
-        8.75,
-        8.75,
-        8.75,
-        8.75,
-        8.75,
-        9,
-        9
+        6.25,
+        6.25,
+        6.5,
+        6.5,
+        6.5,
+        6.75,
+        6.75,
+        6.75,
+        6.75,
+        6.75,
+        7,
+        7
       ],
       "biceps": [
         3.5,
@@ -56172,18 +54240,18 @@
         8
       ],
       "shoulders": [
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        9
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        7
       ],
       "biceps": [
         3,
@@ -56286,18 +54354,18 @@
         8
       ],
       "shoulders": [
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        8,
-        9
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        7
       ],
       "biceps": [
         3,

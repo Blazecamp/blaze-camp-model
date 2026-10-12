@@ -176,14 +176,15 @@ export const UI_W6 = {
   'ui.plan.sets_with_direct': ['{n} ({direct} direct)', '{n} ({direct} directas)'],
   'ui.plan.final_held': ['held: {direct} direct sets a week', 'fijas: {direct} series directas por semana'],
   // G-204 (CH5-03): a big group whose final sets need the optional day's bonus exercises (PROPOSED wording)
-  'ui.plan.optional_bonus_big': ['{group}: {n} of its {top} final sets sit on your optional days ({exercises}). Skip those days and {group_lc} ends at about {main}.', '{group}: {n} de sus {top} series finales están en tus días opcionales ({exercises}). Si te saltas esos días, {group_lc} termina en unas {main}.'],
+  // (G-222, review r7 08 m3: 'shoulders ends' / 'hombros termina' - the line names the group's total, so the verb agrees in both languages)
+  'ui.plan.optional_bonus_big': ['{group}: {n} of its {top} final sets sit on your optional days ({exercises}). Skip those days and the {group_lc} total ends at about {main}.', '{group}: {n} de sus {top} series finales están en tus días opcionales ({exercises}). Si te saltas esos días, el total de {group_lc} queda en unas {main}.'],
   // G-211 (review r6 02 m15: the legend explained '-' rows no table printed and read the brackets of '7 (4 direct)' the opposite way):
   // the counting note no longer carries the '-' sentence; each legend line is added only when its kind of cell is printed
   'ui.plan.weekly_sets_groups_note': ['Counted the coach\'s way: a set counts once for its group (hips = glutes + hamstrings; shoulders = front, side and rear delts); helpers 1/4 set; jumps, throws, sprints, swings, carries and Olympic lifts never count.', 'Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera = glúteos + isquiotibiales; hombros = deltoides anterior, lateral y posterior); los músculos de apoyo cuentan 1/4 de serie; los saltos, lanzamientos, sprints, swings, caminatas con carga y levantamientos olímpicos nunca cuentan.'],
   'ui.plan.sets_legend_dash': ['"-" = no exercise of its own in this plan (in brackets: the sets it still gets from the other lifts).', '"-" = sin ejercicio propio en este plan (entre paréntesis: las series que igual recibe de los otros ejercicios).'],
   'ui.plan.sets_legend_direct': ['"{cell}" = {n} sets counted for the group, {direct} of them from its own exercise (the rest are helper sets from the other lifts).', '"{cell}" = {n} series contadas para el grupo, {direct} de ellas de su propio ejercicio (el resto son series de apoyo de los otros ejercicios).'],
   // G-208 (review r6 08 M1 'Skip that day and shoulders end at about 6'): one optional day
-  'ui.plan.optional_bonus_one_day': ['{group}: {n} of its {top} final sets sit on your optional day ({exercises}). Skip that day and {group_lc} ends at about {main}.', '{group}: {n} de sus {top} series finales están en tu día opcional ({exercises}). Si te saltas ese día, {group_lc} termina en unas {main}.'],
+  'ui.plan.optional_bonus_one_day': ['{group}: {n} of its {top} final sets sit on your optional day ({exercises}). Skip that day and the {group_lc} total ends at about {main}.', '{group}: {n} de sus {top} series finales están en tu día opcional ({exercises}). Si te saltas ese día, el total de {group_lc} queda en unas {main}.'],
   'instruction.2_bridge_optional': ['In this plan your cardio sits on your optional day ({days}): do it there, or on any other free day.', 'En este plan tu cardio cae en tu día opcional ({days}): hazlo ahí o en cualquier otro día libre.']
 };
 

@@ -90,7 +90,12 @@
 //                         detail between blocks): it counts in the share and is no station the dial could still turn.
 //   * MYO set             never on an exercise whose main mover is a muscle the plan cut for pain (the engine's G-69 rule,
 //                         rules.effort.intensifiers.never_pain_muscle) - a gap of 2.3 that the athletic arm slot exposed.
-export const SCORER_VERSION = '2.4.1';
+// Scorer 2.5 (engine 0.6 fix round on the round-7 reviews, DECISIONS G-217 ...): one reading follows a model rule the round added:
+//   * staircase           a group's bonus exercise is the extra (rules.placement.x3.bonus_last; VOL-07, CH5-03): it opens only when the
+//                         group's template lifts are at their tops, so it sits at its fewest sets next to them - it is left out of the
+//                         day's staircase and read on its own rule instead: a week it takes a set while a template lift of its group,
+//                         on any day, still has room under its top is a staircase deviation. Without the rule the scorer reads as 2.4.1.
+export const SCORER_VERSION = '2.5';
 export const SCORE_SCHEMA = 'bench-score/2';
 
 const EPS = 1e-9;
@@ -791,6 +796,28 @@ const unitTop = (U, D, X, P, W = null) => {
   if (AP && many && (AP.families || []).includes(X.family) && U.ex && (AP.credit_classes || []).includes(U.ex.credit_class) && !(U.ex.tags || []).some(t => (AP.not_tags || []).includes(t))) return Math.min(top, AP.max);
   return top;
 };
+/** scorer 2.5 (rules.placement.x3.bonus_last, DECISIONS G-217): a group's bonus exercise - origin 'bonus', not the template's own extra
+ *  station nor a muscle's direct-minimum exercise (the rule's template_whys, read on the item's first why) */
+const groupBonusUnit = (U, P) => {
+  const BLs = (P.placement_x3 || {}).bonus_last;
+  if (!BLs || !BLs.enabled || U.origin !== 'bonus') return false;
+  const k = (((U.lead && U.lead.raw && U.lead.raw.why) || [])[0] || {}).key;
+  return !(BLs.template_whys || []).includes(k);
+};
+/** scorer 2.5: the top a template lift of a group holds for the bonus rule (G-218): unitTop, the athlete's later press held at the day's
+ *  first press cap (rules.placement.x3.athlete_press_max.later_capped, G-209) and an optional-day Focus slot (rules.placement.optional_focus) */
+const bonusRuleTop = (U, D, X, P, W) => {
+  let top = unitTop(U, D, X, P, W);
+  const AP = (P.placement_x3 || {}).athlete_press_max;
+  if (AP && AP.later_capped && D.main && (AP.families || []).includes(X.family)) {
+    const held = (V) => V.ex && (AP.credit_classes || []).includes(V.ex.credit_class) && !(V.ex.tags || []).some(t => (AP.not_tags || []).includes(t));
+    const first = D.units.find(V => V.prime[0] === U.prime[0] && V.origin !== 'bonus');
+    if (first && first !== U && held(first)) top = Math.min(top, AP.max);
+  }
+  const OF = P.optional_focus;
+  if (!D.main && OF && U.origin === 'template' && (U.role === 'focus' || U.bucket === 'FOCUS')) top = Math.min(top, Array.isArray(OF.sets) ? OF.sets[1] : (OF.sets_max || 3));
+  return top;
+};
 /** scorer 2.2: a press takes no set in a week whose pressing sets would pass its pulling sets (rules.volume.push_pull, VOL-18; the
  *  block says when the balance is on: meta.stairway[].push_pull) - such a press sits at its top for that week */
 const isPressUnit = (U, P) => !!(P.push_pull_rule && U.ex && (P.push_pull_rule.push_classes || []).includes(U.ex.credit_class));
@@ -1451,12 +1478,26 @@ function checkCounts(S, X, ctx) {
         // T7-PLC-01 the coach's staircase inside a group-day (straight days of blocks that climb in sets)
         if (B && B.climbsInSets && B.format !== 'strength_roles') for (const g of B.trained) {
           if (g === 'calves') continue;
-          const us = D.units.filter(U => U.prime[0] === g && !X.classSlots.has(U.slot) && !(U.role === 'work' && B.format === 'class'));
-          if (us.length < 2) continue;
+          const usAll = D.units.filter(U => U.prime[0] === g && !X.classSlots.has(U.slot) && !(U.role === 'work' && B.format === 'class'));
+          if (usAll.length < 2) continue;
           // scorer 2.2 (rules.placement.x1): a group that steps on one muscle's own exercises first (a Focus muscle; side delts on a
           // physique plan; a muscle's direct minimum) has no single staircase to read
           if (stepsFirst(g, X, ctx)) continue;
-          S.n('staircase_deviation', us.length);
+          // (scorer 2.5, rules.placement.x3.bonus_last - DECISIONS G-217 / G-218: a group's bonus exercise is the extra, outside the day's
+          // staircase; it is read on its own rule: a week it takes a set while a template lift of its group, on any day, is under its own
+          // top - the press cap with later_capped (G-209), an optional-day Focus slot's top, a tested lift held in its test week - counts)
+          const us = usAll.filter(U => !groupBonusUnit(U, P));
+          for (const U of usAll.filter(V => groupBonusUnit(V, P))) {
+            const Wp = X.weeks[X.weeks.indexOf(W) - 1];
+            const Dp = Wp && Wp.tb === W.tb ? Wp.days.find(d => d.weekday === D.weekday) : null;
+            const Up = Dp ? Dp.units.find(V => V.slot === U.slot) : null;
+            if (!Up || !(U.sets > Up.sets)) continue;
+            const heldB = pressHeld(W, B, P);
+            const room = W.days.some(Dx => Dx.units.some(V => V.prime[0] === g && !groupBonusUnit(V, P) && !(heldB && isPressUnit(V, P)) && !(W.raw.test && V.hasTest) && V.sets < bonusRuleTop(V, Dx, X, P, W)));
+            if (room) S.hit('staircase_deviation', { ...where, group: g, slot_id: U.slot }, g + ' bonus ' + U.exercise_id + ' ' + Up.sets + ' -> ' + U.sets + ' while a template lift of its group has room');
+          }
+          S.n('staircase_deviation', usAll.length);
+          if (us.length < 2) continue;
           let dev = 0;
           // (scorer 2.2: an isolation exercise of a training day holds 3 sets - its 4th in the hardest weeks is the group's next
           // step, not a hole in the staircase - and the day's extra small exercise 2-3; a later exercise may pass an earlier one

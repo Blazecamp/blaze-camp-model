@@ -3537,6 +3537,30 @@
     ],
     "status": "approved rules (VOL-07, R3-VOL-03) read on the main lifts"
    },
+   "bonus_last": {
+    "enabled": true,
+    "open_when_needed": true,
+    "whole_bonus_only": true,
+    "template_first": true,
+    "first_exposure_first": true,
+    "two_day_no_extra": true,
+    "print_last": true,
+    "note_key": "note.bonus_final",
+    "line_key": "ui.plan.bonus_line_main",
+    "template_whys": [
+     "why.template_extra_station",
+     "why.muscle_direct_exercise"
+    ],
+    "refs": [
+     "VOL-07",
+     "CH5-03",
+     "R3-VOL-03",
+     "R4-SES-03",
+     "R4-PRG-04",
+     "H10"
+    ],
+    "status": "approved rules (VOL-07, CH5-03 'if needed', R3-VOL-03, R4-SES-03) read together (reviews r7 02 / 08 M1); the hold of a shortfall smaller than a bonus exercise is PROPOSED (G-219)"
+   },
    "refs": [
     "VOL-07",
     "R3-VOL-03",

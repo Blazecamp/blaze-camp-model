@@ -39,9 +39,12 @@ describe('v0.4 fix round 1 / F1: time, volume and structure (coach-eye reviews o
   test('R02-start-at-level: the football plan starts each big group near its level start (the template minimum no longer starts quads at the level ceiling), so every trained group climbs several sets (E-83)', () => {
     const p = plan('02');
     const st = p.meta.stairway[0];
+    // (converted in the engine 0.6 round-7 fix round, G-219: chest is held at what its presses hold at their cap of 4 - 12 of 13, said -
+    // so it climbs from its floor of 10 to 12; the other big groups still climb 3+ sets)
     for (const g of ['quads', 'back', 'chest']) {
       const v = series(p, g);
-      assert.ok(v[v.length - 1] - v[0] >= 3 - EPS, `${g}: ${v.join(' ')}`);
+      const capped = (st.capped || []).find(c => c.group === g);
+      assert.ok(v[v.length - 1] - v[0] >= (capped ? capped.held - st.group_start[g] : 3) - EPS && v[v.length - 1] - v[0] >= 2 - EPS, `${g}: ${v.join(' ')}`);
     }
     assert.ok(st.cap.quads - st.start.quads >= 3, JSON.stringify(st));
   });
@@ -77,13 +80,18 @@ describe('v0.4 fix round 1 / F1: time, volume and structure (coach-eye reviews o
       }
     }
   });
-  test('R06-added-compound-order: an added compound sits before its block\'s isolations on a main day (E-87, ORD-01 big before small)', () => {
+  // (converted in the engine 0.6 round-7 fix round, G-222: a group's bonus exercise prints last in its day - the user-requested reading of
+  // VOL-07 'the bonus is the extra'; E-87's 'an added compound before the isolations' stays for every other added exercise)
+  test('R06-added-compound-order: an added compound sits before its block\'s isolations on a main day (E-87, ORD-01 big before small); a group\'s bonus prints last (G-222)', () => {
+    const BLr = R.placement.x3.bonus_last || {};
+    const groupBonus = (it) => it.origin === 'bonus' && !!BLr.print_last && !(BLr.template_whys || []).includes(((it.why || [])[0] || {}).key);
     for (const n of ALL) {
       const p = plan(n);
       for (const w of p.weeks) for (const d of w.days.filter(x => x.kind === 'main')) for (const b of d.blocks) {
         const its = b.items;
         its.forEach((it, i) => {
           const ex = exOf(it.exercise_id);
+          if (groupBonus(it)) { assert.ok(its.slice(i + 1).every(groupBonus), `${n} w${w.n} ${d.weekday}: bonus ${it.exercise_id} not last`); return; }
           if (!['bonus', 'focus_added'].includes(it.origin) || !ex || ex.exercise_class !== 'compound') return;
           const isoBefore = its.slice(0, i).filter(o => o.origin === 'template' && exOf(o.exercise_id) && exOf(o.exercise_id).exercise_class === 'isolation' && !o.superset);
           assert.equal(isoBefore.length, 0, `${n} w${w.n} ${d.weekday}: ${it.exercise_id} after ${isoBefore.map(o => o.exercise_id).join(', ')}`);

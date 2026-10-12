@@ -18,6 +18,7 @@ _Tu plan Blaze Camp_
 - Bíceps y tríceps: un ejercicio propio en los días de entrenamiento (el espacio de brazos de la plantilla), con sus series fijas. No suben de series como los demás grupos: progrésalos con peso y repeticiones.
 - Los ejercicios a dos piernas son cerca del 50 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
 - Este plan no cuenta tus 2 prácticas de equipo por semana: tómalas en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).
+- Hombros: 3 de sus 11 series finales están en un ejercicio extra, al final de su día (Elevación lateral sentado con mancuernas (Seated Lateral Raise), miércoles), porque los ejercicios de tu plantilla para este grupo ya están en su máximo de series. Si lo omites, el total de hombros queda en unas 8.
 
 ## Instrucciones básicas
 > \*Siempre deja 1 repetición en reserva: nunca llegues al fallo, pero acércate lo más que puedas.
@@ -498,7 +499,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
 5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Ejercicio extra para completar tus series semanales
+   - Ejercicio extra, al final: los ejercicios de tu plantilla para este grupo muscular ya están en su máximo de series, así que este suma las últimas series para llegar a tu número final.
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Nombre para copiar en YouTube: `Seated DB Lateral Raise`
 
@@ -812,7 +813,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
 5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Ejercicio extra para completar tus series semanales
+   - Ejercicio extra, al final: los ejercicios de tu plantilla para este grupo muscular ya están en su máximo de series, así que este suma las últimas series para llegar a tu número final.
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Nombre para copiar en YouTube: `Seated DB Lateral Raise`
 
@@ -1121,7 +1122,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
 5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Ejercicio extra para completar tus series semanales
+   - Ejercicio extra, al final: los ejercicios de tu plantilla para este grupo muscular ya están en su máximo de series, así que este suma las últimas series para llegar a tu número final.
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Nombre para copiar en YouTube: `Seated DB Lateral Raise`
 
@@ -1434,7 +1435,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
 5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Ejercicio extra para completar tus series semanales
+   - Ejercicio extra, al final: los ejercicios de tu plantilla para este grupo muscular ya están en su máximo de series, así que este suma las últimas series para llegar a tu número final.
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Nombre para copiar en YouTube: `Seated DB Lateral Raise`
 
@@ -1748,7 +1749,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
 5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Ejercicio extra para completar tus series semanales
+   - Ejercicio extra, al final: los ejercicios de tu plantilla para este grupo muscular ya están en su máximo de series, así que este suma las últimas series para llegar a tu número final.
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Nombre para copiar en YouTube: `Seated DB Lateral Raise`
 
@@ -2067,7 +2068,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Nombre para copiar en YouTube: `Machine Calf Raise`
 5. **Elevación lateral sentado con mancuernas (Seated Lateral Raise) (extra)** — 3 × 10 a 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Ejercicio extra para completar tus series semanales
+   - Ejercicio extra, al final: los ejercicios de tu plantilla para este grupo muscular ya están en su máximo de series, así que este suma las últimas series para llegar a tu número final.
    - Cambiar por: Elevación lateral con mancuernas, palmas arriba (Supinated Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con mancuernas (DB Upright Row) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición) / Remo al mentón con barra (Upright Row) (mantiene el trabajo de deltoides lateral; pierde el movimiento libre de cada mano) / Elevaciones laterales con mancuernas (Lateral Raise) (mantiene el trabajo de deltoides lateral; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Nombre para copiar en YouTube: `Seated DB Lateral Raise`
 

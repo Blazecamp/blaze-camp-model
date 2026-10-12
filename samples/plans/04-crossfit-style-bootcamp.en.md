@@ -12,6 +12,10 @@ _Your Blaze Camp plan_
 - Terms and release of liability accepted before this plan was built: client, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
+## Before you start
+
+- Quads: 3 of its 18 final sets sit on a bonus exercise, done last in its day (Goblet Squat (Heels Elevated), Monday, from week 5), because your template's lifts for it are at their top sets. Skip it and the quads total ends at about 15.
+
 ## Basic Instruction
 > \*Instead of working to failure, push your limits over the course of time.
 >
@@ -106,7 +110,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
-| Monday | Squat day | about 95-120 min | Quads 3, Back 2, Biceps 1, Calves 1 |
+| Monday | Squat day | about 100-125 min | Quads 2, Back 2, Biceps 1, Calves 1 |
 | Tuesday | Press + snatch day | about 85-105 min | Chest 2, Shoulders 2, Triceps 1 |
 | Wednesday | Aerobic day | about 25-35 min | – |
 | Thursday | Deadlift + push day | about 85-105 min | Hips (glutes + hamstrings) 3, Chest 1, Triceps 1, Calves 1 |
@@ -123,8 +127,8 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Muscle group | Sets each week (weeks 1-8) | Final sets |
 |---|---|---|
-| Quads | 12 13 14 14 · 15 17 18 18 | 18 |
-| Hips (glutes + hamstrings) | 12 13 15 15 · 16 16 18 18 | 18 |
+| Quads | 12 13 14 14 · 16 17 18 18 | 18 |
+| Hips (glutes + hamstrings) | 12 13 15 15 · 15 16 18 18 | 18 |
 | Back | 12 12 12 13 · 14 14 15 15 | 15 |
 | Chest | 11 11 11 12 · 12 13 14 14 | 14 |
 | Shoulders | 12 12 12 13 · 13 13 13 13 | 13 |
@@ -140,13 +144,13 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
 | Copenhagen Plank | 2 2 2 2 · 2 2 2 2 | 10-30 s |
 | Double-Unders (jump rope) | – – – – · – – – – | 6-10 min of quality practice |
-| Front Squat (barbell) | 2 4 4 4 · 5 5 5 4 | 7 Reps → 5 Reps |
+| Front Squat (barbell) | 4 5 5 5 · 5 5 5 4 | 7 Reps → 5 Reps |
 | Inverted Row | 3 3 3 3 · 3 3 3 3 | 10 Reps |
-| Step-Up (forward and lateral) | 3 3 4 4 · 4 5 5 5 | 10/10 |
+| Step-Up (forward and lateral) | 4 5 5 5 · 5 5 5 5 | 10/10 |
 | Pull-up | 3 3 3 3 · 3 3 3 3 | 10 Reps |
-| Front-Foot-Elevated Split Squat / Lunge (FFE) → Goblet Squat (Heels Elevated) | 3 3 3 3 · 3 3 3 3 | 10/10 → 10 Reps |
 | Standing DB Calf Raise (deficit optional) | 3 3 3 3 · 4 4 4 4 | 15 to 20 Reps |
 | Cross-Body Dumbbell Hammer Curl → Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top | 4 4 4 4 · 4 4 4 4 | 15 to 20 per side |
+| Goblet Squat (Heels Elevated) | – – – – · 2 2 3 3 | 10 Reps |
 | WOD (workout of the day) | – – – – · – – – – | AMRAP (as many rounds as possible): 10 min → AMRAP (as many rounds as possible): 15 min |
 
 ### Tuesday · Press + snatch day
@@ -174,7 +178,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Incline Barbell Bench Press | 4 4 4 5 · 5 5 5 5 | 10 Reps |
 | Alternating Staggered-Stance Single-Leg Deadlift (DB) | 3 3 4 4 · 4 4 5 5 | 10/10 |
 | Overhead Dumbbell Triceps Extension | 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
-| Supine Slider Hamstring Curl → Ball Hamstring Curl (medball or stability ball) | 3 3 3 3 · 4 4 4 4 | 15 Reps |
+| Supine Slider Hamstring Curl → Ball Hamstring Curl (medball or stability ball) | 3 3 3 3 · 3 4 4 4 | 15 Reps |
 | Barbell Calf Raise | 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
 | WOD (workout of the day) | – – – – · – – – – | For time: 10 min → For time: 13 min |
 
@@ -186,7 +190,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Dead Bugs | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Hang Power Clean - from the High Hang (hip crease) → Power Clean | 3 3 3 3 · 3 3 3 – | 4 Reps → 2 Reps |
 | Inverted Row - 1-second squeeze at the top | 3 3 3 4 · 4 4 5 5 | 10 Reps |
-| Stationary Lunge (Split Squat) | 3 3 3 3 · 3 4 5 5 | 10/10 |
+| Stationary Lunge (Split Squat) | 3 3 4 4 · 4 5 5 5 | 10/10 |
 | Chin-Up (supinated) | 3 3 3 3 · 4 4 4 4 | 10 Reps |
 | Seated Dumbbell Curl → Dumbbell Curl | 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
 | Seated (Chest-to-Thighs) DB Reverse Fly | 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
@@ -210,12 +214,12 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 6 Olympic-lift sets
 
 ### Monday · Squat day
-_Average time: about 95-120 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Step-Up (forward and lateral) + Pull-up (about 5.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) + Cross-Body Dumbbell Hammer Curl (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl, Standing DB Calf Raise (deficit optional) · bonus exercises: Front-Foot-Elevated Split Squat / Lunge (FFE)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl, Standing DB Calf Raise (deficit optional)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -243,22 +247,22 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Test first: warm up and work up to one top set (3 rep max or work up to a 1 rep max). It replaces this lift's top set this week.
    - Baseline test this week: it sets your starting numbers.
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-2. **Front Squat (barbell)** — 2 × 7 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 7 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 7 on every set with 3 left in the tank, add weight next time.
-   - These 2 sets are your back-off sets after the test: about 3 reps in the tank.
+   - These 4 sets are your back-off sets after the test: about 3 reps in the tank.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the heavier barbell load) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
 3. **Inverted Row** — 3 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-4. **Step-Up (forward and lateral)** — 3 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Step-Up (forward and lateral)** — 4 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 5. **Pull-up** — 3 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
@@ -267,17 +271,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
 
 **Accessories**
-1. **Front-Foot-Elevated Split Squat / Lunge (FFE) (bonus)** — 3 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses the added load) / RFE Split-Squat Isometric Hold (suitcase DB) (keeps the single-leg squat pattern; loses the feel of the original implement) / Jefferson Lunge (keeps the single-leg squat pattern; loses the feel of the original implement) / Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)) · Name to copy into YouTube: `Front-Foot-Elevated Split Squat / Lunge (FFE)`
-2. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl** — 4 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **Cross-Body Dumbbell Hammer Curl** — 4 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
@@ -540,7 +538,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 2.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Front Squat (barbell) (Monday)
+- +1 set on Step-Up (forward and lateral) (Monday): 4 → 5 sets
 - +1 set on Barbell Deadlift (conventional) (Thursday)
 
 **Athletic work this week:** 6 Olympic-lift sets
@@ -552,7 +550,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Front Squat (barbell) + Inverted Row (about 5.5 min saved)_
 _Superset to save time: Step-Up (forward and lateral) + Pull-up (about 5.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) + Cross-Body Dumbbell Hammer Curl (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl, Standing DB Calf Raise (deficit optional) · bonus exercises: Front-Foot-Elevated Split Squat / Lunge (FFE)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl, Standing DB Calf Raise (deficit optional)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -575,7 +573,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Double-Unders%20(jump%20rope)) · Name to copy into YouTube: `Double-Unders (jump rope)`
 
 **Strength**
-1. **Front Squat (barbell)** — 4 × 7 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+1. **Front Squat (barbell)** — 5 × 7 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 7 on every set with 3 left in the tank, add weight next time.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the heavier barbell load) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
@@ -583,11 +581,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-3. **Step-Up (forward and lateral)** — 3 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Step-Up (forward and lateral)** — 5 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 4. **Pull-up** — 3 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
@@ -596,17 +594,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
 
 **Accessories**
-1. **Front-Foot-Elevated Split Squat / Lunge (FFE) (bonus)** — 3 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses the added load) / RFE Split-Squat Isometric Hold (suitcase DB) (keeps the single-leg squat pattern; loses the feel of the original implement) / Jefferson Lunge (keeps the single-leg squat pattern; loses the feel of the original implement) / Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)) · Name to copy into YouTube: `Front-Foot-Elevated Split Squat / Lunge (FFE)`
-2. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl** — 4 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **Cross-Body Dumbbell Hammer Curl** — 4 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
@@ -850,7 +842,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 3.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Step-Up (forward and lateral) (Monday): 3 → 4 sets
+- +1 set on Stationary Lunge (Split Squat) (Friday): 3 → 4 sets
 - +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
@@ -862,7 +854,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Front Squat (barbell) + Inverted Row (about 5.5 min saved)_
 _Superset to save time: Step-Up (forward and lateral) + Pull-up (about 5.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) + Cross-Body Dumbbell Hammer Curl (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl, Standing DB Calf Raise (deficit optional) · bonus exercises: Front-Foot-Elevated Split Squat / Lunge (FFE)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl, Standing DB Calf Raise (deficit optional)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -885,7 +877,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Double-Unders%20(jump%20rope)) · Name to copy into YouTube: `Double-Unders (jump rope)`
 
 **Strength**
-1. **Front Squat (barbell)** — 4 × 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+1. **Front Squat (barbell)** — 5 × 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the heavier barbell load) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
@@ -893,11 +885,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-3. **Step-Up (forward and lateral)** — 4 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Step-Up (forward and lateral)** — 5 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 4. **Pull-up** — 3 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
@@ -906,17 +898,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
 
 **Accessories**
-1. **Front-Foot-Elevated Split Squat / Lunge (FFE) (bonus)** — 3 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses the added load) / RFE Split-Squat Isometric Hold (suitcase DB) (keeps the single-leg squat pattern; loses the feel of the original implement) / Jefferson Lunge (keeps the single-leg squat pattern; loses the feel of the original implement) / Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)) · Name to copy into YouTube: `Front-Foot-Elevated Split Squat / Lunge (FFE)`
-2. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl** — 4 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **Cross-Body Dumbbell Hammer Curl** — 4 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
@@ -1058,7 +1044,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 15 cal on the bike, rower or SkiErg · 12 Reps Barbell Thruster (45-65 lb on the bar) · 12 Reps Inverted Row
 
 ### Friday · Clean + pull day
-_Average time: about 80-95 min (an estimate, for information only)_
+_Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Seated Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
@@ -1090,7 +1076,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-2. **Stationary Lunge (Split Squat)** — 3 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Stationary Lunge (Split Squat)** — 4 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1172,7 +1158,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Front Squat (barbell) + Inverted Row (about 5.5 min saved)_
 _Superset to save time: Step-Up (forward and lateral) + Pull-up (about 5.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) + Cross-Body Dumbbell Hammer Curl (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl, Standing DB Calf Raise (deficit optional) · bonus exercises: Front-Foot-Elevated Split Squat / Lunge (FFE)_
+_Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day) · small-muscle accessories: Cross-Body Dumbbell Hammer Curl, Standing DB Calf Raise (deficit optional)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1195,7 +1181,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Double-Unders%20(jump%20rope)) · Name to copy into YouTube: `Double-Unders (jump rope)`
 
 **Strength**
-1. **Front Squat (barbell)** — 4 × 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+1. **Front Squat (barbell)** — 5 × 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the heavier barbell load) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
@@ -1203,11 +1189,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-3. **Step-Up (forward and lateral)** — 4 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Step-Up (forward and lateral)** — 5 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
-   - Swap for: Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - Swap for: Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 4. **Pull-up** — 3 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
@@ -1216,17 +1202,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
 
 **Accessories**
-1. **Front-Foot-Elevated Split Squat / Lunge (FFE) (bonus)** — 3 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
-   - per side = 1 set
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Reverse Lunge (keeps the single-leg squat pattern; loses the added load) / RFE Split-Squat Isometric Hold (suitcase DB) (keeps the single-leg squat pattern; loses the feel of the original implement) / Jefferson Lunge (keeps the single-leg squat pattern; loses the feel of the original implement) / Deficit Reverse Lunge (standing on plate/step) (keeps the single-leg squat pattern; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)) · Name to copy into YouTube: `Front-Foot-Elevated Split Squat / Lunge (FFE)`
-2. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+1. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl** — 4 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **Cross-Body Dumbbell Hammer Curl** — 4 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
@@ -1368,7 +1348,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 15 cal on the bike, rower or SkiErg · 12 Reps Barbell Thruster (45-65 lb on the bar) · 12 Reps Inverted Row
 
 ### Friday · Clean + pull day
-_Average time: about 85-105 min (an estimate, for information only)_
+_Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Seated Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
@@ -1400,7 +1380,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-2. **Stationary Lunge (Split Squat)** — 3 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Stationary Lunge (Split Squat)** — 4 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1470,14 +1450,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 6.3 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- New exercise block: 12 exercises change a little (another version or one new detail); the rest stay
-- Monday: Front-Foot-Elevated Split Squat / Lunge (FFE) → Goblet Squat (Heels Elevated); Cross-Body Dumbbell Hammer Curl → Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top
+- New exercise block: 11 exercises change a little (another version or one new detail); the rest stay
+- Monday: Cross-Body Dumbbell Hammer Curl → Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top
 - Tuesday: Weighted Sit-Up → Weighted Decline Sit-Up; Hang Power Snatch - from the High Hang → Power Snatch; Dumbbell Triceps Kickback (one or both arms) → Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top; Calorie Effort: 15 cal (bike / rower / ski) → Low Box Jump (Half-Shin Height)
 - Thursday: Supine Slider Hamstring Curl → Ball Hamstring Curl (medball or stability ball); Calorie Effort: 35 cal (bike / rower / ski) → Burpees
 - Friday: Hang Power Clean - from the High Hang (hip crease) → Power Clean; Seated Dumbbell Curl → Dumbbell Curl; Medball Rotational Side-to-Side Floor Slams → Knees to Chest (hanging)
 - Saturday: Calorie Effort: 10 cal (bike / rower / ski) → Double-Unders (jump rope)
-- +1 set on Front Squat (barbell) (Monday): 4 → 5 sets
-- +1 set on Ball Hamstring Curl (medball or stability ball) (Thursday): 3 → 4 sets
+- New bonus exercise: Goblet Squat (Heels Elevated) (Monday)
 - +1 set on Chin-Up (supinated) (Friday): 3 → 4 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Monday): 3 → 4 sets
 
@@ -1521,7 +1500,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-3. **Step-Up (forward and lateral)** — 4 × 10/10 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Step-Up (forward and lateral)** — 5 × 10/10 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1534,20 +1513,20 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
 
 **Accessories**
-1. **Goblet Squat (Heels Elevated) (bonus)** — 3 × 10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
-   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Sumo Squat (DB or KB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)) · Name to copy into YouTube: `Goblet Squat (Heels Elevated)`
-2. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Cross-Body%20Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Cross-Body Dumbbell Hammer Curl`
+3. **Goblet Squat (Heels Elevated) (bonus)** — 2 × 10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
+   - Swap for: High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Sumo Squat (DB or KB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)) · Name to copy into YouTube: `Goblet Squat (Heels Elevated)`
 
 **Conditioning**
 1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 15 min · hard but sustainable; keep the movement clean
@@ -1668,7 +1647,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Bench Dip (keeps the triceps work; loses the added load) / JM Press (keeps the triceps work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
-2. **Ball Hamstring Curl (medball or stability ball)** — 4 × 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **Ball Hamstring Curl (medball or stability ball)** — 3 × 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Supine Slider Hamstring Curl (keeps the hamstring curl; loses little - same movement, another grip or position) / Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball)) · Name to copy into YouTube: `Ball Hamstring Curl (medball or stability ball)`
@@ -1719,7 +1698,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-2. **Stationary Lunge (Split Squat)** — 3 × 10/10 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Stationary Lunge (Split Squat)** — 4 × 10/10 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1787,14 +1766,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 7.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Step-Up (forward and lateral) (Monday): 4 → 5 sets
-- +1 set on Stationary Lunge (Split Squat) (Friday): 3 → 4 sets
+- +1 set on Stationary Lunge (Split Squat) (Friday): 4 → 5 sets
+- +1 set on Ball Hamstring Curl (medball or stability ball) (Thursday): 3 → 4 sets
 - +1 set on Flat DB Fly (Tuesday): 3 → 4 sets
 
 **Athletic work this week:** 6 Olympic-lift sets
 
 ### Monday · Squat day
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Front Squat (barbell) + Inverted Row (about 5.5 min saved)_
@@ -1844,20 +1823,20 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
 
 **Accessories**
-1. **Goblet Squat (Heels Elevated) (bonus)** — 3 × 10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
-   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Sumo Squat (DB or KB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)) · Name to copy into YouTube: `Goblet Squat (Heels Elevated)`
-2. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Cross-Body%20Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Cross-Body Dumbbell Hammer Curl`
+3. **Goblet Squat (Heels Elevated) (bonus)** — 2 × 10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
+   - Swap for: High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Sumo Squat (DB or KB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)) · Name to copy into YouTube: `Goblet Squat (Heels Elevated)`
 
 **Conditioning**
 1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 17 min · hard but sustainable; keep the movement clean
@@ -1997,7 +1976,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 10 Reps Burpees · 15 Reps Medball Rotational Downward Slam · 15 cal on the bike, rower or SkiErg · 12 Reps Barbell Thruster (45-65 lb on the bar)
 
 ### Friday · Clean + pull day
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
@@ -2029,7 +2008,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-2. **Stationary Lunge (Split Squat)** — 4 × 10/10 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Stationary Lunge (Split Squat)** — 5 × 10/10 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -2097,7 +2076,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 9.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Stationary Lunge (Split Squat) (Friday): 4 → 5 sets
+- +1 set on Goblet Squat (Heels Elevated) (Monday): 2 → 3 sets
 - +1 set on Barbell Deadlift (conventional) (Thursday): 4 → 5 sets
 - +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Thursday): 4 → 5 sets
 - +1 set on Inverted Row (Friday): 4 → 5 sets
@@ -2158,20 +2137,20 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
 
 **Accessories**
-1. **Goblet Squat (Heels Elevated) (bonus)** — 3 × 10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
-   - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Sumo Squat (DB or KB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)) · Name to copy into YouTube: `Goblet Squat (Heels Elevated)`
-2. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+2. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Cross-Body%20Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Cross-Body Dumbbell Hammer Curl`
+3. **Goblet Squat (Heels Elevated) (bonus)** — 3 × 10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time.
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
+   - Swap for: High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Sumo Squat (DB or KB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)) · Name to copy into YouTube: `Goblet Squat (Heels Elevated)`
 
 **Conditioning**
 1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 18 min · hard but sustainable; keep the movement clean
@@ -2472,20 +2451,20 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
 
 **Accessories**
-1. **Goblet Squat (Heels Elevated) (bonus)** — 3 × 10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
-   - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Sumo Squat (DB or KB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)) · Name to copy into YouTube: `Goblet Squat (Heels Elevated)`
-2. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Swap for: Barbell Calf Raise (keeps the calf work; loses each hand moving on its own) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-3. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+2. **Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top** — 4 × 15 to 20 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 1 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Dumbbell Concentration Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Cross-Body%20Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Cross-Body Dumbbell Hammer Curl`
+3. **Goblet Squat (Heels Elevated) (bonus)** — 3 × 10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time.
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
+   - Swap for: High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the easier set-up - this one is harder) / Sumo Squat (DB or KB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)) · Name to copy into YouTube: `Goblet Squat (Heels Elevated)`
 
 **Conditioning**
 1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 20 min · hard but sustainable; keep the movement clean

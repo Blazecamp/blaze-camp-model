@@ -21,7 +21,10 @@ the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` an
 > `rules.selection.s6.arm_slot` {every_athletic_day, full_day} with the day why `why.arm_slot` (in
 > `rules.validation.v05.skeleton.absent_ok_whys`); `rules.placement.x3.bonus_small_only` {big_when_needed, big_main_day_families},
 > `rules.placement.x3.reach_planned` {max_bonus_per_group}, `rules.volume.x3.group_max` {sets: 35}. Scorer 2.4.1. Contract and plan
-> schema versions are unchanged.
+> schema versions are unchanged. Round-7 fix round (G-217 ... G-225): `rules.placement.x3.bonus_last` (one rule for every bonus exercise
+> of a group: opened only by the exercise block that needs it, never a step while a template lift has room, a whole bonus or none, the
+> first exposure first, none on 2 days when the training days hold the band, printed last) and the plan field
+> `meta.stairway[].main_bonus` [{group, slot_id, exercise_block}]; scorer 2.5.
 
 > **Engine 0.6 volume package (volume targets and set placement; 2026-10-11) - binding, on top of the fix-round-2 box below.**
 > Authority: the coach answers named per item (`engine/DECISIONS.md` G-100 ... G-116), read against the round-4 coach-eye reviews

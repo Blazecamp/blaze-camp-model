@@ -324,7 +324,7 @@
             13,
             14,
             14,
-            15,
+            16,
             17,
             18,
             18
@@ -443,6 +443,13 @@
         "capped": [],
         "below_floor": [],
         "bonus": [],
+        "main_bonus": [
+          {
+            "group": "quads",
+            "slot_id": "Mon.SQUAT.x01",
+            "exercise_block": 2
+          }
+        ],
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
@@ -1552,7 +1559,7 @@
       "total_main_sets": 74,
       "group_counts_by_day": {
         "Mon": {
-          "quads": 3,
+          "quads": 2,
           "back": 2,
           "biceps": 1,
           "calves": 1
@@ -1635,9 +1642,9 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.SQUAT",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 107,
+          "est_minutes": 112,
           "aerobic_minutes": 0,
-          "exercise_count": 7,
+          "exercise_count": 6,
           "skeleton": "class_squat",
           "easy_to_remove": [
             {
@@ -1651,10 +1658,6 @@
             {
               "slot_id": "Mon.SQUAT.s10",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Mon.SQUAT.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -1695,7 +1698,7 @@
           ],
           "toggle_items": [],
           "groups": {
-            "quads": 3,
+            "quads": 2,
             "back": 2,
             "biceps": 1,
             "calves": 1
@@ -2262,7 +2265,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "fixed",
                     "value": 7
@@ -2315,7 +2318,7 @@
                     {
                       "key": "note.test_back_off",
                       "args": {
-                        "n": 2,
+                        "n": 4,
                         "rir": "3"
                       }
                     },
@@ -2551,7 +2554,7 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -2613,11 +2616,17 @@
                     }
                   ],
                   "swaps": [
+                    "front-foot-elevated-split-squat-lunge-ffe",
                     "stationary-lunge-split-squat",
                     "reverse-lunge",
                     "side-lateral-lunge"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "front-foot-elevated-split-squat-lunge-ffe",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.little"
+                    },
                     {
                       "id": "stationary-lunge-split-squat",
                       "keeps": "swap.keeps.UKD",
@@ -2804,146 +2813,6 @@
               "movable": false,
               "circuit": null,
               "items": [
-                {
-                  "slot_id": "Mon.SQUAT.x01",
-                  "station_id": "SQUAT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "quads",
-                  "exercise_id": "front-foot-elevated-split-squat-lunge-ffe",
-                  "name_key": "exercise.front-foot-elevated-split-squat-lunge-ffe.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)",
-                    "copy_name": "Front-Foot-Elevated Split Squat / Lunge (FFE)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 10,
-                    "max": 10
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 120
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "unilateral",
-                  "loading": null,
-                  "credits": {
-                    "quads": 1,
-                    "glutes": 0.25,
-                    "adductors": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "load_when_all_sets_done",
-                    "rep_range": [
-                      10,
-                      10
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    },
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "reverse-lunge",
-                    "rfe-split-squat-isometric-hold-suitcase-db",
-                    "jefferson-lunge",
-                    "deficit-reverse-lunge-standing-on-plate-step"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "reverse-lunge",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.external_load"
-                    },
-                    {
-                      "id": "rfe-split-squat-isometric-hold-suitcase-db",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "jefferson-lunge",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "deficit-reverse-lunge-standing-on-plate-step",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.simplicity"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "quads"
-                      }
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    },
-                    {
-                      "key": "why.class_level",
-                      "ref": "OT18"
-                    },
-                    {
-                      "key": "why.unilateral_reps",
-                      "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
                 {
                   "slot_id": "Mon.SQUAT.s10",
                   "station_id": "SQUAT.s10",
@@ -8485,7 +8354,7 @@
       "total_main_sets": 76,
       "group_counts_by_day": {
         "Mon": {
-          "quads": 3,
+          "quads": 2,
           "back": 2,
           "biceps": 1,
           "calves": 1
@@ -8544,9 +8413,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "front-squat-barbell",
+            "exercise": "step-up-forward-and-lateral",
             "day": "Mon",
-            "slot_id": "Mon.SQUAT.s06"
+            "slot_id": "Mon.SQUAT.s08"
           }
         },
         {
@@ -8585,9 +8454,9 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.SQUAT",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 103,
+          "est_minutes": 106,
           "aerobic_minutes": 0,
-          "exercise_count": 7,
+          "exercise_count": 6,
           "skeleton": "class_squat",
           "easy_to_remove": [
             {
@@ -8601,10 +8470,6 @@
             {
               "slot_id": "Mon.SQUAT.s10",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Mon.SQUAT.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -8654,7 +8519,7 @@
           ],
           "toggle_items": [],
           "groups": {
-            "quads": 3,
+            "quads": 2,
             "back": 2,
             "biceps": 1,
             "calves": 1
@@ -9092,7 +8957,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "fixed",
                     "value": 7
@@ -9362,7 +9227,7 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 3,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -9418,11 +9283,17 @@
                     }
                   ],
                   "swaps": [
+                    "front-foot-elevated-split-squat-lunge-ffe",
                     "stationary-lunge-split-squat",
                     "reverse-lunge",
                     "side-lateral-lunge"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "front-foot-elevated-split-squat-lunge-ffe",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.little"
+                    },
                     {
                       "id": "stationary-lunge-split-squat",
                       "keeps": "swap.keeps.UKD",
@@ -9609,146 +9480,6 @@
               "movable": false,
               "circuit": null,
               "items": [
-                {
-                  "slot_id": "Mon.SQUAT.x01",
-                  "station_id": "SQUAT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "quads",
-                  "exercise_id": "front-foot-elevated-split-squat-lunge-ffe",
-                  "name_key": "exercise.front-foot-elevated-split-squat-lunge-ffe.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)",
-                    "copy_name": "Front-Foot-Elevated Split Squat / Lunge (FFE)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 10,
-                    "max": 10
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 120
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "unilateral",
-                  "loading": null,
-                  "credits": {
-                    "quads": 1,
-                    "glutes": 0.25,
-                    "adductors": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "load_when_all_sets_done",
-                    "rep_range": [
-                      10,
-                      10
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    },
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "reverse-lunge",
-                    "rfe-split-squat-isometric-hold-suitcase-db",
-                    "jefferson-lunge",
-                    "deficit-reverse-lunge-standing-on-plate-step"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "reverse-lunge",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.external_load"
-                    },
-                    {
-                      "id": "rfe-split-squat-isometric-hold-suitcase-db",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "jefferson-lunge",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "deficit-reverse-lunge-standing-on-plate-step",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.simplicity"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "quads"
-                      }
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    },
-                    {
-                      "key": "why.class_level",
-                      "ref": "OT18"
-                    },
-                    {
-                      "key": "why.unilateral_reps",
-                      "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
                 {
                   "slot_id": "Mon.SQUAT.s10",
                   "station_id": "SQUAT.s10",
@@ -15004,7 +14735,7 @@
       "total_main_sets": 78,
       "group_counts_by_day": {
         "Mon": {
-          "quads": 3,
+          "quads": 2,
           "back": 2,
           "biceps": 1,
           "calves": 1
@@ -15063,9 +14794,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "step-up-forward-and-lateral",
-            "day": "Mon",
-            "slot_id": "Mon.SQUAT.s08"
+            "exercise": "stationary-lunge-split-squat",
+            "day": "Fri",
+            "slot_id": "Fri.CLEAN/PUSH.s14"
           }
         },
         {
@@ -15106,7 +14837,7 @@
           "format": "straight",
           "est_minutes": 107,
           "aerobic_minutes": 0,
-          "exercise_count": 7,
+          "exercise_count": 6,
           "skeleton": "class_squat",
           "easy_to_remove": [
             {
@@ -15120,10 +14851,6 @@
             {
               "slot_id": "Mon.SQUAT.s10",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Mon.SQUAT.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -15173,7 +14900,7 @@
           ],
           "toggle_items": [],
           "groups": {
-            "quads": 3,
+            "quads": 2,
             "back": 2,
             "biceps": 1,
             "calves": 1
@@ -15611,7 +15338,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "fixed",
                     "value": 6
@@ -15881,7 +15608,7 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -15937,11 +15664,17 @@
                     }
                   ],
                   "swaps": [
+                    "front-foot-elevated-split-squat-lunge-ffe",
                     "stationary-lunge-split-squat",
                     "reverse-lunge",
                     "side-lateral-lunge"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "front-foot-elevated-split-squat-lunge-ffe",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.little"
+                    },
                     {
                       "id": "stationary-lunge-split-squat",
                       "keeps": "swap.keeps.UKD",
@@ -16128,146 +15861,6 @@
               "movable": false,
               "circuit": null,
               "items": [
-                {
-                  "slot_id": "Mon.SQUAT.x01",
-                  "station_id": "SQUAT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "quads",
-                  "exercise_id": "front-foot-elevated-split-squat-lunge-ffe",
-                  "name_key": "exercise.front-foot-elevated-split-squat-lunge-ffe.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)",
-                    "copy_name": "Front-Foot-Elevated Split Squat / Lunge (FFE)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 10,
-                    "max": 10
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 120
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "unilateral",
-                  "loading": null,
-                  "credits": {
-                    "quads": 1,
-                    "glutes": 0.25,
-                    "adductors": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "load_when_all_sets_done",
-                    "rep_range": [
-                      10,
-                      10
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    },
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "reverse-lunge",
-                    "rfe-split-squat-isometric-hold-suitcase-db",
-                    "jefferson-lunge",
-                    "deficit-reverse-lunge-standing-on-plate-step"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "reverse-lunge",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.external_load"
-                    },
-                    {
-                      "id": "rfe-split-squat-isometric-hold-suitcase-db",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "jefferson-lunge",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "deficit-reverse-lunge-standing-on-plate-step",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.simplicity"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "quads"
-                      }
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    },
-                    {
-                      "key": "why.class_level",
-                      "ref": "OT18"
-                    },
-                    {
-                      "key": "why.unilateral_reps",
-                      "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
                 {
                   "slot_id": "Mon.SQUAT.s10",
                   "station_id": "SQUAT.s10",
@@ -19400,7 +18993,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.CLEAN/PUSH",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 88,
+          "est_minutes": 91,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "class_pull",
@@ -20051,7 +19644,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -21528,7 +21121,7 @@
       "total_main_sets": 80,
       "group_counts_by_day": {
         "Mon": {
-          "quads": 3,
+          "quads": 2,
           "back": 2,
           "biceps": 1,
           "calves": 1
@@ -21630,7 +21223,7 @@
           "format": "straight",
           "est_minutes": 108,
           "aerobic_minutes": 0,
-          "exercise_count": 7,
+          "exercise_count": 6,
           "skeleton": "class_squat",
           "easy_to_remove": [
             {
@@ -21644,10 +21237,6 @@
             {
               "slot_id": "Mon.SQUAT.s10",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Mon.SQUAT.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -21697,7 +21286,7 @@
           ],
           "toggle_items": [],
           "groups": {
-            "quads": 3,
+            "quads": 2,
             "back": 2,
             "biceps": 1,
             "calves": 1
@@ -22135,7 +21724,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "fixed",
                     "value": 6
@@ -22405,7 +21994,7 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -22461,11 +22050,17 @@
                     }
                   ],
                   "swaps": [
+                    "front-foot-elevated-split-squat-lunge-ffe",
                     "stationary-lunge-split-squat",
                     "reverse-lunge",
                     "side-lateral-lunge"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "front-foot-elevated-split-squat-lunge-ffe",
+                      "keeps": "swap.keeps.UKD",
+                      "loses": "swap.loses.little"
+                    },
                     {
                       "id": "stationary-lunge-split-squat",
                       "keeps": "swap.keeps.UKD",
@@ -22652,146 +22247,6 @@
               "movable": false,
               "circuit": null,
               "items": [
-                {
-                  "slot_id": "Mon.SQUAT.x01",
-                  "station_id": "SQUAT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "quads",
-                  "exercise_id": "front-foot-elevated-split-squat-lunge-ffe",
-                  "name_key": "exercise.front-foot-elevated-split-squat-lunge-ffe.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Front-Foot-Elevated%20Split%20Squat%20%2F%20Lunge%20(FFE)",
-                    "copy_name": "Front-Foot-Elevated Split Squat / Lunge (FFE)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 10,
-                    "max": 10
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 120
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "unilateral",
-                  "loading": null,
-                  "credits": {
-                    "quads": 1,
-                    "glutes": 0.25,
-                    "adductors": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "load_when_all_sets_done",
-                    "rep_range": [
-                      10,
-                      10
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    },
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "reverse-lunge",
-                    "rfe-split-squat-isometric-hold-suitcase-db",
-                    "jefferson-lunge",
-                    "deficit-reverse-lunge-standing-on-plate-step"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "reverse-lunge",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.external_load"
-                    },
-                    {
-                      "id": "rfe-split-squat-isometric-hold-suitcase-db",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "jefferson-lunge",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "deficit-reverse-lunge-standing-on-plate-step",
-                      "keeps": "swap.keeps.UKD",
-                      "loses": "swap.loses.simplicity"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "quads"
-                      }
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    },
-                    {
-                      "key": "why.class_level",
-                      "ref": "OT18"
-                    },
-                    {
-                      "key": "why.unilateral_reps",
-                      "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
                 {
                   "slot_id": "Mon.SQUAT.s10",
                   "station_id": "SQUAT.s10",
@@ -25924,7 +25379,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.CLEAN/PUSH",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 95,
+          "est_minutes": 98,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "class_pull",
@@ -26575,7 +26030,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -27939,7 +27394,7 @@
       "test": null,
       "circuit": null,
       "step_by_muscle": {
-        "quads": 0.0714,
+        "quads": 0.1429,
         "hamstrings": 0.0714,
         "chest": 0,
         "lats_upper_back": 0.0769,
@@ -27949,7 +27404,7 @@
         "calves": 0.1667
       },
       "target_by_muscle": {
-        "quads": 15,
+        "quads": 16,
         "hamstrings": 15,
         "glutes": null,
         "chest": 12,
@@ -27960,9 +27415,9 @@
         "calves": 7
       },
       "weekly_sets_by_muscle": {
-        "quads": 15,
-        "hamstrings": 12,
-        "glutes": 5.75,
+        "quads": 16,
+        "hamstrings": 11,
+        "glutes": 6,
         "chest": 12,
         "lats_upper_back": 14,
         "side_delts": 4.75,
@@ -27974,12 +27429,12 @@
         "forearms": 1.75,
         "front_delts": 5.25,
         "traps": 0,
-        "adductors": 3.75,
+        "adductors": 4,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 15,
-        "hamstrings": 12,
+        "quads": 16,
+        "hamstrings": 11,
         "glutes": 0,
         "chest": 12,
         "lats_upper_back": 14,
@@ -27996,9 +27451,9 @@
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 15,
-        "hamstrings": 12,
-        "glutes": 5.75,
+        "quads": 16,
+        "hamstrings": 11,
+        "glutes": 6,
         "chest": 12,
         "lats_upper_back": 14,
         "shoulders": 13,
@@ -28007,9 +27462,9 @@
         "calves": 7
       },
       "weekly_sets_by_line": {
-        "quads": 15,
-        "hamstrings": 12,
-        "glutes": 5.75,
+        "quads": 16,
+        "hamstrings": 11,
+        "glutes": 6,
         "chest": 12,
         "lats_upper_back": 14,
         "shoulders": 13,
@@ -28018,8 +27473,8 @@
         "calves": 7
       },
       "weekly_sets_by_group": {
-        "quads": 15,
-        "hips": 15.75,
+        "quads": 16,
+        "hips": 15,
         "back": 14,
         "chest": 12,
         "shoulders": 13,
@@ -28028,8 +27483,8 @@
         "calves": 7
       },
       "main_sets_by_group": {
-        "quads": 15,
-        "hips": 15.75,
+        "quads": 16,
+        "hips": 15,
         "back": 14,
         "chest": 12,
         "shoulders": 13,
@@ -28038,7 +27493,7 @@
         "calves": 7
       },
       "target_by_group": {
-        "quads": 15,
+        "quads": 16,
         "hips": 15,
         "back": 14,
         "chest": 12,
@@ -28113,19 +27568,11 @@
           "args": {}
         },
         {
-          "key": "changes.set_added",
+          "key": "changes.bonus_added",
           "args": {
-            "exercise": "front-squat-barbell",
+            "exercise": "goblet-squat-heels-elevated",
             "day": "Mon",
-            "slot_id": "Mon.SQUAT.s06"
-          }
-        },
-        {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "ball-hamstring-curl-medball-or-stability-ball",
-            "day": "Thu",
-            "slot_id": "Thu.DEADLIFT.s09"
+            "slot_id": "Mon.SQUAT.x01"
           }
         },
         {
@@ -28172,7 +27619,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.SQUAT",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 116,
+          "est_minutes": 117,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "class_squat",
@@ -28973,7 +28420,7 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -29235,134 +28682,6 @@
               "circuit": null,
               "items": [
                 {
-                  "slot_id": "Mon.SQUAT.x01",
-                  "station_id": "SQUAT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "quads",
-                  "exercise_id": "goblet-squat-heels-elevated",
-                  "name_key": "exercise.goblet-squat-heels-elevated.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)",
-                    "copy_name": "Goblet Squat (Heels Elevated)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "fixed",
-                    "value": 10
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 120
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "quads": 1,
-                    "glutes": 0.25,
-                    "adductors": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "load_when_all_sets_done",
-                    "rep_range": [
-                      10,
-                      10
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "high-zercher-db-squat-db-hugged-high-at-chest",
-                    "sumo-squat-db-or-kb",
-                    "goblet-squat-kb-db",
-                    "box-goblet-squat-touch-and-go"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "high-zercher-db-squat-db-hugged-high-at-chest",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "sumo-squat-db-or-kb",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "goblet-squat-kb-db",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "box-goblet-squat-touch-and-go",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "quads"
-                      }
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.class_level",
-                      "ref": "OT18"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
                   "slot_id": "Mon.SQUAT.s10",
                   "station_id": "SQUAT.s10",
                   "bucket": "ISO_CALF",
@@ -29616,6 +28935,134 @@
                     }
                   ],
                   "superset_suggested": "X1"
+                },
+                {
+                  "slot_id": "Mon.SQUAT.x01",
+                  "station_id": "SQUAT.x01",
+                  "bucket": "FOCUS",
+                  "role": "focus",
+                  "origin": "bonus",
+                  "group": "quads",
+                  "exercise_id": "goblet-squat-heels-elevated",
+                  "name_key": "exercise.goblet-squat-heels-elevated.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)",
+                    "copy_name": "Goblet Squat (Heels Elevated)"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "fixed",
+                    "value": 10
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "rir",
+                    "min": 2,
+                    "max": 2,
+                    "rpe_min": 8,
+                    "rpe_max": 8,
+                    "last_set": null,
+                    "intensifier": false
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 60,
+                    "max": 120
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "quads": 1,
+                    "glutes": 0.25,
+                    "adductors": 0.25
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": {
+                    "kind": "load_when_all_sets_done",
+                    "rep_range": [
+                      10,
+                      10
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
+                  "notes": [
+                    {
+                      "key": "note.bonus_final"
+                    }
+                  ],
+                  "swaps": [
+                    "high-zercher-db-squat-db-hugged-high-at-chest",
+                    "sumo-squat-db-or-kb",
+                    "goblet-squat-kb-db",
+                    "box-goblet-squat-touch-and-go"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "high-zercher-db-squat-db-hugged-high-at-chest",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "sumo-squat-db-or-kb",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "goblet-squat-kb-db",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "box-goblet-squat-touch-and-go",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.bonus_main_day",
+                      "ref": "R4-SES-05",
+                      "args": {
+                        "group": "quads"
+                      }
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.class_level",
+                      "ref": "OT18"
+                    },
+                    {
+                      "key": "why.planned_rir",
+                      "ref": "R2-PER-05",
+                      "args": {
+                        "rir": "2"
+                      }
+                    },
+                    {
+                      "key": "why.rest",
+                      "ref": "VOL-14"
+                    }
+                  ],
+                  "superset_suggested": null
                 }
               ],
               "id": "blk.mon-squat.accessories.1",
@@ -31174,7 +30621,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.DEADLIFT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 105,
+          "est_minutes": 103,
           "aerobic_minutes": 0,
           "exercise_count": 6,
           "skeleton": "class_deadlift",
@@ -32255,7 +31702,7 @@
                     "url": "https://www.youtube.com/results?search_query=Ball%20Hamstring%20Curl%20(medball%20or%20stability%20ball)",
                     "copy_name": "Ball Hamstring Curl (medball or stability ball)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -32622,7 +32069,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.CLEAN/PUSH",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 99,
+          "est_minutes": 102,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "class_pull",
@@ -33287,7 +32734,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -34668,7 +34115,7 @@
       "test": null,
       "circuit": null,
       "step_by_muscle": {
-        "quads": 0.1333,
+        "quads": 0.0625,
         "hamstrings": 0.0667,
         "chest": 0.0833,
         "lats_upper_back": 0,
@@ -34840,17 +34287,17 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "step-up-forward-and-lateral",
-            "day": "Mon",
-            "slot_id": "Mon.SQUAT.s08"
+            "exercise": "stationary-lunge-split-squat",
+            "day": "Fri",
+            "slot_id": "Fri.CLEAN/PUSH.s14"
           }
         },
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "stationary-lunge-split-squat",
-            "day": "Fri",
-            "slot_id": "Fri.CLEAN/PUSH.s14"
+            "exercise": "ball-hamstring-curl-medball-or-stability-ball",
+            "day": "Thu",
+            "slot_id": "Thu.DEADLIFT.s09"
           }
         },
         {
@@ -34889,7 +34336,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.SQUAT",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 121,
+          "est_minutes": 119,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "class_squat",
@@ -35952,134 +35399,6 @@
               "circuit": null,
               "items": [
                 {
-                  "slot_id": "Mon.SQUAT.x01",
-                  "station_id": "SQUAT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "quads",
-                  "exercise_id": "goblet-squat-heels-elevated",
-                  "name_key": "exercise.goblet-squat-heels-elevated.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)",
-                    "copy_name": "Goblet Squat (Heels Elevated)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "fixed",
-                    "value": 10
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 120
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "quads": 1,
-                    "glutes": 0.25,
-                    "adductors": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "load_when_all_sets_done",
-                    "rep_range": [
-                      10,
-                      10
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "high-zercher-db-squat-db-hugged-high-at-chest",
-                    "sumo-squat-db-or-kb",
-                    "goblet-squat-kb-db",
-                    "box-goblet-squat-touch-and-go"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "high-zercher-db-squat-db-hugged-high-at-chest",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "sumo-squat-db-or-kb",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "goblet-squat-kb-db",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "box-goblet-squat-touch-and-go",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "quads"
-                      }
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.class_level",
-                      "ref": "OT18"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
                   "slot_id": "Mon.SQUAT.s10",
                   "station_id": "SQUAT.s10",
                   "bucket": "ISO_CALF",
@@ -36333,6 +35652,134 @@
                     }
                   ],
                   "superset_suggested": "X1"
+                },
+                {
+                  "slot_id": "Mon.SQUAT.x01",
+                  "station_id": "SQUAT.x01",
+                  "bucket": "FOCUS",
+                  "role": "focus",
+                  "origin": "bonus",
+                  "group": "quads",
+                  "exercise_id": "goblet-squat-heels-elevated",
+                  "name_key": "exercise.goblet-squat-heels-elevated.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)",
+                    "copy_name": "Goblet Squat (Heels Elevated)"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "fixed",
+                    "value": 10
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "rir",
+                    "min": 2,
+                    "max": 2,
+                    "rpe_min": 8,
+                    "rpe_max": 8,
+                    "last_set": null,
+                    "intensifier": false
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 60,
+                    "max": 120
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "quads": 1,
+                    "glutes": 0.25,
+                    "adductors": 0.25
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": {
+                    "kind": "load_when_all_sets_done",
+                    "rep_range": [
+                      10,
+                      10
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
+                  "notes": [
+                    {
+                      "key": "note.bonus_final"
+                    }
+                  ],
+                  "swaps": [
+                    "high-zercher-db-squat-db-hugged-high-at-chest",
+                    "sumo-squat-db-or-kb",
+                    "goblet-squat-kb-db",
+                    "box-goblet-squat-touch-and-go"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "high-zercher-db-squat-db-hugged-high-at-chest",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "sumo-squat-db-or-kb",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "goblet-squat-kb-db",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "box-goblet-squat-touch-and-go",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.bonus_main_day",
+                      "ref": "R4-SES-05",
+                      "args": {
+                        "group": "quads"
+                      }
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.class_level",
+                      "ref": "OT18"
+                    },
+                    {
+                      "key": "why.planned_rir",
+                      "ref": "R2-PER-05",
+                      "args": {
+                        "rir": "2"
+                      }
+                    },
+                    {
+                      "key": "why.rest",
+                      "ref": "VOL-14"
+                    }
+                  ],
+                  "superset_suggested": null
                 }
               ],
               "id": "blk.mon-squat.accessories.1",
@@ -39339,7 +38786,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.CLEAN/PUSH",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 104,
+          "est_minutes": 107,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "class_pull",
@@ -40004,7 +39451,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -41557,9 +41004,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "stationary-lunge-split-squat",
-            "day": "Fri",
-            "slot_id": "Fri.CLEAN/PUSH.s14"
+            "exercise": "goblet-squat-heels-elevated",
+            "day": "Mon",
+            "slot_id": "Mon.SQUAT.x01"
           }
         },
         {
@@ -42701,134 +42148,6 @@
               "circuit": null,
               "items": [
                 {
-                  "slot_id": "Mon.SQUAT.x01",
-                  "station_id": "SQUAT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "quads",
-                  "exercise_id": "goblet-squat-heels-elevated",
-                  "name_key": "exercise.goblet-squat-heels-elevated.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)",
-                    "copy_name": "Goblet Squat (Heels Elevated)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "fixed",
-                    "value": 10
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 120
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "quads": 1,
-                    "glutes": 0.25,
-                    "adductors": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "load_when_all_sets_done",
-                    "rep_range": [
-                      10,
-                      10
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "high-zercher-db-squat-db-hugged-high-at-chest",
-                    "sumo-squat-db-or-kb",
-                    "goblet-squat-kb-db",
-                    "box-goblet-squat-touch-and-go"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "high-zercher-db-squat-db-hugged-high-at-chest",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "sumo-squat-db-or-kb",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "goblet-squat-kb-db",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "box-goblet-squat-touch-and-go",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "quads"
-                      }
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.class_level",
-                      "ref": "OT18"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1-2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
                   "slot_id": "Mon.SQUAT.s10",
                   "station_id": "SQUAT.s10",
                   "bucket": "ISO_CALF",
@@ -43082,6 +42401,134 @@
                     }
                   ],
                   "superset_suggested": "X1"
+                },
+                {
+                  "slot_id": "Mon.SQUAT.x01",
+                  "station_id": "SQUAT.x01",
+                  "bucket": "FOCUS",
+                  "role": "focus",
+                  "origin": "bonus",
+                  "group": "quads",
+                  "exercise_id": "goblet-squat-heels-elevated",
+                  "name_key": "exercise.goblet-squat-heels-elevated.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)",
+                    "copy_name": "Goblet Squat (Heels Elevated)"
+                  },
+                  "sets": 3,
+                  "reps": {
+                    "type": "fixed",
+                    "value": 10
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "rir",
+                    "min": 1,
+                    "max": 2,
+                    "rpe_min": 8,
+                    "rpe_max": 9,
+                    "last_set": null,
+                    "intensifier": false
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 60,
+                    "max": 120
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "quads": 1,
+                    "glutes": 0.25,
+                    "adductors": 0.25
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": {
+                    "kind": "load_when_all_sets_done",
+                    "rep_range": [
+                      10,
+                      10
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
+                  "notes": [
+                    {
+                      "key": "note.bonus_final"
+                    }
+                  ],
+                  "swaps": [
+                    "high-zercher-db-squat-db-hugged-high-at-chest",
+                    "sumo-squat-db-or-kb",
+                    "goblet-squat-kb-db",
+                    "box-goblet-squat-touch-and-go"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "high-zercher-db-squat-db-hugged-high-at-chest",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "sumo-squat-db-or-kb",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "goblet-squat-kb-db",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "box-goblet-squat-touch-and-go",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.bonus_main_day",
+                      "ref": "R4-SES-05",
+                      "args": {
+                        "group": "quads"
+                      }
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.class_level",
+                      "ref": "OT18"
+                    },
+                    {
+                      "key": "why.planned_rir",
+                      "ref": "R2-PER-05",
+                      "args": {
+                        "rir": "1-2"
+                      }
+                    },
+                    {
+                      "key": "why.rest",
+                      "ref": "VOL-14"
+                    }
+                  ],
+                  "superset_suggested": null
                 }
               ],
               "id": "blk.mon-squat.accessories.1",
@@ -49551,134 +48998,6 @@
               "circuit": null,
               "items": [
                 {
-                  "slot_id": "Mon.SQUAT.x01",
-                  "station_id": "SQUAT.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "quads",
-                  "exercise_id": "goblet-squat-heels-elevated",
-                  "name_key": "exercise.goblet-squat-heels-elevated.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)",
-                    "copy_name": "Goblet Squat (Heels Elevated)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "fixed",
-                    "value": 10
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 1,
-                    "rpe_min": 9,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 120
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "quads": 1,
-                    "glutes": 0.25,
-                    "adductors": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "load_when_all_sets_done",
-                    "rep_range": [
-                      10,
-                      10
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "high-zercher-db-squat-db-hugged-high-at-chest",
-                    "sumo-squat-db-or-kb",
-                    "goblet-squat-kb-db",
-                    "box-goblet-squat-touch-and-go"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "high-zercher-db-squat-db-hugged-high-at-chest",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "sumo-squat-db-or-kb",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "goblet-squat-kb-db",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "box-goblet-squat-touch-and-go",
-                      "keeps": "swap.keeps.BKD",
-                      "loses": "swap.loses.little"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "quads"
-                      }
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.class_level",
-                      "ref": "OT18"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
                   "slot_id": "Mon.SQUAT.s10",
                   "station_id": "SQUAT.s10",
                   "bucket": "ISO_CALF",
@@ -49932,6 +49251,134 @@
                     }
                   ],
                   "superset_suggested": "X1"
+                },
+                {
+                  "slot_id": "Mon.SQUAT.x01",
+                  "station_id": "SQUAT.x01",
+                  "bucket": "FOCUS",
+                  "role": "focus",
+                  "origin": "bonus",
+                  "group": "quads",
+                  "exercise_id": "goblet-squat-heels-elevated",
+                  "name_key": "exercise.goblet-squat-heels-elevated.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Goblet%20Squat%20(Heels%20Elevated)",
+                    "copy_name": "Goblet Squat (Heels Elevated)"
+                  },
+                  "sets": 3,
+                  "reps": {
+                    "type": "fixed",
+                    "value": 10
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "rir",
+                    "min": 1,
+                    "max": 1,
+                    "rpe_min": 9,
+                    "rpe_max": 9,
+                    "last_set": null,
+                    "intensifier": false
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 60,
+                    "max": 120
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "quads": 1,
+                    "glutes": 0.25,
+                    "adductors": 0.25
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": {
+                    "kind": "load_when_all_sets_done",
+                    "rep_range": [
+                      10,
+                      10
+                    ],
+                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
+                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
+                    "else": "repeat",
+                    "promised_numbers": false
+                  },
+                  "notes": [
+                    {
+                      "key": "note.bonus_final"
+                    }
+                  ],
+                  "swaps": [
+                    "high-zercher-db-squat-db-hugged-high-at-chest",
+                    "sumo-squat-db-or-kb",
+                    "goblet-squat-kb-db",
+                    "box-goblet-squat-touch-and-go"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "high-zercher-db-squat-db-hugged-high-at-chest",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "sumo-squat-db-or-kb",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "goblet-squat-kb-db",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "box-goblet-squat-touch-and-go",
+                      "keeps": "swap.keeps.BKD",
+                      "loses": "swap.loses.little"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.bonus_main_day",
+                      "ref": "R4-SES-05",
+                      "args": {
+                        "group": "quads"
+                      }
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.class_level",
+                      "ref": "OT18"
+                    },
+                    {
+                      "key": "why.planned_rir",
+                      "ref": "R2-PER-05",
+                      "args": {
+                        "rir": "1"
+                      }
+                    },
+                    {
+                      "key": "why.rest",
+                      "ref": "VOL-14"
+                    }
+                  ],
+                  "superset_suggested": null
                 }
               ],
               "id": "blk.mon-squat.accessories.1",
@@ -55020,7 +54467,7 @@
         13,
         14,
         14,
-        15,
+        16,
         17,
         18,
         18
@@ -55030,7 +54477,7 @@
         10,
         11,
         11,
-        12,
+        11,
         12,
         14,
         14
@@ -55040,7 +54487,7 @@
         5,
         5.5,
         5.5,
-        5.75,
+        6,
         6.25,
         7,
         7
@@ -55160,7 +54607,7 @@
         3.25,
         3.5,
         3.5,
-        3.75,
+        4,
         4.25,
         4.5,
         4.5
@@ -55182,7 +54629,7 @@
         13,
         14,
         14,
-        15,
+        16,
         17,
         18,
         18
@@ -55192,7 +54639,7 @@
         10,
         11,
         11,
-        12,
+        11,
         12,
         14,
         14
@@ -55202,7 +54649,7 @@
         5,
         5.5,
         5.5,
-        5.75,
+        6,
         6.25,
         7,
         7
@@ -55274,7 +54721,7 @@
         13,
         14,
         14,
-        15,
+        16,
         17,
         18,
         18
@@ -55284,7 +54731,7 @@
         13.25,
         14.5,
         14.5,
-        15.75,
+        15,
         16.25,
         18.5,
         18.5
@@ -55356,7 +54803,7 @@
         13,
         14,
         14,
-        15,
+        16,
         17,
         18,
         18
@@ -55438,7 +54885,7 @@
         13,
         14,
         14,
-        15,
+        16,
         17,
         18,
         18

@@ -16,6 +16,7 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - Weeks 11 and 12 include Christmas / New Year: move a session (or a test day) by a day or two if you need to; plan longer holidays between blocks.
+- Biceps: 3 of its 25 final sets sit on a bonus exercise, done last in its day (Suspension-Trainer (TRX) Biceps Curl, Tuesday, from week 9), because your template's lifts for it are at their top sets. Skip it and the biceps total ends at about 22.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -67,11 +68,11 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 | 2 | 2.6 ▮▮▮ | 3 in the tank | 125 |
 | 3 | 3.2 ▮▮▮ | 3 in the tank | 128 |
 | 4 | 3.8 ▮▮▮▮ | 3 in the tank | 130 |
-| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 133 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 135 |
+| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 132 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 134 |
 | 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 141 |
 | 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 145 |
-| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 151 |
+| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 152 |
 | 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 157 |
 | 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 164 |
 | 12 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 164 |
@@ -98,17 +99,17 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Back (Focus) | 22 | 24 | 27 |
 | Chest (Focus) | 22 | 23 | 27 |
 | Shoulders | 23 | 23 | 25 |
-| Biceps | 16 | 19 | 25 |
+| Biceps | 16 | 18 | 25 |
 | Triceps | 15 | 19 | 25 |
 | Calves | 6 | 7 | 10 |
-| **Total** | **122** | **135** | **164** |
+| **Total** | **122** | **134** | **164** |
 
 ### Week 1 at a glance
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
 | Monday | Push | about 90-110 min | Chest 3, Shoulders 2, Triceps 3 |
-| Tuesday | Pull | about 105-125 min | Back 3, Shoulders 2, Biceps 3 |
+| Tuesday | Pull | about 100-125 min | Back 3, Shoulders 2, Biceps 2 |
 | Wednesday | Legs 1 - squat-led | about 85-105 min | Quads 3, Hips (glutes + hamstrings) 3, Calves 1 |
 | Thursday | Push | about 90-110 min | Chest 3, Shoulders 1, Triceps 3 |
 | Friday | Pull | about 95-115 min | Back 3, Shoulders 2, Biceps 2 |
@@ -129,10 +130,10 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Back | 22 23 23 23 · 23 24 24 25 · 25 26 27 27 | 27 |
 | Chest | 22 22 23 23 · 23 23 25 26 · 26 26 27 27 | 27 |
 | Shoulders | 23 23 23 23 · 23 23 23 24 · 24 25 25 25 | 25 |
-| Biceps | 16 17 17 18 · 19 19 20 21 · 22 24 25 25 | 25 |
+| Biceps | 16 17 17 18 · 18 18 20 21 · 23 24 25 25 | 25 |
 | Triceps | 15 16 16 17 · 18 19 21 21 · 22 24 25 25 | 25 |
 | Calves | 6 6 6 6 · 7 7 8 8 · 9 9 10 10 | 10 |
-| **Total** | 122 125 128 130 · 133 135 141 145 · 151 157 164 164 | 164 |
+| **Total** | 122 125 128 130 · 132 134 141 145 · 152 157 164 164 | 164 |
 
 ### Monday · Push
 
@@ -160,9 +161,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Lat Pulldown (Supinated / Underhand Grip) → Lat Pulldown (Pronated / Overhand Grip) → Lat Pulldown (Pronated / Overhand Grip) - 1-second squeeze at the top | 3 4 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 15 Reps |
 | Seated DB Lateral Raise | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
 | Seated (Chest-to-Thighs) DB Reverse Fly → Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20 to 30 Reps |
-| Incline Dumbbell Curl ('pinky facing up' supinated variation) → Incline Dumbbell Curl ('pinky facing up' supinated variation) - 1-second squeeze at the top | 2 3 3 3 · 3 3 3 3 · 3 4 4 4 | 15 to 20 Reps |
-| Dumbbell Concentration Curl | 2 2 2 2 · 3 3 3 3 · 3 3 4 4 | 15 to 20 per side |
-| Suspension-Trainer (TRX) Biceps Curl | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 15 to 20 Reps |
+| Incline Dumbbell Curl ('pinky facing up' supinated variation) → Incline Dumbbell Curl ('pinky facing up' supinated variation) - 1-second squeeze at the top | 3 3 3 3 · 3 3 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Dumbbell Concentration Curl | 2 3 3 3 · 3 3 3 4 · 4 4 4 4 | 15 to 20 per side |
+| Suspension-Trainer (TRX) Biceps Curl | – – – – · – – – – · 2 2 3 3 | 15 to 20 Reps |
 
 ### Wednesday · Legs 1 - squat-led
 
@@ -203,8 +204,8 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Single-Arm Lat Pulldown | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 to 15 per side |
 | Incline / Side-Lying Cable Lateral Raise → Cable Side Raise (leaning) → Cable Side Raise (leaning) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 per side |
 | Machine Reverse Fly (rear-delt pec deck) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20 to 30 Reps |
-| Supine (Lying) Biceps Curl → Seated Dumbbell Curl | 2 2 2 3 · 3 3 3 3 · 4 4 4 4 | 15 to 20 Reps |
-| Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) → Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) - one arm at a time | 2 2 2 2 · 2 2 3 3 · 3 4 4 4 | 15 to 20 Reps |
+| Supine (Lying) Biceps Curl → Seated Dumbbell Curl | 3 3 3 3 · 3 3 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) → Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) - one arm at a time | 2 2 2 3 · 3 3 3 3 · 3 4 4 4 | 15 to 20 Reps |
 
 ### Saturday · Legs 2 - hinge-led (leg press)
 
@@ -306,11 +307,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · Pull
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly, Seated DB Lateral Raise · bonus exercises: Suspension-Trainer (TRX) Biceps Curl_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly, Seated DB Lateral Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -353,7 +354,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
    - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
-3. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)) · Name to copy into YouTube: `Incline Dumbbell Curl ('pinky facing up' supinated variation)`
@@ -362,11 +363,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Seated Dumbbell Curl (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
@@ -560,7 +556,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
-3. **Supine (Lying) Biceps Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
@@ -654,7 +650,7 @@ _Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on Lat Pulldown (Supinated / Underhand Grip) (Tuesday): 3 → 4 sets
-- +1 set on Incline Dumbbell Curl ('pinky facing up' supinated variation) (Tuesday): 2 → 3 sets
+- +1 set on Dumbbell Concentration Curl (Tuesday): 2 → 3 sets
 - +1 set on Cable Triceps Pushdown - straight bar, supinated (reverse) grip (Monday): 2 → 3 sets
 
 ### Monday · Push
@@ -731,7 +727,7 @@ _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly, Seated DB Lateral Raise · bonus exercises: Suspension-Trainer (TRX) Biceps Curl_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly, Seated DB Lateral Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -775,16 +771,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)) · Name to copy into YouTube: `Incline Dumbbell Curl ('pinky facing up' supinated variation)`
-4. **Dumbbell Concentration Curl** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Seated Dumbbell Curl (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
@@ -962,7 +953,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
-3. **Supine (Lying) Biceps Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
@@ -1124,7 +1115,7 @@ _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly, Seated DB Lateral Raise · bonus exercises: Suspension-Trainer (TRX) Biceps Curl_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly, Seated DB Lateral Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1168,16 +1159,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)) · Name to copy into YouTube: `Incline Dumbbell Curl ('pinky facing up' supinated variation)`
-4. **Dumbbell Concentration Curl** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Seated Dumbbell Curl (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
@@ -1355,7 +1341,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 3 left in the tank, add weight next time and start again at 20.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
-3. **Supine (Lying) Biceps Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
@@ -1439,7 +1425,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 _Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Supine (Lying) Biceps Curl (Friday): 2 → 3 sets
+- +1 set on Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (Friday): 2 → 3 sets
 - +1 set on Cable Triceps Push-down (Thursday): 2 → 3 sets
 
 ### Monday · Push
@@ -1516,7 +1502,7 @@ _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly, Seated DB Lateral Raise · bonus exercises: Suspension-Trainer (TRX) Biceps Curl_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly, Seated DB Lateral Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1560,16 +1546,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)) · Name to copy into YouTube: `Incline Dumbbell Curl ('pinky facing up' supinated variation)`
-4. **Dumbbell Concentration Curl** — 2 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 3 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Seated Dumbbell Curl (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
@@ -1700,7 +1681,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · Pull
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Incline / Side-Lying Cable Lateral Raise + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
@@ -1751,7 +1732,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
    - Swap for: Barbell Curl (keeps the biceps work; loses the constant cable tension) / EZ-Bar Curl (keeps the biceps work; loses the constant cable tension) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the constant cable tension) / Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension)
@@ -1838,7 +1819,6 @@ _Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 - Thursday: Machine Fly (Pec Deck) → Machine Fly (Pec Deck) - 1-second squeeze at the top; Overhead Cable Triceps Extension → Overhead Cable Triceps Extension - 1-second squeeze at the top
 - Friday: Incline / Side-Lying Cable Lateral Raise → Cable Side Raise (leaning); Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) → Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) - one arm at a time
 - Saturday: Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) → Rear-Foot-Against-Wall Split Squat; Leg Extension (machine) - one leg at a time → Leg Extension (machine) - 1-second squeeze at the top
-- +1 set on Dumbbell Concentration Curl (Tuesday): 2 → 3 sets
 - +1 set on Overhead Dumbbell Triceps Extension (Monday): 2 → 3 sets
 - +1 set on Machine Calf Raise (Wednesday): 3 → 4 sets
 
@@ -1912,11 +1892,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · Pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top, Seated DB Lateral Raise · bonus exercises: Suspension-Trainer (TRX) Biceps Curl_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top, Seated DB Lateral Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1965,11 +1945,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Seated Dumbbell Curl (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 30 min · steady pace: you can still talk
@@ -2100,7 +2075,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · Pull
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Cable Side Raise (leaning) + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
@@ -2151,7 +2126,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) - one arm at a time** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) - one arm at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
    - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension)
@@ -2304,11 +2279,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · Pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top, Seated DB Lateral Raise · bonus exercises: Suspension-Trainer (TRX) Biceps Curl_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top, Seated DB Lateral Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2357,11 +2332,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Seated Dumbbell Curl (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 33 min · steady pace: you can still talk
@@ -2492,7 +2462,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · Pull
-_Average time: about 95-120 min (an estimate, for information only)_
+_Average time: about 100-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Cable Side Raise (leaning) + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
@@ -2543,7 +2513,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
-4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) - one arm at a time** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) - one arm at a time** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    > Zone 1 = arms down by the sides (vertical, external-rotation bias); zone 2 = arms in front at shoulder height (horizontal, internal-rotation bias, compressive); zone 3 = arms overhead (vertical, external-rotation bias).
    - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses the constant cable tension) / Spider Curl (chest on incline bench) (keeps the biceps work; loses the constant cable tension) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses the constant cable tension)
@@ -2625,7 +2595,8 @@ _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - +1 set on Rear-Foot-Against-Wall Split Squat (Saturday): 3 → 4 sets
 - +1 set on Barbell Bench Press (Monday): 3 → 4 sets
-- +1 set on Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (Friday): 2 → 3 sets
+- +1 set on Incline Dumbbell Curl ('pinky facing up' supinated variation) (Tuesday): 3 → 4 sets
+- +1 set on Supine (Lying) Biceps Curl (Friday): 3 → 4 sets
 - +1 set on Weighted Dip (Monday): 3 → 4 sets
 - +1 set on Cable Triceps Pushdown - straight bar, supinated (reverse) grip (Monday): 3 → 4 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Saturday): 3 → 4 sets
@@ -2700,11 +2671,11 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · Pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top, Seated DB Lateral Raise · bonus exercises: Suspension-Trainer (TRX) Biceps Curl_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top, Seated DB Lateral Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2744,7 +2715,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
    - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
-3. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)) · Name to copy into YouTube: `Incline Dumbbell Curl ('pinky facing up' supinated variation)`
@@ -2753,11 +2724,6 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Seated Dumbbell Curl (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 37 min · steady pace: you can still talk
@@ -2888,7 +2854,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · Pull
-_Average time: about 100-120 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Cable Side Raise (leaning) + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
@@ -2935,7 +2901,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
-3. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Supine (Lying) Biceps Curl** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
@@ -3022,7 +2988,7 @@ _Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 - +1 set on Leg Extension (machine) (Wednesday): 3 → 4 sets
 - +1 set on Bent-Over Barbell Row (Tuesday): 4 → 5 sets
 - +1 set on Flat DB Bench Press (Thursday): 3 → 4 sets
-- +1 set on Suspension-Trainer (TRX) Biceps Curl (Tuesday): 2 → 3 sets
+- +1 set on Dumbbell Concentration Curl (Tuesday): 3 → 4 sets
 
 ### Monday · Push
 _Average time: about 95-115 min (an estimate, for information only)_
@@ -3098,7 +3064,7 @@ _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top, Seated DB Lateral Raise · bonus exercises: Suspension-Trainer (TRX) Biceps Curl_
+_Easiest to remove if you want a shorter day (your choice): small-muscle accessories: Dumbbell Concentration Curl, Incline Dumbbell Curl ('pinky facing up' supinated variation), Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top, Seated DB Lateral Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -3138,20 +3104,15 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
    - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
-3. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Incline Dumbbell Curl ('pinky facing up' supinated variation)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)) · Name to copy into YouTube: `Incline Dumbbell Curl ('pinky facing up' supinated variation)`
-4. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+4. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Seated Dumbbell Curl (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
 **Aerobic**
 1. **Orange (C): long / easy · rower** — 40 min · steady pace: you can still talk
@@ -3282,7 +3243,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Friday · Pull
-_Average time: about 100-120 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Cable Side Raise (leaning) + Machine Reverse Fly (rear-delt pec deck) (about 3.5 min saved)_
@@ -3329,7 +3290,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
    - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses the machine's support) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses the machine's support) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Reverse%20Fly%20(rear-delt%20pec%20deck)) · Name to copy into YouTube: `Machine Reverse Fly (rear-delt pec deck)`
-3. **Supine (Lying) Biceps Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Supine (Lying) Biceps Curl** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl) · Name to copy into YouTube: `Supine (Lying) Biceps Curl`
@@ -3420,10 +3381,10 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 - Thursday: Incline Barbell Bench Press → Incline Barbell Bench Press - 1-second pause at the bottom; Parallel-Bar Dip → Parallel-Bar Dip - 1-second pause at the bottom
 - Friday: Cable Side Raise (leaning) → Cable Side Raise (leaning) - 1-second squeeze at the top; Supine (Lying) Biceps Curl → Seated Dumbbell Curl
 - Saturday: Seated Leg Curl (machine) → Seated Leg Curl (machine) - 1-second squeeze at the top; Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top
+- New bonus exercise: Suspension-Trainer (TRX) Biceps Curl (Tuesday)
 - +1 set on Leg Extension (machine) (Saturday): 3 → 4 sets
 - +1 set on Barbell Hip Thrust (Wednesday): 3 → 4 sets
 - +1 set on High-Incline Seated Barbell Press (Monday): 2 → 3 sets
-- +1 set on Seated Dumbbell Curl (Friday): 3 → 4 sets
 - +1 set on Overhead Dumbbell Triceps Extension (Monday): 3 → 4 sets
 - +1 set on Machine Calf Raise (Wednesday): 4 → 5 sets
 
@@ -3497,7 +3458,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Tuesday · Pull
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, cardio, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Hanging Rotational Knees-to-Chest (hanging oblique knee raise) (about 2.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Seated (Chest-to-Thighs) DB Reverse Fly - 1-second squeeze at the top (about 3.5 min saved)_
@@ -3541,18 +3502,18 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 30 on every set with 2 left in the tank, add weight next time and start again at 20.
    - Swap for: Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Bent-Over DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Incline-Bench Prone DB Y-Raise (keeps the rear-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Seated (Chest-to-Thighs) DB Reverse Fly`
-3. **Incline Dumbbell Curl ('pinky facing up' supinated variation) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Incline Dumbbell Curl ('pinky facing up' supinated variation) - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)) · Name to copy into YouTube: `Incline Dumbbell Curl ('pinky facing up' supinated variation)`
-4. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+4. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement) / EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
@@ -3818,7 +3779,6 @@ _Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - +1 set on Barbell Deadlift (conventional) (Saturday): 3 → 4 sets
 - +1 set on Seal Row - Barbell (Pronated Grip) (Friday): 4 → 5 sets
-- +1 set on Incline Dumbbell Curl ('pinky facing up' supinated variation) (Tuesday): 3 → 4 sets
 - +1 set on Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (Friday): 3 → 4 sets
 - +1 set on Parallel-Bar Dip (Thursday): 3 → 4 sets
 - +1 set on Cable Triceps Push-down (Thursday): 3 → 4 sets
@@ -3941,14 +3901,14 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Swap for: Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)) · Name to copy into YouTube: `Incline Dumbbell Curl ('pinky facing up' supinated variation)`
-4. **Dumbbell Concentration Curl** — 3 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+4. **Dumbbell Concentration Curl** — 4 × 15 to 20 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 per side on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement) / EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
@@ -4216,7 +4176,7 @@ _Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 - +1 set on Lying Leg Curl (machine) (Wednesday): 3 → 4 sets
 - +1 set on Single-Arm DB/KB Row (Tuesday): 4 → 5 sets
 - +1 set on Incline DB Bench Press (Monday): 3 → 4 sets
-- +1 set on Dumbbell Concentration Curl (Tuesday): 3 → 4 sets
+- +1 set on Suspension-Trainer (TRX) Biceps Curl (Tuesday): 2 → 3 sets
 - +1 set on Overhead Cable Triceps Extension (Thursday): 3 → 4 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Saturday): 4 → 5 sets
 
@@ -4345,7 +4305,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
 5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement) / EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 
@@ -4745,7 +4705,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
 5. **Suspension-Trainer (TRX) Biceps Curl (bonus)** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (keeps the biceps work; loses the feel of the original implement) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement) / Barbell Curl (keeps the biceps work; loses the feel of the original implement) / EZ-Bar Curl (keeps the biceps work; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl) · Name to copy into YouTube: `Suspension-Trainer (TRX) Biceps Curl`
 

@@ -195,8 +195,9 @@ describe('printed-copy minors of the round-4 reviews', () => {
       const want = lo === hi ? t('en', 'ui.plan.session_size', { n: lo }) : t('en', 'ui.plan.session_size_range', { low: lo, high: hi });
       assert.ok(mdOf(n).includes(want), `${n}: ${want}`);
     }
-    // (converted, COACH-CH5 CH5-03 / G-199: sample 06's Friday takes the chest's bonus fly, so every training day holds 8)
-    assert.ok(mdOf('06').includes('about 8 exercises a session'));
+    // (converted, COACH-CH5 CH5-03 / G-199: sample 06's Friday takes the chest's bonus fly, so every training day holds 8; converted again in
+    // the round-7 fix round, G-217: the fly opens with the last exercise block, the week it is needed, so the training days hold 7-8)
+    assert.ok(mdOf('06').includes('about 7-8 exercises a session'));
   });
   it('VOL-03 rev08-m2: the pain line promises a note "on the lift" only when a lift carries one', () => {
     // (converted, G-194: sample 08's power slot now takes a KB swing "instead of Mid-Hang Clean Pull, to protect your knee" - the safe

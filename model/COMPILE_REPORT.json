@@ -29,8 +29,8 @@
   "profiles": 127,
   "sports_in_picker": 52,
   "activities": 26,
-  "en_keys": 2762,
-  "es_keys": 2762,
+  "en_keys": 2767,
+  "es_keys": 2767,
   "es_missing": 0,
   "es_machine_translated": 842,
   "coach_patches": 16,
@@ -405,7 +405,7 @@
  ],
  "i18n": {
   "es_by_source": {
-   "architect_wordlist": 1387,
+   "architect_wordlist": 1392,
    "b1_machine_translation": 805,
    "profiles_04": 383,
    "spec": 146,

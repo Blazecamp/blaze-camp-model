@@ -431,6 +431,13 @@
         "capped": [],
         "below_floor": [],
         "bonus": [],
+        "main_bonus": [
+          {
+            "group": "shoulders",
+            "slot_id": "Wed.S2.x01",
+            "exercise_block": 1
+          }
+        ],
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
@@ -5901,7 +5908,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -12858,7 +12865,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -19830,7 +19837,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -26846,7 +26853,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -33892,7 +33899,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -40888,7 +40895,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [

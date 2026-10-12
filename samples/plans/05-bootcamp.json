@@ -273,6 +273,7 @@
         "capped": [],
         "below_floor": [],
         "bonus": [],
+        "main_bonus": [],
         "focus_closed": [],
         "acceleration": [
           {

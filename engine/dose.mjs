@@ -438,7 +438,9 @@ export function doseItem(input) {
   const OLD = R.population.older;
   if (OLD && OLD.default_on && OLD.default_on.fast_machine_intent && (derived.age || 0) >= OLD.from_age && ['resistance', 'isolation', 'focus'].includes(b.kind) &&
       (exercise.equipment.machine || exercise.tags.includes('machine') || exercise.tags.includes('cable')) && !slot.test) d.notes.push({ key: OLD.fast_intent_note || 'note.fast_machine_intent' });
-  if (slot.origin === 'bonus') d.notes.push({ key: 'note.bonus' });
+  // (v0.6 G-222, rules.placement.x3.bonus_last.note_key: a group's bonus exercise says why it is there - the template's lifts are at
+  // their tops and it carries the last sets to the final number)
+  if (slot.origin === 'bonus') { const BLn = R.placement.x3 && R.placement.x3.bonus_last; const k = ((slot.why || [])[0] || {}).key; d.notes.push({ key: BLn && BLn.enabled && BLn.note_key && model.has('en', BLn.note_key) && !(BLn.template_whys || []).includes(k) ? BLn.note_key : 'note.bonus' }); }
   // v0.4 fix round 1 / F3 (RECHECK 01 / 08: a kept pattern station read 'Extra exercise to reach your weekly sets' or nothing): what it is
   else if (slot.origin === 'pattern_kept' && model.has('en', 'note.pattern_kept')) d.notes.push({ key: 'note.pattern_kept' });
   else if (b.kind === 'focus' || slot.origin === 'focus_added') {

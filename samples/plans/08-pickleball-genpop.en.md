@@ -18,7 +18,6 @@ _Your Blaze Camp plan_
 - You told us about pain in your knee (worse with deep knee bends). What this plan does about it: it leaves out the lifts that load it hardest and says so on the lift, it holds Quads at the same sets instead of adding more (progress with reps and load), and it tells you where to stop on the lifts that bend it. If the pain grows, stop and see a professional.
 - Weeks 11 and 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
 - You play 3 or more times a week: every week has half the jumps and no extra agility drills.
-- Shoulders: 2 of its 9 final sets sit on your optional day (Bent-Over DB Reverse Fly, Friday). Skip that day and shoulders ends at about 7.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -85,18 +84,18 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 1 | 2.0 ▮▮ | 3 in the tank | 38 |
-| 2 | 2.6 ▮▮▮ | 3 in the tank | 38 |
-| 3 | 3.2 ▮▮▮ | 3 in the tank | 39 |
-| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 39 |
-| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 39 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 40 |
-| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 40 |
-| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 41 |
-| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 41 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 42 |
-| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 45 |
-| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 45 |
+| 1 | 2.0 ▮▮ | 3 in the tank | 36 |
+| 2 | 2.6 ▮▮▮ | 3 in the tank | 36 |
+| 3 | 3.2 ▮▮▮ | 3 in the tank | 37 |
+| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 37 |
+| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 37 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 38 |
+| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 38 |
+| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 39 |
+| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 39 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 40 |
+| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 43 |
+| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 43 |
 
 weeks 1-4: Getting used to it (small steps) · weeks 5-8: Driving it · weeks 9-12: Hardest weeks
 
@@ -116,11 +115,11 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Hips (glutes + hamstrings) | 7 | 7 | 8 |
 | Back | 6 | 7 | 8 |
 | Chest | 6 | 7 | 8 |
-| Shoulders | 8 | 8 | 9 |
+| Shoulders | 6 | 6 | 7 |
 | Biceps | 4 | 4 | 5 |
 | Triceps | 4 | 4 | 5 |
 | Calves | 4 | 4 | 4 |
-| **Total** | **38** | **40** | **45** |
+| **Total** | **36** | **38** | **43** |
 
 ### Week 1 at a glance
 
@@ -128,7 +127,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 |---|---|---|---|
 | Monday | A - squat + pull | about 70-90 min | Quads 3, Back 2, Biceps 1, Calves 1 |
 | Thursday | B - deadlift + push | about 75-90 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 1, Triceps 1 |
-| Friday | Optional day | about 40-50 min | Shoulders 1 |
+| Friday | Optional day | about 40-45 min | – |
 
 ## Training block, week by week · Week 1-12
 
@@ -144,11 +143,11 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hips (glutes + hamstrings) | 7 7 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Back | 6 6 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Chest | 6 6 6 6 · 6 7 7 7 · 7 7 8 8 | 8 |
-| Shoulders | 8 8 8 8 · 8 8 8 8 · 8 8 9 9 | 9 |
+| Shoulders | 6 6 6 6 · 6 6 6 6 · 6 6 7 7 | 7 |
 | Biceps | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 5 |
 | Triceps | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 5 |
 | Calves | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 4 |
-| **Total** | 38 38 39 39 · 39 40 40 41 · 41 42 45 45 | 45 |
+| **Total** | 36 36 37 37 · 37 38 38 39 · 39 40 43 43 | 43 |
 
 ### Monday · A - squat + pull
 
@@ -190,7 +189,6 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Exercise | Sets | Reps |
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
-| Bent-Over DB Reverse Fly | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
 
 ## Week 1 — Getting used to it (small steps)
 
@@ -383,9 +381,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -394,13 +391,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -599,9 +589,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -610,13 +599,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -815,9 +797,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -826,13 +807,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -1031,9 +1005,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -1042,13 +1015,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
@@ -1248,9 +1214,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -1259,13 +1224,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -1461,9 +1419,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -1472,13 +1429,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -1674,9 +1624,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -1685,13 +1634,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -1887,9 +1829,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -1898,13 +1839,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
@@ -2104,9 +2038,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -2115,13 +2048,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -2317,9 +2243,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -2328,13 +2253,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -2532,9 +2450,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -2543,13 +2460,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -2747,9 +2657,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
-_Average time: about 40-50 min (an estimate, for information only)_
-_You can switch off these blocks today: core, accessories, cardio. You can also add or remove exercises._
-_Easiest to remove if you want a shorter day (your choice): bonus exercises: Bent-Over DB Reverse Fly_
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
 
 **Warm-up**
 1. 5 min any cardio
@@ -2758,13 +2667,6 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Ben
 1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Accessories**
-1. **Bent-Over DB Reverse Fly (bonus)** — 2 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
-   - Bonus exercise to reach your weekly sets
-   - Swap for: Seated (Chest-to-Thighs) DB Reverse Fly (keeps the rear-delt work; loses little - same movement, another grip or position) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the rear-delt work; loses little - same movement, another grip or position) / Machine Reverse Fly (rear-delt pec deck) (keeps the rear-delt work; loses the free-weight balance work) / Rear-Delt DB Row (keeps the rear-delt work; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Name to copy into YouTube: `Bent-Over DB Reverse Fly`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk

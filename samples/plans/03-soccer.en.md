@@ -18,6 +18,7 @@ _Your Blaze Camp plan_
 - Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.
 - Two-leg lifts are about 50 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 - This plan does not count your 2 team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).
+- Shoulders: 3 of its 11 final sets sit on a bonus exercise, done last in its day (Seated DB Lateral Raise, Wednesday), because your template's lifts for it are at their top sets. Skip it and the shoulders total ends at about 8.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -498,7 +499,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
 5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
 
@@ -812,7 +813,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
 5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
 
@@ -1121,7 +1122,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
 5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
 
@@ -1434,7 +1435,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
 5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
 
@@ -1748,7 +1749,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
 5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
 
@@ -2067,7 +2068,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
 5. **Seated DB Lateral Raise (bonus)** — 3 × 10 to 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
-   - Bonus exercise to reach your weekly sets
+   - Bonus exercise, done last: your template's lifts for this muscle group are already at their top sets, so this one adds the last sets to reach your final number.
    - Swap for: DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own) / DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
 

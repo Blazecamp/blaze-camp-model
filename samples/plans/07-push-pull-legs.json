@@ -439,11 +439,11 @@
             16,
             16,
             17,
+            17,
             18,
-            19,
             20,
             21,
-            22,
+            23,
             24,
             25,
             25
@@ -520,6 +520,13 @@
         "capped": [],
         "below_floor": [],
         "bonus": [],
+        "main_bonus": [
+          {
+            "group": "biceps",
+            "slot_id": "Tue.Pull.x01",
+            "exercise_block": 3
+          }
+        ],
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
@@ -1594,7 +1601,7 @@
         "Tue": {
           "back": 3,
           "shoulders": 2,
-          "biceps": 3
+          "biceps": 2
         },
         "Wed": {
           "quads": 3,
@@ -3210,7 +3217,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -3411,9 +3418,9 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 115,
+          "est_minutes": 112,
           "aerobic_minutes": 30,
-          "exercise_count": 8,
+          "exercise_count": 7,
           "skeleton": "ppl_pull",
           "easy_to_remove": [
             {
@@ -3431,10 +3438,6 @@
             {
               "slot_id": "Tue.Pull.s08",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.Pull.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -3468,7 +3471,7 @@
           "groups": {
             "back": 3,
             "shoulders": 2,
-            "biceps": 3
+            "biceps": 2
           },
           "why": [
             {
@@ -4487,7 +4490,7 @@
                     "url": "https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)",
                     "copy_name": "Incline Dumbbell Curl ('pinky facing up' supinated variation)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -4702,139 +4705,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Tue.Pull.x01",
-                  "station_id": "Pull.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "biceps",
-                  "exercise_id": "suspension-trainer-trx-biceps-curl",
-                  "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
-                    "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "biceps": 1,
-                    "forearms": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                    "seated-dumbbell-curl",
-                    "reverse-grip-pronated-ez-bar-curl",
-                    "barbell-curl"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "seated-dumbbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "reverse-grip-pronated-ez-bar-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "barbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "biceps"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
                     },
                     {
                       "key": "why.planned_rir",
@@ -8001,7 +7871,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 103,
+          "est_minutes": 105,
           "aerobic_minutes": 20,
           "exercise_count": 7,
           "skeleton": "ppl_pull",
@@ -9088,7 +8958,7 @@
                     "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
                     "copy_name": "Supine (Lying) Biceps Curl"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -11171,7 +11041,7 @@
         "Tue": {
           "back": 3,
           "shoulders": 2,
-          "biceps": 3
+          "biceps": 2
         },
         "Wed": {
           "quads": 3,
@@ -11238,9 +11108,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+            "exercise": "dumbbell-concentration-curl",
             "day": "Tue",
-            "slot_id": "Tue.Pull.s10"
+            "slot_id": "Tue.Pull.s11"
           }
         },
         {
@@ -12653,7 +12523,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -12854,9 +12724,9 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 119,
+          "est_minutes": 117,
           "aerobic_minutes": 30,
-          "exercise_count": 8,
+          "exercise_count": 7,
           "skeleton": "ppl_pull",
           "easy_to_remove": [
             {
@@ -12874,10 +12744,6 @@
             {
               "slot_id": "Tue.Pull.s08",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.Pull.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -12911,7 +12777,7 @@
           "groups": {
             "back": 3,
             "shoulders": 2,
-            "biceps": 3
+            "biceps": 2
           },
           "why": [
             {
@@ -14036,7 +13902,7 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl",
                     "copy_name": "Dumbbell Concentration Curl"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 15,
@@ -14125,139 +13991,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Tue.Pull.x01",
-                  "station_id": "Pull.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "biceps",
-                  "exercise_id": "suspension-trainer-trx-biceps-curl",
-                  "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
-                    "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "biceps": 1,
-                    "forearms": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                    "seated-dumbbell-curl",
-                    "reverse-grip-pronated-ez-bar-curl",
-                    "barbell-curl"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "seated-dumbbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "reverse-grip-pronated-ez-bar-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "barbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "biceps"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
                     },
                     {
                       "key": "why.planned_rir",
@@ -17241,7 +16974,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 103,
+          "est_minutes": 105,
           "aerobic_minutes": 20,
           "exercise_count": 7,
           "skeleton": "ppl_pull",
@@ -18310,7 +18043,7 @@
                     "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
                     "copy_name": "Supine (Lying) Biceps Curl"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -20237,7 +19970,7 @@
         "Tue": {
           "back": 3,
           "shoulders": 2,
-          "biceps": 3
+          "biceps": 2
         },
         "Wed": {
           "quads": 3,
@@ -21719,7 +21452,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -21920,9 +21653,9 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 119,
+          "est_minutes": 117,
           "aerobic_minutes": 30,
-          "exercise_count": 8,
+          "exercise_count": 7,
           "skeleton": "ppl_pull",
           "easy_to_remove": [
             {
@@ -21940,10 +21673,6 @@
             {
               "slot_id": "Tue.Pull.s08",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.Pull.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -21977,7 +21706,7 @@
           "groups": {
             "back": 3,
             "shoulders": 2,
-            "biceps": 3
+            "biceps": 2
           },
           "why": [
             {
@@ -23102,7 +22831,7 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl",
                     "copy_name": "Dumbbell Concentration Curl"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 15,
@@ -23191,139 +22920,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Tue.Pull.x01",
-                  "station_id": "Pull.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "biceps",
-                  "exercise_id": "suspension-trainer-trx-biceps-curl",
-                  "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
-                    "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "biceps": 1,
-                    "forearms": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                    "seated-dumbbell-curl",
-                    "reverse-grip-pronated-ez-bar-curl",
-                    "barbell-curl"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "seated-dumbbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "reverse-grip-pronated-ez-bar-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "barbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "biceps"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
                     },
                     {
                       "key": "why.planned_rir",
@@ -26307,7 +25903,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 103,
+          "est_minutes": 105,
           "aerobic_minutes": 20,
           "exercise_count": 7,
           "skeleton": "ppl_pull",
@@ -27376,7 +26972,7 @@
                     "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
                     "copy_name": "Supine (Lying) Biceps Curl"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -29303,7 +28899,7 @@
         "Tue": {
           "back": 3,
           "shoulders": 2,
-          "biceps": 3
+          "biceps": 2
         },
         "Wed": {
           "quads": 3,
@@ -29362,9 +28958,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "supine-lying-biceps-curl",
+            "exercise": "cable-curl-zone-1-zone-2-zone-3-set-ups",
             "day": "Fri",
-            "slot_id": "Fri.Pull.s10"
+            "slot_id": "Fri.Pull.s11"
           }
         },
         {
@@ -30777,7 +30373,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -30978,9 +30574,9 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 119,
+          "est_minutes": 117,
           "aerobic_minutes": 30,
-          "exercise_count": 8,
+          "exercise_count": 7,
           "skeleton": "ppl_pull",
           "easy_to_remove": [
             {
@@ -30998,10 +30594,6 @@
             {
               "slot_id": "Tue.Pull.s08",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.Pull.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -31035,7 +30627,7 @@
           "groups": {
             "back": 3,
             "shoulders": 2,
-            "biceps": 3
+            "biceps": 2
           },
           "why": [
             {
@@ -32160,7 +31752,7 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl",
                     "copy_name": "Dumbbell Concentration Curl"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 15,
@@ -32249,139 +31841,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Tue.Pull.x01",
-                  "station_id": "Pull.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "biceps",
-                  "exercise_id": "suspension-trainer-trx-biceps-curl",
-                  "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
-                    "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "biceps": 1,
-                    "forearms": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                    "seated-dumbbell-curl",
-                    "reverse-grip-pronated-ez-bar-curl",
-                    "barbell-curl"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "seated-dumbbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "reverse-grip-pronated-ez-bar-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "barbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "biceps"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
                     },
                     {
                       "key": "why.planned_rir",
@@ -35365,7 +34824,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 105,
+          "est_minutes": 107,
           "aerobic_minutes": 20,
           "exercise_count": 7,
           "skeleton": "ppl_pull",
@@ -36558,7 +36017,7 @@
                     "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
                     "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -38246,7 +37705,7 @@
         "chest": 0,
         "lats_upper_back": 0,
         "shoulders": 0,
-        "biceps": 0.0588,
+        "biceps": 0,
         "triceps": 0.0588,
         "calves": 0.1667
       },
@@ -38257,7 +37716,7 @@
         "chest": 23,
         "lats_upper_back": 23,
         "shoulders": 23,
-        "biceps": 18,
+        "biceps": 17,
         "triceps": 18,
         "calves": 7
       },
@@ -38269,11 +37728,11 @@
         "lats_upper_back": 23,
         "side_delts": 8,
         "rear_delts": 8,
-        "biceps": 18.75,
+        "biceps": 17.75,
         "triceps": 18,
         "calves": 7,
         "abs_obliques": 24,
-        "forearms": 3.25,
+        "forearms": 3,
         "front_delts": 7,
         "traps": 0,
         "adductors": 3.75,
@@ -38287,7 +37746,7 @@
         "lats_upper_back": 23,
         "side_delts": 8,
         "rear_delts": 4,
-        "biceps": 13,
+        "biceps": 12,
         "triceps": 17,
         "calves": 7,
         "abs_obliques": 24,
@@ -38304,7 +37763,7 @@
         "chest": 23,
         "lats_upper_back": 23,
         "shoulders": 23,
-        "biceps": 18.75,
+        "biceps": 17.75,
         "triceps": 18,
         "calves": 7
       },
@@ -38315,7 +37774,7 @@
         "chest": 23,
         "lats_upper_back": 23,
         "shoulders": 23,
-        "biceps": 18.75,
+        "biceps": 17.75,
         "triceps": 18,
         "calves": 7
       },
@@ -38325,7 +37784,7 @@
         "back": 23,
         "chest": 23,
         "shoulders": 23,
-        "biceps": 18.75,
+        "biceps": 17.75,
         "triceps": 18,
         "calves": 7
       },
@@ -38335,7 +37794,7 @@
         "back": 23,
         "chest": 23,
         "shoulders": 23,
-        "biceps": 18.75,
+        "biceps": 17.75,
         "triceps": 18,
         "calves": 7
       },
@@ -38345,13 +37804,13 @@
         "back": 23,
         "chest": 23,
         "shoulders": 23,
-        "biceps": 18,
+        "biceps": 17,
         "triceps": 18,
         "calves": 7
       },
       "acceleration": [],
       "credit_only_groups": [],
-      "total_main_sets": 133,
+      "total_main_sets": 132,
       "group_counts_by_day": {
         "Mon": {
           "chest": 3,
@@ -38361,7 +37820,7 @@
         "Tue": {
           "back": 3,
           "shoulders": 2,
-          "biceps": 3
+          "biceps": 2
         },
         "Wed": {
           "quads": 3,
@@ -38384,8 +37843,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 133,
-      "rise_vs_prev": 0.0231,
+      "total_resistance_sets": 132,
+      "rise_vs_prev": 0.0154,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -38420,14 +37879,6 @@
         {
           "key": "changes.new_exercise_block",
           "args": {}
-        },
-        {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "dumbbell-concentration-curl",
-            "day": "Tue",
-            "slot_id": "Tue.Pull.s11"
-          }
         },
         {
           "key": "changes.set_added",
@@ -39913,7 +39364,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -40114,9 +39565,9 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 122,
+          "est_minutes": 117,
           "aerobic_minutes": 30,
-          "exercise_count": 8,
+          "exercise_count": 7,
           "skeleton": "ppl_pull",
           "easy_to_remove": [
             {
@@ -40134,10 +39585,6 @@
             {
               "slot_id": "Tue.Pull.s08",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.Pull.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -40171,7 +39618,7 @@
           "groups": {
             "back": 3,
             "shoulders": 2,
-            "biceps": 3
+            "biceps": 2
           },
           "why": [
             {
@@ -41436,139 +40883,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Tue.Pull.x01",
-                  "station_id": "Pull.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "biceps",
-                  "exercise_id": "suspension-trainer-trx-biceps-curl",
-                  "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
-                    "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "biceps": 1,
-                    "forearms": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                    "seated-dumbbell-curl",
-                    "reverse-grip-pronated-ez-bar-curl",
-                    "barbell-curl"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "seated-dumbbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "reverse-grip-pronated-ez-bar-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "barbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "biceps"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
                     },
                     {
                       "key": "why.planned_rir",
@@ -44656,7 +43970,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 105,
+          "est_minutes": 107,
           "aerobic_minutes": 20,
           "exercise_count": 7,
           "skeleton": "ppl_pull",
@@ -45873,7 +45187,7 @@
                     "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
                     "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -47586,7 +46900,7 @@
         "chest": 0,
         "lats_upper_back": 0.0435,
         "shoulders": 0,
-        "biceps": 0.0556,
+        "biceps": 0.0588,
         "triceps": 0.0556,
         "calves": 0
       },
@@ -47597,7 +46911,7 @@
         "chest": 23,
         "lats_upper_back": 24,
         "shoulders": 23,
-        "biceps": 19,
+        "biceps": 18,
         "triceps": 19,
         "calves": 7
       },
@@ -47609,11 +46923,11 @@
         "lats_upper_back": 24,
         "side_delts": 8,
         "rear_delts": 8,
-        "biceps": 19,
+        "biceps": 18,
         "triceps": 19,
         "calves": 7,
         "abs_obliques": 24,
-        "forearms": 3.25,
+        "forearms": 3,
         "front_delts": 7,
         "traps": 0,
         "adductors": 3.75,
@@ -47627,7 +46941,7 @@
         "lats_upper_back": 24,
         "side_delts": 8,
         "rear_delts": 4,
-        "biceps": 13,
+        "biceps": 12,
         "triceps": 18,
         "calves": 7,
         "abs_obliques": 24,
@@ -47644,7 +46958,7 @@
         "chest": 23,
         "lats_upper_back": 24,
         "shoulders": 23,
-        "biceps": 19,
+        "biceps": 18,
         "triceps": 19,
         "calves": 7
       },
@@ -47655,7 +46969,7 @@
         "chest": 23,
         "lats_upper_back": 24,
         "shoulders": 23,
-        "biceps": 19,
+        "biceps": 18,
         "triceps": 19,
         "calves": 7
       },
@@ -47665,7 +46979,7 @@
         "back": 24,
         "chest": 23,
         "shoulders": 23,
-        "biceps": 19,
+        "biceps": 18,
         "triceps": 19,
         "calves": 7
       },
@@ -47675,7 +46989,7 @@
         "back": 24,
         "chest": 23,
         "shoulders": 23,
-        "biceps": 19,
+        "biceps": 18,
         "triceps": 19,
         "calves": 7
       },
@@ -47685,13 +46999,13 @@
         "back": 24,
         "chest": 23,
         "shoulders": 23,
-        "biceps": 19,
+        "biceps": 18,
         "triceps": 19,
         "calves": 7
       },
       "acceleration": [],
       "credit_only_groups": [],
-      "total_main_sets": 135,
+      "total_main_sets": 134,
       "group_counts_by_day": {
         "Mon": {
           "chest": 3,
@@ -47701,7 +47015,7 @@
         "Tue": {
           "back": 3,
           "shoulders": 2,
-          "biceps": 3
+          "biceps": 2
         },
         "Wed": {
           "quads": 3,
@@ -47724,8 +47038,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 135,
-      "rise_vs_prev": 0.015,
+      "total_resistance_sets": 134,
+      "rise_vs_prev": 0.0152,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -49241,7 +48555,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -49442,9 +48756,9 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 122,
+          "est_minutes": 117,
           "aerobic_minutes": 30,
-          "exercise_count": 8,
+          "exercise_count": 7,
           "skeleton": "ppl_pull",
           "easy_to_remove": [
             {
@@ -49462,10 +48776,6 @@
             {
               "slot_id": "Tue.Pull.s08",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.Pull.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -49499,7 +48809,7 @@
           "groups": {
             "back": 3,
             "shoulders": 2,
-            "biceps": 3
+            "biceps": 2
           },
           "why": [
             {
@@ -50764,139 +50074,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Tue.Pull.x01",
-                  "station_id": "Pull.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "biceps",
-                  "exercise_id": "suspension-trainer-trx-biceps-curl",
-                  "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
-                    "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "biceps": 1,
-                    "forearms": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                    "seated-dumbbell-curl",
-                    "reverse-grip-pronated-ez-bar-curl",
-                    "barbell-curl"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "seated-dumbbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "reverse-grip-pronated-ez-bar-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "barbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "biceps"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
                     },
                     {
                       "key": "why.planned_rir",
@@ -53984,7 +53161,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 108,
+          "est_minutes": 110,
           "aerobic_minutes": 20,
           "exercise_count": 7,
           "skeleton": "ppl_pull",
@@ -55201,7 +54378,7 @@
                     "url": "https://www.youtube.com/results?search_query=Cable%20Curl%20(Zone%201%20%2F%20Zone%202%20%2F%20Zone%203%20set-ups)",
                     "copy_name": "Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -56914,7 +56091,7 @@
         "chest": 0.0435,
         "lats_upper_back": 0,
         "shoulders": 0,
-        "biceps": 0.0526,
+        "biceps": 0.1111,
         "triceps": 0.0526,
         "calves": 0.1429
       },
@@ -57029,7 +56206,7 @@
         "Tue": {
           "back": 3,
           "shoulders": 2,
-          "biceps": 3
+          "biceps": 2
         },
         "Wed": {
           "quads": 3,
@@ -57053,7 +56230,7 @@
         }
       },
       "total_resistance_sets": 141,
-      "rise_vs_prev": 0.0444,
+      "rise_vs_prev": 0.0522,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -57104,9 +56281,17 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "cable-curl-zone-1-zone-2-zone-3-set-ups",
+            "exercise": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
+            "day": "Tue",
+            "slot_id": "Tue.Pull.s10"
+          }
+        },
+        {
+          "key": "changes.set_added",
+          "args": {
+            "exercise": "supine-lying-biceps-curl",
             "day": "Fri",
-            "slot_id": "Fri.Pull.s11"
+            "slot_id": "Fri.Pull.s10"
           }
         },
         {
@@ -58602,7 +57787,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -58803,9 +57988,9 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 122,
+          "est_minutes": 119,
           "aerobic_minutes": 30,
-          "exercise_count": 8,
+          "exercise_count": 7,
           "skeleton": "ppl_pull",
           "easy_to_remove": [
             {
@@ -58823,10 +58008,6 @@
             {
               "slot_id": "Tue.Pull.s08",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.Pull.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -58860,7 +58041,7 @@
           "groups": {
             "back": 3,
             "shoulders": 2,
-            "biceps": 3
+            "biceps": 2
           },
           "why": [
             {
@@ -59902,7 +59083,7 @@
                     "url": "https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)",
                     "copy_name": "Incline Dumbbell Curl ('pinky facing up' supinated variation)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -60125,139 +59306,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Tue.Pull.x01",
-                  "station_id": "Pull.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "biceps",
-                  "exercise_id": "suspension-trainer-trx-biceps-curl",
-                  "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
-                    "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "biceps": 1,
-                    "forearms": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                    "seated-dumbbell-curl",
-                    "reverse-grip-pronated-ez-bar-curl",
-                    "barbell-curl"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "seated-dumbbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "reverse-grip-pronated-ez-bar-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "barbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "biceps"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
                     },
                     {
                       "key": "why.planned_rir",
@@ -63345,7 +62393,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 110,
+          "est_minutes": 112,
           "aerobic_minutes": 20,
           "exercise_count": 7,
           "skeleton": "ppl_pull",
@@ -64428,7 +63476,7 @@
                     "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
                     "copy_name": "Supine (Lying) Biceps Curl"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -66390,7 +65438,7 @@
         "Tue": {
           "back": 3,
           "shoulders": 2,
-          "biceps": 3
+          "biceps": 2
         },
         "Wed": {
           "quads": 3,
@@ -66473,9 +65521,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "suspension-trainer-trx-biceps-curl",
+            "exercise": "dumbbell-concentration-curl",
             "day": "Tue",
-            "slot_id": "Tue.Pull.x01"
+            "slot_id": "Tue.Pull.s11"
           }
         }
       ],
@@ -67947,7 +66995,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -68148,9 +67196,9 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 129,
+          "est_minutes": 127,
           "aerobic_minutes": 30,
-          "exercise_count": 8,
+          "exercise_count": 7,
           "skeleton": "ppl_pull",
           "easy_to_remove": [
             {
@@ -68168,10 +67216,6 @@
             {
               "slot_id": "Tue.Pull.s08",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.Pull.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -68205,7 +67249,7 @@
           "groups": {
             "back": 3,
             "shoulders": 2,
-            "biceps": 3
+            "biceps": 2
           },
           "why": [
             {
@@ -69247,7 +68291,7 @@
                     "url": "https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)",
                     "copy_name": "Incline Dumbbell Curl ('pinky facing up' supinated variation)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -69377,7 +68421,7 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl",
                     "copy_name": "Dumbbell Concentration Curl"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 15,
@@ -69470,139 +68514,6 @@
                     {
                       "key": "why.unilateral_reps",
                       "ref": "UNI-01"
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Tue.Pull.x01",
-                  "station_id": "Pull.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "biceps",
-                  "exercise_id": "suspension-trainer-trx-biceps-curl",
-                  "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
-                    "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "range",
-                    "min": 15,
-                    "max": 20,
-                    "bracket": "b15_20"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "biceps": 1,
-                    "forearms": 0.25
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      15,
-                      20
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                    "seated-dumbbell-curl",
-                    "reverse-grip-pronated-ez-bar-curl",
-                    "barbell-curl"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-curl-zone-1-zone-2-zone-3-set-ups",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "seated-dumbbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "reverse-grip-pronated-ez-bar-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    },
-                    {
-                      "id": "barbell-curl",
-                      "keeps": "swap.keeps.ISO_BICEPS",
-                      "loses": "swap.loses.implement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "biceps"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_matrix",
-                      "ref": "VOL-11"
                     },
                     {
                       "key": "why.planned_rir",
@@ -72690,7 +71601,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 110,
+          "est_minutes": 112,
           "aerobic_minutes": 20,
           "exercise_count": 7,
           "skeleton": "ppl_pull",
@@ -73773,7 +72684,7 @@
                     "url": "https://www.youtube.com/results?search_query=Supine%20(Lying)%20Biceps%20Curl",
                     "copy_name": "Supine (Lying) Biceps Curl"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -75620,7 +74531,7 @@
         "chest": 0,
         "lats_upper_back": 0,
         "shoulders": 0.0435,
-        "biceps": 0.0476,
+        "biceps": 0.0952,
         "triceps": 0.0476,
         "calves": 0.125
       },
@@ -75631,7 +74542,7 @@
         "chest": 25,
         "lats_upper_back": 25,
         "shoulders": 24,
-        "biceps": 22,
+        "biceps": 23,
         "triceps": 22,
         "calves": 9
       },
@@ -75643,11 +74554,11 @@
         "lats_upper_back": 25,
         "side_delts": 8,
         "rear_delts": 8.25,
-        "biceps": 22.25,
+        "biceps": 23.25,
         "triceps": 22.25,
         "calves": 9,
         "abs_obliques": 24,
-        "forearms": 4,
+        "forearms": 4.25,
         "front_delts": 8.5,
         "traps": 0,
         "adductors": 4,
@@ -75661,7 +74572,7 @@
         "lats_upper_back": 25,
         "side_delts": 8,
         "rear_delts": 4,
-        "biceps": 16,
+        "biceps": 17,
         "triceps": 21,
         "calves": 9,
         "abs_obliques": 24,
@@ -75678,7 +74589,7 @@
         "chest": 26,
         "lats_upper_back": 25,
         "shoulders": 24.75,
-        "biceps": 22.25,
+        "biceps": 23.25,
         "triceps": 22.25,
         "calves": 9
       },
@@ -75689,7 +74600,7 @@
         "chest": 26,
         "lats_upper_back": 25,
         "shoulders": 24.75,
-        "biceps": 22.25,
+        "biceps": 23.25,
         "triceps": 22.25,
         "calves": 9
       },
@@ -75699,7 +74610,7 @@
         "back": 25,
         "chest": 26,
         "shoulders": 24.75,
-        "biceps": 22.25,
+        "biceps": 23.25,
         "triceps": 22.25,
         "calves": 9
       },
@@ -75709,7 +74620,7 @@
         "back": 25,
         "chest": 26,
         "shoulders": 24.75,
-        "biceps": 22.25,
+        "biceps": 23.25,
         "triceps": 22.25,
         "calves": 9
       },
@@ -75719,13 +74630,13 @@
         "back": 25,
         "chest": 25,
         "shoulders": 24,
-        "biceps": 22,
+        "biceps": 23,
         "triceps": 22,
         "calves": 9
       },
       "acceleration": [],
       "credit_only_groups": [],
-      "total_main_sets": 151,
+      "total_main_sets": 152,
       "group_counts_by_day": {
         "Mon": {
           "chest": 3,
@@ -75758,8 +74669,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 151,
-      "rise_vs_prev": 0.0414,
+      "total_resistance_sets": 152,
+      "rise_vs_prev": 0.0483,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -75796,6 +74707,14 @@
           "args": {}
         },
         {
+          "key": "changes.bonus_added",
+          "args": {
+            "exercise": "suspension-trainer-trx-biceps-curl",
+            "day": "Tue",
+            "slot_id": "Tue.Pull.x01"
+          }
+        },
+        {
           "key": "changes.set_added",
           "args": {
             "exercise": "leg-extension-machine",
@@ -75817,14 +74736,6 @@
             "exercise": "high-incline-seated-barbell-press",
             "day": "Mon",
             "slot_id": "Mon.Push.s06"
-          }
-        },
-        {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "seated-dumbbell-curl",
-            "day": "Fri",
-            "slot_id": "Fri.Pull.s10"
           }
         },
         {
@@ -77308,7 +76219,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -77509,7 +76420,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Pull",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 129,
+          "est_minutes": 131,
           "aerobic_minutes": 30,
           "exercise_count": 8,
           "skeleton": "ppl_pull",
@@ -78614,7 +77525,7 @@
                     "url": "https://www.youtube.com/results?search_query=Incline%20Dumbbell%20Curl%20('pinky%20facing%20up'%20supinated%20variation)",
                     "copy_name": "Incline Dumbbell Curl ('pinky facing up' supinated variation)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -78757,7 +77668,7 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl",
                     "copy_name": "Dumbbell Concentration Curl"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 15,
@@ -78882,7 +77793,7 @@
                     "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
                     "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -78931,7 +77842,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -85033,7 +83944,7 @@
         "chest": 0.04,
         "lats_upper_back": 0.04,
         "shoulders": 0,
-        "biceps": 0.0909,
+        "biceps": 0.0435,
         "triceps": 0.0455,
         "calves": 0
       },
@@ -85172,7 +84083,7 @@
         }
       },
       "total_resistance_sets": 157,
-      "rise_vs_prev": 0.0397,
+      "rise_vs_prev": 0.0329,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -85218,14 +84129,6 @@
             "exercise": "seal-row-barbell-pronated-grip",
             "day": "Fri",
             "slot_id": "Fri.Pull.s05"
-          }
-        },
-        {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "incline-dumbbell-curl-pinky-facing-up-supinated-variation",
-            "day": "Tue",
-            "slot_id": "Tue.Pull.s10"
           }
         },
         {
@@ -86717,7 +85620,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -88166,7 +87069,7 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl",
                     "copy_name": "Dumbbell Concentration Curl"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 15,
@@ -88291,7 +87194,7 @@
                     "url": "https://www.youtube.com/results?search_query=Suspension-Trainer%20(TRX)%20Biceps%20Curl",
                     "copy_name": "Suspension-Trainer (TRX) Biceps Curl"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -88340,7 +87243,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -94648,9 +93551,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "dumbbell-concentration-curl",
+            "exercise": "suspension-trainer-trx-biceps-curl",
             "day": "Tue",
-            "slot_id": "Tue.Pull.s11"
+            "slot_id": "Tue.Pull.x01"
           }
         },
         {
@@ -96134,7 +95037,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -97757,7 +96660,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -105644,7 +104547,7 @@
                   "flags": [],
                   "why": [
                     {
-                      "key": "why.extra_small_exercise",
+                      "key": "why.muscle_direct_exercise",
                       "ref": "R4-SES-05",
                       "args": {
                         "group": "shoulders"
@@ -107267,7 +106170,7 @@
                   },
                   "notes": [
                     {
-                      "key": "note.bonus"
+                      "key": "note.bonus_final"
                     }
                   ],
                   "swaps": [
@@ -113666,16 +112569,16 @@
       125,
       128,
       130,
-      133,
-      135,
+      132,
+      134,
       141,
       145,
-      151,
+      152,
       157,
       164,
       164
     ],
-    "max_weekly_rise": 0.0446,
+    "max_weekly_rise": 0.0522,
     "planned_steps_max": 0.1667,
     "stair_levels": [
       2,
@@ -113795,11 +112698,11 @@
         16.75,
         16.75,
         17.75,
-        18.75,
-        19,
+        17.75,
+        18,
         20,
         21.25,
-        22.25,
+        23.25,
         24.5,
         25.75,
         25.75
@@ -113851,11 +112754,11 @@
         2.75,
         2.75,
         3,
-        3.25,
-        3.25,
+        3,
+        3,
         3.5,
         3.75,
-        4,
+        4.25,
         4.5,
         4.75,
         4.75
@@ -114007,11 +112910,11 @@
         16.75,
         16.75,
         17.75,
-        18.75,
-        19,
+        17.75,
+        18,
         20,
         21.25,
-        22.25,
+        23.25,
         24.5,
         25.75,
         25.75
@@ -114121,11 +113024,11 @@
         16.75,
         16.75,
         17.75,
-        18.75,
-        19,
+        17.75,
+        18,
         20,
         21.25,
-        22.25,
+        23.25,
         24.5,
         25.75,
         25.75
@@ -114235,11 +113138,11 @@
         16,
         16,
         17,
+        17,
         18,
-        19,
         20,
         21,
-        22,
+        23,
         24,
         25,
         25
@@ -114349,11 +113252,11 @@
         16,
         16,
         17,
+        17,
         18,
-        19,
         20,
         21,
-        22,
+        23,
         24,
         25,
         25

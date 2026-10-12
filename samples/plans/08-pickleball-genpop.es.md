@@ -18,7 +18,6 @@ _Tu plan Blaze Camp_
 - Nos dijiste que tienes dolor en la rodilla (peor con flexiones profundas de rodilla). Lo que hace este plan: deja fuera los ejercicios que más cargan esa zona y lo dice en el ejercicio, mantiene cuádriceps en las mismas series en lugar de sumar más (progresa con repeticiones y carga) y te dice dónde parar en los ejercicios que la doblan. Si el dolor aumenta, detente y consulta a un profesional.
 - Las semanas 11 y 12 incluyen Navidad / Año Nuevo: mueve una sesión uno o dos días si lo necesitas; planifica las vacaciones largas entre bloques.
 - Juegas 3 o más veces por semana: cada semana tiene la mitad de los saltos y ningún ejercicio extra de agilidad.
-- Hombros: 2 de sus 9 series finales están en tu día opcional (Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), viernes). Si te saltas ese día, hombros termina en unas 7.
 
 ## Instrucciones básicas
 > \*Siempre deja 1 repetición en reserva: nunca llegues al fallo, pero acércate lo más que puedas.
@@ -85,18 +84,18 @@ Tu plan sube como una escalera: pasos pequeños hasta la semana 6, un poco más 
 
 | Semana | Nivel | Esfuerzo | Series |
 |---|---|---|---|
-| 1 | 2.0 ▮▮ | 3 en reserva | 38 |
-| 2 | 2.6 ▮▮▮ | 3 en reserva | 38 |
-| 3 | 3.2 ▮▮▮ | 3 en reserva | 39 |
-| 4 | 3.8 ▮▮▮▮ | 3 en reserva | 39 |
-| 5 | 4.4 ▮▮▮▮ | 3 en reserva | 39 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 en reserva | 40 |
-| 7 | 6.0 ▮▮▮▮▮▮ | 2 en reserva | 40 |
-| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 en reserva | 41 |
-| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 en reserva | 41 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 42 |
-| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 45 |
-| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva + intensificador | 45 |
+| 1 | 2.0 ▮▮ | 3 en reserva | 36 |
+| 2 | 2.6 ▮▮▮ | 3 en reserva | 36 |
+| 3 | 3.2 ▮▮▮ | 3 en reserva | 37 |
+| 4 | 3.8 ▮▮▮▮ | 3 en reserva | 37 |
+| 5 | 4.4 ▮▮▮▮ | 3 en reserva | 37 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 en reserva | 38 |
+| 7 | 6.0 ▮▮▮▮▮▮ | 2 en reserva | 38 |
+| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 en reserva | 39 |
+| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 en reserva | 39 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 40 |
+| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 43 |
+| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva + intensificador | 43 |
 
 semanas 1-4: Adaptación (pasos pequeños) · semanas 5-8: Subiendo el ritmo · semanas 9-12: Semanas más duras
 
@@ -116,11 +115,11 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Cadera (glúteos + isquiotibiales) | 7 | 7 | 8 |
 | Espalda | 6 | 7 | 8 |
 | Pecho | 6 | 7 | 8 |
-| Hombros | 8 | 8 | 9 |
+| Hombros | 6 | 6 | 7 |
 | Bíceps | 4 | 4 | 5 |
 | Tríceps | 4 | 4 | 5 |
 | Pantorrillas | 4 | 4 | 4 |
-| **Total** | **38** | **40** | **45** |
+| **Total** | **36** | **38** | **43** |
 
 ### Semana 1 de un vistazo
 
@@ -128,7 +127,7 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 |---|---|---|---|
 | Lunes | A - sentadilla + tirón | aprox. 70-90 min | Cuádriceps 3, Espalda 2, Bíceps 1, Pantorrillas 1 |
 | Jueves | B - peso muerto + empuje | aprox. 75-90 min | Cadera (glúteos + isquiotibiales) 3, Pecho 2, Hombros 1, Tríceps 1 |
-| Viernes | Día opcional | aprox. 40-50 min | Hombros 1 |
+| Viernes | Día opcional | aprox. 40-45 min | – |
 
 ## Bloque de entrenamiento, semana a semana · Semana 1-12
 
@@ -144,11 +143,11 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Cadera (glúteos + isquiotibiales) | 7 7 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Espalda | 6 6 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Pecho | 6 6 6 6 · 6 7 7 7 · 7 7 8 8 | 8 |
-| Hombros | 8 8 8 8 · 8 8 8 8 · 8 8 9 9 | 9 |
+| Hombros | 6 6 6 6 · 6 6 6 6 · 6 6 7 7 | 7 |
 | Bíceps | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 5 |
 | Tríceps | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 5 |
 | Pantorrillas | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 4 |
-| **Total** | 38 38 39 39 · 39 40 40 41 · 41 42 45 45 | 45 |
+| **Total** | 36 36 37 37 · 37 38 38 39 · 39 40 43 43 | 43 |
 
 ### Lunes · A - sentadilla + tirón
 
@@ -190,7 +189,6 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Ejercicio | Series | Reps |
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
-| Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 a 20 reps |
 
 ## Semana 1 — Adaptación (pasos pequeños)
 
@@ -383,9 +381,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -394,13 +391,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -599,9 +589,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -610,13 +599,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -815,9 +797,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -826,13 +807,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -1031,9 +1005,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1042,13 +1015,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
@@ -1248,9 +1214,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1259,13 +1224,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -1461,9 +1419,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1472,13 +1429,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -1674,9 +1624,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1685,13 +1634,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -1887,9 +1829,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1898,13 +1839,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
@@ -2104,9 +2038,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2115,13 +2048,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -2317,9 +2243,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2328,13 +2253,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -2532,9 +2450,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2543,13 +2460,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -2747,9 +2657,8 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Viernes · Día opcional
-_Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), accesorios, cardio. También puedes agregar o quitar ejercicios._
-_Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicios extra: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly)_
+_Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2758,13 +2667,6 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): ejercicio
 1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-
-**Accesorios**
-1. **Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (extra)** — 2 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
-   - Progresión: cuando llegues a 20 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Ejercicio extra para completar tus series semanales
-   - Cambiar por: Aperturas posteriores sentado, pecho sobre los muslos (Seated Reverse Fly) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Elevaciones Y / T boca abajo en el piso (Prone Y-T Raises) (mantiene el trabajo de deltoides posterior; pierde poco: mismo movimiento, otro agarre o posición) / Aperturas posteriores en máquina (Reverse Pec Deck) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Remo para deltoide posterior con mancuerna (Rear-Delt Row) (mantiene el trabajo de deltoides posterior; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly) · Nombre para copiar en YouTube: `Bent-Over DB Reverse Fly`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar

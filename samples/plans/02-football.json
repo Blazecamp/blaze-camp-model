@@ -342,7 +342,7 @@
           "quads": 18,
           "hips": 18,
           "back": 13,
-          "chest": 13,
+          "chest": 12,
           "shoulders": 13,
           "calves": 12
         },
@@ -406,10 +406,10 @@
             11,
             11,
             11,
+            11,
+            11,
             12,
-            12,
-            13,
-            13
+            12
           ],
           "shoulders": [
             10,
@@ -468,13 +468,21 @@
           "quads": 18,
           "hips": 18,
           "back": 13,
-          "chest": 13,
-          "shoulders": 13.25,
+          "chest": 12,
+          "shoulders": 13.75,
           "calves": 12
         },
-        "capped": [],
+        "capped": [
+          {
+            "group": "chest",
+            "planned": 13,
+            "held": 12,
+            "notice": true
+          }
+        ],
         "below_floor": [],
         "bonus": [],
+        "main_bonus": [],
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
@@ -802,6 +810,15 @@
       "forbidden_found": []
     },
     "warnings": [
+      {
+        "code": "capped_by_template",
+        "key": "warning.capped_by_template",
+        "args": {
+          "group": "chest",
+          "held": 12,
+          "planned": 13
+        }
+      },
       {
         "code": "slot_held_groups",
         "key": "warning.slot_held_groups",
@@ -1516,14 +1533,14 @@
         "glutes": 4.5,
         "chest": 10,
         "lats_upper_back": 10,
-        "side_delts": 3.5,
+        "side_delts": 2.5,
         "rear_delts": 3.5,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 4,
+        "front_delts": 4.5,
         "traps": 0,
         "adductors": 2.5,
         "neck": 0
@@ -1534,7 +1551,7 @@
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 10,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
@@ -1552,9 +1569,9 @@
         "glutes": 4.5,
         "chest": 10,
         "lats_upper_back": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -1563,9 +1580,9 @@
         "glutes": 4.5,
         "chest": 10,
         "lats_upper_back": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -1573,9 +1590,9 @@
         "hips": 14.5,
         "back": 10,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -1583,9 +1600,9 @@
         "hips": 14.5,
         "back": 10,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "target_by_group": {
@@ -1603,7 +1620,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 73,
+      "total_main_sets": 72,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -1613,7 +1630,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -1632,7 +1649,7 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 73,
+      "total_resistance_sets": 72,
       "rise_vs_prev": null,
       "athletic_budget": {
         "plyo_share": 0.35,
@@ -1703,6 +1720,10 @@
         {
           "key": "why.stairway_target",
           "ref": "CX-01"
+        },
+        {
+          "key": "why.capped_by_template",
+          "ref": "R4-SES-04"
         },
         {
           "key": "why.planned_only",
@@ -3929,9 +3950,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 135,
+          "est_minutes": 133,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -3957,10 +3978,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -3998,7 +4015,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -4012,7 +4029,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -4942,7 +4959,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -4996,7 +5013,7 @@
                     {
                       "key": "note.test_back_off",
                       "args": {
-                        "n": 2,
+                        "n": 3,
                         "rir": "3"
                       }
                     },
@@ -5253,7 +5270,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -5843,7 +5860,7 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Lateral%20(Side)%20Raise",
                     "copy_name": "DB Lateral (Side) Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -6066,129 +6083,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 12,
-                    "max": 15,
-                    "bracket": "b12_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -11034,14 +10928,14 @@
         "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 10,
-        "side_delts": 3.5,
+        "side_delts": 2.5,
         "rear_delts": 3.5,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 4,
+        "front_delts": 4.5,
         "traps": 0,
         "adductors": 2.75,
         "neck": 0
@@ -11052,7 +10946,7 @@
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 10,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
@@ -11070,9 +10964,9 @@
         "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -11081,9 +10975,9 @@
         "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -11091,9 +10985,9 @@
         "hips": 14.75,
         "back": 10,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -11101,9 +10995,9 @@
         "hips": 14.75,
         "back": 10,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "target_by_group": {
@@ -11121,7 +11015,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 74,
+      "total_main_sets": 73,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -11131,7 +11025,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -11150,8 +11044,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 74,
-      "rise_vs_prev": 0.0137,
+      "total_resistance_sets": 73,
+      "rise_vs_prev": 0.0139,
       "athletic_budget": {
         "plyo_share": 0.365,
         "stage": "RC1",
@@ -13289,9 +13183,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 125,
+          "est_minutes": 123,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -13317,10 +13211,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -13367,7 +13257,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -13381,7 +13271,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -14199,7 +14089,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -14484,7 +14374,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -15062,7 +14952,7 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Lateral%20(Side)%20Raise",
                     "copy_name": "DB Lateral (Side) Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -15285,129 +15175,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 12,
-                    "max": 15,
-                    "bracket": "b12_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -20244,14 +20011,14 @@
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 10,
-        "side_delts": 3.5,
+        "side_delts": 2.5,
         "rear_delts": 3.5,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 4,
+        "front_delts": 4.5,
         "traps": 0,
         "adductors": 2.75,
         "neck": 0
@@ -20262,7 +20029,7 @@
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 10,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
@@ -20280,9 +20047,9 @@
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -20291,9 +20058,9 @@
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -20301,9 +20068,9 @@
         "hips": 15.75,
         "back": 10,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -20311,9 +20078,9 @@
         "hips": 15.75,
         "back": 10,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.5,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "target_by_group": {
@@ -20331,7 +20098,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 75,
+      "total_main_sets": 74,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -20341,7 +20108,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -20360,8 +20127,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 75,
-      "rise_vs_prev": 0.0135,
+      "total_resistance_sets": 74,
+      "rise_vs_prev": 0.0137,
       "athletic_budget": {
         "plyo_share": 0.38,
         "stage": "RC1",
@@ -22499,9 +22266,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 127,
+          "est_minutes": 126,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -22527,10 +22294,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -22577,7 +22340,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -22591,7 +22354,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -23409,7 +23172,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -23694,7 +23457,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -24272,7 +24035,7 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Lateral%20(Side)%20Raise",
                     "copy_name": "DB Lateral (Side) Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -24495,129 +24258,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 12,
-                    "max": 15,
-                    "bracket": "b12_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -29454,14 +29094,14 @@
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 11,
-        "side_delts": 3.5,
+        "side_delts": 2.5,
         "rear_delts": 3.5,
         "biceps": 6.75,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 4,
+        "front_delts": 4.5,
         "traps": 0,
         "adductors": 2.75,
         "neck": 0
@@ -29472,7 +29112,7 @@
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 11,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
@@ -29490,9 +29130,9 @@
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 11,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.75,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -29501,9 +29141,9 @@
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 11,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.75,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -29511,9 +29151,9 @@
         "hips": 15.75,
         "back": 11,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.75,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -29521,9 +29161,9 @@
         "hips": 15.75,
         "back": 11,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10,
         "biceps": 6.75,
-        "triceps": 6.5,
+        "triceps": 7,
         "calves": 12
       },
       "target_by_group": {
@@ -29541,7 +29181,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 76,
+      "total_main_sets": 75,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -29551,7 +29191,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -29570,8 +29210,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 76,
-      "rise_vs_prev": 0.0133,
+      "total_resistance_sets": 75,
+      "rise_vs_prev": 0.0135,
       "athletic_budget": {
         "plyo_share": 0.395,
         "stage": "RC1",
@@ -31709,9 +31349,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 127,
+          "est_minutes": 126,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -31737,10 +31377,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -31787,7 +31423,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -31801,7 +31437,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -32619,7 +32255,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -32904,7 +32540,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -33482,7 +33118,7 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Lateral%20(Side)%20Raise",
                     "copy_name": "DB Lateral (Side) Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -33705,129 +33341,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 12,
-                    "max": 15,
-                    "bracket": "b12_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL1"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -38664,14 +38177,14 @@
         "glutes": 5,
         "chest": 11,
         "lats_upper_back": 11,
-        "side_delts": 3.5,
+        "side_delts": 2.5,
         "rear_delts": 3.5,
         "biceps": 6.75,
-        "triceps": 6.75,
+        "triceps": 7.25,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 4.25,
+        "front_delts": 4.75,
         "traps": 0,
         "adductors": 2.75,
         "neck": 0
@@ -38682,7 +38195,7 @@
         "glutes": 0,
         "chest": 11,
         "lats_upper_back": 11,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
@@ -38700,9 +38213,9 @@
         "glutes": 5,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 10.75,
+        "shoulders": 10.25,
         "biceps": 6.75,
-        "triceps": 6.75,
+        "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -38711,9 +38224,9 @@
         "glutes": 5,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 10.75,
+        "shoulders": 10.25,
         "biceps": 6.75,
-        "triceps": 6.75,
+        "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -38721,9 +38234,9 @@
         "hips": 15.75,
         "back": 11,
         "chest": 11,
-        "shoulders": 10.75,
+        "shoulders": 10.25,
         "biceps": 6.75,
-        "triceps": 6.75,
+        "triceps": 7.25,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -38731,9 +38244,9 @@
         "hips": 15.75,
         "back": 11,
         "chest": 11,
-        "shoulders": 10.75,
+        "shoulders": 10.25,
         "biceps": 6.75,
-        "triceps": 6.75,
+        "triceps": 7.25,
         "calves": 12
       },
       "target_by_group": {
@@ -38751,7 +38264,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 77,
+      "total_main_sets": 76,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -38761,7 +38274,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -38780,8 +38293,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 77,
-      "rise_vs_prev": 0.0132,
+      "total_resistance_sets": 76,
+      "rise_vs_prev": 0.0133,
       "athletic_budget": {
         "plyo_share": 0.41,
         "stage": "RC2",
@@ -38840,9 +38353,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "alternating-incline-db-bench-press-one-up-one-down",
-            "day": "Tue",
-            "slot_id": "Tue.B1.s10"
+            "exercise": "flat-db-bench-press",
+            "day": "Fri",
+            "slot_id": "Fri.B2.s08"
           }
         }
       ],
@@ -40985,9 +40498,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 133,
+          "est_minutes": 129,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -41013,10 +40526,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -41063,7 +40572,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -41077,7 +40586,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -41907,7 +41416,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -42804,7 +42313,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise",
                     "copy_name": "Seated DB Lateral Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -43033,133 +42542,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 12,
-                    "bracket": "b10_12"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      10,
-                      12
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL2"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -45570,7 +44952,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 98,
+          "est_minutes": 100,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -46523,7 +45905,7 @@
                     "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press",
                     "copy_name": "Flat DB Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -48074,14 +47456,14 @@
         "glutes": 5,
         "chest": 11,
         "lats_upper_back": 11,
-        "side_delts": 3.75,
+        "side_delts": 3.5,
         "rear_delts": 3.5,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.25,
+        "front_delts": 4.75,
         "traps": 0,
         "adductors": 2.75,
         "neck": 0
@@ -48099,7 +47481,7 @@
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 0,
-        "front_delts": 3,
+        "front_delts": 2,
         "traps": 0,
         "adductors": 0,
         "neck": 0
@@ -48110,9 +47492,9 @@
         "glutes": 5,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -48121,9 +47503,9 @@
         "glutes": 5,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -48131,9 +47513,9 @@
         "hips": 15.75,
         "back": 11,
         "chest": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -48141,9 +47523,9 @@
         "hips": 15.75,
         "back": 11,
         "chest": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "target_by_group": {
@@ -48161,7 +47543,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 78,
+      "total_main_sets": 77,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -48171,7 +47553,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -48190,8 +47572,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 78,
-      "rise_vs_prev": 0.013,
+      "total_resistance_sets": 77,
+      "rise_vs_prev": 0.0132,
       "athletic_budget": {
         "plyo_share": 0.425,
         "stage": "RC2",
@@ -48240,9 +47622,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "alternating-db-overhead-press",
-            "day": "Fri",
-            "slot_id": "Fri.B2.s10"
+            "exercise": "seated-db-lateral-raise",
+            "day": "Tue",
+            "slot_id": "Tue.B1.s13"
           }
         }
       ],
@@ -50378,9 +49760,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 133,
+          "est_minutes": 130,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -50406,10 +49788,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -50470,7 +49848,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -51300,7 +50678,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -52426,133 +51804,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 12,
-                    "bracket": "b10_12"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 3,
-                    "max": 3,
-                    "rpe_min": 7,
-                    "rpe_max": 7,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      10,
-                      12
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL2"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "3"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -54963,7 +54214,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 101,
+          "est_minutes": 100,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -55916,7 +55167,7 @@
                     "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press",
                     "copy_name": "Flat DB Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -56218,7 +55469,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press",
                     "copy_name": "Alternating DB Overhead Press"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -57467,14 +56718,14 @@
         "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
-        "side_delts": 3.75,
+        "side_delts": 3.5,
         "rear_delts": 3.5,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.25,
+        "front_delts": 4.75,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -57492,7 +56743,7 @@
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 0,
-        "front_delts": 3,
+        "front_delts": 2,
         "traps": 0,
         "adductors": 0,
         "neck": 0
@@ -57503,9 +56754,9 @@
         "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -57514,9 +56765,9 @@
         "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -57524,9 +56775,9 @@
         "hips": 16,
         "back": 11,
         "chest": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -57534,9 +56785,9 @@
         "hips": 16,
         "back": 11,
         "chest": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 6.75,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "target_by_group": {
@@ -57554,7 +56805,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 79,
+      "total_main_sets": 78,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -57564,7 +56815,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -57583,8 +56834,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 79,
-      "rise_vs_prev": 0.0128,
+      "total_resistance_sets": 78,
+      "rise_vs_prev": 0.013,
       "athletic_budget": {
         "plyo_share": 0.44,
         "stage": "RC2",
@@ -59772,9 +59023,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 133,
+          "est_minutes": 130,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -59800,10 +59051,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -59864,7 +59111,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -60694,7 +59941,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -61821,133 +61068,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 12,
-                    "bracket": "b10_12"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      10,
-                      12
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL2"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -64358,7 +63478,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 101,
+          "est_minutes": 100,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -65311,7 +64431,7 @@
                     "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press",
                     "copy_name": "Flat DB Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -65613,7 +64733,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press",
                     "copy_name": "Alternating DB Overhead Press"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -66862,14 +65982,14 @@
         "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 12,
-        "side_delts": 3.75,
+        "side_delts": 3.5,
         "rear_delts": 3.5,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.25,
+        "front_delts": 4.75,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -66887,7 +66007,7 @@
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 0,
-        "front_delts": 3,
+        "front_delts": 2,
         "traps": 0,
         "adductors": 0,
         "neck": 0
@@ -66898,9 +66018,9 @@
         "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -66909,9 +66029,9 @@
         "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -66919,9 +66039,9 @@
         "hips": 16,
         "back": 12,
         "chest": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -66929,9 +66049,9 @@
         "hips": 16,
         "back": 12,
         "chest": 11,
-        "shoulders": 11.75,
+        "shoulders": 11.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.25,
         "calves": 12
       },
       "target_by_group": {
@@ -66949,7 +66069,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 80,
+      "total_main_sets": 79,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -66959,7 +66079,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -66978,8 +66098,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 80,
-      "rise_vs_prev": 0.0127,
+      "total_resistance_sets": 79,
+      "rise_vs_prev": 0.0128,
       "athletic_budget": {
         "plyo_share": 0.455,
         "stage": "RC2",
@@ -69167,9 +68287,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 133,
+          "est_minutes": 130,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -69195,10 +68315,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -69259,7 +68375,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -70089,7 +69205,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -71216,133 +70332,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 12,
-                    "bracket": "b10_12"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      10,
-                      12
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL2"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -73753,7 +72742,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 101,
+          "est_minutes": 100,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -74706,7 +73695,7 @@
                     "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press",
                     "copy_name": "Flat DB Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -75008,7 +73997,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press",
                     "copy_name": "Alternating DB Overhead Press"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -76235,7 +75224,7 @@
       "step_by_muscle": {
         "quads": 0,
         "hamstrings": 0,
-        "chest": 0.0909,
+        "chest": 0,
         "lats_upper_back": 0,
         "shoulders": 0.0909,
         "calves": 0
@@ -76244,7 +75233,7 @@
         "quads": 16,
         "hamstrings": 16,
         "glutes": null,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
         "shoulders": 12,
         "biceps": null,
@@ -76255,16 +75244,16 @@
         "quads": 16,
         "hamstrings": 13,
         "glutes": 5.25,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
         "side_delts": 3.75,
-        "rear_delts": 4.5,
+        "rear_delts": 3.5,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.25,
+        "front_delts": 5.75,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -76273,10 +75262,10 @@
         "quads": 16,
         "hamstrings": 13,
         "glutes": 0,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
         "side_delts": 3,
-        "rear_delts": 3,
+        "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
         "calves": 12,
@@ -76291,49 +75280,49 @@
         "quads": 16,
         "hamstrings": 13,
         "glutes": 5.25,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 12.75,
+        "shoulders": 12.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 16,
         "hamstrings": 13,
         "glutes": 5.25,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 12.75,
+        "shoulders": 12.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 16,
         "hips": 16,
         "back": 12,
-        "chest": 12,
-        "shoulders": 12.75,
+        "chest": 11,
+        "shoulders": 12.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 16,
         "hips": 16,
         "back": 12,
-        "chest": 12,
-        "shoulders": 12.75,
+        "chest": 11,
+        "shoulders": 12.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12
       },
       "target_by_group": {
         "quads": 16,
         "hips": 16,
         "back": 12,
-        "chest": 12,
+        "chest": 11,
         "shoulders": 12,
         "biceps": null,
         "triceps": null,
@@ -76344,7 +75333,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 82,
+      "total_main_sets": 80,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -76354,7 +75343,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -76373,8 +75362,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 82,
-      "rise_vs_prev": 0.025,
+      "total_resistance_sets": 80,
+      "rise_vs_prev": 0.0127,
       "athletic_budget": {
         "plyo_share": 0.47,
         "stage": "RC3",
@@ -76433,17 +75422,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "flat-db-fly",
-            "day": "Tue",
-            "slot_id": "Tue.B1.x01"
-          }
-        },
-        {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "seated-chest-to-thighs-db-reverse-fly",
+            "exercise": "seesaw-db-press-alternating-one-up-one-down",
             "day": "Fri",
-            "slot_id": "Fri.B2.s13"
+            "slot_id": "Fri.B2.s10"
           }
         }
       ],
@@ -78591,9 +77572,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 144,
+          "est_minutes": 139,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -78619,10 +77600,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -78683,7 +77660,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -79527,7 +78504,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -80680,133 +79657,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "range",
-                    "min": 8,
-                    "max": 12,
-                    "bracket": "b8_12"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 2,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 8,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      8,
-                      12
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL3"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -83258,7 +82108,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 113,
+          "est_minutes": 114,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -83336,7 +82186,7 @@
                 "Fri.B2.s13",
                 "Fri.B2.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -84221,7 +83071,7 @@
                     "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press",
                     "copy_name": "Flat DB Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -85112,7 +83962,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly",
                     "copy_name": "Seated (Chest-to-Thighs) DB Reverse Fly"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -85764,7 +84614,7 @@
         "quads": 17,
         "hamstrings": 17,
         "glutes": null,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
         "shoulders": 12,
         "biceps": null,
@@ -85775,16 +84625,16 @@
         "quads": 17,
         "hamstrings": 14,
         "glutes": 5.5,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
         "side_delts": 3.75,
-        "rear_delts": 4.5,
+        "rear_delts": 3.5,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.25,
+        "front_delts": 5.75,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -85793,10 +84643,10 @@
         "quads": 17,
         "hamstrings": 14,
         "glutes": 0,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
         "side_delts": 3,
-        "rear_delts": 3,
+        "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
         "calves": 12,
@@ -85811,49 +84661,49 @@
         "quads": 17,
         "hamstrings": 14,
         "glutes": 5.5,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 12.75,
+        "shoulders": 12.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 17,
         "hamstrings": 14,
         "glutes": 5.5,
-        "chest": 12,
+        "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 12.75,
+        "shoulders": 12.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 17,
         "hips": 17,
         "back": 12,
-        "chest": 12,
-        "shoulders": 12.75,
+        "chest": 11,
+        "shoulders": 12.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 17,
         "hips": 17,
         "back": 12,
-        "chest": 12,
-        "shoulders": 12.75,
+        "chest": 11,
+        "shoulders": 12.25,
         "biceps": 7,
-        "triceps": 7,
+        "triceps": 7.5,
         "calves": 12
       },
       "target_by_group": {
         "quads": 17,
         "hips": 17,
         "back": 12,
-        "chest": 12,
+        "chest": 11,
         "shoulders": 12,
         "biceps": null,
         "triceps": null,
@@ -85864,7 +84714,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 84,
+      "total_main_sets": 82,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -85874,7 +84724,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -85893,8 +84743,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 84,
-      "rise_vs_prev": 0.0244,
+      "total_resistance_sets": 82,
+      "rise_vs_prev": 0.025,
       "athletic_budget": {
         "plyo_share": 0.485,
         "stage": "RC3",
@@ -88094,9 +86944,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 144,
+          "est_minutes": 139,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -88122,10 +86972,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -88186,7 +87032,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -89030,7 +87876,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -90183,133 +89029,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "range",
-                    "min": 8,
-                    "max": 12,
-                    "bracket": "b8_12"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      8,
-                      12
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL3"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1-2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -92839,7 +91558,7 @@
                 "Fri.B2.s13",
                 "Fri.B2.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -93724,7 +92443,7 @@
                     "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press",
                     "copy_name": "Flat DB Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -94615,7 +93334,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly",
                     "copy_name": "Seated (Chest-to-Thighs) DB Reverse Fly"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -95258,7 +93977,7 @@
       "step_by_muscle": {
         "quads": 0.0588,
         "hamstrings": 0.0588,
-        "chest": 0.0833,
+        "chest": 0.0909,
         "lats_upper_back": 0.0833,
         "shoulders": 0.0833,
         "calves": 0
@@ -95267,7 +93986,7 @@
         "quads": 18,
         "hamstrings": 18,
         "glutes": null,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
         "shoulders": 13,
         "biceps": null,
@@ -95278,16 +93997,16 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
         "side_delts": 3.75,
         "rear_delts": 4.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.5,
+        "front_delts": 6,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -95296,7 +94015,7 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 0,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
         "side_delts": 3,
         "rear_delts": 3,
@@ -95314,49 +94033,49 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
-        "shoulders": 13.25,
+        "shoulders": 13.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
-        "shoulders": 13.25,
+        "shoulders": 13.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 13,
-        "shoulders": 13.25,
+        "chest": 12,
+        "shoulders": 13.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 13,
-        "shoulders": 13.25,
+        "chest": 12,
+        "shoulders": 13.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12
       },
       "target_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 13,
+        "chest": 12,
         "shoulders": 13,
         "biceps": null,
         "triceps": null,
@@ -95367,7 +94086,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 88,
+      "total_main_sets": 87,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -95377,7 +94096,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -95396,8 +94115,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 88,
-      "rise_vs_prev": 0.0476,
+      "total_resistance_sets": 87,
+      "rise_vs_prev": 0.061,
       "athletic_budget": {
         "plyo_share": 0.5,
         "stage": "RC3",
@@ -95473,9 +94192,17 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "flat-db-bench-press",
+            "exercise": "alternating-incline-db-bench-press-one-up-one-down",
+            "day": "Tue",
+            "slot_id": "Tue.B1.s10"
+          }
+        },
+        {
+          "key": "changes.set_added",
+          "args": {
+            "exercise": "seated-chest-to-thighs-db-reverse-fly",
             "day": "Fri",
-            "slot_id": "Fri.B2.s08"
+            "slot_id": "Fri.B2.s13"
           }
         }
       ],
@@ -97616,9 +96343,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 147,
+          "est_minutes": 145,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -97644,10 +96371,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -97708,7 +96431,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -98552,7 +97275,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -98854,7 +97577,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -99705,133 +98428,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "range",
-                    "min": 8,
-                    "max": 12,
-                    "bracket": "b8_12"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 2,
-                    "rpe_min": 8,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      8,
-                      12
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL3"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1-2"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -104797,7 +103393,7 @@
         "quads": 18,
         "hamstrings": 18,
         "glutes": null,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
         "shoulders": 13,
         "biceps": null,
@@ -104808,16 +103404,16 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
         "side_delts": 3.75,
         "rear_delts": 4.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.5,
+        "front_delts": 6,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -104826,7 +103422,7 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 0,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
         "side_delts": 3,
         "rear_delts": 3,
@@ -104844,49 +103440,49 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
-        "shoulders": 13.25,
+        "shoulders": 13.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 13,
+        "chest": 12,
         "lats_upper_back": 13,
-        "shoulders": 13.25,
+        "shoulders": 13.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 13,
-        "shoulders": 13.25,
+        "chest": 12,
+        "shoulders": 13.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 13,
-        "shoulders": 13.25,
+        "chest": 12,
+        "shoulders": 13.75,
         "biceps": 7.25,
-        "triceps": 7.25,
+        "triceps": 7.75,
         "calves": 12
       },
       "target_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 13,
+        "chest": 12,
         "shoulders": 13,
         "biceps": null,
         "triceps": null,
@@ -104897,7 +103493,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 88,
+      "total_main_sets": 87,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -104907,7 +103503,7 @@
         },
         "Tue": {
           "hips": 3,
-          "chest": 3,
+          "chest": 2,
           "shoulders": 1,
           "triceps": 1,
           "calves": 1
@@ -104926,7 +103522,7 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 88,
+      "total_resistance_sets": 87,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.5,
@@ -107271,9 +105867,9 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 154,
+          "est_minutes": 152,
           "aerobic_minutes": 30,
-          "exercise_count": 12,
+          "exercise_count": 11,
           "skeleton": "athletic_B",
           "easy_to_remove": [
             {
@@ -107299,10 +105895,6 @@
             {
               "slot_id": "Tue.B1.s16",
               "kind": "small_muscle_accessory"
-            },
-            {
-              "slot_id": "Tue.B1.x01",
-              "kind": "bonus_exercise"
             }
           ],
           "supersets_on": false,
@@ -107354,7 +105946,7 @@
           "toggle_items": [],
           "groups": {
             "hips": 3,
-            "chest": 3,
+            "chest": 2,
             "shoulders": 1,
             "triceps": 1,
             "calves": 1
@@ -108314,7 +106906,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -108367,7 +106959,7 @@
                     {
                       "key": "note.test_back_off",
                       "args": {
-                        "n": 2,
+                        "n": 3,
                         "rir": "2"
                       }
                     }
@@ -108630,7 +107222,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -109481,133 +108073,6 @@
                     }
                   ],
                   "superset_suggested": "X2"
-                },
-                {
-                  "slot_id": "Tue.B1.x01",
-                  "station_id": "B1.x01",
-                  "bucket": "FOCUS",
-                  "role": "focus",
-                  "origin": "bonus",
-                  "group": "chest",
-                  "exercise_id": "flat-db-fly",
-                  "name_key": "exercise.flat-db-fly.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Flat%20DB%20Fly",
-                    "copy_name": "Flat DB Fly"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "range",
-                    "min": 8,
-                    "max": 12,
-                    "bracket": "b8_12"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "rir",
-                    "min": 1,
-                    "max": 1,
-                    "rpe_min": 9,
-                    "rpe_max": 9,
-                    "last_set": null,
-                    "intensifier": false
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 60,
-                    "max": 90
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "chest": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      8,
-                      12
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
-                  "notes": [
-                    {
-                      "key": "note.bonus"
-                    }
-                  ],
-                  "swaps": [
-                    "cable-fly",
-                    "machine-fly-pec-deck"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "cable-fly",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    },
-                    {
-                      "id": "machine-fly-pec-deck",
-                      "keeps": "swap.keeps.ISO_CHEST",
-                      "loses": "swap.loses.free_weight_balance"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.bonus_main_day",
-                      "ref": "R4-SES-05",
-                      "args": {
-                        "group": "chest"
-                      }
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.reps_vol_phase",
-                      "ref": "PER-11",
-                      "args": {
-                        "phase": "VOL3"
-                      }
-                    },
-                    {
-                      "key": "why.planned_rir",
-                      "ref": "R2-PER-05",
-                      "args": {
-                        "rir": "1"
-                      }
-                    },
-                    {
-                      "key": "why.rest",
-                      "ref": "VOL-14"
-                    }
-                  ],
-                  "superset_suggested": null
                 }
               ],
               "id": "blk.tue-b1.accessories.1",
@@ -114484,6 +112949,7 @@
   ],
   "summary": {
     "total_resistance_sets_by_week": [
+      72,
       73,
       74,
       75,
@@ -114493,11 +112959,10 @@
       79,
       80,
       82,
-      84,
-      88,
-      88
+      87,
+      87
     ],
-    "max_weekly_rise": 0.0476,
+    "max_weekly_rise": 0.061,
     "planned_steps_max": 0.1,
     "stair_levels": [
       2,
@@ -114565,10 +113030,10 @@
         11,
         11,
         11,
+        11,
+        11,
         12,
-        12,
-        13,
-        13
+        12
       ],
       "lats_upper_back": [
         10,
@@ -114585,14 +113050,14 @@
         13
       ],
       "side_delts": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
         3.5,
         3.5,
         3.5,
-        3.5,
-        3.5,
-        3.75,
-        3.75,
-        3.75,
         3.75,
         3.75,
         3.75,
@@ -114607,8 +113072,8 @@
         3.5,
         3.5,
         3.5,
-        4.5,
-        4.5,
+        3.5,
+        3.5,
         4.75,
         4.75
       ],
@@ -114627,18 +113092,18 @@
         7.25
       ],
       "triceps": [
-        6.5,
-        6.5,
-        6.5,
-        6.5,
-        6.75,
-        7,
         7,
         7,
         7,
         7,
         7.25,
-        7.25
+        7.25,
+        7.25,
+        7.25,
+        7.5,
+        7.5,
+        7.75,
+        7.75
       ],
       "calves": [
         12,
@@ -114683,18 +113148,18 @@
         1
       ],
       "front_delts": [
-        4,
-        4,
-        4,
-        4,
-        4.25,
-        5.25,
-        5.25,
-        5.25,
-        5.25,
-        5.25,
-        5.5,
-        5.5
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.75,
+        4.75,
+        4.75,
+        4.75,
+        5.75,
+        5.75,
+        6,
+        6
       ],
       "traps": [
         0,
@@ -114791,10 +113256,10 @@
         11,
         11,
         11,
+        11,
+        11,
         12,
-        12,
-        13,
-        13
+        12
       ],
       "lats_upper_back": [
         10,
@@ -114811,18 +113276,18 @@
         13
       ],
       "shoulders": [
-        10.5,
-        10.5,
-        10.5,
-        10.5,
-        10.75,
-        11.75,
-        11.75,
-        11.75,
-        12.75,
-        12.75,
-        13.25,
-        13.25
+        10,
+        10,
+        10,
+        10,
+        10.25,
+        11.25,
+        11.25,
+        11.25,
+        12.25,
+        12.25,
+        13.75,
+        13.75
       ],
       "biceps": [
         6.5,
@@ -114839,18 +113304,18 @@
         7.25
       ],
       "triceps": [
-        6.5,
-        6.5,
-        6.5,
-        6.5,
-        6.75,
-        7,
         7,
         7,
         7,
         7,
         7.25,
-        7.25
+        7.25,
+        7.25,
+        7.25,
+        7.5,
+        7.5,
+        7.75,
+        7.75
       ],
       "calves": [
         12,
@@ -114919,24 +113384,24 @@
         11,
         11,
         11,
+        11,
+        11,
         12,
-        12,
-        13,
-        13
+        12
       ],
       "shoulders": [
-        10.5,
-        10.5,
-        10.5,
-        10.5,
-        10.75,
-        11.75,
-        11.75,
-        11.75,
-        12.75,
-        12.75,
-        13.25,
-        13.25
+        10,
+        10,
+        10,
+        10,
+        10.25,
+        11.25,
+        11.25,
+        11.25,
+        12.25,
+        12.25,
+        13.75,
+        13.75
       ],
       "biceps": [
         6.5,
@@ -114953,18 +113418,18 @@
         7.25
       ],
       "triceps": [
-        6.5,
-        6.5,
-        6.5,
-        6.5,
-        6.75,
-        7,
         7,
         7,
         7,
         7,
         7.25,
-        7.25
+        7.25,
+        7.25,
+        7.25,
+        7.5,
+        7.5,
+        7.75,
+        7.75
       ],
       "calves": [
         12,
@@ -115019,10 +113484,10 @@
         11,
         11,
         11,
+        11,
+        11,
         12,
-        12,
-        13,
-        13
+        12
       ],
       "lats_upper_back": [
         10,
@@ -115119,10 +113584,10 @@
         11,
         11,
         11,
+        11,
+        11,
         12,
-        12,
-        13,
-        13
+        12
       ],
       "shoulders": [
         10,
@@ -115168,7 +113633,18 @@
       0,
       1
     ],
-    "shortfalls": []
+    "shortfalls": [
+      {
+        "code": "capped_by_template",
+        "key": "warning.capped_by_template",
+        "args": {
+          "group": "chest",
+          "held": 12,
+          "planned": 13
+        },
+        "week": 12
+      }
+    ]
   },
   "validation": {
     "ok": true,
