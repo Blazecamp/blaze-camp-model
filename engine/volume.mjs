@@ -630,6 +630,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   //  - G-108: in the first week of a physique block a compound lift holds at most 4 sets and an isolation exercise 3, so the first
   //    lift has a step left (VOL-01, VOL-07; OBSERVED 4 TRACKS AESTHETICS 3 -> 4 -> 5 sets; review 06 M1); a Focus group keeps its numbers
   const PX3 = P.x3 || {};
+  // v0.7 (rules.placement.x7; COACH-R5, coach_answers_round5.md)
+  const PX7 = P.x7 || {};
   // COACH-CH5 CH5-03 ('they should reach more if needed, no cap until 35'): a big group the training days cannot take to its planned
   // final sets may take a bonus exercise (the optional day; a training day when there is none); the absolute weekly ceiling
   const BIGNEED = !!(PX3.bonus_small_only && PX3.bonus_small_only.big_when_needed);
@@ -651,12 +653,22 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const dormant = new Map();   // slot_id -> the exercise block a training day's bonus opens with (G-217: not before it is needed)
   const bonusGroupsAll = new Set(); // the groups that hold a bonus exercise in this block (open, waiting or scratch)
   const wpOn = () => { const W = PX3.work_over_paired; return !!W && (W.families || []).includes(layout.family) && (!W.modifiers || W.modifiers.includes(D9.modifier_id)); };
+  // v0.7 G-236 (COACH-R5 R5-ATH-12 'Start the heavy deadlift at 3 sets and give it the next added set ahead of the other hip lifts'):
+  // the week's counted heavy hinge - the main two-leg hinge of an athletic B day (rules.placement.x7.heavy_hinge_lead)
+  const HH = PX7.heavy_hinge_lead && PX7.heavy_hinge_lead.enabled ? PX7.heavy_hinge_lead : null;
+  const extraTop = new Map(); // v0.7 G-235: slot_id -> {eb, add, group} - the one-set shortfall's lift (set by planStairs)
+  const heavyHinge = (slot, di) => !!HH && (HH.families || []).includes(layout.family) && isMainDi(di) && slot.origin !== 'bonus' && !isCircuitSlot(slot) &&
+    slot.role === HH.role && slot.bucket === HH.bucket && !!fills[slot.slot_id] && (fills[slot.slot_id].flags || []).includes(HH.flag);
   const boundsOf = (slot, di) => {
-    const b = boundsOf0(slot, di);
+    const b0 = boundsOf0(slot, di);
+    const b = HH && heavyHinge(slot, di) ? [Math.max(b0[0], Math.min(maxEx, HH.start_sets)), Math.max(b0[1], Math.min(maxEx, HH.start_sets))] : b0;
     if (slot.bucket === 'ISO_CALF' || isCircuitSlot(slot)) return b;
     let hi = b[1];
     const AP = PX3.athlete_press_max;
-    if (AP && (AP.families || []).includes(layout.family) && isNum(AP.max)) {
+    // v0.7 G-232 (COACH-R5 R5-VOL-09 'It can go up more as well depends on focus and goals'): the athlete's press cap is the default;
+    // with the group a Focus muscle of the person the press may go to the level's per-exercise top (rules.placement.x7.athlete_press_focus)
+    const apFocusFree = !!(PX7.athlete_press_focus && PX7.athlete_press_focus.enabled) && focusGroup(owner[slot.slot_id]);
+    if (AP && (AP.families || []).includes(layout.family) && isNum(AP.max) && !apFocusFree) {
       // (only while the group keeps other exercises to carry its sets: a pitcher's one chest press is not held under the floor)
       const g0 = owner[slot.slot_id];
       const many = !!g0 && allSlots().filter(([s2]) => owner[s2.slot_id] === g0 && hasPick(s2) && sets[s2.slot_id] !== 0).length >= (AP.min_group_exercises || 0);
@@ -677,6 +689,11 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     // v0.6 G-207 (review r6 08 M1): on a 2-day plan the optional-day bonus of a group the training days hold at the band
     // (rules.placement.x3.two_day_main_floor.also_groups) is a fixed extra at its fewest sets
     if (slot.origin === 'bonus' && !isMainDi(di) && twoDayAlso(owner[slot.slot_id])) return [b[0], b[0]];
+    // v0.7 G-235 (COACH-R5 R5-VOL-11 'Give the day's first press a 5th set in the last block, so it reaches 13'): the lift planStairs
+    // named for a group a whole bonus exercise would overshoot takes its extra set in the block's last exercise block, never above the
+    // level's per-exercise top
+    const xt = extraTop.get(slot.slot_id);
+    if (xt && boundWeek && isNum(boundWeek.exercise_block) && boundWeek.exercise_block >= xt.eb) hi = Math.min(maxEx, hi + xt.add);
     const SM = PX3.start_max_sets;
     if (SM && boundWeek && boundWeek.stair_week === 1 && stair && !flatSets && (SM.families || []).includes(layout.family) && !(SM.focus_exempt && focusGroup(owner[slot.slot_id]))) {
       const k = kindOf(slot);
@@ -955,7 +972,10 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         const d = dayAvg(a.di) - dayAvg(b.di);
         return Math.abs(d) > EPS ? d : exposureOf(a.di) - exposureOf(b.di);
       };
-      cands.sort((a, b) => a.opt - b.opt || kCmp(a) - kCmp(b) || kMainBig(a) - kMainBig(b) || kTwinGo(a) - kTwinGo(b) || pri(a) - pri(b) || kLead(a) - kLead(b) || kTest(a) - kTest(b) || kSpill(a) - kSpill(b) || kIso(a) - kIso(b) || (twinDays(a.di, b.di) ? 0 : kWork(a) - kWork(b)) || a.n - b.n || kStep(a) - kStep(b) || (twinDays(a.di, b.di) ? 0 : kPair(a) - kPair(b)) || kBonus(a) - kBonus(b) || kExp(a, b) || dist(a.di) - dist(b.di) || a.pos - b.pos);
+      // v0.7 G-236 (R5-ATH-12 'give it the next added set ahead of the other hip lifts, even if that breaks the even 3/3/3 pattern'):
+      // the week's heavy hinge takes its group's next `steps_ahead` set(s) over its start first (never in a week that tests it)
+      const kHinge = (c) => (HH && stepWeek && heavyHinge(c.s, c.di) && !testedSlots.has(c.s.slot_id) && c.n < Math.min(maxEx, HH.start_sets) + (HH.steps_ahead || 1) ? 0 : 1);
+      cands.sort((a, b) => a.opt - b.opt || kHinge(a) - kHinge(b) || kCmp(a) - kCmp(b) || kMainBig(a) - kMainBig(b) || kTwinGo(a) - kTwinGo(b) || pri(a) - pri(b) || kLead(a) - kLead(b) || kTest(a) - kTest(b) || kSpill(a) - kSpill(b) || kIso(a) - kIso(b) || (twinDays(a.di, b.di) ? 0 : kWork(a) - kWork(b)) || a.n - b.n || kStep(a) - kStep(b) || (twinDays(a.di, b.di) ? 0 : kPair(a) - kPair(b)) || kBonus(a) - kBonus(b) || kExp(a, b) || dist(a.di) - dist(b.di) || a.pos - b.pos);
       return cands;
     };
     if (ppRatio && balanceOn && cands.some(c => isPress(c.s))) {
@@ -1171,6 +1191,15 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     if (pd < 0 || !isMainDi(pd)) return false;
     return daySlotsOf(pd).some(s => active(s) && isResistance(s) && hasPick(s) && model.hasEx(fills[s.slot_id].exercise_id) && model.ex(fills[s.slot_id].exercise_id).pattern === pat);
   };
+  // v0.7 G-231 (R5-VOL-07; rules.placement.x7.light_chest_optional): a light chest exercise - a fly, or a machine press - may follow a
+  // press day on the optional day
+  const LCO = PX7.light_chest_optional && PX7.light_chest_optional.enabled ? PX7.light_chest_optional : null;
+  const lightChestOk = (g) => !!LCO && (LCO.groups || []).includes(g);
+  const isLightChest = (f) => {
+    if (!LCO || !f || !f.exercise_id || !model.hasEx(f.exercise_id)) return false;
+    const e = model.ex(f.exercise_id), MP = LCO.machine_press || {};
+    return (LCO.credit_classes || []).includes(e.credit_class) || ((MP.credit_classes || []).includes(e.credit_class) && (e.tags || []).some(t => (MP.tags || []).includes(t)));
+  };
   // ---- the bonus exercise on the optional day (allocation step 3)
   const bonusOpen = new Map(); // group -> slot
   const addedOn = (di) => days[di].added.filter(s => s.origin === 'bonus').length;
@@ -1197,10 +1226,21 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         time_class: model.bucket('FOCUS').time_class || 'isolation', counts_in_cap: true, counts_as_volume: true, text_key: null, aerobic: null,
         origin: 'bonus', why: [why('why.bonus_optional_day', 'R3-VOL-03', { group: g })]
       };
-      const f = fillSlot(slot, n, probe ? { probe: true } : undefined);
+      let f = fillSlot(slot, n, probe ? { probe: true } : undefined);
       if (!f || !f.exercise_id) continue;
       // v0.6 G-104 (review 01 M2): never a compound pattern the day before already trained
-      if (repeatsPreviousDay(f, di)) continue;
+      // v0.7 G-231 (COACH-R5 R5-VOL-07 'Allow a light chest exercise (fly or machine press) on the optional day even after a press day'):
+      // a chest bonus on an optional day may follow a press day when it is a fly or a machine press - the day's pick, or else a fly
+      if (repeatsPreviousDay(f, di)) {
+        if (!lightChestOk(g)) continue;
+        if (!isLightChest(f)) {
+          const alt = { ...slot, bucket: LCO.bucket || slot.bucket, why: [...slot.why, why('why.light_chest_optional', 'R5-VOL-07')] };
+          const f2 = alt.bucket !== slot.bucket ? fillSlot(alt, n, probe ? { probe: true } : undefined) : null;
+          if (!f2 || !f2.exercise_id || !isLightChest(f2)) continue;
+          Object.assign(slot, { bucket: alt.bucket, why: alt.why });
+          f = f2;
+        } else slot.why.push(why('why.light_chest_optional', 'R5-VOL-07'));
+      }
       fills[slot.slot_id] = f;
       if (ownerOfSlot(slot) !== g) { delete fills[slot.slot_id]; continue; }
       d.added.push(slot); added.push(slot);
@@ -1574,7 +1614,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         const sl = openExtra(g, ws0.n, null, null, 'why.bonus_main_day');
         if (sl) { mainBonus.push(sl); reach = reachable(want); continue; }
       }
-      const slot = smallOnly ? null : openBonus(g, ws0.n, null, true);
+      const slot = smallOnly ? null : openBonus(g, ws0.n, null, true); if (globalThis.__DBG) globalThis.__DBG("BON", g, reach[g], planned[g], slot && slot.slot_id, slot && fills[slot.slot_id] && fills[slot.slot_id].exercise_id, optDi.map(di => addedOn(di)));
       if (!slot) {
         // v0.6 G-105 (R3-VOL-03 'with no optional day, on a day that already trains biceps'; review 07 M1): no optional day can take
         // it - the bonus exercise goes at the end of the training day that trains the group with the fewest exercises (inside the
@@ -1682,6 +1722,34 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         boundWeek = bw0;
         reach = reachable(want);
       }
+    }
+    // v0.7 G-235 (COACH-R5 R5-VOL-11: 'A muscle is 1 set short of its target and an extra exercise would add 2 ... Give the day's first
+    // press a 5th set in the last block, so it reaches 13'): a group the template's lifts at their tops leave short of its final sets
+    // by less than a whole bonus exercise (rules.placement.x7.one_set_shortfall.sets) - its first lift of the week (the first training
+    // day that trains it) takes that set over its own top in the block's last exercise block, never above the level's per-exercise
+    // top. Read on the last week's bounds; kept only when it closes the gap.
+    const OSS = PX7.one_set_shortfall && PX7.one_set_shortfall.enabled && !flatSets && !circuitPlan ? PX7.one_set_shortfall : null;
+    if (OSS) {
+      const ebLast = wks[wks.length - 1].exercise_block;
+      // (what the template's lifts hold without the bonus exercises: a bonus kept only for the first week's start or floor - H17 -
+      // does not close the gap at the top)
+      const tplOnly = () => (gb && gb.length ? without(gb, () => reachable(want)) : reachable(want));
+      let r0 = tplOnly();
+      for (const g of trained) {
+        if (g === 'calves' || noBonusFor(g)) continue;
+        // (a group a whole bonus exercise takes to its final sets keeps it, G-219)
+        if (gb && gb.some(e => e.g === g && !e.startNeed)) continue;
+        const gap = planned[g] - Math.floor((r0[g] || 0) + EPS);
+        if (!(gap > 0 && gap <= OSS.sets)) continue;
+        const di = mainDi.find(dj => !!leadSlotOf(dj, g));
+        const lead = di === undefined ? null : leadSlotOf(di, g);
+        if (!lead || boundsOf(lead, di)[1] >= maxEx) continue;
+        extraTop.set(lead.slot_id, { eb: ebLast, add: OSS.sets, group: g });
+        const r2 = tplOnly();
+        if (Math.floor((r2[g] || 0) + EPS) > Math.floor((r0[g] || 0) + EPS)) r0 = r2;
+        else extraTop.delete(lead.slot_id);
+      }
+      if (extraTop.size) reach = reachable(want);
     }
     const S0 = {}, top = {}, sched = {}, lambda = {}, noted = {}, capped = [];
     for (const g of trained) {

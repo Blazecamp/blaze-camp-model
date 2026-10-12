@@ -37,6 +37,7 @@ import { amendRulesX2, amendTemplatesX2, amendExerciseX2, amendSportX2 } from '.
 import { amendRulesV06, amendSportV06 } from './fixture/v06-volume.mjs';
 import { amendRulesW6 } from './fixture/v06-words.mjs';
 import { amendRulesS6, amendTemplatesS6, amendExerciseS6, amendSportS6 } from './fixture/v06-select.mjs';
+import { amendRulesV07, amendExerciseV07 } from './fixture/v07-volume.mjs';
 
 // 1.3.0: the v1.2 sources (round-3 docs) + the coach-eye review amendments (tools/fixture/review-v12.mjs) + the round-3 engine
 // amendments (tools/fixture/round3.mjs: lines / groups, time check, Focus muscles, check-ins retired) + the stage-B2 athletic
@@ -96,6 +97,7 @@ export function compileModel(S = loadSources()) {
   for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseX2(amendExerciseX1(amendExerciseV4(amendExerciseV2(amendExerciseR2F3(amendExerciseR2F2(amendExerciseF3(amendExerciseB3(amendExerciseB2(amendExercise(exercises[i])))))))))); // (+ v0.5 fix round 2, v05-fix2.mjs) // (+ v0.5 fix round 1, v05-fix1.mjs) // (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ F3, fix-r1-f3.mjs) // v1.2 review amendments, stage B2 (athletic-b2.mjs), then stage B3 (render-b3.mjs)
 
   for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseS6(exercises[i]); // engine 0.6 / selection (v06-select.mjs)
+  for (let i = 0; i < exercises.length; i++) exercises[i] = amendExerciseV07(exercises[i]); // engine 0.7 / volume: the high-incline press credits (v07-volume.mjs, R5-VOL-01)
   // engine 0.5.0 / V2: the two mid-range pull records (R4-LIB-03; optional add-ons, tools/fixture/v05-library.mjs)
   const addedV2 = addedExercisesV2(exercises);
   for (const e of addedV2) { exercises.push(e); enNames[e.name_key] = UI_V2[e.name_key][0]; }
@@ -146,6 +148,7 @@ export function compileModel(S = loadSources()) {
   // ---------------------------------------------------------------- rules + cross-checks against the sources
   const rules = amendRulesW6(amendRulesV06(amendRulesX2(amendRulesX1(amendRulesV4(amendRulesV3(amendRulesV2(amendRulesV05(amendRulesR2F3(amendRulesR2F2(amendRulesR2F1(amendRulesF3(amendRulesF2(amendRulesF1(amendRulesB4(amendRulesB3(amendRulesB2(amendRulesR3(amendRules(buildRules(S.eqm)))))))))))))))))))); /* (+ v0.6 words, v06-words.mjs) (+ v0.6 volume, v06-volume.mjs) (+ v0.5 fix round 2, v05-fix2.mjs) (+ v0.5 fix round 1, v05-fix1.mjs) (+ V3, v05-words.mjs) */ // (+ V2, v05-library.mjs) (+ fix round 2 / F3, fix-r2-f3.mjs) // (+ fix round 2 / F2, fix-r2-f2.mjs) // (+ fix round 2 / F1, fix-r2-f1.mjs) // (+ fix round 1 / F1, F2, F3) v1.2 review amendments, the round-3 answers, stage B2 (athletic), stage B3 (selection / render), then stage B4 (integration)
   { const s6 = amendRulesS6(rules); for (const k of Object.keys(rules)) delete rules[k]; Object.assign(rules, s6); } // engine 0.6 / selection (v06-select.mjs), after fix round 2
+  { const v7 = amendRulesV07(rules); for (const k of Object.keys(rules)) delete rules[k]; Object.assign(rules, v7); } // engine 0.7 / volume (v07-volume.mjs), after the v0.6 layers
   // a mismatch is a warning, not an error: rules.json must deep-equal the fixture's normative rules (BUILD_PLAN B1.2);
   // a value we believe is wrong goes to engine/CONTRACT_REQUESTS.md for the integrator
   const crosschecks = crossCheckRules(rules, S);
@@ -294,6 +297,8 @@ function renderChangelog(raw, report, changes) {
   L.push('Applied after the volume layer by both builds (engine/DECISIONS.md G-130 ...): `selection.s6`, `conditioning.s6`, `athletic.s6`, the athletic A / B arm station (every athletic A / B day type, the in-season variant too: COACH-CH5 CH5-02, `selection.s6.arm_slot`), the seal-row family; team practices are not counted as aerobic sessions (COACH-CH5 CH5-01, `conditioning.s6.practice.counts_as_aerobic` false).', '');
   L.push('### v0.6 layer, "words" (tools/fixture/v06-words.mjs)', '');
   L.push('Applied after the v0.5 fix-round-2 layer by both builds (engine/DECISIONS.md G-160 ...): `render.v6` (circuit progression from the real weeks, the written-out pyramid, "What changes" by exercise and real set difference, the printed-copy minors of the round-4 coach-eye reviews) and `volume.pain.x6` (the pain-free depth cue by exercise type); new EN / ES lines listed in `i18n/es_review.json > priority_review`.', '');
+  L.push('### v0.7 layer, volume, credits, set placement and circuit rounds (tools/fixture/v07-volume.mjs)', '');
+  L.push('Applied after the v0.6 layers by both builds (engine/DECISIONS.md G-230 ...; COACH-R5, coach_answers_round5.md): `credit.classes.MRPUSH` and the high-incline presses 1.0 chest + 0.25 front delts + 0.25 triceps (R5-VOL-01); `placement.x7` (a light chest bonus on the optional day after a press day, R5-VOL-07; the athlete\'s flat-press cap lifted for a chest Focus, R5-VOL-09; a one-set shortfall on the day\'s first lift, R5-VOL-11; the week\'s heavy hinge at 3 sets and first, R5-ATH-12; a bonus opens in the week it is needed); `volume.x7.start_below_top` (R5-CLS-07); `session.x7.racket_calf_both_days` (R5-VOL-10); `supersets.bootcamp.x7.rounds_by_third` (R5-CLS-03); `validation.v05.size_plus_whys`.', '');
   L.push('### Sources (sha256)', '');
   for (const [f, h] of Object.entries(raw.manifest.sources_sha256)) L.push(`- \`${f}\` ${h}`);
   L.push('', '### Coach corrections applied in the compile', '');
