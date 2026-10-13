@@ -37,6 +37,11 @@ const itemsOf = (day) => (day.blocks || []).flatMap(b => (b.items || []).map(it 
 const liftBuckets = (day) => itemsOf(day).filter(it => ['strength', 'accessories'].includes(it._block) && it.role !== 'test' && it.origin !== 'bonus').map(it => it.bucket + (it.bucket === 'ISO_SIDE_REAR_DELT' ? '' : ''));
 const A_DAY = ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD', 'ISO_BICEP', 'ISO_QUAD'];
 const B_DAY = ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD', 'ISO_TRICEP', 'ISO_LEG_FLEXION'];
+// (engine 0.7, converted - COACH-R5 R5-GEN-01 'Two full-body days would be more beneficial', DECISIONS G-250: on 2 days the A / B
+// days are two full-body days built from his slots - day 1 squat + pull, single-leg hinge + vertical / incline push, biceps, leg
+// extension; day 2 hinge + push, lunge + vertical pull, triceps, leg curl; each day keeps his pairs knee + pull and hip + push)
+const FB1_DAY = ['RP_HPULL', 'RP_BKD', 'RP_VPUSH', 'RP_UHD', 'ISO_BICEP', 'ISO_QUAD'];
+const FB2_DAY = ['RP_HPUSH', 'RP_BHD', 'RP_VPULL', 'RP_UKD', 'ISO_TRICEP', 'ISO_LEG_FLEXION'];
 
 for (const [mname, model] of MODELS) {
   const plans = new Map();
@@ -126,7 +131,7 @@ for (const [mname, model] of MODELS) {
         for (const [name, dt] of Object.entries(dts)) {
           if (dt.kind !== 'main' || dt.format === 'circuit' || (fam === 'aesthetics' && d === 3 && name === 'C')) continue;
           const six = inOrder(dt).slice(0, 6);
-          assert.deepEqual(six, dt.lower_focus === 'knee' ? A_DAY : B_DAY, `${fam}.${d} ${name}`);
+          assert.deepEqual(six, d === 2 ? (dt.lower_focus === 'knee' ? FB1_DAY : FB2_DAY) : (dt.lower_focus === 'knee' ? A_DAY : B_DAY), `${fam}.${d} ${name}`);
           // the pairs: knee dominant + pull, hip dominant + push (UNI-11, ORD-06)
           const st = dt.stations.filter(s => ['strength', 'accessories'].includes(s.block));
           assert.equal(st[0].pair, st[1].pair); assert.ok(st[0].pair);
@@ -163,7 +168,9 @@ for (const [mname, model] of MODELS) {
         assert.ok(ath.length >= 2, `athletic.${d} ${name}: an athletic block`);
         const first = dt.stations.findIndex(s => /^RP_|^ISO_/.test(s.bucket));
         assert.ok(dt.stations.slice(first).every(s => !/^AP_/.test(s.bucket)), 'power before strength: the athletic block comes first');
-        assert.deepEqual(inOrder(dt).filter(b => !['ISO_BICEP', 'ISO_TRICEP'].includes(b)).slice(0, 5), dt.lower_focus === 'knee' ? ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD', 'ISO_QUAD'] : ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD', 'ISO_LEG_FLEXION']);
+        // (engine 0.7, converted - R5-GEN-01, G-250: the 2-day athletic days are the two full-body days)
+        const fb = d === 2;
+        assert.deepEqual(inOrder(dt).filter(b => !['ISO_BICEP', 'ISO_TRICEP'].includes(b)).slice(0, 5), dt.lower_focus === 'knee' ? (fb ? ['RP_HPULL', 'RP_BKD', 'RP_VPUSH', 'RP_UHD', 'ISO_QUAD'] : ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD', 'ISO_QUAD']) : (fb ? ['RP_HPUSH', 'RP_BHD', 'RP_VPULL', 'RP_UKD', 'ISO_LEG_FLEXION'] : ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD', 'ISO_LEG_FLEXION']));
         // (engine 0.6 selection, converted - DECISIONS G-130: R4-SES-05 slot 5 is in the athletic A / B days, for a sport whose
         // profile writes direct arm sets; his athletic sheet has none, round 4 is newer)
         const arm = dt.stations.filter(s => ['ISO_BICEP', 'ISO_TRICEP'].includes(s.bucket));
@@ -406,7 +413,9 @@ for (const [mname, model] of MODELS) {
       }
     });
 
-    it('R4-SES-03: two training days - one A day and one B day train every big group at 6-8 sets, the plan says so and suggests a third day', () => {
+    // (engine 0.7, converted - COACH-R5 R5-GEN-01, DECISIONS G-250 / G-251: the two days are two full-body days; each day holds a pull and
+    // a push, and over the two days both vectors of each)
+    it('R4-SES-03 / R5-GEN-01: two training days - two full-body days train every big group at 6-8 sets, the plan says so and suggests a third day', () => {
       const p = planOf('08');
       const w2 = p.meta.warnings.find(w => w.key === 'warning.two_day_rule');
       assert.deepEqual(w2.args, { days: 2, low: 6, high: 8, suggest: 3 });
@@ -419,13 +428,13 @@ for (const [mname, model] of MODELS) {
       }
       const mains = p.weeks[0].days.filter(d => d.kind === 'main');
       assert.equal(mains.length, 2);
-      // one A day and one B day: the four compound slots of each, in the template's order (the knee-friendly pick of a slot may be a
+      // two full-body days: the four compound slots of each, in the template's order (the knee-friendly pick of a slot may be a
       // single-leg lift - the slot stays)
       const roles = (d) => itemsOf(d).filter(it => it._block === 'strength' && it.role !== 'test').map(it => it.role);
       assert.deepEqual(roles(mains[0]), ['paired_upper', 'work', 'paired_upper', 'secondary']);
       assert.deepEqual(roles(mains[1]), ['paired_upper', 'work', 'paired_upper', 'secondary']);
-      assert.deepEqual(liftBuckets(mains[0]).filter(x => /^RP_.(PULL)/.test(x)), ['RP_HPULL', 'RP_VPULL']);
-      assert.deepEqual(liftBuckets(mains[1]).filter(x => /^RP_.(PUSH)/.test(x)), ['RP_HPUSH', 'RP_VPUSH']);
+      assert.deepEqual(liftBuckets(mains[0]).filter(x => /^RP_.(PULL|PUSH)/.test(x)), ['RP_HPULL', 'RP_VPUSH']);
+      assert.deepEqual(liftBuckets(mains[1]).filter(x => /^RP_.(PULL|PUSH)/.test(x)), ['RP_HPUSH', 'RP_VPULL']);
       for (const d of mains) assert.ok(d.exercise_count <= p.meta.session_size.range[1], 'never more exercises');
       assert.match(renderPlan(p, model, { lang: 'en', view: 'full' }), /third training day/i);
       assert.match(renderPlan(generate(sample('08', i => { i.lang = 'es'; i.release.lang = 'es'; }), model), model, { lang: 'es', view: 'full' }), /tercer día/i);

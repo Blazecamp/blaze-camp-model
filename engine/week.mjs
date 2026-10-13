@@ -1636,6 +1636,21 @@ function addPrehab(days, ctx) {
       // (fix round 2 / F2 minimal seam, E-175: every-session shoulder care done inside the rests of the day's pulls has its own time class)
       time_class: every && r.each_session_time_class ? r.each_session_time_class : null });
   }
+  // engine 0.7 (COACH-R5 R5-ATH-04 'overhead pressing should be included for health ... to be able to reach up and have that range of
+  // motion available'; G-252): an incline-first thrower, volleyball player or swimmer whose week holds ONE vertical / mid-range push
+  // slot keeps that slot's incline press in every block and does one light overhead press a week as shoulder-health joint care (no
+  // muscle-set credit, so no group's sets move); a week with two or more such slots keeps an overhead press in its last one (select)
+  const IOv = R.selection.v7 && R.selection.v7.incline_overhead;
+  const OHc = IOv && IOv.one_slot_care;
+  if (OHc && R.prehab.by_injury_code[OHc.code]) {
+    const pid = (derived.D2_profile && derived.D2_profile.id) || '';
+    const athlete = new RegExp(IOv.profile_re).test(pid) || (IOv.keep_overhead_hotspot_codes || []).some((c) => injuries.includes(c));
+    const vSlots = days.filter((d) => d.kind === 'main').flatMap((d) => d._slots.filter((x) => x.bucket === 'RP_VPUSH' && !x.circuit && x.origin === 'template'));
+    if (athlete && vSlots.length === 1) {
+      const r = R.prehab.by_injury_code[OHc.code];
+      entries.push({ code: OHc.code, bucket: r.bucket, per_week: r.per_week, days: r.days, sets: r.sets, each: false });
+    }
+  }
   const A = R.population.active_aging_50;
   const age = derived.age || 0;
   if (age >= A.from_age && age <= A.to_age && derived.D2_profile && A.racket_profiles.includes(derived.D2_profile.id)) { // R3-pending: R3-ATH-02
@@ -1689,6 +1704,8 @@ function addPrehab(days, ctx) {
   const poolFor = (e) => {
     let pool;
     if (e.days === 'lower') pool = mains.filter((d) => d.lower_focus || has(d, LOWER_RES_BUCKETS));
+    // (engine 0.7, G-252: the shoulder-health overhead press goes to a day without the week's vertical-push slot, after its pulls)
+    else if (e.days === 'no_vpush') { pool = mains.filter((d) => !has(d, ['RP_VPUSH']) && has(d, UPPER_RES_BUCKETS)); }
     else if (e.days === 'pull_or_upper') { pool = mains.filter((d) => has(d, PULL_BUCKETS)); if (!pool.length) pool = mains.filter((d) => has(d, UPPER_RES_BUCKETS)); }
     else pool = mains.slice();
     if (!pool.length) pool = mains.slice();

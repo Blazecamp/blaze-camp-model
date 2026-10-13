@@ -156,7 +156,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Perro de caza (Bird Dog) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
-| Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contactos → 4 contactos |
+| Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) → Salto a cajón bajo (Low Box Jump) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contactos → 4 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 por lado → 6 por lado |
 | Swing ruso con kettlebell (KB Swing) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
 | Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) → Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
@@ -223,7 +223,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Salta, aterriza y quédate firme 2-3 s; reinicia y vuelve a saltar
-   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -438,7 +438,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Salta, aterriza y quédate firme 2-3 s; reinicia y vuelve a saltar
-   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -646,7 +646,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Salta, aterriza y quédate firme 2-3 s; reinicia y vuelve a saltar
-   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -854,7 +854,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Salta, aterriza y quédate firme 2-3 s; reinicia y vuelve a saltar
-   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -1033,7 +1033,7 @@ _Nivel de la semana: 4.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Nuevo bloque de ejercicios: 8 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
-- Lunes: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass); Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro); Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez
+- Lunes: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass); Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro); Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez
 - Jueves: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops); Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops); Subida al cajón frontal y lateral (Step-Up) → Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo; Face pull con kettlebell (KB Face Pull) → Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba
 - Los saltos pasan a Recibir-Crear 2: Aterrizar y salir
 - Mismas series: agrega un poco de peso o repeticiones esta semana
@@ -1044,7 +1044,7 @@ _Nivel de la semana: 4.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 _Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -1064,11 +1064,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1249,7 +1249,7 @@ _Nivel de la semana: 5 de 11 (2 = el inicio, 11 = tu semana más dura)_
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -1269,11 +1269,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1454,7 +1454,7 @@ _Nivel de la semana: 6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -1474,11 +1474,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1659,7 +1659,7 @@ _Nivel de la semana: 7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -1679,11 +1679,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1856,8 +1856,8 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- Nuevo bloque de ejercicios: 7 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
-- Lunes: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss); Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) → Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row); Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo
+- Nuevo bloque de ejercicios: 8 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
+- Lunes: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) → Salto a cajón bajo (Low Box Jump); Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss); Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) → Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row); Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo
 - Jueves: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass); Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba; Extensión de tríceps sobre la cabeza (Overhead Extension) → Rompecráneos con mancuernas en el piso (Floor Skullcrusher)
 - Los saltos pasan a Recibir-Crear 3: Repetir
 - Mismas series: agrega un poco de peso o repeticiones esta semana
@@ -1868,7 +1868,7 @@ _Nivel de la semana: 8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto a cajón bajo (Low Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -1888,11 +1888,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto a cajón bajo (Low Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Nombre para copiar en YouTube: `Low Box Jump (Half-Shin Height)`
 2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1977,7 +1977,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 3 × 15 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -2073,7 +2073,7 @@ _Nivel de la semana: 9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto a cajón bajo (Low Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -2093,11 +2093,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto a cajón bajo (Low Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Nombre para copiar en YouTube: `Low Box Jump (Half-Shin Height)`
 2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -2182,7 +2182,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 3 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -2280,7 +2280,7 @@ _Nivel de la semana: 10 de 11 (2 = el inicio, 11 = tu semana más dura)_
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto a cajón bajo (Low Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -2300,11 +2300,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto a cajón bajo (Low Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Nombre para copiar en YouTube: `Low Box Jump (Half-Shin Height)`
 2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -2389,7 +2389,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 3 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -2487,7 +2487,7 @@ _Última semana: un intensificador en cada uno de estos días (lunes y jueves): 
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto a cajón bajo (Low Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -2507,11 +2507,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto a cajón bajo (Low Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Nombre para copiar en YouTube: `Low Box Jump (Half-Shin Height)`
 2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -2596,7 +2596,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 3 × 19 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb

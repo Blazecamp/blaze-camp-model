@@ -5,7 +5,7 @@
  "spec_version": "1.3.0",
  "counts": {
   "source_records": 939,
-  "kept": 741,
+  "kept": 742,
   "added_v2": 2,
   "dropped": 208,
   "dropped_by_reason": {
@@ -29,8 +29,8 @@
   "profiles": 127,
   "sports_in_picker": 52,
   "activities": 26,
-  "en_keys": 2812,
-  "es_keys": 2812,
+  "en_keys": 2815,
+  "es_keys": 2815,
   "es_missing": 0,
   "es_machine_translated": 832,
   "coach_patches": 16,
@@ -405,7 +405,7 @@
  ],
  "i18n": {
   "es_by_source": {
-   "architect_wordlist": 1447,
+   "architect_wordlist": 1450,
    "b1_machine_translation": 795,
    "profiles_04": 383,
    "spec": 146,

@@ -7770,7 +7770,7 @@
        {
         "ids": [
          "clean-squat-clean",
-         "hang-power-clean-hang-height-not-stated"
+         "hang-power-clean-from-the-high-hang-hip-crease"
         ],
         "scaled_first": [
          "L2"
@@ -8379,7 +8379,7 @@
        },
        {
         "ids": [
-         "hang-power-clean-hang-height-not-stated"
+         "hang-power-clean-from-the-high-hang-hip-crease"
         ],
         "reps": {
          "L1": 9,
@@ -9571,6 +9571,16 @@
     "per_week": 2,
     "days": "any",
     "sets": 2
+   },
+   "OVERHEAD_HEALTH": {
+    "bucket": "RP_VPUSH",
+    "per_week": 1,
+    "days": "no_vpush",
+    "sets": 2,
+    "refs": [
+     "R5-ATH-04"
+    ],
+    "status": "approved (COACH-R5 R5-ATH-04 \"overhead pressing should be included for health\"); PROPOSED: once a week, 2 light sets, as joint care"
    }
   },
   "block": "prehab",
@@ -9615,7 +9625,19 @@
     "kb-face-pull",
     "floor-prone-y-t-raises"
    ],
-   "NECK": []
+   "NECK": [],
+   "OVERHEAD_HEALTH": [
+    "tall-kneeling-db-overhead-press",
+    "db-z-press-seated-on-floor",
+    "seated-machine-shoulder-press",
+    "standing-db-overhead-press",
+    "alternating-db-overhead-press",
+    "tall-kneeling-barbell-overhead-press",
+    "barbell-z-press-seated-on-floor",
+    "standing-barbell-overhead-press-strict",
+    "half-kneeling-single-arm-landmine-press",
+    "pike-push-up"
+   ]
   },
   "skip_if_week_has_same": true,
   "per_day_max": 2,
@@ -11798,7 +11820,7 @@
     ],
     "keep_overhead": {
      "per_week_min": 1,
-     "one_slot": "last_exercise_block_of_the_training_block",
+     "slots_min": 2,
      "weight": 8,
      "not_tags": [
       "mid_range_push",
@@ -11806,6 +11828,9 @@
       "push_jerk"
      ],
      "tag": "overhead"
+    },
+    "one_slot_care": {
+     "code": "OVERHEAD_HEALTH"
     },
     "refs": [
      "R5-ATH-04",
@@ -11832,6 +11857,7 @@
     "over_penalty": -10,
     "lean_penalty": -2,
     "return_penalty": -12,
+    "stay_low_penalty": -10,
     "never_first_block_re": "hurdle",
     "never_first_block_tags": [
      "hurdle_hop"

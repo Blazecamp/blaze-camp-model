@@ -7533,15 +7533,15 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "barbell-thruster",
-                  "name_key": "exercise.barbell-thruster.name",
+                  "exercise_id": "dumbbell-deadlift",
+                  "name_key": "exercise.dumbbell-deadlift.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Barbell%20Thruster",
-                    "copy_name": "Barbell Thruster"
+                    "url": "https://www.youtube.com/results?search_query=Dumbbell%20Deadlift",
+                    "copy_name": "Dumbbell Deadlift"
                   },
                   "sets": null,
                   "reps": {
@@ -7571,8 +7571,8 @@
                       10
                     ],
                     "stations": [
-                      "barbell-thruster",
-                      "jumping-pull-up"
+                      "dumbbell-deadlift",
+                      "pike-push-up"
                     ],
                     "station_reps": [
                       {
@@ -7588,16 +7588,16 @@
                     "station_loads": [
                       {
                         "type": "lb_range",
-                        "unit": "barbell",
-                        "min": 45,
-                        "max": 65
+                        "unit": "dumbbells",
+                        "min": 30,
+                        "max": 45
                       },
                       null
                     ],
                     "named": {
-                      "id": "fran",
+                      "id": "diane",
                       "kind": "girl",
-                      "name": "Fran",
+                      "name": "Diane",
                       "level": "L2",
                       "scaled": true
                     }
@@ -7611,11 +7611,11 @@
                     {
                       "key": "note.wod_named_girl",
                       "args": {
-                        "name": "Fran"
+                        "name": "Diane"
                       }
                     },
                     {
-                      "key": "wod.named.fran.std"
+                      "key": "wod.named.diane.std"
                     },
                     {
                       "key": "note.wod_named_scaled"
@@ -7638,7 +7638,7 @@
                       "ref": "R5-GRD-04",
                       "args": {
                         "kind": "girl",
-                        "name": "Fran"
+                        "name": "Diane"
                       }
                     }
                   ],
@@ -9854,7 +9854,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.PRESS",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 89,
+          "est_minutes": 86,
           "aerobic_minutes": 0,
           "exercise_count": 6,
           "skeleton": "class_press",
@@ -10974,21 +10974,21 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "run-wod-station",
-                  "name_key": "exercise.run-wod-station.name",
+                  "exercise_id": "hang-power-clean-from-the-high-hang-hip-crease",
+                  "name_key": "exercise.hang-power-clean-from-the-high-hang-hip-crease.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Run",
-                    "copy_name": "Run"
+                    "url": "https://www.youtube.com/results?search_query=Hang%20Power%20Clean%20-%20from%20the%20High%20Hang%20(hip%20crease)",
+                    "copy_name": "Hang Power Clean - from the High Hang (hip crease)"
                   },
                   "sets": null,
                   "reps": {
                     "type": "minutes",
-                    "min": 15,
-                    "max": 15
+                    "min": 12,
+                    "max": 12
                   },
                   "set_reps": null,
                   "effort": {
@@ -10999,7 +10999,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": null,
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": null,
@@ -11008,43 +11008,37 @@
                   "wod": {
                     "format": "for_time",
                     "minutes": [
-                      15,
-                      15
+                      12,
+                      12
                     ],
                     "stations": [
-                      "run-wod-station",
-                      "kettlebell-swing-russian",
-                      "jumping-pull-up"
+                      "hang-power-clean-from-the-high-hang-hip-crease",
+                      "bench-dip"
                     ],
                     "station_reps": [
                       {
-                        "type": "metres",
-                        "value": 400
+                        "type": "fixed",
+                        "value": "21-15-9"
                       },
                       {
                         "type": "fixed",
-                        "value": 21
-                      },
-                      {
-                        "type": "fixed",
-                        "value": 12
+                        "value": "21-15-9"
                       }
                     ],
-                    "rounds": 3,
+                    "rounds": null,
                     "station_loads": [
-                      null,
                       {
                         "type": "lb_range",
-                        "unit": "kettlebell",
-                        "min": 26,
-                        "max": 35
+                        "unit": "barbell",
+                        "min": 65,
+                        "max": 95
                       },
                       null
                     ],
                     "named": {
-                      "id": "helen",
+                      "id": "elizabeth",
                       "kind": "girl",
-                      "name": "Helen",
+                      "name": "Elizabeth",
                       "level": "L2",
                       "scaled": true
                     }
@@ -11058,11 +11052,11 @@
                     {
                       "key": "note.wod_named_girl",
                       "args": {
-                        "name": "Helen"
+                        "name": "Elizabeth"
                       }
                     },
                     {
-                      "key": "wod.named.helen.std"
+                      "key": "wod.named.elizabeth.std"
                     },
                     {
                       "key": "note.wod_named_scaled"
@@ -11085,7 +11079,7 @@
                       "ref": "R5-GRD-04",
                       "args": {
                         "kind": "girl",
-                        "name": "Helen"
+                        "name": "Elizabeth"
                       }
                     }
                   ],
@@ -17617,7 +17611,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.DEADLIFT",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 108,
+          "est_minutes": 98,
           "aerobic_minutes": 0,
           "exercise_count": 6,
           "skeleton": "class_deadlift",
@@ -18905,21 +18899,21 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "jumping-pull-up",
-                  "name_key": "exercise.jumping-pull-up.name",
+                  "exercise_id": "single-arm-db-snatch",
+                  "name_key": "exercise.single-arm-db-snatch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Jumping%20Pull-up",
-                    "copy_name": "Jumping Pull-up"
+                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
+                    "copy_name": "Single-Arm DB Snatch"
                   },
                   "sets": null,
                   "reps": {
                     "type": "minutes",
-                    "min": 20,
-                    "max": 20
+                    "min": 10,
+                    "max": 10
                   },
                   "set_reps": null,
                   "effort": {
@@ -18930,47 +18924,40 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": null,
                   "aerobic": null,
                   "circuit": null,
                   "wod": {
-                    "format": "amrap",
+                    "format": "for_time",
                     "minutes": [
-                      20,
-                      20
+                      10,
+                      10
                     ],
                     "stations": [
-                      "jumping-pull-up",
-                      "push-up",
-                      "bodyweight-squat-air-squat"
+                      "single-arm-db-snatch"
                     ],
                     "station_reps": [
                       {
                         "type": "fixed",
-                        "value": 5
-                      },
-                      {
-                        "type": "fixed",
-                        "value": 10
-                      },
-                      {
-                        "type": "fixed",
-                        "value": 15
+                        "value": 30
                       }
                     ],
                     "rounds": null,
                     "station_loads": [
-                      null,
-                      null,
-                      null
+                      {
+                        "type": "lb_range",
+                        "unit": "dumbbells",
+                        "min": 25,
+                        "max": 35
+                      }
                     ],
                     "named": {
-                      "id": "cindy",
+                      "id": "isabel",
                       "kind": "girl",
-                      "name": "Cindy",
+                      "name": "Isabel",
                       "level": "L2",
                       "scaled": true
                     }
@@ -18984,17 +18971,17 @@
                     {
                       "key": "note.wod_named_girl",
                       "args": {
-                        "name": "Cindy"
+                        "name": "Isabel"
                       }
                     },
                     {
-                      "key": "wod.named.cindy.std"
+                      "key": "wod.named.isabel.std"
                     },
                     {
                       "key": "note.wod_named_scaled"
                     },
                     {
-                      "key": "wod.rotation.amrap"
+                      "key": "wod.rotation.for_time"
                     }
                   ],
                   "swaps": [],
@@ -19011,7 +18998,7 @@
                       "ref": "R5-GRD-04",
                       "args": {
                         "kind": "girl",
-                        "name": "Cindy"
+                        "name": "Isabel"
                       }
                     }
                   ],
@@ -26724,15 +26711,15 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "double-unders-jump-rope",
-                  "name_key": "exercise.double-unders-jump-rope.name",
+                  "exercise_id": "wall-ball-medball-squat-to-target",
+                  "name_key": "exercise.wall-ball-medball-squat-to-target.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Double-Unders%20(jump%20rope)",
-                    "copy_name": "Double-Unders (jump rope)"
+                    "url": "https://www.youtube.com/results?search_query=Wall%20Ball%20(medball%20squat-to-target%20throw)",
+                    "copy_name": "Wall Ball (medball squat-to-target throw)"
                   },
                   "sets": null,
                   "reps": {
@@ -26746,7 +26733,11 @@
                     "key": "effort.wod"
                   },
                   "rest": null,
-                  "load": null,
+                  "load": {
+                    "type": "medball_lb",
+                    "min": 14,
+                    "max": 20
+                  },
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "bilateral",
@@ -26762,28 +26753,22 @@
                       12
                     ],
                     "stations": [
-                      "double-unders-jump-rope",
-                      "sit-up"
+                      "wall-ball-medball-squat-to-target"
                     ],
                     "station_reps": [
                       {
                         "type": "fixed",
-                        "value": "50-40-30-20-10"
-                      },
-                      {
-                        "type": "fixed",
-                        "value": "50-40-30-20-10"
+                        "value": 100
                       }
                     ],
                     "rounds": null,
                     "station_loads": [
-                      null,
                       null
                     ],
                     "named": {
-                      "id": "annie",
+                      "id": "karen",
                       "kind": "girl",
-                      "name": "Annie",
+                      "name": "Karen",
                       "level": "L2",
                       "scaled": true
                     }
@@ -26797,11 +26782,11 @@
                     {
                       "key": "note.wod_named_girl",
                       "args": {
-                        "name": "Annie"
+                        "name": "Karen"
                       }
                     },
                     {
-                      "key": "wod.named.annie.std"
+                      "key": "wod.named.karen.std"
                     },
                     {
                       "key": "note.wod_named_scaled"
@@ -26824,7 +26809,7 @@
                       "ref": "R5-GRD-04",
                       "args": {
                         "kind": "girl",
-                        "name": "Annie"
+                        "name": "Karen"
                       }
                     }
                   ],
@@ -30411,15 +30396,15 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": null,
                   "reps": {
@@ -30453,7 +30438,7 @@
                       12
                     ],
                     "stations": [
-                      "two-foot-lateral-box-jump",
+                      "two-foot-lateral-jump-onto-box",
                       "db-thruster-front-squat-into-overhead-press",
                       "wall-ball-medball-squat-to-target",
                       "inverted-row"
@@ -33566,7 +33551,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.WOD",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 47,
+          "est_minutes": 57,
           "aerobic_minutes": 20,
           "exercise_count": 0,
           "skeleton": null,
@@ -33923,21 +33908,21 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "dumbbell-deadlift",
-                  "name_key": "exercise.dumbbell-deadlift.name",
+                  "exercise_id": "run-wod-station",
+                  "name_key": "exercise.run-wod-station.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Dumbbell%20Deadlift",
-                    "copy_name": "Dumbbell Deadlift"
+                    "url": "https://www.youtube.com/results?search_query=Run",
+                    "copy_name": "Run"
                   },
                   "sets": null,
                   "reps": {
                     "type": "minutes",
-                    "min": 10,
-                    "max": 10
+                    "min": 20,
+                    "max": 20
                   },
                   "set_reps": null,
                   "effort": {
@@ -33948,7 +33933,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": null,
                   "loading": null,
                   "credits": {},
                   "athletic": null,
@@ -33957,37 +33942,37 @@
                   "wod": {
                     "format": "for_time",
                     "minutes": [
-                      10,
-                      10
+                      20,
+                      20
                     ],
                     "stations": [
-                      "dumbbell-deadlift",
-                      "pike-push-up"
+                      "run-wod-station",
+                      "goblet-squat-kb-db"
                     ],
                     "station_reps": [
                       {
-                        "type": "fixed",
-                        "value": "21-15-9"
+                        "type": "metres",
+                        "value": 400
                       },
                       {
                         "type": "fixed",
-                        "value": "21-15-9"
+                        "value": 15
                       }
                     ],
-                    "rounds": null,
+                    "rounds": 4,
                     "station_loads": [
+                      null,
                       {
                         "type": "lb_range",
                         "unit": "dumbbells",
                         "min": 30,
-                        "max": 45
-                      },
-                      null
+                        "max": 40
+                      }
                     ],
                     "named": {
-                      "id": "diane",
+                      "id": "nancy",
                       "kind": "girl",
-                      "name": "Diane",
+                      "name": "Nancy",
                       "level": "L2",
                       "scaled": true
                     }
@@ -34001,11 +33986,11 @@
                     {
                       "key": "note.wod_named_girl",
                       "args": {
-                        "name": "Diane"
+                        "name": "Nancy"
                       }
                     },
                     {
-                      "key": "wod.named.diane.std"
+                      "key": "wod.named.nancy.std"
                     },
                     {
                       "key": "note.wod_named_scaled"
@@ -34028,7 +34013,7 @@
                       "ref": "R5-GRD-04",
                       "args": {
                         "kind": "girl",
-                        "name": "Diane"
+                        "name": "Nancy"
                       }
                     }
                   ],
@@ -35963,7 +35948,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.PRESS",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 90,
+          "est_minutes": 108,
           "aerobic_minutes": 0,
           "exercise_count": 6,
           "skeleton": "class_press",
@@ -37126,21 +37111,21 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "hang-power-clean-hang-height-not-stated",
-                  "name_key": "exercise.hang-power-clean-hang-height-not-stated.name",
+                  "exercise_id": "run-wod-station",
+                  "name_key": "exercise.run-wod-station.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Hang%20Power%20Clean",
-                    "copy_name": "Hang Power Clean"
+                    "url": "https://www.youtube.com/results?search_query=Run",
+                    "copy_name": "Run"
                   },
                   "sets": null,
                   "reps": {
                     "type": "minutes",
-                    "min": 12,
-                    "max": 12
+                    "min": 30,
+                    "max": 30
                   },
                   "set_reps": null,
                   "effort": {
@@ -37148,10 +37133,14 @@
                     "key": "effort.wod"
                   },
                   "rest": null,
-                  "load": null,
+                  "load": {
+                    "type": "medball_lb",
+                    "min": 14,
+                    "max": 20
+                  },
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": null,
                   "loading": null,
                   "credits": {},
                   "athletic": null,
@@ -37160,37 +37149,38 @@
                   "wod": {
                     "format": "for_time",
                     "minutes": [
-                      12,
-                      12
+                      30,
+                      30
                     ],
                     "stations": [
-                      "hang-power-clean-hang-height-not-stated",
-                      "bench-dip"
+                      "run-wod-station",
+                      "mid-box-jump-knee-height",
+                      "wall-ball-medball-squat-to-target"
                     ],
                     "station_reps": [
                       {
-                        "type": "fixed",
-                        "value": "21-15-9"
+                        "type": "metres",
+                        "value": 400
                       },
                       {
                         "type": "fixed",
-                        "value": "21-15-9"
+                        "value": 30
+                      },
+                      {
+                        "type": "fixed",
+                        "value": 30
                       }
                     ],
-                    "rounds": null,
+                    "rounds": 4,
                     "station_loads": [
-                      {
-                        "type": "lb_range",
-                        "unit": "barbell",
-                        "min": 65,
-                        "max": 95
-                      },
+                      null,
+                      null,
                       null
                     ],
                     "named": {
-                      "id": "elizabeth",
+                      "id": "kelly",
                       "kind": "girl",
-                      "name": "Elizabeth",
+                      "name": "Kelly",
                       "level": "L2",
                       "scaled": true
                     }
@@ -37204,11 +37194,11 @@
                     {
                       "key": "note.wod_named_girl",
                       "args": {
-                        "name": "Elizabeth"
+                        "name": "Kelly"
                       }
                     },
                     {
-                      "key": "wod.named.elizabeth.std"
+                      "key": "wod.named.kelly.std"
                     },
                     {
                       "key": "note.wod_named_scaled"
@@ -37231,7 +37221,7 @@
                       "ref": "R5-GRD-04",
                       "args": {
                         "kind": "girl",
-                        "name": "Elizabeth"
+                        "name": "Kelly"
                       }
                     }
                   ],
@@ -42717,7 +42707,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.PRESS",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 91,
+          "est_minutes": 101,
           "aerobic_minutes": 0,
           "exercise_count": 6,
           "skeleton": "class_press",
@@ -43880,21 +43870,21 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-arm-db-snatch",
-                  "name_key": "exercise.single-arm-db-snatch.name",
+                  "exercise_id": "jumping-pull-up",
+                  "name_key": "exercise.jumping-pull-up.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%20Snatch",
-                    "copy_name": "Single-Arm DB Snatch"
+                    "url": "https://www.youtube.com/results?search_query=Jumping%20Pull-up",
+                    "copy_name": "Jumping Pull-up"
                   },
                   "sets": null,
                   "reps": {
                     "type": "minutes",
-                    "min": 10,
-                    "max": 10
+                    "min": 20,
+                    "max": 20
                   },
                   "set_reps": null,
                   "effort": {
@@ -43905,40 +43895,47 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": null,
                   "aerobic": null,
                   "circuit": null,
                   "wod": {
-                    "format": "for_time",
+                    "format": "emom",
                     "minutes": [
-                      10,
-                      10
+                      20,
+                      20
                     ],
                     "stations": [
-                      "single-arm-db-snatch"
+                      "jumping-pull-up",
+                      "push-up",
+                      "bodyweight-squat-air-squat"
                     ],
                     "station_reps": [
                       {
                         "type": "fixed",
-                        "value": 30
+                        "value": 5
+                      },
+                      {
+                        "type": "fixed",
+                        "value": 10
+                      },
+                      {
+                        "type": "fixed",
+                        "value": 15
                       }
                     ],
                     "rounds": null,
                     "station_loads": [
-                      {
-                        "type": "lb_range",
-                        "unit": "dumbbells",
-                        "min": 25,
-                        "max": 35
-                      }
+                      null,
+                      null,
+                      null
                     ],
                     "named": {
-                      "id": "isabel",
+                      "id": "chelsea",
                       "kind": "girl",
-                      "name": "Isabel",
+                      "name": "Chelsea",
                       "level": "L2",
                       "scaled": true
                     }
@@ -43952,17 +43949,17 @@
                     {
                       "key": "note.wod_named_girl",
                       "args": {
-                        "name": "Isabel"
+                        "name": "Chelsea"
                       }
                     },
                     {
-                      "key": "wod.named.isabel.std"
+                      "key": "wod.named.chelsea.std"
                     },
                     {
                       "key": "note.wod_named_scaled"
                     },
                     {
-                      "key": "wod.rotation.for_time"
+                      "key": "wod.rotation.emom"
                     }
                   ],
                   "swaps": [],
@@ -43979,7 +43976,7 @@
                       "ref": "R5-GRD-04",
                       "args": {
                         "kind": "girl",
-                        "name": "Isabel"
+                        "name": "Chelsea"
                       }
                     }
                   ],
@@ -50704,15 +50701,15 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": null,
                   "reps": {
@@ -50746,7 +50743,7 @@
                       20
                     ],
                     "stations": [
-                      "two-foot-lateral-box-jump",
+                      "two-foot-lateral-jump-onto-box",
                       "db-thruster-front-squat-into-overhead-press",
                       "wall-ball-medball-squat-to-target",
                       "inverted-row"
@@ -53886,7 +53883,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.WOD",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 52,
+          "est_minutes": 48,
           "aerobic_minutes": 20,
           "exercise_count": 0,
           "skeleton": null,
@@ -54243,21 +54240,21 @@
                   "role": "conditioning",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "calorie-effort-15-cal-bike-rower-ski",
-                  "name_key": "exercise.calorie-effort-15-cal-bike-rower-ski.name",
+                  "exercise_id": "barbell-thruster",
+                  "name_key": "exercise.barbell-thruster.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Calorie%20Effort%3A%2015%20cal%20(bike%20%2F%20rower%20%2F%20ski)",
-                    "copy_name": "Calorie Effort: 15 cal (bike / rower / ski)"
+                    "url": "https://www.youtube.com/results?search_query=Barbell%20Thruster",
+                    "copy_name": "Barbell Thruster"
                   },
                   "sets": null,
                   "reps": {
                     "type": "minutes",
-                    "min": 14,
-                    "max": 14
+                    "min": 10,
+                    "max": 10
                   },
                   "set_reps": null,
                   "effort": {
@@ -54268,7 +54265,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": null,
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": null,
@@ -54277,43 +54274,37 @@
                   "wod": {
                     "format": "for_time",
                     "minutes": [
-                      14,
-                      14
+                      10,
+                      10
                     ],
                     "stations": [
-                      "calorie-effort-15-cal-bike-rower-ski",
                       "barbell-thruster",
                       "jumping-pull-up"
                     ],
                     "station_reps": [
                       {
-                        "type": "calories",
-                        "n": 50
+                        "type": "fixed",
+                        "value": "21-15-9"
                       },
                       {
                         "type": "fixed",
-                        "value": 50
-                      },
-                      {
-                        "type": "fixed",
-                        "value": 30
+                        "value": "21-15-9"
                       }
                     ],
                     "rounds": null,
                     "station_loads": [
-                      null,
                       {
                         "type": "lb_range",
                         "unit": "barbell",
                         "min": 45,
-                        "max": 45
+                        "max": 65
                       },
                       null
                     ],
                     "named": {
-                      "id": "jackie",
+                      "id": "fran",
                       "kind": "girl",
-                      "name": "Jackie",
+                      "name": "Fran",
                       "level": "L2",
                       "scaled": true
                     }
@@ -54327,11 +54318,11 @@
                     {
                       "key": "note.wod_named_girl",
                       "args": {
-                        "name": "Jackie"
+                        "name": "Fran"
                       }
                     },
                     {
-                      "key": "wod.named.jackie.std"
+                      "key": "wod.named.fran.std"
                     },
                     {
                       "key": "note.wod_named_scaled"
@@ -54354,7 +54345,7 @@
                       "ref": "R5-GRD-04",
                       "args": {
                         "kind": "girl",
-                        "name": "Jackie"
+                        "name": "Fran"
                       }
                     }
                   ],

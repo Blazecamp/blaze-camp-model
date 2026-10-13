@@ -35,7 +35,7 @@ export function amendExerciseV07(ex0) {
 
 /** the assisted-jump records (COACH-R5 R5-GRD-08: 'you can start them assisted plyos'), the WOD run station (R5-GRD-04) */
 export const ADDED_V07 = ['assisted-lateral-hops-holding-a-support', 'assisted-lateral-jump-holding-a-support', 'assisted-pogo-hops-holding-a-support', 'assisted-squat-jump-holding-a-support',
-  'run-wod-station', 'suspension-trainer-assisted-jump-squat', 'two-foot-lateral-box-jump', 'two-foot-lateral-jump'];
+  'run-wod-station', 'suspension-trainer-assisted-jump-squat', 'two-foot-lateral-box-jump', 'two-foot-lateral-jump', 'two-foot-lateral-jump-onto-box'];
 
 /**
  * New records (R5-GRD-08 assisted jumps, approved by that answer: regular picks for a client with knee pain; R5-GRD-04 the WOD's run
@@ -94,9 +94,16 @@ export function addedExercisesV07(exercises) {
     tags: [], variation_axes: ['range', 'stance'], rep_hint: { text: '4-8 jumps', unit: 'contacts' }, rule_refs: ['R5-ATH-10', 'R5-GRD-03'],
     athletic: { quality: 'ballistic', contact_class: 'ballistic', rc_stage_default: 'RC1', response: 'single', low_amplitude: false, upper: false }
   });
-  // R5-ATH-10 again: a second two-foot lateral jump (sideways onto a low box), so a cutting sport's 3rd training day of the first block
-  // has a lateral jump of its own (each pick is used once a week; G-254)
+  // R5-ATH-10 again: a second two-foot lateral jump - low quick hops side to side over a low step, a repeated (plyometric) drill so the
+  // week's plyometric share holds (R2-ATH-01) - so a cutting sport's 3rd training day of the first block has a lateral jump of its own
+  // (each pick is used once a week; G-254)
   make('two-foot-lateral-box-jump', 'low-box-jump-half-shin-height', {
+    slots: ['AP_PLYO'], plane: 'frontal', impact: 'low', skill: 'low', older_ok: false, older_opt_in_ok: true, youth_ok: true,
+    tags: ['plyo_repeated'], variation_axes: ['range', 'stance'], rep_hint: { text: '10-20 contacts', unit: 'contacts' }, rule_refs: ['R5-ATH-10', 'R5-GRD-03'],
+    athletic: { quality: 'plyometric', contact_class: 'plyometric', rc_stage_default: 'RC2', response: 'repeat', low_amplitude: true, upper: false }
+  });
+  // and a single two-foot jump sideways onto a low box (stick the landing): the ballistic lateral station of a third first-block day
+  make('two-foot-lateral-jump-onto-box', 'low-box-jump-half-shin-height', {
     slots: ['AP_PLYO'], plane: 'frontal', impact: 'low', skill: 'low', older_ok: false, older_opt_in_ok: true, youth_ok: true,
     tags: [], variation_axes: ['range', 'stance'], rep_hint: { text: '4-8 jumps', unit: 'contacts' }, rule_refs: ['R5-ATH-10', 'R5-GRD-03'],
     athletic: { quality: 'ballistic', contact_class: 'ballistic', rc_stage_default: 'RC1', response: 'single', low_amplitude: false, upper: false }
@@ -147,7 +154,7 @@ const NAMED_WODS = [
     { ids: ['barbell-deadlift-conventional', 'dumbbell-deadlift'], reps: R('15-12-9', '21-15-9', '21-15-9'), load: BAR([65, 95], [95, 135], [135, 225]), load_scaled: DB([20, 30], [30, 45], [45, 60]) },
     { ids: ['handstand-push-up-wall-supported', 'pike-push-up', 'push-up', 'kneeling-push-up'], scaled_first: SCALED, reps: R('15-12-9', '21-15-9', '21-15-9') }] },
   { id: 'elizabeth', kind: 'girl', format: 'for_time', cap: R(12, 12, 12), levels: ['L2', 'L3'], movements: [
-    { ids: ['clean-squat-clean', 'hang-power-clean-hang-height-not-stated'], scaled_first: ['L2'], reps: R('15-12-9', '21-15-9', '21-15-9'), load: BAR([45, 65], [65, 95], [95, 135]) },
+    { ids: ['clean-squat-clean', 'hang-power-clean-from-the-high-hang-hip-crease'], scaled_first: ['L2'], reps: R('15-12-9', '21-15-9', '21-15-9'), load: BAR([45, 65], [65, 95], [95, 135]) },
     { ids: ['parallel-bar-dip', 'bench-dip'], scaled_first: SCALED, reps: R('15-12-9', '21-15-9', '21-15-9') }] },
   { id: 'isabel', kind: 'girl', format: 'for_time', cap: R(10, 10, 10), levels: ['L1', 'L2', 'L3'], movements: [
     { ids: ['hang-power-snatch-from-the-high-hang', 'single-arm-db-snatch'], scaled_first: SCALED, reps: R(20, 30, 30), load: BAR([45, 65], [65, 95], [95, 135]), load_scaled: DB([15, 25], [25, 35], [35, 50]) }] },
@@ -173,7 +180,7 @@ const NAMED_WODS = [
     { ids: RUN, metres: R(400, 800, 1600), calories: R(20, 40, 80) }] },
   { id: 'dt', kind: 'hero', format: 'for_time', rounds: R(3, 5, 5), cap: R(15, 15, 15), levels: ['L2', 'L3'], movements: [
     { ids: ['barbell-deadlift-conventional', 'dumbbell-deadlift'], reps: R(12, 12, 12), load: BAR([65, 85], [85, 115], [115, 155]), load_scaled: DB([20, 30], [30, 45], [45, 60]) },
-    { ids: ['hang-power-clean-hang-height-not-stated'], reps: R(9, 9, 9), load: BAR([65, 85], [85, 115], [115, 155]) },
+    { ids: ['hang-power-clean-from-the-high-hang-hip-crease'], reps: R(9, 9, 9), load: BAR([65, 85], [85, 115], [115, 155]) },
     { ids: ['barbell-push-jerk', 'barbell-push-press'], scaled_first: SCALED, reps: R(6, 6, 6), load: BAR([65, 85], [85, 115], [115, 155]) }] },
   { id: 'michael', kind: 'hero', format: 'for_time', rounds: R(2, 3, 3), cap: R(30, 35, 40), levels: ['L1', 'L2', 'L3'], movements: [
     { ids: RUN, metres: R(400, 800, 800), calories: R(20, 40, 40) },
@@ -233,7 +240,10 @@ export function amendRulesV07(rules) {
       // the swimmer's hot spot already takes the incline press (rules.selection.x2.incline_first_hotspot_codes); the overhead keeper
       // holds for every client this rule names and for the swimmer
       keep_overhead_hotspot_codes: ['SHOULDER_SWIMMER'],
-      keep_overhead: { per_week_min: 1, one_slot: 'last_exercise_block_of_the_training_block', weight: 8, not_tags: ['mid_range_push', 'push_press', 'push_jerk'], tag: 'overhead' },
+      keep_overhead: { per_week_min: 1, slots_min: 2, weight: 8, not_tags: ['mid_range_push', 'push_press', 'push_jerk'], tag: 'overhead' },
+      // a week with ONE vertical / mid-range push slot keeps its incline press and does a light overhead press once a week as joint care
+      // (rules.prehab.by_injury_code[code]; no muscle-set credit - G-252)
+      one_slot_care: { code: 'OVERHEAD_HEALTH' },
       refs: ['R5-ATH-04', 'R4-LIB-03', 'R3-ATH-01'],
       status: 'approved (COACH-R5 R5-ATH-04 "we bias incline pressing for strength, but overhead pressing should be included for health"); PROPOSED: one overhead press a week (the last vertical-push slot of the week; with one such slot a week, the last exercise block of the training block) and the profiles read as throwers and volleyball'
     },
@@ -255,6 +265,8 @@ export function amendRulesV07(rules) {
       lean_penalty: -2,
       // a jump station never returns to an earlier exercise block's pick (A, B, A; R2-LIB-01)
       return_penalty: -12,
+      // a station that already held a drill below the block's own level for two blocks moves up (no stage-1 drill in stage 3; E-99)
+      stay_low_penalty: -10,
       // 'single-leg hurdle hops are never a first-block pick' (hard rule)
       never_first_block_re: 'hurdle', never_first_block_tags: ['hurdle_hop'],
       refs: ['R5-GRD-03', 'R5-ATH-10', 'CAT-10', 'R2-ATH-03'],
@@ -281,6 +293,12 @@ export function amendRulesV07(rules) {
   if (SL && SL.lead_row && Array.isArray(SL.lead_row.skeletons)) SL.lead_row.skeletons = uniqSorted([...SL.lead_row.skeletons, 'gym_FB1', 'athletic_FB1']);
   const PT = R0.validation && R0.validation.v05 && R0.validation.v05.skeleton && R0.validation.v05.skeleton.partner;
   if (PT && Array.isArray(PT.skeleton_prefixes)) PT.skeleton_prefixes = uniqSorted([...PT.skeleton_prefixes, 'gym_FB1', 'gym_FB2', 'athletic_FB1', 'athletic_FB2']);
+  // R5-ATH-04 (G-252): the shoulder-health overhead press of a week with one vertical-push slot - joint care, a light press through the
+  // full range, once a week on a day without the vertical-push slot (PROPOSED: the dose and the day)
+  if (R0.prehab && R0.prehab.by_injury_code) {
+    R0.prehab.by_injury_code.OVERHEAD_HEALTH = { bucket: 'RP_VPUSH', per_week: 1, days: 'no_vpush', sets: 2, refs: ['R5-ATH-04'], status: 'approved (COACH-R5 R5-ATH-04 "overhead pressing should be included for health"); PROPOSED: once a week, 2 light sets, as joint care' };
+    R0.prehab.preferred_by_code = { ...(R0.prehab.preferred_by_code || {}), OVERHEAD_HEALTH: ['tall-kneeling-db-overhead-press', 'db-z-press-seated-on-floor', 'seated-machine-shoulder-press', 'standing-db-overhead-press', 'alternating-db-overhead-press', 'tall-kneeling-barbell-overhead-press', 'barbell-z-press-seated-on-floor', 'standing-barbell-overhead-press-strict', 'half-kneeling-single-arm-landmine-press', 'pike-push-up'] };
+  }
   // R5-CLS-02 (bootcamp with no pull-up bar: 'a hip thrust or bridge (hips get more work; pressing then leads pulling by one station)'):
   // the free vertical-pull station of a circuit takes a glute-dominant hip lift, on every circuit day that loses its pull-up
   const CX = R0.selection.x2 && R0.selection.x2.circuit && R0.selection.x2.circuit.stand_in;
@@ -423,6 +441,8 @@ export const UI_V07 = {
   'day.no_equipment.2.A_BW': [FB1_EN + ' (bodyweight)', FB1_ES + ' (peso corporal)'], 'day.no_equipment.2.B_BW': [FB2_EN + ' (bodyweight)', FB2_ES + ' (peso corporal)'],
   'why.two_day_full_body': ['Two training days a week: each day trains your whole body (a squat with a pull, a hinge with a press)', 'Dos días de entrenamiento por semana: cada día entrena todo el cuerpo (una sentadilla con un tirón, una bisagra con un press)'],
   // R5-ATH-04
+  'prehab.code.OVERHEAD_HEALTH': ['shoulder health (overhead reach)', 'salud del hombro (alcance por encima de la cabeza)'],
+  'prehab.label.OVERHEAD_HEALTH': ['Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach', 'Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance'],
   'why.overhead_for_health': ['One overhead press a week stays in your plan: incline pressing builds the strength, overhead pressing keeps your reach and shoulder range', 'Un press por encima de la cabeza a la semana se queda en tu plan: el press inclinado construye la fuerza y el press por encima de la cabeza mantiene tu alcance y el rango del hombro'],
   // R5-GRD-03
   'why.jump_progression': ['Jumps build up across the plan: two feet and low first, then higher, then one leg', 'Los saltos progresan a lo largo del plan: primero con dos pies y bajos, luego más altos y después a una pierna'],
@@ -434,7 +454,8 @@ export const UI_V07 = {
   'exercise.assisted-lateral-hops-holding-a-support.name': ['Assisted Side-to-Side Hops (holding a rack, rail or counter)', 'Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops)'],
   'exercise.assisted-lateral-jump-holding-a-support.name': ['Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)', 'Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)'],
   'exercise.suspension-trainer-assisted-jump-squat.name': ['Suspension Trainer Assisted Jump Squat', 'Salto en sentadilla asistido con suspensión (TRX Assisted Jump Squat)'],
-  'exercise.two-foot-lateral-box-jump.name': ['Two-Foot Lateral Box Jump (sideways onto a low box)', 'Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)'],
+  'exercise.two-foot-lateral-box-jump.name': ['Two-Foot Lateral Step Hops (quick, side to side over a low step)', 'Saltos laterales con dos pies, rápidos, de lado a lado sobre un escalón bajo (Lateral Step Hops)'],
+  'exercise.two-foot-lateral-jump-onto-box.name': ['Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)', 'Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)'],
   'exercise.run-wod-station.name': ['Run', 'Carrera (Run)'],
   'exercise.two-foot-lateral-jump.name': ['Two-Foot Lateral Jump (side to side over a line or a low hurdle)', 'Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)'],
   // R5-CLS-02

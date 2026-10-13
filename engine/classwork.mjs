@@ -10,6 +10,7 @@
 
 import { why, roundHalfUp } from './util.mjs';
 import { videoOf } from './library.mjs';
+import { isNearDuplicate } from './select.mjs';
 
 /**
  * R5-GRD-05: the week's circuit days alternate the two formats and each exercise block swaps them (PROPOSED split); a week with one
@@ -165,7 +166,20 @@ export function applyNamedWods(weeks, model, derived, shape) {
   // (the weeks since the last popular benchmark, counted across the plan: one comes every `benchmark_every_weeks` weeks, moved to the
   // next week when that week holds the Hero workout - so the gap stays inside the coach's 2-4 weeks)
   let sinceBench = 0;
-  const next = (list, k) => { if (!list.length) return null; const x = list[n[k] % list.length]; n[k]++; return x; };
+  // the next workout of a kind in its rotation that the slot's day can take: none of its movements is an exercise the day already holds
+  // in another item (no second version of the same exercise in a session - the core block's sit-ups and Annie, for one)
+  const next = (list, k, slot) => {
+    if (!list.length || !slot) return null;
+    const dayIds = [...new Set((slot.d.blocks || []).flatMap((b) => b.items || []).filter((it) => it !== slot.it).map((it) => it.exercise_id).filter((id) => id && model.hasEx(id)))];
+    const clash = (id) => dayIds.some((d) => d === id || (!model.ex(d).is_athletic && isNearDuplicate(model, model.ex(d), model.ex(id))));
+    for (let t = 0; t < list.length; t++) {
+      const x = list[(n[k] + t) % list.length];
+      if (x.picks.some((pk) => clash(pk.id))) continue;
+      n[k] += t + 1;
+      return x;
+    }
+    return null;
+  };
   for (const tb of (shape && shape.training_blocks) || []) {
     const ws = weeks.filter((w) => w.training_block === tb.n);
     const L = ws.length;
@@ -193,13 +207,16 @@ export function applyNamedWods(weeks, model, derived, shape) {
       // the Hero workout (once a block): the week's longest WOD
       if (heroAt !== null && k === heroAt && heroes.length) {
         const longest = slots.slice().sort((a, b) => (b.it.wod.minutes[1] - a.it.wod.minutes[1]) || 0)[0];
-        put(longest, next(heroes, 'hero'));
+        put(longest, next(heroes, 'hero', longest));
       }
       // the Girl workout (once a week): the day rotates through the week's WOD days
       const free = () => slots.filter((s) => !taken.has(s));
-      if (girls.length && free().length) { const f = free(); put(f[(k - 1) % f.length], next(girls, 'girl')); }
+      if (girls.length && free().length) {
+        const f = free();
+        for (let t = 0; t < f.length; t++) { const sl = f[(k - 1 + t) % f.length]; const e = next(girls, 'girl', sl); if (e) { put(sl, e); break; } }
+      }
       // a popular benchmark every few weeks (not the Hero's week)
-      if (benches.length && NW.benchmark_every_weeks && sinceBench >= NW.benchmark_every_weeks && k !== heroAt && free().length) { const f = free(); put(f[f.length - 1], next(benches, 'benchmark')); sinceBench = 0; }
+      if (benches.length && NW.benchmark_every_weeks && sinceBench >= NW.benchmark_every_weeks && k !== heroAt && free().length) { const f = free(); const sl = f[f.length - 1]; const e = next(benches, 'benchmark', sl); if (e) { put(sl, e); sinceBench = 0; } }
     });
   }
 }

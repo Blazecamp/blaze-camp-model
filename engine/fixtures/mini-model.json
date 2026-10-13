@@ -12,13 +12,13 @@
    "synthesis/12_volume_algorithm_v1.json v1.1"
   ],
   "counts": {
-   "exercises": 741,
+   "exercises": 742,
    "dropped": 208,
    "templates": 30,
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2812,
+   "en_keys": 2815,
    "es_missing": 795
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -45,7 +45,7 @@
   ],
   "default_lang": "en",
   "counts": {
-   "exercises": 741,
+   "exercises": 742,
    "templates": 30,
    "profiles": 127,
    "sports_in_picker": 52,
@@ -55159,21 +55159,21 @@
     "load_ceiling": "low",
     "is_athletic": true,
     "athletic": {
-     "quality": "ballistic",
-     "contact_class": "ballistic",
+     "quality": "plyometric",
+     "contact_class": "plyometric",
      "olympic_family": null,
      "day_pattern": null,
      "olympic_tier": null,
      "full_catch": false,
      "from_floor": false,
      "plyo_method_default": "create_then_land",
-     "rc_stage_default": "RC1",
+     "rc_stage_default": "RC2",
      "unilateral_harder": false,
      "loaded_jump": false,
      "count_unit": "contacts",
-     "response": "single",
+     "response": "repeat",
      "upper": false,
-     "low_amplitude": false,
+     "low_amplitude": true,
      "sport_only": null,
      "no_cuts": false,
      "sprint_kind": null
@@ -55183,17 +55183,19 @@
     "older_ok": false,
     "older_opt_in_ok": true,
     "youth_ok": true,
-    "tags": [],
+    "tags": [
+     "plyo_repeated"
+    ],
     "variation_axes": [
      "range",
      "stance"
     ],
     "rep_hint": {
-     "text": "4-8 jumps",
+     "text": "10-20 contacts",
      "unit": "contacts"
     },
     "video": {
-     "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+     "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)",
      "kind": "search"
     },
     "status": "live_library_selectable",
@@ -55278,6 +55280,92 @@
     },
     "video": {
      "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+     "kind": "search"
+    },
+    "status": "live_library_selectable",
+    "sport_use": [],
+    "rule_refs": [
+     "R5-ATH-10",
+     "R5-GRD-03"
+    ]
+   },
+   {
+    "id": "two-foot-lateral-jump-onto-box",
+    "source_id": "two-foot-lateral-jump-onto-box",
+    "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
+    "cue_key": null,
+    "kind": "exercise",
+    "family": "ATHLETIC",
+    "pattern": "PLYO",
+    "node": "AP.JMP.PLY",
+    "slots": [
+     "AP_PLYO"
+    ],
+    "default_in_slots": [],
+    "laterality": "bilateral",
+    "plane": "frontal",
+    "level": "foundational",
+    "zone": null,
+    "rotation_bias": null,
+    "size_class": "big",
+    "exercise_class": "athletic",
+    "counting": "contacts",
+    "credit_class": "ATHLETIC",
+    "credits": {},
+    "primary_muscle": null,
+    "equipment": {
+     "any_of": [
+      [
+       "step_low"
+      ]
+     ],
+     "machine": null
+    },
+    "constraint": 1,
+    "axial_class": "none",
+    "axial": false,
+    "spine_class": "not_counted",
+    "axial_pattern": null,
+    "skill": "low",
+    "impact": "low",
+    "load_ceiling": "low",
+    "is_athletic": true,
+    "athletic": {
+     "quality": "ballistic",
+     "contact_class": "ballistic",
+     "olympic_family": null,
+     "day_pattern": null,
+     "olympic_tier": null,
+     "full_catch": false,
+     "from_floor": false,
+     "plyo_method_default": "create_then_land",
+     "rc_stage_default": "RC1",
+     "unilateral_harder": false,
+     "loaded_jump": false,
+     "count_unit": "contacts",
+     "response": "single",
+     "upper": false,
+     "low_amplitude": false,
+     "sport_only": null,
+     "no_cuts": false,
+     "sprint_kind": null
+    },
+    "conditioning": null,
+    "medball": null,
+    "older_ok": false,
+    "older_opt_in_ok": true,
+    "youth_ok": true,
+    "tags": [],
+    "variation_axes": [
+     "range",
+     "stance"
+    ],
+    "rep_hint": {
+     "text": "4-8 jumps",
+     "unit": "contacts"
+    },
+    "video": {
+     "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
      "kind": "search"
     },
     "status": "live_library_selectable",
@@ -65119,7 +65207,7 @@
         {
          "ids": [
           "clean-squat-clean",
-          "hang-power-clean-hang-height-not-stated"
+          "hang-power-clean-from-the-high-hang-hip-crease"
          ],
          "scaled_first": [
           "L2"
@@ -65728,7 +65816,7 @@
         },
         {
          "ids": [
-          "hang-power-clean-hang-height-not-stated"
+          "hang-power-clean-from-the-high-hang-hip-crease"
          ],
          "reps": {
           "L1": 9,
@@ -66920,6 +67008,16 @@
      "per_week": 2,
      "days": "any",
      "sets": 2
+    },
+    "OVERHEAD_HEALTH": {
+     "bucket": "RP_VPUSH",
+     "per_week": 1,
+     "days": "no_vpush",
+     "sets": 2,
+     "refs": [
+      "R5-ATH-04"
+     ],
+     "status": "approved (COACH-R5 R5-ATH-04 \"overhead pressing should be included for health\"); PROPOSED: once a week, 2 light sets, as joint care"
     }
    },
    "block": "prehab",
@@ -66964,7 +67062,19 @@
      "kb-face-pull",
      "floor-prone-y-t-raises"
     ],
-    "NECK": []
+    "NECK": [],
+    "OVERHEAD_HEALTH": [
+     "tall-kneeling-db-overhead-press",
+     "db-z-press-seated-on-floor",
+     "seated-machine-shoulder-press",
+     "standing-db-overhead-press",
+     "alternating-db-overhead-press",
+     "tall-kneeling-barbell-overhead-press",
+     "barbell-z-press-seated-on-floor",
+     "standing-barbell-overhead-press-strict",
+     "half-kneeling-single-arm-landmine-press",
+     "pike-push-up"
+    ]
    },
    "skip_if_week_has_same": true,
    "per_day_max": 2,
@@ -69147,7 +69257,7 @@
      ],
      "keep_overhead": {
       "per_week_min": 1,
-      "one_slot": "last_exercise_block_of_the_training_block",
+      "slots_min": 2,
       "weight": 8,
       "not_tags": [
        "mid_range_push",
@@ -69155,6 +69265,9 @@
        "push_jerk"
       ],
       "tag": "overhead"
+     },
+     "one_slot_care": {
+      "code": "OVERHEAD_HEALTH"
      },
      "refs": [
       "R5-ATH-04",
@@ -69181,6 +69294,7 @@
      "over_penalty": -10,
      "lean_penalty": -2,
      "return_penalty": -12,
+     "stay_low_penalty": -10,
      "never_first_block_re": "hurdle",
      "never_first_block_tags": [
       "hurdle_hop"
@@ -158638,7 +158752,8 @@
    "exercise.trx-row-suspension-row.name": "TRX Row (suspension row)",
    "exercise.tuck-jumps.name": "Tuck Jumps",
    "exercise.turkish-get-ups.name": "Turkish Get-Ups",
-   "exercise.two-foot-lateral-box-jump.name": "Two-Foot Lateral Box Jump (sideways onto a low box)",
+   "exercise.two-foot-lateral-box-jump.name": "Two-Foot Lateral Step Hops (quick, side to side over a low step)",
+   "exercise.two-foot-lateral-jump-onto-box.name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)",
    "exercise.two-foot-lateral-jump.name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)",
    "exercise.unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box.name": "Unilateral Hop On To (single-leg hop onto a plate/low box)",
    "exercise.unilateral-repeat-hops-single-leg-continuous-pogo-hops.name": "Unilateral Repeat Hops (single-leg continuous pogo hops)",
@@ -159067,6 +159182,7 @@
    "prehab.code.AGE_50_RACKET": "50+ racket players: knees, Achilles, shoulders and elbows",
    "prehab.code.KNEE_DEGENERATIVE_COURT": "knees (court sports)",
    "prehab.code.NECK": "neck",
+   "prehab.code.OVERHEAD_HEALTH": "shoulder health (overhead reach)",
    "prehab.code.SHOULDER_SWIMMER": "swimmer's shoulders",
    "prehab.code.SHOULDER_THROWER": "throwing / overhead shoulders",
    "prehab.label.ACHILLES_CALF": "Joint care for the Achilles and calves",
@@ -159074,6 +159190,7 @@
    "prehab.label.FALLS_COURT": "Balance and reactive stepping",
    "prehab.label.KNEE_DEGENERATIVE_COURT": "Joint care for the knees",
    "prehab.label.NECK": "Neck care",
+   "prehab.label.OVERHEAD_HEALTH": "Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach",
    "prehab.label.SHOULDER_SWIMMER": "Joint care for swimmer's shoulders",
    "prehab.label.SHOULDER_THROWER": "Joint care for overhead / racket shoulders",
    "prehab.label_ex.shins_ankles": "Joint care for the shins and ankles",
@@ -160738,7 +160855,8 @@
    "exercise.table-row-inverted-row-under-a-sturdy-table.name": "Remo bajo una mesa (Table Row)",
    "exercise.tibialis-raise-back-against-a-wall.name": "Elevación de tibial contra la pared (Tibialis Raise)",
    "exercise.toes-to-bar-hanging.name": "Pies a la barra (Toes-to-Bar)",
-   "exercise.two-foot-lateral-box-jump.name": "Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)",
+   "exercise.two-foot-lateral-box-jump.name": "Saltos laterales con dos pies, rápidos, de lado a lado sobre un escalón bajo (Lateral Step Hops)",
+   "exercise.two-foot-lateral-jump-onto-box.name": "Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)",
    "exercise.two-foot-lateral-jump.name": "Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)",
    "exercise.walking-lunge.name": "Zancadas caminando (Walking Lunge)",
    "exercise.wall-ball-medball-squat-to-target.name": "Lanzamiento a la pared con balón (Wall Ball)",
@@ -161143,6 +161261,7 @@
    "prehab.code.AGE_50_RACKET": "jugadores de raqueta 50+: rodillas, Aquiles, hombros y codos",
    "prehab.code.KNEE_DEGENERATIVE_COURT": "rodillas (deportes de cancha)",
    "prehab.code.NECK": "cuello",
+   "prehab.code.OVERHEAD_HEALTH": "salud del hombro (alcance por encima de la cabeza)",
    "prehab.code.SHOULDER_SWIMMER": "hombros de nadador",
    "prehab.code.SHOULDER_THROWER": "hombros de lanzador (brazo por encima de la cabeza)",
    "prehab.label.ACHILLES_CALF": "Cuidado articular del tendón de Aquiles y pantorrillas",
@@ -161150,6 +161269,7 @@
    "prehab.label.FALLS_COURT": "Equilibrio y pasos reactivos",
    "prehab.label.KNEE_DEGENERATIVE_COURT": "Cuidado articular de rodillas",
    "prehab.label.NECK": "Cuidado del cuello",
+   "prehab.label.OVERHEAD_HEALTH": "Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance",
    "prehab.label.SHOULDER_SWIMMER": "Cuidado articular de hombros de nadador",
    "prehab.label.SHOULDER_THROWER": "Cuidado articular de hombros por encima de la cabeza / raqueta",
    "prehab.label_ex.shins_ankles": "Cuidado articular de espinillas y tobillos",

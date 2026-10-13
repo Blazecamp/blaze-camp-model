@@ -203,7 +203,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Crunch | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Hanging Rotational Knee/Leg Raise | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| WOD (workout of the day) | – – – – · – – – – | EMOM (every minute on the minute): 20 min → For time: 10 min |
+| WOD (workout of the day) | – – – – · – – – – | EMOM (every minute on the minute): 20 min → For time: 20 min |
 
 ## Week 1 — Getting used to it (small steps)
 
@@ -497,11 +497,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 **Conditioning**
 1. **WOD (workout of the day)** — For time: 10 min · hard but sustainable; keep the movement clean
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
-   - Today's WOD is "Fran", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
-   - Fran: the standard is 21-15-9 reps of barbell thrusters and pull-ups, for time.
+   - Today's WOD is "Diane", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
+   - Diane: the standard is 21-15-9 reps of deadlifts and handstand push-ups, for time.
    - Scaled for a class member: the reps, the loads and the movement options are set for your level; choose the harder version when it is easy.
    - Do the rounds as fast as you can with clean movement.
-   - 21-15-9 Reps Barbell Thruster (45-65 lb on the bar) · 21-15-9 Reps Jumping Pull-up
+   - 21-15-9 Reps Dumbbell Deadlift (30-45 lb dumbbells) · 21-15-9 Reps Pike Push-Up
 
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 50-60 min (an estimate, for information only)_
@@ -613,7 +613,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 10 Reps Toes to Bar (hanging) · 15 Reps Kettlebell Swing (Russian) (26-35 lb kettlebell) · 10 Reps Mid Box Jump (Knee Height)
 
 ### Tuesday · Press + snatch day
-_Average time: about 80-100 min (an estimate, for information only)_
+_Average time: about 75-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Weighted Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) (about 5 min saved)_
@@ -665,14 +665,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20(Side)%20Raise) · Name to copy into YouTube: `DB Lateral (Side) Raise`
 
 **Conditioning**
-1. **WOD (workout of the day)** — For time: 15 min · hard but sustainable; keep the movement clean
+1. **WOD (workout of the day)** — For time: 12 min · hard but sustainable; keep the movement clean
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
-   - Today's WOD is "Helen", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
-   - Helen: the standard is 3 rounds of a 400 m run, 21 kettlebell swings and 12 pull-ups, for time.
+   - Today's WOD is "Elizabeth", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
+   - Elizabeth: the standard is 21-15-9 reps of squat cleans and ring dips, for time.
    - Scaled for a class member: the reps, the loads and the movement options are set for your level; choose the harder version when it is easy.
    - Do the rounds as fast as you can with clean movement.
-   - 3 rounds for time (cap 15 min)
-   - 400 m Run · 21 Reps Kettlebell Swing (Russian) (26-35 lb kettlebell) · 12 Reps Jumping Pull-up
+   - 21-15-9 Reps Hang Power Clean - from the High Hang (hip crease) (65-95 lb on the bar) · 21-15-9 Reps Bench Dip
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -984,7 +983,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run, bike, SkiErg. Go by time, not distance.
 
 ### Thursday · Deadlift + push day
-_Average time: about 95-120 min (an estimate, for information only)_
+_Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, skill, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Deadlift (conventional) + Incline Barbell Bench Press (about 7 min saved)_
@@ -1042,13 +1041,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Calf%20Raise) · Name to copy into YouTube: `Barbell Calf Raise`
 
 **Conditioning**
-1. **WOD (workout of the day)** — AMRAP (as many rounds as possible): 20 min · hard but sustainable; keep the movement clean
+1. **WOD (workout of the day)** — For time: 10 min · hard but sustainable; keep the movement clean
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
-   - Today's WOD is "Cindy", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
-   - Cindy: the standard is as many rounds as possible in 20 minutes of 5 pull-ups, 10 push-ups and 15 air squats.
+   - Today's WOD is "Isabel", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
+   - Isabel: the standard is 30 barbell snatches, for time.
    - Scaled for a class member: the reps, the loads and the movement options are set for your level; choose the harder version when it is easy.
-   - As many rounds as you can of the stations in order.
-   - 5 Reps Jumping Pull-up · 10 Reps Push-Up · 15 Reps Bodyweight Squat (air squat)
+   - Do the rounds as fast as you can with clean movement.
+   - 30 Reps Single-Arm DB Snatch (25-35 lb dumbbells)
 
 ### Friday · Clean + pull day
 _Average time: about 80-100 min (an estimate, for information only)_
@@ -1417,12 +1416,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 
 **Conditioning**
 1. **WOD (workout of the day)** — For time: 12 min · hard but sustainable; keep the movement clean
+   - wall ball 14-20 lb (never over 20 lb)
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
-   - Today's WOD is "Annie", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
-   - Annie: the standard is 50-40-30-20-10 reps of double-unders and sit-ups, for time.
+   - Today's WOD is "Karen", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
+   - Karen: the standard is 150 wall-ball shots, for time.
    - Scaled for a class member: the reps, the loads and the movement options are set for your level; choose the harder version when it is easy.
    - Do the rounds as fast as you can with clean movement.
-   - 50-40-30-20-10 Reps Double-Unders (jump rope) · 50-40-30-20-10 Reps Sit-Up
+   - 100 Reps Wall Ball (medball squat-to-target throw)
 
 ### Saturday · WOD class + cardio (optional)
 _Average time: about 55-65 min (an estimate, for information only)_
@@ -1463,10 +1463,10 @@ _Week level: 6.3 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - New exercise block: 11 exercises change a little (another version or one new detail); the rest stay
 - Monday: Cross-Body Dumbbell Hammer Curl → Cross-Body Dumbbell Hammer Curl - 1-second squeeze at the top
-- Tuesday: Weighted Sit-Up → Weighted Decline Sit-Up; Hang Power Snatch - from the High Hang → Power Snatch; Dumbbell Triceps Kickback (one or both arms) → Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top; Calorie Effort: 15 cal (bike / rower / ski) → Two-Foot Lateral Box Jump (sideways onto a low box)
+- Tuesday: Weighted Sit-Up → Weighted Decline Sit-Up; Hang Power Snatch - from the High Hang → Power Snatch; Dumbbell Triceps Kickback (one or both arms) → Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top; Calorie Effort: 15 cal (bike / rower / ski) → Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)
 - Thursday: Supine Slider Hamstring Curl → Ball Hamstring Curl (medball or stability ball); Calorie Effort: 35 cal (bike / rower / ski) → Burpees
-- Friday: Hang Power Clean - from the High Hang (hip crease) → Power Clean; Seated Dumbbell Curl → Dumbbell Curl; Double-Unders (jump rope) → Knees to Chest (hanging)
-- Saturday: Calorie Effort: 10 cal (bike / rower / ski) → Dumbbell Deadlift
+- Friday: Hang Power Clean - from the High Hang (hip crease) → Power Clean; Seated Dumbbell Curl → Dumbbell Curl; Wall Ball (medball squat-to-target throw) → Knees to Chest (hanging)
+- Saturday: Calorie Effort: 10 cal (bike / rower / ski) → Run
 - New bonus exercise: Goblet Squat (Heels Elevated) (Monday)
 - +1 set on Chin-Up (supinated) (Friday): 3 → 4 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Monday): 3 → 4 sets
@@ -1602,7 +1602,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 10-20 lb ball
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
    - One station per minute, in order; keep going round until the time is up.
-   - 10 Reps Two-Foot Lateral Box Jump (sideways onto a low box) · 10 Reps DB Thruster (front squat into overhead press) (25-35 lb dumbbells) · 12 Reps Wall Ball (medball squat-to-target throw) · 10 Reps Inverted Row
+   - 10 Reps Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · 10 Reps DB Thruster (front squat into overhead press) (25-35 lb dumbbells) · 12 Reps Wall Ball (medball squat-to-target throw) · 10 Reps Inverted Row
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -1742,7 +1742,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 10 Reps Knees to Chest (hanging) · 10 Reps DB Thruster (front squat into overhead press) (25-35 lb dumbbells) · 15 Reps American KB Swing (overhead) (26-35 lb kettlebell) · 10 Reps Two-Foot Lateral Jump (side to side over a line or a low hurdle)
 
 ### Saturday · WOD class + cardio (optional)
-_Average time: about 40-50 min (an estimate, for information only)_
+_Average time: about 50-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, conditioning, cardio. You can also add or remove exercises._
 _Superset to save time: Crunch + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: WOD (workout of the day)_
@@ -1762,13 +1762,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
-1. **WOD (workout of the day)** — For time: 10 min · hard but sustainable; keep the movement clean
+1. **WOD (workout of the day)** — For time: 20 min · hard but sustainable; keep the movement clean
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
-   - Today's WOD is "Diane", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
-   - Diane: the standard is 21-15-9 reps of deadlifts and handstand push-ups, for time.
+   - Today's WOD is "Nancy", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
+   - Nancy: the standard is 5 rounds of a 400 m run and 15 overhead squats, for time.
    - Scaled for a class member: the reps, the loads and the movement options are set for your level; choose the harder version when it is easy.
    - Do the rounds as fast as you can with clean movement.
-   - 21-15-9 Reps Dumbbell Deadlift (30-45 lb dumbbells) · 21-15-9 Reps Pike Push-Up
+   - 4 rounds for time (cap 20 min)
+   - 400 m Run · 15 Reps Goblet Squat (KB/DB) (30-40 lb dumbbells)
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
@@ -1859,7 +1860,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 10 Reps Toes to Bar (hanging) · 12 cal on the bike, rower or SkiErg · 15 Reps Kettlebell Swing (Russian) (26-35 lb kettlebell) · 10 Reps Mid Box Jump (Knee Height)
 
 ### Tuesday · Press + snatch day
-_Average time: about 80-100 min (an estimate, for information only)_
+_Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Weighted Decline Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top (about 6 min saved)_
@@ -1911,13 +1912,15 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20(Side)%20Raise) · Name to copy into YouTube: `DB Lateral (Side) Raise`
 
 **Conditioning**
-1. **WOD (workout of the day)** — For time: 12 min · hard but sustainable; keep the movement clean
+1. **WOD (workout of the day)** — For time: 30 min · hard but sustainable; keep the movement clean
+   - 14-20 lb ball
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
-   - Today's WOD is "Elizabeth", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
-   - Elizabeth: the standard is 21-15-9 reps of squat cleans and ring dips, for time.
+   - Today's WOD is "Kelly", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
+   - Kelly: the standard is 5 rounds of a 400 m run, 30 box jumps and 30 wall-ball shots, for time.
    - Scaled for a class member: the reps, the loads and the movement options are set for your level; choose the harder version when it is easy.
    - Do the rounds as fast as you can with clean movement.
-   - 21-15-9 Reps Hang Power Clean (65-95 lb on the bar) · 21-15-9 Reps Bench Dip
+   - 4 rounds for time (cap 30 min)
+   - 400 m Run · 30 Reps Mid Box Jump (Knee Height) · 30 Reps Wall Ball (medball squat-to-target throw)
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -2178,7 +2181,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 10 Reps Toes to Bar (hanging) · 12 cal on the bike, rower or SkiErg · 15 Reps Kettlebell Swing (Russian) (26-35 lb kettlebell) · 10 Reps Mid Box Jump (Knee Height)
 
 ### Tuesday · Press + snatch day
-_Average time: about 80-100 min (an estimate, for information only)_
+_Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Weighted Decline Sit-Up + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Flat DB Fly + Dumbbell Triceps Kickback (one or both arms) - 1-second squeeze at the top (about 6 min saved)_
@@ -2230,13 +2233,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=DB%20Lateral%20(Side)%20Raise) · Name to copy into YouTube: `DB Lateral (Side) Raise`
 
 **Conditioning**
-1. **WOD (workout of the day)** — For time: 10 min · hard but sustainable; keep the movement clean
+1. **WOD (workout of the day)** — EMOM (every minute on the minute): 20 min · hard but sustainable; keep the movement clean
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
-   - Today's WOD is "Isabel", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
-   - Isabel: the standard is 30 barbell snatches, for time.
+   - Today's WOD is "Chelsea", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
+   - Chelsea: the standard is 5 pull-ups, 10 push-ups and 15 air squats every minute on the minute for 30 minutes.
    - Scaled for a class member: the reps, the loads and the movement options are set for your level; choose the harder version when it is easy.
-   - Do the rounds as fast as you can with clean movement.
-   - 30 Reps Single-Arm DB Snatch (25-35 lb dumbbells)
+   - One station per minute, in order; keep going round until the time is up.
+   - 5 Reps Jumping Pull-up · 10 Reps Push-Up · 15 Reps Bodyweight Squat (air squat)
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -2551,7 +2554,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 10-20 lb ball
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
    - One station per minute, in order; keep going round until the time is up.
-   - 8 Reps Two-Foot Lateral Box Jump (sideways onto a low box) · 8 Reps DB Thruster (front squat into overhead press) (25-35 lb dumbbells) · 10 Reps Wall Ball (medball squat-to-target throw) · 8 Reps Inverted Row
+   - 8 Reps Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · 8 Reps DB Thruster (front squat into overhead press) (25-35 lb dumbbells) · 10 Reps Wall Ball (medball squat-to-target throw) · 8 Reps Inverted Row
 
 ### Wednesday · Aerobic day
 _Optional: you can switch off this cardio session, or move it to another day._
@@ -2710,13 +2713,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - [Watch how](https://www.youtube.com/results?search_query=Hanging%20Rotational%20Knee%2FLeg%20Raise) · Name to copy into YouTube: `Hanging Rotational Knee/Leg Raise`
 
 **Conditioning**
-1. **WOD (workout of the day)** — For time: 14 min · hard but sustainable; keep the movement clean
+1. **WOD (workout of the day)** — For time: 10 min · hard but sustainable; keep the movement clean
    - WOD: nothing in the WOD counts as muscle sets (thrusters, swings, jumps, throws, wall balls)
-   - Today's WOD is "Jackie", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
-   - Jackie: the standard is a 1000 m row, 50 thrusters with an empty bar and 30 pull-ups, for time.
+   - Today's WOD is "Fran", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.
+   - Fran: the standard is 21-15-9 reps of barbell thrusters and pull-ups, for time.
    - Scaled for a class member: the reps, the loads and the movement options are set for your level; choose the harder version when it is easy.
    - Do the rounds as fast as you can with clean movement.
-   - 50 cal on the bike, rower or SkiErg · 50 Reps Barbell Thruster (45-45 lb on the bar) · 30 Reps Jumping Pull-up
+   - 21-15-9 Reps Barbell Thruster (45-65 lb on the bar) · 21-15-9 Reps Jumping Pull-up
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat

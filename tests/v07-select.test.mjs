@@ -140,15 +140,22 @@ describe('v0.7 selection - R5-ATH-04 incline first, overhead kept', () => {
     const p = planOf('01');
     const vp = allItems(p).filter(x => x.it.bucket === 'RP_VPUSH').map(x => ex(x.it.exercise_id));
     assert.ok(vp.some(isOverhead) && vp.some(isIncline));
-    assert.ok(allItems(p).some(x => (x.it.why || []).some(y => y.key === 'why.overhead_for_health')));
+    assert.ok(allItems(p).some(x => (x.it.why || []).some(y => y.key === 'why.overhead_for_health' || (y.args && y.args.code === 'OVERHEAD_HEALTH'))));
   });
-  it('R5-ATH-04: the chest never drops when the overhead press comes in (one vertical-push slot a week: the overhead press is the first exercise block, H21)', () => {
+  it('R5-ATH-04 (G-252): with one vertical-push slot a week the slot keeps its incline press in every block and a light overhead press is joint care once a week, with no muscle-set credit; the chest never drops (H21)', () => {
     for (const days of [2, 3]) {
       const p = generate(athlete('baseball', 'pitcher', days), model);
       const v = p.summary.sets_by_group_by_week.chest;
       for (let i = 1; i < v.length; i++) assert.ok(v[i] >= v[i - 1] - EPS, `${days} days chest ${v.join(' ')}`);
-      const first = p.weeks.filter(w => w.exercise_block === 1).flatMap(itemsOf).filter(x => x.it.bucket === 'RP_VPUSH');
-      assert.ok(first.every(x => isOverhead(ex(x.it.exercise_id))), `${days}: block 1 is the overhead press`);
+      for (const w of p.weeks.filter(w => w.block_type === 'stairway')) {
+        const vp = itemsOf(w).filter(x => x.it.bucket === 'RP_VPUSH' && x.it.exercise_id);
+        const care = vp.filter(x => x.it.role === 'prehab');
+        assert.equal(care.length, 1, `${days} w${w.n}: one shoulder-health press`);
+        assert.ok(isOverhead(ex(care[0].it.exercise_id)), care[0].it.exercise_id);
+        assert.deepEqual(care[0].it.credits || {}, {});
+        assert.ok(!vp.some(x => x.it.role !== 'prehab' && x.d === care[0].d), `${days} w${w.n}: not on the day of the vertical-push slot`);
+        assert.ok(vp.filter(x => x.it.role !== 'prehab').every(x => isIncline(ex(x.it.exercise_id))), `${days} w${w.n}: the slot is the incline press`);
+      }
     }
   });
 });

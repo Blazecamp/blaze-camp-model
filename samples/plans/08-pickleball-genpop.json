@@ -2304,7 +2304,7 @@
                     "assisted-squat-jump-holding-a-support",
                     "stick-the-landing-bilateral-jump-drop-and-freeze-the-landing",
                     "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
-                    "two-foot-lateral-box-jump"
+                    "two-foot-lateral-jump-onto-box"
                   ],
                   "swap_notes": [
                     {
@@ -2323,7 +2323,7 @@
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -6610,7 +6610,7 @@
                     "assisted-squat-jump-holding-a-support",
                     "stick-the-landing-bilateral-jump-drop-and-freeze-the-landing",
                     "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
-                    "two-foot-lateral-box-jump"
+                    "two-foot-lateral-jump-onto-box"
                   ],
                   "swap_notes": [
                     {
@@ -6629,7 +6629,7 @@
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -10877,7 +10877,7 @@
                     "assisted-squat-jump-holding-a-support",
                     "stick-the-landing-bilateral-jump-drop-and-freeze-the-landing",
                     "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
-                    "two-foot-lateral-box-jump"
+                    "two-foot-lateral-jump-onto-box"
                   ],
                   "swap_notes": [
                     {
@@ -10896,7 +10896,7 @@
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -15140,7 +15140,7 @@
                     "assisted-squat-jump-holding-a-support",
                     "stick-the-landing-bilateral-jump-drop-and-freeze-the-landing",
                     "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
-                    "two-foot-lateral-box-jump"
+                    "two-foot-lateral-jump-onto-box"
                   ],
                   "swap_notes": [
                     {
@@ -15159,7 +15159,7 @@
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -19371,15 +19371,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": 2,
                   "reps": {
@@ -23722,15 +23722,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": 2,
                   "reps": {
@@ -28069,15 +28069,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": 2,
                   "reps": {
@@ -32420,15 +32420,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": 2,
                   "reps": {
@@ -36784,15 +36784,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "low-box-jump-half-shin-height",
+                  "name_key": "exercise.low-box-jump-half-shin-height.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
+                    "copy_name": "Low Box Jump (Half-Shin Height)"
                   },
                   "sets": 2,
                   "reps": {
@@ -36842,30 +36842,30 @@
                   ],
                   "swaps": [
                     "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
-                    "low-box-jump-half-shin-height",
                     "two-foot-lateral-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "bilateral-jump-on-to-box-jump-land-softly-on-top"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "low-box-jump-half-shin-height",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump-onto-box",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "bilateral-jump-on-to-box-jump-land-softly-on-top",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     }
                   ],
                   "instead_of": null,
@@ -36874,8 +36874,8 @@
                   ],
                   "why": [
                     {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
+                      "key": "why.default_pick",
+                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.plyo_share",
@@ -38704,7 +38704,7 @@
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
                     "bilateral-lateral-ankle-hops",
                     "ankle-hops-bilateral-in-place",
-                    "jump-rope"
+                    "single-leg-lateral-ankle-hops"
                   ],
                   "swap_notes": [
                     {
@@ -38723,9 +38723,9 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "jump-rope",
+                      "id": "single-leg-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     }
                   ],
                   "instead_of": null,
@@ -41127,15 +41127,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "low-box-jump-half-shin-height",
+                  "name_key": "exercise.low-box-jump-half-shin-height.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
+                    "copy_name": "Low Box Jump (Half-Shin Height)"
                   },
                   "sets": 2,
                   "reps": {
@@ -41185,30 +41185,30 @@
                   ],
                   "swaps": [
                     "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
-                    "low-box-jump-half-shin-height",
                     "two-foot-lateral-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "bilateral-jump-on-to-box-jump-land-softly-on-top"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "low-box-jump-half-shin-height",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump-onto-box",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "bilateral-jump-on-to-box-jump-land-softly-on-top",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     }
                   ],
                   "instead_of": null,
@@ -41217,8 +41217,8 @@
                   ],
                   "why": [
                     {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
+                      "key": "why.default_pick",
+                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.plyo_share",
@@ -43047,7 +43047,7 @@
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
                     "bilateral-lateral-ankle-hops",
                     "ankle-hops-bilateral-in-place",
-                    "jump-rope"
+                    "single-leg-lateral-ankle-hops"
                   ],
                   "swap_notes": [
                     {
@@ -43066,9 +43066,9 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "jump-rope",
+                      "id": "single-leg-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     }
                   ],
                   "instead_of": null,
@@ -45486,15 +45486,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "low-box-jump-half-shin-height",
+                  "name_key": "exercise.low-box-jump-half-shin-height.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
+                    "copy_name": "Low Box Jump (Half-Shin Height)"
                   },
                   "sets": 2,
                   "reps": {
@@ -45544,30 +45544,30 @@
                   ],
                   "swaps": [
                     "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
-                    "low-box-jump-half-shin-height",
                     "two-foot-lateral-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "bilateral-jump-on-to-box-jump-land-softly-on-top"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "low-box-jump-half-shin-height",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump-onto-box",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "bilateral-jump-on-to-box-jump-land-softly-on-top",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     }
                   ],
                   "instead_of": null,
@@ -45576,8 +45576,8 @@
                   ],
                   "why": [
                     {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
+                      "key": "why.default_pick",
+                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.plyo_share",
@@ -47406,7 +47406,7 @@
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
                     "bilateral-lateral-ankle-hops",
                     "ankle-hops-bilateral-in-place",
-                    "jump-rope"
+                    "single-leg-lateral-ankle-hops"
                   ],
                   "swap_notes": [
                     {
@@ -47425,9 +47425,9 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "jump-rope",
+                      "id": "single-leg-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     }
                   ],
                   "instead_of": null,
@@ -49829,15 +49829,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "low-box-jump-half-shin-height",
+                  "name_key": "exercise.low-box-jump-half-shin-height.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
+                    "copy_name": "Low Box Jump (Half-Shin Height)"
                   },
                   "sets": 2,
                   "reps": {
@@ -49887,30 +49887,30 @@
                   ],
                   "swaps": [
                     "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
-                    "low-box-jump-half-shin-height",
                     "two-foot-lateral-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "bilateral-jump-on-to-box-jump-land-softly-on-top"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-hop-on-to-small-amplitude-hop-onto-a-plate-low-box",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "low-box-jump-half-shin-height",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump-onto-box",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "bilateral-jump-on-to-box-jump-land-softly-on-top",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     }
                   ],
                   "instead_of": null,
@@ -49919,8 +49919,8 @@
                   ],
                   "why": [
                     {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
+                      "key": "why.default_pick",
+                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.plyo_share",
@@ -51757,7 +51757,7 @@
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
                     "bilateral-lateral-ankle-hops",
                     "ankle-hops-bilateral-in-place",
-                    "jump-rope"
+                    "single-leg-lateral-ankle-hops"
                   ],
                   "swap_notes": [
                     {
@@ -51776,9 +51776,9 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "jump-rope",
+                      "id": "single-leg-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     }
                   ],
                   "instead_of": null,

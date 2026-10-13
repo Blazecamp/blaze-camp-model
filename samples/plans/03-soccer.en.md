@@ -162,9 +162,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 2 2 | 20-40 s |
 | Copenhagen Plank | 2 2 2 2 2 2 | 10-30 s |
+| Two-Foot Lateral Step Hops (quick, side to side over a low step) | 3 3 3 3 3 3 | 5 contacts |
 | Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) | 3 3 3 3 3 3 | 5 contacts |
-| Ankle Hops (bilateral, in place) | 3 3 3 3 3 3 | 5 contacts |
-| Bilateral Lateral Ankle Hops | 2 2 2 2 2 2 | 10 contacts |
+| Ankle Hops (bilateral, in place) | 2 2 2 2 2 2 | 10 contacts |
 | L-Test / L-Drill (3-Cone) | – 3 3 3 3 – | 3 Reps |
 | Hang Power Clean - from the High Hang (hip crease) | 2 2 2 3 3 2 | 3 to 5 Reps |
 | Seal Row - DB (Supinated Grip) | 3 3 3 3 4 4 | 8 to 12 Reps |
@@ -183,7 +183,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | V-Up | 2 2 2 2 2 2 | 10 to 15 Reps |
 | Falling-Start Accelerations | – 2 2 2 2 – | 4 x 15 m |
 | Two-Foot Lateral Jump (side to side over a line or a low hurdle) | 3 3 3 3 3 3 | 8 contacts |
-| Ankle Hops (bilateral, in place) | 2 2 2 2 2 2 | 9 contacts |
+| Bilateral Forward/Backward Ankle Hops | 2 2 2 2 2 2 | 9 contacts |
 | Medball Alternating Back-to-Wall Rotational Scoops | 2 2 2 2 2 2 | 5 per side |
 | Flat DB Bench Press | 3 3 3 3 4 4 | 8 to 12 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 3 3 3 3 3 3 | 10 to 12 Reps |
@@ -202,7 +202,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Side Plank (elbow) | 2 2 2 2 2 2 | 20-40 s |
 | Leg Raise (lying / supine) | 2 2 2 2 2 2 | 10 to 15 Reps |
 | Max-Velocity Sprint (Top Speed) | 2 2 2 2 2 1 | 3 x 30 m |
-| Two-Foot Lateral Box Jump (sideways onto a low box) | – 3 3 3 3 – | 8 contacts |
+| Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) | – 3 3 3 3 – | 8 contacts |
 | Lateral Shuffles | 3 3 3 3 3 3 | 8 cuts |
 | 5-10-5 Pro-Agility Shuttle | 3 3 3 3 3 3 | 5 Reps |
 | Single-Arm DB Snatch | 2 2 2 2 3 2 | 8/8 |
@@ -265,7 +265,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Knees to Chest (hanging) | 2 2 | 10 to 15 Reps |
 | Falling-Start Accelerations | 2 2 | 5 x 20 m |
 | Two-Foot Lateral Jump (side to side over a line or a low hurdle) | 3 3 | 8 contacts |
-| Bilateral Forward/Backward Ankle Hops | 2 2 | 16 contacts |
+| Bilateral Backward Ankle Hops | 2 2 | 16 contacts |
 | Medball Rotational Downward Slam | 2 2 | 6 per side |
 | Flat DB Bench Press - palms facing each other (neutral grip) | 2 2 | 6 to 8 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 2 2 | 10 to 12 Reps |
@@ -316,7 +316,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Bilateral Lateral Ankle Hops, Ankle Hops (bilateral, in place) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -340,18 +340,19 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
 
 **Jumps, throws and speed**
-1. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Step Hops (quick, side to side over a low step)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - low box (6-12 in)
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)) · Name to copy into YouTube: `Two-Foot Lateral Step Hops (quick, side to side over a low step)`
+2. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Quick, continuous contacts: stay springy on the balls of your feet
+   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Name to copy into YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
-2. **Ankle Hops (bilateral, in place)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound) / Bilateral Lateral Hurdle Hops (keeps the jump; loses the same direction of movement)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-3. **Bilateral Lateral Ankle Hops** — 2 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 
 **Power / Olympic lifts**
 1. **Hang Power Clean - from the High Hang (hip crease)** — 2 × 3 to 5 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -410,12 +411,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Ankle Hops (bilateral, in place) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl, Tate Press · 1 more_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl, Tate Press · 1 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -440,12 +441,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
-2. **Ankle Hops (bilateral, in place)** — 2 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Bilateral Forward/Backward Ankle Hops** — 2 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
 3. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -639,7 +640,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Bilateral Lateral Ankle Hops, Ankle Hops (bilateral, in place) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -657,18 +658,19 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Step Hops (quick, side to side over a low step)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - low box (6-12 in)
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)) · Name to copy into YouTube: `Two-Foot Lateral Step Hops (quick, side to side over a low step)`
+2. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Quick, continuous contacts: stay springy on the balls of your feet
+   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Name to copy into YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
-2. **Ankle Hops (bilateral, in place)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound) / Bilateral Lateral Hurdle Hops (keeps the jump; loses the same direction of movement)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-3. **Bilateral Lateral Ankle Hops** — 2 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 4. **L-Test / L-Drill (3-Cone)** — 3 × 3 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
@@ -728,12 +730,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Ankle Hops (bilateral, in place), Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -756,12 +758,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
 2. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
-3. **Ankle Hops (bilateral, in place)** — 2 × 11 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Forward/Backward Ankle Hops** — 2 × 11 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
 4. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -829,7 +831,7 @@ _You can switch off these blocks today: core, jumps, throws and speed, power / O
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box) · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -850,11 +852,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 35 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 3. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
    - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
@@ -945,7 +947,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Bilateral Lateral Ankle Hops, Ankle Hops (bilateral, in place) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -963,18 +965,19 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Step Hops (quick, side to side over a low step)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - low box (6-12 in)
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)) · Name to copy into YouTube: `Two-Foot Lateral Step Hops (quick, side to side over a low step)`
+2. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 7 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Quick, continuous contacts: stay springy on the balls of your feet
+   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Name to copy into YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
-2. **Ankle Hops (bilateral, in place)** — 3 × 7 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound) / Bilateral Lateral Hurdle Hops (keeps the jump; loses the same direction of movement)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-3. **Bilateral Lateral Ankle Hops** — 2 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
@@ -1034,12 +1037,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Ankle Hops (bilateral, in place), Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1062,12 +1065,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
 2. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
-3. **Ankle Hops (bilateral, in place)** — 2 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Forward/Backward Ankle Hops** — 2 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
 4. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -1135,7 +1138,7 @@ _You can switch off these blocks today: core, jumps, throws and speed, power / O
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box) · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1156,11 +1159,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 35 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 3. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
    - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
@@ -1253,7 +1256,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Bilateral Lateral Ankle Hops, Ankle Hops (bilateral, in place) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1271,18 +1274,19 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 7 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Step Hops (quick, side to side over a low step)** — 3 × 7 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - low box (6-12 in)
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)) · Name to copy into YouTube: `Two-Foot Lateral Step Hops (quick, side to side over a low step)`
+2. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Quick, continuous contacts: stay springy on the balls of your feet
+   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Name to copy into YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
-2. **Ankle Hops (bilateral, in place)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 17 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound) / Bilateral Lateral Hurdle Hops (keeps the jump; loses the same direction of movement)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-3. **Bilateral Lateral Ankle Hops** — 2 × 17 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
@@ -1342,12 +1346,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Average time: about 130-155 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Ankle Hops (bilateral, in place), Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1370,12 +1374,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
 2. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
-3. **Ankle Hops (bilateral, in place)** — 2 × 17 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Forward/Backward Ankle Hops** — 2 × 17 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
 4. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 7 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -1445,7 +1449,7 @@ _You can switch off these blocks today: core, jumps, throws and speed, power / O
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box) · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1466,11 +1470,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 40 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 3. **Lateral Shuffles** — 3 × 10 cuts · max intent; stop when quality drops · full recovery between sets
    - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
@@ -1564,7 +1568,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Bilateral Lateral Ankle Hops, Ankle Hops (bilateral, in place) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1582,18 +1586,19 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
-1. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Step Hops (quick, side to side over a low step)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - low box (6-12 in)
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)) · Name to copy into YouTube: `Two-Foot Lateral Step Hops (quick, side to side over a low step)`
+2. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Quick, continuous contacts: stay springy on the balls of your feet
+   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Name to copy into YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
-2. **Ankle Hops (bilateral, in place)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound) / Bilateral Lateral Hurdle Hops (keeps the jump; loses the same direction of movement)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-3. **Bilateral Lateral Ankle Hops** — 2 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
    - Swap for: Lateral Shuffles (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Hops in Place (foot-speed / reactive hops) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
@@ -1653,12 +1658,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Average time: about 130-160 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Ankle Hops (bilateral, in place), Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1681,12 +1686,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
 2. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
-3. **Ankle Hops (bilateral, in place)** — 2 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Forward/Backward Ankle Hops** — 2 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
 4. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 8 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -1756,7 +1761,7 @@ _You can switch off these blocks today: core, jumps, throws and speed, power / O
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box) · small-muscle accessories: Barbell Calf Raise_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1777,11 +1782,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Max-Velocity Sprint (Top Speed)** — 2 × 3 x 40 m · max intent; stop when quality drops · full recovery between sets
    - Swap for: Falling-Start Accelerations (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Acceleration Starts (keeps the sprint work; loses the exact drill - the same quality, trained another way) / A-Skip (running drill) (keeps the sprint work; loses the exact drill - the same quality, trained another way) / Mach Sprint Drills (A-March / A-Skip / A-Run) (keeps the sprint work; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Name to copy into YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement)
-   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 3. **Lateral Shuffles** — 3 × 12 cuts · max intent; stop when quality drops · full recovery between sets
    - Swap for: L-Test / L-Drill (3-Cone) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Split-Step Reaction Drill (split-step, then shuffle / crossover / drop-step on a cue) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Eight-Square Plyometric Formation (8-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way) / Four-Square Formation (4-box hop grid) (keeps the change of direction; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Name to copy into YouTube: `Lateral Shuffles`
@@ -1878,7 +1883,7 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Bilateral Lateral Ankle Hops, Ankle Hops (bilateral, in place) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1901,18 +1906,19 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
 
 **Jumps, throws and speed**
-1. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Step Hops (quick, side to side over a low step)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - low box (6-12 in)
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Hurdle Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the quick rebound)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)) · Name to copy into YouTube: `Two-Foot Lateral Step Hops (quick, side to side over a low step)`
+2. **Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Quick, continuous contacts: stay springy on the balls of your feet
+   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the exact drill - the same quality, trained another way) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Name to copy into YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
-2. **Ankle Hops (bilateral, in place)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Ankle Hops (bilateral, in place)** — 2 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward Plate Hops (keeps the jump; loses the easier set-up - this one is harder) / Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) (keeps the jump; loses the easier set-up - this one is harder) / Double Bounce - Bilateral (two quick pulses on landing, then go) (keeps the jump; loses the quick rebound) / Bilateral Lateral Hurdle Hops (keeps the jump; loses the same direction of movement)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
-3. **Bilateral Lateral Ankle Hops** — 2 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 
 **Power / Olympic lifts**
 1. **Hang Power Clean - from the High Hang (hip crease)** — 2 × 3 to 5 Reps · move it fast: if the bar slows down or your technique breaks, it is too heavy · 2-3 min rest
@@ -1968,12 +1974,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Average time: about 135-165 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 6 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Ankle Hops (bilateral, in place) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl, Tate Press · 1 more_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl, Tate Press · 1 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1997,12 +2003,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Land and go: stick the landing, then jump again right away; reset between reps
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Squat Jump (high, bodyweight or lightly loaded) (keeps the jump; loses the same direction of movement) / Broad Jump (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
-2. **Ankle Hops (bilateral, in place)** — 2 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+2. **Bilateral Forward/Backward Ankle Hops** — 2 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
 3. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -2202,15 +2208,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Lateral Hurdle Hops** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
-   - Swap for: Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the heavier two-sided load) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the heavier two-sided load) / Single-Leg Plate Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the heavier two-sided load) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the heavier two-sided load)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Hurdle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Hurdle Hops`
 2. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
-   - Swap for: Bilateral Forward Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Plate Hops (keeps the jump; loses the heavier two-sided load) / Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Forward Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Plate Hops (keeps the jump; loses the heavier two-sided load) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Name to copy into YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
 3. **Ankle Hops (bilateral, in place)** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
 4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
@@ -2272,12 +2278,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Knees to Chest (hanging) (about 2.5 min saved)_
-_Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Rotational Downward Slam (about 3 min saved)_
+_Superset to save time: Bilateral Backward Ankle Hops + Medball Rotational Downward Slam (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press - palms facing each other (neutral grip) + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Downward Slam, Bilateral Forward/Backward Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Downward Slam, Bilateral Backward Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2302,10 +2308,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - Swap for: Single-Leg Box Jump (keeps the jump; loses the heavier two-sided load) / Single-Leg Broad Jump (keeps the jump; loses the heavier two-sided load) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the heavier two-sided load) / Lateral Box Step-up Jump (keeps the jump; loses the heavier two-sided load)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
-3. **Bilateral Forward/Backward Ankle Hops** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Backward Ankle Hops** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
+   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Backward Ankle Hops`
 4. **Medball Rotational Downward Slam** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 10 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -2493,15 +2499,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Lateral Hurdle Hops** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
-   - Swap for: Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the heavier two-sided load) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the heavier two-sided load) / Single-Leg Plate Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Forward Zig-Zag Jumps (keeps the jump; loses the heavier two-sided load) / Single-Leg Lateral Plate Hops - Inner/Outer Leg (keeps the jump; loses the heavier two-sided load)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Hurdle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Hurdle Hops`
 2. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Repeat: quick, continuous contacts
-   - Swap for: Bilateral Forward Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Plate Hops (keeps the jump; loses the heavier two-sided load) / Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Forward Hurdle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Plate Hops (keeps the jump; loses the heavier two-sided load) / Bilateral Forward Plate Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Name to copy into YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
 3. **Ankle Hops (bilateral, in place)** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Forward/Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
 4. **L-Test / L-Drill (3-Cone)** — 3 × 4 Reps · max intent; stop when quality drops · full recovery between sets
    - 3 cuts a rep
@@ -2563,12 +2569,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + Knees to Chest (hanging) (about 2.5 min saved)_
-_Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Rotational Downward Slam (about 3 min saved)_
+_Superset to save time: Bilateral Backward Ankle Hops + Medball Rotational Downward Slam (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press - palms facing each other (neutral grip) + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Downward Slam, Bilateral Forward/Backward Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Downward Slam, Bilateral Backward Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 1 more_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2593,10 +2599,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Repeat: do the set in runs of 2-3 big jumps in a row (for 7 jumps: 3 + 2 + 2), resetting your arms between runs; full effort on every jump
    - Swap for: Single-Leg Box Jump (keeps the jump; loses the heavier two-sided load) / Single-Leg Broad Jump (keeps the jump; loses the heavier two-sided load) / Unilateral Hop On To (single-leg hop onto a plate/low box) (keeps the jump; loses the heavier two-sided load) / Lateral Box Step-up Jump (keeps the jump; loses the heavier two-sided load)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
-3. **Bilateral Forward/Backward Ankle Hops** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+3. **Bilateral Backward Ankle Hops** — 2 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Backward Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Forward/Backward Ankle Hops`
+   - Swap for: Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Backward Ankle Hops`
 4. **Medball Rotational Downward Slam** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 10 lb ball
    > No levels: just do them right (quality and intent over load).

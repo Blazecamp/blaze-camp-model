@@ -266,7 +266,9 @@ describe('stage B2: athletic work (RECHECK_v0.3 + R3-ATH-01 .. 05)', { skip: !mo
     const peakW = stairWeeks(p).filter(w => !w.athletic_budget.hold).slice(-1)[0].athletic_budget;
     const short = ['throws', 'cod_cuts', 'sprint_m'].filter(k => peakW.targets[k] > 0 && peakW.planned[k] < SH * peakW.targets[k]);
     if (short.length) assert.ok(p.meta.warnings.some(x => x.key === 'warning.athletic_capacity'));
-    else assert.ok(!p.meta.warnings.some(x => x.key === 'warning.athletic_capacity'), 'a capacity notice with every family above the told share');
+    // (engine 0.7, converted - COACH-R5 R5-GRD-03, DECISIONS G-253: the first block's low two-foot jumps hold about 80 % of the jump
+    // target and the plan says so; no other family is named)
+    else assert.ok(!p.meta.warnings.some(x => x.key === 'warning.athletic_capacity' && x.args.key !== 'athletic.key.jumps'), 'a capacity notice with every family above the told share');
     assert.ok(check(p, 'V27').pass);
   });
   test('R03-upper-plyo-out: push-up plyos are upper-body contacts, outside the lower-body budget and the share', () => {

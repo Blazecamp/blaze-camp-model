@@ -343,7 +343,6 @@ function prep(ctx) {
     E0.overheadKeep = !!IO && (E0.inclineAthlete || (IO.keep_overhead_hotspot_codes || []).some((c) => injuries.has(c)));
     E0.shapeEbs = shape ? (shape.exercise_blocks || []) : [];
     E0.overheadSlot = E0.overheadKeep ? overheadKeeperSlot(layout, E0, exerciseBlock) : null;
-    E0.inclineReturnSlot = E0.overheadKeep && !E0.overheadSlot ? inclineReturnSlot(layout, E0, exerciseBlock) : null;
     const AJ = V7 && V7.assisted_jumps, J = V7 && V7.jumps;
     E0.kneeJump = !!AJ && pain.some((p) => (AJ.pain_areas || []).includes(p.area));
     E0.assistedNow = E0.kneeJump && exerciseBlock <= (AJ.assisted_blocks || 0);
@@ -417,40 +416,21 @@ function overheadKeeperSlot(layout, E, exerciseBlock) {
   const slots = [];
   for (const d of layout.days) {
     if (d.kind !== 'main') continue;
-    for (const x of daySlots(d)) if (x.bucket === 'RP_VPUSH' && isLive(x, E) && !x.circuit && x.block !== 'circuit') slots.push(x.slot_id);
+    for (const x of daySlots(d)) if (x.bucket === 'RP_VPUSH' && x.role !== 'prehab' && isLive(x, E) && !x.circuit && x.block !== 'circuit') slots.push(x.slot_id);
   }
   if (!slots.length) return null;
-  if (slots.length >= 2) return slots[slots.length - 1];
-  // (one such slot a week: the training block's FIRST exercise block takes the overhead press and the later blocks the incline press -
-  // the strength blocks bias the incline press, an earlier block's press never comes back at a later block (R2-LIB-01), and the
-  // chest's credit only grows across the block: an overhead press in the last block took the incline press's chest sets away and the
-  // weekly chest sets fell (H21; G-252). A training block of one exercise block keeps its incline press, and the plan says nothing it
-  // does not do)
-  const tbEbs = E.tb && E.shapeEbs ? E.shapeEbs.filter((e) => e.training_block === E.tb.n) : [];
-  return tbEbs.length >= 2 && exerciseBlock === tbEbs[0].n ? slots[0] : null;
+  // (one such slot a week: the slot keeps its incline press in every block and the week's joint care holds a light overhead press -
+  // engine/week.mjs addPrehab, rules.selection.v7.incline_overhead.one_slot_care. Changing the slot itself between blocks moved the
+  // chest's credit: an overhead last block dropped the weekly chest sets (H21), an overhead first block put them above the printed
+  // schedule (R4-PRG-01); G-252)
+  void exerciseBlock;
+  return slots.length >= 2 ? slots[slots.length - 1] : null;
 }
 
 /** a planned change of the slot (R5-ATH-04) is not a one-detail block change: its flag and why go */
 function dropBlockChange(fill) {
   fill.flags = fill.flags.filter((f) => f !== 'block_change');
   fill.why = fill.why.filter((w) => !(w && w.key === 'why.block_change'));
-}
-
-/**
- * engine 0.7 (G-252): with one vertical / mid-range push slot a week the training block's first exercise block holds the overhead
- * press; the next exercise block's pick of that slot is a planned change back to the incline press (not a one-detail block change of
- * the overhead press, which would keep it overhead for the whole plan). @returns {string|null} slot id
- */
-function inclineReturnSlot(layout, E, exerciseBlock) {
-  if (!layout) return null;
-  const slots = [];
-  for (const d of layout.days) {
-    if (d.kind !== 'main') continue;
-    for (const x of daySlots(d)) if (x.bucket === 'RP_VPUSH' && isLive(x, E) && !x.circuit && x.block !== 'circuit') slots.push(x.slot_id);
-  }
-  if (slots.length !== 1) return null;
-  const tbEbs = E.tb && E.shapeEbs ? E.shapeEbs.filter((e) => e.training_block === E.tb.n) : [];
-  return tbEbs.length >= 2 && exerciseBlock === tbEbs[1].n ? slots[0] : null;
 }
 
 /** engine 0.7 (COACH-R5 R5-GRD-03; rules.selection.v7.jumps): the progression level of a lower-body jump record - 1 two-leg and low,
@@ -1320,6 +1300,8 @@ function v7Score(ex, slot, eb, E, reasons, st) {
     const prevF = E.prev && E.prev.fills ? E.prev.fills[slot.slot_id] : null;
     const hist = (E.history && E.history[slot.slot_id]) || [];
     if (hist.includes(ex.id) && !(prevF && prevF.exercise_id === ex.id)) s += J.return_penalty;
+    // (a station that held this drill below the block's own level moves up its ladder - the stage-1 drill does not reach stage 3; E-99)
+    if (typeof J.stay_low_penalty === 'number' && E.stage && E.stageMoved && typeof E.jumpLean === 'number' && E.jumpLean >= 3 && ((prevF && prevF.exercise_id === ex.id) || hist.includes(ex.id)) && jumpLevel(ex, J) < E.jumpLean) s += J.stay_low_penalty;
   }
   if (typeof E.jumpCap === 'number') {
     const lv = jumpLevel(ex, J);
@@ -1413,7 +1395,7 @@ function inclineVpushDays(layout, E) {
     if (d.kind !== 'main') continue;
     for (const x of daySlots(d)) {
       if (E.chestShoulders && E.chestShoulders.has(x.slot_id)) out.add(d.weekday);
-      else if (IF && x.bucket === IF.bucket && inclineFirstOn(E) && isLive(x, E) && x.slot_id !== E.overheadSlot) out.add(d.weekday);
+      else if (IF && x.bucket === IF.bucket && x.role !== 'prehab' && inclineFirstOn(E) && isLive(x, E) && x.slot_id !== E.overheadSlot) out.add(d.weekday);
     }
   }
   return out;
@@ -2044,6 +2026,8 @@ function decideUpperLaterality(layout, E, locked = new Set(), baseFills = null) 
     if (d.kind !== 'main') continue;
     for (const s of daySlots(d)) {
       if (!UPPER_RP.includes(s.bucket) || s.block === 'circuit' || s.circuit || !isLive(s, E)) continue;
+      // (engine 0.7, G-252: joint care - the shoulder-health overhead press - is not a lifting station the dial turns)
+      if (s.role === 'prehab') continue;
       if (model.bucket(s.bucket).kind !== 'resistance') continue;
       const bf = baseFills[s.slot_id];
       if (!bf || !bf.exercise_id || !model.hasEx(bf.exercise_id) || bf.bucket !== s.bucket) continue;
@@ -2696,16 +2680,6 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     const hotAvoid = (e) => !!E.hot && ([...E.hot.avoid_tags].some((t) => (e.tags || []).includes(t)) || E.hot.avoid_re.some((re) => re.test(e.id)));
     const oh = picks.find((c) => isOH(c.ex) && !hotAvoid(c.ex)) || picks.find((c) => isOH(c.ex));
     if (oh && (!chosen || !isOH(chosen.ex) || chosen.ex.id !== opts.prevId)) { if (chosen && chosen.ex.id !== oh.ex.id) dropBlockChange(fill); chosen = oh; }
-  }
-  // (G-252: the block after a one-slot week's overhead block goes back to the incline press - the 30-45 degree one in a 'Chest /
-  // Shoulders' slot - as a planned change of the slot)
-  if (E.inclineReturnSlot && slot.slot_id === E.inclineReturnSlot && eb === 'RP_VPUSH' && E.V7 && (!chosen || !(chosen.ex.tags || []).includes(R.selection.incline_first.tag))) {
-    const IFr = R.selection.incline_first, CSr = R.selection.x1 && R.selection.x1.chest_shoulders;
-    const csRe = CSr && E.chestShoulders && E.chestShoulders.has(slot.slot_id) ? new RegExp(CSr.incline_re) : null;
-    const incRe = new RegExp(IFr.incline_re || 'incline');
-    const isInc = (c) => (c.ex.tags || []).includes(IFr.tag);
-    const inc = (csRe && picks.find((c) => csRe.test(c.ex.id))) || picks.find((c) => isInc(c) && incRe.test(c.ex.id)) || picks.find(isInc);
-    if (inc) { chosen = inc; dropBlockChange(fill); fill.why.push(why('why.overhead_for_health', 'R5-ATH-04')); }
   }
   if (!chosen && picks.length) chosen = picks[0];
   // fallbacks 10-11: no-ball substitutes, machine isolation swaps, buy list

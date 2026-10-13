@@ -2321,6 +2321,112 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)",
+                    "copy_name": "Two-Foot Lateral Step Hops (quick, side to side over a low step)"
+                  },
+                  "sets": 3,
+                  "reps": {
+                    "type": "contacts",
+                    "value": 5
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.max_intent"
+                  },
+                  "rest": {
+                    "type": "work_rest",
+                    "min": 5,
+                    "max": 10
+                  },
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": {
+                    "unit": "contacts",
+                    "per_set": 5,
+                    "total": 15,
+                    "stage": "RC2",
+                    "quality": "plyometric",
+                    "key": "plyo_contacts",
+                    "response": "repeat"
+                  },
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "note.repeat_low"
+                    }
+                  ],
+                  "swaps": [
+                    "bilateral-lateral-hurdle-hops",
+                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                    "two-foot-lateral-jump"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "bilateral-lateral-hurdle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.rebound"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.plyo_share",
+                      "ref": "R2-ATH-01",
+                      "args": {
+                        "pct": 53
+                      }
+                    },
+                    {
+                      "key": "why.plyo_stage",
+                      "ref": "R2-ATH-03",
+                      "args": {
+                        "stage": "RC2"
+                      }
+                    },
+                    {
+                      "key": "why.athletic_reconcile",
+                      "ref": "D-63"
+                    }
+                  ],
+                  "superset_suggested": null
+                },
+                {
+                  "slot_id": "Mon.S1.s06",
+                  "station_id": "S1.s06",
+                  "bucket": "AP_PLYO",
+                  "role": "athletic",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
                   "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
                   "detail": null,
@@ -2372,144 +2478,25 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-lateral-hurdle-hops",
-                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "two-foot-lateral-jump",
-                    "bilateral-forward-plate-hops"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "two-foot-lateral-jump",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-forward-plate-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.plyo_share",
-                      "ref": "R2-ATH-01",
-                      "args": {
-                        "pct": 53
-                      }
-                    },
-                    {
-                      "key": "why.plyo_stage",
-                      "ref": "R2-ATH-03",
-                      "args": {
-                        "stage": "RC2"
-                      }
-                    },
-                    {
-                      "key": "why.athletic_reconcile",
-                      "ref": "D-63"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Mon.S1.s06",
-                  "station_id": "S1.s06",
-                  "bucket": "AP_PLYO",
-                  "role": "athletic",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "contacts",
-                    "value": 5
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.max_intent"
-                  },
-                  "rest": {
-                    "type": "work_rest",
-                    "min": 5,
-                    "max": 10
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {},
-                  "athletic": {
-                    "unit": "contacts",
-                    "per_set": 5,
-                    "total": 15,
-                    "stage": "RC2",
-                    "quality": "plyometric",
-                    "key": "plyo_contacts",
-                    "response": "repeat"
-                  },
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.repeat_low"
-                    }
-                  ],
-                  "swaps": [
                     "bilateral-forward-plate-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
-                    "bilateral-lateral-hurdle-hops"
+                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-forward-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -2551,15 +2538,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "ankle-hops-bilateral-in-place",
+                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -2602,16 +2589,21 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
                     "bilateral-forward-backward-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-backward-ankle-hops",
-                    "bilateral-zig-zag-ankle-hops"
+                    "bilateral-backward-ankle-hops"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "bilateral-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "bilateral-forward-backward-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
@@ -2620,11 +2612,6 @@
                     },
                     {
                       "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -4476,14 +4463,14 @@
                     }
                   ],
                   "swaps": [
-                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "squat-jump-high-bodyweight-or-lightly-loaded",
                     "broad-jump",
                     "low-box-jump-half-shin-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -4538,15 +4525,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-forward-backward-ankle-hops",
+                  "name_key": "exercise.bilateral-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Bilateral Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -4589,14 +4576,14 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-forward-backward-ankle-hops",
+                    "ankle-hops-bilateral-in-place",
                     "bilateral-backward-ankle-hops",
                     "bilateral-lateral-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "ankle-hops-bilateral-in-place",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -9182,15 +9169,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
-                  "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)",
-                    "copy_name": "Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)",
+                    "copy_name": "Two-Foot Lateral Step Hops (quick, side to side over a low step)"
                   },
                   "sets": 3,
                   "reps": {
@@ -9207,7 +9194,10 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": null,
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "bilateral",
@@ -9235,38 +9225,28 @@
                   "swaps": [
                     "bilateral-lateral-hurdle-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "two-foot-lateral-jump",
-                    "bilateral-forward-plate-hops"
+                    "two-foot-lateral-jump"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-lateral-hurdle-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
                       "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-forward-plate-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -9295,15 +9275,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
+                  "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)",
+                    "copy_name": "Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)"
                   },
                   "sets": 3,
                   "reps": {
@@ -9348,29 +9328,23 @@
                   "swaps": [
                     "bilateral-forward-plate-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
-                    "bilateral-lateral-hurdle-hops"
+                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-forward-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -9412,15 +9386,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "ankle-hops-bilateral-in-place",
+                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -9463,16 +9437,21 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
                     "bilateral-forward-backward-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-backward-ankle-hops",
-                    "bilateral-zig-zag-ankle-hops"
+                    "bilateral-backward-ankle-hops"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "bilateral-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "bilateral-forward-backward-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
@@ -9481,11 +9460,6 @@
                     },
                     {
                       "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -11459,14 +11433,14 @@
                     }
                   ],
                   "swaps": [
-                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "squat-jump-high-bodyweight-or-lightly-loaded",
                     "broad-jump",
                     "low-box-jump-half-shin-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -11521,15 +11495,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-forward-backward-ankle-hops",
+                  "name_key": "exercise.bilateral-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Bilateral Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -11572,14 +11546,14 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-forward-backward-ankle-hops",
+                    "ankle-hops-bilateral-in-place",
                     "bilateral-backward-ankle-hops",
                     "bilateral-lateral-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "ankle-hops-bilateral-in-place",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -13710,15 +13684,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": 3,
                   "reps": {
@@ -16152,15 +16126,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
-                  "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)",
-                    "copy_name": "Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)",
+                    "copy_name": "Two-Foot Lateral Step Hops (quick, side to side over a low step)"
                   },
                   "sets": 3,
                   "reps": {
@@ -16177,7 +16151,10 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": null,
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "bilateral",
@@ -16205,38 +16182,28 @@
                   "swaps": [
                     "bilateral-lateral-hurdle-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "two-foot-lateral-jump",
-                    "bilateral-forward-plate-hops"
+                    "two-foot-lateral-jump"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-lateral-hurdle-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
                       "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-forward-plate-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -16265,15 +16232,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
+                  "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)",
+                    "copy_name": "Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)"
                   },
                   "sets": 3,
                   "reps": {
@@ -16318,29 +16285,23 @@
                   "swaps": [
                     "bilateral-forward-plate-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
-                    "bilateral-lateral-hurdle-hops"
+                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-forward-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -16382,15 +16343,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "ankle-hops-bilateral-in-place",
+                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -16433,16 +16394,21 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
                     "bilateral-forward-backward-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-backward-ankle-hops",
-                    "bilateral-zig-zag-ankle-hops"
+                    "bilateral-backward-ankle-hops"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "bilateral-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "bilateral-forward-backward-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
@@ -16451,11 +16417,6 @@
                     },
                     {
                       "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -18429,14 +18390,14 @@
                     }
                   ],
                   "swaps": [
-                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "squat-jump-high-bodyweight-or-lightly-loaded",
                     "broad-jump",
                     "low-box-jump-half-shin-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -18491,15 +18452,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-forward-backward-ankle-hops",
+                  "name_key": "exercise.bilateral-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Bilateral Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -18542,14 +18503,14 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-forward-backward-ankle-hops",
+                    "ankle-hops-bilateral-in-place",
                     "bilateral-backward-ankle-hops",
                     "bilateral-lateral-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "ankle-hops-bilateral-in-place",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -20680,15 +20641,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": 3,
                   "reps": {
@@ -23139,15 +23100,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
-                  "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)",
-                    "copy_name": "Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)",
+                    "copy_name": "Two-Foot Lateral Step Hops (quick, side to side over a low step)"
                   },
                   "sets": 3,
                   "reps": {
@@ -23164,7 +23125,10 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": null,
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "bilateral",
@@ -23192,38 +23156,28 @@
                   "swaps": [
                     "bilateral-lateral-hurdle-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "two-foot-lateral-jump",
-                    "bilateral-forward-plate-hops"
+                    "two-foot-lateral-jump"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-lateral-hurdle-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
                       "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-forward-plate-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -23252,15 +23206,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
+                  "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)",
+                    "copy_name": "Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)"
                   },
                   "sets": 3,
                   "reps": {
@@ -23305,29 +23259,23 @@
                   "swaps": [
                     "bilateral-forward-plate-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
-                    "bilateral-lateral-hurdle-hops"
+                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-forward-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -23369,15 +23317,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "ankle-hops-bilateral-in-place",
+                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -23420,16 +23368,21 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
                     "bilateral-forward-backward-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-backward-ankle-hops",
-                    "bilateral-zig-zag-ankle-hops"
+                    "bilateral-backward-ankle-hops"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "bilateral-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "bilateral-forward-backward-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
@@ -23438,11 +23391,6 @@
                     },
                     {
                       "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -25418,14 +25366,14 @@
                     }
                   ],
                   "swaps": [
-                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "squat-jump-high-bodyweight-or-lightly-loaded",
                     "broad-jump",
                     "low-box-jump-half-shin-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -25480,15 +25428,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-forward-backward-ankle-hops",
+                  "name_key": "exercise.bilateral-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Bilateral Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -25531,14 +25479,14 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-forward-backward-ankle-hops",
+                    "ankle-hops-bilateral-in-place",
                     "bilateral-backward-ankle-hops",
                     "bilateral-lateral-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "ankle-hops-bilateral-in-place",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -27698,15 +27646,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": 3,
                   "reps": {
@@ -30181,6 +30129,112 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)",
+                    "copy_name": "Two-Foot Lateral Step Hops (quick, side to side over a low step)"
+                  },
+                  "sets": 3,
+                  "reps": {
+                    "type": "contacts",
+                    "value": 8
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.max_intent"
+                  },
+                  "rest": {
+                    "type": "work_rest",
+                    "min": 5,
+                    "max": 10
+                  },
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": {
+                    "unit": "contacts",
+                    "per_set": 8,
+                    "total": 24,
+                    "stage": "RC2",
+                    "quality": "plyometric",
+                    "key": "plyo_contacts",
+                    "response": "repeat"
+                  },
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "note.repeat_low"
+                    }
+                  ],
+                  "swaps": [
+                    "bilateral-lateral-hurdle-hops",
+                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                    "two-foot-lateral-jump"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "bilateral-lateral-hurdle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.rebound"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.plyo_share",
+                      "ref": "R2-ATH-01",
+                      "args": {
+                        "pct": 53
+                      }
+                    },
+                    {
+                      "key": "why.plyo_stage",
+                      "ref": "R2-ATH-03",
+                      "args": {
+                        "stage": "RC2"
+                      }
+                    },
+                    {
+                      "key": "why.athletic_reconcile",
+                      "ref": "D-63"
+                    }
+                  ],
+                  "superset_suggested": null
+                },
+                {
+                  "slot_id": "Mon.S1.s06",
+                  "station_id": "S1.s06",
+                  "bucket": "AP_PLYO",
+                  "role": "athletic",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
                   "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
                   "detail": null,
@@ -30232,144 +30286,25 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-lateral-hurdle-hops",
-                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "two-foot-lateral-jump",
-                    "bilateral-forward-plate-hops"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "two-foot-lateral-jump",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-forward-plate-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.plyo_share",
-                      "ref": "R2-ATH-01",
-                      "args": {
-                        "pct": 53
-                      }
-                    },
-                    {
-                      "key": "why.plyo_stage",
-                      "ref": "R2-ATH-03",
-                      "args": {
-                        "stage": "RC2"
-                      }
-                    },
-                    {
-                      "key": "why.athletic_reconcile",
-                      "ref": "D-63"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Mon.S1.s06",
-                  "station_id": "S1.s06",
-                  "bucket": "AP_PLYO",
-                  "role": "athletic",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "contacts",
-                    "value": 8
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.max_intent"
-                  },
-                  "rest": {
-                    "type": "work_rest",
-                    "min": 5,
-                    "max": 10
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {},
-                  "athletic": {
-                    "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
-                    "stage": "RC2",
-                    "quality": "plyometric",
-                    "key": "plyo_contacts",
-                    "response": "repeat"
-                  },
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.repeat_low"
-                    }
-                  ],
-                  "swaps": [
                     "bilateral-forward-plate-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
-                    "bilateral-lateral-hurdle-hops"
+                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-forward-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -30411,15 +30346,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "ankle-hops-bilateral-in-place",
+                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -30462,16 +30397,21 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
                     "bilateral-forward-backward-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-backward-ankle-hops",
-                    "bilateral-zig-zag-ankle-hops"
+                    "bilateral-backward-ankle-hops"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "bilateral-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "bilateral-forward-backward-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
@@ -30480,11 +30420,6 @@
                     },
                     {
                       "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -32460,14 +32395,14 @@
                     }
                   ],
                   "swaps": [
-                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "squat-jump-high-bodyweight-or-lightly-loaded",
                     "broad-jump",
                     "low-box-jump-half-shin-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -32522,15 +32457,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-forward-backward-ankle-hops",
+                  "name_key": "exercise.bilateral-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Bilateral Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -32573,14 +32508,14 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-forward-backward-ankle-hops",
+                    "ankle-hops-bilateral-in-place",
                     "bilateral-backward-ankle-hops",
                     "bilateral-lateral-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "ankle-hops-bilateral-in-place",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -34740,15 +34675,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "two-foot-lateral-box-jump",
-                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "exercise_id": "two-foot-lateral-jump-onto-box",
+                  "name_key": "exercise.two-foot-lateral-jump-onto-box.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
-                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)"
                   },
                   "sets": 3,
                   "reps": {
@@ -37317,6 +37252,112 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Step%20Hops%20(quick%2C%20side%20to%20side%20over%20a%20low%20step)",
+                    "copy_name": "Two-Foot Lateral Step Hops (quick, side to side over a low step)"
+                  },
+                  "sets": 3,
+                  "reps": {
+                    "type": "contacts",
+                    "value": 5
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.max_intent"
+                  },
+                  "rest": {
+                    "type": "work_rest",
+                    "min": 5,
+                    "max": 10
+                  },
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": {
+                    "unit": "contacts",
+                    "per_set": 5,
+                    "total": 15,
+                    "stage": "RC2",
+                    "quality": "plyometric",
+                    "key": "plyo_contacts",
+                    "response": "repeat"
+                  },
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "note.repeat_low"
+                    }
+                  ],
+                  "swaps": [
+                    "bilateral-lateral-hurdle-hops",
+                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                    "two-foot-lateral-jump"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "bilateral-lateral-hurdle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.rebound"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.plyo_share",
+                      "ref": "R2-ATH-01",
+                      "args": {
+                        "pct": 53
+                      }
+                    },
+                    {
+                      "key": "why.plyo_stage",
+                      "ref": "R2-ATH-03",
+                      "args": {
+                        "stage": "RC2"
+                      }
+                    },
+                    {
+                      "key": "why.athletic_reconcile",
+                      "ref": "D-63"
+                    }
+                  ],
+                  "superset_suggested": null
+                },
+                {
+                  "slot_id": "Mon.S1.s06",
+                  "station_id": "S1.s06",
+                  "bucket": "AP_PLYO",
+                  "role": "athletic",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
                   "name_key": "exercise.bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat.name",
                   "detail": null,
@@ -37368,144 +37409,25 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-lateral-hurdle-hops",
-                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "two-foot-lateral-jump",
-                    "bilateral-forward-plate-hops"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "two-foot-lateral-jump",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-forward-plate-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.plyo_share",
-                      "ref": "R2-ATH-01",
-                      "args": {
-                        "pct": 53
-                      }
-                    },
-                    {
-                      "key": "why.plyo_stage",
-                      "ref": "R2-ATH-03",
-                      "args": {
-                        "stage": "RC2"
-                      }
-                    },
-                    {
-                      "key": "why.athletic_reconcile",
-                      "ref": "D-63"
-                    }
-                  ],
-                  "superset_suggested": null
-                },
-                {
-                  "slot_id": "Mon.S1.s06",
-                  "station_id": "S1.s06",
-                  "bucket": "AP_PLYO",
-                  "role": "athletic",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
-                  },
-                  "sets": 3,
-                  "reps": {
-                    "type": "contacts",
-                    "value": 5
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.max_intent"
-                  },
-                  "rest": {
-                    "type": "work_rest",
-                    "min": 5,
-                    "max": 10
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {},
-                  "athletic": {
-                    "unit": "contacts",
-                    "per_set": 5,
-                    "total": 15,
-                    "stage": "RC2",
-                    "quality": "plyometric",
-                    "key": "plyo_contacts",
-                    "response": "repeat"
-                  },
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.repeat_low"
-                    }
-                  ],
-                  "swaps": [
                     "bilateral-forward-plate-hops",
                     "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
-                    "bilateral-lateral-hurdle-hops"
+                    "double-bounce-bilateral-two-quick-pulses-on-landing-then-go"
                   ],
                   "swap_notes": [
                     {
                       "id": "bilateral-forward-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "double-bounce-bilateral-two-quick-pulses-on-landing-then-go",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.rebound"
-                    },
-                    {
-                      "id": "bilateral-lateral-hurdle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -37547,15 +37469,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "ankle-hops-bilateral-in-place",
+                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
+                    "copy_name": "Ankle Hops (bilateral, in place)"
                   },
                   "sets": 2,
                   "reps": {
@@ -37598,16 +37520,21 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
                     "bilateral-forward-backward-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-backward-ankle-hops",
-                    "bilateral-zig-zag-ankle-hops"
+                    "bilateral-backward-ankle-hops"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "bilateral-lateral-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "bilateral-forward-backward-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
@@ -37616,11 +37543,6 @@
                     },
                     {
                       "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -39452,14 +39374,14 @@
                     }
                   ],
                   "swaps": [
-                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump-onto-box",
                     "squat-jump-high-bodyweight-or-lightly-loaded",
                     "broad-jump",
                     "low-box-jump-half-shin-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "two-foot-lateral-box-jump",
+                      "id": "two-foot-lateral-jump-onto-box",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -39514,15 +39436,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "ankle-hops-bilateral-in-place",
-                  "name_key": "exercise.ankle-hops-bilateral-in-place.name",
+                  "exercise_id": "bilateral-forward-backward-ankle-hops",
+                  "name_key": "exercise.bilateral-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)",
-                    "copy_name": "Ankle Hops (bilateral, in place)"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Bilateral Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -39565,14 +39487,14 @@
                     }
                   ],
                   "swaps": [
-                    "bilateral-forward-backward-ankle-hops",
+                    "ankle-hops-bilateral-in-place",
                     "bilateral-backward-ankle-hops",
                     "bilateral-lateral-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bilateral-forward-backward-ankle-hops",
+                      "id": "ankle-hops-bilateral-in-place",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -44178,11 +44100,16 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
                     "single-leg-forward-zig-zag-jumps",
-                    "single-leg-lateral-plate-hops-inner-outer-leg",
-                    "single-leg-plate-hops"
+                    "single-leg-lateral-plate-hops-inner-outer-leg"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
                     {
                       "id": "single-leg-forward-zig-zag-jumps",
                       "keeps": "swap.keeps.jump",
@@ -44190,11 +44117,6 @@
                     },
                     {
                       "id": "single-leg-lateral-plate-hops-inner-outer-leg",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
-                    },
-                    {
-                      "id": "single-leg-plate-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.two_side_load"
                     }
@@ -44287,7 +44209,6 @@
                   "swaps": [
                     "bilateral-forward-hurdle-hops",
                     "single-leg-plate-hops",
-                    "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
                     "bilateral-forward-plate-hops"
                   ],
                   "swap_notes": [
@@ -44300,11 +44221,6 @@
                       "id": "single-leg-plate-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.two_side_load"
-                    },
-                    {
-                      "id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-forward-plate-hops",
@@ -44402,12 +44318,17 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
                     "bilateral-forward-backward-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-backward-ankle-hops",
-                    "bilateral-zig-zag-ankle-hops"
+                    "bilateral-backward-ankle-hops"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "bilateral-lateral-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
+                    },
                     {
                       "id": "bilateral-forward-backward-ankle-hops",
                       "keeps": "swap.keeps.jump",
@@ -44420,11 +44341,6 @@
                     },
                     {
                       "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -44441,6 +44357,10 @@
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.plyo_stage",
@@ -46542,15 +46462,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-forward-backward-ankle-hops",
-                  "name_key": "exercise.bilateral-forward-backward-ankle-hops.name",
+                  "exercise_id": "bilateral-backward-ankle-hops",
+                  "name_key": "exercise.bilateral-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops",
-                    "copy_name": "Bilateral Forward/Backward Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops",
+                    "copy_name": "Bilateral Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -46594,18 +46514,13 @@
                   ],
                   "swaps": [
                     "ankle-hops-bilateral-in-place",
-                    "bilateral-backward-ankle-hops",
                     "bilateral-lateral-ankle-hops",
-                    "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward"
+                    "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
+                    "bilateral-zig-zag-ankle-hops"
                   ],
                   "swap_notes": [
                     {
                       "id": "ankle-hops-bilateral-in-place",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-backward-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -46616,6 +46531,11 @@
                     },
                     {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -51000,11 +50920,16 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
                     "single-leg-forward-zig-zag-jumps",
-                    "single-leg-lateral-plate-hops-inner-outer-leg",
-                    "single-leg-plate-hops"
+                    "single-leg-lateral-plate-hops-inner-outer-leg"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
                     {
                       "id": "single-leg-forward-zig-zag-jumps",
                       "keeps": "swap.keeps.jump",
@@ -51012,11 +50937,6 @@
                     },
                     {
                       "id": "single-leg-lateral-plate-hops-inner-outer-leg",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
-                    },
-                    {
-                      "id": "single-leg-plate-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.two_side_load"
                     }
@@ -51109,7 +51029,6 @@
                   "swaps": [
                     "bilateral-forward-hurdle-hops",
                     "single-leg-plate-hops",
-                    "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
                     "bilateral-forward-plate-hops"
                   ],
                   "swap_notes": [
@@ -51122,11 +51041,6 @@
                       "id": "single-leg-plate-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.two_side_load"
-                    },
-                    {
-                      "id": "bilateral-lateral-plate-hops-forward-on-sideways-off-and-on-forward-down-repeat",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "bilateral-forward-plate-hops",
@@ -51224,12 +51138,17 @@
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
                     "bilateral-forward-backward-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-backward-ankle-hops",
-                    "bilateral-zig-zag-ankle-hops"
+                    "bilateral-backward-ankle-hops"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "bilateral-lateral-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
+                    },
                     {
                       "id": "bilateral-forward-backward-ankle-hops",
                       "keeps": "swap.keeps.jump",
@@ -51242,11 +51161,6 @@
                     },
                     {
                       "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -51263,6 +51177,10 @@
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.plyo_stage",
@@ -53364,15 +53282,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-forward-backward-ankle-hops",
-                  "name_key": "exercise.bilateral-forward-backward-ankle-hops.name",
+                  "exercise_id": "bilateral-backward-ankle-hops",
+                  "name_key": "exercise.bilateral-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops",
-                    "copy_name": "Bilateral Forward/Backward Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops",
+                    "copy_name": "Bilateral Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
@@ -53416,18 +53334,13 @@
                   ],
                   "swaps": [
                     "ankle-hops-bilateral-in-place",
-                    "bilateral-backward-ankle-hops",
                     "bilateral-lateral-ankle-hops",
-                    "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward"
+                    "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
+                    "bilateral-zig-zag-ankle-hops"
                   ],
                   "swap_notes": [
                     {
                       "id": "ankle-hops-bilateral-in-place",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-backward-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
@@ -53438,6 +53351,11 @@
                     },
                     {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "bilateral-zig-zag-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
