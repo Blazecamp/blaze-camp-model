@@ -1,0 +1,25 @@
+{
+  "answers": {
+    "role": "client",
+    "health_route": "coach_screen",
+    "age": 34,
+    "weight": 150,
+    "unit": "lb",
+    "years": 1,
+    "goal": "fat_loss",
+    "format": "gym",
+    "days": 3,
+    "weekdays": [
+      "Mon",
+      "Wed",
+      "Fri"
+    ],
+    "equipment": "FULL_GYM",
+    "weeks": 12,
+    "pain": [],
+    "health": "none",
+    "accepted": true
+  },
+  "lang": "es",
+  "format": "md"
+}

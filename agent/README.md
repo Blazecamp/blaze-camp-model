@@ -4,6 +4,10 @@ Let an AI agent (Claude Desktop, Claude Code, Claude in Chrome, ChatGPT, or any 
 questions, build the plan and hand back a PDF and Markdown, in English or Spanish, for any brand. How the agent should talk to
 the person is in [AGENT_PLAYBOOK.md](../AGENT_PLAYBOOK.md). Node 22, no npm dependencies, nothing stored or logged.
 
+**Giving one brand's API to an agent?** Hand it that brand's pack: [packs/blazecamp/](packs/blazecamp/) or
+[packs/sonhabitos/](packs/sonhabitos/). Its `AGENTS.md` is all the agent needs: the brand's API, the legal links and the
+coach's two-message flow (CH7-10). `node agent/packs.mjs` rebuilds every pack; a new brand gets one automatically.
+
 Everything uses the same code as the web tool: the wizard's answers (`app/intake-builder.js`), the engine, the model, the brand
 (`app/brands/<id>.js` with `tools/brand-legal.mjs > brandModelRaw`, the same function the site build uses), the PDF (`app/pdf.js`
 with the vendored jsPDF, run in Node) and the prefilled link (`app/prefill.js`). A plan built here is the plan the web tool builds.

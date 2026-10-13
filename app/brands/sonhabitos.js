@@ -10,6 +10,9 @@ export const BRAND = {
   short: 'SON HÁBITOS',
   site_url: 'https://son-habitos.vercel.app',                    // its public site (https://...): agent links and its disclaimer pages; null = pass --site / SITE_URL
   lang_default: 'es',
+  // agent/packs.mjs: the agent pack's words for this brand (agent/packs/<id>/); Son Hábitos credit only (CH7-02, CH7-06)
+  agent: { credit: { en: 'Son Hábitos · Nati Vera · BFit Studios Corp.', es: 'Son Hábitos · Nati Vera · BFit Studios Corp.' },
+    client: { en: 'the client', es: 'la clienta' }, coach: { en: 'the coach', es: 'la coach' } },
   follow_browser_lang: false,          // no saved choice: always Spanish first (the EN | ES toggle stays)
   storage_key: 'sh.lang',
   meta: {

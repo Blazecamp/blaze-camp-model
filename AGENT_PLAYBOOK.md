@@ -5,6 +5,10 @@ For any AI agent (Claude, ChatGPT, others) that builds a training plan from the 
 
 The model is the work of Coach Lalo (Gerardo Vera), Master NASM coach. Plans are general fitness information, not medical advice.
 
+**Start here: your brand's pack.** Each brand has a ready-made pack in [agent/packs/](agent/packs/) (`blazecamp/`, `sonhabitos/`,
+and one for every future brand): `AGENTS.md` with the brand's API, legal links and this flow, the questions in English and
+Spanish, an example body and `check.sh`. An agent given one brand's API reads that brand's `AGENTS.md` and follows it.
+
 ## The rules
 
 * **Ask only the tool's questions.** Never ask sex, gender, sleep, stress, job, lifestyle or energy. Never ask how long a session
@@ -27,13 +31,18 @@ The model is the work of Coach Lalo (Gerardo Vera), Master NASM coach. Plans are
 
 1. **Get the questions.** Use `get_questions` (MCP), `node tools/plan.mjs --questions --lang en|es` (shell), or
    `GET /api/questions?lang=` (HTTP). Ask in the person's language. English and Spanish are both complete.
-2. **Ask the questions in order, one or two at a time.** Offer the choices by their labels. Skip a question whose `when` does not
-   hold. Leave the defaults for anything the person does not care about. The questions are:
-   who the plan is for, then age, body weight and years of training, then the goal and its details (sport and position,
-   activity, Focus muscles, or gym or bootcamp), then days per week, weekdays and where they train, then any options (plan
-   length, start date, tests, extra equipment), then pain, then the 5 health questions.
-3. **Confirm a short summary** of the answers in a few lines, and let the person change anything.
-4. **Show the release and get acceptance.** Show the release text for their case from the questions (`release.versions`):
+2. **Message 1: ask ALL the questions together** (the coach's rule, CH7-10), not one by one. Give each one its proposed
+   answer already filled in (the default, or what you already know about the person: age, weight, whether they are new; 3 days
+   by default), so the person only corrects what is wrong. Offer the choices by their labels. Skip a question whose `when` does
+   not hold; what is not asked keeps its default. The order: who the plan is for (and, for a client, the health check now or
+   skipped because the coach screens with their own process), then age, body weight, units and years of training, then the
+   goal and its details (sport and position, activity, Focus muscles, or gym or bootcamp), then days per week and weekdays,
+   then where they train, then options (split, supersets, plan length, start date, tests, extra equipment), then pain, then
+   the 5 health questions.
+3. **Message 2: the release, with its links,** plus a one-line summary of the answers. Always send the brand's legal links
+   with it (the Spanish and English disclaimer pages and the PAR-Q, in the brand's pack), so a coach can forward them to the
+   client as they are and the client confirms by text.
+4. **Get acceptance.** Show the release text for their case from the questions (`release.versions`), word for word:
    * `release.client` when the person builds their own plan;
    * `release.coach` when a coach builds for a client (the coach accepts);
    * `release.minor` as well when the athlete is under 18 (a parent or legal guardian accepts; then send `guardian: true`).
@@ -44,8 +53,10 @@ The model is the work of Coach Lalo (Gerardo Vera), Master NASM coach. Plans are
 5. **Build.** `build_plan` with the answers (MCP), `node tools/plan.mjs --answers answers.json --lang es` (shell), or
    `POST /api/plan` (HTTP). If the result says answers are missing, ask those and build again. If it says the intake is
    invalid, read the errors to the person in plain words and ask again.
-6. **Give the plan back.** Offer the PDF (and the Markdown) the tool wrote, a short summary (program, days, weeks, start date)
-   and the health warning if there is one. Say once that it is general fitness information, not medical advice.
+6. **Deliver in ONE message:** a 3-5 line summary (goal, days, weeks, start date, and the health warning if there is one), the
+   PDF attached (every exercise has its ▶ that opens YouTube; over HTTP, build again with `"format": "pdf"`), and the link
+   (opens the plan in the web tool to edit it or download the PDF again). Do not send the plan as text. Say once that it is
+   general fitness information, not medical advice, and that it does not prevent injuries.
 7. **Offer edits.** Everything is editable: sets on any day or week, adding or removing an exercise, switching a block (for
    example the core block) off or on, swapping an exercise, and linking two or more exercises into the person's own superset
    (`link_exercises`; `unlink_exercises` takes one out). Use `plan_slots` to find the exercise, `search_exercises` to add one,

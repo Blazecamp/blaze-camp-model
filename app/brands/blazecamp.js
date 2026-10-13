@@ -10,6 +10,9 @@ export const BRAND = {
   site_url: 'https://blaze-camp-model.vercel.app',                    // the brand's public site (https://...), for agents' prefilled links and the release link;
                                        // null = unknown: pass --site / env SITE_URL (agent/README.md). The web page never reads it.
   lang_default: 'en',
+  // agent/packs.mjs: the agent pack's words for this brand (agent/packs/<id>/); credit as the coach gave it (R5-PUB-02)
+  agent: { credit: { en: 'Model by Coach Lalo (Gerardo Vera), Master NASM coach. Blaze Camp · BFit Studios Corp.', es: 'Modelo del Coach Lalo (Gerardo Vera), Master NASM coach. Blaze Camp · BFit Studios Corp.' },
+    client: { en: 'the client', es: 'el cliente' }, coach: { en: 'the coach', es: 'el coach' } },
   follow_browser_lang: true,           // no saved choice: Spanish when the browser is Spanish, else English
   storage_key: 'bc.lang',              // the only thing the app keeps (the language choice; R3-GEN-01)
   meta: {

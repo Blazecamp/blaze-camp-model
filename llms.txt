@@ -111,3 +111,5 @@ Authority order when sources disagree: coach_answers_round5.md with coach_answer
 - [dumps/](dumps/): every tab of his two workbooks as text (OBSERVED source; raw .xlsx in raw/)
 - [synthesis/08_open_questions_for_coach.md](synthesis/08_open_questions_for_coach.md): completeness review and questions that led to the questionnaires
 - [synthesis/10b_equipment_variables_science.md](synthesis/10b_equipment_variables_science.md): science behind equipment and variable choices
+- [Agent pack: Blaze Camp](agent/packs/blazecamp/AGENTS.md): how an agent builds a Blaze Camp plan through the API
+- [Agent pack: Son Hábitos](agent/packs/sonhabitos/AGENTS.md): cómo un agente arma un plan de Son Hábitos con la API
