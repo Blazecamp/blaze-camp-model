@@ -7,7 +7,7 @@ export const BRAND = {
   id: 'blazecamp',
   name: 'Blaze Camp',
   short: 'BLAZE CAMP',
-  site_url: null,                      // the brand's public site (https://...), for agents' prefilled links and the release link;
+  site_url: 'https://blaze-camp-model.vercel.app',                    // the brand's public site (https://...), for agents' prefilled links and the release link;
                                        // null = unknown: pass --site / env SITE_URL (agent/README.md). The web page never reads it.
   lang_default: 'en',
   follow_browser_lang: true,           // no saved choice: Spanish when the browser is Spanish, else English

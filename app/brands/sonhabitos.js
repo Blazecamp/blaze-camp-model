@@ -8,7 +8,7 @@ export const BRAND = {
   id: 'sonhabitos',
   name: 'Son Hábitos',
   short: 'SON HÁBITOS',
-  site_url: null,                      // its public site (https://...): agent links and its disclaimer pages; null = pass --site / SITE_URL
+  site_url: 'https://son-habitos.vercel.app',                    // its public site (https://...): agent links and its disclaimer pages; null = pass --site / SITE_URL
   lang_default: 'es',
   follow_browser_lang: false,          // no saved choice: always Spanish first (the EN | ES toggle stays)
   storage_key: 'sh.lang',

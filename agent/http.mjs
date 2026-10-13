@@ -1,7 +1,7 @@
 // agent/http.mjs - the HTTP API of the plan builder, for agents that call web services (a ChatGPT custom GPT Action, scripts).
 // Served by the same Vercel deployment as the web tool (api/plan.mjs, api/questions.mjs, api/openapi.mjs), so every brand's
 // project has it: the brand comes from the deployment's env BRAND (default blazecamp), the site address from env SITE_URL, else
-// the brand file's site_url, else the request's own host (the same deployment serves the web tool and its disclaimer pages).
+// the request's own host, else the brand file's site_url (the same deployment serves the web tool and its disclaimer pages).
 //
 //   GET  /api/questions?lang=en|es        the questions to ask (agent/questions.mjs), the health questions and the release texts
 //   POST /api/plan                         {answers | intake, lang?, format?: 'json'|'md'|'pdf', view?, weeks?}
@@ -43,10 +43,10 @@ async function readBody(req) {
 const header = (req, k) => { const v = req.headers && req.headers[k]; return Array.isArray(v) ? v[0] : v; };
 /** the address this deployment serves the web tool from */
 function siteOf(req, brand) {
-  const known = C.siteUrlFor(brand);
-  if (known) return known;
+  // env SITE_URL first; then the request's own host (each deployment links to itself, custom domains included); then the brand file
+  if (process.env.SITE_URL) return C.siteUrlFor(brand);
   const host = header(req, 'x-forwarded-host') || header(req, 'host');
-  if (!host || !/^[a-z0-9.:-]+$/i.test(host)) return null;
+  if (!host || !/^[a-z0-9.:-]+$/i.test(host)) return C.siteUrlFor(brand);
   const proto = header(req, 'x-forwarded-proto') || (/^(localhost|127\.)/.test(host) ? 'http' : 'https');
   return `${proto === 'http' ? 'http' : 'https'}://${host}/`;
 }
