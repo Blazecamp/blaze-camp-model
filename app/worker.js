@@ -5,8 +5,9 @@ import { fetchModel } from './model-loader.js';
 import { generate } from '../engine/generate.mjs';
 
 let modelPromise = null;
-const model = () => (modelPromise ||= fetchModel());
+const model = () => { if (!modelPromise) modelPromise = fetchModel(); return modelPromise; };
 
+// a model that cannot load here is reported with id null: the page then builds on its own thread instead
 model().then(() => self.postMessage({ type: 'ready' }), (e) => self.postMessage({ type: 'error', id: null, message: String(e && e.message || e) }));
 
 self.onmessage = async (ev) => {

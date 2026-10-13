@@ -11,7 +11,8 @@ export async function fetchModel(base) {
   const get = async (f, v, cache) => {
     const u = new URL(f, root);
     if (v) u.searchParams.set('v', v);
-    const r = await fetch(u.href, { credentials: 'omit', cache: cache || 'default' });
+    // same-origin credentials (the fetch default): a protected preview (Vercel Authentication) needs its cookie on these requests
+    const r = await fetch(u.href, { credentials: 'same-origin', cache: cache || 'default' });
     if (!r.ok) throw new Error(`${f}: HTTP ${r.status}`);
     return r.json();
   };

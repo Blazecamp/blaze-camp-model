@@ -41,13 +41,22 @@ function startWorker() {
     worker.onmessage = (ev) => {
       const m = ev.data || {};
       if (m.type === 'ready') { workerReady = true; return; }
+      // the worker could not load the model (or start): build on this thread from now on
+      if (m.type === 'error' && (m.id === null || m.id === undefined)) { dropWorker(); return; }
       const p = pending.get(m.id);
       if (!p) return;
       pending.delete(m.id);
       if (m.type === 'plan') p.resolve(m); else p.reject(new Error(m.message || 'worker'));
     };
-    worker.onerror = () => { worker = null; for (const [, p] of pending) p.fallback(); pending.clear(); };
+    worker.onerror = (e) => { if (e && e.preventDefault) e.preventDefault(); dropWorker(); };
   } catch { worker = null; }
+}
+/** a module worker that fails (an older browser, a blocked file) is dropped; waiting builds run on this thread instead */
+function dropWorker() {
+  try { if (worker) worker.terminate(); } catch { /* already gone */ }
+  worker = null;
+  for (const [, p] of pending) p.fallback();
+  pending.clear();
 }
 
 /** build a plan: in the worker, else on this thread after the "building" screen has painted */
@@ -92,7 +101,7 @@ function render() {
   const focusKey = document.activeElement && document.activeElement.dataset ? (document.activeElement.dataset.action || '') + '|' + (document.activeElement.dataset.value || '') : null;
   $app.className = S.screen === 'plan' ? 'plan-main' : '';
   if (S.screen === 'loading') $app.innerHTML = `<div class="loading"><div class="spinner"></div><p>${h(t('app.loading'))}</p></div>`;
-  else if (S.screen === 'error') $app.innerHTML = `<div class="loading"><p>${h(t('app.load_failed'))}</p><p><button class="btn primary" data-action="reload">${h(t('app.reload'))}</button></p></div>`;
+  else if (S.screen === 'error') $app.innerHTML = `<div class="loading"><p>${h(t('app.load_failed'))}</p><p><button class="btn primary" data-action="reload">${h(t('app.reload'))}</button></p>${S.loadError ? `<p class="hint" style="font-size:12px;word-break:break-word">${h(S.loadError)}</p>` : ''}</div>`;
   else if (S.screen === 'wizard') $app.innerHTML = renderWizard();
   else if (S.screen === 'building') $app.innerHTML = renderBuilding();
   else if (S.screen === 'invalid') $app.innerHTML = renderInvalid();
@@ -794,6 +803,8 @@ async function boot() {
   try {
     S.model = await fetchModel();
   } catch (e) {
+    // the real reason in small text (e.g. 'catalog.json: HTTP 401'), so a screenshot is enough to diagnose
+    S.loadError = String((e && e.message) || e || '');
     S.screen = 'error'; render(); return;
   }
   S.answers = B.defaultAnswers(today());
