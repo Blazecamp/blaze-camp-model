@@ -187,8 +187,17 @@ export function makeSeed(intakeForHash, modelVersion) {
 
 /** @param {string} seed @param {...(string|number)} parts @returns {number} uint32 */
 export function tieBreak(seed, ...parts) {
-  return parseInt(hash53(seed + '|' + parts.join('|')).slice(0, 8), 16) >>> 0;
+  const key = seed + '|' + parts.join('|');
+  let v = TIE_CACHE.get(key);
+  if (v === undefined) {
+    v = parseInt(hash53(key).slice(0, 8), 16) >>> 0;
+    if (TIE_CACHE.size >= 100000) TIE_CACHE.clear();
+    TIE_CACHE.set(key, v);
+  }
+  return v;
 }
+// (G-311, performance only: a pure function of its input string, kept in a bounded cache)
+const TIE_CACHE = new Map();
 
 /** half away from zero, 2 decimals @param {number} x @returns {number} */
 export function round2(x) {
