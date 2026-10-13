@@ -538,7 +538,7 @@ function dayViewHtml() {
   const hb = lg.health ? `<div class="banner health">${h(lg.health.short || lg.health.line)}</div>` : '';
   return `<div class="dayview"><div class="dv-side">${weekBarHtml()}${dayTabsHtml()}${hb}${notes('side')}</div>
     <div class="dv-main${linkingHere() ? ' linking' : ''}">${editStripHtml()}${dayCardHtml(S.week, S.day, false)}${linkBarHtml()}${addHtml()}${notes('main')}
-    <div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button>${pdfBtn()}<button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>${printLink()}
+    <div class="actions"><button class="btn" data-action="save-image"><span class="bi" aria-hidden="true">⤓</span><span class="bl">${h(t('plan.save_image'))}</span></button>${pdfBtn()}<button class="btn" data-action="new"><span class="bi" aria-hidden="true">↺</span><span class="bl">${h(t('plan.new'))}</span></button></div>${printLink()}
      <p class="hint-line">${h(t('plan.tap_hint'))}<br>${h(t('plan.swipe_hint'))}</p></div></div>`;
 }
 
@@ -889,7 +889,7 @@ function progressHtml() {
   const openIds = ['before', 'progress'];
   for (const s of secs) out += `<details class="sec" ${openIds.includes(s.id) ? 'open' : ''}><summary>${h(s.title)}</summary><div class="md">${markdown(s.body)}</div></details>`;
   out += `<div class="banner release"><b>${h(lg.label)}</b> ${h(lg.full)} ${lg.url ? `<a href="${h(lg.url)}" target="_blank" rel="noopener noreferrer">${h(lg.link_text)}</a>` : ''}</div>`;
-  out += `<div class="actions">${pdfBtn()}<button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>${printLink()}`;
+  out += `<div class="actions">${pdfBtn()}<button class="btn" data-action="new"><span class="bi" aria-hidden="true">↺</span><span class="bl">${h(t('plan.new'))}</span></button></div>${printLink()}`;
   return out;
 }
 
@@ -932,7 +932,7 @@ function buildPrint() {
 }
 
 /** Download PDF: the button every device gets (window.print() does nothing in many iPhone in-app browsers) */
-function pdfBtn() { return `<button class="btn" data-action="pdf">⤓ ${h(t('plan.pdf'))}</button>`; }
+function pdfBtn() { return `<button class="btn" data-action="pdf"><span class="bi" aria-hidden="true">⤓</span><span class="bl">${h(t('plan.pdf'))}</span></button>`; }
 /** Print stays as a small link on a desktop browser that can print */
 function printLink() { return canPrint() ? `<p class="print-line"><button type="button" class="linkbtn" data-action="print">⎙ ${h(t('plan.print'))}</button></p>` : ''; }
 function canPrint() { return typeof window.print === 'function' && !isMobile(); }

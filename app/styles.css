@@ -110,7 +110,7 @@ h1.step-title { font-size: 25px; line-height: 1.15; margin: 0 0 2px; font-weight
 .field { margin: 12px 0; }
 .field > .label, .label { display: block; font-weight: 750; font-size: 16px; margin-bottom: 6px; }
 .label-sub { font-weight: 650; color: var(--ink-2); font-size: 15px; margin-left: 4px; }
-.label-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+.label-row { display: flex; align-items: center; justify-content: space-between; gap: 6px 8px; margin-bottom: 6px; flex-wrap: wrap; }
 .label-row .label { margin: 0; }
 .small-text { font-size: 14px; color: var(--ink-2); margin: 0 0 6px; line-height: 1.35; }
 .hint { color: var(--ink-2); font-size: 15px; margin: 6px 0 0; }
@@ -215,10 +215,10 @@ details.more > .body .field:first-child { margin-top: 2px; }
 .sum li:last-child { border-bottom: 0; }
 .sum li span:first-child { color: var(--muted); }
 .sum li span:last-child { font-weight: 750; text-align: right; }
-.pain-row { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.pain-row { display: flex; align-items: center; gap: 6px 10px; margin-top: 8px; flex-wrap: wrap; }
 .pain-row .name { font-weight: 750; min-width: 96px; font-size: 15px; }
-.pain-row .seg { flex: 1; }
-.pain-row .seg button { font-size: 14px; min-height: 40px; }
+.pain-row .seg { flex: 1 1 210px; min-width: 0; }
+.pain-row .seg button { font-size: 14px; min-height: 40px; padding: 4px 4px; min-width: 0; }
 
 .wiz-nav {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 15; background: color-mix(in srgb, var(--bg) 92%, transparent);
@@ -348,8 +348,9 @@ details.week-notes.main { margin-top: 10px; }
 .simple-day { padding: 26px 16px; text-align: center; font-size: 18px; font-weight: 800; }
 .simple-day small { display: block; color: var(--muted); font-weight: 600; font-size: 15px; margin-top: 6px; }
 
-.actions { display: flex; gap: 8px; margin: 12px 0 4px; flex-wrap: wrap; }
-.actions .btn { flex: 1; min-width: 104px; padding: 0 10px; font-size: 15px; white-space: nowrap; }
+.actions { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 8px; margin: 12px 0 4px; }
+.actions .btn { min-width: 0; min-height: 64px; padding: 8px 6px; font-size: 14.5px; line-height: 1.15; flex-direction: column; gap: 3px; text-align: center; white-space: normal; overflow-wrap: anywhere; }
+.actions .btn .bi { font-size: 18px; line-height: 1; }
 .hint-line { color: var(--muted); font-size: 14px; text-align: center; margin: 8px 0 0; }
 .print-line { text-align: center; margin: 2px 0 0; }
 .linkbtn { background: none; border: 0; color: var(--muted); font: inherit; font-size: 14px; text-decoration: underline; padding: 6px 8px; cursor: pointer; }
@@ -410,7 +411,7 @@ details.week-notes.main { margin-top: 10px; }
 .blk-h .blk-t { flex: 1 1 0; min-width: 0; display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
 .blk-h .blk-sw { margin-left: auto; flex: none; align-self: center; }
 .blk-sw { display: inline-flex; align-items: center; gap: 5px; border: 1.5px solid var(--line-2); background: var(--card); border-radius: 999px; padding: 2px 9px 2px 3px; min-height: 28px; position: relative; font: inherit; font-size: 12px; font-weight: 800; color: var(--ink-2); text-transform: none; letter-spacing: 0; cursor: pointer; }
-.blk-sw::before { content: ""; position: absolute; inset: -8px -4px; }   /* a bigger tap area than it looks */
+.blk-sw::before { content: ""; position: absolute; inset: -8px 0; }   /* a bigger tap area than it looks */
 .blk-sw .knob { width: 20px; height: 20px; border-radius: 50%; background: var(--line-2); transition: background .15s; }
 .blk-sw[aria-checked="true"] .knob { background: var(--accent); }
 .blk-sw[aria-checked="true"] { border-color: var(--accent); color: var(--accent-ink); }
@@ -581,3 +582,14 @@ details.sec .md { padding: 0 14px 12px; font-size: 15px; }
 .link-bar .btn { min-width: 88px; }
 @media (min-width: 761px) { .link-bar { left: 50%; right: auto; width: 728px; transform: translateX(-50%); border: 2px solid var(--accent); border-bottom: 0; border-radius: var(--radius) var(--radius) 0 0; } }
 @media print { .link-bar { display: none !important; } }
+
+/* nothing is wider than a small phone (320 px): boxes may shrink, long words wrap inside their own box */
+.card-btn, .chip, .seg button, .btn { min-width: 0; }
+.card-btn .t, .card-btn .s, .chip, .seg button { overflow-wrap: break-word; hyphens: auto; }
+@media (max-width: 400px) {
+  .cards.mini { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+/* age and weight side by side need about 380 px; below that each gets the full width so its number shows whole */
+@media (max-width: 379px) {
+  .wiz-body .row2 { grid-template-columns: 1fr; }
+}
