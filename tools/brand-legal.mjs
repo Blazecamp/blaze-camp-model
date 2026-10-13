@@ -67,3 +67,45 @@ export function legalPartyTexts(legal) {
   }
   return out;
 }
+
+/** a JSON value with the brand's legal wording on every string (es_review.json and the like) */
+export function deepLegalSub(v, lang, legal) {
+  if (typeof v === 'string') return legalSub(v, lang, legal);
+  if (Array.isArray(v)) return v.map(x => deepLegalSub(x, lang, legal));
+  if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, deepLegalSub(x, lang, legal)]));
+  return v;
+}
+
+/**
+ * The raw model (before loadModel) as a brand's site serves it: the one place that says what a brand changes in the model's
+ * words. Used by tools/build-site.mjs (the site's copy of model/) and by the agent tools (agent/core.mjs: CLI, MCP server, API),
+ * so a plan built by an agent carries exactly the words of that brand's web tool. The input is never changed.
+ *   * a brand with a `legal` block: the legal party wording on the i18n tables and es_review, rules.legal.owner, and
+ *     rules.legal.disclaimer_url pointing at the brand's own disclaimer pages under `siteUrl`;
+ *   * every brand: its display words (brand.model_words) over the i18n tables.
+ * @param {object} raw {manifest, catalog, rules, templates, profiles, i18n: {en, es, es_review}}
+ * @param {object} brand app/brands/<id>.js > BRAND
+ * @param {{siteUrl?: string}} [opts] the brand's site (absolute); required for a brand with its own disclaimer pages
+ */
+export function brandModelRaw(raw, brand, opts = {}) {
+  const LEGAL = (brand && brand.legal) || null;
+  const mw = (brand && brand.model_words) || {};
+  const i18n = { ...raw.i18n };
+  for (const lang of ['en', 'es']) {
+    if (!raw.i18n || !raw.i18n[lang]) continue;
+    const out = LEGAL ? brandI18n(raw.i18n[lang], lang, LEGAL).table : { ...raw.i18n[lang] };
+    for (const [k, v] of Object.entries(mw[lang] || {})) if (k in out) out[k] = v;
+    i18n[lang] = out;
+  }
+  if (LEGAL && raw.i18n && raw.i18n.es_review) i18n.es_review = deepLegalSub(raw.i18n.es_review, 'es', LEGAL);
+  let rules = raw.rules;
+  if (LEGAL && rules && rules.legal) {
+    if (!opts.siteUrl) throw new Error(`brand ${brand.id}: its release links its own disclaimer pages, so its site address is needed (siteUrl)`);
+    const host = String(opts.siteUrl).replace(/\/?$/, '/');
+    const legal = { ...rules.legal };
+    legal.owner = legalSub(String(legal.owner || '').replace(/^Lalo Vera \/ Blaze Camp \/ BFit Studios Corp\.$/, 'Lalo Vera, Blaze Camp and BFit Studios Corp.'), 'en', LEGAL).replace(/\.$/, '');
+    legal.disclaimer_url = { ...legal.disclaimer_url, en: new URL(LEGAL.disclaimer.en, host).href, es: new URL(LEGAL.disclaimer.es, host).href };
+    rules = { ...rules, legal };
+  }
+  return { ...raw, i18n, rules };
+}

@@ -1,0 +1,3319 @@
+{
+ "schema": "agent-questions/1",
+ "brand": "blazecamp",
+ "brand_name": "Blaze Camp",
+ "model_version": "1.4.0",
+ "answers_shape": "app/intake-builder.js > defaultAnswers: send only what you asked; the rest keeps the defaults. Dotted ids are nested (sport.id -> {sport: {id}}).",
+ "rules": [
+  "Ask the questions in this order, one or two at a time, offering the choices. Skip a question whose `when` does not hold. Keep the defaults the person does not care about.",
+  "Never ask for sex, gender, sleep, stress, job, lifestyle or energy, and never ask how long a session should be: the plan has no such inputs (the engine refuses them).",
+  "Ask all 5 health questions (or \"none of these apply\"). A yes does not stop the plan: it is built with a health warning (see a medical professional first). Never say which answer caused it.",
+  "Before building, show the release text (release.<version> below, in the plan language) and get an explicit \"I accept\" from the person in this conversation (for role client: from the coach; under 18: from a parent or legal guardian, then guardian: true). Never assume or pre-tick acceptance. Only then send accepted: true.",
+  "When the person building the plan is not the one talking to you (for example the coach sends it to a client), or they prefer to accept on the web page, give them the prefilled link instead: it opens the web tool with every answer filled in, and they answer the health check, accept the release and tap Build themselves.",
+  "Nothing is stored: do not keep the answers after the plan is delivered."
+ ],
+ "never_ask": [
+  "sex",
+  "gender",
+  "sleep",
+  "stress",
+  "job",
+  "life",
+  "energy",
+  "recovery",
+  "session length / minutes"
+ ],
+ "release": {
+  "versions": {
+   "release.client": {
+    "who": "the person builds their own plan (role self, 18 or older)",
+    "text": {
+     "en": "Before we build your plan (version [RELEASE_VERSION]) [LEGAL REVIEW: placeholder; the full text is the lawyer-approved version of DISCLAIMER.md] This plan is general fitness information, not medical advice, and does not replace a doctor. Exercise carries risks, including injury. You follow this plan at your own risk and expense. Stop any exercise that causes pain, dizziness or chest discomfort, and get medical advice when you need it. To the extent the law allows, you release Lalo Vera, Blaze Camp and BFit Studios Corp. from liability for any injury or loss from using this plan. Blaze Camp keeps none of your answers. [Read the full Terms and Release of Liability] [ ] I accept the Terms and the Release of Liability, and I use this plan at my own risk. [Build my plan]",
+     "es": "Antes de crear tu plan (versión [RELEASE_VERSION]) [REVISIÓN LEGAL: texto provisional; el texto completo es la versión aprobada por el abogado de DISCLAIMER.es.md] Este plan es información general de acondicionamiento físico, no es consejo médico y no reemplaza a un médico. El ejercicio implica riesgos, incluidas lesiones. Sigues este plan bajo tu propio riesgo y por tu propia cuenta. Detén cualquier ejercicio que te cause dolor, mareo o molestias en el pecho, y busca consejo médico cuando lo necesites. En la medida en que la ley lo permita, liberas a Lalo Vera, Blaze Camp y BFit Studios Corp. de toda responsabilidad por lesiones o pérdidas derivadas del uso de este plan. Blaze Camp no guarda ninguna de tus respuestas. [Leer los Términos y la Liberación de Responsabilidad completos] [ ] Acepto los Términos y la Liberación de Responsabilidad, y uso este plan bajo mi propio riesgo. [Crear mi plan]"
+    }
+   },
+   "release.coach": {
+    "who": "a coach builds for a client (role client)",
+    "text": {
+     "en": "Coach terms and release (version [RELEASE_VERSION]) [LEGAL REVIEW: placeholder; full text = DISCLAIMER.md §5] You are building this plan for someone else. You act under your own professional judgment and are solely responsible for the plans you give your client: screening them, your own health questionnaire, informed consent, liability release and professional insurance. Blaze Camp's release does not cover your client. To the extent the law allows, you release Lalo Vera, Blaze Camp and BFit Studios Corp. from liability and hold them harmless against claims from your clients. [Read the full Terms and Release of Liability] [ ] I accept the Terms and the Release of Liability, and I use this plan at my own risk. [Build the plan]",
+     "es": "Términos y liberación para entrenadores (versión [RELEASE_VERSION]) [REVISIÓN LEGAL: texto provisional; texto completo = DISCLAIMER.es.md §5] Estás creando este plan para otra persona. Actúas bajo tu propio criterio profesional y eres el único responsable de los planes que entregues a tu cliente: su evaluación, tu propio cuestionario de salud, el consentimiento informado, la liberación de responsabilidad y tu seguro profesional. La liberación de Blaze Camp no cubre a tu cliente. En la medida en que la ley lo permita, liberas a Lalo Vera, Blaze Camp y BFit Studios Corp. de toda responsabilidad y los mantienes libres de responsabilidad frente a reclamos de tus clientes. [Leer los Términos y la Liberación de Responsabilidad completos] [ ] Acepto los Términos y la Liberación de Responsabilidad, y uso este plan bajo mi propio riesgo. [Crear el plan]"
+    }
+   },
+   "release.minor": {
+    "who": "the athlete is under 18: a parent or legal guardian reads and accepts it (guardian: true)",
+    "text": {
+     "en": "Under 18: a parent or legal guardian must read and accept this release. Guardian's name: [ ] [LEGAL REVIEW]",
+     "es": "Menores de 18 años: un padre, madre o tutor legal debe leer y aceptar esta liberación de responsabilidad. Nombre del tutor: [ ] [REVISIÓN LEGAL]"
+    }
+   }
+  },
+  "accept_line": {
+   "en": "I accept the Terms and the Release of Liability, and I use this plan at my own risk.",
+   "es": "Acepto los Términos y la Liberación de Responsabilidad, y uso este plan bajo mi propio riesgo."
+  },
+  "full_text": {
+   "en": "https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md",
+   "es": "https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md"
+  },
+  "markers": "[LEGAL REVIEW] / [REVISIÓN LEGAL] are reviewer notes kept in the model; the web tool hides them. The sentences are the release as written."
+ },
+ "questions": [
+  {
+   "id": "lang",
+   "screen": "start",
+   "prompt": {
+    "en": "Language",
+    "es": "Idioma"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "en",
+     "label": {
+      "en": "English",
+      "es": "Inglés"
+     }
+    },
+    {
+     "value": "es",
+     "label": {
+      "en": "Spanish",
+      "es": "Español"
+     }
+    }
+   ],
+   "default": "en",
+   "required": true,
+   "notes": "The plan language (not an answers field: pass it as `lang`). Ask in the person's language; both are complete."
+  },
+  {
+   "id": "role",
+   "screen": "you",
+   "prompt": {
+    "en": "This plan is for",
+    "es": "Este plan es para"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "self",
+     "label": {
+      "en": "Me",
+      "es": "Mí"
+     }
+    },
+    {
+     "value": "client",
+     "label": {
+      "en": "A client (I'm a coach)",
+      "es": "Un cliente (soy coach)"
+     }
+    }
+   ],
+   "default": "self",
+   "required": true
+  },
+  {
+   "id": "health_route",
+   "screen": "safety",
+   "when": "role == \"client\"",
+   "prompt": {
+    "en": "Health check for your client",
+    "es": "Revisión de salud de tu cliente"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "coach_screen",
+     "label": {
+      "en": "Run the health check (PAR-Q) with my client now",
+      "es": "Hacer la revisión de salud (PAR-Q) con mi cliente ahora"
+     }
+    },
+    {
+     "value": "coach_own_sop",
+     "label": {
+      "en": "Skip: I'm a fitness professional and I screen clients with my own onboarding",
+      "es": "Omitirlo: soy profesional del fitness y evalúo a mis clientes con mi propio proceso de ingreso"
+     }
+    }
+   ],
+   "default": "coach_screen",
+   "required": true,
+   "notes": {
+    "en": "coach_own_sop skips the health questions; the plan then prints: You chose to skip the health check. You confirm you are a fitness professional and that you screen this client with your own onboarding procedures (health questionnaire, and medical clearance when needed) before they start. Blaze Camp has not screened this client.",
+    "es": "Elegiste omitir la revisión de salud. Confirmas que eres profesional del fitness y que evalúas a este cliente con tus propios procedimientos de ingreso (cuestionario de salud y autorización médica cuando haga falta) antes de que empiece. Blaze Camp no ha evaluado a este cliente."
+   }
+  },
+  {
+   "id": "age",
+   "screen": "you",
+   "prompt": {
+    "en": "Age",
+    "es": "Edad"
+   },
+   "type": "integer",
+   "min": 10,
+   "max": 90,
+   "default": 30,
+   "required": true,
+   "notes": {
+    "en": "Under 18: a parent or legal guardian accepts the release at the last step.",
+    "es": "Menores de 18: un padre, madre o tutor legal acepta la liberación en el último paso."
+   }
+  },
+  {
+   "id": "weight",
+   "screen": "you",
+   "prompt": {
+    "en": "Body weight",
+    "es": "Peso corporal"
+   },
+   "type": "number",
+   "min": 20,
+   "max": 700,
+   "default": 170,
+   "required": true
+  },
+  {
+   "id": "unit",
+   "screen": "you",
+   "prompt": {
+    "en": "Units",
+    "es": "Unidades"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "lb",
+     "label": {
+      "en": "Pounds (lb)",
+      "es": "Libras (lb)"
+     }
+    },
+    {
+     "value": "kg",
+     "label": {
+      "en": "Kilograms (kg)",
+      "es": "Kilogramos (kg)"
+     }
+    }
+   ],
+   "default": "lb",
+   "required": true
+  },
+  {
+   "id": "years",
+   "screen": "you",
+   "prompt": {
+    "en": "Years training consistently",
+    "es": "Años entrenando de forma constante"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": 0,
+     "label": {
+      "en": "New",
+      "es": "Nuevo"
+     }
+    },
+    {
+     "value": 0.5,
+     "label": {
+      "en": "6-12 months",
+      "es": "6-12 meses"
+     }
+    },
+    {
+     "value": 1,
+     "label": {
+      "en": "1-2 years",
+      "es": "1-2 años"
+     }
+    },
+    {
+     "value": 2,
+     "label": {
+      "en": "2-3 years",
+      "es": "2-3 años"
+     }
+    },
+    {
+     "value": 3,
+     "label": {
+      "en": "3-5 years",
+      "es": "3-5 años"
+     }
+    },
+    {
+     "value": 5,
+     "label": {
+      "en": "5+ years",
+      "es": "5+ años"
+     }
+    }
+   ],
+   "default": 1,
+   "required": true
+  },
+  {
+   "id": "goal",
+   "screen": "goal",
+   "prompt": {
+    "en": "Your goal",
+    "es": "Tu objetivo"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "muscle",
+     "label": {
+      "en": "Build muscle",
+      "es": "Ganar músculo"
+     },
+     "sub": {
+      "en": "Size and shape",
+      "es": "Tamaño y forma"
+     }
+    },
+    {
+     "value": "strength",
+     "label": {
+      "en": "Get stronger",
+      "es": "Ganar fuerza"
+     },
+     "sub": {
+      "en": "Strength and powerlifting",
+      "es": "Fuerza y powerlifting"
+     }
+    },
+    {
+     "value": "fat_loss",
+     "label": {
+      "en": "Lose fat",
+      "es": "Perder grasa"
+     },
+     "sub": {
+      "en": "Gym or bootcamp circuits",
+      "es": "Gimnasio o circuitos bootcamp"
+     }
+    },
+    {
+     "value": "general",
+     "label": {
+      "en": "General fitness",
+      "es": "Condición general"
+     },
+     "sub": {
+      "en": "Health, energy, all-round",
+      "es": "Salud, energía, de todo un poco"
+     }
+    },
+    {
+     "value": "athletic",
+     "label": {
+      "en": "Sport athlete",
+      "es": "Atleta de un deporte"
+     },
+     "sub": {
+      "en": "Train for your sport",
+      "es": "Entrena para tu deporte"
+     }
+    },
+    {
+     "value": "active",
+     "label": {
+      "en": "Stay active",
+      "es": "Mantenerme activo"
+     },
+     "sub": {
+      "en": "Pickleball, HYROX, golf, running ...",
+      "es": "Pickleball, HYROX, golf, correr ..."
+     }
+    }
+   ],
+   "default": null,
+   "required": true
+  },
+  {
+   "id": "sport.id",
+   "screen": "goal",
+   "when": "goal == \"athletic\"",
+   "prompt": {
+    "en": "Your sport",
+    "es": "Tu deporte"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "american_football",
+     "label": {
+      "en": "American football",
+      "es": "Fútbol americano"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "QB",
+       "label": {
+        "en": "Quarterback (QB)",
+        "es": "Mariscal de campo (Quarterback, QB)"
+       }
+      },
+      {
+       "value": "RB",
+       "label": {
+        "en": "Running back (RB)",
+        "es": "Corredor (Running back, RB)"
+       }
+      },
+      {
+       "value": "FB",
+       "label": {
+        "en": "Fullback (FB)",
+        "es": "Corredor de poder (Fullback, FB)"
+       }
+      },
+      {
+       "value": "WR",
+       "label": {
+        "en": "Wide receiver (WR)",
+        "es": "Receptor abierto (Wide receiver, WR)"
+       }
+      },
+      {
+       "value": "TE",
+       "label": {
+        "en": "Tight end (TE)",
+        "es": "Ala cerrada (Tight end, TE)"
+       }
+      },
+      {
+       "value": "OL",
+       "label": {
+        "en": "Offensive line (OL)",
+        "es": "Línea ofensiva (OL)"
+       }
+      },
+      {
+       "value": "line",
+       "label": {
+        "en": "Lineman (both lines / not sure)",
+        "es": "Liniero (ambas líneas / no definido)"
+       }
+      },
+      {
+       "value": "DL",
+       "label": {
+        "en": "Defensive line (DL)",
+        "es": "Línea defensiva (DL)"
+       }
+      },
+      {
+       "value": "LB",
+       "label": {
+        "en": "Linebacker (LB)",
+        "es": "Apoyador (Linebacker, LB)"
+       }
+      },
+      {
+       "value": "CB",
+       "label": {
+        "en": "Cornerback (CB)",
+        "es": "Esquinero (Cornerback, CB)"
+       }
+      },
+      {
+       "value": "S",
+       "label": {
+        "en": "Safety (S)",
+        "es": "Profundo (Safety, S)"
+       }
+      },
+      {
+       "value": "KP",
+       "label": {
+        "en": "Kicker / punter / long snapper (K / P / LS)",
+        "es": "Pateador / despejador / centro largo (K / P / LS)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "flag_football",
+     "label": {
+      "en": "Flag football",
+      "es": "Flag football (fútbol americano sin contacto)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "QB",
+       "label": {
+        "en": "Quarterback",
+        "es": "Mariscal de campo (Quarterback)"
+       }
+      },
+      {
+       "value": "other",
+       "label": {
+        "en": "Any other position (receiver, rusher, center, DB)",
+        "es": "Cualquier otra posición (receptor, rusher, centro, defensivo)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "basketball",
+     "label": {
+      "en": "Basketball",
+      "es": "Baloncesto (básquetbol)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "guard",
+       "label": {
+        "en": "Guard (PG / SG)",
+        "es": "Base / escolta (PG / SG)"
+       }
+      },
+      {
+       "value": "wing",
+       "label": {
+        "en": "Wing (SF)",
+        "es": "Alero (SF)"
+       }
+      },
+      {
+       "value": "big",
+       "label": {
+        "en": "Big (PF / C)",
+        "es": "Ala-pívot / pívot (PF / C)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "baseball",
+     "label": {
+      "en": "Baseball",
+      "es": "Béisbol"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "pitcher",
+       "label": {
+        "en": "Pitcher",
+        "es": "Lanzador (pitcher)"
+       }
+      },
+      {
+       "value": "catcher",
+       "label": {
+        "en": "Catcher",
+        "es": "Receptor (catcher)"
+       }
+      },
+      {
+       "value": "infield",
+       "label": {
+        "en": "Infield",
+        "es": "Cuadro interior (infield)"
+       }
+      },
+      {
+       "value": "outfield",
+       "label": {
+        "en": "Outfield",
+        "es": "Jardinero (outfield)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "softball",
+     "label": {
+      "en": "Softball",
+      "es": "Sóftbol"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "pitcher",
+       "label": {
+        "en": "Pitcher",
+        "es": "Lanzadora (pitcher)"
+       }
+      },
+      {
+       "value": "catcher",
+       "label": {
+        "en": "Catcher",
+        "es": "Receptora (catcher)"
+       }
+      },
+      {
+       "value": "infield",
+       "label": {
+        "en": "Infield",
+        "es": "Cuadro interior (infield)"
+       }
+      },
+      {
+       "value": "outfield",
+       "label": {
+        "en": "Outfield",
+        "es": "Jardinera (outfield)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "soccer",
+     "label": {
+      "en": "Soccer",
+      "es": "Fútbol (soccer)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "goalkeeper",
+       "label": {
+        "en": "Goalkeeper",
+        "es": "Portero"
+       }
+      },
+      {
+       "value": "defender",
+       "label": {
+        "en": "Defender (center back / full-back)",
+        "es": "Defensa (central / lateral)"
+       }
+      },
+      {
+       "value": "midfielder",
+       "label": {
+        "en": "Midfielder",
+        "es": "Mediocampista"
+       }
+      },
+      {
+       "value": "forward",
+       "label": {
+        "en": "Forward (striker / winger)",
+        "es": "Delantero (centro delantero / extremo)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "ice_hockey",
+     "label": {
+      "en": "Ice hockey",
+      "es": "Hockey sobre hielo"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "forward",
+       "label": {
+        "en": "Forward (center / wing)",
+        "es": "Delantero (centro / ala)"
+       }
+      },
+      {
+       "value": "defense",
+       "label": {
+        "en": "Defense",
+        "es": "Defensa"
+       }
+      },
+      {
+       "value": "goalie",
+       "label": {
+        "en": "Goalie",
+        "es": "Portero"
+       }
+      }
+     ]
+    },
+    {
+     "value": "volleyball",
+     "label": {
+      "en": "Volleyball (indoor)",
+      "es": "Voleibol (sala)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "outside_opposite",
+       "label": {
+        "en": "Outside / opposite hitter",
+        "es": "Atacante exterior / opuesto"
+       }
+      },
+      {
+       "value": "middle",
+       "label": {
+        "en": "Middle blocker",
+        "es": "Central (bloqueador central)"
+       }
+      },
+      {
+       "value": "setter",
+       "label": {
+        "en": "Setter",
+        "es": "Armador (colocador)"
+       }
+      },
+      {
+       "value": "libero",
+       "label": {
+        "en": "Libero / defensive specialist",
+        "es": "Líbero / especialista defensivo"
+       }
+      }
+     ]
+    },
+    {
+     "value": "beach_volleyball",
+     "label": {
+      "en": "Beach volleyball",
+      "es": "Voleibol de playa"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "blocker",
+       "label": {
+        "en": "Blocker",
+        "es": "Bloqueador"
+       }
+      },
+      {
+       "value": "defender",
+       "label": {
+        "en": "Defender",
+        "es": "Defensor"
+       }
+      }
+     ]
+    },
+    {
+     "value": "lacrosse",
+     "label": {
+      "en": "Lacrosse (men's and women's)",
+      "es": "Lacrosse (masculino y femenino)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "attack",
+       "label": {
+        "en": "Attack",
+        "es": "Ataque"
+       }
+      },
+      {
+       "value": "midfield",
+       "label": {
+        "en": "Midfield",
+        "es": "Mediocampo"
+       }
+      },
+      {
+       "value": "defense",
+       "label": {
+        "en": "Defense",
+        "es": "Defensa"
+       }
+      },
+      {
+       "value": "goalie",
+       "label": {
+        "en": "Goalie",
+        "es": "Portero"
+       }
+      }
+     ],
+     "second_choice": {
+      "label": {
+       "en": "Men's or women's game",
+       "es": "Juego masculino o femenino"
+      },
+      "options": [
+       {
+        "value": "m",
+        "label": {
+         "en": "Men's lacrosse",
+         "es": "Lacrosse masculino"
+        }
+       },
+       {
+        "value": "w",
+        "label": {
+         "en": "Women's lacrosse",
+         "es": "Lacrosse femenino"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "value": "field_hockey",
+     "label": {
+      "en": "Field hockey",
+      "es": "Hockey sobre césped"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "forward",
+       "label": {
+        "en": "Forward",
+        "es": "Delantero"
+       }
+      },
+      {
+       "value": "midfield",
+       "label": {
+        "en": "Midfielder",
+        "es": "Mediocampista"
+       }
+      },
+      {
+       "value": "defense",
+       "label": {
+        "en": "Defender",
+        "es": "Defensa"
+       }
+      },
+      {
+       "value": "goalkeeper",
+       "label": {
+        "en": "Goalkeeper",
+        "es": "Portero"
+       }
+      }
+     ]
+    },
+    {
+     "value": "rugby",
+     "label": {
+      "en": "Rugby",
+      "es": "Rugby"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "forwards",
+       "label": {
+        "en": "Forwards (front row, locks, back row)",
+        "es": "Delanteros (primera, segunda y tercera línea)"
+       }
+      },
+      {
+       "value": "backs",
+       "label": {
+        "en": "Backs (halves, centres, back three)",
+        "es": "Tres cuartos (medios, centros, línea de tres)"
+       }
+      },
+      {
+       "value": "sevens",
+       "label": {
+        "en": "Sevens (any position)",
+        "es": "Rugby 7 (cualquier posición)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "cheerleading",
+     "label": {
+      "en": "Cheerleading / STUNT",
+      "es": "Porrismo / animación (cheerleading, STUNT)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "base",
+       "label": {
+        "en": "Base",
+        "es": "Base"
+       }
+      },
+      {
+       "value": "back_spot",
+       "label": {
+        "en": "Back spot",
+        "es": "Spotter trasero (back spot)"
+       }
+      },
+      {
+       "value": "flyer",
+       "label": {
+        "en": "Flyer",
+        "es": "Volador(a) (flyer)"
+       }
+      },
+      {
+       "value": "tumbler",
+       "label": {
+        "en": "Tumbler / all-around",
+        "es": "Acróbata (tumbler) / completo"
+       }
+      }
+     ]
+    },
+    {
+     "value": "ultimate",
+     "label": {
+      "en": "Ultimate",
+      "es": "Ultimate (frisbee)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "handler",
+       "label": {
+        "en": "Handler",
+        "es": "Handler (lanzador)"
+       }
+      },
+      {
+       "value": "cutter",
+       "label": {
+        "en": "Cutter / deep",
+        "es": "Cortador (cutter) / profundo"
+       }
+      }
+     ]
+    },
+    {
+     "value": "dance_team",
+     "label": {
+      "en": "Competitive dance / drill team",
+      "es": "Danza competitiva / equipo de baile (drill team)"
+     },
+     "group": "team_field_court"
+    },
+    {
+     "value": "swimming",
+     "label": {
+      "en": "Swimming",
+      "es": "Natación"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "sprint",
+       "label": {
+        "en": "Sprint (50-100)",
+        "es": "Velocidad (50-100)"
+       }
+      },
+      {
+       "value": "middle",
+       "label": {
+        "en": "Middle distance (200-400 / IM)",
+        "es": "Medio fondo (200-400 / combinado)"
+       }
+      },
+      {
+       "value": "distance",
+       "label": {
+        "en": "Distance (800-1500 / open water)",
+        "es": "Fondo (800-1500 / aguas abiertas)"
+       }
+      }
+     ],
+     "second_choice": {
+      "label": {
+       "en": "Main stroke",
+       "es": "Estilo principal"
+      },
+      "options": [
+       {
+        "value": "free",
+        "label": {
+         "en": "Freestyle",
+         "es": "Libre"
+        }
+       },
+       {
+        "value": "back",
+        "label": {
+         "en": "Backstroke",
+         "es": "Espalda (dorso)"
+        }
+       },
+       {
+        "value": "breast",
+        "label": {
+         "en": "Breaststroke",
+         "es": "Pecho"
+        }
+       },
+       {
+        "value": "fly",
+        "label": {
+         "en": "Butterfly",
+         "es": "Mariposa"
+        }
+       },
+       {
+        "value": "im",
+        "label": {
+         "en": "Individual medley (IM)",
+         "es": "Combinado individual (IM)"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "value": "diving",
+     "label": {
+      "en": "Diving",
+      "es": "Clavados"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "springboard",
+       "label": {
+        "en": "Springboard (1 m / 3 m)",
+        "es": "Trampolín (1 m / 3 m)"
+       }
+      },
+      {
+       "value": "platform",
+       "label": {
+        "en": "Platform (5-10 m)",
+        "es": "Plataforma (5-10 m)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "water_polo",
+     "label": {
+      "en": "Water polo",
+      "es": "Waterpolo"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "field",
+       "label": {
+        "en": "Field player (driver, wing, point, defender)",
+        "es": "Jugador de campo (atacante, ala, punto, defensa)"
+       }
+      },
+      {
+       "value": "center",
+       "label": {
+        "en": "Center / center defender (2-meter)",
+        "es": "Boya / defensor de boya (2 metros)"
+       }
+      },
+      {
+       "value": "goalkeeper",
+       "label": {
+        "en": "Goalkeeper",
+        "es": "Portero"
+       }
+      }
+     ]
+    },
+    {
+     "value": "track_and_field",
+     "label": {
+      "en": "Track and field",
+      "es": "Atletismo (pista y campo)"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "sprints",
+       "label": {
+        "en": "Sprints (60-200 m)",
+        "es": "Velocidad (60-200 m)"
+       }
+      },
+      {
+       "value": "400",
+       "label": {
+        "en": "400 m",
+        "es": "400 m"
+       }
+      },
+      {
+       "value": "hurdles",
+       "label": {
+        "en": "Hurdles (100 / 110 m)",
+        "es": "Vallas (100 / 110 m)"
+       }
+      },
+      {
+       "value": "400h",
+       "label": {
+        "en": "400 m hurdles",
+        "es": "400 m con vallas"
+       }
+      },
+      {
+       "value": "long_triple",
+       "label": {
+        "en": "Long / triple jump",
+        "es": "Salto de longitud / triple"
+       }
+      },
+      {
+       "value": "high_jump",
+       "label": {
+        "en": "High jump",
+        "es": "Salto de altura"
+       }
+      },
+      {
+       "value": "pole_vault",
+       "label": {
+        "en": "Pole vault",
+        "es": "Salto con garrocha (pértiga)"
+       }
+      },
+      {
+       "value": "throws",
+       "label": {
+        "en": "Shot put / discus / hammer",
+        "es": "Bala / disco / martillo"
+       }
+      },
+      {
+       "value": "javelin",
+       "label": {
+        "en": "Javelin",
+        "es": "Jabalina"
+       }
+      },
+      {
+       "value": "middle",
+       "label": {
+        "en": "800-1500 m / mile (steeplechase)",
+        "es": "800-1500 m / milla (obstáculos)"
+       }
+      },
+      {
+       "value": "long_distance",
+       "label": {
+        "en": "5000-10,000 m",
+        "es": "5000-10 000 m"
+       }
+      }
+     ]
+    },
+    {
+     "value": "distance_running",
+     "label": {
+      "en": "Cross country and road running",
+      "es": "Campo traviesa (cross country) y carreras de ruta"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "cross_country",
+       "label": {
+        "en": "Cross country (high school / college)",
+        "es": "Campo traviesa (escolar / universitario)"
+       }
+      },
+      {
+       "value": "5k_10k",
+       "label": {
+        "en": "Road 5K-10K",
+        "es": "Ruta 5K-10K"
+       }
+      },
+      {
+       "value": "half",
+       "label": {
+        "en": "Half marathon",
+        "es": "Medio maratón"
+       }
+      },
+      {
+       "value": "marathon",
+       "label": {
+        "en": "Marathon",
+        "es": "Maratón"
+       }
+      },
+      {
+       "value": "trail_ultra",
+       "label": {
+        "en": "Trail / ultramarathon",
+        "es": "Trail / ultramaratón"
+       }
+      }
+     ]
+    },
+    {
+     "value": "triathlon",
+     "label": {
+      "en": "Triathlon",
+      "es": "Triatlón"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "sprint_olympic",
+       "label": {
+        "en": "Sprint / Olympic",
+        "es": "Sprint / olímpico"
+       }
+      },
+      {
+       "value": "70_3",
+       "label": {
+        "en": "70.3 (half distance)",
+        "es": "70.3 (media distancia)"
+       }
+      },
+      {
+       "value": "full",
+       "label": {
+        "en": "Full distance (140.6)",
+        "es": "Distancia completa (140.6)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "cycling",
+     "label": {
+      "en": "Cycling",
+      "es": "Ciclismo"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "road",
+       "label": {
+        "en": "Road",
+        "es": "Ruta"
+       }
+      },
+      {
+       "value": "mountain",
+       "label": {
+        "en": "Mountain bike (XC / enduro)",
+        "es": "Ciclismo de montaña (MTB)"
+       }
+      },
+      {
+       "value": "gravel",
+       "label": {
+        "en": "Gravel",
+        "es": "Gravel"
+       }
+      },
+      {
+       "value": "indoor",
+       "label": {
+        "en": "Indoor racing",
+        "es": "Ciclismo indoor (carreras virtuales)"
+       }
+      },
+      {
+       "value": "track_sprint",
+       "label": {
+        "en": "Track sprint / keirin",
+        "es": "Velocidad en pista / keirin"
+       }
+      },
+      {
+       "value": "bmx",
+       "label": {
+        "en": "BMX racing",
+        "es": "BMX (carreras)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "rowing",
+     "label": {
+      "en": "Rowing (crew)",
+      "es": "Remo"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "sweep",
+       "label": {
+        "en": "Sweep (port / starboard)",
+        "es": "Punta (babor / estribor)"
+       }
+      },
+      {
+       "value": "sculling",
+       "label": {
+        "en": "Sculling",
+        "es": "Scull (dos remos)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "ski_snowboard",
+     "label": {
+      "en": "Skiing / snowboarding (competitive)",
+      "es": "Esquí / snowboard (competitivo)"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "alpine",
+       "label": {
+        "en": "Alpine racing (slalom / giant slalom)",
+        "es": "Esquí alpino (slalom / gigante)"
+       }
+      },
+      {
+       "value": "speed",
+       "label": {
+        "en": "Speed (super-G / downhill)",
+        "es": "Velocidad (súper gigante / descenso)"
+       }
+      },
+      {
+       "value": "snowboard_race",
+       "label": {
+        "en": "Snowboard racing / snowboard cross",
+        "es": "Snowboard (carreras / cross)"
+       }
+      },
+      {
+       "value": "freestyle",
+       "label": {
+        "en": "Freestyle ski or snowboard (moguls, slopestyle, halfpipe, big air)",
+        "es": "Estilo libre en esquí o snowboard (baches, slopestyle, halfpipe, big air)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "figure_skating",
+     "label": {
+      "en": "Figure skating",
+      "es": "Patinaje artístico"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "singles",
+       "label": {
+        "en": "Singles",
+        "es": "Individual"
+       }
+      },
+      {
+       "value": "pairs_dance",
+       "label": {
+        "en": "Pairs / ice dance",
+        "es": "Parejas / danza sobre hielo"
+       }
+      }
+     ]
+    },
+    {
+     "value": "wrestling",
+     "label": {
+      "en": "Wrestling (folkstyle / freestyle / Greco-Roman)",
+      "es": "Lucha (folkstyle / libre / grecorromana)"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "light",
+       "label": {
+        "en": "Light",
+        "es": "Ligero"
+       }
+      },
+      {
+       "value": "middle",
+       "label": {
+        "en": "Middle",
+        "es": "Medio"
+       }
+      },
+      {
+       "value": "heavy",
+       "label": {
+        "en": "Heavy",
+        "es": "Pesado"
+       }
+      }
+     ]
+    },
+    {
+     "value": "boxing",
+     "label": {
+      "en": "Boxing",
+      "es": "Boxeo"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "light",
+       "label": {
+        "en": "Light",
+        "es": "Ligero"
+       }
+      },
+      {
+       "value": "middle",
+       "label": {
+        "en": "Middle",
+        "es": "Medio"
+       }
+      },
+      {
+       "value": "heavy",
+       "label": {
+        "en": "Heavy",
+        "es": "Pesado"
+       }
+      }
+     ]
+    },
+    {
+     "value": "mma",
+     "label": {
+      "en": "MMA (mixed martial arts)",
+      "es": "MMA (artes marciales mixtas)"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "light",
+       "label": {
+        "en": "Light",
+        "es": "Ligero"
+       }
+      },
+      {
+       "value": "middle",
+       "label": {
+        "en": "Middle",
+        "es": "Medio"
+       }
+      },
+      {
+       "value": "heavy",
+       "label": {
+        "en": "Heavy",
+        "es": "Pesado"
+       }
+      }
+     ]
+    },
+    {
+     "value": "bjj",
+     "label": {
+      "en": "Brazilian jiu-jitsu / grappling",
+      "es": "Jiu-jitsu brasileño (BJJ) / grappling"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "gi",
+       "label": {
+        "en": "Gi",
+        "es": "Con gi (kimono)"
+       }
+      },
+      {
+       "value": "nogi",
+       "label": {
+        "en": "No-gi / submission grappling",
+        "es": "Sin gi (no-gi) / grappling"
+       }
+      }
+     ]
+    },
+    {
+     "value": "judo",
+     "label": {
+      "en": "Judo",
+      "es": "Judo"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "light",
+       "label": {
+        "en": "Light",
+        "es": "Ligero"
+       }
+      },
+      {
+       "value": "middle",
+       "label": {
+        "en": "Middle",
+        "es": "Medio"
+       }
+      },
+      {
+       "value": "heavy",
+       "label": {
+        "en": "Heavy",
+        "es": "Pesado"
+       }
+      }
+     ]
+    },
+    {
+     "value": "karate",
+     "label": {
+      "en": "Karate",
+      "es": "Karate"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "kumite",
+       "label": {
+        "en": "Kumite (sparring)",
+        "es": "Kumite (combate)"
+       }
+      },
+      {
+       "value": "kata",
+       "label": {
+        "en": "Kata (forms)",
+        "es": "Kata (formas)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "taekwondo",
+     "label": {
+      "en": "Taekwondo",
+      "es": "Taekwondo"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "sparring",
+       "label": {
+        "en": "Sparring (kyorugi)",
+        "es": "Combate (kyorugi)"
+       }
+      },
+      {
+       "value": "poomsae",
+       "label": {
+        "en": "Poomsae (forms)",
+        "es": "Poomsae (formas)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "kickboxing_muay_thai",
+     "label": {
+      "en": "Kickboxing / Muay Thai",
+      "es": "Kickboxing / Muay Thai"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "kickboxing",
+       "label": {
+        "en": "Kickboxing",
+        "es": "Kickboxing"
+       }
+      },
+      {
+       "value": "muay_thai",
+       "label": {
+        "en": "Muay Thai (clinch-heavy)",
+        "es": "Muay Thai (con mucho clinch)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "fencing",
+     "label": {
+      "en": "Fencing",
+      "es": "Esgrima"
+     },
+     "group": "combat"
+    },
+    {
+     "value": "powerlifting",
+     "label": {
+      "en": "Powerlifting",
+      "es": "Powerlifting (levantamiento de potencia)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "raw",
+       "label": {
+        "en": "Raw / classic",
+        "es": "Raw / clásico"
+       }
+      },
+      {
+       "value": "equipped",
+       "label": {
+        "en": "Equipped",
+        "es": "Equipado"
+       }
+      }
+     ]
+    },
+    {
+     "value": "olympic_weightlifting",
+     "label": {
+      "en": "Olympic weightlifting",
+      "es": "Halterofilia (levantamiento olímpico)"
+     },
+     "group": "strength_fitness"
+    },
+    {
+     "value": "strongman",
+     "label": {
+      "en": "Strongman",
+      "es": "Strongman (hombre más fuerte)"
+     },
+     "group": "strength_fitness"
+    },
+    {
+     "value": "crossfit",
+     "label": {
+      "en": "CrossFit (competitive)",
+      "es": "CrossFit (competitivo)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "individual",
+       "label": {
+        "en": "Individual",
+        "es": "Individual"
+       }
+      },
+      {
+       "value": "team",
+       "label": {
+        "en": "Team",
+        "es": "Equipos"
+       }
+      },
+      {
+       "value": "masters_teens",
+       "label": {
+        "en": "Masters / teens",
+        "es": "Máster / adolescentes"
+       }
+      }
+     ]
+    },
+    {
+     "value": "hyrox",
+     "label": {
+      "en": "HYROX (competitive)",
+      "es": "HYROX (competitivo)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "open",
+       "label": {
+        "en": "Open",
+        "es": "Open"
+       }
+      },
+      {
+       "value": "pro",
+       "label": {
+        "en": "Pro (heavier stations)",
+        "es": "Pro (estaciones más pesadas)"
+       }
+      },
+      {
+       "value": "doubles_relay",
+       "label": {
+        "en": "Doubles / relay",
+        "es": "Dobles / relevos"
+       }
+      }
+     ]
+    },
+    {
+     "value": "ocr",
+     "label": {
+      "en": "Obstacle course racing (Spartan and similar)",
+      "es": "Carreras de obstáculos (OCR, Spartan y similares)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "short",
+       "label": {
+        "en": "Short course (5-10 km)",
+        "es": "Recorrido corto (5-10 km)"
+       }
+      },
+      {
+       "value": "long",
+       "label": {
+        "en": "Long course (21-50 km)",
+        "es": "Recorrido largo (21-50 km)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "bodybuilding_physique",
+     "label": {
+      "en": "Bodybuilding / physique",
+      "es": "Fisicoculturismo (Bodybuilding / Physique)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "bodybuilding",
+       "label": {
+        "en": "Men's bodybuilding",
+        "es": "Fisicoculturismo varonil"
+       }
+      },
+      {
+       "value": "classic",
+       "label": {
+        "en": "Classic physique",
+        "es": "Classic physique"
+       }
+      },
+      {
+       "value": "mens_physique",
+       "label": {
+        "en": "Men's physique",
+        "es": "Men's physique"
+       }
+      },
+      {
+       "value": "bikini",
+       "label": {
+        "en": "Bikini",
+        "es": "Bikini"
+       }
+      },
+      {
+       "value": "wellness",
+       "label": {
+        "en": "Wellness",
+        "es": "Wellness"
+       }
+      },
+      {
+       "value": "figure",
+       "label": {
+        "en": "Figure",
+        "es": "Figure"
+       }
+      },
+      {
+       "value": "womens_physique",
+       "label": {
+        "en": "Women's physique / bodybuilding",
+        "es": "Women's physique / fisicoculturismo femenil"
+       }
+      }
+     ]
+    },
+    {
+     "value": "gymnastics",
+     "label": {
+      "en": "Gymnastics (artistic)",
+      "es": "Gimnasia artística"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "womens",
+       "label": {
+        "en": "Women's artistic",
+        "es": "Artística femenil"
+       }
+      },
+      {
+       "value": "mens",
+       "label": {
+        "en": "Men's artistic",
+        "es": "Artística varonil"
+       }
+      }
+     ]
+    },
+    {
+     "value": "climbing",
+     "label": {
+      "en": "Climbing / bouldering",
+      "es": "Escalada / búlder (bouldering)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "bouldering",
+       "label": {
+        "en": "Bouldering",
+        "es": "Búlder (bouldering)"
+       }
+      },
+      {
+       "value": "lead",
+       "label": {
+        "en": "Lead / sport climbing",
+        "es": "Escalada deportiva (de dificultad)"
+       }
+      },
+      {
+       "value": "speed",
+       "label": {
+        "en": "Speed climbing",
+        "es": "Escalada de velocidad"
+       }
+      }
+     ]
+    },
+    {
+     "value": "tennis",
+     "label": {
+      "en": "Tennis",
+      "es": "Tenis"
+     },
+     "group": "racket_club",
+     "positions": [
+      {
+       "value": "singles",
+       "label": {
+        "en": "Singles",
+        "es": "Individual"
+       }
+      },
+      {
+       "value": "doubles",
+       "label": {
+        "en": "Doubles",
+        "es": "Dobles"
+       }
+      }
+     ]
+    },
+    {
+     "value": "pickleball",
+     "label": {
+      "en": "Pickleball (tournament)",
+      "es": "Pickleball (torneos)"
+     },
+     "group": "racket_club",
+     "positions": [
+      {
+       "value": "doubles",
+       "label": {
+        "en": "Doubles / mixed doubles",
+        "es": "Dobles / dobles mixtos"
+       }
+      },
+      {
+       "value": "singles",
+       "label": {
+        "en": "Singles",
+        "es": "Individual"
+       }
+      }
+     ]
+    },
+    {
+     "value": "padel",
+     "label": {
+      "en": "Padel (tournament)",
+      "es": "Pádel (torneos)"
+     },
+     "group": "racket_club"
+    },
+    {
+     "value": "golf",
+     "label": {
+      "en": "Golf",
+      "es": "Golf"
+     },
+     "group": "racket_club"
+    },
+    {
+     "value": "racket_other",
+     "label": {
+      "en": "Badminton / squash / racquetball / table tennis",
+      "es": "Bádminton / squash / ráquetbol / tenis de mesa"
+     },
+     "group": "racket_club",
+     "positions": [
+      {
+       "value": "badminton",
+       "label": {
+        "en": "Badminton",
+        "es": "Bádminton"
+       }
+      },
+      {
+       "value": "squash",
+       "label": {
+        "en": "Squash",
+        "es": "Squash"
+       }
+      },
+      {
+       "value": "racquetball",
+       "label": {
+        "en": "Racquetball",
+        "es": "Ráquetbol"
+       }
+      },
+      {
+       "value": "table_tennis",
+       "label": {
+        "en": "Table tennis",
+        "es": "Tenis de mesa"
+       }
+      }
+     ]
+    },
+    {
+     "value": "bowling",
+     "label": {
+      "en": "Bowling",
+      "es": "Boliche (bowling)"
+     },
+     "group": "racket_club"
+    },
+    {
+     "value": "skateboarding",
+     "label": {
+      "en": "Skateboarding (street / park)",
+      "es": "Patineta (skateboarding: street / park)"
+     },
+     "group": "aquatic_endurance_track"
+    },
+    {
+     "value": "surfing",
+     "label": {
+      "en": "Surfing (competitive)",
+      "es": "Surf (competitivo)"
+     },
+     "group": "aquatic_endurance_track"
+    },
+    {
+     "value": "speed_skating",
+     "label": {
+      "en": "Speed skating (long / short track)",
+      "es": "Patinaje de velocidad (pista larga / corta)"
+     },
+     "group": "aquatic_endurance_track"
+    }
+   ],
+   "default": null,
+   "required": true,
+   "notes": "Each sport lists its positions (sport.position) and, for some, a second choice (sport.detail)."
+  },
+  {
+   "id": "sport.position",
+   "screen": "goal",
+   "when": "goal == \"athletic\" and the sport has positions",
+   "prompt": {
+    "en": "Position or event (optional)",
+    "es": "Posición o prueba (opcional)"
+   },
+   "type": "choice",
+   "choices_from": "sport.id -> positions",
+   "default": null,
+   "required": false,
+   "notes": {
+    "en": "Not sure / all-round",
+    "es": "No sé / de todo"
+   }
+  },
+  {
+   "id": "sport.detail",
+   "screen": "goal",
+   "when": "goal == \"athletic\" and the sport has a second_choice",
+   "prompt": {
+    "en": "Second choice",
+    "es": "Segunda opción"
+   },
+   "type": "choice",
+   "choices_from": "sport.id -> second_choice.options",
+   "default": null,
+   "required": false
+  },
+  {
+   "id": "sport.season",
+   "screen": "goal",
+   "when": "goal == \"athletic\"",
+   "prompt": {
+    "en": "Your season",
+    "es": "Tu temporada"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "no_season",
+     "label": {
+      "en": "Off-season now",
+      "es": "Fuera de temporada"
+     }
+    },
+    {
+     "value": "next_season_start",
+     "label": {
+      "en": "Season starts on",
+      "es": "La temporada empieza el"
+     }
+    },
+    {
+     "value": "in_season_until",
+     "label": {
+      "en": "In season until",
+      "es": "En temporada hasta el"
+     }
+    },
+    {
+     "value": "competition_date",
+     "label": {
+      "en": "Competition on",
+      "es": "Competencia el"
+     }
+    }
+   ],
+   "default": "no_season",
+   "required": false
+  },
+  {
+   "id": "sport.season_date",
+   "screen": "goal",
+   "when": "sport.season != \"no_season\"",
+   "prompt": {
+    "en": "Date",
+    "es": "Fecha"
+   },
+   "type": "date",
+   "default": null,
+   "required": true
+  },
+  {
+   "id": "sport.level",
+   "screen": "goal",
+   "when": "goal == \"athletic\"",
+   "prompt": {
+    "en": "Level of play (optional)",
+    "es": "Nivel de competencia (opcional)"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "youth_club",
+     "label": {
+      "en": "Youth / club / age-group",
+      "es": "Juvenil / club / categorías por edad"
+     }
+    },
+    {
+     "value": "high_school",
+     "label": {
+      "en": "High school",
+      "es": "Escolar / preparatoria"
+     }
+    },
+    {
+     "value": "college",
+     "label": {
+      "en": "College",
+      "es": "Universitario"
+     }
+    },
+    {
+     "value": "pro",
+     "label": {
+      "en": "Professional",
+      "es": "Profesional"
+     }
+    },
+    {
+     "value": "masters",
+     "label": {
+      "en": "Masters",
+      "es": "Máster / veteranos"
+     }
+    },
+    {
+     "value": "amateur",
+     "label": {
+      "en": "Amateur",
+      "es": "Amateur"
+     }
+    }
+   ],
+   "default": null,
+   "required": false
+  },
+  {
+   "id": "sport.practice",
+   "screen": "goal",
+   "when": "goal == \"athletic\"",
+   "prompt": {
+    "en": "Team practices per week",
+    "es": "Prácticas de equipo por semana"
+   },
+   "type": "integer",
+   "min": 0,
+   "max": 7,
+   "default": 0,
+   "required": false,
+   "notes": "Team practices are not built into the plan; the plan tells the athlete to account for them (CH5-01)."
+  },
+  {
+   "id": "activity.id",
+   "screen": "goal",
+   "when": "goal == \"active\"",
+   "prompt": {
+    "en": "Your activity",
+    "es": "Tu actividad"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "rec_pickleball",
+     "label": {
+      "en": "Pickleball",
+      "es": "Pickleball"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "hyrox_fitness",
+     "label": {
+      "en": "HYROX",
+      "es": "HYROX"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_tennis",
+     "label": {
+      "en": "Tennis",
+      "es": "Tenis"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_padel",
+     "label": {
+      "en": "Padel",
+      "es": "Pádel"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_golf",
+     "label": {
+      "en": "Golf",
+      "es": "Golf"
+     }
+    },
+    {
+     "value": "rec_league",
+     "label": {
+      "en": "Rec league (pick the sport)",
+      "es": "Liga recreativa (elige el deporte)"
+     },
+     "league": [
+      {
+       "value": "basketball",
+       "label": {
+        "en": "Basketball - recreational (league / pickup)",
+        "es": "Baloncesto recreativo (liga / pickup)"
+       }
+      },
+      {
+       "value": "soccer",
+       "label": {
+        "en": "Soccer - recreational (adult outdoor / indoor league)",
+        "es": "Fútbol recreativo (liga de adultos, cancha abierta o techada)"
+       }
+      },
+      {
+       "value": "softball",
+       "label": {
+        "en": "Softball - recreational slow-pitch (adult league)",
+        "es": "Sóftbol recreativo de lanzamiento lento (Slow-pitch)"
+       }
+      },
+      {
+       "value": "flag_football",
+       "label": {
+        "en": "Flag football - recreational (adult / youth league)",
+        "es": "Flag football recreativo (liga de adultos / juvenil)"
+       }
+      },
+      {
+       "value": "volleyball",
+       "label": {
+        "en": "Volleyball - recreational (indoor / sand / grass league)",
+        "es": "Voleibol recreativo (liga en cancha, arena o pasto)"
+       }
+      },
+      {
+       "value": "hockey",
+       "label": {
+        "en": "Ice hockey - recreational (adult league)",
+        "es": "Hockey sobre hielo recreativo (liga de adultos)"
+       }
+      },
+      {
+       "value": "ultimate",
+       "label": {
+        "en": "Ultimate - recreational league",
+        "es": "Ultimate (frisbee) recreativo"
+       }
+      },
+      {
+       "value": "kickball",
+       "label": {
+        "en": "Kickball - adult rec league",
+        "es": "Kickball - liga recreativa de adultos"
+       }
+      },
+      {
+       "value": "other",
+       "label": {
+        "en": "Rec league (adult recreational team sport - pick the sport)",
+        "es": "Liga recreativa (deporte de equipo para adultos - elige el deporte)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "run_fitness",
+     "label": {
+      "en": "Running for fitness (first 5K / 10K, run club)",
+      "es": "Correr por salud (primer 5K / 10K, club de corredores)"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "hike_ruck",
+     "label": {
+      "en": "Hiking and rucking",
+      "es": "Senderismo y caminata con mochila (rucking)"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "cycling_fitness",
+     "label": {
+      "en": "Cycling / indoor cycling",
+      "es": "Ciclismo / ciclismo indoor"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "lap_swim",
+     "label": {
+      "en": "Lap swimming (incl. masters-style workouts)",
+      "es": "Natación por salud (incluye entrenamientos tipo máster)"
+     }
+    },
+    {
+     "value": "ski_snow_prep",
+     "label": {
+      "en": "Ski / snowboard season prep",
+      "es": "Preparación para esquí o snowboard"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "surf_paddle",
+     "label": {
+      "en": "Surf and paddleboard",
+      "es": "Surf y paddle"
+     }
+    },
+    {
+     "value": "dance_fitness",
+     "label": {
+      "en": "Dance and fitness classes",
+      "es": "Baile y clases de fitness"
+     }
+    },
+    {
+     "value": "rec_triathlon",
+     "label": {
+      "en": "Triathlon for fitness (first race / age group)",
+      "es": "Triatlón por salud (primera carrera / grupos de edad)"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_rowing",
+     "label": {
+      "en": "Rowing / indoor rowing",
+      "es": "Remo / remo indoor"
+     }
+    },
+    {
+     "value": "crossfit_class",
+     "label": {
+      "en": "CrossFit-style classes",
+      "es": "Clases estilo CrossFit"
+     }
+    },
+    {
+     "value": "weekend_warrior",
+     "label": {
+      "en": "A bit of everything",
+      "es": "Un poco de todo"
+     }
+    },
+    {
+     "value": "rec_combat_fitness",
+     "label": {
+      "en": "Boxing, kickboxing or martial-arts classes",
+      "es": "Clases de boxeo, kickboxing o artes marciales"
+     },
+     "style": [
+      {
+       "value": "striking",
+       "label": {
+        "en": "Striking (boxing, kickboxing)",
+        "es": "Golpeo (boxeo, kickboxing)"
+       }
+      },
+      {
+       "value": "grappling",
+       "label": {
+        "en": "Grappling (jiu-jitsu, wrestling)",
+        "es": "Agarre (jiu-jitsu, lucha)"
+       }
+      }
+     ],
+     "has_event_date": true
+    },
+    {
+     "value": "rec_climbing",
+     "label": {
+      "en": "Climbing / bouldering gym",
+      "es": "Escalada / búlder (bouldering) en gimnasio"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_ocr",
+     "label": {
+      "en": "Obstacle course race (first Spartan / Tough Mudder)",
+      "es": "Carrera de obstáculos (primer Spartan / Tough Mudder)"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_racket_other",
+     "label": {
+      "en": "Badminton, squash, racquetball or table tennis",
+      "es": "Bádminton, squash, ráquetbol o tenis de mesa"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_disc_golf",
+     "label": {
+      "en": "Disc golf",
+      "es": "Disc golf (golf de disco)"
+     }
+    },
+    {
+     "value": "rec_bowling",
+     "label": {
+      "en": "Bowling",
+      "es": "Boliche (bowling)"
+     }
+    },
+    {
+     "value": "rec_trail_running",
+     "label": {
+      "en": "Trail running",
+      "es": "Carrera de montaña (trail running)"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_mountain_biking",
+     "label": {
+      "en": "Mountain biking",
+      "es": "Ciclismo de montaña (MTB)"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_paddle_water",
+     "label": {
+      "en": "Kayak, canoe, wakeboard or water-ski",
+      "es": "Kayak, canoa, wakeboard o esquí acuático"
+     }
+    }
+   ],
+   "default": null,
+   "required": true
+  },
+  {
+   "id": "activity.league",
+   "screen": "goal",
+   "when": "goal == \"active\" and the activity has league choices",
+   "prompt": {
+    "en": "Which sport? (optional)",
+    "es": "¿Qué deporte? (opcional)"
+   },
+   "type": "choice",
+   "choices_from": "activity.id -> league",
+   "default": null,
+   "required": false
+  },
+  {
+   "id": "activity.style",
+   "screen": "goal",
+   "when": "goal == \"active\" and the activity has style choices",
+   "prompt": {
+    "en": "Which style? (optional)",
+    "es": "¿Qué estilo? (opcional)"
+   },
+   "type": "choice",
+   "choices_from": "activity.id -> style",
+   "default": null,
+   "required": false
+  },
+  {
+   "id": "activity.play_days",
+   "screen": "goal",
+   "when": "goal == \"active\"",
+   "prompt": {
+    "en": "Which days do you play? (optional)",
+    "es": "¿Qué días juegas? (opcional)"
+   },
+   "type": "multi",
+   "choices": [
+    {
+     "value": "Mon",
+     "label": {
+      "en": "Monday",
+      "es": "Lunes"
+     }
+    },
+    {
+     "value": "Tue",
+     "label": {
+      "en": "Tuesday",
+      "es": "Martes"
+     }
+    },
+    {
+     "value": "Wed",
+     "label": {
+      "en": "Wednesday",
+      "es": "Miércoles"
+     }
+    },
+    {
+     "value": "Thu",
+     "label": {
+      "en": "Thursday",
+      "es": "Jueves"
+     }
+    },
+    {
+     "value": "Fri",
+     "label": {
+      "en": "Friday",
+      "es": "Viernes"
+     }
+    },
+    {
+     "value": "Sat",
+     "label": {
+      "en": "Saturday",
+      "es": "Sábado"
+     }
+    },
+    {
+     "value": "Sun",
+     "label": {
+      "en": "Sunday",
+      "es": "Domingo"
+     }
+    }
+   ],
+   "default": [],
+   "required": false
+  },
+  {
+   "id": "activity.event_date",
+   "screen": "goal",
+   "when": "goal == \"active\"",
+   "prompt": {
+    "en": "Event date (optional)",
+    "es": "Fecha del evento (opcional)"
+   },
+   "type": "date",
+   "default": null,
+   "required": false,
+   "notes": {
+    "en": "The hardest weeks end one week before it.",
+    "es": "Las semanas más duras terminan una semana antes."
+   }
+  },
+  {
+   "id": "focus",
+   "screen": "goal",
+   "when": "goal == \"muscle\"",
+   "prompt": {
+    "en": "Focus muscles (optional, up to 2)",
+    "es": "Músculos de enfoque (opcional, hasta 2)"
+   },
+   "type": "multi",
+   "max_slots": 2,
+   "choices": [
+    {
+     "value": "chest",
+     "label": {
+      "en": "Chest",
+      "es": "Pecho"
+     }
+    },
+    {
+     "value": "back",
+     "label": {
+      "en": "Back",
+      "es": "Espalda"
+     }
+    },
+    {
+     "value": "shoulders",
+     "label": {
+      "en": "Shoulders (front, side and rear delts)",
+      "es": "Hombros (deltoides anterior, lateral y posterior)"
+     }
+    },
+    {
+     "value": "v_taper",
+     "label": {
+      "en": "V-taper (back + shoulders; uses both slots)",
+      "es": "Forma en V (espalda + hombros; usa ambos espacios)"
+     }
+    },
+    {
+     "value": "quads",
+     "label": {
+      "en": "Quads",
+      "es": "Cuádriceps"
+     }
+    },
+    {
+     "value": "glutes",
+     "label": {
+      "en": "Glutes",
+      "es": "Glúteos"
+     }
+    },
+    {
+     "value": "hamstrings",
+     "label": {
+      "en": "Hamstrings",
+      "es": "Isquiotibiales"
+     }
+    },
+    {
+     "value": "biceps",
+     "label": {
+      "en": "Biceps",
+      "es": "Bíceps"
+     }
+    },
+    {
+     "value": "triceps",
+     "label": {
+      "en": "Triceps",
+      "es": "Tríceps"
+     }
+    },
+    {
+     "value": "calves",
+     "label": {
+      "en": "Calves",
+      "es": "Pantorrillas"
+     }
+    },
+    {
+     "value": "core",
+     "label": {
+      "en": "Core",
+      "es": "Core / abdomen"
+     }
+    }
+   ],
+   "default": [],
+   "required": false,
+   "notes": {
+    "en": "Pick up to 2 muscles to grow a little faster (optional). The plan adds about 2 weekly sets to each.",
+    "es": "Elige hasta 2 músculos para que crezcan un poco más rápido (opcional). El plan les suma unas 2 series por semana a cada uno.",
+    "rule": "At most 2 slots; v_taper takes both."
+   }
+  },
+  {
+   "id": "format",
+   "screen": "goal",
+   "when": "goal in [\"fat_loss\", \"general\"]",
+   "prompt": {
+    "en": "How do you like to train?",
+    "es": "¿Cómo te gusta entrenar?"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "gym",
+     "label": {
+      "en": "Gym sessions",
+      "es": "Sesiones de gimnasio"
+     },
+     "sub": {
+      "en": "Exercise by exercise, sets and reps",
+      "es": "Ejercicio por ejercicio, series y repeticiones"
+     }
+    },
+    {
+     "value": "bootcamp",
+     "label": {
+      "en": "Bootcamp circuits",
+      "es": "Circuitos bootcamp"
+     },
+     "sub": {
+      "en": "Stations on a timer, in rounds",
+      "es": "Estaciones con tiempo, en rondas"
+     }
+    }
+   ],
+   "default": "gym",
+   "required": false
+  },
+  {
+   "id": "days",
+   "screen": "week",
+   "prompt": {
+    "en": "Training days per week",
+    "es": "Días de entrenamiento por semana"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": 2,
+     "label": {
+      "en": "2",
+      "es": "2"
+     }
+    },
+    {
+     "value": 3,
+     "label": {
+      "en": "3",
+      "es": "3"
+     }
+    },
+    {
+     "value": 4,
+     "label": {
+      "en": "4",
+      "es": "4"
+     }
+    },
+    {
+     "value": 5,
+     "label": {
+      "en": "5",
+      "es": "5"
+     }
+    },
+    {
+     "value": 6,
+     "label": {
+      "en": "6",
+      "es": "6"
+     }
+    }
+   ],
+   "default": 3,
+   "required": true,
+   "notes": {
+    "en": "2 days works: every big muscle is still trained. A third day lets every muscle reach 10 sets.",
+    "es": "Con 2 días se puede: cada músculo grande se sigue entrenando. Un tercer día permite llegar a 10 series por músculo."
+   }
+  },
+  {
+   "id": "weekdays",
+   "screen": "week",
+   "prompt": {
+    "en": "Which days?",
+    "es": "¿Qué días?"
+   },
+   "type": "multi",
+   "choices": [
+    {
+     "value": "Mon",
+     "label": {
+      "en": "Monday",
+      "es": "Lunes"
+     }
+    },
+    {
+     "value": "Tue",
+     "label": {
+      "en": "Tuesday",
+      "es": "Martes"
+     }
+    },
+    {
+     "value": "Wed",
+     "label": {
+      "en": "Wednesday",
+      "es": "Miércoles"
+     }
+    },
+    {
+     "value": "Thu",
+     "label": {
+      "en": "Thursday",
+      "es": "Jueves"
+     }
+    },
+    {
+     "value": "Fri",
+     "label": {
+      "en": "Friday",
+      "es": "Viernes"
+     }
+    },
+    {
+     "value": "Sat",
+     "label": {
+      "en": "Saturday",
+      "es": "Sábado"
+     }
+    },
+    {
+     "value": "Sun",
+     "label": {
+      "en": "Sunday",
+      "es": "Domingo"
+     }
+    }
+   ],
+   "default": null,
+   "required": false,
+   "notes": "Exactly `days` weekdays, or leave it out: the plan then uses its template's own days."
+  },
+  {
+   "id": "equipment",
+   "screen": "week",
+   "prompt": {
+    "en": "Where do you train?",
+    "es": "¿Dónde entrenas?"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "FULL_GYM",
+     "label": {
+      "en": "Full commercial gym",
+      "es": "Gimnasio comercial completo"
+     },
+     "sub": {
+      "en": "Machines, cables, racks, dumbbells",
+      "es": "Máquinas, poleas, racks, mancuernas"
+     }
+    },
+    {
+     "value": "BASIC_GYM",
+     "label": {
+      "en": "Basic gym (no specialty machines)",
+      "es": "Gimnasio básico (sin máquinas especiales)"
+     },
+     "sub": {
+      "en": "Racks, dumbbells, a few machines",
+      "es": "Racks, mancuernas, pocas máquinas"
+     }
+    },
+    {
+     "value": "HOME_BARBELL",
+     "label": {
+      "en": "Home gym (rack + barbell + dumbbells)",
+      "es": "Gimnasio en casa (rack + barra + mancuernas)"
+     },
+     "sub": {
+      "en": "Rack, barbell, dumbbells",
+      "es": "Rack, barra, mancuernas"
+     }
+    },
+    {
+     "value": "HOME_DB_BENCH",
+     "label": {
+      "en": "Home: dumbbells + bench",
+      "es": "Casa: mancuernas + banco"
+     },
+     "sub": {
+      "en": "Dumbbells and a bench",
+      "es": "Mancuernas y un banco"
+     }
+    },
+    {
+     "value": "KB_ONLY",
+     "label": {
+      "en": "Kettlebells only",
+      "es": "Solo kettlebells (pesas rusas)"
+     },
+     "sub": {
+      "en": "Kettlebells",
+      "es": "Kettlebells (pesas rusas)"
+     }
+    },
+    {
+     "value": "BODYWEIGHT",
+     "label": {
+      "en": "Bodyweight only",
+      "es": "Solo peso corporal"
+     },
+     "sub": {
+      "en": "No equipment",
+      "es": "Sin equipo"
+     }
+    },
+    {
+     "value": "HOTEL_GYM",
+     "label": {
+      "en": "Hotel gym",
+      "es": "Gimnasio de hotel"
+     },
+     "sub": {
+      "en": "Light dumbbells, a cable or two",
+      "es": "Mancuernas ligeras, una o dos poleas"
+     }
+    },
+    {
+     "value": "FIELD_TRACK_KIT",
+     "label": {
+      "en": "Field / track / outdoor kit",
+      "es": "Campo / pista / equipo al aire libre"
+     },
+     "sub": {
+      "en": "Cones, boxes, medballs, open space",
+      "es": "Conos, cajones, balones medicinales, espacio abierto"
+     }
+    }
+   ],
+   "default": "FULL_GYM",
+   "required": true
+  },
+  {
+   "id": "split",
+   "screen": "week",
+   "when": "goal == \"muscle\" and days in [4, 6]",
+   "prompt": {
+    "en": "Split",
+    "es": "División"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "default",
+     "label": {
+      "en": "Coach's full-body days",
+      "es": "Días de cuerpo completo del coach"
+     }
+    },
+    {
+     "value": "upper_lower",
+     "label": {
+      "en": "Upper / lower",
+      "es": "Tren superior / inferior"
+     }
+    },
+    {
+     "value": "ppl",
+     "label": {
+      "en": "Push / pull / legs",
+      "es": "Empuje / tirón / piernas"
+     }
+    }
+   ],
+   "default": "default",
+   "required": false,
+   "notes": "upper_lower only with 4 days, ppl only with 6 days."
+  },
+  {
+   "id": "weeks",
+   "screen": "week",
+   "prompt": {
+    "en": "Plan length",
+    "es": "Duración del plan"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": 12,
+     "label": {
+      "en": "12 weeks",
+      "es": "12 semanas"
+     }
+    },
+    {
+     "value": 8,
+     "label": {
+      "en": "8 weeks",
+      "es": "8 semanas"
+     }
+    }
+   ],
+   "default": 12,
+   "required": false
+  },
+  {
+   "id": "start_date",
+   "screen": "week",
+   "prompt": {
+    "en": "Start date",
+    "es": "Fecha de inicio"
+   },
+   "type": "date",
+   "default": null,
+   "required": false,
+   "notes": "Default: the next Monday."
+  },
+  {
+   "id": "tests",
+   "screen": "week",
+   "prompt": {
+    "en": "Test at the start and the end? (optional)",
+    "es": "¿Medirte al inicio y al final? (opcional)"
+   },
+   "type": "multi",
+   "choices": [
+    {
+     "value": "strength",
+     "label": {
+      "en": "Strength",
+      "es": "Fuerza"
+     }
+    },
+    {
+     "value": "cardio",
+     "label": {
+      "en": "Cardio",
+      "es": "Cardio"
+     }
+    },
+    {
+     "value": "speed_agility",
+     "label": {
+      "en": "Speed / agility",
+      "es": "Velocidad / agilidad"
+     }
+    },
+    {
+     "value": "jumps",
+     "label": {
+      "en": "Jumps",
+      "es": "Saltos"
+     }
+    },
+    {
+     "value": "body",
+     "label": {
+      "en": "Body weight / measurements",
+      "es": "Peso corporal / medidas"
+     }
+    }
+   ],
+   "default": [],
+   "required": false,
+   "notes": "Tests only in week 1 and the last week."
+  },
+  {
+   "id": "extras",
+   "screen": "week",
+   "prompt": {
+    "en": "Anything extra? (optional)",
+    "es": "¿Algo extra? (opcional)"
+   },
+   "type": "multi",
+   "choices": [
+    {
+     "value": "dumbbell",
+     "label": {
+      "en": "dumbbells",
+      "es": "mancuernas (dumbbells)"
+     }
+    },
+    {
+     "value": "kettlebell",
+     "label": {
+      "en": "kettlebells",
+      "es": "pesas rusas (kettlebells)"
+     }
+    },
+    {
+     "value": "barbell",
+     "label": {
+      "en": "barbell",
+      "es": "barra (barbell)"
+     }
+    },
+    {
+     "value": "rack",
+     "label": {
+      "en": "squat rack",
+      "es": "rack de sentadillas"
+     }
+    },
+    {
+     "value": "bench",
+     "label": {
+      "en": "bench",
+      "es": "banco"
+     }
+    },
+    {
+     "value": "pullup_bar",
+     "label": {
+      "en": "pull-up bar",
+      "es": "barra de dominadas (pull-up bar)"
+     }
+    },
+    {
+     "value": "cable",
+     "label": {
+      "en": "cable station",
+      "es": "estación de poleas (cable)"
+     }
+    },
+    {
+     "value": "medball",
+     "label": {
+      "en": "medicine ball",
+      "es": "balón medicinal (medball)"
+     }
+    },
+    {
+     "value": "box",
+     "label": {
+      "en": "box",
+      "es": "cajón"
+     }
+    },
+    {
+     "value": "sled",
+     "label": {
+      "en": "sled",
+      "es": "trineo (sled)"
+     }
+    },
+    {
+     "value": "jump_rope",
+     "label": {
+      "en": "jump rope",
+      "es": "cuerda para saltar"
+     }
+    },
+    {
+     "value": "trx",
+     "label": {
+      "en": "suspension trainer (TRX)",
+      "es": "entrenador de suspensión (TRX)"
+     }
+    },
+    {
+     "value": "cardio_machine_cal",
+     "label": {
+      "en": "cardio machine with a calorie display",
+      "es": "máquina de cardio con contador de calorías"
+     }
+    },
+    {
+     "value": "open_space_long",
+     "label": {
+      "en": "open space (20 m or more)",
+      "es": "espacio abierto (20 m o más)"
+     }
+    }
+   ],
+   "default": [],
+   "required": false
+  },
+  {
+   "id": "pain",
+   "screen": "safety",
+   "prompt": {
+    "en": "Anything hurting? (optional)",
+    "es": "¿Te duele algo? (opcional)"
+   },
+   "type": "list",
+   "item": {
+    "area": [
+     {
+      "value": "neck",
+      "label": {
+       "en": "Neck",
+       "es": "Cuello"
+      }
+     },
+     {
+      "value": "shoulder",
+      "label": {
+       "en": "Shoulder",
+       "es": "Hombro"
+      }
+     },
+     {
+      "value": "elbow",
+      "label": {
+       "en": "Elbow",
+       "es": "Codo"
+      }
+     },
+     {
+      "value": "wrist_hand",
+      "label": {
+       "en": "Wrist / hand",
+       "es": "Muñeca / mano"
+      }
+     },
+     {
+      "value": "upper_back",
+      "label": {
+       "en": "Upper back",
+       "es": "Espalda alta"
+      }
+     },
+     {
+      "value": "lower_back",
+      "label": {
+       "en": "Lower back",
+       "es": "Espalda baja"
+      }
+     },
+     {
+      "value": "hip_groin",
+      "label": {
+       "en": "Hip / groin",
+       "es": "Cadera / ingle"
+      }
+     },
+     {
+      "value": "knee",
+      "label": {
+       "en": "Knee",
+       "es": "Rodilla"
+      }
+     },
+     {
+      "value": "ankle_foot",
+      "label": {
+       "en": "Ankle / foot",
+       "es": "Tobillo / pie"
+      }
+     },
+     {
+      "value": "other",
+      "label": {
+       "en": "Other",
+       "es": "Otro"
+      }
+     }
+    ],
+    "severity": [
+     {
+      "value": "mild",
+      "label": {
+       "en": "Mild",
+       "es": "Leve"
+      }
+     },
+     {
+      "value": "moderate",
+      "label": {
+       "en": "Moderate",
+       "es": "Moderado"
+      }
+     },
+     {
+      "value": "severe",
+      "label": {
+       "en": "Severe",
+       "es": "Severo"
+      }
+     }
+    ]
+   },
+   "default": [],
+   "required": false,
+   "notes": {
+    "en": "Tap an area, then how much it hurts.",
+    "es": "Toca una zona y luego cuánto duele.",
+    "shape": "[{area, severity}]; an empty list = nothing hurts. Severe pain is planned with the moderate pain rules and the health warning."
+   }
+  },
+  {
+   "id": "health",
+   "screen": "safety",
+   "when": "not (role == \"client\" and health_route == \"coach_own_sop\")",
+   "prompt": {
+    "en": "Health check",
+    "es": "Revisión de salud"
+   },
+   "intro": {
+    "en": "Before we build your plan, a few health questions. If any of these apply to you, please talk to a doctor or a qualified professional first.",
+    "es": "Antes de crear tu plan, unas preguntas de salud. Si alguna aplica a tu caso, habla primero con un médico o un profesional calificado."
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "none",
+     "label": {
+      "en": "None of these apply to me",
+      "es": "Ninguna aplica a mi caso"
+     }
+    },
+    {
+     "value": "some",
+     "label": {
+      "en": "Some apply",
+      "es": "Algunas aplican"
+     }
+    }
+   ],
+   "default": null,
+   "required": true,
+   "questions": [
+    {
+     "key": "heart",
+     "prompt": {
+      "en": "Chest pain, fainting or a heart condition",
+      "es": "Dolor en el pecho, desmayos o una condición cardíaca"
+     }
+    },
+    {
+     "key": "surgery_6mo",
+     "prompt": {
+      "en": "Surgery or a fracture in the last 6 months",
+      "es": "Cirugía o fractura en los últimos 6 meses"
+     }
+    },
+    {
+     "key": "pregnant_postpartum_6mo",
+     "prompt": {
+      "en": "Pregnant, or gave birth in the last 6 months",
+      "es": "Embarazo, o parto en los últimos 6 meses"
+     }
+    },
+    {
+     "key": "injury_in_treatment",
+     "prompt": {
+      "en": "An injury currently under treatment",
+      "es": "Una lesión en tratamiento actualmente"
+     }
+    },
+    {
+     "key": "doctor_said_no",
+     "prompt": {
+      "en": "A doctor told you not to train",
+      "es": "Un médico te indicó no entrenar"
+     }
+    }
+   ],
+   "notes": {
+    "en": "A yes does not stop your plan. The plan is built with a health warning: see a medical professional first.",
+    "es": "Un sí no detiene tu plan. El plan se crea con un aviso de salud: consulta primero a un profesional médico.",
+    "parq": "https://eparmedx.com/",
+    "rule": "Read the 5 questions to the person. \"some\" -> ask each one yes / no and send safety {key: true|false}."
+   }
+  },
+  {
+   "id": "safety",
+   "screen": "safety",
+   "when": "health == \"some\"",
+   "prompt": {
+    "en": "Health check",
+    "es": "Revisión de salud"
+   },
+   "type": "yes_no_each",
+   "keys": [
+    "heart",
+    "surgery_6mo",
+    "pregnant_postpartum_6mo",
+    "injury_in_treatment",
+    "doctor_said_no"
+   ],
+   "default": {
+    "heart": false,
+    "surgery_6mo": false,
+    "pregnant_postpartum_6mo": false,
+    "injury_in_treatment": false,
+    "doctor_said_no": false
+   },
+   "required": true
+  },
+  {
+   "id": "accepted",
+   "screen": "safety",
+   "prompt": {
+    "en": "Terms and release (required)",
+    "es": "Términos y liberación (obligatorio)"
+   },
+   "type": "release",
+   "default": false,
+   "required": true,
+   "notes": "Show the release text for the version that applies (release.client for the person themselves, release.coach for a coach building for a client, release.minor in addition under 18), then ask for an explicit \"I accept\". Never assume it."
+  },
+  {
+   "id": "guardian",
+   "screen": "safety",
+   "when": "age < 18",
+   "prompt": {
+    "en": "I am the parent or legal guardian of this athlete (under 18), I read the release and I accept it for them.",
+    "es": "Soy el padre, la madre o el tutor legal de este atleta (menor de 18), leí la liberación y la acepto en su nombre."
+   },
+   "type": "boolean",
+   "default": false,
+   "required": true,
+   "notes": {
+    "en": "Under 18: a parent or legal guardian must read and accept this release. Guardian's name: [ ]",
+    "es": "Menores de 18 años: un padre, madre o tutor legal debe leer y aceptar esta liberación de responsabilidad. Nombre del tutor: [ ]"
+   }
+  }
+ ]
+}

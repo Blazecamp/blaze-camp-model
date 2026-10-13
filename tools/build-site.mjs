@@ -17,7 +17,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { brandI18n, legalSub, legalPartyTexts } from './brand-legal.mjs';
+import { legalSub, legalPartyTexts, brandModelRaw } from './brand-legal.mjs';
 import { markdown, escapeHtml } from '../app/md.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -80,23 +80,13 @@ if (!LEGAL) {
   copy('model/rules.json', 'model/rules.json');
   for (const f of ['en.json', 'es.json', 'es_review.json']) copy(`model/i18n/${f}`, `model/i18n/${f}`);
 } else {
-  const rules = JSON.parse(fs.readFileSync(path.join(ROOT, 'model/rules.json'), 'utf8'));
-  if (rules.legal) {
-    rules.legal.owner = legalSub(String(rules.legal.owner || '').replace(/^Lalo Vera \/ Blaze Camp \/ BFit Studios Corp\.$/, 'Lalo Vera, Blaze Camp and BFit Studios Corp.'), 'en', LEGAL).replace(/\.$/, '');
-    // the brand's own disclaimer pages; the page sets the absolute link from its address at load time (app/brand-apply.js)
-    const host = process.env.SITE_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? 'https://' + process.env.VERCEL_PROJECT_PRODUCTION_URL : 'https://localhost');
-    rules.legal.disclaimer_url = { ...rules.legal.disclaimer_url, en: new URL(LEGAL.disclaimer.en, host.replace(/\/?$/, '/')).href, es: new URL(LEGAL.disclaimer.es, host.replace(/\/?$/, '/')).href };
-  }
-  put('model/rules.json', JSON.stringify(rules, null, 1) + '\n');
-  for (const lang of ['en', 'es']) {
-    const table = JSON.parse(fs.readFileSync(path.join(ROOT, `model/i18n/${lang}.json`), 'utf8'));
-    const out = brandI18n(table, lang, LEGAL).table;
-    // the brand's display words (brand.model_words; the page applies them too, app/brand-apply.js > brandRaw)
-    for (const [k, v] of Object.entries((BRAND.model_words && BRAND.model_words[lang]) || {})) if (k in out) out[k] = v;
-    put(`model/i18n/${lang}.json`, JSON.stringify(out, null, 1) + '\n');
-  }
-  const rev = fs.readFileSync(path.join(ROOT, 'model/i18n/es_review.json'), 'utf8');
-  put('model/i18n/es_review.json', JSON.stringify(deepSub(JSON.parse(rev), 'es'), null, 1) + '\n');
+  // the one description of what a brand changes in the model's words (tools/brand-legal.mjs > brandModelRaw; the agent tools use it too)
+  const readJ = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, 'model', f), 'utf8'));
+  const host = process.env.SITE_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? 'https://' + process.env.VERCEL_PROJECT_PRODUCTION_URL : 'https://localhost');
+  const b = brandModelRaw({ rules: readJ('rules.json'), i18n: { en: readJ('i18n/en.json'), es: readJ('i18n/es.json'), es_review: readJ('i18n/es_review.json') } }, BRAND, { siteUrl: host });
+  put('model/rules.json', JSON.stringify(b.rules, null, 1) + '\n');
+  for (const lang of ['en', 'es']) put(`model/i18n/${lang}.json`, JSON.stringify(b.i18n[lang], null, 1) + '\n');
+  put('model/i18n/es_review.json', JSON.stringify(b.i18n.es_review, null, 1) + '\n');
 }
 
 // 4. the legal files: the repository's disclaimers and license, or, for a brand with its own legal wording, its disclaimer pages
@@ -145,14 +135,6 @@ function brandIndex(html) {
     sub(/<p>Loading\.\.\.<\/p>/, '<p>Cargando...</p>');
   }
   return html;
-}
-
-/** strings anywhere in a JSON value, with the brand's legal wording */
-function deepSub(v, lang) {
-  if (typeof v === 'string') return legalSub(v, lang, LEGAL);
-  if (Array.isArray(v)) return v.map(x => deepSub(x, lang));
-  if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, deepSub(x, lang)]));
-  return v;
 }
 
 /** the brand's disclaimer page: the repository's DISCLAIMER*.md with the brand's legal party wording, as a plain HTML page */

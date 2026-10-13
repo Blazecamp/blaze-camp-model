@@ -177,6 +177,7 @@ Full trace: [coverage_matrix_round5.md](coverage_matrix_round5.md). Decisions: `
 | `coverage_matrix*.md` | Each coach answer → master section + spec key (one file per round; `coverage_matrix_round5.md` also names the rules key, layer, decision and test) | yes |
 | `model/` | Compiled runtime model: `manifest.json`, `catalog.json`, `rules.json`, `templates.json`, `profiles.json`, `i18n/{en,es,es_review}.json`, `MODEL_VERSION`, `CHANGELOG.md`, `COMPILE_REPORT.json` | **generated**, never by hand |
 | `engine/` | The plan engine (`*.mjs`, `progression/`) + `README.md`, `CONTRACTS.md`, `DECISIONS.md`, `BUILD_PLAN.md`, `CONTRACT_REQUESTS.md`; `fixtures/mini-model.json` (reference compile, generated) | yes, per §11 |
+| `agent/`, `api/`, `AGENT_PLAYBOOK.md`, `.claude/skills/build-plan/` | Agents that build plans in a conversation: the shared core, the questions as data, the MCP server, the HTTP API (Vercel functions), the playbook and the Claude Code skill (§15) | yes |
 | `tools/` | CLIs (the only code with file I/O): `compile-model.mjs` + `compile/*.mjs` (+ `compile/es/` Spanish tables), `check-model.mjs`, `generate-samples.mjs`, `sweep.mjs`, `fixture/*.mjs` (reference fixture builder and the shared amendment layers, oldest `review-v12.mjs` to newest `v07-words.mjs`) | yes |
 | `tests/` | `node:test` suites, `helpers/`, `invariants/`, `audit/`, `progression/`, `fixtures/plan-min.json`, `run-all.mjs` + `package.json` (make `node --test tests/` work) | yes |
 | `samples/` | `intakes/` (the coach's 7 sample clients + a 52-year-old pickleball player), `plans/` (generated JSON + Markdown, three also in Spanish), `SAMPLES.md`, `STATUS_v0.5.md` (results, gaps, open questions; the engine 0.6 and 0.7 rounds are at its end), and the v0.4 history `REVIEW_LOG.md`, `RECHECK_v0.3.md`, `_retired_v1_0/` | intakes yes; plans generated |
@@ -244,6 +245,8 @@ team work ─────┘          │
 ---
 
 ## 8. Generate a plan
+
+For any single intake or the web tool's answers, `node tools/plan.mjs` writes Markdown, PDF, JSON or HTML for any brand (§15).
 
 ### 8.1 Command line (the sample intakes)
 
@@ -487,3 +490,35 @@ Four ways a plan is checked, from cheapest to closest to the coach: the engine's
 * **Every generated plan** requires the accepted release for that build (`intake.release`, H20; stamped as `plan.release_stamp` with `accepted: true`). The rendered plan prints the release line at the top and at the bottom, and a short line on every block, week and day view, with the link to the disclaimer.
 * **Data:** the generator keeps no personal data (R3-GEN-01, DISCLAIMER §7). If you build an app or service on this, privacy and data handling are yours.
 * **Third-party content:** the compiled model and the library source hold no third-party video links (R4-LIB-05). By the coach's decision R5-PUB-01 the exports of his original sheets (`raw/`, `dumps/`) are kept public as **link-stripped exports**: every third-party video link in them, in the first-pass files in `analysis/`, in `synthesis/02_exercise_catalog_crosswalk.json` and in the old model snapshots in `design/scratch/snap*/` was replaced with `[video link removed]` (2026-10-12; `engine/DECISIONS.md` G-276). They were checked for client names and contact details; none were found. Only YouTube search links built from exercise names remain.
+
+---
+
+## 15. Agents that build plans
+
+An AI agent (Claude Desktop, Claude Code, Claude in Chrome, ChatGPT, any MCP or shell agent) can build a plan when someone asks:
+it asks the web tool's questions in conversation, shows the release and gets an explicit "I accept", builds the plan and gives
+back a PDF and Markdown (EN or ES, in the right brand), or hands out a prefilled link to the web tool. How to talk to the person:
+[AGENT_PLAYBOOK.md](AGENT_PLAYBOOK.md). Setup recipes: [agent/README.md](agent/README.md).
+
+| Path | Entry |
+|---|---|
+| Shell / any agent | `node tools/plan.mjs --questions --lang es`; `node tools/plan.mjs --answers a.json --brand <id> --lang es --out plans --format md,pdf [--site https://...]`; `--intake`, `--link`, `--plan ... --edits ...` |
+| MCP (stdio) | `node agent/mcp-server.mjs [--out dir]`: `get_questions`, `build_plan`, `render_plan`, `plan_slots`, `search_exercises`, `edit_plan`, `list_brands` |
+| HTTP (each Vercel deployment) | `GET /api/questions?lang=`, `POST /api/plan`, `GET /api/openapi` (for a custom GPT Action) |
+| Claude Code skill | `.claude/skills/build-plan/SKILL.md` |
+| Prefilled web link | `app/prefill.js`: `https://<site>/#a=<base64url answers>&l=es`; the page opens on its last screen |
+
+* **One source.** The questions are built from the wizard (`app/intake-builder.js`, `app/i18n.js`) and the model's words
+  (`agent/questions.mjs`; `agent/questions.json` is checked current by a test). The brand's words and legal party wording come
+  from `app/brands/<id>.js` through `tools/brand-legal.mjs > brandModelRaw`, the same function the site build uses. The PDF is
+  `app/pdf.js` with the vendored jsPDF, run in Node. Nothing names a brand in `agent/`.
+* **Gate and data rules.** The release must be accepted in the conversation before `accepted: true` is sent; the agent attests it
+  (coach's decision, 2026-10-13), and the prefilled link is the recommended path when the person is not in the conversation (the
+  link never carries `accepted`, `guardian` or the health answers, and the answers sit in the URL fragment, which never reaches a
+  server). A health yes warns and does not stop the plan. Nothing is stored or logged; the API answers `Cache-Control: no-store`.
+  The API is open like the web tool (coach's decision, 2026-10-13); no rate limit yet.
+* **Brands.** A deployment answers with its env `BRAND`; the CLI and MCP take `--brand`. The site address (`--site`, env
+  `SITE_URL_<ID>` / `SITE_URL`, or `site_url` in the brand file) gives the link, and for a brand with its own disclaimer pages
+  (Son Hábitos) the release link, so it is required for that brand. A new brand is a new `app/brands/<id>.js` plus a Vercel
+  project with `BRAND=<id>`.
+* **Tests.** `tests/agent-cli.test.mjs`, `agent-questions`, `agent-mcp`, `agent-api` (mock req / res), `agent-prefill`.

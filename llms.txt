@@ -64,6 +64,12 @@ Authority order when sources disagree: coach_answers_round5.md with coach_answer
 - [model/i18n/en.json](model/i18n/en.json): English words; Spanish twin in model/i18n/es.json, machine-translated lines pending approval in model/i18n/es_review.json
 - [model/CHANGELOG.md](model/CHANGELOG.md): coach corrections applied by the compiler
 
+## Agents that build plans
+
+- [AGENT_PLAYBOOK.md](AGENT_PLAYBOOK.md): how an AI agent builds a plan in a conversation: the questions in order, a summary, the release and an explicit "I accept", the build, the PDF / Markdown or the prefilled web link, edits
+- [agent/README.md](agent/README.md): setup recipes: Claude Desktop and Claude Code (MCP server agent/mcp-server.mjs, skill .claude/skills/build-plan), ChatGPT custom GPT (Action from /api/openapi), any shell agent (tools/plan.mjs); brands
+- [agent/questions.json](agent/questions.json): the questions as data (EN / ES labels, choices, defaults, the health questions, the release texts verbatim)
+
 ## Tools and tests
 
 - [tools/compile-model.mjs](tools/compile-model.mjs): compiles the sources into model/ (`--out <dir>` for a scratch copy)
@@ -72,6 +78,7 @@ Authority order when sources disagree: coach_answers_round5.md with coach_answer
 - [design/bench/](design/bench/): the benchmark: 94 intakes, a scorer written separately from the engine, the engine 0.4 baseline and the 0.5 results
 - [tools/generate-samples.mjs](tools/generate-samples.mjs): generates and validates the sample plans (`--only <prefix>`, `--out <dir>`, `--fixture`)
 - [tools/check-model.mjs](tools/check-model.mjs): contract checks on a compiled model
+- [tools/plan.mjs](tools/plan.mjs): build one plan from an intake or the web tool's answers: Markdown, PDF, JSON, HTML, any brand, EN / ES; the questions; the prefilled link; edits
 - [tests/invariants/invariants.test.mjs](tests/invariants/invariants.test.mjs): hard rules re-checked on samples, random intakes, every sport and activity
 
 ## Samples and reviews

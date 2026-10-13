@@ -15,6 +15,7 @@ import { deliver, toast, isMobile } from './deliver.js';
 import { loadJsPdf, planPdfBlob, pdfFileName } from './pdf.js';
 import { validateIntake } from '../engine/intake.mjs';
 import { renderPlan } from '../engine/render.mjs';
+import { decodePrefill } from './prefill.js';
 
 const $app = document.getElementById('app');
 const $print = document.getElementById('print-root');
@@ -928,7 +929,20 @@ async function boot() {
     S.screen = 'error'; render(); return;
   }
   S.answers = B.defaultAnswers(today());
+  applyPrefill();
   S.screen = 'wizard';
   render();
+}
+
+// ---- prefilled link from an AI agent (#a=...; app/prefill.js): answers filled in, the last screen open, the person answers the
+// health check and accepts the release themselves. The fragment never reaches a server; it is dropped from the address bar here.
+function applyPrefill() {
+  const pre = decodePrefill(location.hash, S.answers);
+  if (!pre) return;
+  S.answers = pre.answers;
+  pre.touched.forEach(k => S.touched.add(k));
+  if (pre.lang) { S.lang = pre.lang; applyChrome(); }
+  S.step = SCREENS.length - 1;
+  try { history.replaceState(null, '', location.pathname + location.search); } catch { /* fine */ }
 }
 boot();

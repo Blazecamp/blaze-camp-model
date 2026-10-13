@@ -100,6 +100,7 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
 | `snapshot.js` | *Save image*: the day card as a PNG |
 | `pdf.js` | *Download PDF*: `pdfDoc` (the PDF's words, pure) and `drawPdf` (the layout, given jsPDF), tested by `tests/app-pdf.test.mjs` |
 | `deliver.js` | hands the PDF / PNG over: share sheet, the fallback sheet, download; the toast |
+| `prefill.js` | a prefilled link from an AI agent (`#a=<base64url answers>&l=es`, in the fragment so it never reaches a server): the page opens on its last screen with the answers filled in; never the acceptance, the guardian box or the health answers (`agent/README.md`) |
 | `vendor/` | `jspdf.umd.min.js` (jsPDF 4.2.1 from npm, MIT, its license in `jspdf.LICENSE.txt`; only the source-map comment removed) |
 | `brand.js`, `brand-apply.js`, `brands/` | the active brand (the build rewrites `brand.js`), what a brand changes (pure: words, language, disclaimer link), and the brands: `brands/blazecamp.js`, `brands/sonhabitos.js` + `brands/sonhabitos/` (stylesheet, logo, icons) |
 | `screenshots/` | phone (390×844) and desktop (1280×800) screenshots, EN and ES: the 4 wizard screens, the building screen, day cards and the progress tab; `screenshots/sonhabitos/` the Son Hábitos site (phone, ES first) |

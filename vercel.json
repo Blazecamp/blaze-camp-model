@@ -5,6 +5,12 @@
   "installCommand": "",
   "framework": null,
   "cleanUrls": true,
+  "functions": {
+    "api/*.mjs": {
+      "maxDuration": 60,
+      "includeFiles": "{model/**,engine/**,agent/**,app/*.js,app/brands/**,app/vendor/**,tools/brand-legal.mjs}"
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",
@@ -28,7 +34,7 @@
       ]
     },
     {
-      "source": "/((?!engine/|model/).*)",
+      "source": "/((?!engine/|model/|api/).*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -51,6 +57,15 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
         }
       ]
     }
