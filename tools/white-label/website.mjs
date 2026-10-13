@@ -2,7 +2,10 @@
 // a logo, an icon, its colours and its language. Node 22's own fetch, no dependencies, nothing stored. Every finding says where it
 // came from, so the agent can print what was found and what was guessed; explicit flags always win.
 //   extractFromHtml(html, baseUrl)            the facts in one HTML page (pure; tests/white-label.test.mjs uses local fixtures)
-//   fromWebsite(url, {fetchText, fetchBytes}) fetch the page and its linked stylesheets (at most 6), then the logo bytes
+//   fromWebsite(url, {fetchText, fetchBytes}) fetch the page and its linked stylesheets (at most 6), then the logo bytes, then (for
+//                                             the gym's legal name, CH7-11) its terms / privacy / legal pages (at most 3)
+//   legalNameCandidates(html, from, brand)    company names in a page: "© 2026 Iron Temple Fitness LLC", "Fuerza Latina S.A. de C.V."
+// A logo may be any image a browser shows (PNG, JPEG, SVG, WEBP, GIF, ICO, an inline <svg>): tools/new-brand.mjs makes it a PNG.
 import { normHex, isBrandish, hueDistance, hsl } from './colors.mjs';
 import { sniff } from './images.mjs';
 
@@ -52,9 +55,19 @@ export function imageCandidates(html, base) {
   // <img> (and <source> / inline <svg> are skipped) with "logo" in its class, id, src or alt
   for (const img of tags(html, 'img')) {
     const src = img.src || img['data-src'] || (img.srcset || '').split(/\s+/)[0];
-    if (!src || /^data:/i.test(src) && !/^data:image\/(png|svg|jpeg)/i.test(src)) continue;
+    if (!src || /^data:/i.test(src) && !/^data:image\/(png|svg|jpeg|webp|gif)/i.test(src)) continue;
     const hay = [img.class, img.id, src, img.alt].join(' ');
     if (/logo/i.test(hay)) logos.push({ url: abs(src, base), kind: 'logo', from: '<img> with "logo" in ' + ['class', 'id', 'src', 'alt'].filter(k => /logo/i.test(k === 'src' ? src : img[k] || '')).join('/'), alt: img.alt || '' });
+  }
+  // an inline <svg> logo (common on site builders): the <svg> itself, or the first one inside an element named "logo"
+  for (const m of String(html).matchAll(/<svg\b[^>]*>[\s\S]*?<\/svg\s*>/gi)) {
+    const open = /^<svg\b[^>]*>/i.exec(m[0])[0], before = String(html).slice(Math.max(0, m.index - 300), m.index);
+    const own = /logo/i.test(open), parent = /<[a-z][^<>]*logo[^<>]*>\s*(?:<[a-z][^<>]*>\s*){0,2}$/i.test(before);
+    if (!own && !parent) continue;
+    let svg = m[0];
+    if (!/\sxmlns\s*=/.test(open)) svg = svg.replace(/^<svg\b/i, '<svg xmlns="http://www.w3.org/2000/svg"');
+    logos.push({ url: 'data:image/svg+xml;base64,' + Buffer.from(svg).toString('base64'), kind: 'logo', from: own ? 'inline <svg> with "logo"' : 'inline <svg> inside a "logo" element' });
+    if (logos.length >= 3) break;
   }
   for (const l of tags(html, 'link')) {
     const rel = (l.rel || '').toLowerCase(), href = l.href && abs(l.href, base);
@@ -105,13 +118,91 @@ export function pickColors(f) {
   return { primary, accent, ink: f.ink ? { value: f.ink, from: 'CSS variable (text)' } : null };
 }
 
+// ------------------------------------------------------------------------------------------------- the gym's legal name (CH7-11)
+
+/** a page as plain text, one line per block (scripts and styles dropped) */
+export function pageText(html) {
+  return decode(String(html).replace(/<(script|style|noscript|template)\b[\s\S]*?<\/\1\s*>/gi, ' ')
+    .replace(/<\/?(br|p|div|li|ul|ol|footer|header|section|article|nav|h[1-6]|tr|td|table|aside|main)\b[^>]*>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ').replace(/&copy;|&#169;|&#xa9;/gi, '©')).replace(/[ \t\u00a0]+/g, ' ').split('\n').map(l => l.trim()).filter(Boolean).join('\n');
+}
+// company endings (English and Latin American / Spanish), the longest first
+const ENTITY = String.raw`(?:L\.?\s?L\.?\s?C\.?|P\.?\s?L\.?\s?L\.?\s?C\.?|L\.?L\.?P\.?|Inc(?:orporated|\.)?|Corp(?:oration|\.)?|Ltd\.?|` +
+  String.raw`S\.?\s?A\.?\s?P\.?\s?I\.?\s?de\s?C\.?\s?V\.?|S\.?\s?A\.?\s?de\s?C\.?\s?V\.?|S\.?\s?de\s?R\.?\s?L\.?(?:\s?de\s?C\.?\s?V\.?)?|S\.?\s?A\.?\s?S\.?|S\.?\s?R\.?\s?L\.?|S\.?\s?L\.?|S\.?\s?A\.?|SAS|SRL|LLC|PLLC|LLP)`;
+// one to six name words (capitalised, digits, & and the small joining words) before the ending
+const NAME_WORD = String.raw`(?:[A-Z0-9ÁÉÍÓÚÑÜ][\w'’&.\-]*|&|and|y|de|del|la|las|los|of|the)`;
+const ENTITY_RE = new RegExp(String.raw`(${NAME_WORD}(?:\s+${NAME_WORD}){0,6}?),?\s+(${ENTITY})(?![\w])`, 'g');
+// web platforms, payment and booking companies that sign many gyms' footers: never the gym
+const NOT_THE_GYM = /\b(wix|squarespace|wordpress|automattic|godaddy|shopify|mindbody|glofox|zen ?planner|wodify|pushpress|google|meta platforms|facebook|apple|microsoft|stripe|paypal|weebly|webflow|hubspot|clubready|abc fitness|bfit studios)\b/i;
+// what is left at the start of a footer line before the name: "©", "Copyright", years, "by"
+const LEAD = /^(?:(?:©|\(c\)|copyright|derechos reservados|all rights reserved|todos los derechos reservados|by|por|\d{4}(?:\s*[-–]\s*\d{4})?|[,.|·•–-])\s*)+/i;
+
+/**
+ * Company names in one page, best first: [{value, from, score}]. A name with a company ending (LLC, Inc., Corp., S.A. de C.V.,
+ * S.A.S. ...) counts; a footer "©" line scores higher, and a name that shares a word with the gym's brand name higher still.
+ * Without any company ending, the "©" holder is returned with entity: false (a hint, never confirmed).
+ */
+export function legalNameCandidates(html, from, brand = '') {
+  const text = pageText(html), out = [];
+  const brandWords = new Set(String(brand).toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(w => w.length >= 3 && !/^(gym|the|club|fitness|studio|crossfit|training|center|centro)$/.test(w)));
+  const seen = new Set();
+  for (const line of text.split('\n')) {
+    const copy = /©|\(c\)|copyright|derechos reservados/i.test(line);
+    for (const m of line.matchAll(ENTITY_RE)) {
+      // the name starts after the last sentence end inside it ("Welcome. Iron Temple Fitness LLC")
+      let name = m[1].split(/[.!?]\s+(?=[A-ZÁÉÍÓÚÑ])/).pop().replace(LEAD, '').trim();
+      name = name.replace(/^(?:(?:and|y|de|del|la|las|los|of|the)(?:\s+|$))+/i, '').trim();
+      if (!name || !/[A-Za-zÁÉÍÓÚÑ]/.test(name)) continue;
+      const value = `${name}${/^,/.test(line.slice(m.index + m[1].length)) ? ',' : ''} ${m[2].replace(/\s+/g, ' ')}`.replace(/\s+,/, ',').trim()
+        .replace(/\b(LLC|PLLC|LLP|SAS|SRL)\.$/, '$1');   // "Iron Temple Fitness LLC." at a sentence end
+      if (NOT_THE_GYM.test(value) || value.length > 80) continue;
+      const key = value.toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const shares = [...brandWords].some(w => value.toLowerCase().includes(w));
+      out.push({ value, entity: true, page: from, copyright: copy, from: `${from}${copy ? ', copyright line' : ''}: "${line.length > 90 ? line.slice(0, 87) + '...' : line}"`, score: (copy ? 2 : 1) + (shares ? 2 : 0) });
+    }
+    if (copy && !out.some(c => c.from.includes(line.slice(0, 40)))) {
+      const holder = line.replace(/^.*?(?:©|\(c\)|copyright)\s*/i, '').replace(LEAD, '').split(/[.|·•]|\s[-–]\s|all rights|todos los derechos|derechos reservados/i)[0].trim();
+      if (holder && holder.length <= 60 && /[A-Za-zÁÉÍÓÚÑ]/.test(holder) && !NOT_THE_GYM.test(holder)) {
+        out.push({ value: holder, entity: false, from: `${from}, copyright line: "${line.length > 90 ? line.slice(0, 87) + '...' : line}"`, score: 0 });
+      }
+    }
+  }
+  return out.sort((a, b) => b.score - a.score);
+}
+
+/** links from the home page to its terms, privacy or legal pages (same site), at most 3 */
+export function legalPageUrls(html, base) {
+  const out = [];
+  const host = (() => { try { return new URL(base).host; } catch { return null; } })();
+  for (const m of String(html).matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a\s*>/gi)) {
+    const href = (/\shref\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/i.exec(m[1]) || [])[1];
+    if (!href) continue;
+    const url = abs(decode(href.replace(/^["']|["']$/g, '')), base), label = decode(m[2].replace(/<[^>]+>/g, ' '));
+    if (!url || !/^(https?|file):/.test(url) || (host && new URL(url).host !== host)) continue;
+    if (!/terms|privacy|legal|conditions|policy|waiver|t[ée]rminos|privacidad|aviso|condiciones|pol[ií]tica/i.test(url + ' ' + label)) continue;
+    const u = url.replace(/#.*$/, '');
+    if (!out.includes(u) && u !== String(base).replace(/#.*$/, '')) out.push(u);
+    if (out.length >= 3) break;
+  }
+  return out;
+}
+
 /** every fact from one page (no network) */
 export function extractFromHtml(html, baseUrl, cssTexts = []) {
   const name = siteName(html);
   const lang = siteLang(html);
   const images = imageCandidates(html, baseUrl);
   const colors = pickColors(colorFacts(html, cssTexts));
-  return { name, lang: lang ? { value: lang, from: '<html lang>' } : null, images, colors };
+  const legal = legalNameCandidates(html, 'home page', name ? name.value : '');
+  return { name, lang: lang ? { value: lang, from: '<html lang>' } : null, images, colors, legal };
+}
+
+/** the best legal name: a company name (entity ending) from the home page or its legal pages; else null */
+export function pickLegalName(cands) {
+  const best = cands.filter(c => c.entity).sort((a, b) => b.score - a.score)[0];
+  return best ? { value: best.value, from: best.from, page: best.page, copyright: best.copyright } : null;
 }
 
 /** the linked stylesheets of a page (same order as the page), absolute */
@@ -120,7 +211,7 @@ export const stylesheetUrls = (html, base) => tags(html, 'link').filter(l => /st
 /**
  * Fetch a website and pull its brand facts. `io` lets a caller (or a test) read local files instead of the network:
  *   io.fetchText(url) -> string, io.fetchBytes(url) -> Buffer. Defaults: Node's fetch, 15 s, 3 MB at most.
- * The logo (and icon) chosen are the first candidates that download as PNG, JPEG or SVG.
+ * The logo (and icon) chosen are the first candidates that download as an image (PNG, JPEG, SVG, WEBP, GIF, ICO).
  */
 export async function fromWebsite(url, io = {}) {
   const fetchText = io.fetchText || (async (u) => (await netFetch(u)).toString('utf8'));
@@ -135,7 +226,7 @@ export async function fromWebsite(url, io = {}) {
       try {
         const buf = c.url.startsWith('data:') ? dataUrlBytes(c.url) : await fetchBytes(c.url);
         const type = sniff(buf);
-        if (['png', 'jpeg', 'svg'].includes(type)) return { ...c, type, bytes: buf };
+        if (['png', 'jpeg', 'svg', 'webp', 'gif', 'ico'].includes(type)) return { ...c, type, bytes: buf };
         tried.push(`${c.url} (${type || 'unknown type'}: skipped)`);
       } catch (e) { tried.push(`${c.url} (${e.message})`); }
     }
@@ -143,6 +234,14 @@ export async function fromWebsite(url, io = {}) {
   };
   facts.logo = await firstImage(facts.images.logo);
   facts.icon = await firstImage(facts.images.icon.filter(c => !facts.logo || c.url !== facts.logo.url));
+  // the gym's legal name: the home page, then its terms / privacy / legal pages
+  const cands = [...facts.legal];
+  for (const u of legalPageUrls(html, url)) {
+    try { cands.push(...legalNameCandidates(await fetchText(u), u, facts.name ? facts.name.value : '')); } catch (e) { tried.push(`${u} (${e.message})`); }
+  }
+  facts.legal = cands.sort((a, b) => b.score - a.score);
+  facts.legal_name = pickLegalName(facts.legal);
+  facts.copyright_holder = facts.legal_name ? null : (facts.legal.find(c => !c.entity) || null);
   facts.skipped = tried;
   return facts;
 }

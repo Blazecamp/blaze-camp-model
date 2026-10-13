@@ -29,7 +29,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { legalSub, brandModelRaw } from './brand-legal.mjs';
+import { legalSub, brandModelRaw, withAddendum } from './brand-legal.mjs';
 import { leakChecker, readBrands, DEFAULT_BRAND, OWNER_NAMES } from './white-label/leaks.mjs';
 import { markdown, escapeHtml } from '../app/md.js';
 
@@ -205,11 +205,12 @@ function brandIndex(html, BRAND) {
   return html;
 }
 
-/** the brand's disclaimer page: the repository's DISCLAIMER*.md with the brand's legal party wording, as a plain HTML page */
+/** the brand's disclaimer page: the repository's DISCLAIMER*.md with the brand's legal party wording (and, for a white-label gym,
+ *  the section "How this tool is provided": tools/brand-legal.mjs > withAddendum), as a plain HTML page */
 function disclaimerPage(file, lang, BRAND) {
   const LEGAL = BRAND.legal;
   let md = fs.readFileSync(path.join(ROOT, file), 'utf8');
-  md = legalSub(md, lang, LEGAL)
+  md = withAddendum(legalSub(md, lang, LEGAL), lang, LEGAL)
     .replace(/`DISCLAIMER\.es\.md`/g, lang === 'en' ? `[${LEGAL.disclaimer.es}](${LEGAL.disclaimer.es})` : '`' + LEGAL.disclaimer.es + '`')
     .replace(/`DISCLAIMER\.md`/g, `[${LEGAL.disclaimer.en}](${LEGAL.disclaimer.en})`);
   // md.js links only http(s); the two pages link each other by a relative link

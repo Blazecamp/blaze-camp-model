@@ -1,23 +1,32 @@
 #!/usr/bin/env node
-// tools/new-brand.mjs - make a white-label brand from a few simple inputs, with no hand editing (WHITE_LABEL.md, step 1).
-// Same app, same engine, same model as every brand; only the name, logo, colours and words change.
+// tools/new-brand.mjs - make a white-label brand from a few simple inputs, with no hand editing (WHITE_LABEL.md, steps 1-2).
+// Same app, same engine, same model as every brand; only the name, logo, colours, words and the gym's company change.
 //
+//   node tools/new-brand.mjs --from-website https://theirsite.com --publish      (the usual way: it prints the preview link)
 //   node tools/new-brand.mjs --id <slug> --name "<Gym Name>" --lang en|es --logo <file or https URL> --colors "<primary>,<accent>[,<ink>]"
+//        [--legal-name "<Gym LLC>"] [--legal-state FL] [--legal-name-confirmed] [--logo-text ["<words>"]]
 //        [--website https://theirsite.com] [--short "GYM NAME"] [--credit "..."] [--site https://plan.theirsite.com]
-//        [--tagline-en "..."] [--tagline-es "..."] [--icon <file or URL>] [--force]
-//   node tools/new-brand.mjs --from-website https://theirsite.com [--id ...] [any flag above to override what it finds]
+//        [--tagline-en "..."] [--tagline-es "..."] [--icon <file or URL>] [--force] [--publish [--dry-run] [--no-wait]]
+//   node tools/new-brand.mjs --id <slug> --force [only the flags to change]   (rebuild: everything else is kept from the brand)
 //
 // It writes (and nothing else in the repository):
 //   app/brands/<id>.js         the brand file (the same shape as every brand: tests/app-brand.test.mjs)
 //   app/brands/<id>/brand.css  the look, from the colours (light + dark; every text colour 4.5:1 on its background)
-//   app/brands/<id>/logo.*     the logo (a PNG is made smaller when it is large), logo-flat.png for the PDF cover (PNG logos),
-//                              favicon-64.png and icon-180.png (from a PNG), or favicon.svg (from an SVG)
+//   app/brands/<id>/*.png      the logo ALWAYS as a PNG (coach CH7-12): any logo (PNG, SVG, JPEG, WEBP, GIF, ICO, an inline <svg>, a
+//                              screenshot) is drawn by a browser (tools/white-label/raster.mjs), trimmed, at most 512 px wide
+//                              (logo-src.png, kept for rebuilds), then logo.png (the header), logo-flat.png (the PDF cover),
+//                              favicon-64.png and icon-180.png. --logo-text makes a wordmark of the name in the main colour instead;
+//                              it is also made by itself when the website has no usable logo.
 //   agent/packs/<id>/          the brand's agent pack (node agent/packs.mjs --brand <id>)
 // then builds the brand's site into a scratch folder to check it (the leak check included) and prints the preview link.
+// --publish (CH7-13) then commits ONLY those files on top of origin/main, pushes to main and waits for the previews site
+// (tools/white-label/publish.mjs); it prints only the link and "live" (or "building, ready in ~1-2 min"); the rest goes to stderr.
 //
-// Legal default for a white-label brand (the coach's CH7-03 pattern; PROPOSED until his attorney decides): the parties are
-// "Lalo Vera and BFit Studios Corp., doing business as <Name>" (ES "Lalo Vera y BFit Studios Corp., que opera como <Name>"), with
-// the brand's own disclaimer pages. The credit is "<Name> plan builder": no other brand's name appears on the site.
+// Legal (coach CH7-03, CH7-11; PROPOSED until his attorney decides): the parties are "Lalo Vera, BFit Studios Corp. and <Gym legal
+// name> (doing business as <Name>)" (ES "Lalo Vera, BFit Studios Corp. y <razón social> (que opera como <Name>)"), the legal name
+// once when it is the brand name. The gym's legal name comes from --legal-name, or the website (footer copyright line, a company
+// ending like LLC / Inc. / Corp. / S.A. de C.V., its terms and privacy pages). Not found: the brand is made for the preview with
+// the brand name and legal_name_confirmed: false, and tools/export-brand.mjs refuses the hand-off until it is set.
 //
 // Trial runs (tests): --brands-dir <dir> writes the brand there instead of app/brands, --packs-dir <dir> the pack, --no-build skips
 // the trial build. --previews-url sets the previews site (default env PREVIEWS_URL, else https://white-label-previews.vercel.app).
@@ -27,15 +36,19 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { normHex, themeVars, contrastProblems, brandCss, rgb } from './white-label/colors.mjs';
-import { sniff, dimensions, sanitizeSvg, decodePng, encodePng, squareIcon, toHeight, EXT } from './white-label/images.mjs';
+import { sniff, decodePng, encodePng, squareIcon, toHeight } from './white-label/images.mjs';
 import { fromWebsite } from './white-label/website.mjs';
+import { findBrowser, logoToPng, wordmarkPng, NO_BROWSER } from './white-label/raster.mjs';
+import { whiteLabelParties } from './brand-legal.mjs';
+import { publishBrand, brandPaths } from './white-label/publish.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const show = (p) => (p.startsWith(ROOT + path.sep) ? path.relative(ROOT, p) : p);
 export const MARK = 'Generated by tools/new-brand.mjs';
 export const RESERVED = ['blazecamp', 'sonhabitos', 'previews', 'api', 'site', 'brands', 'engine', 'model', 'vendor', 'agent', 'app', 'index', 'assets', 'robots'];
 export const DEFAULT_PREVIEWS = 'https://white-label-previews.vercel.app';
-const MAX_LOGO = 1024 * 1024;
+const MAX_LOGO = 3 * 1024 * 1024;
+const FORBIDDEN = /blaze|\blalo\b|\bgerardo\b|h[aá]bitos|bfit/i;
 
 class InputError extends Error {}
 const fail = (m) => { throw new InputError(m); };
@@ -50,7 +63,8 @@ function parseArgs(argv) {
     const a = argv[i];
     if (!a.startsWith('--')) fail(`unexpected '${a}'`);
     const k = a.slice(2);
-    if (['force', 'no-build', 'help'].includes(k)) { o[k] = true; continue; }
+    if (['force', 'no-build', 'help', 'publish', 'dry-run', 'no-wait', 'legal-name-confirmed'].includes(k)) { o[k] = true; continue; }
+    if (k === 'logo-text' && (i + 1 >= argv.length || argv[i + 1].startsWith('--'))) { o[k] = true; continue; }   // a value is optional
     if (i + 1 >= argv.length) fail(`${a} needs a value`);
     o[k] = argv[++i];
   }
@@ -78,14 +92,22 @@ function localIo(file) {
   return { fetchText: async (u) => fs.readFileSync(toPath(u), 'utf8'), fetchBytes: async (u) => fs.readFileSync(toPath(u)) };
 }
 
+/** the inputs line of a brand file made by this tool (for --force rebuilds), or null */
+export function previousInputs(file) {
+  try {
+    const m = /^\/\/ {3}inputs: (\{.*\})$/m.exec(fs.readFileSync(file, 'utf8'));
+    return m ? JSON.parse(m[1]) : null;
+  } catch { return null; }
+}
+
 /**
- * Make the brand. Returns {id, files, brand, report: [lines], warnings, previewUrl, buildDir?}.
+ * Make the brand. Returns {id, files, brand, report: [lines], warnings, previewUrl, buildDir?, legal, published?}.
  * @param {object} o the flags (see the top of this file), plus io {fetchText, fetchBytes} for tests
  */
 export async function newBrand(o, io = {}) {
   const report = [], warnings = [];
   const note = (s) => report.push(s), warn = (s) => warnings.push(s);
-  let site = null;
+  let legalFound = null, autoWordmark = false;
 
   // 0. what the website gives (best effort); explicit flags win
   if (o['from-website']) {
@@ -94,7 +116,6 @@ export async function newBrand(o, io = {}) {
     const url = local ? new URL('file://' + path.resolve(src)).href : src;
     let f;
     try { f = await fromWebsite(url, local ? localIo(src) : io); } catch (e) { fail(`could not read ${src}: ${e.message}`); }
-    site = f;
     note(`Read ${src}:`);
     const tell = (label, flag, x) => {
       if (o[flag]) note(`  ${label}: ${o[flag]} (your --${flag}; the website said ${x ? JSON.stringify(x.value) : 'nothing'})`);
@@ -112,11 +133,35 @@ export async function newBrand(o, io = {}) {
       note(`  accent colour: ${(cs.accent || cs.primary).value}  [guessed: ${cs.accent ? cs.accent.from : 'none found, the primary again'}]`);
       if (cs.ink) note(`  text colour: ${cs.ink.value}  [found: ${cs.ink.from}]`);
     } else note('  colours: not found');
-    if (o.logo) note(`  logo: ${o.logo} (your --logo)`);
-    else if (f.logo) { o.logo = 'data:application/octet-stream;base64,' + f.logo.bytes.toString('base64'); o._logoFrom = `${f.logo.url}  [found: ${f.logo.from}]`; note(`  logo: ${o._logoFrom}`); }
-    else note('  logo: not found');
+    if (o.logo || o['logo-text']) note(`  logo: ${o.logo || 'a wordmark of the name'} (your --${o.logo ? 'logo' : 'logo-text'})`);
+    else if (f.logo) {
+      o.logo = 'data:application/octet-stream;base64,' + f.logo.bytes.toString('base64');
+      note(`  logo: ${f.logo.url.startsWith('data:') ? '(inline on the page)' : f.logo.url}  [found: ${f.logo.from}, ${f.logo.type.toUpperCase()}]`);
+    } else { autoWordmark = true; note('  logo: not found (a wordmark of the name is made instead)'); }
     if (!o.icon && f.icon) { o.icon = 'data:application/octet-stream;base64,' + f.icon.bytes.toString('base64'); note(`  icon: ${f.icon.url}  [found: ${f.icon.from}]`); }
+    if (o['legal-name']) note(`  legal name: ${o['legal-name']} (your --legal-name; the website said ${f.legal_name ? JSON.stringify(f.legal_name.value) : 'nothing'})`);
+    else if (f.legal_name && !FORBIDDEN.test(f.legal_name.value) && !/[<>`"]/.test(f.legal_name.value)) { legalFound = f.legal_name; note(`  legal name: ${f.legal_name.value}  [found: ${f.legal_name.from}]`); }
+    else note(`  legal name: not found${f.copyright_holder ? ` (the copyright line says "${f.copyright_holder.value}", with no LLC / Inc. / Corp.)` : ''}`);
     for (const s of f.skipped || []) note(`  skipped: ${s}`);
+  }
+
+  // 0b. a rebuild (--force) keeps what it is not told to change
+  const brandsDir = path.resolve(o['brands-dir'] || path.join(ROOT, 'app/brands'));
+  let prev = null;
+  if (o.force && o.id) {
+    const pf = path.join(brandsDir, String(o.id) + '.js');
+    if (fs.existsSync(pf) && fs.readFileSync(pf, 'utf8').includes(MARK)) prev = previousInputs(pf);
+    if (prev) {
+      const kept = [];
+      for (const [flag, key] of [['name', 'name'], ['lang', 'lang'], ['colors', 'colors'], ['website', 'website'], ['site', 'site'], ['short', 'short'], ['tagline-en', 'tagline_en'], ['tagline-es', 'tagline_es'], ['credit', 'credit']]) {
+        if (!o[flag] && prev[key]) { o[flag] = prev[key]; kept.push(flag); }
+      }
+      const srcPng = ['logo-src.png', 'logo.png'].map(f => path.join(brandsDir, String(o.id), f)).find(f => fs.existsSync(f));
+      if (!o.logo && !o['logo-text'] && srcPng) { o.logo = srcPng; autoWordmark = false; kept.push('logo'); }
+      const iconSrc = path.join(brandsDir, String(o.id), 'icon-src.png');
+      if (!o.icon && fs.existsSync(iconSrc)) o.icon = iconSrc;
+      if (kept.length) note(`kept from the brand (--force): ${kept.join(', ')}`);
+    }
   }
 
   // 1. check the inputs
@@ -131,8 +176,8 @@ export async function newBrand(o, io = {}) {
   if (!['en', 'es'].includes(lang)) fail('--lang must be en or es (the language the site opens in)');
   const cols = String(o.colors || '').split(',').map(x => x.trim()).filter(Boolean);
   if (!cols.length || cols.length > 3) fail('--colors needs "primary,accent" or "primary,accent,ink" as hex colours, e.g. "#d4005a,#0a8c94"');
-  const [primary, accent, ink] = cols.map((c, i) => normHex(c) || fail(`--colors: '${c}' is not a hex colour (#rrggbb)${i ? '' : ''}`));
-  if (!o.logo) fail('--logo is needed (a PNG, SVG or JPG file or https URL)');
+  const [primary, accent, ink] = cols.map((c) => normHex(c) || fail(`--colors: '${c}' is not a hex colour (#rrggbb)`));
+  if (!o.logo && !o['logo-text'] && !autoWordmark) fail('--logo is needed (an image file or https URL: PNG, SVG, JPG, WEBP, GIF or ICO), or --logo-text for a wordmark of the name');
   for (const k of ['site', 'website']) if (o[k] && !/^https:\/\/[^\s/]+\.[^\s]+$/i.test(o[k])) fail(`--${k} must be an https:// address (got '${o[k]}')`);
   const short = String(o.short || name.toUpperCase()).trim();
   const tag = { en: String(o['tagline-en'] || 'Your training plan').trim(), es: String(o['tagline-es'] || 'Tu plan de entrenamiento').trim() };
@@ -142,81 +187,96 @@ export async function newBrand(o, io = {}) {
     if (/blaze|\blalo\b|\bgerardo\b|h[aá]bitos/i.test(v)) fail(`--${k} names another brand or the model's owner: '${v}'`);
   }
 
-  const brandsDir = path.resolve(o['brands-dir'] || path.join(ROOT, 'app/brands'));
+  // 1b. the gym's company (CH7-11): flag > website > the brand being rebuilt > the brand name, not confirmed
+  let gym;
+  if (o['legal-name']) gym = { legal_name: String(o['legal-name']).trim().replace(/\s+/g, ' '), legal_name_confirmed: true, legal_name_source: 'your --legal-name' };
+  else if (legalFound) {
+    // where it was found, short (the quoted line is in the report, not in the brand file: it ships with the site)
+    const page = /^file:/.test(legalFound.page) ? path.basename(fileURLToPath(legalFound.page)) : legalFound.page;
+    gym = { legal_name: legalFound.value, legal_name_confirmed: true, legal_name_source: `the website (${page}${legalFound.copyright ? ', copyright line' : ''})` };
+  }
+  else if (prev && prev.legal_name && !(prev.legal_name === prev.name && !prev.legal_name_confirmed)) gym = { legal_name: prev.legal_name, legal_name_confirmed: !!prev.legal_name_confirmed, legal_name_source: prev.legal_name_source || 'the brand before this rebuild' };
+  else gym = { legal_name: name, legal_name_confirmed: false, legal_name_source: 'not found: the brand name for now' };
+  if (o['legal-name-confirmed'] && !gym.legal_name_confirmed) gym = { ...gym, legal_name_confirmed: true, legal_name_source: `${gym.legal_name === name ? 'the brand name, ' : ''}confirmed (--legal-name-confirmed)` };
+  const state = o['legal-state'] ? String(o['legal-state']).trim() : (prev && !o['legal-name'] ? prev.legal_state || null : null);
+  if (!gym.legal_name || gym.legal_name.length > 100 || /[<>`"]/.test(gym.legal_name)) fail(`--legal-name: '${gym.legal_name}' is not a company name (100 characters at most, no < > \` ")`);
+  if (FORBIDDEN.test(gym.legal_name)) fail(`--legal-name names another brand or the model's owner: '${gym.legal_name}'`);
+  if (state && !/^[\p{L} .'-]{2,30}$/u.test(state)) fail(`--legal-state must be a state or country, e.g. FL or Florida (got '${state}')`);
+  const legalGym = { brand: name, legal_name: gym.legal_name, state, legal_name_confirmed: gym.legal_name_confirmed, legal_name_source: gym.legal_name_source };
+  note(`legal name: ${gym.legal_name}${state ? ', ' + state : ''}  [${gym.legal_name_confirmed ? '' : 'NOT CONFIRMED; '}${gym.legal_name_source}]`);
+  if (!gym.legal_name_confirmed) warn(`the gym's legal name was not found, so the preview uses "${name}". Before the hand-off, look it up (WHITE_LABEL.md, "Find the gym's legal name") and run again with --id ${id} --legal-name "<Company LLC>" --force; tools/export-brand.mjs refuses until then`);
+
   const file = path.join(brandsDir, id + '.js'), assetDir = path.join(brandsDir, id);
   if (fs.existsSync(file)) {
     if (!o.force) fail(`brand '${id}' already exists (${path.relative(ROOT, file) || file}); add --force to make it again`);
     if (!fs.readFileSync(file, 'utf8').includes(MARK)) fail(`brand '${id}' was not made by this tool; it is left alone even with --force`);
   }
 
-  // 2. the logo and icons
-  const assets = {};   // file name -> bytes
-  const logoBytes = await readSource(o.logo, io);
-  if (logoBytes.length > MAX_LOGO) fail(`the logo is ${(logoBytes.length / 1024).toFixed(0)} KB; 1024 KB at most`);
-  const ltype = sniff(logoBytes);
-  if (!['png', 'jpeg', 'svg'].includes(ltype)) fail(`the logo must be a PNG, SVG or JPG (this file looks like ${ltype || 'something else'})`);
-  let logoName = 'logo.' + EXT[ltype], logo = logoBytes, dim = dimensions(logoBytes, ltype), pdfLogo = null, png = null;
-  if (ltype === 'svg') {
-    const clean = sanitizeSvg(logoBytes.toString('utf8'));
-    if (clean !== logoBytes.toString('utf8')) warn('the SVG logo had scripts or event handlers; they were removed');
-    logo = Buffer.from(clean);
-    if (!dim) { dim = { w: 160, h: 48 }; warn('the SVG logo has no width, height or viewBox; it is shown 160 x 48'); }
-  }
-  if (ltype === 'png') {
-    png = decodePng(logoBytes);
-    if (png && png.h > 132) {   // 3x the 44 px header height is plenty
-      const small = toHeight(png, 132);
-      logo = encodePng(small); dim = { w: small.w, h: small.h };
-      note(`logo: made smaller, ${png.w} x ${png.h} -> ${small.w} x ${small.h}`);
-    }
-    if (png) {
-      const flatH = Math.min(png.h, 240), flat = toHeight(png, flatH);
-      const white = { w: flat.w, h: flat.h, data: new Uint8Array(flat.data) };
-      for (let i = 0; i < white.data.length; i += 4) { const a = white.data[i + 3] / 255; for (let k = 0; k < 3; k++) white.data[i + k] = Math.round(white.data[i + k] * a + 255 * (1 - a)); white.data[i + 3] = 255; }
-      assets['logo-flat.png'] = encodePng(white);
-      pdfLogo = { src: `brands/${id}/logo-flat.png`, w: flat.w, h: flat.h };
-    } else warn('the PNG logo could not be read by the small built-in reader (interlaced?); it is used as is, and the PDF cover shows the name instead');
-  } else warn(`the PDF cover shows the name in the brand colour (an ${ltype.toUpperCase()} logo cannot go on the PDF; give a PNG logo for that)`);
-  if (!dim) fail('could not read the logo\'s width and height');
-  if (dim.w / dim.h > 6) warn(`the logo is very wide (${dim.w} x ${dim.h}); it is shown at most 150 px wide in the top bar`);
-  assets[logoName] = logo;
-
-  let icons;
-  const iconBytes = o.icon ? await readSource(o.icon, io) : logoBytes;
-  const itype = sniff(iconBytes);
-  const ipng = itype === 'png' ? decodePng(iconBytes) : null;
-  if (ipng) {
-    assets['favicon-64.png'] = encodePng(squareIcon(ipng, 64, { pad: 0.04 }));
-    assets['icon-180.png'] = encodePng(squareIcon(ipng, 180, { pad: 0.1, bg: [255, 255, 255] }));
-    icons = `<link rel="icon" type="image/png" sizes="64x64" href="brands/${id}/favicon-64.png">\n<link rel="apple-touch-icon" href="brands/${id}/icon-180.png">`;
-  } else if (itype === 'svg') {
-    assets['favicon.svg'] = Buffer.from(sanitizeSvg(iconBytes.toString('utf8')));
-    icons = `<link rel="icon" type="image/svg+xml" href="brands/${id}/favicon.svg">`;
-  } else if (itype === 'jpeg') {
-    assets['icon.jpg'] = iconBytes;
-    icons = `<link rel="icon" type="image/jpeg" href="brands/${id}/icon.jpg">\n<link rel="apple-touch-icon" href="brands/${id}/icon.jpg">`;
-  } else {
-    fail(`the icon must be a PNG, SVG or JPG (this file looks like ${itype || 'something else'})`);
-  }
-
-  // 3. the colours: the stylesheet, checked
+  // 2. the colours first (a wordmark is drawn in the main colour as the buttons show it)
   const vars = themeVars({ primary, accent: accent || primary, ink });
   const problems = contrastProblems(vars);
   if (problems.length) fail('colour contrast still too low after adjusting: ' + JSON.stringify(problems));
+
+  // 3. the logo, always a PNG (CH7-12): drawn by a browser when it is not a plain PNG, trimmed, at most 512 px wide
+  const assets = {};   // file name -> bytes
+  let browser;
+  const needBrowser = async () => (browser === undefined ? (browser = await findBrowser()) : browser);
+  const toPng = async (bytes, what) => {
+    if (!sniff(bytes)) fail(`the ${what} must be an image (PNG, SVG, JPG, WEBP, GIF or ICO; this file looks like something else)`);
+    const plain = sniff(bytes) === 'png' && decodePng(bytes);
+    try { return await logoToPng(bytes, { browser: plain ? null : await needBrowser() }); } catch (e) { fail(e.message === NO_BROWSER ? NO_BROWSER : `the ${what}: ${e.message}`); }
+  };
+  let logoPng;
+  if (o['logo-text'] || (autoWordmark && !o.logo)) {
+    const words = typeof o['logo-text'] === 'string' && o['logo-text'].trim() ? o['logo-text'].trim() : name;
+    if (FORBIDDEN.test(words) || /[<>`]/.test(words)) fail('--logo-text cannot name another brand or hold < > `');
+    const b = await needBrowser();
+    if (!b) fail(NO_BROWSER.replace('this logo', 'a wordmark of the name'));
+    logoPng = await wordmarkPng(words, vars.light.cta, { browser: b });
+    note(`logo: a wordmark "${words}" in ${vars.light.cta}, PNG ${logoPng.w} x ${logoPng.h} (drawn by ${b.label})`);
+  } else {
+    const logoBytes = await readSource(o.logo, io);
+    if (logoBytes.length > MAX_LOGO) fail(`the logo is ${(logoBytes.length / 1024).toFixed(0)} KB; ${MAX_LOGO / 1024} KB at most`);
+    logoPng = await toPng(logoBytes, 'logo');
+    note(`logo: ${logoPng.from.toUpperCase()} -> PNG ${logoPng.w} x ${logoPng.h} (trimmed${browser ? ', drawn by ' + browser.label : ''})`);
+  }
+  const png = decodePng(logoPng.png);
+  assets['logo-src.png'] = logoPng.png;   // the clean PNG, kept for --force rebuilds (not served)
+  const head = png.h > 132 ? toHeight(png, 132) : png;   // 3x the 44 px header height is plenty
+  assets['logo.png'] = head === png ? logoPng.png : encodePng(head);
+  const flat = toHeight(png, Math.min(png.h, 240));
+  const white = { w: flat.w, h: flat.h, data: new Uint8Array(flat.data) };
+  for (let i = 0; i < white.data.length; i += 4) { const a = white.data[i + 3] / 255; for (let k = 0; k < 3; k++) white.data[i + k] = Math.round(white.data[i + k] * a + 255 * (1 - a)); white.data[i + 3] = 255; }
+  assets['logo-flat.png'] = encodePng(white);
+  const pdfLogo = { src: `brands/${id}/logo-flat.png`, w: flat.w, h: flat.h };
+  if (png.w / png.h > 6) warn(`the logo is very wide (${png.w} x ${png.h}); it is shown at most 150 px wide in the top bar`);
+
+  // the icons: from the website's icon or --icon (any image type), else the logo
+  let ipng = png;
+  if (o.icon) {
+    try {
+      const ib = await readSource(o.icon, io);
+      const r = await logoToPng(ib, { browser: sniff(ib) === 'png' && decodePng(ib) ? null : await needBrowser() });
+      ipng = decodePng(r.png); assets['icon-src.png'] = r.png;
+    } catch (e) { warn(`the icon could not be used (${String(e.message).split('.')[0]}); the icons are made from the logo`); ipng = png; }
+  }
+  assets['favicon-64.png'] = encodePng(squareIcon(ipng, 64, { pad: 0.04 }));
+  assets['icon-180.png'] = encodePng(squareIcon(ipng, 180, { pad: 0.1, bg: [255, 255, 255] }));
+  const icons = `<link rel="icon" type="image/png" sizes="64x64" href="brands/${id}/favicon-64.png">\n<link rel="apple-touch-icon" href="brands/${id}/icon-180.png">`;
+
+  // 4. the stylesheet
   if (vars.light.cta !== primary) note(`colour: the main colour ${primary} is shown as ${vars.light.cta} on buttons, so their text reads clearly (WCAG)`);
   const acc = accent || primary;
   if (vars.light.accent === vars.light.cta && acc !== primary) note(`colour: the accent ${acc} is light, so selections and bars use the main colour; the accent stays in the soft backgrounds and the dark theme`);
   else if (vars.light.accent !== acc) note(`colour: the accent ${acc} is shown as ${vars.light.accent} on selections and bars, so it reads clearly on white (WCAG)`);
-  const css = brandCss({ name, primary, accent: accent || primary, ink });
-  assets['brand.css'] = Buffer.from(css);
+  assets['brand.css'] = Buffer.from(brandCss({ name, primary, accent: accent || primary, ink }));
 
-  // 4. the brand file
+  // 5. the brand file
   const previews = String(o['previews-url'] || process.env.PREVIEWS_URL || DEFAULT_PREVIEWS).replace(/\/+$/, '');
   const previewUrl = `${previews}/${id}/`;
   const siteUrl = o.site ? o.site.replace(/\/?$/, '/') : previewUrl;
-  const dispH = 44, dispW = Math.max(1, Math.round(dispH * dim.w / dim.h));
-  const order = ['brand.css', logoName, 'logo-flat.png', 'favicon.svg', 'favicon-64.png', 'icon-180.png', 'icon.jpg'];
-  const assetList = order.filter(a => assets[a]);
+  const dispH = 44, dispW = Math.max(1, Math.round(dispH * head.w / head.h));
+  const assetList = ['brand.css', 'logo.png', 'logo-flat.png', 'favicon-64.png', 'icon-180.png'];
   const BRAND = {
     id, name, short,
     white_label: true,
@@ -233,7 +293,7 @@ export async function newBrand(o, io = {}) {
       theme_color: vars.light.bg,
       icons,
       css: `brands/${id}/brand.css`,
-      logo: `\n    <img class="brand-logo" src="brands/${id}/${logoName}" width="${dispW}" height="${dispH}" alt="${attr(name)}">\n    <span class="brand-sub" id="brand-sub">${attr(tag[lang])}</span>\n  `
+      logo: `\n    <img class="brand-logo" src="brands/${id}/logo.png" width="${dispW}" height="${dispH}" alt="${attr(name)}">\n    <span class="brand-sub" id="brand-sub">${attr(tag[lang])}</span>\n  `
     },
     assets: assetList,
     pdf: {
@@ -258,19 +318,22 @@ export async function newBrand(o, io = {}) {
     },
     legal: {
       business: { en: name, es: name },
-      parties: { en: `Lalo Vera and BFit Studios Corp., doing business as ${name}`, es: `Lalo Vera y BFit Studios Corp., que opera como ${name}` },
-      disclaimer: { en: 'disclaimer.html', es: 'disclaimer.es.html' }
+      parties: whiteLabelParties(legalGym),
+      disclaimer: { en: 'disclaimer.html', es: 'disclaimer.es.html' },
+      gym: legalGym
     }
   };
+  const inputs = { name, lang, colors: cols.join(','), website: o.website || null, site: o.site || null, short: o.short || null, tagline_en: o['tagline-en'] || null,
+    tagline_es: o['tagline-es'] || null, credit: o.credit || null, legal_name: gym.legal_name, legal_state: state, legal_name_confirmed: gym.legal_name_confirmed, legal_name_source: gym.legal_name_source };
   const header = `// app/brands/${id}.js - the ${name} white-label brand: the same app, engine and model as every brand, with its own name, logo,
 // colours and words. ${MARK} on its inputs below; to change it, run the tool again with --force (WHITE_LABEL.md)
-// rather than editing by hand. Legal party wording: the coach's pattern for every brand (CH7-03), PROPOSED for white-label until
-// his attorney decides.
-//   inputs: ${JSON.stringify({ name, lang, colors: cols.join(','), website: o.website || null, site: o.site || null })}
+// rather than editing by hand. Legal party wording: the coach's pattern for every brand (CH7-03) with the gym's company (CH7-11),
+// PROPOSED for white-label until his attorney decides.
+//   inputs: ${JSON.stringify(inputs)}
 `;
   const source = header + '\nexport const BRAND = ' + JSON.stringify(BRAND, null, 2) + ';\nexport default BRAND;\n';
 
-  // 5. write: the brand file and its assets (a --force run replaces the old assets folder)
+  // 6. write: the brand file and its assets (a --force run replaces the old assets folder)
   fs.mkdirSync(brandsDir, { recursive: true });
   if (brandsDir !== path.join(ROOT, 'app/brands') && !fs.existsSync(path.join(brandsDir, 'package.json'))) fs.writeFileSync(path.join(brandsDir, 'package.json'), '{ "type": "module" }\n');
   fs.rmSync(assetDir, { recursive: true, force: true });
@@ -278,10 +341,11 @@ export async function newBrand(o, io = {}) {
   for (const [f, b] of Object.entries(assets)) fs.writeFileSync(path.join(assetDir, f), b);
   fs.writeFileSync(file, source);
   const written = [file, ...Object.keys(assets).map(f => path.join(assetDir, f))];
-  const assetBytes = Object.values(assets).reduce((n, b) => n + b.length, 0);
+  const assetBytes = assetList.reduce((n, f) => n + assets[f].length, 0);
   if (assetBytes > 300 * 1024) warn(`the brand's files are ${(assetBytes / 1024).toFixed(0)} KB; a smaller logo loads faster`);
 
-  // 6. the agent pack and a trial build
+  // 7. the agent pack and a trial build (the leak check runs in it)
+  if (o['no-build'] && o.publish) fail('--publish needs the trial build (leave out --no-build)');
   const env = { ...process.env, BC_BRANDS_DIR: brandsDir };
   const packsArgs = [path.join(ROOT, 'agent/packs.mjs'), '--brand', id];
   if (o['packs-dir']) packsArgs.push('--out', path.resolve(o['packs-dir']));
@@ -294,7 +358,17 @@ export async function newBrand(o, io = {}) {
       execFileSync(process.execPath, [path.join(ROOT, 'tools/build-site.mjs'), '--brand', id, '--brands-dir', brandsDir, '--out', buildDir, '--site', siteUrl], { env, stdio: 'pipe' });
     } catch (e) { fail(`the trial build failed: ${String(e.stderr || e.message).trim().split('\n').slice(-3).join(' ')}`); }
   }
-  return { id, name, brand: BRAND, files: written, packDir, report, warnings, previewUrl, siteUrl, buildDir, colors: { light: vars.light, dark: vars.dark } };
+
+  // 8. --publish: only this brand's files to main, then the link (CH7-13)
+  let published = null;
+  if (o.publish) {
+    const inRepo = brandsDir === path.join(ROOT, 'app/brands') && !o['packs-dir'];
+    if (!inRepo && !o['dry-run']) fail('--publish works on the repository\'s own folders (leave out --brands-dir and --packs-dir), or add --dry-run');
+    try {
+      published = await publishBrand({ id, name, previewUrl, dryRun: !!o['dry-run'], wait: !o['no-wait'], log: (s) => note(s) });
+    } catch (e) { fail(`publish: ${e.message}`); }
+  }
+  return { id, name, brand: BRAND, files: written, packDir, report, warnings, previewUrl, siteUrl, buildDir, colors: { light: vars.light, dark: vars.dark }, legal: legalGym, published };
 }
 function attr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 
@@ -303,19 +377,25 @@ function attr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;
 if (import.meta.url === `file://${process.argv[1]}`) {
   try {
     const o = parseArgs(process.argv.slice(2));
-    if (o.help || !Object.keys(o).length) { console.log(fs.readFileSync(fileURLToPath(import.meta.url), 'utf8').split('\n').filter(l => l.startsWith('//')).slice(0, 22).map(l => l.slice(3)).join('\n')); process.exit(0); }
+    if (o.help || !Object.keys(o).length) { console.log(fs.readFileSync(fileURLToPath(import.meta.url), 'utf8').split('\n').filter(l => l.startsWith('//')).slice(1, 37).map(l => l.slice(3)).join('\n')); process.exit(0); }
+    if (o['dry-run'] && !o.publish) throw new InputError('--dry-run goes with --publish');
     const r = await newBrand(o);
-    for (const l of r.report) console.log(l);
-    console.log(`\nBrand '${r.id}' (${r.name}) made:`);
-    for (const f of r.files) console.log('  ' + show(f));
-    console.log('  ' + show(r.packDir) + '/  (agent pack)');
-    for (const w of r.warnings) console.log('  note: ' + w);
-    if (r.buildDir) {
-      console.log(`\nTrial build OK (leak check passed): ${r.buildDir}`);
-      console.log(`  Look at it: python3 -m http.server -d ${r.buildDir} 8000   then open http://localhost:8000/`);
+    // with --publish, stdout is only the link and its state (CH7-13); what was found and made goes to stderr
+    const say = o.publish ? (s) => console.error(s) : (s) => console.log(s);
+    for (const l of r.report) say(l);
+    say(`\nBrand '${r.id}' (${r.name}) made:`);
+    for (const f of r.files) say('  ' + show(f));
+    say('  ' + show(r.packDir) + '/  (agent pack)');
+    for (const w of r.warnings) say('  note: ' + w);
+    if (r.buildDir) say(`\nTrial build OK (leak check passed): ${r.buildDir}`);
+    if (r.published) {
+      if (r.published.commands) { say('\nWould run (--dry-run):'); for (const c of r.published.commands) say('  ' + c); }
+      for (const l of r.published.lines) console.log(l);
+      if (r.published.failed) process.exit(1);
+    } else {
+      say(`  Look at it: python3 -m http.server -d ${r.buildDir || '<build folder>'} 8000   then open http://localhost:8000/`);
+      say(`\nPreview link (after it is on main; or run again with --publish): ${r.previewUrl}`);
     }
-    console.log(`\nPreview link (after the commit reaches main and the previews site rebuilds): ${r.previewUrl}`);
-    if (r.files[0].startsWith(path.join(ROOT, 'app/brands') + path.sep)) console.log(`Next: git add app/brands/${r.id}.js app/brands/${r.id}/ agent/packs/${r.id}/   (WHITE_LABEL.md, step 2)`);
   } catch (e) {
     console.error('new-brand: ' + (e instanceof InputError ? e.message : (e.stack || e.message)));
     process.exit(1);

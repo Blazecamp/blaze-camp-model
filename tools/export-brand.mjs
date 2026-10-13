@@ -22,7 +22,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { legalSub, brandModelRaw } from './brand-legal.mjs';
+import { legalSub, brandModelRaw, withAddendum } from './brand-legal.mjs';
 import { leakChecker, readBrands, scanFolder, OWNER_NAMES, DEFAULT_BRAND } from './white-label/leaks.mjs';
 import { zipFolder } from './white-label/zip.mjs';
 
@@ -49,6 +49,15 @@ export async function exportBrand(o) {
   if (fs.existsSync(out) && fs.readdirSync(out).length && !o.force) fail(`${out} is not empty (add --force to replace it)`);
   const { BRAND } = await import(pathToFileURL(file).href + '?t=' + fs.statSync(file).mtimeMs);
   if (!BRAND.legal) fail(`brand '${id}' has no legal block; only white-label brands are exported`);
+  // the gym's company must be known before a hand-off (coach CH7-11): the release names it, and its waiver duty is on its pages
+  const gym = BRAND.legal.gym;
+  if (BRAND.white_label && (!gym || !gym.legal_name_confirmed)) {
+    fail(`the gym's legal name is not confirmed for '${id}' (the release and the disclaimer pages name the gym's company; now they say ` +
+      `"${gym ? gym.legal_name : BRAND.name}"). Look it up (WHITE_LABEL.md, "Find the gym's legal name": the state business registry, ` +
+      `for Florida https://search.sunbiz.org by the gym's name, or ask the gym or the coach), then run ` +
+      `node tools/new-brand.mjs --id ${id} --legal-name "<Company LLC>" [--legal-state FL] --force ` +
+      `(or --legal-name-confirmed if the company name really is "${BRAND.name}"), and export again`);
+  }
   const site = (o.site || BRAND.site_url || '').replace(/\/?$/, '/');
   if (!/^https:\/\//.test(site)) fail('--site https://... is needed (where the site will live)');
   if (o.site && !/^https:\/\/[^\s/]+\.[^\s]+$/i.test(o.site)) fail(`--site must be an https:// address (got '${o.site}')`);
@@ -62,7 +71,7 @@ export async function exportBrand(o) {
   const others = [...await readBrands(path.join(ROOT, 'app/brands')), ...(brandsDir === path.join(ROOT, 'app/brands') ? [] : await readBrands(brandsDir))];
   const check = leakChecker(BRAND, others);
   const write = (rel, data) => { const p = path.join(out, rel); fs.mkdirSync(path.dirname(p), { recursive: true }); fs.writeFileSync(p, data); };
-  const disclaimer = (f, lang) => legalSub(fs.readFileSync(path.join(ROOT, f), 'utf8'), lang, BRAND.legal);
+  const disclaimer = (f, lang) => withAddendum(legalSub(fs.readFileSync(path.join(ROOT, f), 'utf8'), lang, BRAND.legal), lang, BRAND.legal);
 
   // the legal files: MIT (keep the notice) and the disclaimer in the brand's legal wording (the build reads them too)
   write('LICENSE', fs.readFileSync(path.join(ROOT, 'LICENSE')));

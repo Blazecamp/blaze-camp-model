@@ -12,20 +12,41 @@ coach's model, the same engine and the same rules as Blaze Camp. Only the look c
   (Blaze Camp and Son Hábitos have their own sites and are not on it.)
 - When the gym pays, you hand them their copy (a zip, or a site on their own domain).
 
-## Step 1: make the brand from their website
+## Steps 1-2: make the brand and send the preview link (one command)
 
 ```sh
-node tools/new-brand.mjs --from-website https://theirgym.com
+node tools/new-brand.mjs --from-website https://theirgym.com --publish
 ```
 
-It reads their site: the name, the logo, the colours and the language. It prints what it **found** and what it
-**guessed**. Then it makes the brand, its agent pack, and a trial build.
+It reads their site: the name, the logo, the colours, the language and the gym's company name (its **legal name**). It
+prints what it **found** and what it **guessed** (on stderr). It makes the brand, its agent pack and a trial build, runs the
+checks (the leak check, the build, the colour contrast), commits **only** the new brand's files to `main`
+(`app/brands/<id>.js`, `app/brands/<id>/`, `agent/packs/<id>/`), waits for the previews site, and then prints only this:
 
-If something is wrong, run it again with `--force` and the flag that fixes it (flags always win):
+```
+https://white-label-previews.vercel.app/<id>/
+live
+```
+
+(or `building, ready in ~1-2 min` when the site is still building). **Send the coach that link as soon as it prints.** No
+screenshots are needed. Do not ask the coach for anything unless their website gives no name or logo at all (with no logo,
+a wordmark of the gym's name is made, so the link still goes out).
+
+Want to see first what it would do? Add `--dry-run`: it prints the git commands and the link, and pushes nothing.
+
+**The logo is always a PNG** (the coach: "remake the logo for a PNG"). Whatever the site has (PNG, SVG, JPG, WEBP, GIF, ICO,
+an inline SVG) is drawn by a browser, trimmed, at most 512 px wide, transparent where an SVG is empty, and used everywhere
+(the top bar, the PDF cover, the icons). The browser is Playwright (env `BC_PLAYWRIGHT` = its `index.mjs`, `BC_CHROMIUM` =
+a Chrome or Chromium) or a Chrome on the PATH. No browser? Make the PNG with your own image tools (open the logo, export it
+as PNG with a transparent background, about 512 px wide) and run again with `--logo logo.png`. No usable logo at all?
+`--logo-text` makes a clean wordmark of the gym's name in its main colour.
+
+**Fix anything** by running it again with `--force --publish` and only the flag that fixes it (flags always win; the rest is
+kept from the brand):
 
 ```sh
-node tools/new-brand.mjs --from-website https://theirgym.com --id iron-temple --name "Iron Temple Gym" \
-  --lang en --colors "#c8102e,#0e7c86" --logo https://theirgym.com/images/logo.png --force
+node tools/new-brand.mjs --id iron-temple --logo https://theirgym.com/images/logo.svg --force --publish
+node tools/new-brand.mjs --id iron-temple --colors "#c8102e,#0e7c86" --name "Iron Temple Gym" --force --publish
 ```
 
 | Flag | What it is |
@@ -33,33 +54,50 @@ node tools/new-brand.mjs --from-website https://theirgym.com --id iron-temple --
 | `--id` | the short name in the link (letters, numbers, dashes): `iron-temple` |
 | `--name` | the gym's name as it should show |
 | `--lang` | `en` or `es`: the language the site opens in |
-| `--logo` | a PNG, SVG or JPG (a file or an `https://` link). A PNG also gives the icons and the PDF cover logo |
+| `--logo` | any image (a file or an `https://` link): PNG, SVG, JPG, WEBP, GIF, ICO. It becomes a PNG |
+| `--logo-text` | a wordmark of the name (or of the words you give: `--logo-text "IRON TEMPLE"`) instead of a logo |
 | `--colors` | `"main,accent"` or `"main,accent,text"` as hex. They are darkened a little if text would be hard to read |
+| `--legal-name` | the gym's company, as registered: `"Iron Temple Fitness, LLC"` (see below) |
+| `--legal-state` | optional: where it is registered, `FL` |
+| `--legal-name-confirmed` | the company name really is the gym's name (no LLC or Inc. to add) |
 | `--short`, `--tagline-en`, `--tagline-es`, `--credit`, `--icon` | optional words and icon |
 | `--site` | their own address, once they have one: `https://plan.theirgym.com` |
+| `--publish` | commit only this brand, push to `main`, print the link (`--dry-run`: show, do not push; `--no-wait`: do not wait for the site) |
 
-No website? Give the flags yourself: `node tools/new-brand.mjs --id <id> --name "<Name>" --lang es --logo logo.png --colors "#hex,#hex"`.
+No website? Give the flags yourself: `node tools/new-brand.mjs --id <id> --name "<Name>" --lang es --logo logo.png --colors "#hex,#hex" --legal-name "<Gym LLC>" --publish`.
 
-**Check the result.** Open the trial build it prints (`python3 -m http.server -d <folder> 8000`, then
-`http://localhost:8000/`) and take a phone-size screenshot (390 x 844). Look at the logo, the colours and the name. Fix
-with flags and `--force` if they look off.
+The previews site rebuilds by itself from `main` (about 1 minute). The preview pages are hidden from search engines. Its
+home page shows nothing, so one gym never sees another. It has no API (agents use it after step 3).
 
-With Playwright you can let a script do the check and the screenshots (it builds a plan, downloads the PDF and fails on
-any error or on another brand's name): `BC_QA_URLS=http://localhost:8000/ BC_QA_NAME="<Name>" BC_QA_OUT=shots/ node tools/app-qa/white-label.mjs`.
-Screenshots of a demo brand made this way: [reviews/white-label-demo/](reviews/white-label-demo/).
+**Internal check (optional).** The trial build folder is printed on stderr. With Playwright a script can build a plan in it,
+download the PDF and fail on any error or on another brand's name: `python3 -m http.server -d <folder> 8000`, then
+`BC_QA_URLS=http://localhost:8000/ BC_QA_NAME="<Name>" BC_QA_OUT=shots/ node tools/app-qa/white-label.mjs`.
 
-## Step 2: publish the preview and send the link
+## Find the gym's legal name
 
-1. Commit **only** the new brand's files and push to `main`:
-   `app/brands/<id>.js`, `app/brands/<id>/`, `agent/packs/<id>/`.
-2. The previews site rebuilds by itself (about 1 minute).
-3. Send the gym: `https://white-label-previews.vercel.app/<id>/`
+Every white-label site releases "Lalo Vera, BFit Studios Corp. and **<the gym's legal name>** (doing business as <the gym>)",
+so the gym's company must be right before the hand-off (the coach: "The agent needs to go find out who it is").
 
-The preview pages are hidden from search engines. The previews site's home page shows nothing, so one gym never sees
-another. The previews site has no API (agents use it after step 3).
+1. `--from-website` looks for it first: the footer copyright line ("© 2026 Iron Temple Fitness, LLC"), a company ending
+   (LLC, Inc., Corp., PLLC, S.A. de C.V., S. de R.L., S.A.S. ...), and the terms, privacy and legal pages linked from the
+   home page. It prints what it found and where (for example `legal name: Iron Temple Fitness, LLC [found: .../terms: "..."]`).
+   Check that it is the gym, not their web designer or booking app.
+2. **Not found?** The brand is still made and the preview link still goes out, with the gym's name in the legal line and
+   `legal_name_confirmed: false`. `tools/export-brand.mjs` refuses the hand-off until you fix it. Look it up:
+   - **Florida:** open https://search.sunbiz.org/Inquiry/CorporationSearch/ByName, search the gym's name (also try the
+     owner's name under *Officer/Registered Agent*, and the fictitious names search: a "d/b/a" points to the company behind
+     it). Take the exact name of the **Active** company (for example `IRON TEMPLE FITNESS, LLC`).
+   - **Another US state:** search "<state> secretary of state business search", then the gym's name, the same way.
+   - **Mexico or Latin America:** the "razón social" is usually on the site's *aviso de privacidad* or on an invoice; ask
+     the gym if it is not.
+   - **Still unsure?** Ask the gym (or the coach) once: "What is the exact legal name of the company that owns the gym?"
+3. Set it, and publish again:
+   `node tools/new-brand.mjs --id <id> --legal-name "Iron Temple Fitness, LLC" --legal-state FL --force --publish`.
+   If the company name really is the gym's name, use `--legal-name-confirmed` instead.
 
 ## Step 3: when they pay, hand it over
 
+Check that the gym's legal name is confirmed (the export refuses if it is not: [Find the gym's legal name](#find-the-gyms-legal-name)).
 Ask where it will live (for example `https://plan.theirgym.com`). Then:
 
 ```sh
@@ -147,8 +185,13 @@ If a previews project ever gets another address, pass it to new brands with
 - **Nothing is stored**: no accounts, no data, no logs. Do not add any.
 - **No other brand on their site.** The build fails if "Blaze Camp", "Son Hábitos", another client's name, or the
   owner's name shows up anywhere, except the legal line below.
-- **The legal line is PROPOSED.** Every white-label site says the release covers "Lalo Vera and BFit Studios Corp., doing
-  business as <Name>" (Spanish: "Lalo Vera y BFit Studios Corp., que opera como <Name>"). This is the coach's pattern
-  (CH7-03) and is waiting for his attorney. Tell the coach before the first paid hand-off.
+- **The legal line is PROPOSED** (general information, not legal advice). Every white-label site says the release covers
+  "Lalo Vera, BFit Studios Corp. and <Gym legal name> (doing business as <Gym>)" (Spanish: "Lalo Vera, BFit Studios Corp. y
+  <razón social> (que opera como <Gym>)"; the name once when it is the same). Its disclaimer pages add a section "How this
+  tool is provided" / "Cómo se ofrece esta herramienta": the gym gets the tool under license from BFit Studios Corp., does
+  its own health screening and has every member or client sign the gym's own liability waiver, whether they build the plan
+  or a coach at the gym does; the site's terms do not replace that waiver or move the gym's responsibility to Lalo Vera or
+  BFit Studios Corp. This is the coach's answer (CH7-03, CH7-11) and is waiting for his attorney. Tell the coach before the
+  first paid hand-off.
 - **The license is MIT** and the repository is public: keep `LICENSE` in every export. Anyone can copy the code; what
   the gym pays for is the set-up, the brand and the hand-off.

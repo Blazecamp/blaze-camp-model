@@ -11,11 +11,11 @@ This file is for AI agents and developers. It tells you what the repo is, which 
 > | The coach says | Do this | Steps in |
 > |---|---|---|
 > | "Build a plan for me / for a client" | Use the brand's pack: questions, release, plan | [agent/packs/blazecamp/AGENTS.md](agent/packs/blazecamp/AGENTS.md), [agent/packs/sonhabitos/AGENTS.md](agent/packs/sonhabitos/AGENTS.md) (one per brand: `agent/packs/<brand>/AGENTS.md`) |
-> | "Make a white-label for <their website>" | `node tools/new-brand.mjs --from-website <url>`, check the screenshot, push, send the preview link `https://white-label-previews.vercel.app/<id>/` | [WHITE_LABEL.md](WHITE_LABEL.md) steps 1-2 |
-> | "They paid, hand it over" | `node tools/export-brand.mjs --brand <id> --out <dir> --site <their address> --zip` (`--with-api` if they want agents) | [WHITE_LABEL.md](WHITE_LABEL.md) step 3 |
+> | "Make a white-label for <their website>" | `node tools/new-brand.mjs --from-website <url> --publish`, then send the coach the link it prints (`https://white-label-previews.vercel.app/<id>/`) right away. No screenshots; ask him nothing unless the site has no name or logo at all | [WHITE_LABEL.md](WHITE_LABEL.md) steps 1-2 |
+> | "They paid, hand it over" | Make sure the gym's legal name is confirmed (`--legal-name "<Gym LLC>" --force`; look it up on the state registry, e.g. Florida Sunbiz), then `node tools/export-brand.mjs --brand <id> --out <dir> --site <their address> --zip` (`--with-api` if they want agents) | [WHITE_LABEL.md](WHITE_LABEL.md) "Find the gym's legal name", step 3 |
 > | "Connect their domain (plan.theirgym.com)" | Add only the CNAME Vercel shows; nothing else at their DNS | [WHITE_LABEL.md](WHITE_LABEL.md) "Connect a custom domain" |
 > | "Give my agent access to a brand" | Hand over that brand's pack and the setup recipes | `agent/packs/<brand>/` and [agent/README.md](agent/README.md) |
-> | "Change a brand's logo / colours / name" | `node tools/new-brand.mjs --id <id> ... --force` (white-label brands; Blaze Camp and Son Hábitos are edited by hand) | [tools/new-brand.mjs](tools/new-brand.mjs), [WHITE_LABEL.md](WHITE_LABEL.md) step 1 |
+> | "Change a brand's logo / colours / name / legal name" | `node tools/new-brand.mjs --id <id> <only the flags to change> --force --publish` (the rest is kept; any logo becomes a PNG, `--logo-text` makes a wordmark; white-label brands only: Blaze Camp and Son Hábitos are edited by hand), then send the link it prints | [tools/new-brand.mjs](tools/new-brand.mjs), [WHITE_LABEL.md](WHITE_LABEL.md) steps 1-2 |
 > | "Change the site address of a brand" | Set `site_url` in `app/brands/<id>.js`, run `node agent/packs.mjs`, run the brand tests, push | [WHITE_LABEL.md](WHITE_LABEL.md) "After the domain works" |
 
 > **Author and owner.** The model is the coaching experience and intellectual property of Coach Lalo (Gerardo Vera), Master NASM coach (COACH-R4 R4-REL-03). Our job is to capture it faithfully, not to redesign it.
@@ -77,7 +77,7 @@ When two sources disagree, the higher one wins:
 | 1 (newest) | `coach_answers_round5.md` | `COACH-R5 <id>` | `R5-GRD-01..08`, `R5-VOL-01..05, 07..11`, `R5-ATH-01..05, 07..12`, `R5-CLS-01..07`, `R5-LIB-01..02`, `R5-GEN-01..03`, `R5-PUB-01..02` (43) |
 | 1 (newest; scoped) | `coach_answers_chat_2026-10-11.md` | `COACH-CH5 <id>` | `CH5-01..03`; only team practices, the athletic arm slot, big groups above the template's slots |
 | 1 (newest; scoped) | `coach_answers_chat_2026-10-13.md` | `COACH-CH6 <id>` | `CH6-01..02`; only a dip above the bench, and exercises people add themselves |
-| 1 (newest; scoped) | `coach_answers_chat_2026-10-13b.md` | `COACH-CH7 <id>` | `CH7-01..10`; only the web tool: brands and the legal party, the public plan API, release acceptance by agents, the "More supersets" option (G-313), library-only edits in version 1, and plain words: every explanation at an elementary school reading level (CH7-09, G-315) |
+| 1 (newest; scoped) | `coach_answers_chat_2026-10-13b.md` | `COACH-CH7 <id>` | `CH7-01..13`; only the web tool: brands and the legal party, the public plan API, release acceptance by agents, the "More supersets" option (G-313), library-only edits in version 1, plain words: every explanation at an elementary school reading level (CH7-09, G-315), and white-label gyms: the gym's company in the released parties with its own waiver duty (CH7-11), logos remade as PNG (CH7-12), the preview link right away (CH7-13) |
 | 2 | `coach_answers_round4.md` | `COACH-R4 <id>` | `R4-SES-01..05`, `R4-PRG-01..04`, `R4-LIB-01..05`, `R4-SCP-01..03`, `R4-REL-01..03` (20) |
 | 2 (scoped) | `coach_answers_time_2026-10-10.md` | `COACH-CT CT-01` | `CT-01`; only the subject of fitting plans to session time |
 | 3 (scoped) | `coach_answers_codex_2026-10-10.md` | `COACH-CX <id>` | `CX-01..04`; only progression and editing |
@@ -549,16 +549,27 @@ the coach's agent are in one file: [WHITE_LABEL.md](WHITE_LABEL.md).
 
 | Command | What it does |
 |---|---|
-| `node tools/new-brand.mjs --from-website <url>` (or `--id --name --lang --logo --colors`) | writes `app/brands/<id>.js`, `app/brands/<id>/` (logo, icons, `brand.css` from the colours, contrast-checked 4.5:1 light and dark) and `agent/packs/<id>/`, then a trial build with the leak check. `--force` replaces only brands it made |
+| `node tools/new-brand.mjs --from-website <url> --publish` (or `--id --name --lang --logo --colors --legal-name`) | writes `app/brands/<id>.js`, `app/brands/<id>/` (the logo as PNG, icons, `brand.css` from the colours, contrast-checked 4.5:1 light and dark) and `agent/packs/<id>/`, then a trial build with the leak check. `--publish` commits only those files to `main` and prints only the preview link and "live" (CH7-13; `--dry-run` shows the commands). `--force` rebuilds only brands it made and keeps what it is not told to change |
 | `node tools/build-site.mjs --all-brands` (env `BRAND=previews` on the Vercel project `white-label-previews`, https://white-label-previews.vercel.app) | every white-label brand (`white_label: true`, set by `new-brand`) at `site/<id>/` (`<base href>`, noindex); the root page lists none; with no white-label brand yet, only the root page |
 | `node tools/export-brand.mjs --brand <id> --out <dir> [--site] [--with-api] [--zip]` | the hand-off: the static site (any host), or a Vercel project with the API and the brand's pack; one brand only, with `LICENSE` |
 
-* **Legal line (PROPOSED until the attorney decides).** "Lalo Vera and BFit Studios Corp., doing business as <Name>" /
-  "Lalo Vera y BFit Studios Corp., que opera como <Name>" (the coach's CH7-03 pattern), with the brand's own disclaimer pages.
+* **Legal line (PROPOSED until the attorney decides; general information, not legal advice).** A white-label gym:
+  "Lalo Vera, BFit Studios Corp. and <Gym legal name> (doing business as <Gym>)" / "Lalo Vera, BFit Studios Corp. y <razón
+  social> (que opera como <Gym>)", the legal name once when it is the brand name (CH7-11, on the CH7-03 pattern). Its disclaimer
+  pages add a section "How this tool is provided" / "Cómo se ofrece esta herramienta" (the gym screens its people and has each
+  one sign the gym's own waiver; the site's terms do not move that duty to Lalo Vera or BFit Studios Corp.), and the release
+  text and the short release line add one sentence on the gym's waiver (`tools/brand-legal.mjs`: `whiteLabelParties`,
+  `withAddendum`, `brandModelRaw`). The gym's legal name comes from `--legal-name` or the website (footer copyright line,
+  LLC / Inc. / Corp. / S.A. de C.V. endings, the terms and privacy pages); until it is confirmed (`legal_name_confirmed`),
+  `tools/export-brand.mjs` refuses the hand-off. Son Hábitos and Blaze Camp keep their wording.
+* **Logos are always PNG (CH7-12).** `tools/white-label/raster.mjs` draws any logo (SVG, JPEG, WEBP, GIF, ICO, inline SVG)
+  with Playwright (env `BC_PLAYWRIGHT`, `BC_CHROMIUM`) or a Chrome on the PATH, trims it, at most 512 px wide; `--logo-text`
+  (or a site with no logo) makes a wordmark. No browser: make the PNG yourself and pass `--logo file.png`.
 * **Leak check for every brand but Blaze Camp** (`tools/white-label/leaks.mjs`, used by the site build and the export): no
   "Blaze Camp", owner or other brand's name outside the legal line.
-* **Helpers** (no dependencies): `tools/white-label/colors.mjs` (WCAG contrast, the stylesheet), `images.mjs` (PNG / JPEG / SVG
-  headers, a small PNG reader and writer for icons, SVG cleaning), `website.mjs` (the extractor), `zip.mjs`.
+* **Helpers** (no dependencies): `tools/white-label/colors.mjs` (WCAG contrast, the stylesheet), `images.mjs` (image headers, a
+  small PNG reader and writer, trimming, icons, SVG cleaning), `raster.mjs` (any logo to PNG with a browser), `website.mjs` (the
+  extractor, the gym's legal name included), `publish.mjs` (`--publish`), `zip.mjs`.
 * **Trial runs** write outside the repository: `--brands-dir`, `--packs-dir` (and env `BC_BRANDS_DIR` for `agent/` and the
   build). The repository never holds a test brand. Tests: `tests/white-label.test.mjs` (offline fixtures in
-  `tests/fixtures/white-label/`).
+  `tests/fixtures/white-label/`; the PNG tests skip cleanly without a browser).

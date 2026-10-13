@@ -1,6 +1,7 @@
 // tools/white-label/images.mjs - what tools/new-brand.mjs needs from a logo file, with no dependencies: the type from the file's
 // first bytes (PNG, JPEG, SVG), its width and height from the header, a plain PNG decoder / encoder (node:zlib) to make square
-// favicons from a PNG logo, and a sanitizer that drops scripts and event handlers from an SVG.
+// favicons from a PNG logo, trimming and sizing (trimImage, toWidth), and a sanitizer that drops scripts and event handlers from an
+// SVG. Turning other images (SVG, JPEG, WEBP, GIF, ICO) into a PNG needs a browser: tools/white-label/raster.mjs.
 import zlib from 'node:zlib';
 
 /** 'png' | 'jpeg' | 'svg' | 'gif' | 'webp' | 'ico' | null */
@@ -16,6 +17,7 @@ export function sniff(buf) {
   return null;
 }
 export const EXT = { png: 'png', jpeg: 'jpg', svg: 'svg' };
+export const MIME = { png: 'image/png', jpeg: 'image/jpeg', svg: 'image/svg+xml', gif: 'image/gif', webp: 'image/webp', ico: 'image/x-icon' };
 
 /** {w, h} from the file header (SVG: width / height, else the viewBox), or null */
 export function dimensions(buf, type = sniff(buf)) {
@@ -41,7 +43,49 @@ export function dimensions(buf, type = sniff(buf)) {
     if ((!w || !h) && vb) { const vw = parseFloat(vb[1]), vh = parseFloat(vb[2]); if (!w && !h) { w = vw; h = vh; } else if (!w) w = h * vw / vh; else h = w * vh / vw; }
     return w && h ? { w: Math.round(w), h: Math.round(h) } : null;
   }
+  if (type === 'gif' && buf.length >= 10) return { w: buf.readUInt16LE(6), h: buf.readUInt16LE(8) };
+  if (type === 'webp' && buf.length >= 30) {
+    const kind = buf.subarray(12, 16).toString('latin1');
+    if (kind === 'VP8X') return { w: 1 + buf.readUIntLE(24, 3), h: 1 + buf.readUIntLE(27, 3) };
+    if (kind === 'VP8 ') return { w: buf.readUInt16LE(26) & 0x3fff, h: buf.readUInt16LE(28) & 0x3fff };
+    if (kind === 'VP8L') { const b = buf.readUInt32LE(21); return { w: 1 + (b & 0x3fff), h: 1 + ((b >> 14) & 0x3fff) }; }
+    return null;
+  }
+  if (type === 'ico' && buf.length >= 22) {
+    // the largest entry (0 means 256)
+    let best = null;
+    for (let i = 0, n = buf.readUInt16LE(4); i < n && 6 + i * 16 + 16 <= buf.length; i++) {
+      const w = buf[6 + i * 16] || 256, h = buf[7 + i * 16] || 256;
+      if (!best || w * h > best.w * best.h) best = { w, h };
+    }
+    return best;
+  }
   return null;
+}
+
+/** the image without its empty border: transparent pixels, or (for an image with no transparency, a JPEG) pixels close to the
+ *  corner colour. Returns the image itself when nothing is left to trim or everything would be trimmed. */
+export function trimImage(img, { tolerance = 24 } = {}) {
+  const { w, h, data } = img;
+  const at = (x, y) => (y * w + x) * 4;
+  let opaque = true;
+  for (let i = 3; i < data.length; i += 4) if (data[i] < 250) { opaque = false; break; }
+  const c = at(0, 0), bg = [data[c], data[c + 1], data[c + 2]];
+  const empty = opaque
+    ? (x, y) => { const i = at(x, y); return Math.abs(data[i] - bg[0]) + Math.abs(data[i + 1] - bg[1]) + Math.abs(data[i + 2] - bg[2]) <= tolerance; }
+    : (x, y) => data[at(x, y) + 3] < 8;
+  let x0 = w, y0 = h, x1 = -1, y1 = -1;
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) if (!empty(x, y)) { if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
+  if (x1 < 0 || (x0 === 0 && y0 === 0 && x1 === w - 1 && y1 === h - 1)) return img;
+  const tw = x1 - x0 + 1, th = y1 - y0 + 1, out = new Uint8Array(tw * th * 4);
+  for (let y = 0; y < th; y++) out.set(data.subarray(at(x0, y0 + y), at(x0, y0 + y) + tw * 4), y * tw * 4);
+  return { w: tw, h: th, data: out };
+}
+/** the image no wider than maxW (keeping its shape) */
+export function toWidth(img, maxW) {
+  if (img.w <= maxW) return img;
+  const th = Math.max(1, Math.round(img.h * maxW / img.w));
+  return { w: maxW, h: th, data: scale(img, maxW, th) };
 }
 
 /** an SVG without scripts, event handlers, foreign objects or javascript: links (a logo needs none of them) */

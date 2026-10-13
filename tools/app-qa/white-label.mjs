@@ -16,7 +16,9 @@ const NAME = process.env.BC_QA_NAME || '';
 const PREFIX = process.env.BC_PDF_PREFIX || '';
 const OUT = (process.env.BC_QA_OUT || '/tmp/wl-qa/').replace(/\/?$/, '/');
 fs.mkdirSync(OUT, { recursive: true });
-const FORBID = /Blaze|Gerardo|\bLalo\b(?! Vera (?:and|y) BFit)|Son H[aá]bitos|Nati Vera/;
+// the owner's name only in the legal texts: "Lalo Vera and / y BFit ...", "Lalo Vera, BFit ..." (a gym's parties, CH7-11),
+// "Lalo Vera or BFit" / "a Lalo Vera ni a BFit" (the gym's addendum)
+const FORBID = /Blaze|Gerardo|\bLalo\b(?! Vera(?: and| y|,| or| ni a) BFit)|Son H[aá]bitos|Nati Vera/;
 const csp = JSON.parse(fs.readFileSync(ROOT + 'vercel.json')).headers[0].headers.find(h => h.key === 'Content-Security-Policy').value;
 const browser = await chromium.launch(process.env.BC_CHROMIUM ? { executablePath: process.env.BC_CHROMIUM } : {});
 const fails = [];
@@ -56,7 +58,7 @@ for (const [i, url] of URLS.entries()) {
   await page.waitForSelector('#daycard', { timeout: 240000 });
   if (shots) await page.screenshot({ path: OUT + '2-plan.png' });
   const text = await page.evaluate(() => document.body.innerText);
-  const m = FORBID.exec(text.replace(/Lalo Vera (and|y) BFit Studios Corp\./g, ''));
+  const m = FORBID.exec(text.replace(/Lalo Vera(?: and| y|,| or| ni a) BFit Studios Corp\./g, ''));
   if (m) fail(`${url}: the page names "${m[0]}"`);
   if (NAME && !text.includes(NAME)) fail(`${url}: the plan page never names ${NAME}`);
   // the PDF
@@ -68,7 +70,7 @@ for (const [i, url] of URLS.entries()) {
   if (pdf.subarray(0, 5).toString('latin1') !== '%PDF-') fail(`${url}: the download is not a PDF`);
   if (PREFIX && !dl.suggestedFilename().startsWith(PREFIX + '-')) fail(`${url}: PDF name ${dl.suggestedFilename()}`);
   try {
-    const py = 'import sys, re, pypdf\nt = " ".join((p.extract_text() or "") for p in pypdf.PdfReader(sys.argv[1]).pages)\nt = re.sub(r"\\s+", " ", t)\nprint(len(t), "|".join(re.findall(r".{0,25}(?:Blaze|Gerardo|Son H.bitos|Nati Vera|Lalo(?! Vera (?:and|y) BFit)).{0,25}", t)[:3]))';
+    const py = 'import sys, re, pypdf\nt = " ".join((p.extract_text() or "") for p in pypdf.PdfReader(sys.argv[1]).pages)\nt = re.sub(r"\\s+", " ", t)\nprint(len(t), "|".join(re.findall(r".{0,25}(?:Blaze|Gerardo|Son H.bitos|Nati Vera|Lalo(?! Vera(?: and| y|,| or| ni a) BFit)).{0,25}", t)[:3]))';
     const r = execFileSync('python3', ['-I', '-c', py, file], { encoding: 'utf8' }).trim();
     console.log('  PDF text: ' + r.slice(0, 200));
     if (r.split(' ').slice(1).join(' ').trim()) fail(`${url}: the PDF names another brand: ${r}`);

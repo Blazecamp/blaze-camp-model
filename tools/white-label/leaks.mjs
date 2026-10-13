@@ -36,7 +36,9 @@ export async function readBrands(dir) {
 
 /** a checker for `brand`'s files: (text) -> null | 'what was found ... in context' */
 export function leakChecker(brand, others) {
-  const allowed = brand.legal ? legalPartyTexts(brand.legal) : [];
+  // the legal texts as written and as an HTML page escapes them (a gym's legal name may hold & or an apostrophe); longest first
+  const htmlEsc = (x) => x.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  const allowed = brand.legal ? [...new Set(legalPartyTexts(brand.legal).flatMap(a => [a, htmlEsc(a)]))].sort((a, b) => b.length - a.length) : [];
   const own = new Set(brandPhrases(brand).map(x => fold(x).toLowerCase()));
   const phrases = [];
   for (const o of others) {
