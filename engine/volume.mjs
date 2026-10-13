@@ -1080,6 +1080,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     if (BL && BL.template_first) { const tpl = cands.filter(c => !isGroupBonus(c.s)); if (tpl.length && tpl.length < cands.length) cands = tpl; }
     // the order the candidates take the set in (a function: the balance gate below reads it twice)
     const inOrder = (cands) => {
+      // (G-311: a list of one or none is never compared - nothing below has an effect but its order)
+      if (cands.length < 2) return cands;
       const ring = [...new Set(cands.map(c => c.di))].sort((a, b) => a - b);
       const last = lastDay[g];
       const dist = (di) => { if (last === undefined) return ring.indexOf(di); const start = ring.findIndex(x => x > last); const at = ring.indexOf(di); return (at - (start < 0 ? 0 : start) + ring.length) % ring.length; };
@@ -1134,12 +1136,13 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       // (the step stays inside the day's staircase: it goes to an exercise of the work day that holds the fewest sets there - VOL-07)
       // (and never more than rules.placement.x3.lead_first.max_ahead sets above the group's least-loaded exercise of another day)
       const LF = PX3.lead_first || {};
-      const kWorkMap = new Map(cands.map(c => {
-        if (!LF.enabled || !isMainDi(c.di) || (leadSlotOf(c.di, g) || {}).role !== 'work') return [c, 1];
+      // (G-311: read when the sort first asks, once per candidate - the same value)
+      const kWorkMap = { get: memoC((c) => {
+        if (!LF.enabled || !isMainDi(c.di) || (leadSlotOf(c.di, g) || {}).role !== 'work') return 1;
         const mine = cands.filter(c2 => c2.di === c.di), others = cands.filter(c2 => c2.di !== c.di && !twinDays(c2.di, c.di));
         const ahead = others.length && isNum(LF.max_ahead) ? c.n + 1 - Math.min(...others.map(c2 => c2.n)) : 0;
-        return [c, c.n <= Math.min(...mine.map(c2 => c2.n)) && ahead <= (LF.max_ahead || 0) ? 0 : 1];
-      }));
+        return c.n <= Math.min(...mine.map(c2 => c2.n)) && ahead <= (LF.max_ahead || 0) ? 0 : 1;
+      }) };
       const kWork = (c) => kWorkMap.get(c);
       // v0.6 G-201 (VOL-07; R3-VOL-03 'alternate between the two exposures'; review r5 06 m10: the hex-bar deadlift flat at 3 while the
       // hip thrust took every step): read per candidate, so the order stays transitive - the main two-leg lift whose twin (the same day
