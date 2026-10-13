@@ -180,6 +180,37 @@ export function stepsFor(a) {
   return ['about', 'goal', ...(d ? [d] : []), 'week', 'kit', 'health', 'accept'];
 }
 
+/**
+ * The page's 4 screens (the coach's brief: few clicks, little scrolling). Each screen holds one or more of the steps above, so
+ * every blocker and every intake field stays exactly the same:
+ *   you    = about
+ *   goal   = goal + its detail (sport / activity / focus / format), shown inline under the goal cards
+ *   week   = week + kit (the equipment), with plan length, start date, split, tests and extra kit under "Options"
+ *   safety = health (pain + health check) + accept (the release, H20)
+ */
+export const SCREENS = ['you', 'goal', 'week', 'safety'];
+export function stepsOfScreen(screen, a) {
+  switch (screen) {
+    case 'you': return ['about'];
+    case 'goal': { const d = a && a.goal ? detailStepFor(a.goal) : null; return d ? ['goal', d] : ['goal']; }
+    case 'week': return ['week', 'kit'];
+    case 'safety': return ['health', 'accept'];
+    default: return [];
+  }
+}
+/** what a screen still needs before it can move on: the first step blocker on it (a UI key) or null */
+export function screenBlocker(screen, a) {
+  for (const st of stepsOfScreen(screen, a)) { const b = stepBlocker(st, a); if (b) return b; }
+  return null;
+}
+/** the screen that holds a step (to send an engine error back to the right screen) */
+export function screenOfStep(step) {
+  if (step === 'about') return 'you';
+  if (['goal', 'sport', 'activity', 'focus', 'format'].includes(step)) return 'goal';
+  if (step === 'week' || step === 'kit') return 'week';
+  return 'safety';
+}
+
 /** set the day count and keep the chosen weekdays when they still fit, else the defaults */
 export function withDays(a, days, defaults) {
   const def = (defaults && defaults.length === days ? defaults : DEFAULT_WEEKDAYS[days]).slice();

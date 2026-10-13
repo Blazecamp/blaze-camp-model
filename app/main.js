@@ -4,7 +4,7 @@
 import { ui, initialLang, LANGS } from './i18n.js';
 import * as B from './intake-builder.js';
 import * as V from './plan-view.js';
-import { markdown, inline, escapeHtml as h, stripMarkers } from './md.js';
+import { markdown, inline, escapeHtml as h, stripMarkers, plain } from './md.js';
 import { fetchModel } from './model-loader.js';
 import { nodeToPng, saveBlob } from './snapshot.js';
 import { validateIntake } from '../engine/intake.mjs';
@@ -99,6 +99,9 @@ function applyChrome() {
 
 function render() {
   const focusKey = document.activeElement && document.activeElement.dataset ? (document.activeElement.dataset.action || '') + '|' + (document.activeElement.dataset.value || '') : null;
+  // <details> the person opened or closed stay that way across re-renders (data-keep names them)
+  const kept = {};
+  $app.querySelectorAll('details[data-keep]').forEach(d => { kept[d.dataset.keep] = d.open; });
   $app.className = S.screen === 'plan' ? 'plan-main' : '';
   if (S.screen === 'loading') $app.innerHTML = `<div class="loading"><div class="spinner"></div><p>${h(t('app.loading'))}</p></div>`;
   else if (S.screen === 'error') $app.innerHTML = `<div class="loading"><p>${h(t('app.load_failed'))}</p><p><button class="btn primary" data-action="reload">${h(t('app.reload'))}</button></p>${S.loadError ? `<p class="hint" style="font-size:12px;word-break:break-word">${h(S.loadError)}</p>` : ''}</div>`;
@@ -106,6 +109,7 @@ function render() {
   else if (S.screen === 'building') $app.innerHTML = renderBuilding();
   else if (S.screen === 'invalid') $app.innerHTML = renderInvalid();
   else if (S.screen === 'plan') $app.innerHTML = renderPlanScreen();
+  $app.querySelectorAll('details[data-keep]').forEach(d => { if (d.dataset.keep in kept) d.open = kept[d.dataset.keep]; });
   if (focusKey && focusKey !== '|') {
     const [a, v] = focusKey.split('|');
     const el = $app.querySelector(`[data-action="${CSS.escape(a)}"]${v ? `[data-value="${CSS.escape(v)}"]` : ''}`);
@@ -117,21 +121,26 @@ const footer = () => `<div class="foot"><p>${h(t('app.credit'))}</p><p>${h(t('ap
 
 // ------------------------------------------------------------------------------------------------- wizard
 
-function steps() { return B.stepsFor(S.answers); }
+const SCREENS = B.SCREENS;
+const screenId = () => SCREENS[Math.max(0, Math.min(S.step, SCREENS.length - 1))];
+
+function blockerWords(blocker) {
+  if (!blocker || blocker === 'err.generic') return '';
+  if (blocker === 'week.weekdays_hint') return t(blocker, { n: S.answers.days });
+  return t(blocker);
+}
 
 function renderWizard() {
-  const list = steps();
-  S.step = Math.max(0, Math.min(S.step, list.length - 1));
-  const id = list[S.step];
-  const body = STEP[id]();
-  const blocker = B.stepBlocker(id, S.answers);
-  const last = S.step === list.length - 1;
-  const dots = list.map((x, i) => `<span class="dot ${i < S.step ? 'done' : i === S.step ? 'on' : ''}"></span>`).join('');
-  const why = blocker && blocker !== 'err.generic' ? (blocker === 'week.weekdays_hint' ? t(blocker, { n: S.answers.days }) : id === 'sport' && blocker === 'sport.search' ? t('sport.search') : t(blocker)) : '';
+  S.step = Math.max(0, Math.min(S.step, SCREENS.length - 1));
+  const id = screenId();
+  const body = SCREEN[id]();
+  const blocker = B.screenBlocker(id, S.answers);
+  const last = S.step === SCREENS.length - 1;
+  const dots = SCREENS.map((x, i) => `<span class="dot ${i < S.step ? 'done' : i === S.step ? 'on' : ''}"></span>`).join('');
+  const why = blockerWords(blocker);
   return `<div class="wiz-head"><div class="dots" aria-hidden="true">${dots}</div>
-    <div class="step-count">${h(t('nav.step', { n: S.step + 1, total: list.length }))}</div>
-    <h1 class="step-title">${h(t('step.' + id))}</h1></div>
-    <section class="wiz-body" data-step="${id}">${body}</section>
+    <div class="wiz-title"><h1 class="step-title">${h(t('screen.' + id))}</h1><span class="step-count" aria-label="${h(t('nav.step', { n: S.step + 1, total: SCREENS.length }))}">${h(t('screen.count', { n: S.step + 1, total: SCREENS.length }))}</span></div></div>
+    <section class="wiz-body" data-step="${id}" data-screen="${id}">${body}</section>
     ${footer()}
     <nav class="wiz-nav"><div class="wiz-nav-inner">
       ${S.step > 0 ? `<button class="btn ghost" data-action="back">‹ ${h(t('nav.back'))}</button>` : ''}
@@ -140,26 +149,25 @@ function renderWizard() {
 }
 
 const chip = (action, value, label, on, extra = '') => `<button type="button" class="chip" data-action="${action}" data-value="${h(value)}" aria-pressed="${on ? 'true' : 'false'}" ${extra}>${label}</button>`;
-const seg = (action, items, cur) => `<div class="seg" role="group">${items.map(([v, l]) => `<button type="button" data-action="${action}" data-value="${h(v)}" aria-pressed="${String(v) === String(cur)}">${h(l)}</button>`).join('')}</div>`;
+const seg = (action, items, cur, cls = '') => `<div class="seg ${cls}" role="group">${items.map(([v, l]) => `<button type="button" data-action="${action}" data-value="${h(v)}" aria-pressed="${String(v) === String(cur)}">${h(l)}</button>`).join('')}</div>`;
 const cardBtn = (action, value, title, sub, on, icon = '') => `<button type="button" class="card-btn" data-action="${action}" data-value="${h(value)}" aria-pressed="${on ? 'true' : 'false'}">${icon ? `<span class="ic" aria-hidden="true">${icon}</span>` : ''}<span class="t">${h(title)}</span>${sub ? `<span class="s">${h(sub)}</span>` : ''}</button>`;
+const selectHtml = (field, label, opts, cur) => `<label class="sel"><span class="label">${h(label)}</span><select data-field="${field}">${opts.map(([v, l]) => `<option value="${h(v)}" ${String(v) === String(cur || '') ? 'selected' : ''}>${h(l)}</option>`).join('')}</select></label>`;
 
 const GOAL_ICON = { muscle: '◆', strength: '▲', fat_loss: '◉', general: '✚', athletic: '➤', active: '✦' };
 
-const STEP = {
-  about() {
+const SCREEN = {
+  you() {
     const a = S.answers;
-    return `<p class="lead">${h(t('about.intro'))}</p>
-      <div class="field"><span class="label">${h(t('about.role'))}</span>${seg('role', [['self', t('about.role.self')], ['client', t('about.role.client')]], a.role)}</div>
+    return `<div class="field"><span class="label">${h(t('about.role'))}</span>${seg('role', [['self', t('about.role.self')], ['client', t('about.role.client')]], a.role, 'small')}</div>
       <div class="row2">
         <div class="field"><label class="label" for="age">${h(t('about.age'))}</label>
           <div class="stepper"><button type="button" data-action="age" data-value="-1" aria-label="${h(t('stepper.less'))}">−</button>
           <input id="age" type="number" inputmode="numeric" min="10" max="90" value="${h(a.age)}" data-field="age">
           <button type="button" data-action="age" data-value="1" aria-label="${h(t('stepper.more'))}">+</button></div></div>
-        <div class="field"><label class="label" for="weight">${h(t('about.weight'))}</label>
+        <div class="field"><div class="label-row"><label class="label" for="weight">${h(t('about.weight'))}</label>${seg('unit', [['lb', 'lb'], ['kg', 'kg']], a.unit, 'tiny')}</div>
           <div class="stepper"><button type="button" data-action="weight" data-value="-1" aria-label="${h(t('stepper.less'))}">−</button>
           <input id="weight" type="number" inputmode="numeric" min="20" max="700" value="${h(a.weight)}" data-field="weight">
-          <button type="button" data-action="weight" data-value="1" aria-label="${h(t('stepper.more'))}">+</button></div>
-          <div class="unit-seg">${seg('unit', [['lb', 'lb'], ['kg', 'kg']], a.unit)}</div></div>
+          <button type="button" data-action="weight" data-value="1" aria-label="${h(t('stepper.more'))}">+</button></div></div>
       </div>
       <div class="field"><span class="label">${h(t('about.years'))}</span>
         <div class="chips grid3">${B.YEARS_CHOICES.map(y => chip('years', y, h(t('about.years.' + y)), a.years === y)).join('')}</div></div>
@@ -167,111 +175,136 @@ const STEP = {
   },
   goal() {
     const a = S.answers;
-    return `<div class="cards">${B.GOALS.map(g => cardBtn('goal', g, t('goal.' + g), t('goal.' + g + '.sub'), a.goal === g, GOAL_ICON[g])).join('')}</div>`;
-  },
-  sport() {
-    const s = S.answers.sport;
-    if (!s.id) return pickerHtml('sport');
-    const ps = S.model.pickerSport(s.id);
-    let out = `<div class="picked"><span class="t">${h(mt(ps.name_key))}</span><button type="button" class="link-btn" data-action="sport-change">${h(t('pick.change'))}</button></div>`;
-    if ((ps.positions || []).length) {
-      out += `<div class="field"><span class="label">${h(t('sport.position'))}</span><div class="chips">${chip('position', '', h(t('sport.position.any')), !s.position)}${ps.positions.map(p => chip('position', p.value, h(mt(p.name_key)), s.position === p.value)).join('')}</div></div>`;
-    }
-    if (ps.second_choice && (ps.second_choice.options || []).length) {
-      out += `<div class="field"><span class="label">${h(mt(ps.second_choice.name_key))}</span><div class="chips">${chip('detail', '', h(t('sport.position.any')), !s.detail)}${ps.second_choice.options.map(o => chip('detail', o.value, h(mt(o.name_key)), s.detail === o.value)).join('')}</div></div>`;
-    }
-    out += `<div class="field"><span class="label">${h(t('sport.season'))}</span><div class="chips">${B.SEASON_TYPES.map(x => chip('season', x, h(t('sport.season.' + x)), s.season === x)).join('')}</div>
-      ${s.season !== 'no_season' ? `<p class="hint"><label for="sdate">${h(t('sport.season_date'))}</label></p><input id="sdate" class="date" type="date" min="${today()}" value="${h(s.season_date || '')}" data-field="season_date">` : ''}</div>`;
-    out += `<div class="field"><span class="label">${h(t('sport.practice'))}</span><div class="chips grid4">${[0, 1, 2, 3, 4, 5, 6, 7].map(n => chip('practice', n, String(n), s.practice === n)).join('')}</div></div>`;
-    return out;
-  },
-  activity() {
-    const ac = S.answers.activity;
-    if (!ac.id) return pickerHtml('activity');
-    const act = S.model.activity(ac.id);
-    let out = `<div class="picked"><span class="t">${h(mt(act.name_key))}</span><button type="button" class="link-btn" data-action="act-change">${h(t('pick.change'))}</button></div>`;
-    if ((act.league_sport || []).length) out += `<div class="field"><span class="label">${h(t('activity.league'))}</span><div class="chips">${act.league_sport.map(x => chip('league', x.value, h(S.model.hasSport(x.profile) ? mt(S.model.sport(x.profile).name_key) : cap(String(x.value).replace(/_/g, ' '))), ac.league === x.value)).join('')}</div></div>`;
-    if ((act.style || []).length) out += `<div class="field"><span class="label">${h(t('activity.style'))}</span><div class="chips">${act.style.map(x => chip('style', x.value, h(t('activity.style.' + x.value) !== 'activity.style.' + x.value ? t('activity.style.' + x.value) : cap(String(x.value).replace(/_/g, ' '))), ac.style === x.value)).join('')}</div></div>`;
-    out += `<div class="field"><span class="label">${h(t('activity.play_days'))}</span><div class="chips grid7">${B.WEEKDAYS.map(d => chip('playday', d, h(t('weekday.short.' + d)), ac.play_days.includes(d))).join('')}</div></div>`;
-    out += `<div class="field"><label class="label" for="edate">${h(t('activity.event'))}</label><input id="edate" class="date" type="date" min="${today()}" value="${h(ac.event_date || '')}" data-field="event_date"><p class="hint">${h(t('activity.event_hint'))}</p></div>`;
-    return out;
-  },
-  focus() {
-    const a = S.answers;
-    const used = B.focusSlots(a.focus);
-    return `<p class="lead">${h(t('focus.intro'))}</p>
-      <div class="chips grid3">${B.FOCUS_CHOICES.map(f => chip('focus', f, h(focusLabel(f)), a.focus.includes(f))).join('')}</div>
-      <p class="hint">${h(t('focus.count', { n: used }))}</p>`;
-  },
-  format() {
-    const a = S.answers;
-    return `<div class="cards one">${cardBtn('format', 'gym', t('format.gym'), t('format.gym.sub'), a.format === 'gym', '▤')}${cardBtn('format', 'bootcamp', t('format.bootcamp'), t('format.bootcamp.sub'), a.format === 'bootcamp', '⟳')}</div>`;
+    const d = a.goal ? B.detailStepFor(a.goal) : null;
+    if (!d) return `<div class="cards">${B.GOALS.map(g => cardBtn('goal', g, t('goal.' + g), t('goal.' + g + '.sub'), a.goal === g, GOAL_ICON[g])).join('')}</div>`;
+    // a goal with details: the cards shrink to one compact grid and the details open right under them, on the same screen
+    const cards = `<div class="cards mini">${B.GOALS.map(g => cardBtn('goal', g, t('goal.' + g), '', a.goal === g, GOAL_ICON[g])).join('')}</div>`;
+    return cards + `<div class="detail" data-detail="${d}">${DETAIL[d]()}</div>`;
   },
   week() {
     const a = S.answers;
     const play = a.goal === 'active' ? a.activity.play_days : [];
-    const splits = B.splitChoices(a.goal, a.days);
-    let out = `<div class="field"><span class="label">${h(t('week.days'))}</span><div class="chips grid4" style="grid-template-columns:repeat(5,1fr)">${B.DAYS_CHOICES.map(d => chip('days', d, String(d), a.days === d)).join('')}</div>
+    const profiles = S.model.rules.equipment.intake_profiles;
+    let out = `<div class="field"><span class="label">${h(t('week.days'))}</span><div class="chips grid5">${B.DAYS_CHOICES.map(d => chip('days', d, String(d), a.days === d)).join('')}</div>
       ${a.days === 2 ? `<p class="hint">${h(t('week.two_day_note'))}</p>` : ''}</div>`;
-    out += `<div class="field"><span class="label">${h(t('week.weekdays'))}</span><div class="chips grid7">${B.WEEKDAYS.map(d => chip('weekday', d, h(t('weekday.short.' + d)) + (play.includes(d) ? `<small>${h(t('week.play_mark'))}</small>` : ''), a.weekdays.includes(d))).join('')}</div>
-      <p class="hint">${h(t('week.weekdays_hint', { n: a.days }))}</p></div>`;
-    if (splits.length) out += `<div class="field"><span class="label">${h(t('week.split'))}</span>${seg('split', splits.map(x => [x, t('week.split.' + x)]), splits.includes(a.split) ? a.split : 'default')}</div>`;
-    out += `<div class="row2"><div class="field"><span class="label">${h(t('week.length'))}</span>${seg('weeks', [[12, t('week.length.12')], [8, t('week.length.8')]], a.weeks)}</div>
-      <div class="field"><label class="label" for="start">${h(t('week.start'))}</label><input id="start" class="date" type="date" value="${h(a.start_date)}" data-field="start_date"></div></div>`;
-    out += `<div class="field"><span class="label">${h(t('week.tests'))}</span><div class="chips">${chip('test', 'none', h(t('week.tests.none')), !a.tests.length)}${B.TEST_CHOICES.map(x => chip('test', x, h(mt('intake.tests.opt.' + x)), a.tests.includes(x))).join('')}</div></div>`;
+    out += `<div class="field"><span class="label">${h(t('week.weekdays'))} <span class="label-sub">${h(t('week.weekdays_hint', { n: a.days }))}</span></span><div class="chips grid7">${B.WEEKDAYS.map(d => chip('weekday', d, h(t('weekday.short.' + d)) + (play.includes(d) ? `<small>${h(t('week.play_mark'))}</small>` : ''), a.weekdays.includes(d))).join('')}</div></div>`;
+    out += `<div class="field"><span class="label">${h(t('week.kit'))}</span><div class="cards kit">${profiles.map(p => cardBtn('kit', p, mt('intake.equipment.opt.' + p), t('kit.sub.' + p), a.equipment === p)).join('')}</div></div>`;
+    out += optionsHtml();
     return out;
   },
-  kit() {
-    const a = S.answers;
-    const profiles = S.model.rules.equipment.intake_profiles;
-    const extras = B.EXTRA_CHOICES.filter(x => S.model.has('en', 'equipment.token.' + x));
-    return `<p class="lead">${h(t('kit.intro'))}</p>
-      <div class="cards compact">${profiles.map(p => cardBtn('kit', p, mt('intake.equipment.opt.' + p), t('kit.sub.' + p), a.equipment === p)).join('')}</div>
-      <details class="week-notes" style="margin-top:12px" ${a.extras.length ? 'open' : ''}><summary>${h(t('kit.extras'))}${a.extras.length ? ` (${a.extras.length})` : ''}</summary>
-        <div class="body"><div class="chips">${extras.map(x => chip('extra', x, h(cap(mt('equipment.token.' + x))), a.extras.includes(x))).join('')}</div></div></details>`;
-  },
-  health() {
+  safety() {
     const a = S.answers;
     const areas = Object.keys(S.model.rules.volume.pain.areas);
-    let out = `<div class="field"><span class="label">${h(t('health.pain'))}</span><div class="chips">${areas.map(ar => chip('pain', ar, h(mt('intake.pain.opt.' + ar)), a.pain.some(p => p.area === ar))).join('')}</div>`;
+    let out = `<div class="field"><span class="label">${h(t('health.pain'))}</span><div class="chips small pain">${areas.map(ar => chip('pain', ar, h(mt('intake.pain.opt.' + ar)), a.pain.some(p => p.area === ar))).join('')}</div>`;
     if (a.pain.length) {
       out += `<p class="hint">${h(t('health.pain_hint'))}</p>` + a.pain.map(p => `<div class="pain-row"><span class="name">${h(mt('intake.pain.opt.' + p.area))}</span>${seg('sev', B.SEVERITIES.map(s => [p.area + ':' + s, t('health.sev.' + s)]), p.area + ':' + p.severity)}</div>`).join('');
     }
     out += '</div>';
-    if (a.role === 'client') {
-      out += `<div class="field"><span class="label">${h(t('health.route'))}</span><div class="cards one compact">${['coach_screen', 'coach_own_sop'].map(r => cardBtn('route', r, mt('intake.health_route.opt.' + r), '', a.health_route === r)).join('')}</div>`;
-      if (a.health_route === 'coach_own_sop') out += `<p class="note warn">${h(mt('warn.coach_bypass'))}</p>`;
-      out += '</div>';
-      if (a.health_route === 'coach_own_sop') return out;
-    }
-    const parq = S.model.rules.legal && S.model.rules.legal.parq_url;
-    out += `<div class="field"><span class="label">${h(t('health.questions'))}</span><p class="lead" style="font-size:15px">${h(mt('health.intro'))}</p>`;
-    if (a.health !== 'some') out += `<ul class="md" style="margin:0 0 10px;font-size:16px">${B.SAFETY_KEYS.map(k => `<li>${h(mt('intake.safety.opt.' + k))}</li>`).join('')}</ul>`;
-    out += `<div class="chips" style="display:grid;grid-template-columns:1fr 1fr">${chip('health', 'none', h(mt('health.none')), a.health === 'none')}${chip('health', 'some', h(mt('health.some')), a.health === 'some')}</div>`;
-    if (a.health === 'some') {
-      out += B.SAFETY_KEYS.map(k => `<div class="qa"><span class="q">${h(mt('intake.safety.opt.' + k))}</span>${seg('safety', [[k + ':1', t('health.yes')], [k + ':0', t('health.no')]], k + ':' + (a.safety[k] ? 1 : 0))}</div>`).join('');
-      out += `<p class="note warn">${h(t('health.warn_note'))}</p>`;
-    }
-    if (parq) out += `<p class="hint"><a href="${h(parq)}" target="_blank" rel="noopener noreferrer">${h(t('health.parq'))}</a></p>`;
-    return out + '</div>';
-  },
-  accept() {
-    const a = S.answers;
-    const L = S.model.rules.legal || {};
-    const url = L.disclaimer_url ? (L.disclaimer_url[S.lang] || L.disclaimer_url.en) : '';
-    const rel = releaseText(a.role === 'client' && !B.isMinor(a) ? 'release.coach' : 'release.client');
-    let out = `<div class="field"><span class="label">${h(t('accept.summary'))}</span><ul class="sum">${summaryRows().map(([k, v]) => `<li><span>${h(k)}</span><span>${h(v)}</span></li>`).join('')}</ul></div>`;
-    out += `<div class="field"><span class="label">${h(t('accept.terms'))}</span><div class="release-text">${rel.title ? `<p><b>${h(rel.title)}</b></p>` : ''}<p>${h(rel.body)}</p>
-      ${url ? `<p><a href="${h(url)}" target="_blank" rel="noopener noreferrer">${h(mt('release.full_text_link'))}</a></p>` : ''}</div></div>`;
-    if (B.isMinor(a)) {
-      out += `<p class="note">${h(minorLine())}</p>`;
-      out += `<label class="check ${a.guardian ? 'on' : ''}"><input type="checkbox" data-field="guardian" ${a.guardian ? 'checked' : ''}><span>${h(t('accept.guardian'))}</span></label>`;
-    }
-    out += `<label class="check ${a.accepted ? 'on' : ''}"><input type="checkbox" data-field="accepted" ${a.accepted ? 'checked' : ''}><span>${h(mt('release.own_risk'))}</span></label>`;
-    out += `<p class="hint">${h(t('accept.nothing_saved'))}</p>`;
+    out += healthHtml();
+    out += acceptHtml();
     return out;
   }
 };
+
+/** the goal's details, inline under the goal cards */
+const DETAIL = {
+  sport() {
+    const s = S.answers.sport;
+    if (!s.id) return `<span class="label">${h(t('goal.pick_sport'))}</span>${pickerHtml('sport')}`;
+    const ps = S.model.pickerSport(s.id);
+    const any = t('sport.position.any');
+    let out = `<div class="picked"><span class="t">${h(mt(ps.name_key))}</span><button type="button" class="link-btn" data-action="sport-change">${h(t('pick.change'))}</button></div>`;
+    const sels = [];
+    if ((ps.positions || []).length) sels.push(selectHtml('position', t('sport.position_opt'), [['', any], ...ps.positions.map(p => [p.value, mt(p.name_key)])], s.position));
+    if (ps.second_choice && (ps.second_choice.options || []).length) sels.push(selectHtml('detail', t('sport.detail_opt', { label: mt(ps.second_choice.name_key) }), [['', any], ...ps.second_choice.options.map(o => [o.value, mt(o.name_key)])], s.detail));
+    if (sels.length) out += `<div class="sels">${sels.join('')}</div>`;
+    const seasonWord = t('sport.season.' + s.season) + (s.season !== 'no_season' && s.season_date ? ' ' + s.season_date : '');
+    const open = s.season !== 'no_season' && !s.season_date;
+    out += `<details class="more" data-keep="sport-more" ${open ? 'open' : ''}><summary><span class="st"><span>${h(t('sport.more'))}</span><span class="cur">${h(seasonWord)} · ${h(t('sport.practice'))}: ${h(String(s.practice))}</span></span></summary><div class="body">
+      <div class="field"><span class="label">${h(t('sport.season'))}</span><div class="chips small">${B.SEASON_TYPES.map(x => chip('season', x, h(t('sport.season.' + x)), s.season === x)).join('')}</div>
+      ${s.season !== 'no_season' ? `<p class="hint"><label for="sdate">${h(t('sport.season_date'))}</label></p><input id="sdate" class="date" type="date" min="${today()}" value="${h(s.season_date || '')}" data-field="season_date">` : ''}</div>
+      <div class="field"><span class="label">${h(t('sport.practice'))}</span><div class="chips grid8">${[0, 1, 2, 3, 4, 5, 6, 7].map(n => chip('practice', n, String(n), s.practice === n)).join('')}</div></div></div></details>`;
+    return out;
+  },
+  activity() {
+    const ac = S.answers.activity;
+    if (!ac.id) return `<span class="label">${h(t('goal.pick_activity'))}</span>${pickerHtml('activity')}`;
+    const act = S.model.activity(ac.id);
+    let out = `<div class="picked"><span class="t">${h(mt(act.name_key))}</span><button type="button" class="link-btn" data-action="act-change">${h(t('pick.change'))}</button></div>`;
+    const sels = [];
+    const any = t('sport.position.any');
+    if ((act.league_sport || []).length) sels.push(selectHtml('league', t('activity.league'), [['', any], ...act.league_sport.map(x => [x.value, S.model.hasSport(x.profile) ? mt(S.model.sport(x.profile).name_key) : cap(String(x.value).replace(/_/g, ' '))])], ac.league));
+    if ((act.style || []).length) sels.push(selectHtml('style', t('activity.style'), [['', any], ...act.style.map(x => [x.value, t('activity.style.' + x.value) !== 'activity.style.' + x.value ? t('activity.style.' + x.value) : cap(String(x.value).replace(/_/g, ' '))])], ac.style));
+    if (sels.length) out += `<div class="sels">${sels.join('')}</div>`;
+    out += `<div class="field"><span class="label">${h(t('activity.play_days'))}</span><div class="chips grid7">${B.WEEKDAYS.map(d => chip('playday', d, h(t('weekday.short.' + d)), ac.play_days.includes(d))).join('')}</div></div>`;
+    out += `<details class="more" ${ac.event_date ? 'open' : ''}><summary><span class="st"><span>${h(t('activity.event'))}</span>${ac.event_date ? `<span class="cur">${h(ac.event_date)}</span>` : ''}</span></summary><div class="body"><input id="edate" class="date" type="date" min="${today()}" value="${h(ac.event_date || '')}" data-field="event_date" aria-label="${h(t('activity.event'))}"><p class="hint">${h(t('activity.event_hint'))}</p></div></details>`;
+    return out;
+  },
+  focus() {
+    const a = S.answers;
+    return `<div class="field"><span class="label">${h(t('focus.label'))}</span>
+      <div class="chips grid3 small">${B.FOCUS_CHOICES.map(f => chip('focus', f, h(focusLabel(f)), a.focus.includes(f))).join('')}</div>
+      <p class="hint">${h(t('focus.count', { n: B.focusSlots(a.focus) }))} · ${h(t('focus.intro').replace(/^[^.]*\.\s*/, ''))}</p></div>`;
+  },
+  format() {
+    const a = S.answers;
+    return `<div class="field"><span class="label">${h(t('format.label'))}</span>${seg('format', [['gym', t('format.gym')], ['bootcamp', t('format.bootcamp')]], a.format)}
+      <p class="hint">${h(t('format.' + (a.format === 'bootcamp' ? 'bootcamp' : 'gym') + '.sub'))}</p></div>`;
+  }
+};
+
+/** plan length, start date, split, tests and extra kit: sensible defaults, closed by default */
+function optionsHtml() {
+  const a = S.answers;
+  const splits = B.splitChoices(a.goal, a.days);
+  const extras = B.EXTRA_CHOICES.filter(x => S.model.has('en', 'equipment.token.' + x));
+  const cur = [t('week.length.' + a.weeks), a.start_date, a.tests.length ? a.tests.map(x => mt('intake.tests.opt.' + x)).join(', ') : t('week.tests.none')];
+  if (splits.length) cur.unshift(t('week.split.' + (splits.includes(a.split) ? a.split : 'default')));
+  if (a.extras.length) cur.push('+' + a.extras.length);
+  let body = '';
+  if (splits.length) body += `<div class="field"><span class="label">${h(t('week.split'))}</span>${seg('split', splits.map(x => [x, t('week.split.' + x)]), splits.includes(a.split) ? a.split : 'default')}</div>`;
+  body += `<div class="field"><span class="label">${h(t('week.length'))}</span>${seg('weeks', [[12, t('week.length.12')], [8, t('week.length.8')]], a.weeks)}</div>
+    <div class="field"><label class="label" for="start">${h(t('week.start'))}</label><input id="start" class="date" type="date" value="${h(a.start_date)}" data-field="start_date"></div>`;
+  body += `<div class="field"><span class="label">${h(t('week.tests'))}</span><div class="chips small">${chip('test', 'none', h(t('week.tests.none')), !a.tests.length)}${B.TEST_CHOICES.map(x => chip('test', x, h(mt('intake.tests.opt.' + x)), a.tests.includes(x))).join('')}</div></div>`;
+  body += `<div class="field"><span class="label">${h(t('kit.extras'))}</span><div class="chips small">${extras.map(x => chip('extra', x, h(cap(mt('equipment.token.' + x))), a.extras.includes(x))).join('')}</div></div>`;
+  return `<details class="more opts" data-keep="opts"><summary><span class="st"><span>${h(t('week.options'))}</span><span class="cur">${h(cur.join(' · '))}</span></span></summary><div class="body">${body}</div></details>`;
+}
+
+function healthHtml() {
+  const a = S.answers;
+  let out = '';
+  if (a.role === 'client') {
+    out += `<div class="field"><span class="label">${h(t('health.route'))}</span><div class="cards one compact">${['coach_screen', 'coach_own_sop'].map(r => cardBtn('route', r, mt('intake.health_route.opt.' + r), '', a.health_route === r)).join('')}</div>`;
+    if (a.health_route === 'coach_own_sop') out += `<p class="note warn">${h(mt('warn.coach_bypass'))}</p>`;
+    out += '</div>';
+    if (a.health_route === 'coach_own_sop') return out;
+  }
+  const parq = S.model.rules.legal && S.model.rules.legal.parq_url;
+  out += `<div class="field"><span class="label">${h(t('health.questions'))}</span><p class="small-text">${h(mt('health.intro'))}</p>`;
+  if (a.health !== 'some') out += `<ul class="qlist">${B.SAFETY_KEYS.map(k => `<li>${h(mt('intake.safety.opt.' + k))}</li>`).join('')}</ul>`;
+  out += `<div class="chips two">${chip('health', 'none', h(mt('health.none')), a.health === 'none')}${chip('health', 'some', h(mt('health.some')), a.health === 'some')}</div>`;
+  if (a.health === 'some') {
+    out += B.SAFETY_KEYS.map(k => `<div class="qa"><span class="q">${h(mt('intake.safety.opt.' + k))}</span>${seg('safety', [[k + ':1', t('health.yes')], [k + ':0', t('health.no')]], k + ':' + (a.safety[k] ? 1 : 0))}</div>`).join('');
+    out += `<p class="note warn">${h(t('health.warn_note'))}</p>`;
+  }
+  if (parq) out += `<p class="hint small"><a href="${h(parq)}" target="_blank" rel="noopener noreferrer">${h(t('health.parq'))}</a></p>`;
+  return out + '</div>';
+}
+
+function acceptHtml() {
+  const a = S.answers;
+  const L = S.model.rules.legal || {};
+  const url = L.disclaimer_url ? (L.disclaimer_url[S.lang] || L.disclaimer_url.en) : '';
+  const rel = releaseText(a.role === 'client' && !B.isMinor(a) ? 'release.coach' : 'release.client');
+  let out = `<div class="field"><span class="label">${h(t('safety.release'))}</span><div class="release-text" tabindex="0">${rel.title ? `<p><b>${h(rel.title)}</b></p>` : ''}<p>${h(rel.body)}</p>
+    ${url ? `<p><a href="${h(url)}" target="_blank" rel="noopener noreferrer">${h(mt('release.full_text_link'))}</a></p>` : ''}</div></div>`;
+  if (B.isMinor(a)) {
+    out += `<p class="note">${h(minorLine())}</p>`;
+    out += `<label class="check ${a.guardian ? 'on' : ''}"><input type="checkbox" data-field="guardian" ${a.guardian ? 'checked' : ''}><span>${h(t('accept.guardian'))}</span></label>`;
+  }
+  out += `<label class="check ${a.accepted ? 'on' : ''}"><input type="checkbox" data-field="accepted" ${a.accepted ? 'checked' : ''}><span>${h(mt('release.own_risk'))}</span></label>`;
+  return out;
+}
 
 function focusLabel(f) {
   const k = 'intake.focus.opt.' + f;
@@ -291,23 +324,6 @@ function releaseText(key) {
 }
 function minorLine() {
   return mt('release.minor').replace(/\s*(?:Guardian's name|Nombre del tutor):\s*\[\s*\]\s*/i, ' ').trim();
-}
-
-function summaryRows() {
-  const a = S.answers;
-  const rows = [];
-  let goal = t('goal.' + a.goal);
-  if (a.goal === 'athletic' && a.sport.id) goal = mt(S.model.pickerSport(a.sport.id).name_key);
-  if (a.goal === 'active' && a.activity.id) goal = mt(S.model.activity(a.activity.id).name_key);
-  if (B.FORMAT_GOALS.includes(a.goal) && a.format === 'bootcamp') goal += ' · ' + t('format.bootcamp');
-  rows.push([t('step.goal'), goal]);
-  if (a.goal === 'muscle' && a.focus.length) rows.push([t('step.focus'), a.focus.map(focusLabel).join(', ')]);
-  rows.push([t('week.days'), a.days + ' · ' + a.weekdays.map(d => t('weekday.short.' + d)).join(' ')]);
-  rows.push([t('week.length'), t('week.length.' + a.weeks)]);
-  rows.push([t('step.kit'), mt('intake.equipment.opt.' + a.equipment)]);
-  rows.push([t('about.age'), String(a.age) + ' · ' + a.weight + ' ' + a.unit]);
-  if (a.pain.length) rows.push([t('health.pain').replace(/\s*\(.*\)\s*$/, ''), a.pain.map(p => mt('intake.pain.opt.' + p.area) + ' (' + t('health.sev.' + p.severity).toLowerCase() + ')').join(', ')]);
-  return rows;
 }
 
 // the sport / activity picker: a search box and a list (only the list re-renders while typing)
@@ -348,14 +364,24 @@ function engineWeekdays(days) {
 // ------------------------------------------------------------------------------------------------- building and errors
 
 const BUILD_MSGS = ['build.msg.1', 'build.msg.2', 'build.msg.3', 'build.msg.4', 'build.msg.5'];
+const buildMsg = (sec) => BUILD_MSGS[Math.min(BUILD_MSGS.length - 1, Math.floor(sec / 3))];
+/** the building screen: a calm moving bar (no percentage: the engine gives none) and the step it is on; only the text changes */
 function renderBuilding() {
   const sec = Math.floor((performance.now() - S.buildStarted) / 1000);
-  const msg = BUILD_MSGS[Math.min(BUILD_MSGS.length - 1, Math.floor(sec / 3))];
-  return `<div class="loading" role="status" aria-live="polite"><div class="spinner"></div>
-    <h1 class="step-title" style="font-size:24px">${h(t('build.title'))}</h1>
-    <p id="build-msg">${h(t(msg))}</p>
-    ${sec >= 6 ? `<p class="hint">${h(t('build.slow'))}</p>` : ''}
-    <p class="hint" id="build-sec">${sec ? sec + ' s' : ''}</p></div>`;
+  const n = S.answers && S.answers.weeks ? S.answers.weeks : 12;
+  return `<div class="building" role="status" aria-live="polite">
+    <h1 class="step-title">${h(t('build.title_weeks', { n }))}</h1>
+    <div class="bar" aria-hidden="true"><span></span></div>
+    <p class="build-msg" id="build-msg">${h(t(buildMsg(sec)))}</p>
+    <p class="hint" id="build-slow" ${sec >= 6 ? '' : 'hidden'}>${h(t('build.slow'))}</p>
+    <p class="hint">${h(t('build.calm'))}</p></div>`;
+}
+function tickBuilding() {
+  const sec = Math.floor((performance.now() - S.buildStarted) / 1000);
+  const m = document.getElementById('build-msg');
+  if (m) { const txt = t(buildMsg(sec)); if (m.textContent !== txt) m.textContent = txt; }
+  const sl = document.getElementById('build-slow');
+  if (sl && sec >= 6) sl.hidden = false;
 }
 
 function renderInvalid() {
@@ -370,7 +396,7 @@ const STEP_OF_FIELD = [[/^(age|body_weight|experience|role)/, 'about'], [/^(goal
 function stepForErrors(errs) {
   for (const e of errs) {
     const f = String(e.field || '');
-    for (const [re, st] of STEP_OF_FIELD) if (re.test(f)) { const i = steps().indexOf(st); if (i >= 0) return i; }
+    for (const [re, st] of STEP_OF_FIELD) if (re.test(f)) return SCREENS.indexOf(B.screenOfStep(st));
   }
   return 0;
 }
@@ -386,7 +412,7 @@ async function startBuild() {
   }
   S.screen = 'building'; S.buildStarted = performance.now(); render(); window.scrollTo(0, 0);
   clearInterval(S.buildTimer);
-  S.buildTimer = setInterval(() => { if (S.screen === 'building') render(); }, 1000);
+  S.buildTimer = setInterval(() => { if (S.screen === 'building') tickBuilding(); }, 1000);
   try {
     const res = await generatePlan(intake);
     clearInterval(S.buildTimer);
@@ -429,11 +455,11 @@ function renderPlanScreen() {
   }
   const sm = V.summary(plan, S.model, S.lang);
   const sub = [sm.who || sm.goal, t('plan.days', { n: sm.days }), t('plan.weeks', { n: sm.weeks })].filter(Boolean).join(' · ');
+  // one row: the plan's name and the Plan | Progress tabs (New plan sits with the actions under the card)
   const top = `<div class="plan-bar"><div class="plan-sum"><div class="p">${h(sm.program)}</div><div class="s">${h(sub)}</div></div>
-      <button class="btn small nowrap" data-action="new">↺ ${h(t('plan.new'))}</button></div>
     <div class="tabs" role="tablist">
       <button role="tab" data-action="tab" data-value="day" aria-selected="${S.tab === 'day'}">${h(t('plan.tab.day'))}</button>
-      <button role="tab" data-action="tab" data-value="progress" aria-selected="${S.tab === 'progress'}">${h(t('plan.tab.progress'))}</button></div>`;
+      <button role="tab" data-action="tab" data-value="progress" aria-selected="${S.tab === 'progress'}">${h(t('plan.tab.progress'))}</button></div></div>`;
   return top + (S.tab === 'progress' ? progressHtml() : dayViewHtml()) + footer();
 }
 
@@ -459,12 +485,13 @@ function dayTabsHtml() {
 
 function dayViewHtml() {
   const wi = V.weekInfo(S.plan, S.model, S.lang, S.week);
-  const notes = wi && wi.notes_md ? `<details class="week-notes" ${wi.accel ? 'open' : ''}><summary>${h(t('plan.this_week'))}</summary><div class="body md">${markdown(wi.notes_md)}</div></details>` : '';
+  // the week's notes: beside the card on a wide screen, under it on a phone (so the day card starts high on the screen)
+  const notes = (where) => (wi && wi.notes_md ? `<details class="week-notes ${where}" data-keep="notes-${where}" ${wi.accel ? 'open' : ''}><summary>${h(t('plan.this_week'))}</summary><div class="body md">${markdown(wi.notes_md)}</div></details>` : '');
   const lg = V.legal(S.plan, S.model, S.lang);
   const hb = lg.health ? `<div class="banner health">${h(lg.health.short || lg.health.line)}</div>` : '';
-  return `<div class="dayview"><div class="dv-side">${weekBarHtml()}${dayTabsHtml()}${hb}${notes}</div>
-    <div class="dv-main">${dayCardHtml(S.week, S.day, false)}
-    <div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button><button class="btn" data-action="print">⎙ ${h(t('plan.print'))}</button></div>
+  return `<div class="dayview"><div class="dv-side">${weekBarHtml()}${dayTabsHtml()}${hb}${notes('side')}</div>
+    <div class="dv-main">${dayCardHtml(S.week, S.day, false)}${notes('main')}
+    <div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button><button class="btn" data-action="print">⎙ ${h(t('plan.print'))}</button><button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>
      <p class="hint-line">${h(t('plan.tap_hint'))}<br>${h(t('plan.swipe_hint'))}</p></div></div>`;
 }
 
@@ -499,36 +526,54 @@ function swapWords(s) {
   return full.replace('\u0001', '').trim().replace(/^\((.*)\)$/, '$1');
 }
 
+/** one exercise row: two short lines (name; sets × reps · reps in the tank · rest) and, tapped, its details */
+function rowHtml(r, i, key, forPrint) {
+  const open = S.open.has(key) && !forPrint;
+  const det = rowDetailsHtml(r);
+  const tags = [r.superset_tag ? `<span class="badge tag">${h(r.superset_tag)}</span>` : '', ...r.tags.map(x => `<span class="badge tag">${h(x)}</span>`), badgeHtml(r.badge)].join('');
+  const dose = r.dose_s || r.dose;
+  const meta = r.meta_s || r.meta;
+  const line2 = dose || meta.length ? `<span class="r2">${dose ? `<span class="dose">${inline(dose)}</span>` : ''}${meta.length ? (dose ? ' · ' : '') + meta.map(x => inline(x)).join(' · ') : ''}${r.superset_with ? ` <span class="ss">⇄</span>` : ''}</span>` : '';
+  const inner = `<span class="r1"><span class="num">${i + 1}</span><span class="nm">${inline(r.name)}</span><span class="bdg">${tags}</span></span>${line2}`;
+  if (det && !forPrint) return `<button type="button" class="row" data-action="row" data-value="${key}" aria-expanded="${open}">${inner}</button>${open ? `<div class="det" data-snap-hide>${det}</div>` : ''}`;
+  return `<div class="row plain">${inner}</div>`;
+}
+
+/** warm-up and cool-down fold into one line ('Warm-up: 5 min any cardio + mobility'); tap to see each item */
+const LINE_BLOCKS = ['warmup', 'cooldown'];
+
 function dayCardHtml(n, weekday, forPrint) {
   const card = V.dayCard(S.plan, S.model, S.lang, n, weekday);
   const lg = V.legal(S.plan, S.model, S.lang);
   if (!card) return '';
-  const head = `<div class="dc-head"><div class="wd">${h(card.weekday_name)} · ${h(mt('ui.plan.week', { n }))}</div><div class="tt">${inline(card.title)}</div>
-    ${card.est_short ? `<div class="est">⏱ <b>${h(card.est_short)}</b> · ${h(t('plan.est_label'))}</div>` : ''}</div>`;
+  const tips = [card.est, ...card.tips].filter(Boolean);
+  const showTips = tips.length && !forPrint && card.kind !== 'play' && card.kind !== 'sport';
+  const tipsOpen = showTips && S.tips;
+  // the head: day and week, the average time (information only, CT-01), the title, and the day tips toggle (the full time
+  // sentence, the blocks you can switch off, supersets and what is easiest to remove)
+  const est = card.est_short ? `<span class="est" title="${h(t('plan.est_label'))}">⏱ ${h(card.est_short)} <small>${h(t('plan.est_avg'))}</small></span>` : '';
+  const tipsBtn = showTips ? `<button type="button" class="tips-btn" data-action="tips" aria-expanded="${tipsOpen ? 'true' : 'false'}" data-snap-hide>${h(t('plan.day_tips'))} (${tips.length}) <span aria-hidden="true">${tipsOpen ? '–' : '+'}</span></button>` : '';
+  const head = `<div class="dc-head"><div class="dc-r1"><span class="wd">${h(card.weekday_name)} · ${h(mt('ui.plan.week', { n }))}</span>${est}</div>
+    <div class="dc-r2"><span class="tt">${inline(card.title)}</span>${tipsBtn}</div></div>`;
   let body = '';
   if (card.kind === 'play' || card.kind === 'sport') {
     body = `<div class="simple-day">${inline(card.title)}</div>`;
   } else {
-    const tips = [card.est, ...card.tips].filter(Boolean);
-    if (tips.length && !forPrint) body += `<details class="dc-tips" data-snap-hide><summary>${h(t('plan.day_tips'))} (${tips.length})</summary><ul>${tips.map(x => `<li>${inline(x)}</li>`).join('')}</ul></details>`;
+    if (tipsOpen) body += `<div class="dc-tips" data-snap-hide><ul>${tips.map(x => `<li>${inline(x)}</li>`).join('')}</ul></div>`;
     card.blocks.forEach((b, bi) => {
+      const keyOf = (i) => `${n}.${weekday}.${bi}.${i}`;
+      if (LINE_BLOCKS.includes(b.kind) && b.title && b.items.length) {
+        const words = b.items.map(r => plain(r.name)).join(' + ');
+        const rows = b.items.map((r, i) => rowHtml(r, i, keyOf(i), forPrint)).join('');
+        body += `<details class="blk blk-line" data-keep="line-${b.kind}"><summary><b>${inline(b.title)}:</b> <span class="lw">${h(words)}</span></summary>${b.intro.map(x => `<div class="blk-intro">${inline(x)}</div>`).join('')}${rows}</details>`;
+        return;
+      }
       let title = b.title, opt = '';
       const m = /^(.*?)\s*(\(.*\))\s*$/.exec(b.title);
       if (m && b.kind === 'core') { title = m[1]; opt = m[2]; }
       body += `<div class="blk">${title ? `<div class="blk-h"><span>${inline(title)}</span>${opt ? `<span class="opt">${inline(opt)}</span>` : ''}</div>` : ''}`;
       for (const x of b.intro) body += `<div class="blk-intro">${inline(x)}</div>`;
-      b.items.forEach((r, i) => {
-        const key = `${n}.${weekday}.${bi}.${i}`;
-        const open = S.open.has(key) && !forPrint;
-        const det = rowDetailsHtml(r);
-        const tags = [r.superset_tag ? `<span class="badge tag">${h(r.superset_tag)}</span>` : '', ...r.tags.map(x => `<span class="badge tag">${h(x)}</span>`), badgeHtml(r.badge)].join('');
-        const line2 = r.dose || r.meta.length ? `<span class="r2" style="display:block">${r.dose ? `<span class="dose">${inline(r.dose)}</span>` : ''}${r.meta.length ? (r.dose ? ' · ' : '') + r.meta.map(x => `<span class="nb">${inline(x)}</span>`).join(' · ') : ''}${r.superset_with ? ` <span class="ss">⇄</span>` : ''}</span>` : '';
-        const inner = `<span class="r1"><span class="nm"><span class="num">${i + 1}</span> ${inline(r.name)}</span><span class="bdg">${tags}</span></span>${line2}`;
-        if (det && !forPrint) {
-          body += `<button type="button" class="row" data-action="row" data-value="${key}" aria-expanded="${open}">${inner}</button>`;
-          if (open) body += `<div class="det" data-snap-hide>${det}</div>`;
-        } else body += `<div class="row plain">${inner}</div>`;
-      });
+      b.items.forEach((r, i) => { body += rowHtml(r, i, keyOf(i), forPrint); });
       body += '</div>';
     });
   }
@@ -576,6 +621,7 @@ function progressHtml() {
   const openIds = ['before', 'progress'];
   for (const s of secs) out += `<details class="sec" ${openIds.includes(s.id) ? 'open' : ''}><summary>${h(s.title)}</summary><div class="md">${markdown(s.body)}</div></details>`;
   out += `<div class="banner release"><b>${h(lg.label)}</b> ${h(lg.full)} ${lg.url ? `<a href="${h(lg.url)}" target="_blank" rel="noopener noreferrer">${h(lg.link_text)}</a>` : ''}</div>`;
+  out += `<div class="actions"><button class="btn" data-action="print">⎙ ${h(t('plan.print'))}</button><button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>`;
   return out;
 }
 
@@ -675,7 +721,8 @@ function act(action, value, el) {
       S.answers = { ...a, goal: value };
       if (changed) { S.q = ''; const wd = engineWeekdays(S.answers.days); if (wd) S.answers.weekdays = wd; }
       render();
-      setTimeout(() => { if (S.screen === 'wizard' && steps()[S.step] === 'goal') { S.step++; render(); window.scrollTo(0, 0); } }, 180);
+      // a goal with nothing more to ask (get stronger) moves on by itself; the others open their details right here
+      if (!B.detailStepFor(value)) setTimeout(() => { if (S.screen === 'wizard' && screenId() === 'goal' && S.answers.goal === value) { S.step++; render(); window.scrollTo(0, 0); } }, 180);
       return;
     }
     case 'sport-pick': S.q = ''; return setA({ sport: { ...a.sport, id: value, position: null, detail: null } });
@@ -712,9 +759,8 @@ function act(action, value, el) {
     case 'health': return setA({ health: value, safety: value === 'none' ? Object.fromEntries(B.SAFETY_KEYS.map(k => [k, false])) : a.safety });
     case 'safety': { const [k, v] = value.split(':'); return setA({ safety: { ...a.safety, [k]: v === '1' } }); }
     case 'next': {
-      const list = steps();
-      if (B.stepBlocker(list[S.step], a)) return;
-      if (S.step === list.length - 1) return startBuild();
+      if (B.screenBlocker(screenId(), a)) return;
+      if (S.step === SCREENS.length - 1) return startBuild();
       S.step++; render(); window.scrollTo(0, 0); return;
     }
     case 'back': S.step = Math.max(0, S.step - 1); render(); window.scrollTo(0, 0); return;
@@ -725,6 +771,7 @@ function act(action, value, el) {
     case 'tab': S.tab = value; render(); return;
     case 'week': return goWeek(Number(value));
     case 'day': S.day = value; render(); return;
+    case 'tips': S.tips = !S.tips; render(); return;
     case 'row': if (S.open.has(value)) S.open.delete(value); else S.open.add(value); render(); return;
     case 'copy':
       if (navigator.clipboard) navigator.clipboard.writeText(value).then(() => { el.textContent = t('plan.copied'); }, () => {});
@@ -745,7 +792,7 @@ document.addEventListener('input', (e) => {
   if (f === 'q') {
     S.q = e.target.value;
     const list = document.getElementById('pick-list');
-    if (list) list.innerHTML = pickListHtml(steps()[S.step] === 'sport' ? 'sport' : 'activity');
+    if (list) list.innerHTML = pickListHtml(S.answers.goal === 'athletic' ? 'sport' : 'activity');
   }
 });
 document.addEventListener('change', (e) => {
@@ -756,6 +803,10 @@ document.addEventListener('change', (e) => {
   if (f === 'weight') return setA({ weight: Math.max(1, Math.min(a.unit === 'kg' ? 320 : 700, Math.round(Number(el.value) || a.weight))) });
   if (f === 'season_date') return setA({ sport: { ...a.sport, season_date: el.value || null } });
   if (f === 'event_date') return setA({ activity: { ...a.activity, event_date: el.value || null } });
+  if (f === 'position') return setA({ sport: { ...a.sport, position: el.value || null } });
+  if (f === 'detail') return setA({ sport: { ...a.sport, detail: el.value || null } });
+  if (f === 'league') return setA({ activity: { ...a.activity, league: el.value || null } });
+  if (f === 'style') return setA({ activity: { ...a.activity, style: el.value || null } });
   if (f === 'start_date') return setA({ start_date: el.value || a.start_date });
   if (f === 'accepted') return setA({ accepted: el.checked });
   if (f === 'guardian') return setA({ guardian: el.checked });
@@ -791,7 +842,7 @@ window.__bc = {
   state: S,
   B, V,
   answersFromIntake: B.answersFromIntake,
-  load(answers) { S.answers = { ...answers }; S.screen = 'wizard'; S.step = B.stepsFor(S.answers).length - 1; render(); },
+  load(answers) { S.answers = { ...answers }; S.screen = 'wizard'; S.step = SCREENS.length - 1; render(); },
   build() { return startBuild(); },
   go(week, day) { S.week = week; S.day = day; render(); }
 };

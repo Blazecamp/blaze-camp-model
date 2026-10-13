@@ -26,7 +26,7 @@ for (const c of cases) {
     page.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
     page.on('pageerror', e => errs.push('PAGEERROR ' + e.message));
     await page.goto(BASE);
-    await page.waitForSelector('[data-step="about"]');
+    await page.waitForSelector('[data-screen="you"]');
     await page.click(`.lang [data-value="${lang}"]`);
     await page.evaluate((i) => window.__bc.load(window.__bc.answersFromIntake(i)), intake);
     const t0 = Date.now();
@@ -47,6 +47,9 @@ for (const c of cases) {
     }
     // open every row of week 1's first day and re-check
     await page.evaluate(() => window.__bc.go(1, window.__bc.V.firstDay(window.__bc.state.plan, 1)));
+    // open the one-line warm-up / cool-down and the day tips first, so every row is on screen
+    while (await page.locator('details.blk-line:not([open]) > summary').count()) await page.locator('details.blk-line:not([open]) > summary').first().click();
+    if (await page.locator('[data-action="tips"][aria-expanded="false"]').count()) await page.click('[data-action="tips"]');
     const rows = await page.locator('button.row').count();
     for (let k = 0; k < rows; k++) await page.locator('button.row').nth(k).click();
     let txt = await page.locator('#app').innerText();

@@ -9,35 +9,41 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
 
 ## Screens
 
-1. **Wizard**: one screen per step, big tap targets, defaults already chosen, Back / Next, a progress bar. The EN | ES toggle is always in
-   the top bar.
+1. **Wizard**: 4 screens, each made to fit a phone (390×844) with little or no scrolling. Defaults are already chosen, tap
+   targets are big, Back / Next sit at the bottom, and the EN | ES toggle is always in the top bar.
    1. *About you*: who the plan is for (me / a client), age and body weight (steppers, lb | kg), years training (chips).
-   2. *Goal*: six cards (build muscle, get stronger, lose fat, general fitness, sport athlete, stay active).
-   3. *Goal details*, only when needed:
-      * Sport: a searchable list of the 52 sports, position, second choice, season (with a date) and team practices.
-      * Activity: a searchable list of the 26 activities, league sport or style, play days, and an optional event date.
-      * Build muscle: Focus muscles (at most 2).
-      * Lose fat / general fitness: gym sessions or bootcamp circuits.
-   4. *Your week*: days per week (2-6), with the template's weekdays filled in and editable. Also the plan length (12 or 8
-      weeks), the start date, the split (full body / push-pull-legs / upper-lower, where the template has one) and optional tests.
-   5. *Where you train*: the 8 equipment profiles, plus optional extra kit.
-   6. *Health and pain*: pain areas with mild / moderate / severe, and the 5 health questions ("None of these apply" or "Some
-      apply" with yes / no each). A yes warns and does not stop the plan (R5-GEN-02). A coach can skip the check for a client
-      with the warning.
-   7. *Last step*: a summary and the release text. The required box must be ticked (H20); a minor also needs the parent or
-      guardian box. Then *Build my plan*.
-2. **Building your plan...**: the plan is built in a module Web Worker (`worker.js`), so the page never freezes. Rotating
-   messages are shown, plus a note when it takes longer.
-3. **Plan**: a one-line summary, *New plan* (keeps the answers; the release must be accepted again), and two tabs.
+   2. *Your goal*: six cards. A goal with details shrinks the cards and opens the details on the same screen:
+      * Sport: a search over the 52 sports, then the position (and second choice) as a drop-down, and "Season and team
+        practices" folded with its defaults (off-season, 0 practices).
+      * Activity: a search over the 26 activities, league sport or style as a drop-down, play days, and the event date folded.
+      * Build muscle: Focus muscles (at most 2). Lose fat / general fitness: gym sessions or bootcamp circuits.
+      * Get stronger has no details and moves on by itself.
+   3. *Your week*: days per week (2-6), the weekdays (the template's own, editable) and where you train (8 places, a compact
+      grid). *Options* (closed): split (where the template has one), plan length (12 or 8 weeks), start date, tests and extra kit.
+   4. *Safety check*: pain areas with mild / moderate / severe (optional), the 5 health questions with "None of these apply" or
+      "Some apply" (yes / no each only then; a yes warns and does not stop the plan, R5-GEN-02), the coach's own-screening
+      choice for a client, the guardian box for an athlete under 18, the release in a short scroll box, the required accept box
+      (H20) and *Build my plan*.
+   The screens group the same steps as before (`intake-builder.js > SCREENS / screenBlocker`), so every intake field and every
+   check is unchanged.
+2. **Building your 12-week plan...**: the plan is built in a module Web Worker (`worker.js`), so the page never freezes (a
+   worker that fails falls back to the main thread). A calm moving bar (no percentage: the engine gives none), the step it is
+   on, and a note when it takes longer.
+3. **Plan**: the plan's name with the *Plan | Progress* tabs in one row. *New plan* (keeps the answers; the release must be
+   accepted again) sits with *Save image* and *Print / PDF* under the card.
    * **Plan**:
      * ◀ Week n of N ▶ with the phase, plus a *Test week* badge and a *bigger step* badge (the engine's acceleration note).
-     * Day tabs (optional, cardio, play and sport days are marked) and *This week*, the engine's week notes including
-       "What changes this week".
-     * The **day card**: title, the average time (information only, CT-01), *Day tips* (blocks you can switch off,
-       supersets, what is easiest to remove), then each block. The core block says it is optional.
-     * One compact row per exercise: name, sets × reps, reps in the tank, rest, and badges (`+1 set`, `new`, `bonus`,
-       superset letters). Tap a row to see the effort in full, the progression rule (R4-PRG-03), notes and cues, swaps with
-       what they keep and lose (R4-LIB-04), the YouTube search, and the exact name with a Copy button (R4-LIB-05).
+     * Day tabs (optional, cardio, play and sport days are marked). *This week* (the engine's week notes, including "What
+       changes this week") sits under the card on a phone and beside it on a wide screen.
+     * The **day card**, compact enough for one screenshot: day, week and the average time (information only, CT-01), the
+       title and a *Day tips* toggle (the full time sentence, blocks you can switch off, supersets, what is easiest to
+       remove). Warm-up and cool-down are one line each ("Warm-up: 5 min any cardio + ..."), tap to open. The core block
+       says it is optional.
+     * One row per exercise, two short lines: the name, then "3 × 10-12 · 3 in the tank · 60-120 s" (the engine's dose and
+       rest in short form, `plan-view.js > shortDose / shortMeta`), and badges (`+1 set`, `new`, `bonus`, superset letters).
+       Tap a row to see the full name, the effort in full, the progression rule (R4-PRG-03), notes and cues, swaps with what
+       they keep and lose (R4-LIB-04), the YouTube search, and the exact name with a Copy button (R4-LIB-05). A typical gym
+       day card is under one phone screen; an athlete day with its athletic blocks is about 1.5 screens of page.
      * The release line sits in the card footer (plus the health warning when there is one).
      * Swipe left / right on phones, ← / → on desktop (Shift + ← / → changes the week).
      * *Save image* draws the card to a PNG with no outside library: SVG foreignObject to canvas. On phones it opens the
@@ -77,7 +83,7 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
 | `worker.js`, `model-loader.js` | the build off the main thread; fetching and loading `model/*.json` |
 | `intake-builder.js`, `plan-view.js`, `md.js`, `i18n.js` | pure modules (no DOM), tested by `tests/app.test.mjs` |
 | `snapshot.js` | *Save image* |
-| `screenshots/` | phone (390×844) and desktop (1280×800) screenshots, EN and ES, of every step, a day card and the progress tab |
+| `screenshots/` | phone (390×844) and desktop (1280×800) screenshots, EN and ES: the 4 wizard screens, the building screen, day cards and the progress tab |
 
 ## Run it locally
 

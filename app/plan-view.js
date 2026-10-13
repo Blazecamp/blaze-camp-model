@@ -223,6 +223,15 @@ export function estShort(model, lang, min) {
   return tt(model, lang, 'ui.plan.est_minutes', { min });
 }
 
+/** a dose in short form for the compact row: '4 × 10 to 12 Reps' -> '4 × 10-12', '3 × 8 a 12 por lado' -> '3 × 8-12 por lado' */
+export function shortDose(s) {
+  return String(s || '').replace(/(\d+)\s+(?:to|a)\s+(\d+)/g, '$1-$2').replace(/(\d)\s+(?:Reps?|reps?)\s*$/, '$1');
+}
+/** a rest or effort note in short form: '60-120 s rest' -> '60-120 s', '2-3 min de descanso' -> '2-3 min' */
+export function shortMeta(s) {
+  return String(s || '').replace(/^(\d+(?:-\d+)?\s*(?:s|min))\s+(?:rest|de descanso)$/, '$1').replace(/(\d+)\s+(?:to|a)\s+(\d+)/g, '$1-$2');
+}
+
 /** the set-count change of an item against the same slot last week: {kind:'new'} | {kind:'sets', n} | null */
 export function changeBadge(plan, n, weekday, it) {
   if (n <= 1 || !it || !it.slot_id || !it.exercise_id) return null;
@@ -304,6 +313,9 @@ export function dayCard(plan, model, lang, n, weekday) {
       // (the engine decides whether a row gets a video line - no search for a WOD or a cardio colour; the JSON gives its link)
       if (row.md_video && v && v.url) { row.video = v.url; row.video_kind = v.kind; row.copy_name = v.copy_name || null; }
     }
+    // the short forms the compact row shows ('3 × 10-12 · 3 in the tank · 60-120 s'); the full words stay for print and details
+    row.dose_s = shortDose(row.dose);
+    row.meta_s = row.meta.map(shortMeta);
     return row;
   };
 

@@ -14,7 +14,7 @@ page.on('console', m => { if (m.type() === 'error' || /Content Security Policy/i
 page.on('pageerror', e => errs.push(e.message));
 await page.route('**/*', async (route) => { const r = await route.fetch(); const headers = { ...r.headers(), 'content-security-policy': csp }; await route.fulfill({ response: r, headers }); });
 await page.goto((process.env.BC_QA_URL || 'http://127.0.0.1:8766/'));
-await page.waitForSelector('[data-step="about"]');
+await page.waitForSelector('[data-screen="you"]');
 const intake = JSON.parse(fs.readFileSync(ROOT + 'samples/intakes/08-pickleball-genpop.json'));
 await page.evaluate((i) => window.__bc.load(window.__bc.answersFromIntake(i)), intake);
 await page.click('[data-action="next"]');

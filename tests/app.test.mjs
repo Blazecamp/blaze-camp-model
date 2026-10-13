@@ -139,6 +139,16 @@ test('app wizard: helpers - weekdays, Focus slots, steps, start date', () => {
   assert.deepEqual(B.stepsFor({ goal: 'athletic' }), ['about', 'goal', 'sport', 'week', 'kit', 'health', 'accept']);
   assert.equal(B.stepsFor({ goal: null }).length, 7);
   assert.equal(B.stepBlocker('week', { ...B.defaultAnswers(TODAY), days: 4 }), 'week.weekdays_hint');
+  // the page's 4 screens hold the same steps and the same blockers
+  assert.deepEqual(B.SCREENS, ['you', 'goal', 'week', 'safety']);
+  assert.deepEqual(B.stepsOfScreen('goal', { goal: 'athletic' }), ['goal', 'sport']);
+  assert.equal(B.screenBlocker('goal', { ...B.defaultAnswers(TODAY), goal: 'athletic' }), 'sport.search');
+  assert.equal(B.screenBlocker('week', { ...B.defaultAnswers(TODAY), days: 4 }), 'week.weekdays_hint');
+  assert.equal(B.screenBlocker('safety', { ...B.defaultAnswers(TODAY), health: 'none' }), 'accept.required');
+  assert.equal(B.screenBlocker('safety', { ...B.defaultAnswers(TODAY), health: 'none', accepted: true }), null);
+  assert.equal(B.screenOfStep('kit'), 'week');
+  assert.equal(V.shortDose('4 × 10 to 12 Reps'), '4 × 10-12');
+  assert.equal(V.shortMeta('60-120 s rest'), '60-120 s');
 });
 
 test('app wizard: the 8 coach samples, re-entered as wizard answers, are accepted', () => {
