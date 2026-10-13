@@ -423,7 +423,7 @@ function exOf(model, fill) {
   if (!fill || !fill.exercise_id || !model.hasEx(fill.exercise_id)) return null;
   return model.ex(fill.exercise_id);
 }
-// engine 0.7.1 (DECISIONS G-311, performance only): the credits of an (exercise, bucket) pair and their group / line sums are read
+// DECISIONS G-311 (performance only): the credits of an (exercise, bucket) pair and their group / line sums are read
 // tens of millions of times by the set placement; they depend only on the frozen model, so they are memoised per model object.
 // The derived maps (the empty map, the group and line sums) are frozen; the catalog's own credit map is returned as before. The engine
 // never mutates the model it is given (pure functions), which is what makes the memo safe.
@@ -1064,7 +1064,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     blockedByBalance = false;
     // (the floor of 10 is the higher rule: an isolation exercise takes its 4th set before a trained group sits under the floor)
     const isoRelax = (s, di) => (opts.forFloor && PX.iso_main_day_max && kindOf(s) === 'isolation' && isMainDi(di) && s.bucket !== 'ISO_CALF' && !isCircuitSlot(s) && s.origin !== 'bonus' ? Math.min(maxEx, PX.iso_main_day_max.hardest) : 0);
-    let cands = slotsOfGroup(g).map(([s, di]) => ({ s, di, n: sets[s.slot_id] || 0, max: Math.max(boundsOf(s, di)[1], isoRelax(s, di)), opt: isMainDi(di) ? 0 : 1, pos: posInDay(di, s) }))
+    // (G-311: an inactive slot is dropped before its bounds are read - the bounds read nothing they change)
+    let cands = slotsOfGroup(g).filter(([s]) => active(s)).map(([s, di]) => ({ s, di, n: sets[s.slot_id] || 0, max: Math.max(boundsOf(s, di)[1], isoRelax(s, di)), opt: isMainDi(di) ? 0 : 1, pos: posInDay(di, s) }))
       .filter(c => active(c.s) && c.n + 1 <= c.max && !(opts.mainOnly && c.opt) && !(opts.pullOnly && !isPull(c.s)) && !(opts.muscle && !(((crOf(c.s) || {})[opts.muscle] || 0) >= 1 - EPS)));
     // (the group's final sets are still reached, CX-01: with no other exercise left the tested lift takes the set)
     if (stepWeek && PX.test_week_no_step_on_tested && testedSlots.size && !(PX2.order && PX2.order.lead_first)) { const rest = cands.filter(c => !testedSlots.has(c.s.slot_id)); if (rest.length) cands = rest; }

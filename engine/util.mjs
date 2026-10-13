@@ -284,7 +284,7 @@ export function forbiddenKeys(obj, prefix = '') {
   forbiddenWalk(obj, prefix, [], out);
   return out;
 }
-// (engine 0.7.1, G-311: one accumulator and the path built only for a key that matches - the same paths in the same order)
+// (G-311, performance only: one accumulator and the path built only for a key that matches - the same paths in the same order)
 function forbiddenPath(prefix, segs) {
   let p = prefix;
   for (const sg of segs) p = typeof sg === 'number' ? `${p}[${sg}]` : (p ? `${p}.${sg}` : sg);

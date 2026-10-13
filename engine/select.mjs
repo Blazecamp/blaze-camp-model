@@ -18,7 +18,7 @@ const MACHINE_ISO = ['ISO_QUAD', 'ISO_LEG_FLEXION'];
 const SQUAT_MACHINES = ['leg_press', 'hack_squat', 'pendulum', 'belt_squat'];
 // never the template's pick (CAT-07; v0.5 / V2, COACH-R4 R4-LIB-01: the optional add-ons too - rules.selection.addons.never_pick_statuses)
 const SWAP_ONLY_STATUS = NEVER_PICK_STATUS;
-// engine 0.7.1 (G-311, performance only): the rules' patterns are compiled once - every one is used without flags (test / exec only,
+// G-311 (performance only): the rules' patterns are compiled once - every one is used without flags (test / exec only,
 // no lastIndex), so one shared RegExp per source string behaves as a fresh one
 const RE_CACHE = new Map();
 const reOf = (src) => {
