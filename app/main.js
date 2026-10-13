@@ -302,9 +302,11 @@ function optionsHtml() {
   const extras = B.EXTRA_CHOICES.filter(x => S.model.has('en', 'equipment.token.' + x));
   const cur = [t('week.length.' + a.weeks), a.start_date, a.tests.length ? a.tests.map(x => mt('intake.tests.opt.' + x)).join(', ') : t('week.tests.none')];
   if (splits.length) cur.unshift(t('week.split.' + (splits.includes(a.split) ? a.split : 'default')));
+  if (a.supersets === 'more') cur.push(t('week.supersets.more'));
   if (a.extras.length) cur.push('+' + a.extras.length);
   let body = '';
   if (splits.length) body += `<div class="field"><span class="label">${h(t('week.split'))}</span>${seg('split', splits.map(x => [x, t('week.split.' + x)]), splits.includes(a.split) ? a.split : 'default')}</div>`;
+  body += `<div class="field"><span class="label">${h(t('week.supersets'))}</span>${seg('supersets', [['normal', t('week.supersets.normal')], ['more', t('week.supersets.more')]], a.supersets || 'normal')}<p class="hint">${h(t('week.supersets.hint'))}</p></div>`;
   body += `<div class="field"><span class="label">${h(t('week.length'))}</span>${seg('weeks', [[12, t('week.length.12')], [8, t('week.length.8')]], a.weeks)}</div>
     <div class="field"><label class="label" for="start">${h(t('week.start'))}</label><input id="start" class="date" type="date" value="${h(a.start_date)}" data-field="start_date"></div>`;
   body += `<div class="field"><span class="label">${h(t('week.tests'))}</span><div class="chips small">${chip('test', 'none', h(t('week.tests.none')), !a.tests.length)}${B.TEST_CHOICES.map(x => chip('test', x, h(mt('intake.tests.opt.' + x)), a.tests.includes(x))).join('')}</div></div>`;
@@ -1010,6 +1012,7 @@ function act(action, value, el) {
     case 'days': { const d = Number(value); S.answers = B.withDays(a, d, engineWeekdays(d)); return render(); }
     case 'weekday': return setA({ weekdays: B.toggleWeekday(a.weekdays, value, a.days) });
     case 'weeks': return setA({ weeks: Number(value) });
+    case 'supersets': return setA({ supersets: value === 'more' ? 'more' : 'normal' });
     case 'split': return setA({ split: value });
     case 'test': {
       if (value === 'none') return setA({ tests: [] });

@@ -809,7 +809,9 @@ function makeCtx(derived, shape, tb, model, template, variant, dt, profile) {
   const supersetsActive = (st) => {
     // v0.5: a template pair is a superset RECOMMENDATION (superset_eligible); it is switched on only by the client's preference
     if (!st.superset) return false;
-    if (derived.prefs && derived.prefs.supersets_for_fatigue && (level === 'L1' || level === 'L3')) return true;
+    // the person's own choice, "More supersets", at any level (COACH-CH7 CH7-07; it replaces ORD-05's beginners-and-advanced limit
+    // for this preference, DECISIONS G-313)
+    if (derived.prefs && derived.prefs.supersets_for_fatigue) return true;
     return false;
   };
   const tbWeeks = ((shape && shape.weeks) || []).filter((w) => w.training_block === tb.n);

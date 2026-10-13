@@ -89,6 +89,8 @@ export async function buildQuestions(o = {}) {
     { id: 'equipment', screen: 'week', prompt: app('week.kit'), type: 'choice', choices: R.equipment.intake_profiles.map(p => opt(p, mt('intake.equipment.opt.' + p), app('kit.sub.' + p))), default: def.equipment, required: true },
     { id: 'split', screen: 'week', when: 'goal == "muscle" and days in [4, 6]', prompt: app('week.split'), type: 'choice', choices: ['default', 'upper_lower', 'ppl'].map(s => opt(s, app('week.split.' + s))), default: def.split, required: false,
       notes: 'upper_lower only with 4 days, ppl only with 6 days.' },
+    { id: 'supersets', screen: 'week', prompt: app('week.supersets'), type: 'choice', choices: ['normal', 'more'].map(s => opt(s, app('week.supersets.' + s))), default: def.supersets, required: false,
+      notes: 'more = the template\'s exercise pairs are done as supersets (CH7-07).' },
     { id: 'weeks', screen: 'week', prompt: app('week.length'), type: 'choice', choices: [12, 8].map(w => opt(w, app('week.length.' + w))), default: def.weeks, required: false },
     { id: 'start_date', screen: 'week', prompt: app('week.start'), type: 'date', default: null, required: false, notes: 'Default: the next Monday.' },
     { id: 'tests', screen: 'week', prompt: app('week.tests'), type: 'multi', choices: B.TEST_CHOICES.map(t => opt(t, mt('intake.tests.opt.' + t))), default: [], required: false, notes: 'Tests only in week 1 and the last week.' },

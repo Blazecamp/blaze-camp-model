@@ -49,7 +49,7 @@ export function defaultAnswers(todayIso) {
     sport: { id: null, position: null, detail: null, season: 'no_season', season_date: null, level: null, practice: 0 },
     activity: { id: null, play_days: [], league: null, style: null, event_date: null },
     focus: [],
-    split: 'default',
+    split: 'default', supersets: 'normal',
     days: 3, weekdays: DEFAULT_WEEKDAYS[3].slice(), weeks: 12, start_date: nextMonday(todayIso), tests: [],
     equipment: 'FULL_GYM', extras: [],
     pain: [],
@@ -128,7 +128,7 @@ export function buildIntake(a, opts = {}) {
     plan: { mode: a.weeks === 8 ? 'fixed_8' : 'fixed_12', tests: a.tests && a.tests.length ? TEST_CHOICES.filter(t => a.tests.includes(t)) : ['none'] },
     equipment: { profile: a.equipment, extras: (a.extras || []).slice() },
     pain: (a.pain || []).filter(p => p && p.area && SEVERITIES.includes(p.severity)).map(p => ({ area: p.area, side: null, severity: p.severity, worse_with: [] })),
-    prefs: { split_style: splitChoices(goal, a.days).includes(a.split) ? a.split : 'default' }
+    prefs: { split_style: splitChoices(goal, a.days).includes(a.split) ? a.split : 'default', supersets_for_fatigue: a.supersets === 'more' }
   };
   if (goal === 'athletic') {
     const s = a.sport || {};
@@ -244,6 +244,7 @@ export function answersFromIntake(i, todayIso) {
   if (i.activity) a.activity = { id: i.activity.ids[0], play_days: i.activity.play_days || [], league: i.activity.league_sport || null, style: i.activity.style || null, event_date: i.activity.event_date || null };
   a.focus = (i.focus_muscles || i.priority_muscles || []).map(f => (f === 'side_delts' || f === 'rear_delts' ? 'shoulders' : f)).filter((f, k, arr) => arr.indexOf(f) === k);
   a.split = (i.prefs && i.prefs.split_style) || 'default';
+  a.supersets = i.prefs && i.prefs.supersets_for_fatigue ? 'more' : 'normal';
   a.days = i.schedule.days_per_week; a.weekdays = i.schedule.weekdays || DEFAULT_WEEKDAYS[a.days].slice();
   a.start_date = i.schedule.start_date;
   a.weeks = i.plan && i.plan.mode === 'fixed_8' ? 8 : 12;

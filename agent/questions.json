@@ -2876,6 +2876,34 @@
    "notes": "upper_lower only with 4 days, ppl only with 6 days."
   },
   {
+   "id": "supersets",
+   "screen": "week",
+   "prompt": {
+    "en": "Supersets",
+    "es": "Superseries"
+   },
+   "type": "choice",
+   "choices": [
+    {
+     "value": "normal",
+     "label": {
+      "en": "As planned",
+      "es": "Como está planeado"
+     }
+    },
+    {
+     "value": "more",
+     "label": {
+      "en": "More supersets",
+      "es": "Más superseries"
+     }
+    }
+   ],
+   "default": "normal",
+   "required": false,
+   "notes": "more = the template's exercise pairs are done as supersets (CH7-07)."
+  },
+  {
    "id": "weeks",
    "screen": "week",
    "prompt": {

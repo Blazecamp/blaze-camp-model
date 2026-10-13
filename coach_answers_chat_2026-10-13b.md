@@ -37,3 +37,27 @@ Coach Lalo (Gerardo Vera), in the build conversation about the web tool. Quoted 
 **Answer (verbatim):** "sure, whatever is easier and best"
 
 **Reading.** An agent may build a plan once the person, or the coach for a client, says "I accept" in the conversation after seeing the release text in full. For a client building for themselves, the recommended path is the prefilled link: the client reads and accepts the release on the website. The liability gate (H20) still runs before every build.
+
+## CH7-06 The Son Hábitos credit line
+
+**Question.** The Son Hábitos site and PDF credit read "Son Hábitos · Nati Vera". Keep "Nati Vera"?
+
+**Answer (verbatim):** "nati ver is fine"
+
+**Reading.** The credit stays "Son Hábitos · Nati Vera".
+
+## CH7-07 More or fewer supersets
+
+**Question.** Plans pair exercises as supersets only when the supersets preference is on, and the wizard does not ask it. How should a person get them?
+
+**Answer (verbatim):** "supersets will probably be an option if they click on an option button that says "More supersets" or something like that. You figure that out. I don't know. Something that can be simple, but they can choose to have them more often in their training or less often. Something like that, maybe, without complicating things"
+
+**Reading.** One simple choice under the plan's options: *Supersets: as planned* (the default; the template's pairs stay straight sets, with the superset suggestion printed) or *More supersets* (the template's pairs are done as supersets). It is the person's choice at any level; it replaces the level limit (beginners and advanced only, from ORD-05) for this preference. Nothing else changes: the same exercises, sets and order.
+
+## CH7-08 The person's own exercise
+
+**Question.** Editing adds library exercises only; the person's own exercise (CH6-02) is not built. What next?
+
+**Answer (verbatim):** "I think right now, editing uses library exercises only should be fine this is the mvp. We can learn from this and maybe add it in the next round when we do V2."
+
+**Reading.** Version 1 (the MVP) edits with library exercises only. The person's own exercise (CH6-02) moves to version 2.
