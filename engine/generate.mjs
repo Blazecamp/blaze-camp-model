@@ -83,7 +83,7 @@ function run(deps, intake, model, ropts = {}) {
   // warnings raised while normalizing the raw intake (e.g. warning.checkin_retired: the normalized intake no longer carries the
   // retired field, so deriveValues cannot see it again)
   if (Array.isArray(derived.warnings)) for (const w of v.warnings || []) if (w && w.key && !derived.warnings.some(x => x.key === w.key && x.field === w.field)) derived.warnings.push(w);
-  const shape = deps.buildShape(derived, model, { noLateRounds: !!ropts.noLateRounds });
+  const shape = deps.buildShape(derived, model, { noLateRounds: !!ropts.noLateRounds, ...(typeof ropts.roundsCap === 'number' ? { roundsCap: ropts.roundsCap } : {}) });
   // (the volume engine marks its room cuts on the layout's slots - a WOD held short -, so every selection + volume pass runs on a
   // fresh layout)
   const mkLayouts = () => shape.training_blocks.map(tb => deps.buildWeekLayout(derived, shape, tb, model));
@@ -224,7 +224,16 @@ function run(deps, intake, model, ropts = {}) {
   clean.validation = validatePlan(clean, model);
   // (v0.5 fix round 2: the extra circuit round of the last weeks - rules.supersets.bootcamp.x2.rounds_late - never takes a muscle
   // past the absolute weekly cap, VOL-06: such a plan - a 5-day circuit week - is built again without it)
-  if (!ropts.noLateRounds && lateRoundsOverCap(clean, shape)) return run(deps, intake, model, { ...ropts, noLateRounds: true });
+  // (v0.7 G-234, R5-CLS-03: with the rounds in thirds the plan is built again with one round fewer at the top - 5 -> 4, then 4 -> 3 -
+  // until no week takes a muscle past the cap; lateRoundsOverCap is false once every week holds the first week's rounds)
+  if (lateRoundsOverCap(clean, shape)) {
+    const RT = model.rules.supersets && model.rules.supersets.bootcamp && model.rules.supersets.bootcamp.x7 && model.rules.supersets.bootcamp.x7.rounds_by_third;
+    if (RT) {
+      const rs = (shape.weeks || []).filter(w => w.circuit && typeof w.circuit.rounds === 'number' && w.block_type === 'stairway').map(w => w.circuit.rounds);
+      return run(deps, intake, model, { ...ropts, noLateRounds: true, roundsCap: Math.max(...rs) - 1 });
+    }
+    if (!ropts.noLateRounds) return run(deps, intake, model, { ...ropts, noLateRounds: true });
+  }
   // (fix round 2 / F3, E-178: a plan whose dial flips leave it failing an error check is built again without them)
   if (flipsUsed && failingErrors(clean) > 0) {
     const alt = run(deps, intake, model, { ...ropts, frozen: true });

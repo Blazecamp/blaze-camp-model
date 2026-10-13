@@ -94,16 +94,17 @@ describe('VOL-07 / CH5-03 (G-209): the day\'s first lift of a group leads it; th
   });
   // (converted in the round-7 fix round, G-219: every chest press at its cap of 4 holds 12; a 2-set bonus would take chest to 14, above its
   // final 13 - so chest is held at 12 of 13 and the plan says so, with no fly)
-  it('02: Tuesday\'s incline press never out-sets the bench press; chest holds 12 of 13 on its presses, said, with no bonus', () => {
+  // (converted again in engine 0.7, G-235: COACH-R5 R5-VOL-11 answers G-219's open question - 'Give the day's first press a 5th set in
+  // the last block, so it reaches 13' - so chest reaches 13 of 13 with no fly and is no longer capped)
+  it('02: Tuesday\'s incline press never out-sets the bench press; chest reaches 13 of 13 on its presses (R5-VOL-11), with no bonus', () => {
     const p = planOf('02');
     const bench = series(p, 'Tue.B1.s08'), incline = series(p, 'Tue.B1.s10');
     const tests = p.weeks.map(w => itemsOf(w).filter(x => x.it.slot_id === 'Tue.B1.s08.test').length);
     incline.forEach((v, i) => assert.ok(v <= bench[i] + tests[i], 'week ' + (i + 1) + ': incline ' + v + ' bench ' + bench[i]));
     assert.ok(Math.max(...incline) <= R.placement.x3.athlete_press_max.max);
     const st = p.meta.stairway[0];
-    assert.equal(st.group_top.chest, 12);
-    assert.ok((st.capped || []).some(c => c.group === 'chest' && c.held === 12 && c.planned === 13), 'capped and said');
-    assert.ok(unesc(mdOf('02')).includes(t('en', 'warning.capped_by_template', { group: t('en', 'group.chest'), held: 12, planned: 13 }).slice(0, 30)));
+    assert.equal(st.group_top.chest, 13);
+    assert.ok(!(st.capped || []).some(c => c.group === 'chest'), 'not capped');
     for (const w of p.weeks) assert.ok(!itemsOf(w).some(x => x.it.origin === 'bonus' && groupOfEx(x.it.exercise_id) === 'chest'), 'no chest bonus, week ' + w.n);
   });
   it('CH5-03: a training day\'s bonus exercise never repeats a compound pattern the day before trained', () => {
@@ -320,23 +321,28 @@ describe('VOL-07 / CH5-03 (G-217, G-218, G-219): a bonus exercise opens only whe
       }
     }
   });
-  it('02: no chest bonus at all; Tuesday\'s bench (the day\'s first press, the tested lift) reaches its cap of 4 and holds it, every press ends at 4', () => {
+  // (converted in engine 0.7, G-235: COACH-R5 R5-VOL-11 - the bench, the day's first press, takes a 5th set in the last exercise block)
+  it('02: no chest bonus at all; Tuesday\'s bench (the day\'s first press, the tested lift) reaches its cap of 4, then its 5th set in the last exercise block (R5-VOL-11); every other press ends at 4', () => {
     const p = planOf('02');
     const AP = X3.athlete_press_max.max;
     const tests = p.weeks.map(w => itemsOf(w).filter(x => x.it.slot_id === 'Tue.B1.s08.test').length);
     const bench = series(p, 'Tue.B1.s08').map((v, i) => v + tests[i]), dbBench = series(p, 'Fri.B2.s08'), incline = series(p, 'Tue.B1.s10');
     const first = bench.findIndex(v => v >= AP);
     assert.ok(first >= 0 && first <= 2, 'the bench holds 4 from week ' + (first + 1));
-    bench.slice(first).forEach((v, i) => assert.equal(v, AP, 'week ' + (first + i + 1)));
+    const ebLast = p.weeks[p.weeks.length - 1].exercise_block;
+    bench.slice(first).forEach((v, i) => assert.equal(v, p.weeks[first + i].exercise_block === ebLast && v > AP ? AP + 1 : AP, 'week ' + (first + i + 1)));
+    assert.equal(Math.max(...bench), AP + 1);
     assert.equal(dbBench[dbBench.length - 1], AP);
     assert.equal(incline[incline.length - 1], AP);
     assert.ok(!p.weeks.some(w => itemsOf(w).some(x => x.it.origin === 'bonus')), 'no bonus exercise in 02');
   });
-  it('01: the chest fly opens with the last exercise block (week 9), after every chest press can reach 4; the back holds 20 of 21 on its rows, said', () => {
+  // (converted in engine 0.7: R5-VOL-07 lets a fly sit on the optional day after Friday's press day (G-231), so the swimmer's chest
+  // bonus is Saturday's fly, not a training day's; it comes in the week its presses are at their tops - week 11, G-238)
+  it('01: the chest fly opens in the last exercise block, after every chest press can reach 4; the back holds 20 of 21 on its rows, said', () => {
     const p = planOf('01');
     const st = p.meta.stairway[0];
-    const fly = (st.main_bonus || []).find(b => b.group === 'chest');
-    assert.ok(fly, 'a chest bonus on a training day');
+    const fly = (st.main_bonus || []).find(b => b.group === 'chest') || (st.bonus || []).find(b => b.group === 'chest');
+    assert.ok(fly, 'a chest bonus');
     const s = series(p, fly.slot_id);
     const w0 = s.findIndex(v => v !== null && v > 0);
     assert.equal(p.weeks[w0].exercise_block, Math.max(...p.weeks.map(w => w.exercise_block)), 'opens with the last exercise block');
@@ -364,7 +370,11 @@ describe('R3-VOL-03 (G-220): the same template station on the two exposures of a
             const pa = prevRows.find(x => x.it.slot_id === ra.it.slot_id), pb = prevRows.find(x => x.it.slot_id === rb.it.slot_id);
             if (!pa || !pb || pb.sets !== pa.sets || rb.sets <= pb.sets || ra.it.role === 'test') continue;
             // (Friday's lift stepped from a tie: Tuesday's took the step too, or was at its top - or a test week held it)
-            assert.ok(ra.sets > pa.sets || ra.sets >= capOf(p, ws[i], N, ra, rows) || !!ws[i].test, n + ' week ' + ws[i].n + ': ' + b.weekday + ' ' + rb.it.exercise_id + ' ' + pb.sets + '->' + rb.sets + ' ahead of ' + a.weekday + ' ' + ra.it.exercise_id + ' ' + ra.sets);
+            // (converted in engine 0.7: G-220's own reading - 'the day whose template lifts of the group hold fewer sets on average steps
+            // first' - also counts a template extra station; 07's Tuesday holds one for the shoulders since R5-VOL-01 took the
+            // high-incline presses' shoulder credit, G-230, so Friday's raise may step first while Tuesday's lifts hold more on average)
+            const avg = (d) => { const v = prevRows.filter(x => x.d.weekday === d.weekday && x.g === ra.g && !x.bonus).map(x => x.sets); return v.length ? v.reduce((s, y) => s + y, 0) / v.length : 0; };
+            assert.ok(ra.sets > pa.sets || ra.sets >= capOf(p, ws[i], N, ra, rows) || !!ws[i].test || avg(a) > avg(b) + EPS, n + ' week ' + ws[i].n + ': ' + b.weekday + ' ' + rb.it.exercise_id + ' ' + pb.sets + '->' + rb.sets + ' ahead of ' + a.weekday + ' ' + ra.it.exercise_id + ' ' + ra.sets);
           }
         }
       }
@@ -402,13 +412,15 @@ describe('CH5-03 / VOL-07 (G-222): a bonus prints last in its day, says why, and
       for (const it of seq.slice(k)) assert.ok((it.notes || []).some(x => x.key === BL.note_key), it.exercise_id);
     }
   });
-  it('01: the up-front line names the chest fly, from week 9, with the final sets it carries - EN and ES', () => {
+  // (converted in engine 0.7: the fly is Saturday's optional-day bonus from week 11 - R5-VOL-07, G-231; G-238 - so the optional-day line
+  // names it)
+  it('01: the up-front line names the chest fly, from week 11, with the final sets it carries - EN and ES', () => {
     const p = planOf('01');
     const top = p.meta.stairway[0].group_top.chest;
-    const en = unesc(mdOf('01', 'en')).split('\n').find(l => l.startsWith('- ' + t('en', 'group.chest') + ':') && l.includes('bonus exercise'));
-    assert.ok(en && en.includes('of its ' + top + ' final sets') && en.includes('from week 9') && en.includes('total ends at about'), en);
-    const es = unesc(renderPlan(p, model, { lang: 'es' })).split('\n').find(l => l.startsWith('- ' + t('es', 'group.chest') + ':') && l.includes('ejercicio extra'));
-    assert.ok(es && es.includes('desde la semana 9') && es.includes('el total de'), es);
+    const en = unesc(mdOf('01', 'en')).split('\n').find(l => l.startsWith('- ' + t('en', 'group.chest') + ':') && l.includes('Fly'));
+    assert.ok(en && en.includes('of its ' + top + ' final sets') && en.includes('from week 11') && en.includes('total ends at about'), en);
+    const es = unesc(renderPlan(p, model, { lang: 'es' })).split('\n').find(l => l.startsWith('- ' + t('es', 'group.chest') + ':'));
+    assert.ok(es && es.includes('desde la semana 11') && es.includes('el total de'), es);
   });
   it('every sample, EN and ES: no "<group> ends at about" / "<grupo> termina en unas" (the total ends)', () => {
     for (const n of Object.keys(NAMES)) for (const lang of ['en', 'es']) {

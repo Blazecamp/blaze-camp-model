@@ -111,7 +111,7 @@ describe('R5-VOL-09 (G-232): the athlete\'s flat-press cap of 4 is the default; 
     const on = build(['chest'], true), off = build(['chest'], false);
     if (!on) { t.skip('no compiled model'); return; }
     assert.ok(validOk(on), failing(on).join(' '));
-    assert.equal(maxPress(on), R.levels && R.levels.L3 && R.levels.L3.max_sets_per_exercise ? R.levels.L3.max_sets_per_exercise : 5);
+    assert.equal(maxPress(on), R.placement.max_sets_per_exercise.L3);
     assert.equal(maxPress(off), R.placement.x3.athlete_press_max.max);
   });
   it('02 (no Focus): no flat press passes 4 except the one-set shortfall\'s lift (R5-VOL-11) in the last exercise block', () => {
@@ -239,10 +239,18 @@ describe('R5-CLS-07 (G-237): no group starts at its top number', () => {
       const p = planOf(n);
       for (const st of p.meta.stairway) for (const g of st.groups || []) {
         if (g === 'calves') continue;
-        if ((p.meta.pain || p.intake_pain || []).length && n === '08' && g === 'quads') continue; // the knee-pain plan's quads (pain rule)
+        // (the knee-pain plan's quads keep the pain rule's numbers: rules.volume.x7.start_below_top.exempt_pain)
+        if (n === '08' && g === 'quads' && (loadSample(NAMES[n]).pain || []).some(x => x.area === 'knee')) continue;
         assert.ok(st.group_start[g] < st.group_top[g], n + ' ' + g + ' ' + st.group_start[g] + ' -> ' + st.group_top[g]);
       }
     }
+  });
+  it('08 without its knee pain: the quads climb too (6 -> 8); with it they keep the pain rule\'s number', () => {
+    const i = loadSample(NAMES['08']);
+    const p = generate({ ...i, pain: [] }, model);
+    const st = p.meta.stairway[0];
+    assert.ok(st.group_start.quads < st.group_top.quads, st.group_start.quads + ' -> ' + st.group_top.quads);
+    assert.ok(R.volume.x7.start_below_top.exempt_pain);
   });
   it('05 bootcamp: the shoulders start below their top of 18 (13.5 at 3 rounds; were 18 from week 1)', () => {
     const p = planOf('05');
@@ -281,7 +289,6 @@ describe('Round-8 coach-eye minor (G-238): a bonus comes in the week its group\'
     const kInc = series(p, inc.it.slot_id).findIndex(v => v >= 4);
     const kFly = series(p, fly.it.slot_id).findIndex(v => v > 0);
     assert.ok(kInc >= 0 && kFly > kInc, kInc + ' ' + kFly);
-    assert.ok(p.meta.warnings.some(w => w.code === 'acceleration' ? true : true));
   });
   it('06: both A-day pulldowns hold 5 sets before the optional-day row comes in', () => {
     const p = planOf('06');

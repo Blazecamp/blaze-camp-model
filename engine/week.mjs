@@ -1858,7 +1858,11 @@ function heavyPlayStations(days, ctx) {
       d.why.push(why('why.heavy_play', 'R3-ATH-05'));
     }
     const throwsWk = D11.weekly && Array.isArray(D11.weekly.throws) ? D11.weekly.throws[1] : 0;
-    const sizeMax = ctx.size && Array.isArray(ctx.size.range) ? ctx.size.range[1] : Infinity;
+    // (v0.7 G-233, R5-VOL-10: a day that keeps the racket player's calf raise next to the arm slot holds one more exercise - the calf
+    // raise's own place - so the throw that takes the cut agility drill's place still comes in)
+    const RCh = R.session.x7 && R.session.x7.racket_calf_both_days;
+    const plusRC = RCh && (d.why || []).some((w) => w && w.key === RCh.why_key) ? (RCh.size_plus || 0) : 0;
+    const sizeMax = ctx.size && Array.isArray(ctx.size.range) ? ctx.size.range[1] + plusRC : Infinity;
     const counted = d._slots.filter((s) => s.counts_in_cap).length;
     const olderDefault = ctx.older && !ctx.optIn;
     if (X.throw_replaces_cuts && throwsWk > 0 && counted < sizeMax && !olderDefault && ctx.dropped.has('AP_COD') && (d._def.stations || []).some((x) => x.bucket === 'AP_COD') && !d._slots.some((s) => s.bucket === 'AP_THROW') && (kit.has('medball') || kit.has('slam_ball'))) {

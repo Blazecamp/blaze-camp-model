@@ -361,10 +361,12 @@ export function buildShape(derived, model, opts = {}) {
             // v0.7 G-234 (COACH-R5 R5-CLS-03 'say it's a 12-week program: 3 rounds the first 4 weeks ... 4 rounds the next 4 weeks, then 5
             // rounds the next 4 weeks, and then people can adjust'): the rounds climb with the stairway in thirds
             // (rules.supersets.bootcamp.x7.rounds_by_third; replaces the level's rounds + one late round); a plan built again without
-            // the late rounds (a muscle past the absolute weekly cap) holds the last third at the middle third's rounds
+            // the late rounds (a muscle past the absolute weekly cap) takes the top rounds down one at a time (opts.roundsCap, set by
+            // generate; never under the first third's rounds)
             const RT = R.supersets.bootcamp.x7 && R.supersets.bootcamp.x7.rounds_by_third;
+            const capR = typeof opts.roundsCap === 'number' && RT && Array.isArray(RT.rounds) && RT.rounds.length ? Math.max(RT.rounds[0], opts.roundsCap) : Infinity;
             const roundsW = RT && Array.isArray(RT.rounds) && RT.rounds.length
-              ? roundsByThird(RT.rounds, stair_N, w, !!opts.noLateRounds)
+              ? Math.min(capR, roundsByThird(RT.rounds, stair_N, w, !!opts.noLateRounds && capR === Infinity))
               : Math.min(R.supersets.bootcamp.rounds[1], rounds + late);
             circ = { rounds: roundsW, work_s: cws[w - 1], from_s: cws[0], to_s: cws[stair_N - 1] };
             if (w === 1) whys.push(why('why.circuit_stairway', 'D-19', { from: cws[0], to: cws[stair_N - 1] }));

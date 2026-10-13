@@ -17,7 +17,7 @@ import { loadFixtureModel, loadCompiledModel, loadSample } from './helpers/model
 import { generate } from '../engine/generate.mjs';
 import { ENGINE_VERSION } from '../engine/version.mjs';
 import { deriveValues, validateIntake } from '../engine/intake.mjs';
-import { buildShape } from '../engine/shape.mjs';
+import { buildShape, roundsByThird } from '../engine/shape.mjs';
 import { buildWeekLayout } from '../engine/week.mjs';
 import { computeTargets, stairwayFrom, stairwayPlan, planWeeklySets, calvesFloor } from '../engine/volume.mjs';
 import { linesOf, groupCredits } from '../engine/lines.mjs';
@@ -468,7 +468,11 @@ for (const [mname, model] of MODELS) {
         assert.match(slot_id, /\.x\d\d$/);
         const first = p.weeks.find(w => w.days.some(d => itemsOf(d).some(it => it.slot_id === slot_id)));
         const eb = p.shape.exercise_blocks.find(e => e.n === first.exercise_block);
-        assert.equal(first.n, eb.weeks[0], 'it opens with an exercise block (exercises stay fixed inside a block)');
+        // (converted in engine 0.7, G-238: the round-8 coach-eye minor 06 m1 - an optional-day bonus comes in the week its group's
+        // template lifts are at their tops; inside its exercise block only as E-86 allows it, on the optional day while 2+ weeks of the
+        // block remain - PER-02 'exercises stay fixed for the block' holds for the training days)
+        const pos = first.n - eb.weeks[0], len = eb.weeks[eb.weeks.length - 1] - eb.weeks[0] + 1;
+        assert.ok(pos === 0 || (onOpt && pos <= len - 2), 'it opens with an exercise block, or on the optional day with 2+ weeks of it left (E-86): week ' + first.n);
         for (const w of p.weeks.filter(x => x.n >= first.n)) {
           const it = w.days.flatMap(d => itemsOf(d)).find(x => x.slot_id === slot_id);
           const top = onOpt ? R.placement.bonus.sets[1] : MX.sets[1];
@@ -516,12 +520,11 @@ for (const [mname, model] of MODELS) {
 
     it('PRG-03 circuits: every station runs the week\'s rounds (3 / 4 / 5 by level), 5-7 stations a session, work seconds climb', () => {
       const p = planOf('05');
-      const rounds = R.supersets.bootcamp.stairway.rounds_by_level[p.meta.level.client];
-      // (v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): one more round in the last two weeks, inside his 3-5 -
-      // rules.supersets.bootcamp.x2.rounds_late)
-      const RL = R.supersets.bootcamp.x2.rounds_late;
+      // (converted in engine 0.7, G-234: COACH-R5 R5-CLS-03 - the rounds climb in thirds of the block, 3 / 4 / 5, for every level -
+      // rules.supersets.bootcamp.x7.rounds_by_third; it replaces the level's rounds + one late round of v0.5 fix round 2)
+      const RT = R.supersets.bootcamp.x7.rounds_by_third.rounds;
       for (const w of p.weeks) {
-        assert.equal(w.circuit.rounds, Math.min(R.supersets.bootcamp.rounds[1], rounds + (w.n > p.weeks.length - RL.last_weeks ? RL.add : 0)));
+        assert.equal(w.circuit.rounds, roundsByThird(RT, p.weeks.length, w.n));
         for (const d of w.days.filter(x => x.kind === 'main')) {
           const st = d.blocks.filter(b => b.kind === 'circuit').flatMap(b => b.items);
           assert.ok(st.length >= 5 && st.length <= 7, `week ${w.n} ${d.weekday}: ${st.length} stations`);

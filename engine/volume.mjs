@@ -2004,18 +2004,44 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         const mostAt = (i) => Math.min(capAt(g, i), i < N - 1 - earlyMax0 ? sc[N - 1] - 1 : sc[N - 1]);
         // (the week before it comes in, every template lift of the group at its top: what they hold, inside that week's ceiling)
         const fullAt = (i) => Math.max(sc[w0 - 1], Math.min(holdOf(i), mostAt(i)));
-        let at = -1;
-        for (let i = w0; i < N; i++) if (fullAt(i - 1) + b <= mostAt(i)) { at = i; break; }
+        // (PER-02 / E-86, 'if compatible': a new exercise comes in where an exercise block starts, or - on an optional day - while 2+
+        // weeks of its exercise block remain. A week that does not allow it moves the bonus to the nearest week that does: earlier,
+        // when its group's template lifts are already at their tops that week; or later, the weeks between holding what the template
+        // lifts hold; at the same distance the earlier week)
+        const ixOf = (i) => [...Array(N).keys()].filter(j => ebOfI(j) === ebOfI(i));
+        const allowed = (i) => { const ix = ixOf(i), pos = ix.indexOf(i); return pos === 0 || (e.kind === 'opt' && pos <= ix.length - 2); };
+        const fitsFwd = (i) => fullAt(i - 1) + b <= mostAt(i);
+        let at = -1, early = false;
+        if (allowed(w0) && fitsFwd(w0)) at = w0;
+        if (at < 0) {
+          let back = -1, fwd = -1;
+          for (let i = w0 - 1; i >= Math.max(s, 1); i--) {
+            if (!allowed(i)) continue;
+            const lv = Math.floor(sc[i] + EPS);
+            if (holdOf(i) <= lv && lv + b <= mostAt(i)) back = i;
+            break;
+          }
+          for (let i = w0 + 1; i < N; i++) if (allowed(i) && fitsFwd(i)) { fwd = i; break; }
+          if (back >= 0 && (fwd < 0 || w0 - back <= fwd - w0)) { at = back; early = true; } else at = fwd;
+        }
         if (at < 0) { gbWeek.set(e.key, s); continue; }
-        // (the weeks before it hold what the template lifts hold - they take those steps; the week it comes in takes the bonus's step)
-        const want = fullAt(at - 1) + b;
-        for (let j = w0; j < at; j++) sc[j] = Math.max(sc[j - 1], fullAt(j));
-        // (the template lifts take their last step the week before, not with the bonus in one jump)
-        if (sc[at - 1] < want - b && (at - 1 < 1 || sc[at - 2] <= want - b)) sc[at - 1] = want - b;
-        for (let k = at; k < N; k++) sc[k] = Math.max(sc[k], Math.min(want, capAt(g, k)));
+        if (early) {
+          // (its template lifts already at their tops that week: the bonus's step comes on top of the week's number)
+          const want = Math.floor(sc[at] + EPS) + b;
+          for (let k = at; k < N; k++) sc[k] = Math.max(sc[k], Math.min(want, capAt(g, k)));
+        } else {
+          // (the weeks before it hold what the template lifts hold - they take those steps; the week it comes in takes the bonus's step)
+          const want = fullAt(at - 1) + b;
+          for (let j = w0; j < at; j++) sc[j] = Math.max(sc[j - 1], fullAt(j));
+          // (the template lifts take their last step the week before, not with the bonus in one jump)
+          if (sc[at - 1] < want - b && (at - 1 < 1 || sc[at - 2] <= want - b)) sc[at - 1] = want - b;
+          for (let k = at; k < N; k++) sc[k] = Math.max(sc[k], Math.min(want, capAt(g, k)));
+          // (the week it comes in takes its fewest sets' step, not the whole climb the bonuses give: the next steps come in the
+          // following weeks - another bonus of the group, if needed, in its own week)
+          if (at < N - 1) sc[at] = Math.max(sc[at - 1], Math.min(sc[at], want));
+        }
         for (let k = 1; k < N; k++) if (sc[k] < sc[k - 1]) sc[k] = sc[k - 1];
-        gbWeek.set(e.key, at);
-        if (ebOfI(at) > eb) gbOpen.set(e.key, ebOfI(at));
+        gbWeek.set(e.key, at);        if (ebOfI(at) > eb) gbOpen.set(e.key, ebOfI(at));
       }
       for (const g of trained) noted[g] = N > 1 ? accelerationReport({ sets: sched[g], referenceRates: rates[g], noteAbove: PG.note_above, minWholeSets: PG.note_min_whole_sets }).noted.slice() : [];
     }
@@ -2576,7 +2602,12 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       const held = Math.max(0, ...bw.map(w => w.weekly_sets_by_group[g] || 0));
       if (held > top + (CO.margin || 0) + EPS) {
         overTop.push({ group: g, top, held: round2(held) });
-        warnings.push({ code: 'circuit_over_top', key: 'warning.circuit_over_top', args: { group: g, held: round2(held), top } });
+        // v0.7 G-234 (R5-CLS-03): with the rounds in thirds there is no single 'extra round' - the line names the most rounds that keep
+        // the group at its top (rules.supersets.bootcamp.x7.rounds_by_third.over_top_key)
+        const atTop = RT && RT.over_top_key ? bw.map((w, i) => ({ w, r: wks[Math.min(i, wks.length - 1)] && wks[Math.min(i, wks.length - 1)].circuit ? wks[Math.min(i, wks.length - 1)].circuit.rounds : null }))
+          .filter(x => isNum(x.r) && (x.w.weekly_sets_by_group[g] || 0) <= top + (CO.margin || 0) + EPS).map(x => x.r) : [];
+        if (atTop.length) warnings.push({ code: 'circuit_over_top', key: RT.over_top_key, args: { group: g, held: round2(held), top, rounds: Math.max(...atTop) } });
+        else warnings.push({ code: 'circuit_over_top', key: 'warning.circuit_over_top', args: { group: g, held: round2(held), top } });
       }
     }
     blockTargetsOut.push({ training_block: tb.n, N, start: { ...bt0.start }, cap: { ...bt0.cap }, groups: [], credit_only_groups: [], carrier: {}, group_start: {}, group_top: {}, planned_start: {}, planned_top: {},

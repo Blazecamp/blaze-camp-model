@@ -10553,6 +10553,7 @@
      ],
      "warning_key": "warning.circuit_rounds_thirds",
      "floor_key": "warning.circuit_rounds_floor",
+     "over_top_key": "warning.circuit_over_top_rounds",
      "refs": [
       "R5-CLS-03",
       "PRG-03",

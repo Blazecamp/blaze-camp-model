@@ -325,7 +325,14 @@ describe('v0.5 fix round 2 - sample 05 (bootcamp)', () => {
     assert.ok(mon && ex(mon.it.exercise_id).credit_class === 'ISO_REAR' && mon.it.flags.includes('no_vertical_pull'), 'Monday\'s second back station is a rear-delt fly, not one more row');
     assert.equal(swapNote(model, ex('lat-pulldown-wide-grip'), ex('seal-row-db-pronated-grip')).loses, 'swap.loses.vertical_pull');
     // every trained group holds its floor, the chest among them (RECHECK v0.4 05 major)
-    for (const w of stair(p)) for (const g of ['quads', 'hips', 'back', 'chest', 'shoulders', 'biceps', 'triceps']) assert.ok(w.weekly_sets_by_group[g] >= R.volume.floor.value - EPS, `w${w.n} ${g} ${w.weekly_sets_by_group[g]}`);
+    // (converted in engine 0.7, G-234: COACH-R5 R5-CLS-03 sets 3 rounds for the block's first third, so a group under the floor in those
+    // weeks is said by warning.circuit_rounds_floor with the week the rounds take it there - H17 'named, never hidden'; from that week on
+    // every group holds its floor)
+    const fl = p.meta.warnings.find(w => w.code === 'circuit_rounds_floor');
+    for (const w of stair(p)) for (const g of ['quads', 'hips', 'back', 'chest', 'shoulders', 'biceps', 'triceps']) {
+      if (w.weekly_sets_by_group[g] >= R.volume.floor.value - EPS) continue;
+      assert.ok(fl && fl.args.group.includes(g) && w.n < fl.args.week, `w${w.n} ${g} ${w.weekly_sets_by_group[g]}`);
+    }
     assert.ok(!codes(p).includes('below_floor_template'));
     // pulling stations are not outnumbered by pressing stations
     const cls = (it) => ex(it.exercise_id).credit_class, PP = R.volume.push_pull, circ = itemsOf(p.weeks[0]).filter(x => x.b.kind === 'circuit' && x.it.exercise_id).map(x => x.it);
@@ -336,7 +343,8 @@ describe('v0.5 fix round 2 - sample 05 (bootcamp)', () => {
     assert.deepEqual(BX.work_s_values, [35, 40, 45, 50]); assert.deepEqual(BX.rounds_late, { add: 1, last_weeks: 2 });
     const p = planOf('05');
     assert.deepEqual(p.weeks.map(w => w.circuit.work_s), [35, 35, 40, 40, 45, 45, 50, 50]);
-    assert.deepEqual(p.weeks.map(w => w.circuit.rounds), [4, 4, 4, 4, 4, 4, 5, 5]);
+    // (converted in engine 0.7, G-234: COACH-R5 R5-CLS-03 - the rounds climb in thirds, 3 / 4 / 5, rules.supersets.bootcamp.x7.rounds_by_third)
+    assert.deepEqual(p.weeks.map(w => w.circuit.rounds), [3, 3, 3, 4, 4, 4, 5, 5]);
     assert.equal(check(p.validation, 'H21').pass, true);
     const held = allItems(p).filter(x => x.it.effort && x.it.effort.intensifier);
     assert.ok(held.length > 0);

@@ -99,7 +99,7 @@ export function amendRulesV07(rules) {
   // stairway in thirds (12 weeks: 3 / 4 / 5 in weeks 1-4 / 5-8 / 9-12; a shorter block splits the same way); replaces the level's
   // round count + one late round (G-09, fix round 2). The plan says people adjust (warning.circuit_rounds_thirds).
   R.supersets.bootcamp.x7 = {
-    rounds_by_third: { rounds: [3, 4, 5], warning_key: 'warning.circuit_rounds_thirds', floor_key: 'warning.circuit_rounds_floor', refs: ['R5-CLS-03', 'PRG-03', 'CX-04'], status: 'approved (COACH-R5 R5-CLS-03)' }
+    rounds_by_third: { rounds: [3, 4, 5], warning_key: 'warning.circuit_rounds_thirds', floor_key: 'warning.circuit_rounds_floor', over_top_key: 'warning.circuit_over_top_rounds', refs: ['R5-CLS-03', 'PRG-03', 'CX-04'], status: 'approved (COACH-R5 R5-CLS-03)' }
   };
 
   // ---- validation: V13 reads the stated racket-calf day (R5-VOL-10)
@@ -112,11 +112,13 @@ export const UI_V07 = {
   // G-231 (R5-VOL-07)
   'why.light_chest_optional': ['A light chest exercise (a fly or a machine press) on the optional day: easy on recovery, so it may follow a press day', 'Un ejercicio ligero de pecho (aperturas o press en máquina) en el día opcional: se recupera fácil, así que puede ir después de un día de press'],
   // G-233 (R5-VOL-10)
-  'why.racket_calf_both_days': ['Calf raise on both training days (racket player 50+, Achilles care): this day holds one exercise more than the usual range', 'Elevación de talones en los dos días de entrenamiento (jugador de raqueta de 50+, cuidado del tendón de Aquiles): este día lleva un ejercicio más que el rango habitual'],
-  'warning.racket_calf_both_days': ['Calf raises stay on both training days for Achilles care (racket players 50+), so {days} holds one exercise more than the usual range. Remove it if you need a shorter session.', 'La elevación de talones se queda en los dos días de entrenamiento para cuidar el tendón de Aquiles (jugadores de raqueta de 50+), así que {days} lleva un ejercicio más que el rango habitual. Quítala si necesitas una sesión más corta.'],
+  'why.racket_calf_both_days': ['Calf raise on both training days (racket player 50+, Achilles care): this day holds one exercise more than usual', 'Elevación de talones en los dos días de entrenamiento (jugador de raqueta de 50+, cuidado del tendón de Aquiles): este día lleva un ejercicio más de lo habitual'],
+  'warning.racket_calf_both_days': ['Calf raises stay on both training days for Achilles care (racket players 50+), so {days} holds one exercise more than usual. Remove it if you need a shorter session.', 'La elevación de talones se queda en los dos días de entrenamiento para cuidar el tendón de Aquiles (jugadores de raqueta de 50+), así que {days} lleva un ejercicio más de lo habitual. Quítala si necesitas una sesión más corta.'],
   // G-234 (R5-CLS-03)
   'warning.circuit_rounds_thirds': ['Circuit rounds climb with the plan, one more round each third of the block ({from} to {to} rounds). These are a guide: add or take away a round as you need.', 'Las rondas del circuito suben con el plan, una ronda más en cada tercio del bloque (de {from} a {to} rondas). Son una guía: agrega o quita una ronda según lo necesites.'],
   'warning.circuit_rounds_floor': ['{group}: weeks 1-{last} run {rounds} rounds a station, so these groups sit under {floor} weekly sets until week {week}, when the rounds go up. Add a round if you want more sooner.', '{group}: las semanas 1-{last} llevan {rounds} rondas por estación, así que estos grupos quedan por debajo de {floor} series semanales hasta la semana {week}, cuando suben las rondas. Agrega una ronda si quieres más antes.'],
+  // G-234 (R5-CLS-03, G-110): with the rounds in thirds there is no single 'extra round'; the line names the rounds that keep the group at its top
+  'warning.circuit_over_top_rounds': ['{group}: every station runs the same rounds, so this group reaches {held} weekly sets, above its usual top of {top}. If you want to stay at the top, keep its stations at {rounds} rounds when the others do more.', '{group}: todas las estaciones hacen las mismas rondas, así que este grupo llega a {held} series por semana, por encima de su tope habitual de {top}. Si quieres quedarte en el tope, deja sus estaciones en {rounds} rondas cuando las demás hagan más.'],
   // G-230 (R5-VOL-01): a high-incline press is an upper-chest press now (was 'the shoulder press with some chest')
   'swap.keeps.MRPUSH': ['the upper-chest press', 'el press de pecho superior']
 };

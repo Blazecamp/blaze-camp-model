@@ -114,9 +114,12 @@ for (const [mname, model] of MODELS) {
       // last two weeks, inside his 3-5; rules.supersets.bootcamp.x2.rounds_late)
       const RL = model.rules.supersets.bootcamp.x2.rounds_late;
       assert.deepEqual([RL.add, RL.last_weeks], [1, 2]);
-      assert.deepEqual(sh.weeks.map(x => x.circuit.rounds), [4, 4, 4, 4, 4, 4, 5, 5], 'sample 05 is L2: 4 rounds, 5 in the last two weeks');
+      // (converted in engine 0.7, G-234: COACH-R5 R5-CLS-03 '12-week program: 3 rounds the first 4 weeks ... 4 rounds the next 4 weeks,
+      // then 5 rounds the next 4 weeks' - the rounds climb in thirds of the block for every level, rules.supersets.bootcamp.x7.rounds_by_third;
+      // the level's rounds and the one late round are no longer read when the key is there)
+      assert.deepEqual(sh.weeks.map(x => x.circuit.rounds), [3, 3, 3, 4, 4, 4, 5, 5], 'sample 05 (8 weeks): 3 / 4 / 5 rounds by thirds');
       const [l1] = shapeOf('05', i => { i.experience.years_consistent = 0.2; });
-      assert.deepEqual(l1.weeks.map(x => x.circuit.rounds), [3, 3, 3, 3, 3, 3, 4, 4]);
+      assert.deepEqual(l1.weeks.map(x => x.circuit.rounds), [3, 3, 3, 4, 4, 4, 5, 5]);
       // a retired session length changes nothing
       const [s60] = shapeOf('05', i => { i.schedule.session_minutes = 60; });
       assert.deepEqual(s60.weeks.map(x => x.circuit), sh.weeks.map(x => x.circuit));

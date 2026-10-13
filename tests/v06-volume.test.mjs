@@ -96,10 +96,13 @@ describe('v0.6 volume - VOL-07 main lift first (reviews 01 / 02 / 03 M2)', () =>
   it('VOL-07 (G-101, 02 / 03): an athlete\'s flat press holds at most 4 sets in every week (the DB bench ran to 5)', () => {
     const AP = PX3.athlete_press_max;
     assert.equal(AP.max, 4);
+    // (converted in engine 0.7, G-235: COACH-R5 R5-VOL-11 - the lift a one-set shortfall names, meta.stairway[].one_set_shortfall, takes
+    // one set over the cap in the block's last exercise block; G-232: a chest Focus lifts the cap - none of these samples has one)
     for (const n of ['01', '02', '03']) for (const w of stair(planOf(n))) for (const x of itemsOf(w)) {
       const e = ex(x.it.exercise_id);
       if (!e || x.it.role === 'test' || !AP.credit_classes.includes(e.credit_class) || e.tags.includes('mid_range_push') || !x.it.sets) continue;
-      assert.ok(x.it.sets <= AP.max, `${n} w${w.n} ${x.d.weekday} ${e.id} ${x.it.sets}`);
+      const oss = (planOf(n).meta.stairway || []).flatMap(st => st.one_set_shortfall || []).find(o => o.slot_id === x.it.slot_id && w.exercise_block >= o.exercise_block);
+      assert.ok(x.it.sets <= AP.max + (oss ? oss.sets : 0), `${n} w${w.n} ${x.d.weekday} ${e.id} ${x.it.sets}`);
     }
   });
   it('VOL-07 (G-101): a group with fewer than 3 exercises of its own keeps its press (the pitcher\'s one chest press is not held under the floor)', () => {
@@ -132,6 +135,9 @@ describe('v0.6 volume - R3-VOL-03 the optional day and the bonus exercise', () =
     const p = planOf('01');
     for (const w of stair(p)) for (const d of w.days.filter(x => x.kind === 'optional')) for (const x of itemsOf({ days: [d] })) {
       if (!x.it.exercise_id || !x.it.sets || !['focus', 'accessories'].includes(x.b.kind)) continue;
+      // (converted in engine 0.7: a light chest bonus - a fly - on the optional day after a press day is the coach's R5-VOL-07 (G-231), a
+      // bonus that takes the chest to its final sets (CH5-03), not a Focus exercise)
+      if (x.it.origin === 'bonus' && (x.it.why || []).some(y => y.key === 'why.light_chest_optional')) continue;
       assert.notEqual(lineClass(primeGroup(x.it)), 'big', `w${w.n} ${d.weekday}: ${x.it.exercise_id}`);
     }
     assert.ok((p.meta.stairway[0].focus_closed || []).some(c => c.group === 'quads'));
@@ -144,6 +150,9 @@ describe('v0.6 volume - R3-VOL-03 the optional day and the bonus exercise', () =
       const prevPats = new Set(itemsOf({ days: [prev] }).filter(x => x.it.exercise_id && x.it.sets).map(x => (ex(x.it.exercise_id) || {}).pattern));
       for (const x of itemsOf({ days: [d] })) {
         if (x.it.origin !== 'bonus' || !x.it.exercise_id) continue;
+        // (converted in engine 0.7: COACH-R5 R5-VOL-07 'a light chest exercise (fly or machine press) may go on the optional day even
+        // right after a press day' - G-231, said by why.light_chest_optional)
+        if ((x.it.why || []).some(y => y.key === 'why.light_chest_optional')) continue;
         const pt = ex(x.it.exercise_id).pattern;
         assert.ok(!(pats.includes(pt) && prevPats.has(pt)), `w${w.n} ${d.weekday}: ${x.it.exercise_id} repeats ${pt}`);
       }
@@ -179,8 +188,9 @@ describe('v0.6 volume - CX-04 a capped group is said (07 M1)', () => {
       assert.ok(p.meta.warnings.some(w => ['capped_by_template', 'below_floor_template'].includes(w.code) && w.args && w.args.group === c.group), 'notice ' + c.group);
     }
     const md = renderPlan(planOf('06'), model, { lang: 'en' });
-    // (converted, CH5-03 / G-199: the back now reaches 25 with its bonus exercises; the chest is the group the template still holds)
-    assert.match(md, /Chest: this template holds 2\d weekly sets, below the planned 25/);
+    // (converted, CH5-03 / G-199: the back now reaches 25 with its bonus exercises; converted again in engine 0.7, G-231: COACH-R5
+    // R5-VOL-07's light chest exercise on the optional day takes the chest to its 25 too)
+    assert.doesNotMatch(md, /Chest: this template holds/);
     assert.doesNotMatch(md, /Back: this template holds/);
   });
 });
@@ -327,7 +337,8 @@ describe('v0.6 volume - COACH-CH5 CH5-03 big groups reach their planned final se
       const prev = w.days.find(x => x.weekday === WD7[(WD7.indexOf(d.weekday) + 6) % 7] && x.kind === 'main');
       if (!prev) continue;
       const prevPats = new Set(itemsOf({ days: [prev] }).filter(x => x.it.exercise_id && x.it.sets).map(x => (ex(x.it.exercise_id) || {}).pattern));
-      for (const x of itemsOf({ days: [d] })) if (x.it.origin === 'bonus' && x.it.exercise_id && lineClass(x.it.group) === 'big') assert.ok(!(pats.includes(ex(x.it.exercise_id).pattern) && prevPats.has(ex(x.it.exercise_id).pattern)), `w${w.n} ${d.weekday}: ${x.it.exercise_id}`);
+      // (converted in engine 0.7: the light chest exercise of R5-VOL-07 may follow a press day - G-231)
+      for (const x of itemsOf({ days: [d] })) if (x.it.origin === 'bonus' && x.it.exercise_id && lineClass(x.it.group) === 'big' && !(x.it.why || []).some(y => y.key === 'why.light_chest_optional')) assert.ok(!(pats.includes(ex(x.it.exercise_id).pattern) && prevPats.has(ex(x.it.exercise_id).pattern)), `w${w.n} ${d.weekday}: ${x.it.exercise_id}`);
     }
   });
 });
