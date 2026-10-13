@@ -24,6 +24,7 @@ function saveLang(l) { try { localStorage.setItem(BRAND.storage_key, l); } catch
 const UI = brandUi(BRAND, ui);
 
 const S = {
+  touched: new Set(),          // the questions the person has answered on this visit (page memory only, never stored): the rest pulse softly
   lang: brandLang(BRAND, savedLang(), navigator.language),
   model: null,
   screen: 'loading',           // loading | error | wizard | building | invalid | plan
@@ -164,49 +165,60 @@ const seg = (action, items, cur, cls = '') => `<div class="seg ${cls}" role="gro
 const cardBtn = (action, value, title, sub, on, icon = '') => `<button type="button" class="card-btn" data-action="${action}" data-value="${h(value)}" aria-pressed="${on ? 'true' : 'false'}">${icon ? `<span class="ic" aria-hidden="true">${icon}</span>` : ''}<span class="t">${h(title)}</span>${sub ? `<span class="s">${h(sub)}</span>` : ''}</button>`;
 const selectHtml = (field, label, opts, cur) => `<label class="sel"><span class="label">${h(label)}</span><select data-field="${field}">${opts.map(([v, l]) => `<option value="${h(v)}" ${String(v) === String(cur || '') ? 'selected' : ''}>${h(l)}</option>`).join('')}</select></label>`;
 
+/** a question the person has not answered yet pulses softly until they do (coach, 2026-10-13: people slid past the training days) */
+const need = (key) => (S.touched.has(key) ? '' : ' needs');
+const TOUCH = {
+  role: 'role', age: 'age', weight: 'weight', unit: 'weight', years: 'years', goal: 'goal',
+  'sport-pick': 'detail', position: 'detail', detail: 'detail', season: 'detail', practice: 'detail', 'act-pick': 'detail', playday: 'playdays',
+  league: 'detail', style: 'detail', focus: 'detail', format: 'detail',
+  days: 'days', weekday: 'weekdays', kit: 'kit', pain: 'pain', 'pain-none': 'pain', sev: 'pain', route: 'health', health: 'health', safety: 'health',
+  accepted: 'accept', guardian: 'accept', season_date: 'detail', event_date: 'detail'
+};
+const markAnswered = (action) => { if (TOUCH[action]) S.touched.add(TOUCH[action]); };
+
 const GOAL_ICON = { muscle: '◆', strength: '▲', fat_loss: '◉', general: '✚', athletic: '➤', active: '✦' };
 
 const SCREEN = {
   you() {
     const a = S.answers;
-    return `<div class="field"><span class="label">${h(t('about.role'))}</span>${seg('role', [['self', t('about.role.self')], ['client', t('about.role.client')]], a.role, 'small')}</div>
+    return `<div class="field${need('role')}"><span class="label">${h(t('about.role'))}</span>${seg('role', [['self', t('about.role.self')], ['client', t('about.role.client')]], a.role, 'small')}</div>
       <div class="row2">
-        <div class="field"><label class="label" for="age">${h(t('about.age'))}</label>
+        <div class="field${need('age')}"><label class="label" for="age">${h(t('about.age'))}</label>
           <div class="stepper"><button type="button" data-action="age" data-value="-1" aria-label="${h(t('stepper.less'))}">−</button>
           <input id="age" type="number" inputmode="numeric" min="10" max="90" value="${h(a.age)}" data-field="age">
           <button type="button" data-action="age" data-value="1" aria-label="${h(t('stepper.more'))}">+</button></div></div>
-        <div class="field"><div class="label-row"><label class="label" for="weight">${h(t('about.weight'))}</label>${seg('unit', [['lb', 'lb'], ['kg', 'kg']], a.unit, 'tiny')}</div>
+        <div class="field${need('weight')}"><div class="label-row"><label class="label" for="weight">${h(t('about.weight'))}</label>${seg('unit', [['lb', 'lb'], ['kg', 'kg']], a.unit, 'tiny')}</div>
           <div class="stepper"><button type="button" data-action="weight" data-value="-1" aria-label="${h(t('stepper.less'))}">−</button>
           <input id="weight" type="number" inputmode="numeric" min="20" max="700" value="${h(a.weight)}" data-field="weight">
           <button type="button" data-action="weight" data-value="1" aria-label="${h(t('stepper.more'))}">+</button></div></div>
       </div>
-      <div class="field"><span class="label">${h(t('about.years'))}</span>
+      <div class="field${need('years')}"><span class="label">${h(t('about.years'))}</span>
         <div class="chips grid3">${B.YEARS_CHOICES.map(y => chip('years', y, h(t('about.years.' + y)), a.years === y)).join('')}</div></div>
       ${B.isMinor(a) ? `<p class="note">${h(t('about.minor_note'))}</p>` : ''}`;
   },
   goal() {
     const a = S.answers;
     const d = a.goal ? B.detailStepFor(a.goal) : null;
-    if (!d) return `<div class="cards">${B.GOALS.map(g => cardBtn('goal', g, t('goal.' + g), t('goal.' + g + '.sub'), a.goal === g, GOAL_ICON[g])).join('')}</div>`;
+    if (!d) return `<div class="cards${need('goal')}">${B.GOALS.map(g => cardBtn('goal', g, t('goal.' + g), t('goal.' + g + '.sub'), a.goal === g, GOAL_ICON[g])).join('')}</div>`;
     // a goal with details: the cards shrink to one compact grid and the details open right under them, on the same screen
-    const cards = `<div class="cards mini">${B.GOALS.map(g => cardBtn('goal', g, t('goal.' + g), '', a.goal === g, GOAL_ICON[g])).join('')}</div>`;
-    return cards + `<div class="detail" data-detail="${d}">${DETAIL[d]()}</div>`;
+    const cards = `<div class="cards mini${need('goal')}">${B.GOALS.map(g => cardBtn('goal', g, t('goal.' + g), '', a.goal === g, GOAL_ICON[g])).join('')}</div>`;
+    return cards + `<div class="detail${need('detail')}" data-detail="${d}">${DETAIL[d]()}</div>`;
   },
   week() {
     const a = S.answers;
     const play = a.goal === 'active' ? a.activity.play_days : [];
     const profiles = S.model.rules.equipment.intake_profiles;
-    let out = `<div class="field"><span class="label">${h(t('week.days'))}</span><div class="chips grid5">${B.DAYS_CHOICES.map(d => chip('days', d, String(d), a.days === d)).join('')}</div>
+    let out = `<div class="field${need('days')}"><span class="label">${h(t('week.days'))}</span><div class="chips grid5">${B.DAYS_CHOICES.map(d => chip('days', d, String(d), a.days === d)).join('')}</div>
       ${a.days === 2 ? `<p class="hint">${h(t('week.two_day_note'))}</p>` : ''}</div>`;
-    out += `<div class="field"><span class="label">${h(t('week.weekdays'))} <span class="label-sub">${h(t('week.weekdays_hint', { n: a.days }))}</span></span><div class="chips grid7">${B.WEEKDAYS.map(d => chip('weekday', d, h(t('weekday.short.' + d)) + (play.includes(d) ? `<small>${h(t('week.play_mark'))}</small>` : ''), a.weekdays.includes(d))).join('')}</div></div>`;
-    out += `<div class="field"><span class="label">${h(t('week.kit'))}</span><div class="cards kit">${profiles.map(p => cardBtn('kit', p, mt('intake.equipment.opt.' + p), t('kit.sub.' + p), a.equipment === p)).join('')}</div></div>`;
+    out += `<div class="field${need('weekdays')}"><span class="label">${h(t('week.weekdays'))} <span class="label-sub">${h(t('week.weekdays_hint', { n: a.days }))}</span></span><div class="chips grid7">${B.WEEKDAYS.map(d => chip('weekday', d, h(t('weekday.short.' + d)) + (play.includes(d) ? `<small>${h(t('week.play_mark'))}</small>` : ''), a.weekdays.includes(d))).join('')}</div></div>`;
+    out += `<div class="field${need('kit')}"><span class="label">${h(t('week.kit'))}</span><div class="cards kit">${profiles.map(p => cardBtn('kit', p, mt('intake.equipment.opt.' + p), t('kit.sub.' + p), a.equipment === p)).join('')}</div></div>`;
     out += optionsHtml();
     return out;
   },
   safety() {
     const a = S.answers;
     const areas = Object.keys(S.model.rules.volume.pain.areas);
-    let out = `<div class="field"><span class="label">${h(t('health.pain'))}</span><div class="chips small pain">${areas.map(ar => chip('pain', ar, h(mt('intake.pain.opt.' + ar)), a.pain.some(p => p.area === ar))).join('')}</div>`;
+    let out = `<div class="field${need('pain')}"><span class="label">${h(t('health.pain'))}</span><div class="chips small pain">${chip('pain-none', 'none', h(mt('intake.pain.opt.none')), S.touched.has('pain') && !a.pain.length)}${areas.map(ar => chip('pain', ar, h(mt('intake.pain.opt.' + ar)), a.pain.some(p => p.area === ar))).join('')}</div>`;
     if (a.pain.length) {
       out += `<p class="hint">${h(t('health.pain_hint'))}</p>` + a.pain.map(p => `<div class="pain-row"><span class="name">${h(mt('intake.pain.opt.' + p.area))}</span>${seg('sev', B.SEVERITIES.map(s => [p.area + ':' + s, t('health.sev.' + s)]), p.area + ':' + p.severity)}</div>`).join('');
     }
@@ -247,7 +259,7 @@ const DETAIL = {
     if ((act.league_sport || []).length) sels.push(selectHtml('league', t('activity.league'), [['', any], ...act.league_sport.map(x => [x.value, S.model.hasSport(x.profile) ? mt(S.model.sport(x.profile).name_key) : cap(String(x.value).replace(/_/g, ' '))])], ac.league));
     if ((act.style || []).length) sels.push(selectHtml('style', t('activity.style'), [['', any], ...act.style.map(x => [x.value, t('activity.style.' + x.value) !== 'activity.style.' + x.value ? t('activity.style.' + x.value) : cap(String(x.value).replace(/_/g, ' '))])], ac.style));
     if (sels.length) out += `<div class="sels">${sels.join('')}</div>`;
-    out += `<div class="field"><span class="label">${h(t('activity.play_days'))}</span><div class="chips grid7">${B.WEEKDAYS.map(d => chip('playday', d, h(t('weekday.short.' + d)), ac.play_days.includes(d))).join('')}</div></div>`;
+    out += `<div class="field${need('playdays')}"><span class="label">${h(t('activity.play_days'))}</span><div class="chips grid7">${B.WEEKDAYS.map(d => chip('playday', d, h(t('weekday.short.' + d)), ac.play_days.includes(d))).join('')}</div></div>`;
     out += `<details class="more" ${ac.event_date ? 'open' : ''}><summary><span class="st"><span>${h(t('activity.event'))}</span>${ac.event_date ? `<span class="cur">${h(ac.event_date)}</span>` : ''}</span></summary><div class="body"><input id="edate" class="date" type="date" min="${today()}" value="${h(ac.event_date || '')}" data-field="event_date" aria-label="${h(t('activity.event'))}"><p class="hint">${h(t('activity.event_hint'))}</p></div></details>`;
     return out;
   },
@@ -285,13 +297,13 @@ function healthHtml() {
   const a = S.answers;
   let out = '';
   if (a.role === 'client') {
-    out += `<div class="field"><span class="label">${h(t('health.route'))}</span><div class="cards one compact">${['coach_screen', 'coach_own_sop'].map(r => cardBtn('route', r, mt('intake.health_route.opt.' + r), '', a.health_route === r)).join('')}</div>`;
+    out += `<div class="field${need('health')}"><span class="label">${h(t('health.route'))}</span><div class="cards one compact">${['coach_screen', 'coach_own_sop'].map(r => cardBtn('route', r, mt('intake.health_route.opt.' + r), '', a.health_route === r)).join('')}</div>`;
     if (a.health_route === 'coach_own_sop') out += `<p class="note warn">${h(mt('warn.coach_bypass'))}</p>`;
     out += '</div>';
     if (a.health_route === 'coach_own_sop') return out;
   }
   const parq = S.model.rules.legal && S.model.rules.legal.parq_url;
-  out += `<div class="field"><span class="label">${h(t('health.questions'))}</span><p class="small-text">${h(mt('health.intro'))}</p>`;
+  out += `<div class="field${need('health')}"><span class="label">${h(t('health.questions'))}</span><p class="small-text">${h(mt('health.intro'))}</p>`;
   if (a.health !== 'some') out += `<ul class="qlist">${B.SAFETY_KEYS.map(k => `<li>${h(mt('intake.safety.opt.' + k))}</li>`).join('')}</ul>`;
   out += `<div class="chips two">${chip('health', 'none', h(mt('health.none')), a.health === 'none')}${chip('health', 'some', h(mt('health.some')), a.health === 'some')}</div>`;
   if (a.health === 'some') {
@@ -311,9 +323,9 @@ function acceptHtml() {
     ${url ? `<p><a href="${h(url)}" target="_blank" rel="noopener noreferrer">${h(mt('release.full_text_link'))}</a></p>` : ''}</div></div>`;
   if (B.isMinor(a)) {
     out += `<p class="note">${h(minorLine())}</p>`;
-    out += `<label class="check ${a.guardian ? 'on' : ''}"><input type="checkbox" data-field="guardian" ${a.guardian ? 'checked' : ''}><span>${h(t('accept.guardian'))}</span></label>`;
+    out += `<label class="check ${a.guardian ? 'on' : 'needs'}"><input type="checkbox" data-field="guardian" ${a.guardian ? 'checked' : ''}><span>${h(t('accept.guardian'))}</span></label>`;
   }
-  out += `<label class="check ${a.accepted ? 'on' : ''}"><input type="checkbox" data-field="accepted" ${a.accepted ? 'checked' : ''}><span>${h(mt('release.own_risk'))}</span></label>`;
+  out += `<label class="check ${a.accepted ? 'on' : 'needs'}"><input type="checkbox" data-field="accepted" ${a.accepted ? 'checked' : ''}><span>${h(mt('release.own_risk'))}</span></label>`;
   return out;
 }
 
@@ -754,6 +766,7 @@ function setA(patch) { S.answers = { ...S.answers, ...patch }; render(); }
 
 function act(action, value, el) {
   const a = S.answers;
+  if (S.screen === 'wizard') markAnswered(action);
   switch (action) {
     case 'lang': return setLang(value);
     case 'reload': return location.reload();
@@ -807,6 +820,7 @@ function act(action, value, el) {
     case 'kit': return setA({ equipment: value });
     case 'extra': return setA({ extras: a.extras.includes(value) ? a.extras.filter(x => x !== value) : [...a.extras, value] });
     case 'pain': return setA({ pain: a.pain.some(p => p.area === value) ? a.pain.filter(p => p.area !== value) : [...a.pain, { area: value, severity: 'mild' }] });
+    case 'pain-none': return setA({ pain: [] });
     case 'sev': { const [area, sev] = value.split(':'); return setA({ pain: a.pain.map(p => (p.area === area ? { ...p, severity: sev } : p)) }); }
     case 'route': return setA({ health_route: value });
     case 'health': return setA({ health: value, safety: value === 'none' ? Object.fromEntries(B.SAFETY_KEYS.map(k => [k, false])) : a.safety });
@@ -853,6 +867,7 @@ document.addEventListener('change', (e) => {
   const el = e.target, f = el.dataset && el.dataset.field;
   if (!f || !S.answers) return;
   const a = S.answers;
+  markAnswered(f);
   if (f === 'age') return setA({ age: Math.max(10, Math.min(90, Math.round(Number(el.value) || a.age))) });
   if (f === 'weight') return setA({ weight: Math.max(1, Math.min(a.unit === 'kg' ? 320 : 700, Math.round(Number(el.value) || a.weight))) });
   if (f === 'season_date') return setA({ sport: { ...a.sport, season_date: el.value || null } });
