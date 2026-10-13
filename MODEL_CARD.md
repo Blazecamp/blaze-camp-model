@@ -34,9 +34,9 @@ A complete coaching model from the experience of **Coach Lalo (Gerardo Vera), Ma
 - **Few inputs, on purpose.** No sex field, no sleep, stress or lifestyle questions. No bands or variable resistance.
 - **A template holds only so many sets.** When a day layout cannot take a muscle group to its planned final number, the group is held at what the exercises can hold, and the plan says so. Nothing is added or dropped to force the number.
 - **The engine is experimental.** It passes its own tests and checks. The coach graded the 8 sample plans in round 5: A for 01 swimming, 02 football and 07 push / pull / legs; B+ for 03 soccer, 04 CrossFit-style class, 05 bootcamp, 06 full-body aesthetics and 08 pickleball (COACH-R5 R5-GRD-01 ... 08). Engine 0.7 applied his notes; AI reviewers now grade every sample A- or A. He has not graded engine 0.7. Athletic work (jumps, throws, sprints, Olympic sets) is often under the sport's weekly target. Details: [HANDOFF.md](HANDOFF.md).
-- **A health-check yes warns, it does not stop** (R5-GEN-02). The plan is built and says it is general fitness information, not a plan from a doctor, and to see a medical professional. The wording waits for the attorney.
+- **A health-check yes warns, it does not stop** (R5-GEN-02). The plan is built and says it is general fitness information, not a plan from a doctor, and to see a medical professional. The coach set an attorney review aside for now (CH6-03).
 - **An edited plan loses the generated plan's guarantees.** Edits recompute the totals and mark the plan as edited. They are not re-checked against every rule.
-- **Spanish is partly machine-translated** (832 lines are marked for the coach's review, and he has not approved any Spanish yet). **The legal texts and the health warning are drafts** for a Florida attorney.
+- **Spanish is partly machine-translated.** The coach accepted it as the starting version (CH6-03); 832 lines stay marked for later polishing. The legal texts and the health warning are in use without an attorney review, by the coach's choice.
 
 ## How it was built
 

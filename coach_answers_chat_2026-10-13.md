@@ -19,3 +19,11 @@ Coach Lalo (Gerardo Vera), in the build conversation. Quoted verbatim, then the 
 **Answer (verbatim):** "Yeah your approach is ok thank you"
 
 **Reading.** Approved as proposed. It applies to the front-end tool, which is not built yet; today's plan editing (`engine/edit.mjs > add_exercise`) adds library exercises only. To build with the tool: a custom item with a name, sets, reps, the one muscle answer (or "athletic / cardio, no muscle sets"), credited 1.0 to that group, flagged `custom: true`, excluded from the library-only checks, and printed with the label above in English and Spanish.
+
+## CH6-03 The attorney review and the Spanish
+
+**Context.** The open items before calling version 1 done were an attorney review of the disclaimers and the health warning, and the coach's review of the Spanish.
+
+**Answer (verbatim):** "ignore the attorney, just the generic spanish is a good start so im not worried"
+
+**Reading.** The attorney review is set aside: the disclaimers, the release wording and the health warning are used as written (the `[LEGAL REVIEW]` markers stay in the data as a reminder). The current neutral Latin American Spanish is accepted as the starting version; the machine-translated lines stay listed in `model/i18n/es_review.json` for later polishing. Neither blocks the release.

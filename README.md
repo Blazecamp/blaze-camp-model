@@ -12,8 +12,8 @@ One page that sums up what this is, who it is for and where its limits are: [MOD
 |---|---|---|
 | **Model v1.4** | **Complete** | Every answer the coach has given is applied and traced to its source: five questionnaire rounds (140 + 45 + 13 + 20 + 43 questions) and his clarifications in conversation (CT-01, CX-01..04, CH5, CH6). "Complete" does not mean every number is his: [MODEL_CARD.md](MODEL_CARD.md) lists what he confirmed and what is still proposed. |
 | **Engine 0.7.0** | **Experimental** | It builds a complete plan for any valid intake from the coach's own day templates, sized by exercise count, with no time-fitting. **The coach graded the 8 sample plans in round 5: A for 3, B+ for 5.** His notes became rules in engine 0.7. |
-| Disclaimers, release text and the health warning | Drafts | They need review by a licensed Florida attorney before the release is called final. |
-| Spanish | Not yet approved by the coach | The team reviewed the plan-facing lines for neutral Latin American wording. 832 machine-translated lines are marked for the coach's review. |
+| Disclaimers, release text and the health warning | In use | The coach set an attorney review aside for now (CH6-03). |
+| Spanish | Accepted as the starting version (CH6-03) | Neutral Latin American Spanish, reviewed by the team. 832 machine-translated lines stay marked for later polishing. |
 | Front-end tool (website or form) | **Next step** | Not built yet. The model and the logic came first. See [HANDOFF.md](HANDOFF.md). |
 
 Current state, open items and next steps: [HANDOFF.md](HANDOFF.md).

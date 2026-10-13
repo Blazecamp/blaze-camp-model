@@ -18,8 +18,8 @@ The coach wants this version finished so the front-end tool can be built next. I
 | Engine 0.7.0 (`engine/`) | **Experimental.** Template-first, no time-fitting, all tests pass. |
 | Exercise library | 742 runtime exercises (731 from the 939 source records + 11 added). 32 optional add-ons. 2 neck records stay hidden. |
 | Sports and activities | 127 profiles: 52 sports, 26 "stay athletic and active" activities. 23 confirmed by the coach, 67 built on a similar sport, 37 proposed. |
-| Spanish | Reviewed by the team for neutral Latin American wording. **Not yet approved by the coach.** 832 machine-translated lines are listed in `model/i18n/es_review.json`. |
-| Disclaimers and the health warning | Drafts. **Need a Florida attorney.** |
+| Spanish | Reviewed by the team for neutral Latin American wording. **Accepted by the coach as the starting version (CH6-03).** The 832 machine-translated lines stay listed in `model/i18n/es_review.json` for later polishing. |
+| Disclaimers and the health warning | In use as written. The coach set the attorney review aside (CH6-03); the `[LEGAL REVIEW]` markers stay in the data as a reminder. |
 | Front-end tool (website or form) | **Not started. It is the next step.** |
 | Large planner (`design/PLANNER_SPEC.md`) | Parked as research. Do not build it. |
 
@@ -73,8 +73,8 @@ Read with care: a benchmark score is a team tool, not a coach grade. Passing tes
 
 ## Open items
 
-1. **Attorney:** `DISCLAIMER.md`, `DISCLAIMER.es.md`, the release wording, and the **new health warning** (R5-GEN-02; it prints with a `[LEGAL REVIEW]` marker until signed off). Also advice on the Blaze Camp name.
-2. **Coach: the Spanish.** He has approved none yet (832 machine-translated lines plus the priority list in `model/i18n/es_review.json`).
+1. **Set aside by the coach (CH6-03), not open:** an attorney review of the disclaimers, the release wording and the health warning; a line-by-line review of the Spanish (the current neutral Latin American Spanish is accepted as the starting version).
+2. (Closed by CH6-03: the Spanish is accepted as a start.)
 3. **Coach: severe pain.** It now builds with the moderate pain rules and the health warning (G-271, PROPOSED). Is that right?
 4. **02 Football, lateral jump on Tuesday and Friday** (G-298). The library has two two-foot lateral jumps, so the first block holds one on Monday and Thursday only. A third and fourth record would close it.
 5. **12 benchmark plans score slightly below engine 0.6** (by 0.1 to 1.05; G-300 lists why): the high-incline credit (bench 34, 05), the first lift's first step landing on one exposure a week before the other (seven physique and combat plans), 07's dip at 5 next to the bench at 4 in weeks 11-12 (CH6-01: he is fine with it), and athletic share (38, 02, 63).
