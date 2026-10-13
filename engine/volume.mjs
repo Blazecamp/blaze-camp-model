@@ -647,6 +647,14 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     allPairs = Object.freeze(pairs);
   };
   const daySlotsOf = (di) => { syncLists(); return dayLists[di].list; };
+  // (G-311: a slot's place in its day's list - the first place, as indexOf reads it)
+  const posInDay = (di, s) => {
+    syncLists();
+    const c = dayLists[di];
+    if (!c.pos) { c.pos = new Map(); c.list.forEach((x, i) => { if (!c.pos.has(x)) c.pos.set(x, i); }); }
+    const v = c.pos.get(s);
+    return v === undefined ? -1 : v;
+  };
   const allSlots = () => { syncLists(); return allPairs; };
   const kindCache = new Map();
   const kindOf = (slot) => { const b = slot.bucket; let k = kindCache.get(b); if (k === undefined && !kindCache.has(b)) { k = model.bucket(b).kind; kindCache.set(b, k); } return k; };
@@ -784,6 +792,16 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   }; // the sets at the end of the block's first week: a lead lift above them has taken its first step (G-291)
   const heavyHinge = (slot, di) => !!HH && !hingeOff.has(slot.slot_id) && (HH.families || []).includes(layout.family) && isMainDi(di) && slot.origin !== 'bonus' && !isCircuitSlot(slot) &&
     slot.role === HH.role && slot.bucket === HH.bucket && !!fills[slot.slot_id] && (fills[slot.slot_id].flags || []).includes(HH.flag);
+  // (G-311: how many exercises of a group hold a pick and are not switched off - kept per state: sets, picks and lists by stateVer,
+  // owners by ownerVer)
+  let gpcMemo = null;
+  const groupPickCount = (g0) => {
+    const all = allSlots();
+    if (!gpcMemo || gpcMemo.ver !== stateVer || gpcMemo.over !== ownerVer) gpcMemo = { ver: stateVer, over: ownerVer, m: new Map() };
+    let v = gpcMemo.m.get(g0);
+    if (v === undefined) { v = all.filter(([s2]) => owner[s2.slot_id] === g0 && hasPick(s2) && sets[s2.slot_id] !== 0).length; gpcMemo.m.set(g0, v); }
+    return v;
+  };
   const boundsOf = (slot, di) => {
     const b0 = boundsOf0(slot, di);
     const b = HH && heavyHinge(slot, di) ? [Math.max(b0[0], Math.min(maxEx, HH.start_sets)), Math.max(b0[1], Math.min(maxEx, HH.start_sets))] : b0;
@@ -796,7 +814,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     if (AP && (AP.families || []).includes(layout.family) && isNum(AP.max) && !apFocusFree) {
       // (only while the group keeps other exercises to carry its sets: a pitcher's one chest press is not held under the floor)
       const g0 = owner[slot.slot_id];
-      const many = !!g0 && allSlots().filter(([s2]) => owner[s2.slot_id] === g0 && hasPick(s2) && sets[s2.slot_id] !== 0).length >= (AP.min_group_exercises || 0);
+      const many = !!g0 && groupPickCount(g0) >= (AP.min_group_exercises || 0);
       const apHeld = (s2) => { const e2 = exOf(model, fills[s2.slot_id]); return !!e2 && (AP.credit_classes || []).includes(e2.credit_class) && !(e2.tags || []).some(t => (AP.not_tags || []).includes(t)); };
       if (many && apHeld(slot)) hi = Math.min(hi, AP.max);
       // v0.6 G-209 (VOL-07 'add it to the first exercise on the list ... 4, 3, 3'; rules.placement.order_rule first_below_first; review
@@ -1046,7 +1064,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     blockedByBalance = false;
     // (the floor of 10 is the higher rule: an isolation exercise takes its 4th set before a trained group sits under the floor)
     const isoRelax = (s, di) => (opts.forFloor && PX.iso_main_day_max && kindOf(s) === 'isolation' && isMainDi(di) && s.bucket !== 'ISO_CALF' && !isCircuitSlot(s) && s.origin !== 'bonus' ? Math.min(maxEx, PX.iso_main_day_max.hardest) : 0);
-    let cands = slotsOfGroup(g).map(([s, di]) => ({ s, di, n: sets[s.slot_id] || 0, max: Math.max(boundsOf(s, di)[1], isoRelax(s, di)), opt: isMainDi(di) ? 0 : 1, pos: daySlotsOf(di).indexOf(s) }))
+    let cands = slotsOfGroup(g).map(([s, di]) => ({ s, di, n: sets[s.slot_id] || 0, max: Math.max(boundsOf(s, di)[1], isoRelax(s, di)), opt: isMainDi(di) ? 0 : 1, pos: posInDay(di, s) }))
       .filter(c => active(c.s) && c.n + 1 <= c.max && !(opts.mainOnly && c.opt) && !(opts.pullOnly && !isPull(c.s)) && !(opts.muscle && !(((crOf(c.s) || {})[opts.muscle] || 0) >= 1 - EPS)));
     // (the group's final sets are still reached, CX-01: with no other exercise left the tested lift takes the set)
     if (stepWeek && PX.test_week_no_step_on_tested && testedSlots.size && !(PX2.order && PX2.order.lead_first)) { const rest = cands.filter(c => !testedSlots.has(c.s.slot_id)); if (rest.length) cands = rest; }
@@ -1152,7 +1170,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       // first exposure steps first; the twin that holds fewer sets goes next (the fewest-first order above), so they alternate
       // (read on the two days' template lifts of the group: the day whose lifts hold fewer sets on average steps first - the exposures
       // alternate, R3-VOL-03 - and at the same sets the first exposure of the day type goes first)
-      const dayAvg = memoDi((di) => { const v = daySlotsOf(di).filter(s2 => owner[s2.slot_id] === g && active(s2) && !isGroupBonus(s2)).map(s2 => sets[s2.slot_id]); return v.length ? v.reduce((x, y) => x + y, 0) / v.length : 0; });
+      const dayAvg = memoDi((di) => { const list = daySlotsOf(di); let sum = 0, k = 0; for (let i = 0; i < list.length; i++) { const s2 = list[i]; if (owner[s2.slot_id] === g && active(s2) && !isGroupBonus(s2)) { sum = sum + sets[s2.slot_id]; k++; } } return k ? sum / k : 0; });
       const kExp = (a, b) => {
         if (!(BL && BL.first_exposure_first && twinDays(a.di, b.di))) return 0;
         const d = dayAvg(a.di) - dayAvg(b.di);

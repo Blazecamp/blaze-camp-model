@@ -281,13 +281,23 @@ const FORBIDDEN = /^(sex|gender|sleep|stress|recovery|job|hard_job_or_other_spor
 /** dotted paths of keys that must never appear (H13, H16) @param {*} obj @returns {string[]} */
 export function forbiddenKeys(obj, prefix = '') {
   const out = [];
+  forbiddenWalk(obj, prefix, [], out);
+  return out;
+}
+// (engine 0.7.1, G-311: one accumulator and the path built only for a key that matches - the same paths in the same order)
+function forbiddenPath(prefix, segs) {
+  let p = prefix;
+  for (const sg of segs) p = typeof sg === 'number' ? `${p}[${sg}]` : (p ? `${p}.${sg}` : sg);
+  return p;
+}
+function forbiddenWalk(obj, prefix, segs, out) {
   if (obj && typeof obj === 'object') {
-    if (Array.isArray(obj)) obj.forEach((v, i) => out.push(...forbiddenKeys(v, `${prefix}[${i}]`)));
+    if (Array.isArray(obj)) obj.forEach((v, i) => { segs.push(i); forbiddenWalk(v, prefix, segs, out); segs.pop(); });
     else for (const k of Object.keys(obj)) {
-      const p = prefix ? `${prefix}.${k}` : k;
-      if (FORBIDDEN.test(k)) out.push(p);
-      out.push(...forbiddenKeys(obj[k], p));
+      segs.push(k);
+      if (FORBIDDEN.test(k)) out.push(forbiddenPath(prefix, segs));
+      forbiddenWalk(obj[k], prefix, segs, out);
+      segs.pop();
     }
   }
-  return out;
 }
