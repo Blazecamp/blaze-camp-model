@@ -50,4 +50,8 @@
 // 0.7.0 (work package "safety gate, printed words, public files", coach_answers_round5.md): a health-check flag no longer stops the plan
 //   - the plan is built and prints a health warning in English and Spanish (R5-GEN-02; severe pain built with the moderate pain rules,
 //   PROPOSED); the core block printed as optional and adjustable (R5-GRD-06) (tools/fixture/v07-words.mjs; DECISIONS G-270 ... G-289).
+// 0.7.0 (fix round on the round-9 coach-eye reviews): the first press takes the group's first added set and a dip waits behind it (VOL-07),
+//   the class's own WODs vary week to week with the Girl and the Hero on training days and small muscles at 10-12 (R5-GRD-04, R5-CLS-05),
+//   normal core with a weekly rotational drill without low-back pain (R5-ATH-08), the test week's lighter athletic work said, the cutting
+//   sport's lateral jump, a weekly light overhead press for incline-first plans (R5-ATH-04) (DECISIONS G-291 ... G-299).
 export const ENGINE_VERSION = '0.7.0';

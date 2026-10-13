@@ -258,6 +258,37 @@ function capToHintMenu(range, ex, R, opts, HX) {
 }
 
 /** WOD movement group of a station (reps table key) */
+/**
+ * v0.7 G-293 (COACH-R5 R5-GRD-04 'keep it varied'): the stations of week `wk` (0-based) of a class WOD. The base stations hold their
+ * places; each week `swap_stations` places (moving through the WOD) take the next movements of the day's pool, so two weeks in a row
+ * never run the same stations; a station of a different movement group than the WOD already holds is taken first, and a pulling
+ * station (rules.conditioning.wod.x1.pull_re) is replaced by a pulling movement when the pool holds one.
+ */
+function variedStations(base, pool, n, wk, VY, W, model) {
+  const st = base.slice(0, n);
+  if (!pool.length || wk <= 0 || !st.length) return st;
+  const ex = (id) => (model.hasEx(id) ? model.ex(id) : null);
+  const pullRe = W.x1 && W.x1.pull_re ? new RegExp(W.x1.pull_re) : null;
+  const isPull = (id) => !!pullRe && pullRe.test(id);
+  const grp = (id) => { const e = ex(id); return e ? (isPull(id) ? 'pull' : wodGroupOf(e)) : id; };
+  const k = Math.min(VY.swap_stations || 2, st.length);
+  const out = st.slice();
+  let cursor = (wk * k) % pool.length;
+  for (let j = 0; j < k; j++) {
+    const at = (wk * k + j) % out.length;
+    const want = isPull(out[at]) ? 'pull' : null;
+    const holds = new Set(out.filter((_, i) => i !== at).map(grp));
+    let pick = null;
+    for (let t = 0; t < pool.length && !pick; t++) {
+      const id = pool[(cursor + t) % pool.length];
+      if (out.includes(id)) continue;
+      if (want ? grp(id) === 'pull' : grp(id) !== 'pull' && !holds.has(grp(id))) { pick = id; cursor = (cursor + t + 1) % pool.length; }
+    }
+    if (pick) out[at] = pick;
+  }
+  return out;
+}
+
 function wodGroupOf(ex) {
   if (ex.tags.includes('kb_swing')) return 'swing';
   if (ex.tags.includes('thruster')) return 'thruster';
@@ -521,6 +552,14 @@ function resistanceDose(input, rc, eb) {
     whys.push(why('why.reps_matrix', 'VOL-11'));
   }
   if (!bracket) bracket = 'b8_12';
+  // v0.7 G-294 (COACH-R5 R5-CLS-05 'Small muscles at 10-12 reps, not 15-20'; OBSERVED class RESISTANCE 2-3 x 10; review r9 04 M2): a class
+  // member's isolation work (arms, shoulders, calves; the fly and the leg curl with them) runs rules.reps.x7.class_small_reps.bracket
+  const CSR = R.reps.x7 && R.reps.x7.class_small_reps && R.reps.x7.class_small_reps.enabled ? R.reps.x7.class_small_reps : null;
+  if (CSR && fixedReps === null && (CSR.families || []).includes(derived.D1_family) && (CSR.rep_classes || []).includes(rc) && R.reps.brackets[CSR.bracket]) {
+    bracket = CSR.bracket;
+    maxLast = false;
+    whys.push(why('why.class_small_reps', 'R5-CLS-05'));
+  }
   const perSide = isUni(ex);
   let heavyChoice = false;   // the client's own 'heavy single-leg' switch or heavy lifting style moved this lift's reps down
   // heavy single-leg toggle (UNI-04)
@@ -1257,10 +1296,15 @@ export function doseConditioning(slot, fill, weekShape, derived, model, input) {
     // v0.5 (CT-01): the WOD keeps its own range - it is never shortened or held for the session's time
     const range = wodOnly ? W.wod_only_day_minutes : W.minutes;
     let m = roundHalfUp(range[0] + (range[1] - range[0]) * p);
-    const format = W.formats[(slot.day_index || 0) % W.formats.length];
+    // v0.7 G-293 (COACH-R5 R5-GRD-04 'keep it varied'; rules.conditioning.v7.vary): a class WOD moves one format step a week and changes
+    // `swap_stations` of its stations from the day's pool (a pulling station stays a pulling station)
+    const VY = R.conditioning.v7 && R.conditioning.v7.vary;
+    const vary = !!(VY && VY.enabled && (VY.families || []).includes(derived.D1_family) && typeof week.n === 'number');
+    const wk = vary ? week.n - 1 : 0;
+    const format = W.formats[((slot.day_index || 0) + (vary && VY.rotate_format ? wk : 0)) % W.formats.length];
     const all = ((fill && fill.stations) || [fill && fill.exercise_id]).filter(Boolean);
     const n = m < 15 ? W.stations[0] : W.stations[1];
-    const stations = all.slice(0, n);
+    const stations = vary ? variedStations(all, (fill && fill.wod_pool) || [], n, wk, VY, W, model) : all.slice(0, n);
     // v0.4 fix round 2 / F2 (E-173; COACH-R3 R3-VOL-04 / R3-SES-02 step 4 'the stairway climbs'; OBSERVED CrossFit tab: WOD levels ramp
     // inside every block; RECHECK v0.4 04 major: the four main-day WODs ran the same 10 minutes, stations and reps for 8 weeks, and the
     // EMOM lengths 21 / 22 / 23 / 25 / 27 did not divide by its 4 stations): a WOD climbs by its work - an EMOM runs whole rounds of

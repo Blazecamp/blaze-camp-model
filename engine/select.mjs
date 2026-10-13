@@ -456,6 +456,29 @@ function lowBackClient(E) {
   return hot;
 }
 
+/** v0.7 G-295 (COACH-R5 R5-ATH-08): is the weekly rotational core drill on for this client? (no reported low-back pain; the sport's
+ *  core is at least rules.selection.v7.core_rotation.min_transverse_pct transverse) */
+function coreRotationOn(E) {
+  const CR = E.V7 && E.V7.core_rotation;
+  if (!CR || !CR.enabled || E.painAreas.includes('lower_back') || lowBackClient(E)) return false;
+  const pp = E.sport && E.sport.core_rules && E.sport.core_rules.plane_pct;
+  return !!pp && (pp.transverse || 0) >= (CR.min_transverse_pct || 0);
+}
+
+/** a moving rotational core drill: one of the rule's picks, or a live transverse-plane drill that is not a hold / anti-movement drill */
+function rotationalCore(ex, E) {
+  const CR = E.V7 && E.V7.core_rotation;
+  return !!CR && ((CR.ids || []).includes(ex.id) || (ex.plane === 'transverse' && !antiCore(ex) && ex.status === 'live_library_selectable'));
+}
+
+/** does the week (every day picked so far) hold its rotational drill(s)? */
+function weekHasRotation(st, E) {
+  const CR = E.V7.core_rotation;
+  let n = 0;
+  for (const picks of st.dayPicks.values()) for (const x of picks) if (x.ex && x.kind === 'core' && rotationalCore(x.ex, E)) n++;
+  return n >= (CR.per_week || 1);
+}
+
 /** anti-movement / hold core record (plank, dead bug, Pallof, hollow / streamline hold, side plank, carries; not the Copenhagen plank -
  *  an adductor exercise with a long lever) */
 function antiCore(ex) { return !/copenhagen/.test(ex.id) && (ANTI_CORE_RE.test(ex.id) || /hold|plank|carry/.test(ex.id)); }
@@ -1722,6 +1745,9 @@ function f3Score(ex, slot, eb, E, st, day, bk, wd, reasons) {
       if (antiCore(ex)) s += S6C.hotspot_anti_bonus || 0;
       if (S6C.hotspot_flexion_re && new RegExp(S6C.hotspot_flexion_re).test(ex.id)) s += S6C.hotspot_flexion || 0;
     }
+    // v0.7 G-295 (COACH-R5 R5-ATH-08 'otherwise normal core, including rotation'; rules.selection.v7.core_rotation): one moving
+    // rotational drill a week for a client without low-back pain whose sport's core is at least min_transverse_pct transverse
+    if (coreRotationOn(E) && rotationalCore(ex, E) && !weekHasRotation(st, E)) { s += E.V7.core_rotation.bonus || 0; reasons.push(why('why.core_rotation', 'R5-ATH-08')); }
     const HC = F3.hanging_core;
     if (HC && day && new RegExp(HC.re).test(ex.id)) {
       const ds = daySlots(day);
@@ -2380,8 +2406,12 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   const SKR = R.selection.x2 && R.selection.x2.small_kit_rows;
   const smallKitRow = (c) => !!SKR && !!E.smallKitRows && (SKR.ids || []).includes(c.ex.id);
   // (v0.6, G-131: a low-back hot spot without pain may still take the two reference floor drills of the low-back opener)
-  const lbHotCore = !lowBackCore && !!CLB && bk === 'core' && !!(R.selection.s6 && R.selection.s6.core) && (CLB.hotspots || []).some((h) => E.injuries.has(h));
-  const pickOk = (c) => (/^AP_/.test(eb) && pickOkIds.has(c.ex.id)) || ((lowBackCore || lbHotCore) && lowBackOk(c)) || hangPick(c) || (eb === 'RP_HPULL' && smallKitRow(c));
+  // (v0.7 G-295, COACH-R5 R5-ATH-08 'otherwise normal core, including rotation': rules.selection.s6.core.hotspot_reference_drills false
+  // retires that allowance)
+  const lbHotCore = !lowBackCore && !!CLB && bk === 'core' && !!(R.selection.s6 && R.selection.s6.core) && R.selection.s6.core.hotspot_reference_drills !== false && (CLB.hotspots || []).some((h) => E.injuries.has(h));
+  // (v0.7 G-295: the weekly rotational drill may be one of the coach's program drills the rule names)
+  const rotOk = (c) => bk === 'core' && coreRotationOn(E) && (E.V7.core_rotation.ids || []).includes(c.ex.id);
+  const pickOk = (c) => (/^AP_/.test(eb) && pickOkIds.has(c.ex.id)) || ((lowBackCore || lbHotCore) && lowBackOk(c)) || rotOk(c) || hangPick(c) || (eb === 'RP_HPULL' && smallKitRow(c));
   // F3 (CAT-05; RECHECK 05 major): an above-ladder pick that is high-skill (or any above-ladder pick in a timed circuit) is a fallback only
   const LH = E.F3 && E.F3.level_hard;
   const levelHardOn = !!LH && ['resistance', 'isolation', 'focus'].includes(bk);
@@ -2398,7 +2428,8 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     if (CPX && bk === 'core') {
       const lvN = { L1: 1, L2: 2, L3: 3 };
       const weakCore = (c) => (CPX.never_tags || []).some((t) => c.ex.tags.includes(t)) ||
-        (CPX.in_level_first && E.ladderOrder.indexOf(c.ex.level) > E.ladderOrder.indexOf(E.ladder) && !(CPX.in_level_exempt_ids || []).includes(c.ex.id)) ||
+        (CPX.in_level_first && E.ladderOrder.indexOf(c.ex.level) > E.ladderOrder.indexOf(E.ladder) && !(CPX.in_level_exempt_ids || []).includes(c.ex.id) &&
+          !(rotOk(c) && (E.V7.core_rotation.level_exempt_ids || []).includes(c.ex.id))) ||
         (!!(CPX.min_level_ids || {})[c.ex.id] && (lvN[E.lvl] || 1) < (lvN[CPX.min_level_ids[c.ex.id]] || 1));
       const strong = allowed0.filter((c) => !weakCore(c) && (!swapOnly.includes(c.ex.status) || pickOk(c)));
       if (strong.length) allowed0 = strong;
@@ -2632,12 +2663,23 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
       const hist = new Set([...(E.history[slot.slot_id] || []), ...(opts.prevWeekIds || [])]);
       const isoOf = (e) => !!((e.rep_hint && e.rep_hint.unit === 'seconds') || /(plank|hold|hollow|dead-hang|wall-sit|isometric)/.test(e.id));
       const prevC = res.ranked.find((c) => c.ex.id === opts.prevId);
-      const cands = pickable(res.ranked.filter((c) => !usedDayNow.has(c.ex.id)), { all: true }).filter((c) => c.ex.id !== opts.prevId &&
-        corePlaneOf(c.ex) === corePlaneOf(prevEx) && antiCore(c.ex) === antiCore(prevEx) && isoOf(c.ex) === isoOf(prevEx) && !weekIds.has(c.ex.id) && !hist.has(c.ex.id) &&
-        lvRank(c.ex.level) <= Math.max(lvRank(prevEx.level), lvRank(E.ladder)) && (!prevC || c.score >= prevC.score - 3 - EPS) &&
+      // (v0.7 G-295: the week's rotational drill changes to another rotational drill - its weekly bonus is not weighed against it)
+      const rotPrev = coreRotationOn(E) && rotationalCore(prevEx, E);
+      const slack = (c) => 3 + (rotPrev && rotationalCore(c.ex, E) ? (E.V7.core_rotation.bonus || 0) : 0);
+      const lvlOk = (c) => lvRank(c.ex.level) <= Math.max(lvRank(prevEx.level), lvRank(E.ladder)) || (rotPrev && (E.V7.core_rotation.level_exempt_ids || []).includes(c.ex.id));
+      const base = pickable(res.ranked.filter((c) => !usedDayNow.has(c.ex.id)), { all: true }).filter((c) => c.ex.id !== opts.prevId &&
+        !weekIds.has(c.ex.id) && !hist.has(c.ex.id) &&
+        lvlOk(c) && (!prevC || c.score >= prevC.score - slack(c) - EPS) &&
         !(st.dayPicks.get(wd) || []).some((x) => x.ex && ((familyOf(x.ex, E) && familyOf(x.ex, E) === familyOf(c.ex, E)) || nearDuplicate(x.ex, c.ex, R))) &&
         !(opts.dayKeepIds || []).some((id) => model.hasEx(id) && (nearDuplicate(model.ex(id), c.ex, R) || (familyOf(model.ex(id), E) && familyOf(model.ex(id), E) === familyOf(c.ex, E)))));
+      const cands = base.filter((c) => corePlaneOf(c.ex) === corePlaneOf(prevEx) && antiCore(c.ex) === antiCore(prevEx) && isoOf(c.ex) === isoOf(prevEx));
       alt = cands[0] || null;
+      // v0.7 G-296 (PER-02 'one or two small changes a block'; G-131; review r9 08 M1 / 02 m14: the core never changed in 12 weeks - no
+      // hold of the same plane and kind was left): the change keeps the plane and the kind (a hold-type or a moving anti-movement drill,
+      // or a moving one), then the plane alone (rules.selection.s6.core.block_change_relax)
+      const RLX = R.selection.s6 && R.selection.s6.core && R.selection.s6.core.block_change_relax;
+      if (rotPrev) alt = base.find((c) => rotationalCore(c.ex, E)) || alt;
+      if (!alt && RLX) alt = base.find((c) => corePlaneOf(c.ex) === corePlaneOf(prevEx) && antiCore(c.ex) === antiCore(prevEx)) || base.find((c) => corePlaneOf(c.ex) === corePlaneOf(prevEx)) || null;
     } else if (prevEx && BC.one_detail) {
       const dist = (c) => changeDistance(prevEx, c.ex);
       const weekIds = new Set([...st.usedWeek, ...(opts.reserved || []), ...(opts.weekKeep || []), ...E.weekUsed]);
@@ -2948,6 +2990,18 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     for (const e of stations) st.wodEx.set(e.id, (st.wodEx.get(e.id) || 0) + 1);
     { const WX2 = W.x1; if (WX2 && WX2.weekly_must_have_pull && stations.slice(0, W.stations[0]).some((e) => new RegExp(WX2.pull_re).test(e.id))) st.wodPull = true; }
     fill.stations = stations.map((e) => e.id);
+    // v0.7 G-293 (COACH-R5 R5-GRD-04 'keep it varied'; rules.conditioning.v7.vary): the day's further movements, in the same order, for
+    // the week-by-week rotation of the class WOD's stations (engine/dose.mjs doseConditioning)
+    const VY = R.conditioning.v7 && R.conditioning.v7.vary;
+    if (VY && VY.enabled && (VY.families || []).includes(E.family)) {
+      // (one movement per group first - the groups the WOD does not hold, then another exercise of its own groups - so a week never
+      // runs three calorie efforts)
+      const have = new Set(fill.stations), seen = new Map();
+      const rest = order.filter((c) => !have.has(c.ex.id));
+      const first = [], second = [];
+      for (const c of rest) { const g = wg(c.ex); const k = seen.get(g) || 0; if (k >= 1) continue; seen.set(g, k + 1); (groups.has(g) ? second : first).push(c.ex.id); }
+      fill.wod_pool = [...first, ...second].slice(0, VY.pool_size || 8);
+    }
   } else {
     let others = res.ranked.filter((c) => c.ex.id !== ex.id);
     // B3 (RECHECK 08 minor: a beginner's ankle hops offered intermediate single-leg plate hops): swaps at or below the client's

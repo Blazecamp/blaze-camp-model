@@ -64,7 +64,17 @@ export function amendRulesV07(rules) {
     // number the template's lifts, every one at its top that week, cannot hold - not before. The exercise is chosen with its exercise
     // block (PER-02) and waits at 0 sets until that week.
     bonus_open_week: { enabled: true, refs: ['VOL-07', 'CH5-03', 'R3-VOL-03', 'R4-PRG-01'], status: 'PROPOSED reading (round-8 coach-eye minor 01 m2 / 06 m1)' },
-    refs: ['R5-VOL-07', 'R5-VOL-09', 'R5-VOL-11', 'R5-ATH-12'],
+    // G-291 (VOL-07 '... I add it to the first exercise on the list'; R3-VOL-03; round-9 coach-eye review 07 M1: after R5-VOL-01 made the
+    // high-incline press a chest lift, both push days' first press held 3 sets for 12 weeks while the chest steps went to slots 2-5 and
+    // the dips climbed to 5 - the version he graded A had the benches 3 -> 4): in a training block, the first lift of a group on a
+    // training day takes the group's first added set on that day (when it has room and is not tested that week); the fewest-first
+    // staircase places the rest
+    lead_first_step: { enabled: true, refs: ['VOL-07', 'R3-VOL-03', 'R5-VOL-01'], status: 'approved rule (VOL-07); per training block and day PROPOSED reading (review r9 07 M1)' },
+    // G-292 (VOL-07; round-9 review 07 M1 'a dip (0.5 chest) never out-sets slot 1'): a later lift of a training day that credits a group
+    // with at least `min_credit` (the dip's half chest set, LIB-16) never holds more sets than that day's first lift of the group; its
+    // own group's steps go to that group's other lifts first. R5-VOL-01's credits are unchanged.
+    later_not_above_lead: { enabled: true, min_credit: 0.5, refs: ['VOL-07', 'LIB-16', 'R5-VOL-01'], status: 'approved rule (VOL-07); the half-credit reading PROPOSED (review r9 07 M1)' },
+    refs: ['R5-VOL-07', 'R5-VOL-09', 'R5-VOL-11', 'R5-ATH-12', 'VOL-07'],
     status: 'engine 0.7 volume package (coach answers round 5); approved answers, the readings named per key'
   };
 
@@ -103,6 +113,17 @@ export function amendRulesV07(rules) {
     rounds_by_third: { rounds: [3, 4, 5], warning_key: 'warning.circuit_rounds_thirds', floor_key: 'warning.circuit_rounds_floor', over_top_key: 'warning.circuit_over_top_rounds', refs: ['R5-CLS-03', 'PRG-03', 'CX-04'], status: 'approved (COACH-R5 R5-CLS-03)' }
   };
 
+  // ---- reps (engine/dose.mjs resistanceDose)
+  // G-294 (COACH-R5 R5-CLS-05 "That's right": '... Small muscles at 10-12 reps, not 15-20'; OBSERVED class RESISTANCE '2-3 x 10'; review
+  // r9 04 M2): a CrossFit-style class member's isolation work runs 10-12 reps. The small muscles (arms, side / rear delts, calves) are
+  // the coach's words; the class's fly and leg curl go with them (PROPOSED: the class sheet's resistance is 10 reps throughout)
+  R.reps.x7 = {
+    class_small_reps: { enabled: true, families: ['hybrid_crossfit'], rep_classes: ['small_muscle_isolation', 'rear_delts', 'calves', 'big_muscle_isolation'], bracket: 'b10_12',
+      refs: ['R5-CLS-05', 'OT18'], status: 'approved (COACH-R5 R5-CLS-05) for the small muscles; the big-muscle isolation (fly, leg curl) PROPOSED' },
+    refs: ['R5-CLS-05'],
+    status: 'engine 0.7 fix round (round-9 coach-eye reviews)'
+  };
+
   // ---- validation: V13 reads the stated racket-calf day (R5-VOL-10)
   if (R.validation && R.validation.v05) R.validation.v05.size_plus_whys = [...new Set([...(R.validation.v05.size_plus_whys || []), 'why.racket_calf_both_days'])];
   return R;
@@ -120,6 +141,8 @@ export const UI_V07 = {
   'warning.circuit_rounds_floor': ['{group}: weeks 1-{last} run {rounds} rounds a station, so these groups sit under {floor} weekly sets until week {week}, when the rounds go up. Add a round if you want more sooner.', '{group}: las semanas 1-{last} llevan {rounds} rondas por estación, así que estos grupos quedan por debajo de {floor} series semanales hasta la semana {week}, cuando suben las rondas. Agrega una ronda si quieres más antes.'],
   // G-234 (R5-CLS-03, G-110): with the rounds in thirds there is no single 'extra round'; the line names the rounds that keep the group at its top
   'warning.circuit_over_top_rounds': ['{group}: every station runs the same rounds, so this group reaches {held} weekly sets, above its usual top of {top}. If you want to stay at the top, keep its stations at {rounds} rounds when the others do more.', '{group}: todas las estaciones hacen las mismas rondas, así que este grupo llega a {held} series por semana, por encima de su tope habitual de {top}. Si quieres quedarte en el tope, deja sus estaciones en {rounds} rondas cuando las demás hagan más.'],
+  // G-294 (R5-CLS-05)
+  'why.class_small_reps': ['Class member: small-muscle work at 10-12 reps', 'Miembro de la clase: trabajo de músculos pequeños a 10-12 repeticiones'],
   // G-230 (R5-VOL-01): a high-incline press is an upper-chest press now (was 'the shoulder press with some chest')
   'swap.keeps.MRPUSH': ['the upper-chest press', 'el press de pecho superior']
 };

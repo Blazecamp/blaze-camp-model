@@ -204,15 +204,18 @@ export function applyNamedWods(weeks, model, derived, shape) {
         if (typeof slot.d.est_minutes === 'number') slot.d.est_minutes = Math.max(0, roundHalfUp(slot.d.est_minutes + cap - old));
         taken.add(slot);
       };
+      // v0.7 G-293 (R5-GRD-04; review r9 04 m1; rules.conditioning.v7.named_wods.main_days_first): the Girl and the Hero go on a main
+      // training day where one holds a WOD - skipping the optional day never skips them
+      const mainFirst = (list) => { if (!NW.main_days_first) return list; const m = list.filter((s) => s.d.kind === 'main'); return m.length ? m : list; };
       // the Hero workout (once a block): the week's longest WOD
       if (heroAt !== null && k === heroAt && heroes.length) {
-        const longest = slots.slice().sort((a, b) => (b.it.wod.minutes[1] - a.it.wod.minutes[1]) || 0)[0];
+        const longest = mainFirst(slots).slice().sort((a, b) => (b.it.wod.minutes[1] - a.it.wod.minutes[1]) || 0)[0];
         put(longest, next(heroes, 'hero', longest));
       }
       // the Girl workout (once a week): the day rotates through the week's WOD days
       const free = () => slots.filter((s) => !taken.has(s));
       if (girls.length && free().length) {
-        const f = free();
+        const f = mainFirst(free());
         for (let t = 0; t < f.length; t++) { const sl = f[(k - 1 + t) % f.length]; const e = next(girls, 'girl', sl); if (e) { put(sl, e); break; } }
       }
       // a popular benchmark every few weeks (not the Hero's week)

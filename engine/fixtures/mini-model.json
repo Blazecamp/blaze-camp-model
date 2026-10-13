@@ -18,7 +18,7 @@
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2831,
+   "en_keys": 2834,
    "es_missing": 795
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -61111,11 +61111,31 @@
      ],
      "status": "PROPOSED reading (round-8 coach-eye minor 01 m2 / 06 m1)"
     },
+    "lead_first_step": {
+     "enabled": true,
+     "refs": [
+      "VOL-07",
+      "R3-VOL-03",
+      "R5-VOL-01"
+     ],
+     "status": "approved rule (VOL-07); per training block and day PROPOSED reading (review r9 07 M1)"
+    },
+    "later_not_above_lead": {
+     "enabled": true,
+     "min_credit": 0.5,
+     "refs": [
+      "VOL-07",
+      "LIB-16",
+      "R5-VOL-01"
+     ],
+     "status": "approved rule (VOL-07); the half-credit reading PROPOSED (review r9 07 M1)"
+    },
     "refs": [
      "R5-VOL-07",
      "R5-VOL-09",
      "R5-VOL-11",
-     "R5-ATH-12"
+     "R5-ATH-12",
+     "VOL-07"
     ],
     "status": "engine 0.7 volume package (coach answers round 5); approved answers, the readings named per key"
    }
@@ -62611,7 +62631,31 @@
      ],
      "status": "PROPOSED (fix round 2 / F3)"
     }
-   ]
+   ],
+   "x7": {
+    "class_small_reps": {
+     "enabled": true,
+     "families": [
+      "hybrid_crossfit"
+     ],
+     "rep_classes": [
+      "small_muscle_isolation",
+      "rear_delts",
+      "calves",
+      "big_muscle_isolation"
+     ],
+     "bracket": "b10_12",
+     "refs": [
+      "R5-CLS-05",
+      "OT18"
+     ],
+     "status": "approved (COACH-R5 R5-CLS-05) for the small muscles; the big-muscle isolation (fly, leg curl) PROPOSED"
+    },
+    "refs": [
+     "R5-CLS-05"
+    ],
+    "status": "engine 0.7 fix round (round-9 coach-eye reviews)"
+   }
   },
   "effort": {
    "rir_band": [
@@ -66439,7 +66483,23 @@
       "R5-GRD-04",
       "PRG-10"
      ],
-     "status": "approved rule (COACH-R5 R5-GRD-04); PROPOSED: the library (standard CrossFit community prescriptions), the scaling by level, the week a Hero workout falls on (three quarters into the block) and a benchmark every 3 weeks"
+     "status": "approved rule (COACH-R5 R5-GRD-04); PROPOSED: the library (standard CrossFit community prescriptions), the scaling by level, the week a Hero workout falls on (three quarters into the block) and a benchmark every 3 weeks",
+     "main_days_first": true
+    },
+    "vary": {
+     "enabled": true,
+     "families": [
+      "hybrid_crossfit"
+     ],
+     "rotate_format": true,
+     "swap_stations": 2,
+     "pool_size": 8,
+     "refs": [
+      "R5-GRD-04",
+      "R2-LIB-01",
+      "D-20"
+     ],
+     "status": "approved rule (COACH-R5 R5-GRD-04 \"keep it varied\"); PROPOSED: one format step and two stations a week"
     },
     "refs": [
      "R5-GRD-04"
@@ -69242,20 +69302,24 @@
     "core": {
      "low_back_list_only_with_pain": true,
      "hotspot_list_from_age": null,
-     "hotspot_anti_bonus": 2,
-     "hotspot_flexion_re": "weighted|sit-up|crunch|v-up|leg-raise|toes-to-bar|knees-to-chest",
+     "hotspot_anti_bonus": 0,
+     "hotspot_flexion_re": "weighted",
      "hotspot_flexion": -2,
      "transverse_min_pct": 20,
      "transverse_bonus": 4,
      "block_change_per_day": 1,
      "refs": [
-      "R2-SES-03",
-      "PER-02",
       "CAT-08",
-      "R4-SES-05"
+      "PER-02",
+      "R2-SES-03",
+      "R4-SES-05",
+      "R5-ATH-08"
      ],
      "status": "approved rules (R2-SES-03 light opener; PER-02 one change a block); PROPOSED: the weights and the one-core-change-a-day reading",
-     "hotspot_status": "COACH-R5 R5-ATH-08: the low-back list only with reported low-back pain, at any age (the 50+ reading of G-131 is retired)"
+     "hotspot_status": "COACH-R5 R5-ATH-08: the low-back list only with reported low-back pain, at any age (the 50+ reading of G-131 is retired)",
+     "hotspot_reference_drills": true,
+     "block_change_relax": true,
+     "hotspot_lean_status": "COACH-R5 R5-ATH-08 (G-295): no lean for a hot spot without pain; loaded flexion -2 PROPOSED"
     },
     "jumps": {
      "start_stages": [
@@ -69268,7 +69332,7 @@
        "field_court"
       ],
       "cod_sport": true,
-      "bonus": 8
+      "bonus": 12
      },
      "refs": [
       "CAT-10",
@@ -69404,6 +69468,19 @@
      "one_slot_care": {
       "code": "OVERHEAD_HEALTH"
      },
+     "general_care": {
+      "enabled": true,
+      "not_families": [
+       "hybrid_crossfit",
+       "fat_loss_bootcamp",
+       "no_equipment"
+      ],
+      "refs": [
+       "R5-ATH-04",
+       "R4-LIB-03"
+      ],
+      "status": "PROPOSED reading of COACH-R5 R5-ATH-04 for the general population and physique clients (his answer names throwers and volleyball; the reason he gives - health and range of motion - is general)"
+     },
      "refs": [
       "R5-ATH-04",
       "R4-LIB-03",
@@ -69475,12 +69552,34 @@
      ],
      "status": "approved (COACH-R5 R5-GRD-08); PROPOSED: the pain areas that read it (the ones a landing loads)"
     },
+    "core_rotation": {
+     "enabled": true,
+     "min_transverse_pct": 30,
+     "per_week": 1,
+     "bonus": 6,
+     "ids": [
+      "bicycle-crunch",
+      "cable-woodchopper-cable-chop",
+      "russian-twist"
+     ],
+     "level_exempt_ids": [
+      "cable-woodchopper-cable-chop"
+     ],
+     "refs": [
+      "R5-ATH-08",
+      "R5-LIB-02",
+      "E-184",
+      "CAT-08"
+     ],
+     "status": "approved (COACH-R5 R5-ATH-08 \"normal core, including rotation\"); PROPOSED: one rotational drill a week from a 30 % transverse share, the picks and the weight"
+    },
     "refs": [
      "R5-GEN-01",
      "R5-ATH-04",
      "R5-GRD-03",
      "R5-GRD-08",
-     "R5-ATH-10"
+     "R5-ATH-10",
+     "R5-ATH-08"
     ],
     "status": "engine 0.7 selection package (coach answers round 5)"
    }
@@ -160052,6 +160151,7 @@
    "ui.plan.ankle_contacts": "{n} ankle-hop contacts",
    "ui.plan.at_a_glance": "Your plan at a glance",
    "ui.plan.athletic_budget": "Athletic work this week",
+   "ui.plan.athletic_test_lighter": "Test week: jumps, throws and sprints are lighter so you test fresh.",
    "ui.plan.before_you_start": "Before you start",
    "ui.plan.block": "Block {n}",
    "ui.plan.block_toggle_hint": "You can switch off today's {blocks} block",
@@ -160361,6 +160461,7 @@
    "why.circuit_stairway": "Circuit stairway: work time grows {from} -> {to} s",
    "why.circuit_stand_in": "No machine for this station in your kit: a library lift for the same muscle takes its place",
    "why.class_level": "Class strength / power table (HALF TIME): the level climbs week by week",
+   "why.class_small_reps": "Class member: small-muscle work at 10-12 reps",
    "why.clean_day": "Clean family on the squat day",
    "why.constraint_band": "More constrained option for safer volume",
    "why.continuity": "Same exercise through the block",
@@ -160368,6 +160469,7 @@
    "why.core_first": "Core first: it warms you up",
    "why.core_low_back": "Core opener for your low back: anti-extension and anti-rotation first",
    "why.core_moved": "Core moved where you asked",
+   "why.core_rotation": "Normal core includes rotation: one rotational drill a week (no low-back pain reported)",
    "why.default_pick": "Coach's library default for this slot",
    "why.delt_variant": "Shoulders are one group (front, side and rear delts): this station trains the part your plan needs",
    "why.detail_variation": "New exercise block: one detail changed ({axis})",
@@ -162095,6 +162197,7 @@
    "ui.plan.ankle_contacts": "{n} contactos de saltos de tobillo",
    "ui.plan.at_a_glance": "Tu plan de un vistazo",
    "ui.plan.athletic_budget": "Trabajo atlético esta semana",
+   "ui.plan.athletic_test_lighter": "Semana de pruebas: los saltos, lanzamientos y sprints son más ligeros para que hagas las pruebas descansado.",
    "ui.plan.before_you_start": "Antes de empezar",
    "ui.plan.block": "Bloque {n}",
    "ui.plan.block_toggle_hint": "Puedes desactivar el bloque de {blocks} de hoy",
@@ -162404,6 +162507,7 @@
    "why.circuit_stairway": "Escalera del circuito: el tiempo de trabajo sube {from} -> {to} s",
    "why.circuit_stand_in": "Sin máquina para esta estación en tu equipo: un ejercicio de la biblioteca para el mismo músculo toma su lugar",
    "why.class_level": "Tabla de fuerza / potencia de la clase (HALF TIME): el nivel sube semana a semana",
+   "why.class_small_reps": "Miembro de la clase: trabajo de músculos pequeños a 10-12 repeticiones",
    "why.clean_day": "Familia de cargadas en el día de sentadilla",
    "why.constraint_band": "Opción más guiada para un volumen más seguro",
    "why.continuity": "Mismo ejercicio durante el bloque",
@@ -162411,6 +162515,7 @@
    "why.core_first": "Core primero: te sirve de calentamiento",
    "why.core_low_back": "Core inicial para tu zona lumbar: primero anti-extensión y anti-rotación",
    "why.core_moved": "Core movido donde lo pediste",
+   "why.core_rotation": "El core normal incluye rotación: un ejercicio de rotación por semana (sin dolor lumbar reportado)",
    "why.default_pick": "Opción por defecto de la biblioteca del coach",
    "why.delt_variant": "Los hombros son un grupo (deltoides anterior, lateral y posterior): esta estación entrena la parte que tu plan necesita",
    "why.detail_variation": "Nuevo bloque de ejercicios: cambió un detalle ({axis})",

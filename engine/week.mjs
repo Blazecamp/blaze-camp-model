@@ -1659,7 +1659,14 @@ function addPrehab(days, ctx) {
     const pid = (derived.D2_profile && derived.D2_profile.id) || '';
     const athlete = new RegExp(IOv.profile_re).test(pid) || (IOv.keep_overhead_hotspot_codes || []).some((c) => injuries.includes(c));
     const vSlots = days.filter((d) => d.kind === 'main').flatMap((d) => d._slots.filter((x) => x.bucket === 'RP_VPUSH' && !x.circuit && x.origin === 'template'));
-    if (athlete && vSlots.length === 1) {
+    // v0.7 G-299 (COACH-R5 R5-ATH-04 'overhead pressing should be included for health' read as general; R4-LIB-03 incline first for
+    // bodybuilders and the general population): an incline-first physique / general-population client (rules.selection.incline_first)
+    // whose week holds a vertical / mid-range push slot does the same one light overhead press a week as joint care - the slots keep
+    // their incline presses and no group's sets move (rules.selection.v7.incline_overhead.general_care)
+    const IFg = R.selection.incline_first, GC = IOv.general_care;
+    const competitive = !!(derived.D2_profile && derived.D2_profile.competitive === 'competitive');
+    const general = !!GC && GC.enabled && !!IFg && (IFg.goals || []).includes(derived.goal) && !(IFg.not_competitive && competitive) && !(GC.not_families || []).includes(derived.D1_family);
+    if ((athlete && vSlots.length === 1) || (!athlete && general && vSlots.length >= 1)) {
       const r = R.prehab.by_injury_code[OHc.code];
       entries.push({ code: OHc.code, bucket: r.bucket, per_week: r.per_week, days: r.days, sets: r.sets, each: false });
     }

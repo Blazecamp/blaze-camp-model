@@ -1465,7 +1465,16 @@ function athleticLine(plan, w, model, o) {
   const share = typeof a.planned_share === 'number' ? a.planned_share : (work > 0 ? (p.plyo_contacts || 0) / work : null);
   if (athleteWords && work > 0 && typeof a.plyo_share === 'number' && share !== null) parts.push(t('ui.plan.plyo_share', { pct: Math.round(100 * share) }));
   if (athleteWords && a.stage) parts.push(t('plyo.stage.' + a.stage));
-  return parts.length ? '**' + t('ui.plan.athletic_budget') + ':** ' + parts.join(DOT) : '';
+  // v0.7 G-297 (R5-ATH-02; R2-PER-07; review r9 02 m2): a test week whose jumps, throws and sprints are lighter than the week before
+  // says why, in one line
+  let tail = '';
+  const prev = w.test && has(model, 'ui.plan.athletic_test_lighter') ? (plan.weeks || []).find(x => x.n === w.n - 1) : null;
+  const pp = prev && prev.athletic_budget && prev.athletic_budget.planned;
+  if (pp) {
+    const tot = (q) => (q.plyo_contacts || 0) + (q.jump_contacts || 0) + (q.low_contacts || 0) + (q.throws || 0) + (q.sprint_m || 0) + (q.cod_cuts || 0);
+    if (tot(p) < tot(pp)) tail = ' ' + t('ui.plan.athletic_test_lighter');
+  }
+  return parts.length ? '**' + t('ui.plan.athletic_budget') + ':** ' + parts.join(DOT) + tail : '';
 }
 
 /**

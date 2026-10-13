@@ -85,6 +85,8 @@ export function amendRulesW7(rules) {
 
 /** v0.7 words: key -> [EN, ES]. Every key wins over the earlier layers. */
 export const UI_W7 = {
+  // G-297 (R5-ATH-02 'reach the block's final number'; R2-PER-07; review r9 02 m2): a test week whose athletic work is lighter says why
+  'ui.plan.athletic_test_lighter': ['Test week: jumps, throws and sprints are lighter so you test fresh.', 'Semana de pruebas: los saltos, lanzamientos y sprints son más ligeros para que hagas las pruebas descansado.'],
   // ---- R5-GEN-02: the health warning ([LEGAL REVIEW]: the attorney review of the wording is deferred, not a blocker)
   'warning.health_flag': ['Health check: you answered yes to at least one question. This plan was built anyway; read the warning at the top of the plan. [LEGAL REVIEW]', 'Revisión de salud: respondiste que sí a al menos una pregunta. Este plan se creó de todos modos; lee la advertencia al inicio del plan. [REVISIÓN LEGAL]'],
   'ui.plan.health_warning_label': ['Health warning.', 'Advertencia de salud.'],

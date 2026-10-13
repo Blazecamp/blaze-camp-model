@@ -244,6 +244,10 @@ export function amendRulesV07(rules) {
       // a week with ONE vertical / mid-range push slot keeps its incline press and does a light overhead press once a week as joint care
       // (rules.prehab.by_injury_code[code]; no muscle-set credit - G-252)
       one_slot_care: { code: 'OVERHEAD_HEALTH' },
+      // G-299 (R5-ATH-04 "overhead pressing should be included for health", read as general): an incline-first physique or general-
+      // population client (rules.selection.incline_first) keeps the same weekly light overhead press as joint care (PROPOSED reading)
+      general_care: { enabled: true, not_families: ['hybrid_crossfit', 'fat_loss_bootcamp', 'no_equipment'], refs: ['R5-ATH-04', 'R4-LIB-03'],
+        status: 'PROPOSED reading of COACH-R5 R5-ATH-04 for the general population and physique clients (his answer names throwers and volleyball; the reason he gives - health and range of motion - is general)' },
       refs: ['R5-ATH-04', 'R4-LIB-03', 'R3-ATH-01'],
       status: 'approved (COACH-R5 R5-ATH-04 "we bias incline pressing for strength, but overhead pressing should be included for health"); PROPOSED: one overhead press a week (the last vertical-push slot of the week; with one such slot a week, the last exercise block of the training block) and the profiles read as throwers and volleyball'
     },
@@ -285,7 +289,16 @@ export function amendRulesV07(rules) {
     // R5-GRD-08: 'warn against plyos if pain is more than a 6 on a scale 1-10 (10 being you need a hospital)'
     jump_pain_warning: { pain_areas: ['knee', 'ankle_foot', 'hip_groin', 'lower_back'], above: 6, scale_max: 10, key: 'warning.jump_pain_scale', refs: ['R5-GRD-08'],
       status: 'approved (COACH-R5 R5-GRD-08); PROPOSED: the pain areas that read it (the ones a landing loads)' },
-    refs: ['R5-GEN-01', 'R5-ATH-04', 'R5-GRD-03', 'R5-GRD-08', 'R5-ATH-10'],
+    // G-295 (COACH-R5 R5-ATH-08 'Only when they report low-back pain. Otherwise normal core, including rotation'; R5-LIB-02 proposal
+    // 'Rotational work comes back when there's no pain'; review r9 08 M1): a client with no reported low-back pain whose sport profile
+    // gives the transverse plane at least min_transverse_pct of its core (core_rules.plane_pct; E-184) holds one moving rotational core
+    // drill a week. The rotational picks: his live library's chop and Russian twist, and the bicycle crunch from his own programs (a
+    // program record, picked only here); a light chop is for every level (in-level exempt).
+    core_rotation: { enabled: true, min_transverse_pct: 30, per_week: 1, bonus: 6,
+      ids: ['bicycle-crunch', 'cable-woodchopper-cable-chop', 'russian-twist'], level_exempt_ids: ['cable-woodchopper-cable-chop'],
+      refs: ['R5-ATH-08', 'R5-LIB-02', 'E-184', 'CAT-08'],
+      status: 'approved (COACH-R5 R5-ATH-08 "normal core, including rotation"); PROPOSED: one rotational drill a week from a 30 % transverse share, the picks and the weight' },
+    refs: ['R5-GEN-01', 'R5-ATH-04', 'R5-GRD-03', 'R5-GRD-08', 'R5-ATH-10', 'R5-ATH-08'],
     status: 'engine 0.7 selection package (coach answers round 5)'
   };
   // R5-GEN-01: the full-body skeletons are skeleton days like gym_A / gym_B (his pairing per day; the A day's first row two-arm)
@@ -310,6 +323,20 @@ export function amendRulesV07(rules) {
   // R5-ATH-08 ('only when they report low-back pain. Otherwise normal core, including rotation'): the 50+ hot-spot list is retired
   const S6C = R0.selection.s6 && R0.selection.s6.core;
   if (S6C) { S6C.hotspot_list_from_age = null; S6C.hotspot_status = 'COACH-R5 R5-ATH-08: the low-back list only with reported low-back pain, at any age (the 50+ reading of G-131 is retired)'; }
+  // G-295 (R5-ATH-08 'Otherwise normal core, including rotation'; review r9 08 M1 / 02 m14: the hot-spot lean of G-131 - holds +2, the
+  // reference floor drills allowed - still dealt a 52-year-old pickleball player and a linebacker the low-back list for 12 weeks): a
+  // profile's low-back hot spot without reported low-back pain leans nowhere - no hold bonus, no reference floor drills; only loaded
+  // trunk flexion keeps its small minus. The profile's core planes (core_rules.plane_pct, E-184) then deal the week's rotation.
+  if (S6C) {
+    S6C.hotspot_anti_bonus = 0;
+    S6C.hotspot_flexion_re = 'weighted';
+    S6C.hotspot_reference_drills = true;
+    // G-296 (PER-02 'one or two small changes a block'; G-131 one core exercise a day changes at a block boundary): with no exercise of
+    // the same plane and kind left, the change keeps the plane and the anti-movement / moving kind, then the plane alone (PROPOSED)
+    S6C.block_change_relax = true;
+    S6C.hotspot_lean_status = 'COACH-R5 R5-ATH-08 (G-295): no lean for a hot spot without pain; loaded flexion -2 PROPOSED';
+    S6C.refs = uniqSorted([...(S6C.refs || []), 'R5-ATH-08']);
+  }
   // R5-CLS-04 (wall balls and sled pushes in the class workout, with a switch): approved
   const PE = R0.selection.addons && R0.selection.addons.primary_exceptions;
   if (Array.isArray(PE)) for (const x of PE) if (x.bucket === 'COND_WOD') { x.status = 'approved (COACH-R5 R5-CLS-04): on in the class workout; set enabled false to switch them off'; x.refs = uniqSorted([...(x.refs || []), 'R5-CLS-04']); }
@@ -323,6 +350,9 @@ export function amendRulesV07(rules) {
   confirm(R0.selection.s6 && R0.selection.s6.olympic_safe, 'R5-ATH-09', 'KB swing or DB / KB high pull instead of snatches and barbell cleans with pain, 3 or more play days a week, or a 50+ racket player');
   // R5-ATH-10 (a single-leg or lateral jump every training day for cutting sports; a two-foot lateral jump in the first stage)
   confirm(R0.selection.s6 && R0.selection.s6.jumps, 'R5-ATH-10', 'a cutting sport holds a single-leg or lateral jump every training day, a two-foot lateral jump in the first stage; the stages are R2-ATH-03');
+  // G-298 (R5-ATH-10; review r9 02 m1: Tuesday's and Friday's first-block jump stations took a low box jump and a low depth drop - the +8
+  // lost to the first block's level lean and the return / stay-low terms): the day's lateral or single-leg jump weighs 12 (PROPOSED)
+  if (R0.selection.s6 && R0.selection.s6.jumps && R0.selection.s6.jumps.cutting) R0.selection.s6.jumps.cutting.bonus = 12;
   // R5-ATH-11 (no hard cardio the day before top-speed sprints or the week's heavy deadlift)
   confirm(R0.conditioning.s6 && R0.conditioning.s6.hard_eve, 'R5-ATH-11', 'the hard interval colour is never the day before top-speed sprints or the week\'s heavy hinge');
   // R5-CLS-06 (the bootcamp cardio station is plain cardio by default; a swing or slam is a swap)
@@ -349,8 +379,18 @@ export function amendRulesV07(rules) {
       never_spine_classes: ['counted'], l2_plus_levels: ['L3'],
       library: NAMED_WODS.map((w) => ({ ...w, name: WOD_NAMES[w.id] })),
       refs: ['R5-GRD-04', 'PRG-10'],
-      status: 'approved rule (COACH-R5 R5-GRD-04); PROPOSED: the library (standard CrossFit community prescriptions), the scaling by level, the week a Hero workout falls on (three quarters into the block) and a benchmark every 3 weeks'
+      status: 'approved rule (COACH-R5 R5-GRD-04); PROPOSED: the library (standard CrossFit community prescriptions), the scaling by level, the week a Hero workout falls on (three quarters into the block) and a benchmark every 3 weeks',
+      // G-293 (R5-GRD-04 "girl wods once a week and hero wods only 1 a block"; review r9 04 m1: the week's only Girl and the block's Hero
+      // sat on the optional Saturday): the Girl and the Hero go on a main training day where one holds a WOD; the optional day takes the
+      // benchmark or the engine's own WOD
+      main_days_first: true
     },
+    // G-293 (COACH-R5 R5-GRD-04 '... keep it varied'; R2-LIB-01; review r9 04 M1: the engine's own WODs repeated unchanged for 3-8
+    // weeks): a class WOD that is not a named workout changes every week - its format moves one step along the formats (AMRAP, EMOM,
+    // for time) and `swap_stations` of its stations change, from the day's own pool of movements (the same hard filters, the day's
+    // lift pattern kept out); a pulling station stays a pulling station. The length still climbs with the plan.
+    vary: { enabled: true, families: ['hybrid_crossfit'], rotate_format: true, swap_stations: 2, pool_size: 8,
+      refs: ['R5-GRD-04', 'R2-LIB-01', 'D-20'], status: 'approved rule (COACH-R5 R5-GRD-04 "keep it varied"); PROPOSED: one format step and two stations a week' },
     refs: ['R5-GRD-04']
   };
   return R0;
@@ -432,6 +472,8 @@ const NW = (id, name, std, stdEs) => ({ [`wod.named.${id}.std`]: [`${name}: ${st
 
 /** v0.7 words: key -> [EN, ES]. Every key wins over the earlier layers. */
 export const UI_V07 = {
+  // G-295 (R5-ATH-08)
+  'why.core_rotation': ['Normal core includes rotation: one rotational drill a week (no low-back pain reported)', 'El core normal incluye rotación: un ejercicio de rotación por semana (sin dolor lumbar reportado)'],
   // R5-GEN-01 day titles
   'day.aesthetics.2.A': [FB1_EN, FB1_ES], 'day.aesthetics.2.B': [FB2_EN, FB2_ES],
   'day.athletic.2.A': [FB1_EN, FB1_ES], 'day.athletic.2.B': [FB2_EN, FB2_ES],
