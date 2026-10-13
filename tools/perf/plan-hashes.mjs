@@ -31,31 +31,33 @@ const files = [];
 for (const d of ['samples/intakes', 'design/bench/intakes'])
   for (const f of fs.readdirSync(path.join(ROOT, d)).sort()) if (f.endsWith('.json')) files.push(path.join(d, f));
 const filt = opt('filter');
-const out = {}, times = [];
+const out = {}, times = [], cpuTimes = {};
 for (const [mname, model] of models) for (const rel of files) {
   if (filt && !rel.includes(filt)) continue;
   const intake = readJSON(path.join(ROOT, rel));
   for (const lang of ['en', 'es']) {
     const ik = { ...intake, lang };
-    const t0 = process.hrtime.bigint();
+    const t0 = process.hrtime.bigint(), c0 = process.cpuUsage();
     const plan = generate(ik, model);
     const ms = Number(process.hrtime.bigint() - t0) / 1e6;
+    const cpu = process.cpuUsage(c0);
+    const cpuMs = (cpu.user + cpu.system) / 1000;
     const key = `${mname}|${rel}|${lang}`;
     const rec = { plan: sha(JSON.stringify(plan)) };
     if (!flag('no-render') && plan.status === 'ok') {
       rec.en = sha(renderPlan(plan, model, { lang: 'en', view: 'full' }));
       rec.es = sha(renderPlan(plan, model, { lang: 'es', view: 'full' }));
     }
-    out[key] = rec; times.push([key, ms]);
-    console.error(`${ms.toFixed(0).padStart(7)} ms  ${key}`);
+    out[key] = rec; times.push([key, ms]); cpuTimes[key] = cpuMs;
+    console.error(`${ms.toFixed(0).padStart(7)} ms wall ${cpuMs.toFixed(0).padStart(7)} ms cpu  ${key}`);
   }
 }
 const byKey = Object.fromEntries(times);
 times.sort((a, b) => b[1] - a[1]);
 const total = times.reduce((s, t) => s + t[1], 0);
 console.log(`plans ${times.length}, total ${(total / 1000).toFixed(1)} s, slowest:`);
-for (const [k, ms] of times.slice(0, 12)) console.log(`  ${ms.toFixed(0).padStart(7)} ms  ${k}`);
-if (opt('write')) fs.writeFileSync(opt('write'), JSON.stringify({ hashes: out, times: byKey }, null, 1));
+for (const [k, ms] of times.slice(0, 12)) console.log(`  ${ms.toFixed(0).padStart(7)} ms wall ${cpuTimes[k].toFixed(0).padStart(7)} ms cpu  ${k}`);
+if (opt('write')) fs.writeFileSync(opt('write'), JSON.stringify({ hashes: out, times: byKey, cpu: cpuTimes }, null, 1));
 if (opt('compare')) {
   const base = readJSON(opt('compare')).hashes; let same = 0, diff = 0;
   for (const [k, v] of Object.entries(out)) {

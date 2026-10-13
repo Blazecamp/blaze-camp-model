@@ -598,15 +598,34 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const N = stair ? tb.stair_N : null;
   let sets = {}, fills = {};
   // (G-311: memo of a pure key read while a candidate list is sorted - by candidate object, or by day index)
-  const memoC = (fn) => { const m = new Map(); return (c) => { let v = m.get(c); if (v === undefined && !m.has(c)) { v = fn(c); m.set(c, v); } return v; }; };
-  const memoDi = memoC;
+  // (a candidate carries its index `_i` in the list being sorted; a day is its index in `days`)
+  const memoC = (fn) => { const a = []; return (c) => { let v = a[c._i]; if (v === undefined) { v = fn(c); a[c._i] = v; } return v; }; };
+  const memoDi = (fn) => { const a = []; return (di) => { let v = a[di]; if (v === undefined) { v = fn(di); a[di] = v; } return v; }; };
   // (G-311, performance only: every write to `sets` or `fills` goes through these four, which bump `stateVer`; the credit tallies are
   // kept per version and read again only after a write - see tally)
   let stateVer = 0;
-  const setS = (id, v) => { sets[id] = v; stateVer++; };
-  const delS = (id) => { delete sets[id]; stateVer++; };
-  const setF = (id, f) => { fills[id] = f; stateVer++; };
-  const delF = (id) => { delete fills[id]; stateVer++; };
+  // (G-311: `live` - running sums of the week's credited sets per group (all days / training days) and of its pressing and pulling sets,
+  // kept up to date on every write while they match the state; every credit is 1, 0.5 or 0.25 and every set count a whole number, so
+  // these sums are exact and equal, value for value, to a tally read from scratch. They are read only for values (groupSum, the spill
+  // check, pushPull); a tally handed out is still read from scratch, in its own key order.)
+  let live = null;
+  const liveOn = () => !!live && live.ver === stateVer && listsFresh();
+  const liveMove = (id, sign) => {
+    const refs = live.byId.get(id);
+    if (!refs) return;
+    for (const [slot, di] of refs) liveAdd(slot, di, sign);
+  };
+  const write = (id, fn) => {
+    const on = liveOn();
+    if (on) liveMove(id, -1);
+    fn();
+    stateVer++;
+    if (on) { liveMove(id, 1); live.ver = stateVer; }
+  };
+  const setS = (id, v) => write(id, () => { sets[id] = v; });
+  const delS = (id) => write(id, () => { delete sets[id]; });
+  const setF = (id, f) => write(id, () => { fills[id] = f; });
+  const delF = (id) => write(id, () => { delete fills[id]; });
   const added = [];
   // (G-311, performance only: the day lists and the [slot, day] pairs are rebuilt only when a day's slots or added list changes - a
   // push, or a new array; the lists handed out are frozen snapshots in the same order as before)
@@ -638,14 +657,15 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const active = (slot) => isNum(sets[slot.slot_id]) && sets[slot.slot_id] > 0;
   // (G-311: the credits of a slot are kept with the fill they were read for and read again only when the fill changes)
   const crMemo = new WeakMap();
-  const crOf = (slot) => {
+  const crEntry = (slot) => {
     const f = fills[slot.slot_id];
-    const e = crMemo.get(slot);
-    if (e && e.f === f && e.id === (f ? f.exercise_id : undefined) && e.fb === (f ? f.bucket : undefined) && e.b === slot.bucket && e.cv === slot.counts_as_volume) return e.cr;
-    const cr = creditsOf(model, slot, f);
-    crMemo.set(slot, { f, id: f ? f.exercise_id : undefined, fb: f ? f.bucket : undefined, b: slot.bucket, cv: slot.counts_as_volume, cr });
-    return cr;
+    let e = crMemo.get(slot);
+    if (e && e.f === f && e.id === (f ? f.exercise_id : undefined) && e.fb === (f ? f.bucket : undefined) && e.b === slot.bucket && e.cv === slot.counts_as_volume) return e;
+    e = { f, id: f ? f.exercise_id : undefined, fb: f ? f.bucket : undefined, b: slot.bucket, cv: slot.counts_as_volume, cr: creditsOf(model, slot, f), g: null, l: null };
+    crMemo.set(slot, e);
+    return e;
   };
+  const crOf = (slot) => crEntry(slot).cr;
   const gcOf = (slot) => groupCreditsC(model, crOf(slot) || EMPTY_CREDITS);
   const hasPick = (slot) => !!(fills[slot.slot_id] && fills[slot.slot_id].exercise_id);
 
@@ -661,8 +681,17 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     const best = GROUPS.filter(g => (gc[g] || 0) > EPS).sort((a, b) => gc[b] - gc[a] || GROUPS.indexOf(a) - GROUPS.indexOf(b))[0];
     return best || null;
   };
-  const refreshOwners = () => { owner = {}; for (const [s] of allSlots()) owner[s.slot_id] = ownerOfSlot(s); };
-  const slotsOfGroup = (g) => allSlots().filter(([s]) => owner[s.slot_id] === g);
+  let ownerVer = 0; // (G-311: bumped on every write to `owner`)
+  const refreshOwners = () => { owner = {}; ownerVer++; for (const [s] of allSlots()) owner[s.slot_id] = ownerOfSlot(s); ownerVer++; };
+  const groupSlotsMemo = new Map();
+  const slotsOfGroup = (g) => {
+    const all = allSlots();
+    const e = groupSlotsMemo.get(g);
+    if (e && e.all === all && e.ver === ownerVer) return e.list;
+    const list = Object.freeze(all.filter(([s]) => owner[s.slot_id] === g));
+    groupSlotsMemo.set(g, { all, ver: ownerVer, list });
+    return list;
+  };
 
   // ---- per-exercise bounds (allocation step 3): 2-5 sets (2-4 for L1); calves 3 on a leg day; Focus / bonus / optional-day
   // calves 2-3 (OBSERVED BYOP optional days, ORD-11)
@@ -815,9 +844,10 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         const s = list[i];
         const n = sets[s.slot_id];
         if (!isNum(n) || n <= 0) continue;
-        const cr = crOf(s);
+        const e = crEntry(s);
+        const cr = e.cr;
         if (!cr) continue;
-        const per = kind === 'line' ? lineCreditsC(model, cr) : kind === 'group' ? groupCreditsC(model, cr) : cr;
+        const per = kind === 'line' ? (e.l || (e.l = lineCreditsC(model, cr))) : kind === 'group' ? (e.g || (e.g = groupCreditsC(model, cr))) : cr;
         for (const m in per) w[m] = (w[m] || 0) + n * per[m];
       }
     }
@@ -834,7 +864,34 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     }
     return w;
   };
-  const credited = (g) => tallyOf(false, 'group')[g] || 0;
+  // (G-311: one group's credited sets without building the whole tally - the same additions in the same order; kept per state version)
+  const groupSum = (mo, g) => { const L0 = liveNow(); return (mo ? L0.main : L0.all)[g] || 0; };
+  const credited = (g) => groupSum(false, g);
+  const liveAdd = (slot, di, sign) => {
+    const n = sets[slot.slot_id];
+    if (!isNum(n) || n <= 0) return;
+    const e = crEntry(slot);
+    if (e.cr) {
+      const per = e.g || (e.g = groupCreditsC(model, e.cr));
+      const main = isMainDi(di);
+      for (const m in per) {
+        live.all[m] = (live.all[m] || 0) + sign * n * per[m];
+        if (main) live.main[m] = (live.main[m] || 0) + sign * n * per[m];
+      }
+    }
+    if (!isCircuitSlot(slot)) { if (isPress(slot)) live.push += sign * n; else if (isPull(slot)) live.pull += sign * n; }
+  };
+  const liveBuild = () => {
+    syncLists();
+    live = { ver: stateVer, all: {}, main: {}, push: 0, pull: 0, byId: new Map() };
+    for (const pr of allPairs) {
+      const id = pr[0].slot_id;
+      if (!live.byId.has(id)) live.byId.set(id, []);
+      live.byId.get(id).push(pr);
+      liveAdd(pr[0], pr[1], 1);
+    }
+  };
+  const liveNow = () => { syncLists(); if (!(live && live.ver === stateVer)) liveBuild(); return live; };
   const totalRes = (mo = false) => allSlots().reduce((a, [s, di]) => a + (isResistance(s) && active(s) && (!mo || isMainDi(di)) ? sets[s.slot_id] : 0), 0);
 
   // ---- fixed sets: everything the group stairway does not size (core, athletic, Olympic by the budget, circuits by rounds)
@@ -941,12 +998,21 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     if ((PPB.exempt_focus_lines || []).some(l => prio.includes(l))) return null;
     return { want: Math.min(PPB.max, Math.max(PPB.min, profile.pull_per_push)), hard: PPB.hard };
   })();
-  const classOfSlot = (slot) => { const ex = exOf(model, fills[slot.slot_id]); return ex ? ex.credit_class : null; };
+  const classMemo = new WeakMap(); // (G-311: a slot's credit class, kept with the pick it was read for)
+  const classOfSlot = (slot) => {
+    const f = fills[slot.slot_id];
+    const e = classMemo.get(slot);
+    if (e && e.f === f && e.id === (f ? f.exercise_id : undefined)) return e.c;
+    const ex = exOf(model, f);
+    const c = ex ? ex.credit_class : null;
+    classMemo.set(slot, { f, id: f ? f.exercise_id : undefined, c });
+    return c;
+  };
   // (joint care is not training volume - rules.prehab.credits 'none': a prone Y-T raise in the arm-care block is no pulling set)
   const careSlot = (slot) => slot.role === 'prehab' || kindOf(slot) === 'prehab';
   const isPress = (slot) => !!PPB && !careSlot(slot) && PPB.push_classes.includes(classOfSlot(slot));
   const isPull = (slot) => !!PPB && !careSlot(slot) && PPB.pull_classes.includes(classOfSlot(slot));
-  const pushPull = () => { let push = 0, pull = 0; for (const [s] of allSlots()) if (active(s) && !isCircuitSlot(s)) { if (isPress(s)) push += sets[s.slot_id]; else if (isPull(s)) pull += sets[s.slot_id]; } return { push, pull }; };
+  const pushPull = () => { const L0 = liveNow(); return { push: L0.push, pull: L0.pull }; };
   // v0.6: the two exposures of one day type (A1 / A2, 'Legs 1' / 'Legs 2', the same day type twice) alternate their steps (R3-VOL-03);
   // the v0.6 day preferences below never choose between them
   const stemMemo = days.map(d => String(d.day_type || d.weekday).replace(/[ ]?[12]$/, '')); // (G-311: a day's type never changes in a block)
@@ -958,7 +1024,17 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const expMemo = days.map((d0, di) => days.map((d, dj) => dj).filter(dj => stemOf(dj) === stemOf(di)).indexOf(di));
   const exposureOf = (di) => expMemo[di];
   // v0.6 G-100: the first lift of group g on a training day (its main lift)
-  const leadSlotOf = (di, g) => (isMainDi(di) ? daySlotsOf(di).find(s => owner[s.slot_id] === g && active(s) && s.origin !== 'bonus' && kindOf(s) === 'resistance' && !isCircuitSlot(s)) || null : null);
+  const leadSlotOf0 = (di, g) => (isMainDi(di) ? daySlotsOf(di).find(s => owner[s.slot_id] === g && active(s) && s.origin !== 'bonus' && kindOf(s) === 'resistance' && !isCircuitSlot(s)) || null : null);
+  // (G-311: kept per state - sets, picks and day lists by stateVer, owners by ownerVer)
+  let leadMemo = null;
+  const leadSlotOf = (di, g) => {
+    syncLists();
+    if (!leadMemo || leadMemo.ver !== stateVer || leadMemo.over !== ownerVer) leadMemo = { ver: stateVer, over: ownerVer, m: new Map() };
+    const k = di + '|' + g;
+    let v = leadMemo.m.get(k);
+    if (v === undefined) { v = leadSlotOf0(di, g); leadMemo.m.set(k, v); }
+    return v;
+  };
   let prevWeekSets = null;    // v0.6 G-109: the sets of the week before the one whose steps are being placed
   let balanceOn = true;
   let noRelax = false;        // true in a scratch run that asks what the exercises hold at their default bounds (fix round 2)
@@ -1016,7 +1092,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       };
       // (a step that would hand another group half a set or more above its number for the week waits: dips for the triceps push the
       // chest ahead of its schedule, a high-incline press for the shoulders does the same - sample 07)
-      const credNow = OX && OX.no_spill && curTargets ? tallyOf(false, 'group') : null;
+      const credNow = OX && OX.no_spill && curTargets ? liveNow().all : null;
       const kSpill = (c) => {
         if (!credNow) return 0;
         const gc = gcOf(c.s);
@@ -1103,6 +1179,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       const kAbove = (c) => (aboveLead(c.s, c.di, c.n + 1) ? 1 : 0);
       // (G-311, performance only: every key below reads the state only - nothing changes while the candidates are sorted - so each is
       // read once per candidate; the order is the same)
+      for (let i = 0; i < cands.length; i++) cands[i]._i = i;
       const kAboveM = memoC(kAbove), kHingeM = memoC(kHinge), kFirstM = memoC(kFirst), kCmpM = memoC(kCmp), kMainBigM = memoC(kMainBig), kTwinGoM = memoC(kTwinGo), priM = memoC(pri),
         kLeadM = memoC(kLead), kTestM = memoC(kTest), kSpillM = memoC(kSpill), kIsoM = memoC(kIso), kStepM = memoC(kStep), kPairM = memoC(kPair), kBonusM = memoC(kBonus), distM = memoDi(dist);
       const kFirstExpM = (a, b) => (kFirstM(a) === 0 && kFirstM(b) === 0 && twinDays(a.di, b.di) ? exposureOf(a.di) - exposureOf(b.di) : 0);
@@ -1152,7 +1229,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     for (const g of D9.floor_groups || []) if (g !== 'calves') out[g] = FL.value;
     return Object.keys(out).length ? out : null;
   })();
-  const creditedMain = (g) => tallyOf(true, 'group')[g] || 0;
+  const creditedMain = (g) => groupSum(true, g);
   // (the most an isolation exercise of a training day holds when the floor asks for it)
   const isoRelaxTop = (s, di) => (PX.iso_main_day_max && kindOf(s) === 'isolation' && isMainDi(di) && s.bucket !== 'ISO_CALF' && !isCircuitSlot(s) && s.origin !== 'bonus' ? Math.min(maxEx, PX.iso_main_day_max.hardest) : 0);
   const capOfGroup = {};      // group -> the most its credited sets may reach in this block (set by planStairs; flat blocks: none)
@@ -1284,11 +1361,61 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const snapshot = () => ({ sets: { ...sets }, lastDay: { ...lastDay } });
   const restore = (sn) => { sets = { ...sn.sets }; lastDay = { ...sn.lastDay }; stateVer++; };
   /** what the block's slots hold for each group when every target is asked for (a scratch run; nothing is kept) */
+  // (G-311, performance only: a scratch run is a pure function of the block's state - the sets, the last days, the owners, the picks,
+  // the day lists, the week the bounds are read for and every switch and table the allocation reads - and of the targets it is asked
+  // for. The planning loops ask the same question many times; the answer, and the three things a run leaves behind (the targets the
+  // allocation read, the back's room check and the balance flag), are kept by a key of all of it. Same answers, same order.)
+  const reachMemo = new Map();
+  const objIds = new WeakMap();
+  let objNext = 0;
+  const idOf = (o) => { let v = objIds.get(o); if (v === undefined) { v = ++objNext; objIds.set(o, v); } return v; };
+  const ser = (v) => {
+    if (v === null) return 'n';
+    if (v === undefined) return 'u';
+    const t = typeof v;
+    if (t === 'number') return Object.is(v, -0) ? '-0' : String(v);
+    if (t === 'string') return JSON.stringify(v);
+    if (t === 'boolean') return v ? 'T' : 'F';
+    if (t === 'function') return 'f' + idOf(v);
+    if (Array.isArray(v)) { let out = '['; for (let i = 0; i < v.length; i++) out += (i ? ',' : '') + ser(v[i]); return out + ']'; }
+    if (v instanceof Set) { let out = 'S['; for (const x of v) out += ser(x) + ','; return out + ']'; }
+    if (v instanceof Map) { let out = 'M['; for (const [k, x] of v) out += ser(k) + ':' + ser(x) + ','; return out + ']'; }
+    let out = '{';
+    for (const k of Object.keys(v)) out += JSON.stringify(k) + ':' + ser(v[k]) + ',';
+    return out + '}';
+  };
+  const reachKey = (targets) => {
+    syncLists();
+    let fl = '';
+    for (const [s0, di] of allPairs) { const f = fills[s0.slot_id]; fl += idOf(s0) + '@' + di + '=' + (f ? idOf(f) + ':' + ser(f.exercise_id) : ser(f)) + ';'; }
+    return [ser(targets), ser(sets), ser(lastDay), ser(owner), fl, boundWeek ? idOf(boundWeek) : ser(boundWeek), stepWeek ? idOf(stepWeek) : ser(stepWeek),
+      ser(noRelax), ser(balanceOn), ser(balanceWant), ser(ppRatio), ser(capOfGroup), ser(extraTop), ser(hingeOff), ser(leadBase), ser(closedFocus),
+      ser(tplExtraIds), ser(bonusGroupsAll), ser(testedSlots), ser(prevWeekSets), ser(calfMainMax), ser(dormant), ser(dormantWk), ser(gbWeek),
+      ser(twoDayLim), ser(noBonus2)].join('|');
+  };
   const reachable = (targets) => {
+    const key = reachKey(targets);
+    const hit = reachMemo.get(key);
+    if (hit) {
+      // (what the run would leave behind: allocateOnce's targets and back-room check for these targets, and the last balance flag)
+      curTargets = targets;
+      const backG = PPB ? PPB.pull_group : null;
+      backRoomNow = () => !!backG && isNum(targets[backG]) && credited(backG) + 1 <= targets[backG] + EPS;
+      blockedByBalance = hit.blocked;
+      if (globalThis.__VERIFY_REACH) {
+        const before = ser(sets) + '|' + ser(lastDay);
+        const sn = snapshot(); allocate(targets, null); const t2 = tally(false, 'group'); restore(sn);
+        const after = ser(sets) + '|' + ser(lastDay);
+        globalThis.__VR = globalThis.__VR || { hit: 0, bad: 0 }; globalThis.__VR.hit++;
+        if (ser(t2) !== ser(hit.t) || blockedByBalance !== hit.blocked || before !== after || curTargets !== targets) { globalThis.__VR.bad++; }
+      }
+      return { ...hit.t };
+    }
     const sn = snapshot();
     allocate(targets, null);
     const t = tally(false, 'group');
     restore(sn);
+    reachMemo.set(key, { t: { ...t }, blocked: blockedByBalance });
     return t;
   };
   /** the same on the training days only, with every exercise inside its default bounds (no 4th isolation set for the floor) */
@@ -1382,7 +1509,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       setF(slot.slot_id, f);
       if (ownerOfSlot(slot) !== g) { delF(slot.slot_id); continue; }
       d.added.push(slot); added.push(slot);
-      owner[slot.slot_id] = g;
+      owner[slot.slot_id] = g; ownerVer++;
       setS(slot.slot_id, BN.sets[0]);
       bonusOpen.set(key, slot);
       if (log) log.push({ key: 'changes.bonus_added', args: { exercise: f.exercise_id, day: d.weekday, slot_id: slot.slot_id } });
@@ -1450,7 +1577,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       setF(slot.slot_id, f);
       if (ownerOfSlot(slot) !== g) { delF(slot.slot_id); continue; }
       d.added.push(slot); added.push(slot);
-      owner[slot.slot_id] = g;
+      owner[slot.slot_id] = g; ownerVer++;
       setS(slot.slot_id, EXS.sets[0]);
       if (!onDays) extraOpen.set(g, slot);
       return slot;
@@ -1818,7 +1945,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       const di = dayOfSlot(e.slot);
       if (di >= 0) days[di].added = days[di].added.filter(s => s !== e.slot);
       const ai = added.indexOf(e.slot); if (ai >= 0) added.splice(ai, 1);
-      delS(e.slot.slot_id); delF(e.slot.slot_id); delete owner[e.slot.slot_id];
+      delS(e.slot.slot_id); delF(e.slot.slot_id); delete owner[e.slot.slot_id]; ownerVer++;
       if (e.kind === 'opt') {
         bonusOpen.delete(e.key);
         const i = scratchBonus.findIndex(([k]) => k === e.key); if (i >= 0) scratchBonus.splice(i, 1);
@@ -2216,7 +2343,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       const di = days.findIndex(d => d.added.includes(slot));
       days[di].added = days[di].added.filter(s => s !== slot);
       added.splice(added.indexOf(slot), 1);
-      delS(slot.slot_id); delF(slot.slot_id); delete owner[slot.slot_id];
+      delS(slot.slot_id); delF(slot.slot_id); delete owner[slot.slot_id]; ownerVer++;
       bonusOpen.delete(g);   // (the key: the group, or 'group#2' for a second bonus exercise)
     }
     restore(sn0);
