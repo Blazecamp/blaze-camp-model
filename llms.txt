@@ -68,6 +68,7 @@ Authority order when sources disagree: coach_answers_round5.md with coach_answer
 
 - [AGENT_PLAYBOOK.md](AGENT_PLAYBOOK.md): how an AI agent builds a plan in a conversation: the questions in order, a summary, the release and an explicit "I accept", the build, the PDF / Markdown or the prefilled web link, edits
 - [agent/README.md](agent/README.md): setup recipes: Claude Desktop and Claude Code (MCP server agent/mcp-server.mjs, skill .claude/skills/build-plan), ChatGPT custom GPT (Action from /api/openapi), any shell agent (tools/plan.mjs); brands
+- [WHITE_LABEL.md](WHITE_LABEL.md): white-label brands, the one file for the coach's agent: make a brand from a gym's website (tools/new-brand.mjs), the previews site (BRAND=previews), the hand-off export (tools/export-brand.mjs, static or with the API, zip), connecting a custom domain
 - [agent/questions.json](agent/questions.json): the questions as data (EN / ES labels, choices, defaults, the health questions, the release texts verbatim)
 
 ## Tools and tests

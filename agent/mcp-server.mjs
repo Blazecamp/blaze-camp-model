@@ -18,7 +18,7 @@ import { buildQuestions, questionsInLang } from './questions.mjs';
 const argv = process.argv.slice(2);
 const arg = (n) => { const i = argv.indexOf(n); return i >= 0 ? argv[i + 1] : undefined; };
 const OUT = arg('--out') || process.env.PLAN_OUT_DIR || null;
-const DEFAULT_BRAND = arg('--brand') || process.env.BRAND || 'blazecamp';
+const DEFAULT_BRAND = arg('--brand') || process.env.BRAND || C.defaultBrandId();
 const DEFAULT_SITE = arg('--site') || undefined;
 const PROTOCOLS = ['2025-06-18', '2025-03-26', '2024-11-05'];
 const SERVER = { name: 'blaze-plan', title: 'Plan Builder (coach\'s model)', version: '1.0.0' };

@@ -30,7 +30,9 @@ import { brandModelRaw } from '../tools/brand-legal.mjs';
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const LANGS = ['en', 'es'];
 export const FORMATS = ['md', 'json', 'pdf', 'html'];
-const BRANDS_DIR = path.join(ROOT, 'app', 'brands');
+// the brand files: app/brands/, or env BC_BRANDS_DIR (tools/new-brand.mjs --brands-dir: a trial brand outside the repository)
+const BRANDS_DIR = process.env.BC_BRANDS_DIR ? path.resolve(process.env.BC_BRANDS_DIR) : path.join(ROOT, 'app', 'brands');
+export const brandsDir = () => BRANDS_DIR;
 
 // ------------------------------------------------------------------------------------------------- brands
 
@@ -39,9 +41,14 @@ export function brandIds() {
   return fs.readdirSync(BRANDS_DIR).filter(f => /^[a-z0-9-]+\.js$/.test(f)).map(f => f.slice(0, -3)).sort();
 }
 const brandCache = new Map();
-/** a brand by id (default: env BRAND, else blazecamp) */
+/** the default brand id: blazecamp, or the only brand there is (a brand exported on its own: tools/export-brand.mjs) */
+export function defaultBrandId() {
+  const ids = brandIds();
+  return ids.length === 1 ? ids[0] : 'blazecamp';
+}
+/** a brand by id (default: env BRAND, else defaultBrandId()) */
 export async function loadBrand(id) {
-  const bid = String(id || process.env.BRAND || 'blazecamp').trim().toLowerCase();
+  const bid = String(id || process.env.BRAND || defaultBrandId()).trim().toLowerCase();
   if (!brandIds().includes(bid)) throw new AgentError('unknown_brand', `unknown brand '${bid}' (known: ${brandIds().join(', ')})`);
   if (!brandCache.has(bid)) brandCache.set(bid, (await import(pathToFileURL(path.join(BRANDS_DIR, bid + '.js')).href)).BRAND);
   return brandCache.get(bid);

@@ -247,6 +247,11 @@ brand (`tests/app-brand.test.mjs`): name, short name, default language (and whet
   Blaze Camp or Coach Lalo text anywhere. Its legal party wording (coach's decision, 2026-10-13): "Lalo Vera and BFit Studios
   Corp., doing business as Son Hábitos" / "Lalo Vera y BFit Studios Corp., que opera como Son Hábitos".
 
+**White-label brands** (a gym's own copy) are made with `tools/new-brand.mjs` and handed over with `tools/export-brand.mjs`;
+every white-label brand is previewed at `site/<id>/` by `tools/build-site.mjs --all-brands` (env `BRAND=previews`; the Vercel project
+`white-label-previews`, https://white-label-previews.vercel.app). The steps: [WHITE_LABEL.md](../WHITE_LABEL.md).
+The leak check below runs for every brand but Blaze Camp, and also refuses any other brand's name.
+
 `tools/build-site.mjs` takes the brand from `--brand <id>`, else the env var `BRAND`, else `blazecamp`, and:
 * writes `site/brand.js` (re-exports the brand), copies only that brand's file and assets, and fills `index.html`'s language,
   title, description, theme colour, icons, stylesheet and logo from it;

@@ -6,6 +6,18 @@ This file is for AI agents and developers. It tells you what the repo is, which 
 
 > **Asked for a training plan, workout or routine?** Do not write one yourself. Read your brand's pack, [agent/packs/blazecamp/AGENTS.md](agent/packs/blazecamp/AGENTS.md) or [agent/packs/sonhabitos/AGENTS.md](agent/packs/sonhabitos/AGENTS.md) (one per brand), and build it through the brand's API or the MCP server (§15).
 
+> **When the coach asks… do this.** Follow the file named; it has the steps, so nobody has to remember them.
+>
+> | The coach says | Do this | Steps in |
+> |---|---|---|
+> | "Build a plan for me / for a client" | Use the brand's pack: questions, release, plan | [agent/packs/blazecamp/AGENTS.md](agent/packs/blazecamp/AGENTS.md), [agent/packs/sonhabitos/AGENTS.md](agent/packs/sonhabitos/AGENTS.md) (one per brand: `agent/packs/<brand>/AGENTS.md`) |
+> | "Make a white-label for <their website>" | `node tools/new-brand.mjs --from-website <url>`, check the screenshot, push, send the preview link `https://white-label-previews.vercel.app/<id>/` | [WHITE_LABEL.md](WHITE_LABEL.md) steps 1-2 |
+> | "They paid, hand it over" | `node tools/export-brand.mjs --brand <id> --out <dir> --site <their address> --zip` (`--with-api` if they want agents) | [WHITE_LABEL.md](WHITE_LABEL.md) step 3 |
+> | "Connect their domain (plan.theirgym.com)" | Add only the CNAME Vercel shows; nothing else at their DNS | [WHITE_LABEL.md](WHITE_LABEL.md) "Connect a custom domain" |
+> | "Give my agent access to a brand" | Hand over that brand's pack and the setup recipes | `agent/packs/<brand>/` and [agent/README.md](agent/README.md) |
+> | "Change a brand's logo / colours / name" | `node tools/new-brand.mjs --id <id> ... --force` (white-label brands; Blaze Camp and Son Hábitos are edited by hand) | [tools/new-brand.mjs](tools/new-brand.mjs), [WHITE_LABEL.md](WHITE_LABEL.md) step 1 |
+> | "Change the site address of a brand" | Set `site_url` in `app/brands/<id>.js`, run `node agent/packs.mjs`, run the brand tests, push | [WHITE_LABEL.md](WHITE_LABEL.md) "After the domain works" |
+
 > **Author and owner.** The model is the coaching experience and intellectual property of Coach Lalo (Gerardo Vera), Master NASM coach (COACH-R4 R4-REL-03). Our job is to capture it faithfully, not to redesign it.
 
 > **Use at your own risk.** Everything here is general fitness information, not medical advice. Downloading or using this repository, or any plan generated from it, is at your own expense and risk. If you program for anyone else, you need your own health screening, liability release, insurance and privacy terms. Read [DISCLAIMER.md](DISCLAIMER.md) (EN) and [DISCLAIMER.es.md](DISCLAIMER.es.md) (ES); both are drafts pending review by a Florida attorney. License: [MIT](LICENSE), © 2026 Lalo Vera, d/b/a Blaze Camp, and BFit Studios Corp.
@@ -525,5 +537,28 @@ back a PDF and Markdown (EN or ES, in the right brand), or hands out a prefilled
 * **Brands.** A deployment answers with its env `BRAND`; the CLI and MCP take `--brand`. The site address (`--site`, env
   `SITE_URL_<ID>` / `SITE_URL`, or `site_url` in the brand file) gives the link, and for a brand with its own disclaimer pages
   (Son Hábitos) the release link, so it is required for that brand. A new brand is a new `app/brands/<id>.js` plus a Vercel
-  project with `BRAND=<id>`.
+  project with `BRAND=<id>`; a white-label brand: [WHITE_LABEL.md](WHITE_LABEL.md) (§16).
 * **Tests.** `tests/agent-cli.test.mjs`, `agent-questions`, `agent-mcp`, `agent-api` (mock req / res), `agent-prefill`.
+
+---
+
+## 16. White-label brands
+
+A gym gets its own copy of the plan builder (its name, logo, colours and words; the same model and engine). The steps for
+the coach's agent are in one file: [WHITE_LABEL.md](WHITE_LABEL.md).
+
+| Command | What it does |
+|---|---|
+| `node tools/new-brand.mjs --from-website <url>` (or `--id --name --lang --logo --colors`) | writes `app/brands/<id>.js`, `app/brands/<id>/` (logo, icons, `brand.css` from the colours, contrast-checked 4.5:1 light and dark) and `agent/packs/<id>/`, then a trial build with the leak check. `--force` replaces only brands it made |
+| `node tools/build-site.mjs --all-brands` (env `BRAND=previews` on the Vercel project `white-label-previews`, https://white-label-previews.vercel.app) | every white-label brand (`white_label: true`, set by `new-brand`) at `site/<id>/` (`<base href>`, noindex); the root page lists none; with no white-label brand yet, only the root page |
+| `node tools/export-brand.mjs --brand <id> --out <dir> [--site] [--with-api] [--zip]` | the hand-off: the static site (any host), or a Vercel project with the API and the brand's pack; one brand only, with `LICENSE` |
+
+* **Legal line (PROPOSED until the attorney decides).** "Lalo Vera and BFit Studios Corp., doing business as <Name>" /
+  "Lalo Vera y BFit Studios Corp., que opera como <Name>" (the coach's CH7-03 pattern), with the brand's own disclaimer pages.
+* **Leak check for every brand but Blaze Camp** (`tools/white-label/leaks.mjs`, used by the site build and the export): no
+  "Blaze Camp", owner or other brand's name outside the legal line.
+* **Helpers** (no dependencies): `tools/white-label/colors.mjs` (WCAG contrast, the stylesheet), `images.mjs` (PNG / JPEG / SVG
+  headers, a small PNG reader and writer for icons, SVG cleaning), `website.mjs` (the extractor), `zip.mjs`.
+* **Trial runs** write outside the repository: `--brands-dir`, `--packs-dir` (and env `BC_BRANDS_DIR` for `agent/` and the
+  build). The repository never holds a test brand. Tests: `tests/white-label.test.mjs` (offline fixtures in
+  `tests/fixtures/white-label/`).

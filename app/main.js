@@ -1184,7 +1184,8 @@ async function boot() {
   render();
   startWorker();
   try {
-    S.model = await fetchModel(undefined, (raw) => brandRaw(raw, BRAND, location.href));
+    // the disclaimer link resolves against document.baseURI: a white-label preview's <base href> (/<id> with or without the slash)
+    S.model = await fetchModel(undefined, (raw) => brandRaw(raw, BRAND, document.baseURI || location.href));
   } catch (e) {
     // the real reason in small text (e.g. 'catalog.json: HTTP 401'), so a screenshot is enough to diagnose
     S.loadError = String((e && e.message) || e || '');

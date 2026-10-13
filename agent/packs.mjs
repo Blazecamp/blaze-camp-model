@@ -7,6 +7,8 @@
 // answers proposed, the release word for word with its legal links in a second, then one delivery message with the PDF.
 //   node agent/packs.mjs            writes agent/packs/<brand>/ for every brand
 //   node agent/packs.mjs --check    exits 1 when a pack is out of date (tests/agent-packs.test.mjs)
+//   node agent/packs.mjs --brand <id> [--out <dir>]   one brand's pack only (tools/new-brand.mjs), into <dir>/<id>/ instead of
+//                                   agent/packs/<id>/ (tools/export-brand.mjs; a trial brand from env BC_BRANDS_DIR)
 import fs from 'node:fs';
 import path from 'node:path';
 import { brandIds, loadBrand, siteUrlFor, ROOT } from './core.mjs';
@@ -209,10 +211,10 @@ function readme(brand, site, links) {
     `## ${w.legal}`, '', w.les(links.es), w.len(links.en), w.parq(links.parq), '', '---', '', (brand.agent && brand.agent.credit && brand.agent.credit[l]) || brand.name, ''].join('\n');
 }
 
-/** every file of every brand's pack: {relative path: content} */
-export async function buildPacks() {
+/** every file of every brand's pack (or only `opts.brand`'s): {relative path: content} */
+export async function buildPacks(opts = {}) {
   const files = {};
-  for (const id of brandIds()) {
+  for (const id of brandIds().filter(x => !opts.brand || x === opts.brand)) {
     const brand = await loadBrand(id);
     const site = siteUrlFor(brand).replace(/\/?$/, '/');
     const q = await buildQuestions({ brand: id, site });
@@ -230,18 +232,21 @@ export async function buildPacks() {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const files = await buildPacks();
+  const arg = (n) => { const i = process.argv.indexOf(n); return i > 0 ? process.argv[i + 1] : undefined; };
+  const only = arg('--brand'), out = arg('--out');
+  if (only && !brandIds().includes(only)) { console.error(`unknown brand '${only}' (known: ${brandIds().join(', ')})`); process.exit(1); }
+  const files = await buildPacks({ brand: only });
   const check = process.argv.includes('--check');
   let stale = 0;
   for (const [rel, content] of Object.entries(files)) {
-    const p = path.join(ROOT, rel);
+    const p = out ? path.join(path.resolve(out), rel.replace(/^agent\/packs\//, '')) : path.join(ROOT, rel);
     const cur = fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : null;
     if (cur === content) continue;
     if (check) { console.log('out of date: ' + rel); stale++; continue; }
     fs.mkdirSync(path.dirname(p), { recursive: true });
     fs.writeFileSync(p, content);
     if (rel.endsWith('.sh')) fs.chmodSync(p, 0o755);
-    console.log('wrote ' + rel);
+    console.log('wrote ' + (out ? p : rel));
   }
   if (check && stale) process.exit(1);
 }
