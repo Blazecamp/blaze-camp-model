@@ -92,7 +92,8 @@ export function formatReps(rep, model, lang) {
     // v0.5 / V2 (COACH-R4 R4-LIB-02): carries and sled work - by distance or time, never reps
     case 'distance_or_time': return t(rep.per_side ? 'reps.distance_or_time_per_side' : 'reps.distance_or_time', { m_min: rep.metres[0], m_max: rep.metres[1], s_min: rep.seconds[0], s_max: rep.seconds[1] });
     case 'minutes': return rep.min === rep.max ? t('reps.minutes_fixed', { n: rep.min }) : t('reps.minutes', { min: rep.min, max: rep.max });
-    case 'rounds_work': return t('reps.rounds_work', { rounds: rep.rounds, work_s: rep.work_s });
+    // (engine 0.7, COACH-R5 R5-GRD-05: a station-by-station circuit day reads 'sets', a day in rounds 'rounds')
+    case 'rounds_work': return t(rep.format === 'stations' && model.has('en', 'reps.sets_work') ? 'reps.sets_work' : 'reps.rounds_work', { rounds: rep.rounds, work_s: rep.work_s });
     case 'cuts': return t('reps.cuts', { n: rep.value });
     case 'bout': return t('reps.bout');
     case 'calories': return t('reps.calories', { n: rep.n });
@@ -1341,7 +1342,7 @@ function blockView(plan, trainingBlock, model, o) {
         if (!r.byEb.has(w.exercise_block)) r.byEb.set(w.exercise_block, { name: nm, reps: rp });
         // (v0.6 words, sample 05 major: '4 rounds x 35 s -> 4 rounds x 45 s' over a block that ends at 5 rounds x 50 s): a circuit station's
         // dose reads from its first week to its last
-        if (it.circuit && V6(model).circuit_from_weeks) r.circuit.push(esc(formatReps({ type: 'rounds_work', rounds: it.circuit.rounds, work_s: it.circuit.work_s }, model, o.lang)));
+        if (it.circuit && V6(model).circuit_from_weeks) r.circuit.push(esc(formatReps({ type: 'rounds_work', rounds: it.circuit.rounds, work_s: it.circuit.work_s, format: it.circuit.format }, model, o.lang)));
       }
     }
     if (!rows.size) continue;
@@ -1631,7 +1632,7 @@ function itemDose(model, o, it, opt = {}) {
     const fmt = t('ui.plan.wod_format.' + it.wod.format), [a, z] = it.wod.minutes;
     return a === z ? t('ui.plan.wod_dose_fixed', { format: fmt, n: a }) : t('ui.plan.wod_dose', { format: fmt, min: a, max: z });
   }
-  if (it.circuit && !opt.short) return formatReps({ type: 'rounds_work', rounds: it.circuit.rounds, work_s: it.circuit.work_s }, model, o.lang);
+  if (it.circuit && !opt.short) return formatReps({ type: 'rounds_work', rounds: it.circuit.rounds, work_s: it.circuit.work_s, format: it.circuit.format }, model, o.lang);
   if (it.bucket === 'SKILL' && it.reps && it.reps.type === 'minutes') return t('ui.plan.skill_dose', { min: it.reps.min, max: it.reps.max });
   // B3 (RECHECK 01 / 02 / 03 minors: 'countermovement jump — countermovement jump'): a test item's name is its test; no dose repeat
   if (it.bucket === 'TEST') return '';

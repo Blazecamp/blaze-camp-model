@@ -11,8 +11,6 @@
 import { why, roundHalfUp } from './util.mjs';
 import { videoOf } from './library.mjs';
 
-const EPS = 1e-9;
-
 /**
  * R5-GRD-05: the week's circuit days alternate the two formats and each exercise block swaps them (PROPOSED split); a week with one
  * circuit day takes the formats by exercise block. Marks `item.circuit.format` ('rounds' | 'stations'), the station note and the day's
@@ -33,6 +31,7 @@ export function applyBootcampFormat(weeks, model, derived) {
         for (const it of b.items || []) {
           if (!it.circuit) continue;
           it.circuit = { ...it.circuit, format: fmt };
+          if (fmt === 'stations' && it.reps && it.reps.type === 'rounds_work') it.reps = { ...it.reps, format: fmt };
           if (fmt === 'stations' && model.has('en', 'note.circuit_stations')) it.notes = (it.notes || []).map((n) => (n && n.key === 'note.circuit' ? { key: 'note.circuit_stations', args: { rounds: it.circuit.rounds, work_s: it.circuit.work_s, transition_s: it.circuit.transition_s } } : n));
         }
       }
@@ -141,6 +140,9 @@ export function applyNamedWods(weeks, model, derived, shape) {
   const girls = byKind('girl'), heroes = byKind('hero'), benches = byKind('benchmark');
   if (!all.length) return;
   const n = { girl: 0, hero: 0, benchmark: 0 };
+  // (the weeks since the last popular benchmark, counted across the plan: one comes every `benchmark_every_weeks` weeks, moved to the
+  // next week when that week holds the Hero workout - so the gap stays inside the coach's 2-4 weeks)
+  let sinceBench = 0;
   const next = (list, k) => { if (!list.length) return null; const x = list[n[k] % list.length]; n[k]++; return x; };
   for (const tb of (shape && shape.training_blocks) || []) {
     const ws = weeks.filter((w) => w.training_block === tb.n);
@@ -155,6 +157,7 @@ export function applyNamedWods(weeks, model, derived, shape) {
         if (its.some((it) => it.test || it.bucket === 'TEST')) continue;
         for (const b of d.blocks || []) (b.items || []).forEach((it, j) => { if (it.bucket === 'COND_WOD' && it.wod && !it.wod.named) slots.push({ d, b, j, it }); });
       }
+      sinceBench++;
       if (!slots.length) return;
       const taken = new Set();
       const put = (slot, entry) => {
@@ -174,8 +177,7 @@ export function applyNamedWods(weeks, model, derived, shape) {
       const free = () => slots.filter((s) => !taken.has(s));
       if (girls.length && free().length) { const f = free(); put(f[(k - 1) % f.length], next(girls, 'girl')); }
       // a popular benchmark every few weeks (not the Hero's week)
-      if (benches.length && NW.benchmark_every_weeks && k % NW.benchmark_every_weeks === 0 && k !== heroAt && free().length) { const f = free(); put(f[f.length - 1], next(benches, 'benchmark')); }
+      if (benches.length && NW.benchmark_every_weeks && sinceBench >= NW.benchmark_every_weeks && k !== heroAt && free().length) { const f = free(); put(f[f.length - 1], next(benches, 'benchmark')); sinceBench = 0; }
     });
   }
-  void EPS;
 }

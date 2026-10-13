@@ -35,7 +35,7 @@ export function amendExerciseV07(ex0) {
 
 /** the assisted-jump records (COACH-R5 R5-GRD-08: 'you can start them assisted plyos'), the WOD run station (R5-GRD-04) */
 export const ADDED_V07 = ['assisted-lateral-hops-holding-a-support', 'assisted-pogo-hops-holding-a-support', 'assisted-squat-jump-holding-a-support',
-  'run-wod-station', 'suspension-trainer-assisted-jump-squat', 'two-foot-lateral-jump'];
+  'run-wod-station', 'suspension-trainer-assisted-jump-squat', 'two-foot-lateral-box-jump', 'two-foot-lateral-jump'];
 
 /**
  * New records (R5-GRD-08 assisted jumps, approved by that answer: regular picks for a client with knee pain; R5-GRD-04 the WOD's run
@@ -85,6 +85,13 @@ export function addedExercisesV07(exercises) {
   // a cutting sport's first exercise block (the library held two-foot lateral hops and hurdle hops, no single-response lateral jump)
   make('two-foot-lateral-jump', 'squat-jump-high-bodyweight-or-lightly-loaded', {
     slots: ['AP_PLYO'], plane: 'frontal', equipment: { any_of: [[]], machine: null }, impact: 'moderate', skill: 'low', older_ok: false, older_opt_in_ok: true, youth_ok: true,
+    tags: [], variation_axes: ['range', 'stance'], rep_hint: { text: '4-8 jumps', unit: 'contacts' }, rule_refs: ['R5-ATH-10', 'R5-GRD-03'],
+    athletic: { quality: 'ballistic', contact_class: 'ballistic', rc_stage_default: 'RC1', response: 'single', low_amplitude: false, upper: false }
+  });
+  // R5-ATH-10 again: a second two-foot lateral jump (sideways onto a low box), so a cutting sport's 3rd training day of the first block
+  // has a lateral jump of its own (each pick is used once a week; G-254)
+  make('two-foot-lateral-box-jump', 'low-box-jump-half-shin-height', {
+    slots: ['AP_PLYO'], plane: 'frontal', impact: 'low', skill: 'low', older_ok: false, older_opt_in_ok: true, youth_ok: true,
     tags: [], variation_axes: ['range', 'stance'], rep_hint: { text: '4-8 jumps', unit: 'contacts' }, rule_refs: ['R5-ATH-10', 'R5-GRD-03'],
     athletic: { quality: 'ballistic', contact_class: 'ballistic', rc_stage_default: 'RC1', response: 'single', low_amplitude: false, upper: false }
   });
@@ -208,6 +215,9 @@ export function amendRulesV07(rules) {
     two_day_full_body: {
       skeletons: { gym_FB1: 'gym_A', gym_FB2: 'gym_B', athletic_FB1: 'athletic_A', athletic_FB2: 'athletic_B' },
       day1: ['RP_HPULL', 'RP_BKD', 'RP_VPUSH', 'RP_UHD'], day2: ['RP_HPUSH', 'RP_BHD', 'RP_VPULL', 'RP_UKD'],
+      // day 1's vertical / incline push is the week's 'Chest / Shoulders' slot (a 30-45 degree incline press, OBSERVED BYOP label
+      // 'Chest/Shoulders'; G-251): the chest is trained on both days and holds the 2-day band (R4-SES-03)
+      chest_shoulders_skeletons: ['athletic_FB1', 'gym_FB1'],
       refs: ['R5-GEN-01', 'R4-SES-05', 'R4-SES-03', 'CH5-02', 'UNI-11'],
       status: 'approved (COACH-R5 R5-GEN-01 "two full-body days would be more beneficial"); PROPOSED: which slots go to which day (each day a knee lift with a pull and a hip lift with a push; both upper vectors and both lower patterns over the two days)'
     },
@@ -234,6 +244,9 @@ export function amendRulesV07(rules) {
       // the highest level an exercise block of the plan may pick: its number in the plan + 1 (block 1: two-leg; block 2: easy
       // single-leg; block 3 on: single-leg and higher); a level above it costs `over_penalty` a level
       cap_offset: 1, max_level: 4, over_penalty: -10,
+      // inside the cap, a level above the block's own number (block 1: level 1) leans back a little, so the low two-leg jumps lead
+      // the first block and the higher ones come in as the plan goes on (G-253)
+      lean_penalty: -2,
       // 'single-leg hurdle hops are never a first-block pick' (hard rule)
       never_first_block_re: 'hurdle', never_first_block_tags: ['hurdle_hop'],
       refs: ['R5-GRD-03', 'R5-ATH-10', 'CAT-10', 'R2-ATH-03'],
@@ -272,6 +285,20 @@ export function amendRulesV07(rules) {
   // R5-CLS-04 (wall balls and sled pushes in the class workout, with a switch): approved
   const PE = R0.selection.addons && R0.selection.addons.primary_exceptions;
   if (Array.isArray(PE)) for (const x of PE) if (x.bucket === 'COND_WOD') { x.status = 'approved (COACH-R5 R5-CLS-04): on in the class workout; set enabled false to switch them off'; x.refs = uniqSorted([...(x.refs || []), 'R5-CLS-04']); }
+  // round-5 confirmations of earlier PROPOSED readings (G-262): the rule stays as built, its status names the coach's answer
+  const confirm = (sec, id, what) => { if (sec && typeof sec === 'object') { sec.status = `approved (COACH-R5 ${id}): ${what}`; sec.refs = uniqSorted([...(sec.refs || []), id]); } };
+  // R5-LIB-01 ('Small home kits: may the two-arm bent-over DB row and the chest-supported DB row be regular picks?' - 'That's right')
+  confirm(R0.selection.x2 && R0.selection.x2.small_kit_rows, 'R5-LIB-01', 'in a small kit with no library two-arm row the two-arm bent-over DB row and the chest-supported DB row are regular picks');
+  // R5-ATH-05 (a gym session the day before a game is always the lighter one)
+  confirm(R0.placement && R0.placement.x1 && R0.placement.x1.eve_of_game, 'R5-ATH-05', 'the session on the eve of a game is the lighter one');
+  // R5-ATH-09 (the safe power slot from 3 play days a week)
+  confirm(R0.selection.s6 && R0.selection.s6.olympic_safe, 'R5-ATH-09', 'KB swing or DB / KB high pull instead of snatches and barbell cleans with pain, 3 or more play days a week, or a 50+ racket player');
+  // R5-ATH-10 (a single-leg or lateral jump every training day for cutting sports; a two-foot lateral jump in the first stage)
+  confirm(R0.selection.s6 && R0.selection.s6.jumps, 'R5-ATH-10', 'a cutting sport holds a single-leg or lateral jump every training day, a two-foot lateral jump in the first stage; the stages are R2-ATH-03');
+  // R5-ATH-11 (no hard cardio the day before top-speed sprints or the week's heavy deadlift)
+  confirm(R0.conditioning.s6 && R0.conditioning.s6.hard_eve, 'R5-ATH-11', 'the hard interval colour is never the day before top-speed sprints or the week\'s heavy hinge');
+  // R5-CLS-06 (the bootcamp cardio station is plain cardio by default; a swing or slam is a swap)
+  confirm(R0.selection.s6 && R0.selection.s6.circuit_cardio_first, 'R5-CLS-06', 'the bootcamp cardio station takes plain cardio first; a KB swing or a ball slam is a swap the person can choose');
   // R5-ATH-02: athletic doses may hold up to 2 weeks, as long as they reach the block's final number
   R0.athletic.v7 = {
     hold: { max_hold_weeks: 2, families: { jumps: ['plyo_contacts', 'jump_contacts'], throws: ['throws'], cuts: ['cod_cuts'], sprint: ['sprint_m'] },
@@ -280,7 +307,7 @@ export function amendRulesV07(rules) {
   };
   // R5-GRD-05: the bootcamp varies its format (station by station = his 'horizontal', in rounds = his 'vertical' circuits)
   R0.supersets.v7 = {
-    bootcamp_format: { families: ['fat_loss_bootcamp'], formats: ['rounds', 'stations'], split: 'alternate_days_flip_each_block',
+    bootcamp_format: { families: ['fat_loss_bootcamp'], formats: ['rounds', 'stations'], split: 'alternate_days_flip_each_block', key: 'warning.bootcamp_format',
       refs: ['R5-GRD-05', 'PRG-03'], status: 'approved (COACH-R5 R5-GRD-05 "vary bootcamp into circuit training not just horizontal set by set per muscle"); PROPOSED: the split - the week\'s circuit days alternate the two formats, and each exercise block swaps them' },
     refs: ['R5-GRD-05']
   };
@@ -391,20 +418,23 @@ export const UI_V07 = {
   'why.jump_progression': ['Jumps build up across the plan: two feet and low first, then higher, then one leg', 'Los saltos progresan a lo largo del plan: primero con dos pies y bajos, luego más altos y después a una pierna'],
   // R5-GRD-08
   'why.assisted_jump': ['Knee pain: your jumps start assisted, holding a support, before body-weight jumps', 'Dolor de rodilla: tus saltos empiezan asistidos, sujetándote de un apoyo, antes de los saltos con tu peso corporal'],
-  'warning.jump_pain_scale': ['Jumps and pain: skip the jumps on any day your pain is above 6 on a scale of 1 to 10 (10 = you need a hospital), and see a professional if it stays there.', 'Saltos y dolor: no hagas los saltos ningún día en que tu dolor esté por encima de 6 en una escala del 1 al 10 (10 = necesitas ir al hospital), y consulta a un profesional si se mantiene así.'],
+  'warning.jump_pain_scale': ['Jumps and pain: skip the jumps on any day your pain is above {above} on a scale of 1 to {max} ({max} = you need a hospital), and see a professional if it stays there.', 'Saltos y dolor: no hagas los saltos ningún día en que tu dolor esté por encima de {above} en una escala del 1 al {max} ({max} = necesitas ir al hospital), y consulta a un profesional si se mantiene así.'],
   'exercise.assisted-squat-jump-holding-a-support.name': ['Assisted Squat Jump (holding a rack, rail or counter)', 'Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump)'],
   'exercise.assisted-pogo-hops-holding-a-support.name': ['Assisted Pogo Hops (holding a rack, rail or counter)', 'Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)'],
   'exercise.assisted-lateral-hops-holding-a-support.name': ['Assisted Side-to-Side Hops (holding a rack, rail or counter)', 'Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops)'],
   'exercise.suspension-trainer-assisted-jump-squat.name': ['Suspension Trainer Assisted Jump Squat', 'Salto en sentadilla asistido con suspensión (TRX Assisted Jump Squat)'],
+  'exercise.two-foot-lateral-box-jump.name': ['Two-Foot Lateral Box Jump (sideways onto a low box)', 'Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)'],
   'exercise.run-wod-station.name': ['Run', 'Carrera (Run)'],
   'exercise.two-foot-lateral-jump.name': ['Two-Foot Lateral Jump (side to side over a line or a low hurdle)', 'Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)'],
   // R5-CLS-02
   'why.circuit_free_station_hips': ['No pull-up bar: this station is a hip thrust or glute bridge, so your hips get more work and pressing leads pulling by one station today', 'Sin barra de dominadas: esta estación es un empuje de cadera o un puente de glúteo, así tus caderas trabajan más y el empuje lleva una estación más que el tirón hoy'],
   // R5-GRD-05
-  'ui.plan.circuit_dose_rounds': ['In rounds: go through every station once, rest, and repeat - {rounds} rounds · {work_s} s work · {transition_s} s to change', 'En vueltas: pasa por todas las estaciones una vez, descansa y repite - {rounds} vueltas · {work_s} s de trabajo · {transition_s} s para cambiar'],
+  'ui.plan.circuit_dose_rounds': ['In rounds: go through every station once, rest, and repeat - {rounds} rounds · {work_s} s work · {transition_s} s to change', 'En rondas: pasa por todas las estaciones una vez, descansa y repite - {rounds} rondas · {work_s} s de trabajo · {transition_s} s para cambiar'],
+  'reps.sets_work': ['{rounds} sets x {work_s} s', '{rounds} series x {work_s} s'],
   'ui.plan.circuit_dose_stations': ['Station by station: do all {rounds} sets of a station ({work_s} s work, {transition_s} s rest between sets), then move to the next one', 'Estación por estación: haz las {rounds} series de una estación ({work_s} s de trabajo, {transition_s} s de descanso entre series) y luego pasa a la siguiente'],
   'note.circuit_stations': ['Station by station: {rounds} sets of {work_s} s with {transition_s} s of rest between sets, then the next station', 'Estación por estación: {rounds} series de {work_s} s con {transition_s} s de descanso entre series, luego la siguiente estación'],
-  'why.bootcamp_format': ['Your bootcamp mixes two formats: some days in rounds through all the stations, some days station by station', 'Tu bootcamp mezcla dos formatos: algunos días en vueltas por todas las estaciones y otros estación por estación'],
+  'warning.bootcamp_format': ['Your bootcamp mixes two formats: some days you go in rounds through all the stations (a circuit), other days station by station (all the sets of one station, then the next). Each circuit says which.', 'Tu bootcamp mezcla dos formatos: algunos días vas en rondas por todas las estaciones (un circuito) y otros estación por estación (todas las series de una estación y luego la siguiente). Cada circuito dice cuál.'],
+  'why.bootcamp_format': ['Your bootcamp mixes two formats: some days in rounds through all the stations, some days station by station', 'Tu bootcamp mezcla dos formatos: algunos días en rondas por todas las estaciones y otros estación por estación'],
   // R5-GRD-04
   'note.wod_named_girl': ['Today\'s WOD is "{name}", a "Girl" benchmark workout from the CrossFit community, scaled for you. Write down your time or rounds: you will meet it again.', 'El WOD de hoy es "{name}", un entrenamiento de referencia "Girl" de la comunidad CrossFit, adaptado para ti. Anota tu tiempo o tus rondas: lo volverás a hacer.'],
   'note.wod_named_hero': ['Today\'s WOD is "{name}", a "Hero" workout from the CrossFit community (one a block), scaled for you. Pace it; split the reps as you need.', 'El WOD de hoy es "{name}", un entrenamiento "Hero" de la comunidad CrossFit (uno por bloque), adaptado para ti. Dosifícalo y divide las repeticiones como necesites.'],

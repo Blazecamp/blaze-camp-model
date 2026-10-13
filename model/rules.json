@@ -3201,9 +3201,10 @@
     "lighter_by": 1,
     "keep_sets": 2,
     "refs": [
-     "R2-ATH-07"
+     "R2-ATH-07",
+     "R5-ATH-05"
     ],
-    "status": "PROPOSED (fix round 1)"
+    "status": "approved (COACH-R5 R5-ATH-05): the session on the eve of a game is the lighter one"
    },
    "keep_climb_when_capped": true,
    "bonus_from_block_start": true,
@@ -7346,10 +7347,11 @@
     "heavy_hinge": true,
     "refs": [
      "ORD-03",
+     "R2-ATH-07",
      "R2-SES-06",
-     "R2-ATH-07"
+     "R5-ATH-11"
     ],
-    "status": "PROPOSED: the hard interval colour is never the day before top-speed sprints or the week's heavy hinge"
+    "status": "approved (COACH-R5 R5-ATH-11): the hard interval colour is never the day before top-speed sprints or the week's heavy hinge"
    },
    "refs": [
     "R3-ATH-05",
@@ -11635,10 +11637,11 @@
      "chest-supported-row"
     ],
     "refs": [
+     "PER-04",
      "R4-LIB-01",
-     "PER-04"
+     "R5-LIB-01"
     ],
-    "status": "PROPOSED pending the coach's answer (STATUS open question 8): reference-tab rows as picks only when the kit holds no library two-arm row"
+    "status": "approved (COACH-R5 R5-LIB-01): in a small kit with no library two-arm row the two-arm bent-over DB row and the chest-supported DB row are regular picks"
    }
   },
   "s6": {
@@ -11674,12 +11677,13 @@
      "bonus": 8
     },
     "refs": [
-     "R2-ATH-03",
-     "CAT-13",
      "CAT-10",
+     "CAT-13",
+     "R2-ATH-03",
+     "R5-ATH-10",
      "UNI-12"
     ],
-    "status": "approved stages (R2-ATH-03); PROPOSED: the per-day single-leg / lateral station and its weight"
+    "status": "approved (COACH-R5 R5-ATH-10): a cutting sport holds a single-leg or lateral jump every training day, a two-foot lateral jump in the first stage; the stages are R2-ATH-03"
    },
    "olympic_safe": {
     "when_pain": true,
@@ -11696,11 +11700,12 @@
      "L1"
     ],
     "refs": [
-     "EQ-03",
      "ATH-10",
-     "R3-ATH-02"
+     "EQ-03",
+     "R3-ATH-02",
+     "R5-ATH-09"
     ],
-    "status": "approved rule (EQ-03, ATH-10); PROPOSED: the play-day threshold (3, the heavy play week of R3-ATH-05)"
+    "status": "approved (COACH-R5 R5-ATH-09): KB swing or DB / KB high pull instead of snatches and barbell cleans with pain, 3 or more play days a week, or a 50+ racket player"
    },
    "block_change": {
     "keep_upper_laterality_skeleton_prefixes": [
@@ -11725,11 +11730,12 @@
     "bucket": "COND_CIRCUIT",
     "ballistic_penalty": -14,
     "refs": [
-     "PRG-03",
      "OT06",
-     "R4-SES-05"
+     "PRG-03",
+     "R4-SES-05",
+     "R5-CLS-06"
     ],
-    "status": "OBSERVED station (his OPTION 2 Cardio slot); PROPOSED: the weight"
+    "status": "approved (COACH-R5 R5-CLS-06): the bootcamp cardio station takes plain cardio first; a KB swing or a ball slam is a swap the person can choose"
    },
    "arm_slot": {
     "every_athletic_day": true,
@@ -11771,6 +11777,10 @@
      "RP_BHD",
      "RP_VPULL",
      "RP_UKD"
+    ],
+    "chest_shoulders_skeletons": [
+     "athletic_FB1",
+     "gym_FB1"
     ],
     "refs": [
      "R5-GEN-01",
@@ -11820,6 +11830,7 @@
     "cap_offset": 1,
     "max_level": 4,
     "over_penalty": -10,
+    "lean_penalty": -2,
     "never_first_block_re": "hurdle",
     "never_first_block_tags": [
      "hurdle_hop"
@@ -12148,6 +12159,7 @@
      "stations"
     ],
     "split": "alternate_days_flip_each_block",
+    "key": "warning.bootcamp_format",
     "refs": [
      "R5-GRD-05",
      "PRG-03"

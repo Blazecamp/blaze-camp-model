@@ -12,13 +12,13 @@
    "synthesis/12_volume_algorithm_v1.json v1.1"
   ],
   "counts": {
-   "exercises": 739,
+   "exercises": 740,
    "dropped": 208,
    "templates": 30,
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2808,
+   "en_keys": 2811,
    "es_missing": 795
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -45,7 +45,7 @@
   ],
   "default_lang": "en",
   "counts": {
-   "exercises": 739,
+   "exercises": 740,
    "templates": 30,
    "profiles": 127,
    "sports_in_picker": 52,
@@ -55035,6 +55035,92 @@
     "rule_refs": []
    },
    {
+    "id": "two-foot-lateral-box-jump",
+    "source_id": "two-foot-lateral-box-jump",
+    "name_key": "exercise.two-foot-lateral-box-jump.name",
+    "cue_key": null,
+    "kind": "exercise",
+    "family": "ATHLETIC",
+    "pattern": "PLYO",
+    "node": "AP.JMP.PLY",
+    "slots": [
+     "AP_PLYO"
+    ],
+    "default_in_slots": [],
+    "laterality": "bilateral",
+    "plane": "frontal",
+    "level": "foundational",
+    "zone": null,
+    "rotation_bias": null,
+    "size_class": "big",
+    "exercise_class": "athletic",
+    "counting": "contacts",
+    "credit_class": "ATHLETIC",
+    "credits": {},
+    "primary_muscle": null,
+    "equipment": {
+     "any_of": [
+      [
+       "step_low"
+      ]
+     ],
+     "machine": null
+    },
+    "constraint": 1,
+    "axial_class": "none",
+    "axial": false,
+    "spine_class": "not_counted",
+    "axial_pattern": null,
+    "skill": "low",
+    "impact": "low",
+    "load_ceiling": "low",
+    "is_athletic": true,
+    "athletic": {
+     "quality": "ballistic",
+     "contact_class": "ballistic",
+     "olympic_family": null,
+     "day_pattern": null,
+     "olympic_tier": null,
+     "full_catch": false,
+     "from_floor": false,
+     "plyo_method_default": "create_then_land",
+     "rc_stage_default": "RC1",
+     "unilateral_harder": false,
+     "loaded_jump": false,
+     "count_unit": "contacts",
+     "response": "single",
+     "upper": false,
+     "low_amplitude": false,
+     "sport_only": null,
+     "no_cuts": false,
+     "sprint_kind": null
+    },
+    "conditioning": null,
+    "medball": null,
+    "older_ok": false,
+    "older_opt_in_ok": true,
+    "youth_ok": true,
+    "tags": [],
+    "variation_axes": [
+     "range",
+     "stance"
+    ],
+    "rep_hint": {
+     "text": "4-8 jumps",
+     "unit": "contacts"
+    },
+    "video": {
+     "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+     "kind": "search"
+    },
+    "status": "live_library_selectable",
+    "sport_use": [],
+    "rule_refs": [
+     "R5-ATH-10",
+     "R5-GRD-03"
+    ]
+   },
+   {
     "id": "two-foot-lateral-jump",
     "source_id": "two-foot-lateral-jump",
     "name_key": "exercise.two-foot-lateral-jump.name",
@@ -60381,9 +60467,10 @@
      "lighter_by": 1,
      "keep_sets": 2,
      "refs": [
-      "R2-ATH-07"
+      "R2-ATH-07",
+      "R5-ATH-05"
      ],
-     "status": "PROPOSED (fix round 1)"
+     "status": "approved (COACH-R5 R5-ATH-05): the session on the eve of a game is the lighter one"
     },
     "keep_climb_when_capped": true,
     "bonus_from_block_start": true,
@@ -64526,10 +64613,11 @@
      "heavy_hinge": true,
      "refs": [
       "ORD-03",
+      "R2-ATH-07",
       "R2-SES-06",
-      "R2-ATH-07"
+      "R5-ATH-11"
      ],
-     "status": "PROPOSED: the hard interval colour is never the day before top-speed sprints or the week's heavy hinge"
+     "status": "approved (COACH-R5 R5-ATH-11): the hard interval colour is never the day before top-speed sprints or the week's heavy hinge"
     },
     "refs": [
      "R3-ATH-05",
@@ -68815,10 +68903,11 @@
       "chest-supported-row"
      ],
      "refs": [
+      "PER-04",
       "R4-LIB-01",
-      "PER-04"
+      "R5-LIB-01"
      ],
-     "status": "PROPOSED pending the coach's answer (STATUS open question 8): reference-tab rows as picks only when the kit holds no library two-arm row"
+     "status": "approved (COACH-R5 R5-LIB-01): in a small kit with no library two-arm row the two-arm bent-over DB row and the chest-supported DB row are regular picks"
     }
    },
    "s6": {
@@ -68854,12 +68943,13 @@
       "bonus": 8
      },
      "refs": [
-      "R2-ATH-03",
-      "CAT-13",
       "CAT-10",
+      "CAT-13",
+      "R2-ATH-03",
+      "R5-ATH-10",
       "UNI-12"
      ],
-     "status": "approved stages (R2-ATH-03); PROPOSED: the per-day single-leg / lateral station and its weight"
+     "status": "approved (COACH-R5 R5-ATH-10): a cutting sport holds a single-leg or lateral jump every training day, a two-foot lateral jump in the first stage; the stages are R2-ATH-03"
     },
     "olympic_safe": {
      "when_pain": true,
@@ -68876,11 +68966,12 @@
       "L1"
      ],
      "refs": [
-      "EQ-03",
       "ATH-10",
-      "R3-ATH-02"
+      "EQ-03",
+      "R3-ATH-02",
+      "R5-ATH-09"
      ],
-     "status": "approved rule (EQ-03, ATH-10); PROPOSED: the play-day threshold (3, the heavy play week of R3-ATH-05)"
+     "status": "approved (COACH-R5 R5-ATH-09): KB swing or DB / KB high pull instead of snatches and barbell cleans with pain, 3 or more play days a week, or a 50+ racket player"
     },
     "block_change": {
      "keep_upper_laterality_skeleton_prefixes": [
@@ -68905,11 +68996,12 @@
      "bucket": "COND_CIRCUIT",
      "ballistic_penalty": -14,
      "refs": [
-      "PRG-03",
       "OT06",
-      "R4-SES-05"
+      "PRG-03",
+      "R4-SES-05",
+      "R5-CLS-06"
      ],
-     "status": "OBSERVED station (his OPTION 2 Cardio slot); PROPOSED: the weight"
+     "status": "approved (COACH-R5 R5-CLS-06): the bootcamp cardio station takes plain cardio first; a KB swing or a ball slam is a swap the person can choose"
     },
     "arm_slot": {
      "every_athletic_day": true,
@@ -68951,6 +69043,10 @@
       "RP_BHD",
       "RP_VPULL",
       "RP_UKD"
+     ],
+     "chest_shoulders_skeletons": [
+      "athletic_FB1",
+      "gym_FB1"
      ],
      "refs": [
       "R5-GEN-01",
@@ -69000,6 +69096,7 @@
      "cap_offset": 1,
      "max_level": 4,
      "over_penalty": -10,
+     "lean_penalty": -2,
      "never_first_block_re": "hurdle",
      "never_first_block_tags": [
       "hurdle_hop"
@@ -69328,6 +69425,7 @@
       "stations"
      ],
      "split": "alternate_days_flip_each_block",
+     "key": "warning.bootcamp_format",
      "refs": [
       "R5-GRD-05",
       "PRG-03"
@@ -158454,6 +158552,7 @@
    "exercise.trx-row-suspension-row.name": "TRX Row (suspension row)",
    "exercise.tuck-jumps.name": "Tuck Jumps",
    "exercise.turkish-get-ups.name": "Turkish Get-Ups",
+   "exercise.two-foot-lateral-box-jump.name": "Two-Foot Lateral Box Jump (sideways onto a low box)",
    "exercise.two-foot-lateral-jump.name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)",
    "exercise.unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box.name": "Unilateral Hop On To (single-leg hop onto a plate/low box)",
    "exercise.unilateral-repeat-hops-single-leg-continuous-pogo-hops.name": "Unilateral Repeat Hops (single-leg continuous pogo hops)",
@@ -159163,6 +159262,7 @@
    "reps.rounds": "{n} rounds",
    "reps.rounds_work": "{rounds} rounds x {work_s} s",
    "reps.seconds": "{min}-{max} s",
+   "reps.sets_work": "{rounds} sets x {work_s} s",
    "reps.sprint_reps": "{reps} x {m} m",
    "reps.throws_per_side": "{n} per side",
    "rest.after_group": "rest after the last exercise of the group",
@@ -159759,6 +159859,7 @@
    "warning.athletic_capacity_list": "This template holds part of your sport's weekly athletic work ({list}): the work still climbs across the block. Add a station or a day if you want the full dose.",
    "warning.athletic_capacity_list_activity": "This template holds part of this plan's weekly athletic work ({list}): the work still climbs across the block. Add a station or a day if you want the full dose.",
    "warning.below_floor_template": "{group}: this template holds {held} weekly sets, below {floor}. Add an exercise or a training day if you want more.",
+   "warning.bootcamp_format": "Your bootcamp mixes two formats: some days you go in rounds through all the stations (a circuit), other days station by station (all the sets of one station, then the next). Each circuit says which.",
    "warning.calves_per_leg_day": "Calves get 3-4 sets on each leg day; a third leg day or the optional calves slot brings them to 10 a week.",
    "warning.capped_by_template": "{group}: this template holds {held} weekly sets, below the planned {planned}. Add an exercise if you want more.",
    "warning.checkin_retired": "Weekly check-ins are retired: your whole plan is built once, with its stairway, and you adjust it yourself.",
@@ -159768,7 +159869,7 @@
    "warning.credit_only_groups_lifts": "Trained through your compound lifts (no extra sets of their own): {group}.",
    "warning.floor_needs_optional_day": "{group}: your training days hold {held} weekly sets; the optional day takes it to {floor} or more. Do the optional day, or add a set to a training day.",
    "warning.heavy_play": "{n} play sessions a week: we halved the jumps and dropped the extra agility drills",
-   "warning.jump_pain_scale": "Jumps and pain: skip the jumps on any day your pain is above 6 on a scale of 1 to 10 (10 = you need a hospital), and see a professional if it stays there.",
+   "warning.jump_pain_scale": "Jumps and pain: skip the jumps on any day your pain is above {above} on a scale of 1 to {max} ({max} = you need a hospital), and see a professional if it stays there.",
    "warning.l3_rule": "Level L3 comes from a PROPOSED rule (3+ years and 4+ days a week)",
    "warning.laterality_capped": "Two-leg lifts are about {share} % of your lower-body lifting sets (your sport's guide is about {target} %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.",
    "warning.no_vertical_pull": "With this equipment the plan has no vertical pull (pull-up or pulldown): its place is taken by a row or a rear-delt fly. A pull-up bar, a cable or a TRX would add it.",
@@ -160550,6 +160651,7 @@
    "exercise.table-row-inverted-row-under-a-sturdy-table.name": "Remo bajo una mesa (Table Row)",
    "exercise.tibialis-raise-back-against-a-wall.name": "Elevación de tibial contra la pared (Tibialis Raise)",
    "exercise.toes-to-bar-hanging.name": "Pies a la barra (Toes-to-Bar)",
+   "exercise.two-foot-lateral-box-jump.name": "Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)",
    "exercise.two-foot-lateral-jump.name": "Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)",
    "exercise.walking-lunge.name": "Zancadas caminando (Walking Lunge)",
    "exercise.wall-ball-medball-squat-to-target.name": "Lanzamiento a la pared con balón (Wall Ball)",
@@ -161183,6 +161285,7 @@
    "reps.rounds": "{n} rondas",
    "reps.rounds_work": "{rounds} rondas x {work_s} s",
    "reps.seconds": "{min}-{max} s",
+   "reps.sets_work": "{rounds} series x {work_s} s",
    "reps.sprint_reps": "{reps} x {m} m",
    "reps.throws_per_side": "{n} por lado",
    "rest.after_group": "descansa después del último ejercicio del grupo",
@@ -161567,7 +161670,7 @@
    "ui.plan.circuit_climb_note_v6": "Series del circuito = rondas x estaciones: {rounds}. El tiempo de trabajo por estación sube {when}.",
    "ui.plan.circuit_climb_note_v6_flat": "Series del circuito = rondas x estaciones: {rounds}. El tiempo de trabajo por estación se mantiene en {s} s.",
    "ui.plan.circuit_dose": "{rounds} rondas · {work_s} s de trabajo · {transition_s} s para cambiar",
-   "ui.plan.circuit_dose_rounds": "En vueltas: pasa por todas las estaciones una vez, descansa y repite - {rounds} vueltas · {work_s} s de trabajo · {transition_s} s para cambiar",
+   "ui.plan.circuit_dose_rounds": "En rondas: pasa por todas las estaciones una vez, descansa y repite - {rounds} rondas · {work_s} s de trabajo · {transition_s} s para cambiar",
    "ui.plan.circuit_dose_stations": "Estación por estación: haz las {rounds} series de una estación ({work_s} s de trabajo, {transition_s} s de descanso entre series) y luego pasa a la siguiente",
    "ui.plan.circuit_work": "Trabajo en circuito: {rounds} vueltas x {stations} estaciones x {work_s} s = {minutes} min de trabajo",
    "ui.plan.coach_bypass_stamp": "Creado por un entrenador que evalúa a sus clientes con su propio proceso",
@@ -161779,6 +161882,7 @@
    "warning.athletic_capacity_list": "Esta plantilla cubre una parte del trabajo atlético semanal de tu deporte ({list}): el trabajo igual sube a lo largo del bloque. Agrega una estación o un día si quieres la dosis completa.",
    "warning.athletic_capacity_list_activity": "Esta plantilla cubre una parte del trabajo atlético semanal de este plan ({list}): el trabajo igual sube a lo largo del bloque. Agrega una estación o un día si quieres la dosis completa.",
    "warning.below_floor_template": "{group}: esta plantilla alcanza {held} series semanales, menos de {floor}. Agrega un ejercicio o un día de entrenamiento si quieres más.",
+   "warning.bootcamp_format": "Tu bootcamp mezcla dos formatos: algunos días vas en rondas por todas las estaciones (un circuito) y otros estación por estación (todas las series de una estación y luego la siguiente). Cada circuito dice cuál.",
    "warning.calves_per_leg_day": "Las pantorrillas reciben 3-4 series cada día de piernas; un tercer día de piernas o el espacio opcional de pantorrillas las lleva a 10 por semana.",
    "warning.capped_by_template": "{group}: esta plantilla alcanza {held} series semanales, menos que las {planned} planeadas. Agrega un ejercicio si quieres más.",
    "warning.checkin_retired": "Los seguimientos semanales se retiraron: tu plan completo se arma una vez, con su escalera, y tú lo ajustas.",
@@ -161788,7 +161892,7 @@
    "warning.credit_only_groups_lifts": "Se entrenan con tus ejercicios compuestos (sin series extra propias): {group}.",
    "warning.floor_needs_optional_day": "{group}: tus días de entrenamiento alcanzan {held} series semanales; el día opcional las lleva a {floor} o más. Haz el día opcional o agrega una serie en un día de entrenamiento.",
    "warning.heavy_play": "{n} sesiones de juego por semana: redujimos los saltos a la mitad y quitamos la agilidad extra",
-   "warning.jump_pain_scale": "Saltos y dolor: no hagas los saltos ningún día en que tu dolor esté por encima de 6 en una escala del 1 al 10 (10 = necesitas ir al hospital), y consulta a un profesional si se mantiene así.",
+   "warning.jump_pain_scale": "Saltos y dolor: no hagas los saltos ningún día en que tu dolor esté por encima de {above} en una escala del 1 al {max} ({max} = necesitas ir al hospital), y consulta a un profesional si se mantiene así.",
    "warning.l3_rule": "El nivel L3 viene de una regla PROPUESTA (3+ años y 4+ días por semana)",
    "warning.laterality_capped": "Los ejercicios a dos piernas son cerca del {share} % de tus series de tren inferior (la guía de tu deporte es cerca del {target} %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.",
    "warning.no_vertical_pull": "Con este equipo el plan no tiene jalón vertical (dominada o jalón en polea): un remo o una apertura posterior ocupa su lugar. Una barra de dominadas, una polea o un TRX lo agregarían.",
@@ -161839,7 +161943,7 @@
    "why.bonus": "Ejercicio extra: no había espacio en su día",
    "why.bonus_main_day": "Series extra de {group}: un ejercicio extra corto al final de un día de entrenamiento que ya lo trabaja (ningún día opcional puede llevarlo)",
    "why.bonus_optional_day": "Ejercicio extra en el día opcional: los días principales no alcanzan para todas las series semanales de este grupo",
-   "why.bootcamp_format": "Tu bootcamp mezcla dos formatos: algunos días en vueltas por todas las estaciones y otros estación por estación",
+   "why.bootcamp_format": "Tu bootcamp mezcla dos formatos: algunos días en rondas por todas las estaciones y otros estación por estación",
    "why.buyout": "El buy-out es un cierre corto de acondicionamiento, nunca un sprint después de pesas pesadas",
    "why.calves_leg_day": "3 series de pantorrilla cada día de pierna",
    "why.capped_by_template": "Los ejercicios de la plantilla alcanzan menos series semanales que las planeadas para este grupo",

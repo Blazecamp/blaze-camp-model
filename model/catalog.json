@@ -55082,6 +55082,92 @@
    "rule_refs": []
   },
   {
+   "id": "two-foot-lateral-box-jump",
+   "source_id": "two-foot-lateral-box-jump",
+   "name_key": "exercise.two-foot-lateral-box-jump.name",
+   "cue_key": null,
+   "kind": "exercise",
+   "family": "ATHLETIC",
+   "pattern": "PLYO",
+   "node": "AP.JMP.PLY",
+   "slots": [
+    "AP_PLYO"
+   ],
+   "default_in_slots": [],
+   "laterality": "bilateral",
+   "plane": "frontal",
+   "level": "foundational",
+   "zone": null,
+   "rotation_bias": null,
+   "size_class": "big",
+   "exercise_class": "athletic",
+   "counting": "contacts",
+   "credit_class": "ATHLETIC",
+   "credits": {},
+   "primary_muscle": null,
+   "equipment": {
+    "any_of": [
+     [
+      "step_low"
+     ]
+    ],
+    "machine": null
+   },
+   "constraint": 1,
+   "axial_class": "none",
+   "axial": false,
+   "spine_class": "not_counted",
+   "axial_pattern": null,
+   "skill": "low",
+   "impact": "low",
+   "load_ceiling": "low",
+   "is_athletic": true,
+   "athletic": {
+    "quality": "ballistic",
+    "contact_class": "ballistic",
+    "olympic_family": null,
+    "day_pattern": null,
+    "olympic_tier": null,
+    "full_catch": false,
+    "from_floor": false,
+    "plyo_method_default": "create_then_land",
+    "rc_stage_default": "RC1",
+    "unilateral_harder": false,
+    "loaded_jump": false,
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
+   },
+   "conditioning": null,
+   "medball": null,
+   "older_ok": false,
+   "older_opt_in_ok": true,
+   "youth_ok": true,
+   "tags": [],
+   "variation_axes": [
+    "range",
+    "stance"
+   ],
+   "rep_hint": {
+    "text": "4-8 jumps",
+    "unit": "contacts"
+   },
+   "video": {
+    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+    "kind": "search"
+   },
+   "status": "live_library_selectable",
+   "sport_use": [],
+   "rule_refs": [
+    "R5-ATH-10",
+    "R5-GRD-03"
+   ]
+  },
+  {
    "id": "two-foot-lateral-jump",
    "source_id": "two-foot-lateral-jump",
    "name_key": "exercise.two-foot-lateral-jump.name",

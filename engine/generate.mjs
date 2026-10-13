@@ -1323,6 +1323,14 @@ function buildMeta(C, v, weeks = []) {
     const jumps = painJ && weeks.some(w => (w.days || []).some(dd => (dd.blocks || []).some(b => (b.items || []).some(it => ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(it.bucket) && it.exercise_id && !(it.athletic && it.athletic.key === 'upper_contacts')))));
     if (jumps && model.has('en', JW.key)) pushW({ code: 'jump_pain_scale', key: JW.key, args: { above: JW.above, max: JW.scale_max } });
   }
+  // engine 0.7 (COACH-R5 R5-GRD-05 'vary bootcamp into circuit training not just horizontal set by set'): a plan whose circuit days use
+  // both formats says so once up front (each circuit then prints its own format line)
+  {
+    const BF = model.rules.supersets.v7 && model.rules.supersets.v7.bootcamp_format;
+    const fmts = new Set();
+    if (BF && BF.key) for (const w of weeks) for (const dd of w.days || []) for (const b of dd.blocks || []) for (const it of b.items || []) if (it.circuit && it.circuit.format) fmts.add(it.circuit.format);
+    if (fmts.size > 1 && model.has('en', BF.key)) pushW({ code: 'bootcamp_format', key: BF.key });
+  }
   // v0.5 fix round 2 (samples 02 / 03; UNI-02 / UNI-03 against R4-SES-05 - 'the plan never says the dial was missed'): one line when
   // the two-leg share of the lower-body lifting sets ends more than 10 points above the sport's guide
   {
