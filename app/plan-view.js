@@ -277,7 +277,7 @@ export function dayCard(plan, model, lang, n, weekday) {
 
   const buildItem = (pi, it, compact) => {
     const s = splitItemLine(pi.line, model, lang, compact);
-    const row = { ...s, progress: [], notes: [], cue: [], swaps: [], video: null, copy_name: null, badge: null, sets: null, exercise_id: null, md_swaps: null, md_video: null };
+    const row = { ...s, progress: [], notes: [], cue: [], swaps: [], video: null, copy_name: null, badge: null, sets: null, exercise_id: null, slot_id: null, edited: false, md_swaps: null, md_video: null };
     for (const det of pi.details) {
       const txt = det.text;
       if (det.quote) { row.cue.push(txt); continue; }
@@ -299,6 +299,8 @@ export function dayCard(plan, model, lang, n, weekday) {
         if (k >= 0) { row.meta.splice(k, 1); row.effort_full = full; }
       }
       row.exercise_id = it.exercise_id || null;
+      row.slot_id = it.slot_id || null;
+      row.edited = !!it.edited;
       row.sets = typeof it.sets === 'number' ? it.sets : null;
       row.badge = changeBadge(plan, n, weekday, it);
       row.swaps = (it.swaps || []).filter(id => model.hasEx(id)).map(id => {
@@ -331,6 +333,7 @@ export function dayCard(plan, model, lang, n, weekday) {
     card.blocks.push({
       title: pb.title, intro: pb.intro, kind: jb ? jb.b.kind : null,
       optional: !!(jb && jb.b.kind === 'core'),
+      on: !(jb && jb.b.on === false), toggle: !!(jb && jb.b.toggle),
       items: pb.items.map((pi, j) => buildItem(pi, jb ? jb.list[j] : null, false))
     });
   });

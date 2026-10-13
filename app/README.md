@@ -73,6 +73,49 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
        this plan* and *Optional add-ons*.
      * The full release line.
 
+## Editing
+
+The plan is an editable template (COACH-CX CX-02 / CX-04: "it should be all editable as they need to"; R4-SES-04: the person picks
+what to keep or take away). Everything happens on the day card, in a tap or two, phone first:
+
+* **▶ beside every exercise** (no need to open the row): the YouTube search for that exercise's exact name (the item's own
+  `video` link, R4-LIB-05: a search, never a third-party video), in a new tab or the YouTube app. Label "Watch videos of
+  <name>" / "Ver videos de <name>"; a 44 px tap target that does not open or close the row. After a swap or an add it searches
+  the new exercise. Left out of the saved image, the print and the PDF table.
+
+* **Tap an exercise row.** Under it, before the details:
+  * **Sets − n +**: one set less or more in the shown week *and every later week* that holds the same exercise in that line, each
+    week from its own number (the stairway keeps its shape). Never under 1 set. Above the usual top for one exercise
+    (`rules.placement.max_sets_per_exercise`) is allowed and shown as an info line.
+  * **⇄ Swap**: the row's library swaps, each with its one line on what it keeps and what it loses (R4-LIB-04). A tap puts it in
+    that line in every week that holds the same exercise: same sets, reps, effort, rest, block and position. The swap list then
+    offers the original first, so a swap is easy to take back.
+  * **✕ Remove**: the exercise leaves that day in every week that holds it. Allowed for any line, the core and the main lifts
+    too (the person owns the plan); the day tips still name what is easiest to remove.
+* **Block switch** on a block's header (the blocks the engine marks switchable: core, jumps / throws, power, accessories, joint
+  care ...): **On / Off** for that day in every week. A block that is off stays on the card, dimmed, marked "(switched off)".
+* **＋ Add exercise** under the card: the plan's own suggested add-ons, or a search over the exercise library (accents ignored).
+  The list holds only exercises that fit the plan's equipment and age (60+: never the never-list, H12; under 18: youth-suitable),
+  optional add-ons included (R4-LIB-01), never a proposed record or neck work, never a band, chain or releaser (H01), no medball
+  in a physique plan (H11). Choose the block (default: the exercise's usual block) and the sets (default 3); it goes on that day
+  in every week, with the dose the day already uses for that kind of exercise.
+* **Edited**: once edited, the plan's name carries an *Edited* badge and a strip above the card has **↶ Undo last** and **Undo
+  all** (back to the generated plan). The strip also lists, as short information, what the edits changed against the plan's own
+  shape, e.g. "This week: Back: 12 sets (plan: 16) · also weeks 2-4" (`applyPlanEdits` conflicts that the generated plan did not
+  already have). The edit is always made (CX-04).
+* The week totals, the Progress tab, *Save image*, *Download PDF* (its cover says *Edited*) and *Print* all use the edited plan.
+  The buttons never show in the saved image or the print.
+* Edits live in page memory only: never stored, never sent (R3-GEN-01). *New plan* or closing the page drops them.
+
+How: `edit-ui.js` (pure) turns a tap into engine edits; `main.js` sends them with the current plan to the worker
+(`{type:'edit'}`, else the main thread), which runs `engine/edit.mjs > applyPlanEdits` (ops `set_sets`, `remove_exercise`,
+`add_exercise`, `set_block`, and `swap_exercise`, added for this: engine/DECISIONS.md G-312). Each tap is one step in the
+history; Undo pops a step. Generated plans are unchanged (the engine version is unchanged: edits are not generation).
+
+Not built yet: the person's own exercise (COACH-CH6 CH6-02: a free name and one muscle question, labelled "your exercise: not
+checked by Blaze Camp rules"). It needs an engine op that adds a line without a catalog record and its credit rules; it is left
+for a separate change.
+
 ## How it maps to the engine
 
 * `intake-builder.js > buildIntake(answers)` writes one `intake/2` object using exactly the engine's field names and values
@@ -97,6 +140,7 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
 | `main.js` | the page: wizard, build, plan view, save image, print, keys and swipe |
 | `worker.js`, `model-loader.js` | the build off the main thread; fetching and loading `model/*.json` |
 | `intake-builder.js`, `plan-view.js`, `md.js`, `i18n.js` | pure modules (no DOM), tested by `tests/app.test.mjs` |
+| `edit-ui.js` | editing (pure): the engine edits a tap makes, the Add exercise library and search, undo history, info lines; tested by `tests/app-edit.test.mjs` |
 | `snapshot.js` | *Save image*: the day card as a PNG |
 | `pdf.js` | *Download PDF*: `pdfDoc` (the PDF's words, pure) and `drawPdf` (the layout, given jsPDF), tested by `tests/app-pdf.test.mjs` |
 | `deliver.js` | hands the PDF / PNG over: share sheet, the fallback sheet, download; the toast |
@@ -122,6 +166,8 @@ node --test tests/app-pdf.test.mjs        # the PDF from 3 sample plans (EN / ES
                                           # every page, page numbers, size; the iPhone / Android / desktop checks
 node --test tests/app-brand.test.mjs      # both brands complete, Son Hábitos opens in Spanish, the legal party wording EN / ES,
                                           # both built sites (no other brand's name on the Son Hábitos site), a Son Hábitos PDF
+node --test tests/app-edit.test.mjs tests/edit-swap.test.mjs   # editing: the edits each tap makes, the Add library (kit, age,
+                                          # no proposed / neck / bands), info lines EN / ES, undo; the engine's swap_exercise (G-312)
 node --test tests/app.test.mjs            # wizard answers -> valid intake/2 (700+ combinations, every sport and activity, pain,
                                           # health, coach mode, the release gate), UI words EN = ES, the view model, the build
 node tools/check-model.mjs
@@ -140,6 +186,9 @@ node tools/app-qa/extra.mjs     # save image, keys, print to PDF, under the prod
 node tools/app-qa/pdf.mjs       # Download PDF and Save image on 3 plans (08 ES, 07 EN, 05 ES) under the production CSP: desktop
                                 # download; iPhone with a mocked share sheet (also a slow network and a refused share); iPhone
                                 # without it (the fallback sheet, Open PDF); each PDF checked (%PDF, pages, size, text with pypdf)
+node tools/app-qa/edit.mjs      # editing at 390x844 under the production CSP, EN and ES: sets + / -, swap, remove, a block off and
+                                # on, add from the search, Progress, PDF (says Edited, names the swap) and image, Undo last / all;
+                                # screenshots phone-<lang>-7-edit / 7b-swap / 7c-add (BC_SHOTS_DIR=app/screenshots/sonhabitos/)
 # the Son Hábitos build (served on its own port): the same qa.mjs, then
 BC_PDF_PREFIX=Son-Habitos-plan BC_FORBID_NAMES=1 node tools/app-qa/pdf.mjs   # + no other brand's name in the PDF text
 node tools/app-qa/brand-shots.mjs  # opens in Spanish, a saved choice wins; every screen checked for raw keys and other-brand

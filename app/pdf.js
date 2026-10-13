@@ -96,7 +96,8 @@ export function pdfDoc(plan, model, lang, ui0, brand = BRAND) {
   const doc = {
     lang,
     title: txt(sm.program),
-    subtitle: txt([sm.who || sm.goal, ui('plan.days', { n: sm.days }), ui('plan.weeks', { n: sm.weeks })].filter(Boolean).join(' · ')),
+    // (an edited plan says so on its cover: the person's own changes, CX-04)
+    subtitle: txt([sm.who || sm.goal, ui('plan.days', { n: sm.days }), ui('plan.weeks', { n: sm.weeks }), plan.edited ? ui('edit.edited') : ''].filter(Boolean).join(' · ')),
     glance: mdLines(V.headerMd(plan, model, lang, overview)),
     health: lg.health ? txt([lg.health.label, lg.health.why, lg.health.line].filter(Boolean).join(' ')) : '',
     health_short: lg.health ? txt(lg.health.short || lg.health.line) : '',

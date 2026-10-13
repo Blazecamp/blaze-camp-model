@@ -8,6 +8,7 @@ import { BRAND } from './brand.js';
 import { brandUi, brandLang, brandRaw, hasBrandWord } from './brand-apply.js';
 import * as B from './intake-builder.js';
 import * as V from './plan-view.js';
+import * as E from './edit-ui.js';
 import { markdown, inline, escapeHtml as h, stripMarkers, plain } from './md.js';
 import { fetchModel } from './model-loader.js';
 import { nodeToPng } from './snapshot.js';
@@ -32,6 +33,8 @@ const S = {
   step: 0,
   q: '',                       // the sport / activity search
   plan: null, ms: null, week: 1, day: null, tab: 'day', open: new Set(), cache: {},
+  // editing (app/edit-ui.js; COACH-CX CX-02 / CX-04): the generated plan and the person's steps, in page memory only (R3-GEN-01)
+  hist: null, baseKeys: null, busy: false, swapOpen: null, adding: null, addq: '', addBlock: null, addSets: 3, pool: {},
   errors: [], buildId: 0, buildTimer: null, buildStarted: 0
 };
 const t = (k, a) => UI(S.lang, k, a);
@@ -54,7 +57,7 @@ function startWorker() {
       const p = pending.get(m.id);
       if (!p) return;
       pending.delete(m.id);
-      if (m.type === 'plan') p.resolve(m); else p.reject(new Error(m.message || 'worker'));
+      if (m.type === 'plan' || m.type === 'edited') p.resolve(m); else p.reject(new Error(m.message || 'worker'));
     };
     worker.onerror = (e) => { if (e && e.preventDefault) e.preventDefault(); dropWorker(); };
   } catch { worker = null; }
@@ -81,6 +84,21 @@ async function generatePlan(intake) {
   return new Promise((resolve, reject) => {
     pending.set(id, { resolve, reject, fallback: () => local().then(resolve, reject) });
     worker.postMessage({ type: 'generate', id, intake });
+  });
+}
+
+/** apply the person's edits: in the worker (the page stays responsive), else here (engine/edit.mjs) */
+async function editPlan(plan, edits, base) {
+  const id = ++S.buildId;
+  const local = async () => {
+    const { applyPlanEdits } = await import('../engine/edit.mjs');
+    const res = applyPlanEdits(plan, edits, S.model);
+    return { plan: res.plan, conflicts: res.conflicts, base_conflicts: base ? applyPlanEdits(plan, [], S.model).conflicts : null };
+  };
+  if (!worker) return local();
+  return new Promise((resolve, reject) => {
+    pending.set(id, { resolve, reject, fallback: () => local().then(resolve, reject) });
+    worker.postMessage({ type: 'edit', id, plan, edits, base: !!base });
   });
 }
 
@@ -455,6 +473,7 @@ function showPlan(plan, ms) {
     S.screen = 'invalid'; render(); return;
   }
   S.plan = plan; S.ms = ms; S.cache = {}; S.open = new Set();
+  S.hist = E.newHistory(plan); S.baseKeys = null; S.pool = {}; S.swapOpen = null; S.adding = null; S.addq = ''; S.busy = false;
   S.week = 1; S.day = V.firstDay(plan, 1); S.tab = 'day';
   S.screen = 'plan';
   window.__bcLastBuildMs = ms;
@@ -479,7 +498,8 @@ function renderPlanScreen() {
   const sm = V.summary(plan, S.model, S.lang);
   const sub = [sm.who || sm.goal, t('plan.days', { n: sm.days }), t('plan.weeks', { n: sm.weeks })].filter(Boolean).join(' · ');
   // one row: the plan's name and the Plan | Progress tabs (New plan sits with the actions under the card)
-  const top = `<div class="plan-bar"><div class="plan-sum"><div class="p">${h(sm.program)}</div><div class="s">${h(sub)}</div></div>
+  const edited = S.hist && S.hist.steps.length ? ` <span class="badge edited">✎ ${h(t('edit.edited'))}</span>` : '';
+  const top = `<div class="plan-bar"><div class="plan-sum"><div class="p">${h(sm.program)}${edited}</div><div class="s">${h(sub)}</div></div>
     <div class="tabs" role="tablist">
       <button role="tab" data-action="tab" data-value="day" aria-selected="${S.tab === 'day'}">${h(t('plan.tab.day'))}</button>
       <button role="tab" data-action="tab" data-value="progress" aria-selected="${S.tab === 'progress'}">${h(t('plan.tab.progress'))}</button></div></div>`;
@@ -513,7 +533,7 @@ function dayViewHtml() {
   const lg = V.legal(S.plan, S.model, S.lang);
   const hb = lg.health ? `<div class="banner health">${h(lg.health.short || lg.health.line)}</div>` : '';
   return `<div class="dayview"><div class="dv-side">${weekBarHtml()}${dayTabsHtml()}${hb}${notes('side')}</div>
-    <div class="dv-main">${dayCardHtml(S.week, S.day, false)}${notes('main')}
+    <div class="dv-main">${editStripHtml()}${dayCardHtml(S.week, S.day, false)}${addHtml()}${notes('main')}
     <div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button>${pdfBtn()}<button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>${printLink()}
      <p class="hint-line">${h(t('plan.tap_hint'))}<br>${h(t('plan.swipe_hint'))}</p></div></div>`;
 }
@@ -526,14 +546,15 @@ function badgeHtml(b) {
   return '';
 }
 
-function rowDetailsHtml(r) {
+function rowDetailsHtml(r, swapsInBar) {
   const P = [];
   if (r.effort_full) P.push(`<p><span class="k">${h(mt('ui.plan.effort'))}:</span> ${h(r.effort_full)}</p>`);
   for (const x of r.progress) P.push(`<p class="prog">${inline(x)}</p>`);
   if (r.superset_with) P.push(`<p><span class="k">${h(mt('ui.plan.superset_with'))}</span> ${inline(r.superset_with)}</p>`);
   if (r.notes.length) P.push('<ul>' + r.notes.map(n => `<li>${inline(n)}</li>`).join('') + '</ul>');
   for (const c of r.cue) P.push(`<p><em>${inline(c)}</em></p>`);
-  if (r.swaps.length) {
+  if (r.swaps.length && swapsInBar) { /* the edit bar's Swap button lists them, with their notes (R4-LIB-04) */ }
+  else if (r.swaps.length) {
     P.push(`<p class="k" style="margin-bottom:0">${h(mt('ui.plan.swaps'))}</p><ul>` + r.swaps.map(s => `<li><b>${h(s.name)}</b>${s.keeps ? `<span class="swap-k">${h(swapWords(s))}</span>` : ''}</li>`).join('') + '</ul>');
   } else if (r.md_swaps) P.push(`<p><span class="k">${h(mt('ui.plan.swaps'))}:</span> ${inline(r.md_swaps)}</p>`);
   if (r.video) {
@@ -550,16 +571,31 @@ function swapWords(s) {
 }
 
 /** one exercise row: two short lines (name; sets × reps · reps in the tank · rest) and, tapped, its details */
-function rowHtml(r, i, key, forPrint) {
+function rowHtml(r, i, key, forPrint, ed) {
   const open = S.open.has(key) && !forPrint;
-  const det = rowDetailsHtml(r);
-  const tags = [r.superset_tag ? `<span class="badge tag">${h(r.superset_tag)}</span>` : '', ...r.tags.map(x => `<span class="badge tag">${h(x)}</span>`), badgeHtml(r.badge)].join('');
+  const bar = ed && !forPrint ? editBarHtml(r, key, ed) : '';
+  const det = bar + rowDetailsHtml(r, !!bar);
+  const tags = [r.superset_tag ? `<span class="badge tag">${h(r.superset_tag)}</span>` : '', ...r.tags.map(x => `<span class="badge tag">${h(x)}</span>`), badgeHtml(r.badge), r.edited && !forPrint ? `<span class="badge ed" title="${h(t('edit.badge'))}" data-snap-hide>✎</span>` : ''].join('');
   const dose = r.dose_s || r.dose;
   const meta = r.meta_s || r.meta;
   const line2 = dose || meta.length ? `<span class="r2">${dose ? `<span class="dose">${inline(dose)}</span>` : ''}${meta.length ? (dose ? ' · ' : '') + meta.map(x => inline(x)).join(' · ') : ''}${r.superset_with ? ` <span class="ss">⇄</span>` : ''}</span>` : '';
   const inner = `<span class="r1"><span class="num">${i + 1}</span><span class="nm">${inline(r.name)}</span><span class="bdg">${tags}</span></span>${line2}`;
-  if (det && !forPrint) return `<button type="button" class="row" data-action="row" data-value="${key}" aria-expanded="${open}">${inner}</button>${open ? `<div class="det" data-snap-hide>${det}</div>` : ''}`;
+  // ▶ beside every exercise: the YouTube search for its exact name (R4-LIB-05: a search link, never a third-party video). A link of
+  // its own next to the row button (never inside it), so a tap opens the videos and does not open or close the row.
+  const play = r.video && !forPrint ? playHtml(r) : '';
+  if (det && !forPrint) {
+    const btn = `<button type="button" class="row" data-action="row" data-value="${h(key)}" aria-expanded="${open}">${inner}</button>`;
+    return `${play ? `<div class="row-wrap${open ? ' open' : ''}">${btn}${play}</div>` : btn}${open ? `<div class="det" data-snap-hide>${det}</div>` : ''}`;
+  }
+  if (play) return `<div class="row-wrap"><div class="row plain">${inner}</div>${play}</div>`;
   return `<div class="row plain">${inner}</div>`;
+}
+
+/** the ▶ button of a row: the exercise's YouTube search (the item's own `video` link), in a new tab or the YouTube app */
+function playHtml(r) {
+  const name = plain(r.name);
+  const label = r.video_kind === 'coach' ? t('plan.play_coach', { name }) : t('plan.play', { name });
+  return `<a class="play" href="${h(r.video)}" target="_blank" rel="noopener noreferrer" aria-label="${h(label)}" title="${h(label)}" data-snap-hide><span aria-hidden="true">▶</span></a>`;
 }
 
 /** warm-up and cool-down fold into one line ('Warm-up: 5 min any cardio + mobility'); tap to see each item */
@@ -578,30 +614,157 @@ function dayCardHtml(n, weekday, forPrint) {
   const tipsBtn = showTips ? `<button type="button" class="tips-btn" data-action="tips" aria-expanded="${tipsOpen ? 'true' : 'false'}" data-snap-hide>${h(t('plan.day_tips'))} (${tips.length}) <span aria-hidden="true">${tipsOpen ? '–' : '+'}</span></button>` : '';
   const head = `<div class="dc-head"><div class="dc-r1"><span class="wd">${h(card.weekday_name)} · ${h(mt('ui.plan.week', { n }))}</span>${est}</div>
     <div class="dc-r2"><span class="tt">${inline(card.title)}</span>${tipsBtn}</div></div>`;
+  // the person edits a training day's lines (COACH-CX CX-02 / CX-04); the printed plan and the saved image never show the buttons
+  const ed = !forPrint && S.hist && card.mapped && E.EDIT_DAY_KINDS.includes(card.kind) ? { n, weekday } : null;
   let body = '';
   if (card.kind === 'play' || card.kind === 'sport') {
     body = `<div class="simple-day">${inline(card.title)}</div>`;
   } else {
     if (tipsOpen) body += `<div class="dc-tips" data-snap-hide><ul>${tips.map(x => `<li>${inline(x)}</li>`).join('')}</ul></div>`;
     card.blocks.forEach((b, bi) => {
-      const keyOf = (i) => `${n}.${weekday}.${bi}.${i}`;
+      const keyOf = (i) => `${n}.${weekday}.${(b.items[i] && b.items[i].slot_id) || bi + '.' + i}`;
       if (LINE_BLOCKS.includes(b.kind) && b.title && b.items.length) {
         const words = b.items.map(r => plain(r.name)).join(' + ');
-        const rows = b.items.map((r, i) => rowHtml(r, i, keyOf(i), forPrint)).join('');
+        const rows = b.items.map((r, i) => rowHtml(r, i, keyOf(i), forPrint, ed)).join('');
         body += `<details class="blk blk-line" data-keep="line-${b.kind}"><summary><b>${inline(b.title)}:</b> <span class="lw">${h(words)}</span></summary>${b.intro.map(x => `<div class="blk-intro">${inline(x)}</div>`).join('')}${rows}</details>`;
         return;
       }
       let title = b.title, opt = '';
       const m = /^(.*?)\s*(\(.*\))\s*$/.exec(b.title);
       if (m && b.kind === 'core') { title = m[1]; opt = m[2]; }
-      body += `<div class="blk">${title ? `<div class="blk-h"><span>${inline(title)}</span>${opt ? `<span class="opt">${inline(opt)}</span>` : ''}</div>` : ''}`;
+      body += `<div class="blk${b.on === false ? ' blk-off' : ''}"${b.kind ? ` data-kind="${b.kind}"` : ''}>${title ? `<div class="blk-h"><span class="blk-t"><span>${inline(title)}</span>${opt ? `<span class="opt">${inline(opt)}</span>` : ''}</span>${ed && b.toggle && b.kind ? blockSwitchHtml(b) : ''}</div>` : ''}`;
       for (const x of b.intro) body += `<div class="blk-intro">${inline(x)}</div>`;
-      b.items.forEach((r, i) => { body += rowHtml(r, i, keyOf(i), forPrint); });
+      b.items.forEach((r, i) => { body += rowHtml(r, i, keyOf(i), forPrint, ed); });
       body += '</div>';
     });
   }
   const foot = `<div class="dc-foot"><span class="dc-brand">${h(t('app.brand'))}</span> ${lg.health && lg.health.short ? `<span class="hw">${h(lg.health.short)}</span>` : ''}${h(lg.short)} ${lg.url ? `<a href="${h(lg.url)}" target="_blank" rel="noopener noreferrer">${h(lg.link_text)}</a>` : ''}</div>`;
   return `<article class="daycard" id="${forPrint ? '' : 'daycard'}" aria-label="${h(card.weekday_name)}">${head}${body}${foot}</article>`;
+}
+
+
+// ------------------------------------------------------------------------------------------------- editing (COACH-CX CX-02 / CX-04)
+// A tap makes engine edits (app/edit-ui.js -> engine/edit.mjs applyPlanEdits, in the worker): the plan is recomputed (totals, the
+// weekly sets, a fresh validation) and marked edited. Every step can be undone; nothing is stored or sent (R3-GEN-01).
+
+const DONE = { swap: 'edit.done.swap', sets: 'edit.done.sets', remove: 'edit.done.remove', add: 'edit.done.add', block: 'edit.done.block' };
+
+async function runEdit(edits, kind) {
+  if (!edits.length || S.busy || !S.hist) return;
+  const h0 = S.hist, from = S.plan;
+  S.busy = true; render();
+  try {
+    const res = await editPlan(from, edits, S.baseKeys === null);
+    if (S.hist !== h0) return;   // a new plan was built meanwhile
+    if (S.baseKeys === null) S.baseKeys = (res.base_conflicts || []).map(E.conflictKey);
+    S.hist = E.pushStep(S.hist, { plan: res.plan, conflicts: res.conflicts || [], edits, kind });
+    S.plan = E.current(S.hist); S.cache = {};
+    S.busy = false; render();
+    toast(t(DONE[kind] || 'edit.done.sets'));
+  } catch (e) {
+    console.warn('edit', e);
+    if (S.hist === h0) { S.busy = false; render(); }
+    toast(t('edit.failed'), 'error');
+  }
+}
+
+function undo(all) {
+  if (S.busy || !S.hist || !S.hist.steps.length) return;
+  S.hist = all ? E.undoAll(S.hist) : E.undoLast(S.hist);
+  S.plan = E.current(S.hist); S.cache = {}; S.swapOpen = null;
+  render();
+  toast(t('edit.done.undo'));
+}
+
+/** Edited, Undo last / Undo all, and what the edits changed against the plan in the shown week (information only, CX-04) */
+function editStripHtml() {
+  if (!S.hist || !S.hist.steps.length) return S.busy ? `<div class="edit-strip" role="status"><span class="es-busy">${h(t('edit.working'))}</span></div>` : '';
+  const last = S.hist.steps[S.hist.steps.length - 1];
+  const c = E.conflictLines(E.newConflicts(last.conflicts, S.baseKeys), S.plan, S.model, S.lang, t, S.week);
+  const dis = S.busy ? ' disabled' : '';
+  const info = c.lines.length || c.other ? `<div class="es-info"><p>${h(t('edit.c.title'))}</p>${c.lines.length ? `<ul>${c.lines.map(x => `<li>${h(x)}</li>`).join('')}</ul>` : ''}${c.other ? `<p>${h(t('edit.c.other', { n: c.other }))}</p>` : ''}</div>` : '';
+  return `<div class="edit-strip" role="status"><div class="es-r1"><span class="badge edited">✎ ${h(t('edit.edited'))}</span>${S.busy ? `<span class="es-busy">${h(t('edit.working'))}</span>` : ''}
+    <span class="es-btns"><button type="button" class="btn small" data-action="ed-undo"${dis}>↶ ${h(t('edit.undo_last'))}</button><button type="button" class="btn small ghost" data-action="ed-undo-all"${dis}>${h(t('edit.undo_all'))}</button></span></div>
+    ${info}<p class="es-note">${h(t('edit.note'))}</p></div>`;
+}
+
+/** the buttons of an opened exercise row: Sets - n + (this week and later), Swap (the line's library swaps), Remove */
+function editBarHtml(r, key, ed) {
+  const it = r.slot_id ? E.itemAt(S.plan, ed.n, ed.weekday, r.slot_id) : null;
+  if (!E.canEdit(it)) return '';
+  const v = (x) => h(r.slot_id + '|' + x);
+  const dis = S.busy ? ' disabled' : '';
+  const tune = E.canTune(it) ? `<div class="eb-sets"><span class="k">${h(t('edit.sets'))}</span>
+      <button type="button" class="eb-step" data-action="ed-sets" data-value="${v(-1)}" aria-label="${h(t('edit.less'))}"${it.sets <= 1 || S.busy ? ' disabled' : ''}>−</button>
+      <b class="eb-n" aria-live="polite">${it.sets}</b>
+      <button type="button" class="eb-step" data-action="ed-sets" data-value="${v(1)}" aria-label="${h(t('edit.more'))}"${dis}>+</button>
+      <small>${h(t('edit.sets_hint'))}</small></div>` : '';
+  const swapOpen = S.swapOpen === key;
+  const swapBtn = r.swaps.length ? `<button type="button" class="btn small" data-action="ed-swap-open" data-value="${h(key)}" aria-expanded="${swapOpen}">⇄ ${h(t('edit.swap'))}</button>` : '';
+  const rm = `<button type="button" class="btn small ghost eb-rm" data-action="ed-remove" data-value="${h(r.slot_id)}"${dis}>✕ ${h(t('edit.remove'))}</button>`;
+  const list = swapOpen ? `<div class="eb-swaps"><p class="k">${h(t('edit.swap_title'))}</p>${r.swaps.map(s => `<button type="button" class="swap-opt" data-action="ed-swap" data-value="${v(s.id)}"${dis}><b>${h(s.name)}</b>${s.keeps ? `<span class="swap-k">${h(swapWords(s))}</span>` : ''}</button>`).join('')}</div>` : '';
+  return `<div class="edit-bar">${tune}<div class="eb-btns">${swapBtn}${rm}</div>${list}</div>`;
+}
+
+/** a block's on / off switch on its header (the engine's switchable blocks: core, athletic, power ...; R3-SES-02, R5-GRD-06) */
+function blockSwitchHtml(b) {
+  const on = b.on !== false;
+  const k = 'block.short.' + b.kind;
+  const name = S.model.has('en', k) ? mt(k) : plain(b.title);
+  return `<button type="button" class="blk-sw" role="switch" aria-checked="${on}" data-action="ed-block" data-value="${h(b.kind + '|' + (on ? 0 : 1))}" aria-label="${h(t('edit.block_switch', { block: name }))}" data-snap-hide${S.busy ? ' disabled' : ''}><span class="knob" aria-hidden="true"></span>${h(on ? t('edit.on') : t('edit.off'))}</button>`;
+}
+
+function poolOf() { return S.pool[S.lang] || (S.pool[S.lang] = E.libraryPool(S.plan, S.model, S.lang)); }
+
+/** "Add exercise" under the day card: a search over the library that fits this plan, the block and the sets (default 3) */
+function addHtml() {
+  const d = ((V.weekOf(S.plan, S.week) || {}).days || []).find(x => x.weekday === S.day);
+  if (!S.hist || !d || !E.EDIT_DAY_KINDS.includes(d.kind)) return '';
+  if (S.adding !== S.day) return `<p class="add-line"><button type="button" class="btn small add-btn" data-action="ed-add-open"${S.busy ? ' disabled' : ''}>＋ ${h(t('edit.add'))}</button></p>`;
+  const { kinds } = E.addBlocks(S.plan, S.week, S.day, S.model, null);
+  const opts = [['', t('edit.block_auto')], ...kinds.map(k => [k, mt('block.' + k)])].map(([v, l]) => `<option value="${h(v)}"${(S.addBlock || '') === v ? ' selected' : ''}>${h(l)}</option>`).join('');
+  return `<section class="add-panel" aria-label="${h(t('edit.add'))}"><div class="ap-h"><b>${h(t('edit.add_title'))}</b><button type="button" class="linkbtn" data-action="ed-add-close">${h(t('edit.close'))}</button></div>
+    <div class="ap-opts"><label class="ap-blk"><span class="k">${h(t('edit.block'))}</span><select data-field="addblock">${opts}</select></label>
+      <div class="eb-sets"><span class="k">${h(t('edit.sets'))}</span><button type="button" class="eb-step" data-action="ed-add-sets" data-value="-1" aria-label="${h(t('edit.less'))}"${S.addSets <= 1 ? ' disabled' : ''}>−</button><b class="eb-n">${S.addSets}</b><button type="button" class="eb-step" data-action="ed-add-sets" data-value="1" aria-label="${h(t('edit.more'))}"${S.addSets >= 8 ? ' disabled' : ''}>+</button></div></div>
+    <label class="ap-l" for="addq">${h(t('edit.search'))}</label>
+    <input id="addq" class="search ap-q" type="search" data-field="addq" value="${h(S.addq)}" placeholder="${h(t('edit.search_hint'))}" autocomplete="off" autocapitalize="off" spellcheck="false">
+    <div id="add-list" class="add-list">${addListHtml()}</div></section>`;
+}
+
+function addListHtml() {
+  const res = E.searchLibrary(poolOf(), S.addq, S.plan, 12);
+  if (!res.length) return S.addq.trim() ? `<p class="ap-sub">${h(t('edit.no_results'))}</p>` : '';
+  const head = S.addq.trim() ? '' : `<p class="ap-sub">${h(t('edit.suggested'))}</p>`;
+  return head + res.map(x => `<button type="button" class="add-opt" data-action="ed-add" data-value="${h(x.id)}"${S.busy ? ' disabled' : ''}><span class="an">${h(x.name)}</span>${x.addon ? `<span class="badge tag">${h(t('edit.addon'))}</span>` : ''}<span class="plus" aria-hidden="true">＋</span></button>`).join('');
+}
+
+function editAct(action, value) {
+  if (S.busy && action !== 'ed-add-close') return;
+  const parts = String(value || '').split('|');
+  const a = parts[0], b = parts[1];
+  switch (action) {
+    case 'ed-sets': return runEdit(E.tuneEdits(S.plan, S.week, S.day, a, Number(b)), 'sets');
+    case 'ed-swap-open': S.swapOpen = S.swapOpen === value ? null : value; return render();
+    case 'ed-swap': S.swapOpen = null; return runEdit(E.swapEdits(S.plan, S.week, S.day, a, b), 'swap');
+    case 'ed-remove': return runEdit(E.removeEdits(S.plan, S.week, S.day, a), 'remove');
+    case 'ed-block': return runEdit(E.blockEdits(S.plan, S.day, a, b === '1'), 'block');
+    case 'ed-add-open': {
+      S.adding = S.day; S.addq = ''; S.addBlock = null; S.addSets = 3; render();
+      const q = document.getElementById('addq');
+      if (q && !isMobile()) q.focus({ preventScroll: true });
+      return;
+    }
+    case 'ed-add-close': S.adding = null; return render();
+    case 'ed-add-sets': S.addSets = Math.max(1, Math.min(8, S.addSets + Number(value))); return render();
+    case 'ed-add': {
+      const block = S.addBlock || E.addBlocks(S.plan, S.week, S.day, S.model, value).def;
+      S.adding = null;
+      return runEdit(E.addEdits(S.plan, S.day, value, block, S.addSets), 'add');
+    }
+    case 'ed-undo': return undo(false);
+    case 'ed-undo-all': return undo(true);
+    default:
+  }
 }
 
 // ------------------------------------------------------------------------------------------------- the progress tab
@@ -637,7 +800,7 @@ function progressHtml() {
   const lg = V.legal(S.plan, S.model, S.lang);
   const secs = (() => { const c = cache(); return c.secs || (c.secs = V.planSections(S.plan, S.model, S.lang, fullMd())); })();
   const header = V.headerMd(S.plan, S.model, S.lang, overviewMd());
-  let out = '';
+  let out = editStripHtml();
   if (lg.health) out += `<div class="banner health"><b>${h(lg.health.label)}</b> ${h(lg.health.why)} ${h(lg.health.line)}</div>`;
   out += `<section class="panel"><h2>${h(t('progress.sets_title'))}</h2><p class="sub">${h(t('progress.sets_note'))} ${h(t('progress.effort_note'))}</p>${heatHtml(true)}</section>`;
   if (header) out += `<section class="panel md">${markdown(header)}</section>`;
@@ -765,6 +928,7 @@ function goDay(delta) {
 function setA(patch) { S.answers = { ...S.answers, ...patch }; render(); }
 
 function act(action, value, el) {
+  if (S.screen === 'plan' && String(action).startsWith('ed-')) return editAct(action, value);
   const a = S.answers;
   if (S.screen === 'wizard') markAnswered(action);
   switch (action) {
@@ -834,7 +998,7 @@ function act(action, value, el) {
     case 'fix': S.screen = 'wizard'; S.step = S.errStep || 0; render(); return;
     case 'new':
       S.answers = { ...S.answers, accepted: false, guardian: false };   // the release is accepted for every build (H20)
-      S.plan = null; S.cache = {}; S.screen = 'wizard'; S.step = 0; render(); window.scrollTo(0, 0); return;
+      S.plan = null; S.cache = {}; S.hist = null; S.pool = {}; S.busy = false; S.adding = null; S.screen = 'wizard'; S.step = 0; render(); window.scrollTo(0, 0); return;
     case 'tab': S.tab = value; render(); return;
     case 'week': return goWeek(Number(value));
     case 'day': S.day = value; render(); return;
@@ -857,6 +1021,12 @@ document.addEventListener('click', (e) => {
 });
 document.addEventListener('input', (e) => {
   const f = e.target.dataset && e.target.dataset.field;
+  if (f === 'addq') {
+    S.addq = e.target.value;
+    const list = document.getElementById('add-list');
+    if (list) list.innerHTML = addListHtml();
+    return;
+  }
   if (f === 'q') {
     S.q = e.target.value;
     const list = document.getElementById('pick-list');
@@ -865,6 +1035,7 @@ document.addEventListener('input', (e) => {
 });
 document.addEventListener('change', (e) => {
   const el = e.target, f = el.dataset && el.dataset.field;
+  if (f === 'addblock') { S.addBlock = el.value || null; return; }
   if (!f || !S.answers) return;
   const a = S.answers;
   markAnswered(f);
