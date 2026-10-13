@@ -38,7 +38,9 @@ The model is the work of Coach Lalo (Gerardo Vera), Master NASM coach. Plans are
 6. **Give the plan back.** Offer the PDF (and the Markdown) the tool wrote, a short summary (program, days, weeks, start date)
    and the health warning if there is one. Say once that it is general fitness information, not medical advice.
 7. **Offer edits.** Everything is editable: sets on any day or week, adding or removing an exercise, switching a block (for
-   example the core block) off or on. Use `plan_slots` to find the exercise, `search_exercises` to add one, then `edit_plan`.
+   example the core block) off or on, swapping an exercise, and linking two or more exercises into the person's own superset
+   (`link_exercises`; `unlink_exercises` takes one out). Use `plan_slots` to find the exercise, `search_exercises` to add one,
+   then `edit_plan`.
    The tool rebuilds the files. Read any "conflicts" to the person as information; the edit is still applied.
 
 ## The prefilled link (recommended when the person is not in the conversation)

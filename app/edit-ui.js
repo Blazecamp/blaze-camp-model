@@ -1,5 +1,6 @@
 // app/edit-ui.js - the plan screen's editing: which edits a tap makes (swap, sets - / +, remove, add an exercise, a block on or off),
 // the library search for "Add exercise", the undo history and the short info lines for what an edit changed against the plan.
+// Link / Unlink make the person's own supersets, trisets and giant sets (G-314).
 // The edits themselves are the engine's (engine/edit.mjs > applyPlanEdits): the plan is an editable template (COACH-CX CX-02 /
 // CX-04: "it should be all editable as they need to"; COACH-R4 R4-SES-04: the person picks what to keep or take away). Conflicts
 // are information only: the edit still applies (CX-04). Pure (no DOM, no storage): edits live in page memory only (R3-GEN-01).
@@ -85,6 +86,51 @@ export function removeEdits(plan, n, weekday, slotId) {
   if (!canEdit(it)) return [];
   const weeks = sameLineWeeks(plan, weekday, slotId, it.exercise_id);
   return weeks.length ? [{ op: 'remove_exercise', weekday, slot_id: slotId, weeks }] : [];
+}
+
+// ------------------------------------------------------------------------------------------------- linked exercises (G-314)
+
+/** blocks whose lines are never linked (engine/edit.mjs NO_LINK_BLOCKS) */
+const NO_LINK_BLOCKS = ['warmup', 'cooldown', 'test', 'circuit', 'aerobic'];
+
+/** a line the person can link with others: an exercise with sets of its own, outside a test, circuit, cardio or the warm-up lines */
+export function canLink(plan, n, weekday, slotId) {
+  const it = itemAt(plan, n, weekday, slotId), b = blockOf(plan, n, weekday, slotId);
+  return !!(canTune(it) && b && !NO_LINK_BLOCKS.includes(b.kind) && b.circuit == null);
+}
+
+/** the lines of a line's group on a day (itself first if alone), in the day's order; [] when it is a straight exercise */
+export function groupMates(plan, n, weekday, slotId) {
+  const it = itemAt(plan, n, weekday, slotId);
+  if (!it || !it.superset) return [];
+  return itemsOf(dayOf(weekOf(plan, n), weekday)).filter(x => x.superset === it.superset).map(x => x.slot_id);
+}
+
+/** Link starts from a line: its whole group comes along when it already is in one (a pair grows into a triset) */
+export function linkStart(plan, n, weekday, slotId) {
+  const mates = groupMates(plan, n, weekday, slotId);
+  return mates.length > 1 ? mates : [slotId];
+}
+
+/**
+ * Link (CH7, the coach in chat 2026-10-13: "link two exercises ... and create my own supersets"): the chosen lines become one group
+ * (superset, triset, giant set) in the shown week and every later week that holds the same exercises in those lines.
+ */
+export function linkEdits(plan, n, weekday, slotIds) {
+  const ids = [...new Set(slotIds || [])];
+  if (ids.length < 2 || !ids.every(id => canLink(plan, n, weekday, id))) return [];
+  const ex = ids.map(id => itemAt(plan, n, weekday, id).exercise_id);
+  const lists = ids.map((id, i) => sameLineWeeks(plan, weekday, id, ex[i], n));
+  const weeks = lists[0].filter(w => lists.every(l => l.includes(w)));
+  return weeks.length ? [{ op: 'link_exercises', weekday, slot_ids: ids, weeks }] : [];
+}
+
+/** Unlink: the line leaves its group in the shown week and every later week where it is in a group with the same exercise */
+export function unlinkEdits(plan, n, weekday, slotId) {
+  const it = itemAt(plan, n, weekday, slotId);
+  if (!it || !it.superset) return [];
+  const weeks = sameLineWeeks(plan, weekday, slotId, it.exercise_id, n).filter(w => !!(itemAt(plan, w, weekday, slotId) || {}).superset);
+  return weeks.length ? [{ op: 'unlink_exercises', weekday, slot_id: slotId, weeks }] : [];
 }
 
 /** the weeks whose `weekday` is a day the person edits (the same template day all plan long) */
@@ -252,6 +298,10 @@ export function conflictLines(conflicts, plan, model, lang, t, week, max) {
     if (c.code === 'sets_above_max') return t('edit.c.above_max', { name: nameOf(c), ...a });
     if (c.code === 'sets_below_min') return t('edit.c.below_min', { name: nameOf(c), ...a });
     if (c.code === 'session_size_above_range') return t('edit.c.size', { day: mt('weekday.' + c.weekday), ...a });
+    // a link (G-314): the coach's order rules it leaves, said simply (the link is made)
+    if (c.code === 'link_power_after_strength') return t('link.c.power', { name: nameOf(c) });
+    if (c.code === 'link_core_block') return t('link.c.core', { name: nameOf(c) });
+    if (c.code === 'link_pairing') return t('link.c.pairing', { name: nameOf(c) });
     return '';
   };
   const groups = new Map();

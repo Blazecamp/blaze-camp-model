@@ -297,7 +297,10 @@ export const EDIT_OPS = {
   set_sets: '{op:"set_sets", weekday:"Mon", slot_id:"Mon.A1.s05", sets:3, weeks?:[1,2]|"all"} - the sets of one exercise on one day',
   remove_exercise: '{op:"remove_exercise", weekday, slot_id, weeks?} - take an exercise off a day',
   add_exercise: '{op:"add_exercise", weekday, exercise_id, sets, weeks?, block?, after_slot_id?} - add a library exercise (ids from search_exercises)',
-  set_block: '{op:"set_block", weekday, block, on:true|false, weeks?} - switch a block of a day off or back on (core, athletic ...)'
+  set_block: '{op:"set_block", weekday, block, on:true|false, weeks?} - switch a block of a day off or back on (core, athletic ...)',
+  swap_exercise: '{op:"swap_exercise", weekday, slot_id, exercise_id, weeks?} - put another library exercise in the same line (it keeps its place and dose)',
+  link_exercises: '{op:"link_exercises", weekday, slot_ids:["Mon.A1.s09","Mon.A1.s10"], weeks?} - do 2+ exercises one after the other, then rest (superset 2, triset 3, giant set 4+); they move next to the first one, in that order',
+  unlink_exercises: '{op:"unlink_exercises", weekday, slot_id, weeks?} - take one exercise out of its superset / triset (also the plan\'s own supersets)'
 };
 
 /** apply edits (engine/edit.mjs); conflicts are information, the edit is still applied (CX-04) */
@@ -321,7 +324,8 @@ export function planSlots(plan, model, lang, week = 1) {
     weekday: d.weekday,
     blocks: (d.blocks || []).map(b => ({
       block: b.kind, on: b.on !== false,
-      items: (b.items || []).filter(it => it.exercise_id).map(it => ({ slot_id: it.slot_id, exercise_id: it.exercise_id, name: name(it.exercise_id), sets: it.sets }))
+      // linked_with: the group id the exercise is done in (a superset, triset or giant set), null when it is done on its own
+      items: (b.items || []).filter(it => it.exercise_id).map(it => ({ slot_id: it.slot_id, exercise_id: it.exercise_id, name: name(it.exercise_id), sets: it.sets, linked_with: it.superset || null }))
     })).filter(b => b.items.length)
   }));
 }

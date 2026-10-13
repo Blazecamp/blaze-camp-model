@@ -113,6 +113,14 @@ what to keep or take away). Everything happens on the day card, in a tap or two,
   * **⇄ Swap**: the row's library swaps, each with its one line on what it keeps and what it loses (R4-LIB-04). A tap puts it in
     that line in every week that holds the same exercise: same sets, reps, effort, rest, block and position. The swap list then
     offers the original first, so a swap is easy to take back.
+  * **🔗 Link** (ES *Unir*; the coach in chat, 2026-10-13: "link two exercises ... and create my own supersets"): tap it, then
+    tap one or more other exercises of the same day (they light up and are numbered; a bar at the bottom says "Tap exercises to
+    link · Done · Cancel"). *Done* makes them one group - a superset (2), triset (3) or giant set (4+) - in the shown week and
+    every later week that holds the same lines, shown exactly like a generated superset ("A · SUPERSET do A1 → A2, rest ...,
+    repeat ×N"). Starting from a line already in a group brings its group along. Each line of a group has **Unlink** (ES
+    *Separar*), also on the plan's own supersets. A link that leaves one of the coach's order rules (a jump after a heavy lift,
+    a line in or out of the core block, a leg lift with the "wrong" upper-body partner) is made and shown as an info line.
+    Engine ops `link_exercises` / `unlink_exercises` (engine/DECISIONS.md G-314).
   * **✕ Remove**: the exercise leaves that day in every week that holds it. Allowed for any line, the core and the main lifts
     too (the person owns the plan); the day tips still name what is easiest to remove.
 * **Block switch** on a block's header (the blocks the engine marks switchable: core, jumps / throws, power, accessories, joint
@@ -132,7 +140,8 @@ what to keep or take away). Everything happens on the day card, in a tap or two,
 
 How: `edit-ui.js` (pure) turns a tap into engine edits; `main.js` sends them with the current plan to the worker
 (`{type:'edit'}`, else the main thread), which runs `engine/edit.mjs > applyPlanEdits` (ops `set_sets`, `remove_exercise`,
-`add_exercise`, `set_block`, and `swap_exercise`, added for this: engine/DECISIONS.md G-312). Each tap is one step in the
+`add_exercise`, `set_block`, and `swap_exercise`, `link_exercises`, `unlink_exercises`, added for this: engine/DECISIONS.md
+G-312, G-314). Each tap is one step in the
 history; Undo pops a step. Generated plans are unchanged (the engine version is unchanged: edits are not generation).
 
 Not built yet: the person's own exercise (COACH-CH6 CH6-02: a free name and one muscle question, labelled "your exercise: not
@@ -192,6 +201,7 @@ node --test tests/app-brand.test.mjs      # both brands complete, Son Hábitos o
                                           # both built sites (no other brand's name on the Son Hábitos site), a Son Hábitos PDF
 node --test tests/app-edit.test.mjs tests/edit-swap.test.mjs   # editing: the edits each tap makes, the Add library (kit, age,
                                           # no proposed / neck / bands), info lines EN / ES, undo; the engine's swap_exercise (G-312)
+node --test tests/edit-link.test.mjs      # Link / Unlink: superset, triset, giant set, unlink, H03 / H05 / H06 info (G-314)
 node --test tests/app.test.mjs            # wizard answers -> valid intake/2 (700+ combinations, every sport and activity, pain,
                                           # health, coach mode, the release gate), UI words EN = ES, the view model, the build
 node tools/check-model.mjs
@@ -213,6 +223,8 @@ node tools/app-qa/pdf.mjs       # Download PDF and Save image on 3 plans (08 ES,
 node tools/app-qa/edit.mjs      # editing at 390x844 under the production CSP, EN and ES: sets + / -, swap, remove, a block off and
                                 # on, add from the search, Progress, PDF (says Edited, names the swap) and image, Undo last / all;
                                 # screenshots phone-<lang>-7-edit / 7b-swap / 7c-add (BC_SHOTS_DIR=app/screenshots/sonhabitos/)
+node tools/app-qa/link.mjs      # Link / Unlink (G-314), EN and ES: link 2 (superset), grow to 3 (triset), the PDF band, unlink,
+                                # undo, cancel, unlink a "More supersets" pair; screenshots phone-<lang>-9-link / 9b-linked
 # the Son Hábitos build (served on its own port): the same qa.mjs, then
 BC_PDF_PREFIX=Son-Habitos-plan BC_FORBID_NAMES=1 node tools/app-qa/pdf.mjs   # + no other brand's name in the PDF text
 node tools/app-qa/brand-shots.mjs  # opens in Spanish, a saved choice wins; every screen checked for raw keys and other-brand

@@ -352,8 +352,12 @@ the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` an
 >   conflicts, priorValidationDiscarded:true}`; edits `{op:'set_sets', weekday, slot_id, sets, weeks?}`, `{op:'remove_exercise',
 >   weekday, slot_id, weeks?}`, `{op:'add_exercise', weekday, block, exercise_id, sets, weeks?}`, `{op:'set_block', weekday, block,
 >   on, weeks?}`, `{op:'swap_exercise', weekday, slot_id, exercise_id, weeks?}` (G-312: the line keeps its place and dose; item
->   field `swapped_from`); conflict codes `sets_above_max, sets_below_min, session_size_above_range, group_below_target, group_below_floor,
->   group_sets_decreased` with class `bound | plan_shape | info`).
+>   field `swapped_from`), `{op:'link_exercises', weekday, slot_ids:[2+], weeks?}` and `{op:'unlink_exercises', weekday, slot_id,
+>   weeks?}` (G-314: the person's own superset / triset / giant set in the engine's superset form - a `link<n>` superset id, the
+>   group's `after_pair` rest, the line's own rest in `rest_solo`); conflict codes `sets_above_max, sets_below_min,
+>   session_size_above_range, group_below_target, group_below_floor, group_sets_decreased, link_moved_block` with class
+>   `bound | plan_shape | info`, and `link_power_after_strength, link_core_block, link_pairing` with class `rule` and `rule:
+>   'H03' | 'H05' | 'H06'`).
 >   `volume.planWeeklySets(ctx) -> {weeks, athletic, warnings, block_targets}`; `block_targets[] = {training_block, N, start, cap,
 >   groups, credit_only_groups, carrier, group_start, group_top, planned_start, planned_top, schedule, lambda, arrival_week,
 >   realized_arrival_week, realized_top, capped:[{group, planned, held}], below_floor, bonus:[{group, slot_id}], lowered:[],

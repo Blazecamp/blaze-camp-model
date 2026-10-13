@@ -102,8 +102,12 @@ the prefilled link; an invalid intake gives 422 with the errors. The API is open
 * `{"op": "remove_exercise", "weekday": "Mon", "slot_id": "..."}`
 * `{"op": "add_exercise", "weekday": "Mon", "exercise_id": "...", "sets": 3, "block": "..."}` (library exercises: `search_exercises`)
 * `{"op": "set_block", "weekday": "Mon", "block": "core", "on": false}`
+* `{"op": "swap_exercise", "weekday": "Mon", "slot_id": "...", "exercise_id": "..."}` (same place and dose)
+* `{"op": "link_exercises", "weekday": "Mon", "slot_ids": ["Mon.A1.s09", "Mon.A1.s10"]}` (the person's own superset: 2 = superset,
+  3 = triset, 4+ = giant set; done one after the other, then rest)
+* `{"op": "unlink_exercises", "weekday": "Mon", "slot_id": "Mon.A1.s10"}` (also on the plan's own supersets)
 
-`plan_slots` lists a week's slot ids and blocks. An edited plan is written beside the original as `...-edited.<lang>.<ext>`.
+`plan_slots` lists a week's slot ids and blocks, and `linked_with` (the group an exercise is done in, or null). An edited plan is written beside the original as `...-edited.<lang>.<ext>`.
 
 ## Brands
 

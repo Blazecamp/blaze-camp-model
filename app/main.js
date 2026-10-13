@@ -36,6 +36,7 @@ const S = {
   plan: null, ms: null, week: 1, day: null, tab: 'day', open: new Set(), cache: {},
   // editing (app/edit-ui.js; COACH-CX CX-02 / CX-04): the generated plan and the person's steps, in page memory only (R3-GEN-01)
   hist: null, baseKeys: null, busy: false, swapOpen: null, adding: null, addq: '', addBlock: null, addSets: 3, pool: {},
+  linking: null,               // Link (G-314): {n, weekday, ids} while the person taps the exercises to link
   errors: [], buildId: 0, buildTimer: null, buildStarted: 0
 };
 const t = (k, a) => UI(S.lang, k, a);
@@ -476,7 +477,7 @@ function showPlan(plan, ms) {
     S.screen = 'invalid'; render(); return;
   }
   S.plan = plan; S.ms = ms; S.cache = {}; S.open = new Set();
-  S.hist = E.newHistory(plan); S.baseKeys = null; S.pool = {}; S.swapOpen = null; S.adding = null; S.addq = ''; S.busy = false;
+  S.hist = E.newHistory(plan); S.baseKeys = null; S.pool = {}; S.swapOpen = null; S.adding = null; S.addq = ''; S.busy = false; S.linking = null;
   S.week = 1; S.day = V.firstDay(plan, 1); S.tab = 'day';
   S.screen = 'plan';
   window.__bcLastBuildMs = ms;
@@ -536,7 +537,7 @@ function dayViewHtml() {
   const lg = V.legal(S.plan, S.model, S.lang);
   const hb = lg.health ? `<div class="banner health">${h(lg.health.short || lg.health.line)}</div>` : '';
   return `<div class="dayview"><div class="dv-side">${weekBarHtml()}${dayTabsHtml()}${hb}${notes('side')}</div>
-    <div class="dv-main">${editStripHtml()}${dayCardHtml(S.week, S.day, false)}${addHtml()}${notes('main')}
+    <div class="dv-main${linkingHere() ? ' linking' : ''}">${editStripHtml()}${dayCardHtml(S.week, S.day, false)}${linkBarHtml()}${addHtml()}${notes('main')}
     <div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button>${pdfBtn()}<button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>${printLink()}
      <p class="hint-line">${h(t('plan.tap_hint'))}<br>${h(t('plan.swipe_hint'))}</p></div></div>`;
 }
@@ -576,6 +577,8 @@ function swapWords(s) {
 /** one exercise row: two short lines (name; sets × reps · reps in the tank · rest) and, tapped, its details */
 /** one exercise row; `num` is what its number shows: 1, 2 ... for a straight exercise, A1, A2 ... inside a group */
 function rowHtml(r, num, key, forPrint, ed) {
+  const lk = ed && !forPrint ? linkingHere() : null;
+  if (lk) return linkRowHtml(r, num, lk, ed);
   const open = S.open.has(key) && !forPrint;
   const bar = ed && !forPrint ? editBarHtml(r, key, ed) : '';
   const det = bar + rowDetailsHtml(r, !!bar);
@@ -677,7 +680,7 @@ function dayCardHtml(n, weekday, forPrint) {
 // A tap makes engine edits (app/edit-ui.js -> engine/edit.mjs applyPlanEdits, in the worker): the plan is recomputed (totals, the
 // weekly sets, a fresh validation) and marked edited. Every step can be undone; nothing is stored or sent (R3-GEN-01).
 
-const DONE = { swap: 'edit.done.swap', sets: 'edit.done.sets', remove: 'edit.done.remove', add: 'edit.done.add', block: 'edit.done.block' };
+const DONE = { swap: 'edit.done.swap', sets: 'edit.done.sets', remove: 'edit.done.remove', add: 'edit.done.add', block: 'edit.done.block', link: 'link.done_msg', unlink: 'link.unlinked_msg' };
 
 async function runEdit(edits, kind) {
   if (!edits.length || S.busy || !S.hist) return;
@@ -701,7 +704,7 @@ async function runEdit(edits, kind) {
 function undo(all) {
   if (S.busy || !S.hist || !S.hist.steps.length) return;
   S.hist = all ? E.undoAll(S.hist) : E.undoLast(S.hist);
-  S.plan = E.current(S.hist); S.cache = {}; S.swapOpen = null;
+  S.plan = E.current(S.hist); S.cache = {}; S.swapOpen = null; S.linking = null;
   render();
   toast(t('edit.done.undo'));
 }
@@ -732,8 +735,11 @@ function editBarHtml(r, key, ed) {
   const swapOpen = S.swapOpen === key;
   const swapBtn = r.swaps.length ? `<button type="button" class="btn small" data-action="ed-swap-open" data-value="${h(key)}" aria-expanded="${swapOpen}">⇄ ${h(t('edit.swap'))}</button>` : '';
   const rm = `<button type="button" class="btn small ghost eb-rm" data-action="ed-remove" data-value="${h(r.slot_id)}"${dis}>✕ ${h(t('edit.remove'))}</button>`;
+  // Link (G-314): tap it, then the other exercises of the day; Unlink takes this one out of its group
+  const link = E.canLink(S.plan, ed.n, ed.weekday, r.slot_id) ? `<button type="button" class="btn small eb-link" data-action="ed-link-start" data-value="${h(r.slot_id)}"${dis}>${h(t('link.btn'))}</button>` : '';
+  const unlink = it.superset ? `<button type="button" class="btn small ghost eb-unlink" data-action="ed-unlink" data-value="${h(r.slot_id)}"${dis}>${h(t('link.unlink'))}</button>` : '';
   const list = swapOpen ? `<div class="eb-swaps"><p class="k">${h(t('edit.swap_title'))}</p>${r.swaps.map(s => `<button type="button" class="swap-opt" data-action="ed-swap" data-value="${v(s.id)}"${dis}><b>${h(s.name)}</b>${s.keeps ? `<span class="swap-k">${h(swapWords(s))}</span>` : ''}</button>`).join('')}</div>` : '';
-  return `<div class="edit-bar">${tune}<div class="eb-btns">${swapBtn}${rm}</div>${list}</div>`;
+  return `<div class="edit-bar">${tune}<div class="eb-btns">${swapBtn}${link}${unlink}${rm}</div>${list}</div>`;
 }
 
 /** a block's on / off switch on its header (the engine's switchable blocks: core, athletic, power ...; R3-SES-02, R5-GRD-06) */
@@ -742,6 +748,32 @@ function blockSwitchHtml(b) {
   const k = 'block.short.' + b.kind;
   const name = S.model.has('en', k) ? mt(k) : plain(b.title);
   return `<button type="button" class="blk-sw" role="switch" aria-checked="${on}" data-action="ed-block" data-value="${h(b.kind + '|' + (on ? 0 : 1))}" aria-label="${h(t('edit.block_switch', { block: name }))}" data-snap-hide${S.busy ? ' disabled' : ''}><span class="knob" aria-hidden="true"></span>${h(on ? t('edit.on') : t('edit.off'))}</button>`;
+}
+
+/** the Link in progress on the shown day, or null */
+function linkingHere() {
+  const lk = S.linking;
+  return lk && lk.n === S.week && lk.weekday === S.day && S.hist ? lk : null;
+}
+
+/** a row while the person picks what to link: a tap picks it (or un-picks it); a row that cannot be linked is shown dimmed */
+function linkRowHtml(r, num, lk, ed) {
+  const can = !!r.slot_id && E.canLink(S.plan, ed.n, ed.weekday, r.slot_id);
+  const at = can ? lk.ids.indexOf(r.slot_id) : -1;
+  const pick = at >= 0 ? `<span class="badge pick" aria-hidden="true">✓ ${at + 1}</span>` : '';
+  const dose = r.dose_s || r.dose;
+  const inner = `<span class="r1"><span class="num">${h(String(num))}</span><span class="nm">${inline(r.name)}</span><span class="bdg">${pick}</span></span>${dose ? `<span class="r2"><span class="dose">${inline(dose)}</span></span>` : ''}`;
+  if (!can) return `<div class="row plain link-no">${inner}</div>`;
+  return `<button type="button" class="row link-pick${at >= 0 ? ' picked' : ''}" data-action="ed-link-pick" data-value="${h(r.slot_id)}" aria-pressed="${at >= 0}">${inner}</button>`;
+}
+
+/** the bar that stays at the bottom while linking: "Tap exercises to link · 2 picked · Done · Cancel" */
+function linkBarHtml() {
+  const lk = linkingHere();
+  if (!lk) return '';
+  const n = lk.ids.length;
+  return `<div class="link-bar" role="region" aria-label="${h(t('link.bar'))}" data-snap-hide><div class="lb-t"><b>${h(t('link.bar'))}</b><span aria-live="polite">${h(n >= 2 ? t('link.count', { n }) : t('link.need_two'))}</span></div>
+    <div class="lb-b"><button type="button" class="btn small primary" data-action="ed-link-done"${n < 2 || S.busy ? ' disabled' : ''}>${h(t('link.done'))}</button><button type="button" class="btn small ghost" data-action="ed-link-cancel">${h(t('link.cancel'))}</button></div></div>`;
 }
 
 function poolOf() { return S.pool[S.lang] || (S.pool[S.lang] = E.libraryPool(S.plan, S.model, S.lang)); }
@@ -791,6 +823,26 @@ function editAct(action, value) {
       S.adding = null;
       return runEdit(E.addEdits(S.plan, S.day, value, block, S.addSets), 'add');
     }
+    case 'ed-link-start':
+      S.linking = { n: S.week, weekday: S.day, ids: E.linkStart(S.plan, S.week, S.day, value) };
+      // (the open rows close: the picks, and then the new group, are seen whole)
+      S.swapOpen = null; S.adding = null; S.open = new Set(); return render();
+    case 'ed-link-pick': {
+      const lk = linkingHere();
+      if (!lk) return;
+      lk.ids = lk.ids.includes(value) ? lk.ids.filter(x => x !== value) : [...lk.ids, value];
+      return render();
+    }
+    case 'ed-link-cancel': S.linking = null; return render();
+    case 'ed-link-done': {
+      const lk = linkingHere();
+      S.linking = null;
+      if (!lk || lk.ids.length < 2) return render();
+      const edits = E.linkEdits(S.plan, lk.n, lk.weekday, lk.ids);
+      if (!edits.length) { render(); return toast(t('edit.failed'), 'error'); }
+      return runEdit(edits, 'link');
+    }
+    case 'ed-unlink': return runEdit(E.unlinkEdits(S.plan, S.week, S.day, value), 'unlink');
     case 'ed-undo': return undo(false);
     case 'ed-undo-all': return undo(true);
     default:
@@ -965,6 +1017,8 @@ function setA(patch) { S.answers = { ...S.answers, ...patch }; render(); }
 
 function act(action, value, el) {
   if (S.screen === 'plan' && String(action).startsWith('ed-')) return editAct(action, value);
+  // another week, day or tab (or the print / image / PDF) ends a Link that was not finished
+  if (S.linking && ['week', 'day', 'tab', 'new', 'save-image', 'pdf', 'print'].includes(action)) S.linking = null;
   const a = S.answers;
   if (S.screen === 'wizard') markAnswered(action);
   switch (action) {

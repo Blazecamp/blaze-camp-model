@@ -627,6 +627,42 @@ export const STRINGS = {
   }
 };
 
+/** Link / Unlink: the person's own supersets (G-314; the coach in chat, 2026-10-13). Kept apart and merged in, so these words stay
+ *  separate from the other tables. */
+const LINK_STRINGS = {
+  en: {
+    'link.btn': '🔗 Link',
+    'link.unlink': 'Unlink',
+    'link.bar': 'Tap exercises to link',
+    'link.count': '{n} picked',
+    'link.done': 'Done',
+    'link.cancel': 'Cancel',
+    'link.need_two': 'Pick at least 2 exercises',
+    'link.done_msg': 'Linked. Do them one after the other, then rest.',
+    'link.unlinked_msg': 'Unlinked',
+    'link.picked': 'Picked',
+    'link.c.power': '{name}: a jump or fast lift now comes after a heavy lift. Fast moves are best done first.',
+    'link.c.core': '{name}: moved in or out of the core block. Core usually comes first.',
+    'link.c.pairing': '{name}: the plan usually pairs hip lifts with pushes and knee lifts with pulls.'
+  },
+  es: {
+    'link.btn': '🔗 Unir',
+    'link.unlink': 'Separar',
+    'link.bar': 'Toca ejercicios para unirlos',
+    'link.count': '{n} elegidos',
+    'link.done': 'Listo',
+    'link.cancel': 'Cancelar',
+    'link.need_two': 'Elige al menos 2 ejercicios',
+    'link.done_msg': 'Unidos. Hazlos uno tras otro y luego descansa.',
+    'link.unlinked_msg': 'Separado',
+    'link.picked': 'Elegido',
+    'link.c.power': '{name}: un salto o un movimiento rápido ahora va después de un levantamiento pesado. Lo rápido va mejor primero.',
+    'link.c.core': '{name}: entró o salió del bloque de core. El core suele ir primero.',
+    'link.c.pairing': '{name}: el plan suele unir ejercicios de cadera con empujes y de rodilla con jalones.'
+  }
+};
+for (const l of LANGS) Object.assign(STRINGS[l], LINK_STRINGS[l]);
+
 /** a UI word in `lang` with {placeholders} filled; English when the key is missing in `lang`, the key itself when missing everywhere */
 export function ui(lang, key, args) {
   const table = STRINGS[lang] || STRINGS.en;

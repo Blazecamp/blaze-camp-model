@@ -61,7 +61,7 @@ const TOOLS = [
   },
   {
     name: 'plan_slots',
-    description: 'The exercises of one week of a built plan, day by day: slot_id, exercise, sets, and the block each sits in. Use it to find the slot_id and block an edit needs.',
+    description: 'The exercises of one week of a built plan, day by day: slot_id, exercise, sets, the block each sits in, and linked_with (the superset / triset group it is done in, or null). Use it to find the slot_id and block an edit needs (for example the slot_ids to link).',
     inputSchema: { type: 'object', properties: { plan_path: { type: 'string' }, plan: { type: 'object' }, week: { type: 'integer' }, lang: { type: 'string', enum: ['en', 'es'] }, brand: { type: 'string' } } }
   },
   {

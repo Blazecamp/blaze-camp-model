@@ -13,6 +13,19 @@
 //      (G-312; COACH-CX CX-02 / CX-04, COACH-R4 R4-LIB-04): the line keeps its slot id, block, position, sets, reps, effort, rest and
 //      progression rule; the exercise's own fields (name, cue, video, laterality, credits, group) and its swap list with the
 //      keeps / loses notes are those of the new exercise, and the exercise it replaced is offered back first (`swapped_from`).
+//   { op: 'link_exercises',  weekday, slot_ids: [a, b, ...], weeks }       do 2+ lines of a day one after the other, then repeat:
+//      (G-314; COACH-CX CX-02 / CX-04; the coach in chat, 2026-10-13: "link two exercises during a session or more, and create my
+//      own supersets") a superset (2), triset (3) or giant set (4+) in the engine's own superset form: every line gets one new
+//      `superset` id (`link1`, `link2` ... per day) and the rest after the group (`{type:'after_pair', min, max}`, the longest rest
+//      of the lines), so the plan, the app and the PDF show it like a generated superset. The lines move next to each other in the
+//      order given, at the place of the first one (into its block); each keeps its sets, reps and effort, and its own rest is kept
+//      in `rest_solo` for an unlink. A line that was in another group leaves it (a group left with one line is a straight exercise
+//      again). A week that does not hold every line is left alone.
+//   { op: 'unlink_exercises', weekday, slot_id, weeks }                    take one line out of its group (it goes right after the
+//      group, with its own rest back); a group left with one line is a straight exercise. Works on the engine's own supersets too.
+//   A link that breaks one of the coach's order rules is still applied (CX-04); `conflicts` says so: 'link_power_after_strength'
+//   (H03), 'link_core_block' (H05: a core line moved out of the core block, or another line into it), 'link_pairing' (H06), and
+//   'link_moved_block' (information: a line moved to another block).
 //
 // After the edits (reviews/claude-codex-audit.md MEDIUM-1 / L3 / L4, coach_answers_codex engineering requirement 3):
 //   * every touched week's totals are RECOMPUTED from its items: weekly sets per muscle / line / group (helpers 0.25, a set counts
@@ -27,11 +40,15 @@
 // The input plan is never mutated. Pure: no I/O, no clock, no randomness. Nothing is stored (R3-GEN-01).
 import { EngineError, EPS, WEEKDAYS, round2, roundHalfUp } from './util.mjs';
 import { linesOf, lineCredits, groupCredits } from './lines.mjs';
-import { setCost } from './estimate.mjs';
+import { setCost, supersetMinutes } from './estimate.mjs';
 import { validatePlan } from './validate.mjs';
 import { videoOf, isCarry, carryReps, swapNotes } from './library.mjs';
 
-const OPS = ['set_sets', 'remove_exercise', 'add_exercise', 'set_block', 'swap_exercise'];
+const OPS = ['set_sets', 'remove_exercise', 'add_exercise', 'set_block', 'swap_exercise', 'link_exercises', 'unlink_exercises'];
+/** blocks whose lines are never linked: text lines (warm-up, cool-down), a test, a circuit's stations, cardio */
+const NO_LINK_BLOCKS = ['warmup', 'cooldown', 'test', 'circuit', 'aerobic'];
+/** blocks of power work (H03: power before strength) */
+const POWER_BLOCKS = ['athletic', 'power'];
 const RES_KINDS = ['resistance', 'isolation', 'focus'];
 const clone = (o) => JSON.parse(JSON.stringify(o));
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
@@ -79,10 +96,16 @@ export function applyPlanEdits(plan, edits, model) {
   const dayOf = (w, wd) => (w.days || []).find(d => d.weekday === wd) || null;
   const findItem = (day, slotId) => { for (const b of day.blocks || []) { const i = (b.items || []).findIndex(it => it.slot_id === slotId); if (i >= 0) return { b, i, it: b.items[i] }; } return null; };
   const changeover = isNum(R.time_model.changeover_min_per_exercise) ? R.time_model.changeover_min_per_exercise : 0;
+  const opConflicts = [];   // what a link changed against the coach's order rules (information, CX-04)
 
   edits.forEach((e, k) => {
     if (!e || typeof e !== 'object' || !OPS.includes(e.op)) bad('op', `edit ${k}: unknown op`, { edit: k });
     if (!WEEKDAYS.includes(e.weekday)) bad('weekday', `edit ${k}: unknown weekday`, { edit: k });
+    if (e.op === 'link_exercises') {
+      const ids = e.slot_ids;
+      if (!Array.isArray(ids) || ids.length < 2 || ids.some(x => typeof x !== 'string' || !x)) bad('slot_ids', `edit ${k}: link_exercises needs 2 or more slot ids`, { edit: k });
+      if (new Set(ids).size !== ids.length) bad('slot_ids', `edit ${k}: a slot id is listed twice`, { edit: k });
+    }
     const ws = weeksOf(next, e.weeks);
     let hits = 0;
     for (const n of ws) {
@@ -183,6 +206,26 @@ export function applyPlanEdits(plan, edits, model) {
         it.swap_notes = swapNotes(model, ex.id, it.swaps);
         it.edited = true;
         touch(n, e.weekday, (countsNow(it) ? it.sets * itemMinutes(it, model, derived, w) : 0) - before);
+      } else if (e.op === 'link_exercises') {
+        const found = e.slot_ids.map(id => findItem(day, id));
+        if (found.some(f => !f)) continue;   // this week does not hold every line
+        for (const f of found) if (!linkable(f.it, f.b)) bad('link', `edit ${k}: ${f.it.slot_id} cannot be linked (a test, a circuit station, a WOD, cardio or a warm-up line)`, { edit: k, slot_id: f.it.slot_id });
+        const before = dayMinutes(day, model, derived, w, changeover);
+        const powerBefore = powerAfterStrength(day, model, new Map());
+        const origin = new Map(found.map(f => [f.it, f.b]));
+        linkLines(day, found, R);
+        const after = dayMinutes(day, model, derived, w, changeover);
+        touch(n, e.weekday, after - before);
+        opConflicts.push(...linkConflicts(day, found.map(f => f.it), origin, powerBefore, model, next, w.n));
+        hits++;
+      } else if (e.op === 'unlink_exercises') {
+        const f = findItem(day, e.slot_id);
+        if (!f) continue;
+        hits++;
+        if (!f.it.superset) continue;
+        const before = dayMinutes(day, model, derived, w, changeover);
+        unlinkLine(day, f, R);
+        touch(n, e.weekday, dayMinutes(day, model, derived, w, changeover) - before);
       } else if (e.op === 'set_block') {
         if (typeof e.on !== 'boolean') bad('on', `edit ${k}: set_block needs on true or false`, { edit: k });
         const blocks = (day.blocks || []).filter(b => b.kind === e.block || b.id === e.block);
@@ -270,9 +313,161 @@ export function applyPlanEdits(plan, edits, model) {
   next.meta = next.meta || {};
   next.meta.warnings = (next.meta.warnings || []).filter(x => x && x.key !== 'warning.plan_edited');
   next.meta.warnings.unshift({ code: 'plan_edited', key: 'warning.plan_edited' });
-  const conflicts = conflictsOf(next, model);
+  const conflicts = [...conflictsOf(next, model), ...opConflicts];
   next.validation = { ...validatePlan(next, model), edited: true, generated_checks: 'not_applied_to_an_edited_plan' };
   return { plan: next, edited: true, applied, conflicts, priorValidationDiscarded: true };
+}
+
+// ------------------------------------------------------------------------------------------------- linked lines (G-314)
+
+/** a line that can be done in a group: an exercise with sets of its own, outside a test, circuit, cardio and the warm-up lines */
+function linkable(it, b) {
+  return !!(it && it.exercise_id && isNum(it.sets) && it.role !== 'test' && !it.circuit && !it.wod && !it.aerobic && !NO_LINK_BLOCKS.includes(b.kind) && b.circuit == null);
+}
+
+/** the rest a line has on its own: the one kept when it was linked, else the engine's pair rest read as plain seconds */
+function soloRest(it, R) {
+  if (Object.prototype.hasOwnProperty.call(it, 'rest_solo')) return it.rest_solo ? clone(it.rest_solo) : null;
+  const r = it.rest;
+  if (!r || r.type !== 'after_pair') return r ? clone(r) : null;
+  if (isNum(r.max)) return { type: 'seconds', min: isNum(r.min) ? r.min : r.max, max: r.max };
+  // INFERRED: an after-the-pair rest without numbers (rules.rest.after_pair_numbers off) goes back to the hypertrophy rest
+  const hs = R.rest && R.rest.hypertrophy_s;
+  return Array.isArray(hs) ? { type: 'seconds', min: hs[0], max: hs[1] } : null;
+}
+
+/** the group's rest, taken once after its last line: the longest rest of its lines (as engine/render.mjs pairRest reads it) */
+function groupRest(items) {
+  let best = null;
+  for (const it of items) {
+    const r = it.rest_solo;
+    if (!r || !['seconds', 'after_pair'].includes(r.type) || !isNum(r.max)) continue;
+    if (!best || r.max > best.max || (r.max === best.max && (r.min || 0) > (best.min || 0))) best = r;
+  }
+  return best ? { type: 'after_pair', min: isNum(best.min) ? best.min : best.max, max: best.max } : { type: 'after_pair' };
+}
+
+const dayItems = (day) => (day.blocks || []).flatMap(b => b.items || []);
+
+/** a line leaves its group: its own rest back, no group id */
+function makeStraight(it, R) {
+  it.rest = soloRest(it, R);
+  delete it.rest_solo;
+  it.superset = null;
+  it.edited = true;
+}
+
+/** after a link or an unlink: what is left of the groups `ids` (one line alone is straight again), the day's supersets switch and
+ *  the engine's superset suggestions (a suggested pair now done together is on, one split up is a suggestion again) */
+function tidyGroups(day, ids, R) {
+  const all = dayItems(day);
+  for (const id of ids) {
+    if (!id) continue;
+    const left = all.filter(x => x.superset === id);
+    if (left.length === 1) makeStraight(left[0], R);
+    else if (left.length > 1 && left.every(x => Object.prototype.hasOwnProperty.call(x, 'rest_solo'))) { const r = groupRest(left); for (const x of left) x.rest = clone(r); }
+  }
+  const counts = new Map();
+  for (const x of all) if (x.superset) counts.set(x.superset, (counts.get(x.superset) || 0) + 1);
+  day.supersets_on = [...counts.values()].some(c => c >= 2);
+  for (const r of day.superset_recommendations || []) {
+    const its = (r.items || []).map(id => all.find(x => x.slot_id === id));
+    r.on = its.length >= 2 && its.every(Boolean) && !!its[0].superset && its.every(x => x.superset === its[0].superset);
+    // a suggested pair one of whose lines is now in another group is not suggested (engine/render.mjs supersetSuggestions)
+    if (!r.on && its.some(x => x && x.superset)) r.in_other_group = true; else delete r.in_other_group;
+  }
+}
+
+/** link the found lines (`found` = [{b, i, it}] in the person's order) into one new group at the place of the first one */
+function linkLines(day, found, R) {
+  const items = found.map(f => f.it);
+  const oldIds = [...new Set(items.map(it => it.superset).filter(Boolean))];
+  const used = dayItems(day).map(it => { const m = /^link(\d+)$/.exec(it.superset || ''); return m ? Number(m[1]) : 0; });
+  const id = 'link' + (Math.max(0, ...used) + 1);
+  // each line keeps its own rest (for an unlink) before it takes the group's
+  for (const it of items) it.rest_solo = soloRest(it, R);
+  // the other lines leave their places and go right after the first one, in the order given
+  const first = found[0];
+  for (const f of found.slice(1)) { const at = f.b.items.indexOf(f.it); if (at >= 0) f.b.items.splice(at, 1); }
+  const at0 = first.b.items.indexOf(first.it);
+  first.b.items.splice(at0 + 1, 0, ...items.slice(1));
+  const rest = groupRest(items);
+  for (const it of items) { it.superset = id; it.rest = clone(rest); it.edited = true; }
+  tidyGroups(day, oldIds, R);
+}
+
+/** take one line out of its group: it goes right after the group's last line, with its own rest */
+function unlinkLine(day, f, R) {
+  const id = f.it.superset;
+  makeStraight(f.it, R);
+  const mates = dayItems(day).filter(x => x.superset === id);
+  // (a group of two simply comes apart: both lines stay where they are)
+  if (mates.length > 1) {
+    const last = mates[mates.length - 1];
+    const lb = (day.blocks || []).find(b => (b.items || []).includes(last));
+    f.b.items.splice(f.b.items.indexOf(f.it), 1);
+    lb.items.splice(lb.items.indexOf(last) + 1, 0, f.it);
+  }
+  tidyGroups(day, [id], R);
+}
+
+/** the day's estimated minutes of its exercise lines (straight sets, and each group as estimate.mjs supersetMinutes) - for the
+ *  difference a link makes to the printed average (information only, CT-01) */
+function dayMinutes(day, model, derived, week, changeover) {
+  let t = 0;
+  const groups = new Map();
+  for (const b of onBlocks(day)) for (const it of b.items || []) {
+    if (!countsNow(it) || !it.exercise_id) continue;
+    let cost;
+    try { cost = setCost({ slot_id: it.slot_id, bucket: it.bucket, role: it.role, time_class: null }, { laterality: it.laterality, bucket: it.bucket }, model, derived, week); } catch { continue; }
+    if (it.superset) { if (!groups.has(it.superset)) groups.set(it.superset, []); groups.get(it.superset).push({ sets: it.sets, cost }); }
+    else t += it.sets * cost.minutes + changeover;
+  }
+  for (const ms of groups.values()) t += supersetMinutes(ms, model);
+  return t;
+}
+
+/** power lines (an athletic or power block, or a jump / throw / Olympic dose) that a set-and-rep lift comes before in the day (H03) */
+function powerAfterStrength(day, model, origin) {
+  const out = new Set();
+  let strength = false;
+  for (const b of onBlocks(day)) for (const it of b.items || []) {
+    if (!it.exercise_id || it.role === 'test') continue;
+    const home = origin.get(it) || b;
+    const power = !!it.athletic || POWER_BLOCKS.includes(home.kind);
+    if (power && strength) out.add(it.slot_id);
+    if (!power && RES_KINDS.includes(kindOf(model, it.bucket)) && !['core', 'prehab', 'warmup'].includes(home.kind)) strength = true;
+  }
+  return out;
+}
+
+/** what a link changed against the coach's order rules, for each week it was made in (information: the link is applied, CX-04) */
+function linkConflicts(day, items, origin, powerBefore, model, plan, n) {
+  const R = model.rules, out = [];
+  const where = (it) => ({ week: n, weekday: day.weekday, slot_id: it.slot_id });
+  const home = (day.blocks || []).find(b => (b.items || []).includes(items[0])) || null;
+  for (const it of items) {
+    const from = origin.get(it);
+    if (!home || !from || from === home) continue;
+    out.push({ code: 'link_moved_block', class: 'info', ...where(it), from: from.kind, to: home.kind, actual: home.kind, limit: from.kind });
+    // H05: the core block stays first and whole (a core line taken out of it, or another line put into it)
+    if (from.kind === 'core' || home.kind === 'core') out.push({ code: 'link_core_block', class: 'rule', rule: 'H05', ...where(it), from: from.kind, to: home.kind, actual: home.kind, limit: 'core' });
+  }
+  // H03: power before strength - a power line that now comes after a lift
+  const now = powerAfterStrength(day, model, origin);
+  for (const it of dayItems(day)) if (now.has(it.slot_id) && !powerBefore.has(it.slot_id)) out.push({ code: 'link_power_after_strength', class: 'rule', rule: 'H03', ...where(it), actual: 'after', limit: 'before' });
+  // H06: a hip-dominant lower lift goes with a push, a knee-dominant one with a pull (engine/validate.mjs v11Pairing)
+  const P = R.pairing;
+  const variant = plan.meta && plan.meta.template && plan.meta.template.variant;
+  if (P && day.kind === 'main' && !(variant && (P.not_for_variants || []).includes(variant))) {
+    const uppers = items.filter(it => [...P.hip_with, ...P.knee_with].includes(it.bucket));
+    for (const L of items) {
+      const need = P.hip_buckets.includes(L.bucket) ? P.hip_with : P.knee_buckets.includes(L.bucket) ? P.knee_with : null;
+      if (!need) continue;
+      for (const U of uppers) if (!need.includes(U.bucket)) out.push({ code: 'link_pairing', class: 'rule', rule: 'H06', ...where(U), lower: L.slot_id, actual: U.bucket, limit: need.join('|') });
+    }
+  }
+  return out;
 }
 
 /**

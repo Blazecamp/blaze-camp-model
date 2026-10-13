@@ -1666,7 +1666,8 @@ function supersetSuggestions(d, model, o) {
   const all = (d.blocks || []).flatMap(b => b.items || []);
   const out = [];
   for (const r of d.superset_recommendations || []) {
-    if (r.on || !(r.minutes_saved > 0)) continue;
+    // (G-314: a pair one of whose lines the person linked into another group is not suggested)
+    if (r.on || r.in_other_group || !(r.minutes_saved > 0)) continue;
     const its = (r.items || []).map(id => all.find(x => x.slot_id === id)).filter(Boolean);
     if (its.length < 2) continue;
     out.push(T(model, o)('ui.plan.superset_suggest_line', { pair: its.map(x => exName(model, o, x)).join(' + '), min: r.minutes_saved }));
