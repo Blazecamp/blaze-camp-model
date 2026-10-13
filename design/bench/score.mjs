@@ -95,7 +95,14 @@
 //                         group's template lifts are at their tops, so it sits at its fewest sets next to them - it is left out of the
 //                         day's staircase and read on its own rule instead: a week it takes a set while a template lift of its group,
 //                         on any day, still has room under its top is a staircase deviation. Without the rule the scorer reads as 2.4.1.
-export const SCORER_VERSION = '2.5';
+// Scorer 2.6 (engine 0.7 selection package, DECISIONS G-250 ...): the coach's newer answer changes what a template day is:
+//   * skeleton            COACH-R5 R5-GEN-01 ('Two full-body days would be more beneficial'): on a 2-day week the A / B days are two
+//                         full-body days built from his slots - day 1 = horizontal pull, squat, vertical / incline push, single-leg
+//                         hinge (+ biceps, leg extension); day 2 = horizontal push, hinge, vertical pull, lunge (+ triceps, leg curl).
+//                         The skeleton ids gym_FB1 / gym_FB2 / athletic_FB1 / athletic_FB2 are read like gym_A / gym_B: their compound
+//                         slots, their small slots on the gym days, and each day's patterns (pull + knee + push + hip). Without the
+//                         reading every 2-day plan would score its template days as 'not the coach's'.
+export const SCORER_VERSION = '2.6';
 export const SCORE_SCHEMA = 'bench-score/2';
 
 const EPS = 1e-9;
@@ -345,11 +352,11 @@ function resolveParams(R, overrides = {}) {
   // R4-SES-05 in the coach's words: Day A = horizontal pull, squat, vertical pull, lunge, biceps, leg extension; Day B = horizontal
   // push, hinge / hip thrust, vertical or incline push, unilateral hinge, triceps, leg curl. The compound slots are read on every
   // A / B skeleton (the gym days and the athletic days, 'athletic block, then the same A / B lifts'); the two small slots on the gym days.
-  put('ab_compound_slots', { A: ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD'], B: ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD'] }, 'COACH-R4 R4-SES-05 (slots 1-4 of Day A / Day B)');
-  put('ab_small_slots', { A: ['ISO_BICEP', 'ISO_QUAD'], B: ['ISO_TRICEP', 'ISO_LEG_FLEXION'] }, 'COACH-R4 R4-SES-05 (slots 5-6 of Day A / Day B, gym skeletons)');
-  put('skeleton_day_of', { gym_A: 'A', athletic_A: 'A', gym_B: 'B', athletic_B: 'B' }, 'engine/DECISIONS G-04 (skeleton ids of the templates)');
-  put('skeleton_gym', ['gym_A', 'gym_B'], 'engine/DECISIONS G-04');
-  put('skeleton_patterns', { gym_A: ['pull', 'knee'], athletic_A: ['pull', 'knee'], gym_B: ['push', 'hip'], athletic_B: ['push', 'hip'], ppl_push: ['push'], ppl_pull: ['pull'], ppl_legs: ['knee', 'hip'] },
+  put('ab_compound_slots', { A: ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD'], B: ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD'], FB1: ['RP_HPULL', 'RP_BKD', 'RP_VPUSH', 'RP_UHD'], FB2: ['RP_HPUSH', 'RP_BHD', 'RP_VPULL', 'RP_UKD'] }, 'COACH-R4 R4-SES-05 (slots 1-4 of Day A / Day B); COACH-R5 R5-GEN-01 (scorer 2.6: the two full-body days of a 2-day week)');
+  put('ab_small_slots', { A: ['ISO_BICEP', 'ISO_QUAD'], B: ['ISO_TRICEP', 'ISO_LEG_FLEXION'], FB1: ['ISO_BICEP', 'ISO_QUAD'], FB2: ['ISO_TRICEP', 'ISO_LEG_FLEXION'] }, 'COACH-R4 R4-SES-05 (slots 5-6 of Day A / Day B, gym skeletons); COACH-R5 R5-GEN-01, CH5-02');
+  put('skeleton_day_of', { gym_A: 'A', athletic_A: 'A', gym_B: 'B', athletic_B: 'B', gym_FB1: 'FB1', athletic_FB1: 'FB1', gym_FB2: 'FB2', athletic_FB2: 'FB2' }, 'engine/DECISIONS G-04 (skeleton ids of the templates); G-250 (the 2-day full-body days)');
+  put('skeleton_gym', ['gym_A', 'gym_B', 'gym_FB1', 'gym_FB2'], 'engine/DECISIONS G-04, G-250');
+  put('skeleton_patterns', { gym_A: ['pull', 'knee'], athletic_A: ['pull', 'knee'], gym_B: ['push', 'hip'], athletic_B: ['push', 'hip'], gym_FB1: ['pull', 'knee', 'push', 'hip'], athletic_FB1: ['pull', 'knee', 'push', 'hip'], gym_FB2: ['pull', 'knee', 'push', 'hip'], athletic_FB2: ['pull', 'knee', 'push', 'hip'], ppl_push: ['push'], ppl_pull: ['pull'], ppl_legs: ['knee', 'hip'] },
     'COACH-R4 R4-SES-05 (A = pull + knee dominant, B = push + hip dominant; push / pull / legs as in his sheets)');
   put('pattern_of_bucket', { RP_BKD: 'knee', RP_UKD: 'knee', ISO_QUAD: 'knee', RP_BHD: 'hip', RP_UHD: 'hip', ISO_LEG_FLEXION: 'hip', RP_HPULL: 'pull', RP_VPULL: 'pull', RP_HPUSH: 'push', RP_VPUSH: 'push', ISO_CHEST: 'push' },
     'scorer: the movement pattern a template slot names');

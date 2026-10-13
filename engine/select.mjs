@@ -333,6 +333,22 @@ function prep(ctx) {
     E0.smallKitRows1 = model.bySlot('RP_HPULL').filter((e) => okRec(e, (SKx && SKx.ids) || [])).length < 2;
     E0.kitHolds = (bucket) => model.bySlot(bucket).some((e) => okRec(e));
     E0.homeKit = homeKit; }
+  // engine 0.7 (rules.selection.v7; COACH-R5 round 5): the incline-first athletes and the week's overhead press kept for health
+  // (R5-ATH-04), the jump level an exercise block may pick (R5-GRD-03) and the assisted start of a knee-pain client (R5-GRD-08)
+  {
+    const V7 = R.selection.v7 || null;
+    E0.V7 = V7;
+    const IO = V7 && V7.incline_overhead;
+    E0.inclineAthlete = !!IO && !!profileId && new RegExp(IO.profile_re).test(String(profileId));
+    E0.overheadKeep = !!IO && (E0.inclineAthlete || (IO.keep_overhead_hotspot_codes || []).some((c) => injuries.has(c)));
+    E0.shapeEbs = shape ? (shape.exercise_blocks || []) : [];
+    E0.overheadSlot = E0.overheadKeep ? overheadKeeperSlot(layout, E0, exerciseBlock) : null;
+    const AJ = V7 && V7.assisted_jumps, J = V7 && V7.jumps;
+    E0.kneeJump = !!AJ && pain.some((p) => (AJ.pain_areas || []).includes(p.area));
+    E0.assistedNow = E0.kneeJump && exerciseBlock <= (AJ.assisted_blocks || 0);
+    E0.jumpCap = J ? Math.max(1, Math.min(J.max_level || 4, E0.kneeJump ? exerciseBlock - (AJ.assisted_blocks || 0) : exerciseBlock + (J.cap_offset || 0))) : null;
+    E0.planFirstBlock = exerciseBlock === 1;
+  }
   // v0.5 fix round 1: the week's 'Chest / Shoulders' slot that takes an incline press, and the days whose slot 3 is an incline
   E0.chestShoulders = chestShouldersSlots(layout, E0);
   E0.inclineDays = inclineVpushDays(layout, E0);
@@ -380,7 +396,42 @@ function inclineFirstOn(E) {
   // a thrower keeps his one-arm overhead press, the coach has not reviewed that plan)
   const X2 = E.R.selection.x2;
   if (X2 && (X2.incline_first_hotspot_codes || []).some((c) => E.injuries.has(c))) return true;
+  // engine 0.7 (COACH-R5 R5-ATH-04 'Yeah, but going overhead is also important'): throwers and volleyball bias incline pressing too
+  if (E.inclineAthlete) return true;
   return (IF.goals || []).includes(E.goal) && !(IF.not_competitive && E.competitive);
+}
+
+/**
+ * engine 0.7 (COACH-R5 R5-ATH-04 'overhead pressing should be included for health ... to be able to reach up and have that range of
+ * motion available'; rules.selection.v7.incline_overhead.keep_overhead): the week's vertical-push slot that keeps an overhead press for
+ * an incline-first athlete (the swimmer too) - the last one of the week; with one such slot in the week, every second exercise block.
+ * @returns {string|null} slot id
+ */
+function overheadKeeperSlot(layout, E, exerciseBlock) {
+  const IO = E.R.selection.v7 && E.R.selection.v7.incline_overhead;
+  if (!IO || !layout) return null;
+  const slots = [];
+  for (const d of layout.days) {
+    if (d.kind !== 'main') continue;
+    for (const x of daySlots(d)) if (x.bucket === 'RP_VPUSH' && isLive(x, E) && !x.circuit && x.block !== 'circuit') slots.push(x.slot_id);
+  }
+  if (!slots.length) return null;
+  if (slots.length >= 2) return slots[slots.length - 1];
+  // (one such slot a week: the training block's last exercise block takes the overhead press - an earlier block's incline press
+  // never comes back at a later block, R2-LIB-01 - so the strength blocks bias the incline press; a training block of one
+  // exercise block keeps its incline press, and the plan says nothing it does not do)
+  const tbEbs = E.tb && E.shapeEbs ? E.shapeEbs.filter((e) => e.training_block === E.tb.n) : [];
+  return tbEbs.length >= 2 && exerciseBlock === tbEbs[tbEbs.length - 1].n ? slots[0] : null;
+}
+
+/** engine 0.7 (COACH-R5 R5-GRD-03; rules.selection.v7.jumps): the progression level of a lower-body jump record - 1 two-leg and low,
+ *  2 two-leg and higher, 3 easy single-leg (or split-stance), 4 single-leg and higher */
+export function jumpLevel(ex, J) {
+  if (!ex || !J) return 1;
+  const tags = ex.tags || [];
+  const high = (J.high_tags || []).some((t) => tags.includes(t)) || (J.high_id_re ? new RegExp(J.high_id_re).test(ex.id) : false);
+  const uni = ex.laterality === 'unilateral' || ex.laterality === 'alternating';
+  return uni ? (high ? 4 : 3) : (high ? 2 : 1);
 }
 
 /** v0.6 (G-131): does the low-back core rule hold for this client? Declared low-back pain always; a sport profile's low-back hot spot
@@ -622,6 +673,14 @@ function hardFilter(ex, slot, eb, E, spine) {
     if (E.firstReactive && ((isUnilateral(ex) && !s6Free) || tags.includes('split_grip') || ex.equipment.any_of.every((su) => su.includes('dumbbell')))) return { ok: false, step: 'first_reactive' };
     if (E.FR.single_leg_reactive_after_bilateral_block && isUnilateral(ex) && !E.priorRc2 && !s6Free) return { ok: false, step: 'first_reactive' };
   }
+  // engine 0.7 (COACH-R5 R5-GRD-03 'We don't start people in unilateral hurdle hops'): never a pick of the plan's first exercise block;
+  // R5-GRD-08: the assisted jumps are the knee-pain client's start - nobody else's pick
+  const V7J = E.V7 && E.V7.jumps, V7A = E.V7 && E.V7.assisted_jumps;
+  if (V7J && (V7J.buckets || []).includes(eb) && ex.athletic && !ex.athletic.upper) {
+    const uniJ = ex.laterality === 'unilateral' || ex.laterality === 'alternating';
+    if (E.planFirstBlock && uniJ && ((V7J.never_first_block_tags || []).some((t) => tags.includes(t)) || (V7J.never_first_block_re && new RegExp(V7J.never_first_block_re).test(ex.id)))) return { ok: false, step: 'jump_stage' };
+    if (V7A && V7A.only_with_pain && tags.includes(V7A.tag) && !E.kneeJump) return { ok: false, step: 'jump_stage' };
+  }
   // COD drills of one sport (American-football routes; RECHECK 03 major) and drills with no cut never fill a COD station
   if (eb === 'AP_COD' && ex.athletic && (ex.athletic.no_cuts || (Array.isArray(ex.athletic.sport_only) && !ex.athletic.sport_only.includes(E.sportId)))) return { ok: false, step: 'sport' };
   // the no-medball substitute (fake slam) only without a ball (EQ-07; RECHECK 01 major)
@@ -791,7 +850,13 @@ function scoreOf(ex, slot, eb, E, st, day) {
   // and bias incline pressing instead of overhead pressing'; R4-SES-05 B day slot 3 'vertical push ... or an incline press'): in the
   // vertical / mid-range push slot an incline (mid-range) press comes first; overhead pressing stays in the pool and the swaps
   const IF = R.selection.incline_first;
-  const inclineSlot = !!IF && eb === IF.bucket && bk === 'resistance' && inclineFirstOn(E);
+  // (engine 0.7, R5-ATH-04: the week's overhead keeper takes an overhead press, not the incline one)
+  const keeper = !!E.overheadSlot && slot.slot_id === E.overheadSlot && eb === 'RP_VPUSH' && bk === 'resistance';
+  if (keeper) {
+    const KO = E.V7.incline_overhead.keep_overhead;
+    if (tags.includes(KO.tag) && !(KO.not_tags || []).some((t) => tags.includes(t))) { s += KO.weight; reasons.push(why('why.overhead_for_health', 'R5-ATH-04')); }
+  }
+  const inclineSlot = !!IF && eb === IF.bucket && bk === 'resistance' && inclineFirstOn(E) && !keeper;
   if (inclineSlot && tags.includes(IF.tag)) {
     // (an incline press takes the full weight; the other mid-range presses - landmine, viking - half of it)
     s += new RegExp(IF.incline_re || 'incline').test(ex.id) ? IF.weight : (typeof IF.weight_other === 'number' ? IF.weight_other : IF.weight / 2);
@@ -1191,12 +1256,38 @@ function scoreOf(ex, slot, eb, E, st, day) {
   if (E.S2) s += r2Score(ex, slot, eb, E, st, day, bk, wd, reasons);
   if (R.selection.x1) s += x1Score(ex, slot, eb, E, st, day, bk, wd, over);
   if (R.selection.x2) s += x2Score(ex, slot, eb, E, st, day, bk, wd, reasons);
+  if (E.V7) s += v7Score(ex, slot, eb, E, reasons);
   return { score: Math.round(s * 1000) / 1000, reasons };
 }
 
 /** the credit class a pick is compared by in the second pass: a high-incline press (MRPUSH, v0.5 fix round 1) is still the
  *  vertical / mid-range push slot's press, so it may give way to an overhead press and back */
 const profileClass = (cc) => (cc === 'MRPUSH' ? 'VPUSH' : cc);
+
+/**
+ * engine 0.7 selection weights (rules.selection.v7; COACH-R5 round 5):
+ *  - R5-GRD-03 jumps progress from two-leg, symmetrical and low to single-leg and higher: a lower-body jump above the level the
+ *    exercise block may pick (its number in the plan + 1; a knee-pain client one block later) costs `over_penalty` a level;
+ *  - R5-GRD-08 with knee pain the first exercise block's jumps are assisted (holding a support): the assisted records lead, the
+ *    others wait; without knee pain the assisted records are not picked (they stay for the knee-pain start).
+ */
+function v7Score(ex, slot, eb, E, reasons) {
+  let s = 0;
+  const J = E.V7.jumps, AJ = E.V7.assisted_jumps;
+  const jump = J && (J.buckets || []).includes(eb) && slot.variant !== 'upper' && !!ex.athletic && !ex.athletic.upper && ex.is_athletic;
+  if (!jump) return 0;
+  const assisted = !!AJ && (ex.tags || []).includes(AJ.tag);
+  if (AJ && E.assistedNow) {
+    if (assisted) { s += AJ.bonus; reasons.push(why('why.assisted_jump', 'R5-GRD-08')); } else s += AJ.other_penalty;
+    return s;
+  }
+  if (typeof E.jumpCap === 'number') {
+    const lv = jumpLevel(ex, J);
+    if (lv > E.jumpCap) s += (J.over_penalty || -10) * (lv - E.jumpCap);
+    else if (lv === E.jumpCap && E.jumpCap > 1) reasons.push(why('why.jump_progression', 'R5-GRD-03'));
+  }
+  return s;
+}
 
 /** is this slot the day's first chest press (the lead press)? */
 function isLeadPress(slot, day, E) {
@@ -1223,6 +1314,8 @@ function chestShouldersSlots(layout, E) {
     const slots = daySlots(d);
     const v = slots.find((x) => x.bucket === CS.bucket && isLive(x, E));
     if (!v || !slots.some((x) => x.bucket === CS.lead_bucket && x.slot_id !== v.slot_id)) continue;
+    // (engine 0.7, R5-ATH-04: the week's overhead keeper stays an overhead press)
+    if (E.overheadSlot && v.slot_id === E.overheadSlot) continue;
     cands.push(v.slot_id);
   }
   // with one B day in the week the slot stays the shoulders' press - the week's other press day carries the chest - except on a
@@ -1274,7 +1367,7 @@ function inclineVpushDays(layout, E) {
     if (d.kind !== 'main') continue;
     for (const x of daySlots(d)) {
       if (E.chestShoulders && E.chestShoulders.has(x.slot_id)) out.add(d.weekday);
-      else if (IF && x.bucket === IF.bucket && inclineFirstOn(E) && isLive(x, E)) out.add(d.weekday);
+      else if (IF && x.bucket === IF.bucket && inclineFirstOn(E) && isLive(x, E) && x.slot_id !== E.overheadSlot) out.add(d.weekday);
     }
   }
   return out;
@@ -1923,6 +2016,7 @@ function decideUpperLaterality(layout, E, locked = new Set(), baseFills = null) 
   // (v0.5 / V2, R4-LIB-03: the incline press of a bodybuilder's or a general-population client's vertical / mid-range push slot is a
   // two-arm press - the library's incline presses of that slot are - so the dial turns the rows and pulldowns instead)
   const IFd = R.selection.incline_first;
+  // (engine 0.7, R5-ATH-04: the week's overhead keeper is a two-arm press too - the dial turns the rows and pulldowns)
   const inclineSlot = (s) => !!IFd && s.bucket === IFd.bucket && inclineFirstOn(E);
   // (v0.5 / V4, R4-SES-05: the A day's first row is a two-arm row - the dial turns the vertical pull instead)
   const leadRow = leadRowSlots(layout, E);
@@ -2546,6 +2640,16 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
     } else if (prevEx) alt = pool.find((c) => same(c) && !(st.usedByBucket.get(eb) || new Set()).has(c.ex.id)) || pool.find(same) || null;
     if (alt) { chosen = alt; fill.flags.push('block_change'); fill.why.push(why('why.block_change', 'PER-02')); }
     else chosen = res.ranked.find((c) => c.ex.id === opts.prevId) || null;
+  }
+  // engine 0.7 (COACH-R5 R5-ATH-04 'overhead pressing should be included for health'): the week's overhead keeper takes an overhead
+  // press whatever the previous exercise block held - a planned change of the slot, not a one-detail block change
+  if (E.overheadSlot && slot.slot_id === E.overheadSlot && eb === 'RP_VPUSH' && E.V7) {
+    const KO = E.V7.incline_overhead.keep_overhead;
+    const isOH = (e) => (e.tags || []).includes(KO.tag) && !(KO.not_tags || []).some((t) => (e.tags || []).includes(t));
+    // (a sport hot spot's avoided presses - the swimmer's standing / seesaw overhead presses - wait for the others)
+    const hotAvoid = (e) => !!E.hot && ([...E.hot.avoid_tags].some((t) => (e.tags || []).includes(t)) || E.hot.avoid_re.some((re) => re.test(e.id)));
+    const oh = picks.find((c) => isOH(c.ex) && !hotAvoid(c.ex)) || picks.find((c) => isOH(c.ex));
+    if (oh && (!chosen || !isOH(chosen.ex) || chosen.ex.id !== opts.prevId)) chosen = oh;
   }
   if (!chosen && picks.length) chosen = picks[0];
   // fallbacks 10-11: no-ball substitutes, machine isolation swaps, buy list

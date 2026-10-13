@@ -2625,6 +2625,182 @@
    ]
   },
   {
+   "id": "assisted-lateral-hops-holding-a-support",
+   "source_id": "assisted-lateral-hops-holding-a-support",
+   "name_key": "exercise.assisted-lateral-hops-holding-a-support.name",
+   "cue_key": null,
+   "kind": "exercise",
+   "family": "ATHLETIC",
+   "pattern": "PLYO",
+   "node": "AP.JMP.LK",
+   "slots": [
+    "AP_JUMP_LIMITED_KNEE",
+    "AP_PLYO"
+   ],
+   "default_in_slots": [],
+   "laterality": "bilateral",
+   "plane": "frontal",
+   "level": "foundational",
+   "zone": null,
+   "rotation_bias": null,
+   "size_class": "small",
+   "exercise_class": "athletic",
+   "counting": "contacts",
+   "credit_class": "ATHLETIC",
+   "credits": {},
+   "primary_muscle": null,
+   "equipment": {
+    "any_of": [
+     []
+    ],
+    "machine": null
+   },
+   "constraint": 1,
+   "axial_class": "none",
+   "axial": false,
+   "spine_class": "not_counted",
+   "axial_pattern": null,
+   "skill": "low",
+   "impact": "low",
+   "load_ceiling": "low",
+   "is_athletic": true,
+   "athletic": {
+    "quality": "plyometric",
+    "contact_class": "plyometric",
+    "olympic_family": null,
+    "day_pattern": null,
+    "olympic_tier": null,
+    "full_catch": false,
+    "from_floor": false,
+    "plyo_method_default": "repeated_receive_create",
+    "rc_stage_default": "RC1",
+    "unilateral_harder": false,
+    "loaded_jump": false,
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
+   },
+   "conditioning": null,
+   "medball": null,
+   "older_ok": false,
+   "older_opt_in_ok": true,
+   "youth_ok": true,
+   "tags": [
+    "ankle_hop",
+    "assisted",
+    "pain_friendly",
+    "plyo_repeated"
+   ],
+   "variation_axes": [
+    "range"
+   ],
+   "rep_hint": {
+    "text": "10-20 contacts",
+    "unit": "contacts"
+   },
+   "video": {
+    "url": "https://www.youtube.com/results?search_query=Assisted%20Side-to-Side%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)",
+    "kind": "search"
+   },
+   "status": "live_library_selectable",
+   "sport_use": [],
+   "rule_refs": [
+    "R5-GRD-08"
+   ]
+  },
+  {
+   "id": "assisted-pogo-hops-holding-a-support",
+   "source_id": "assisted-pogo-hops-holding-a-support",
+   "name_key": "exercise.assisted-pogo-hops-holding-a-support.name",
+   "cue_key": null,
+   "kind": "exercise",
+   "family": "ATHLETIC",
+   "pattern": "PLYO",
+   "node": "AP.JMP.LK",
+   "slots": [
+    "AP_JUMP_LIMITED_KNEE",
+    "AP_PLYO"
+   ],
+   "default_in_slots": [],
+   "laterality": "bilateral",
+   "plane": "sagittal",
+   "level": "foundational",
+   "zone": null,
+   "rotation_bias": null,
+   "size_class": "small",
+   "exercise_class": "athletic",
+   "counting": "contacts",
+   "credit_class": "ATHLETIC",
+   "credits": {},
+   "primary_muscle": null,
+   "equipment": {
+    "any_of": [
+     []
+    ],
+    "machine": null
+   },
+   "constraint": 1,
+   "axial_class": "none",
+   "axial": false,
+   "spine_class": "not_counted",
+   "axial_pattern": null,
+   "skill": "low",
+   "impact": "low",
+   "load_ceiling": "low",
+   "is_athletic": true,
+   "athletic": {
+    "quality": "plyometric",
+    "contact_class": "plyometric",
+    "olympic_family": null,
+    "day_pattern": null,
+    "olympic_tier": null,
+    "full_catch": false,
+    "from_floor": false,
+    "plyo_method_default": "repeated_receive_create",
+    "rc_stage_default": "RC1",
+    "unilateral_harder": false,
+    "loaded_jump": false,
+    "count_unit": "contacts",
+    "response": "repeat",
+    "upper": false,
+    "low_amplitude": true,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
+   },
+   "conditioning": null,
+   "medball": null,
+   "older_ok": false,
+   "older_opt_in_ok": true,
+   "youth_ok": true,
+   "tags": [
+    "ankle_hop",
+    "assisted",
+    "pain_friendly",
+    "plyo_repeated"
+   ],
+   "variation_axes": [
+    "range"
+   ],
+   "rep_hint": {
+    "text": "10-20 contacts",
+    "unit": "contacts"
+   },
+   "video": {
+    "url": "https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)",
+    "kind": "search"
+   },
+   "status": "live_library_selectable",
+   "sport_use": [],
+   "rule_refs": [
+    "R5-GRD-08"
+   ]
+  },
+  {
    "id": "assisted-pull-up-machine",
    "source_id": "assisted-pull-up-band-or-machine",
    "name_key": "exercise.assisted-pull-up-machine.name",
@@ -2926,6 +3102,91 @@
    "status": "live_library_selectable",
    "sport_use": [],
    "rule_refs": []
+  },
+  {
+   "id": "assisted-squat-jump-holding-a-support",
+   "source_id": "assisted-squat-jump-holding-a-support",
+   "name_key": "exercise.assisted-squat-jump-holding-a-support.name",
+   "cue_key": null,
+   "kind": "exercise",
+   "family": "ATHLETIC",
+   "pattern": "PLYO",
+   "node": "AP.JMP.FULL",
+   "slots": [
+    "AP_PLYO"
+   ],
+   "default_in_slots": [],
+   "laterality": "bilateral",
+   "plane": "sagittal",
+   "level": "foundational",
+   "zone": null,
+   "rotation_bias": null,
+   "size_class": "mixed",
+   "exercise_class": "athletic",
+   "counting": "contacts",
+   "credit_class": "ATHLETIC",
+   "credits": {},
+   "primary_muscle": null,
+   "equipment": {
+    "any_of": [
+     []
+    ],
+    "machine": null
+   },
+   "constraint": 1,
+   "axial_class": "none",
+   "axial": false,
+   "spine_class": "not_counted",
+   "axial_pattern": null,
+   "skill": "low",
+   "impact": "low",
+   "load_ceiling": "low",
+   "is_athletic": true,
+   "athletic": {
+    "quality": "ballistic",
+    "contact_class": "ballistic",
+    "olympic_family": null,
+    "day_pattern": null,
+    "olympic_tier": null,
+    "full_catch": false,
+    "from_floor": false,
+    "plyo_method_default": "create_then_land",
+    "rc_stage_default": "RC1",
+    "unilateral_harder": false,
+    "loaded_jump": false,
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
+   },
+   "conditioning": null,
+   "medball": null,
+   "older_ok": false,
+   "older_opt_in_ok": true,
+   "youth_ok": true,
+   "tags": [
+    "assisted",
+    "pain_friendly"
+   ],
+   "variation_axes": [
+    "range"
+   ],
+   "rep_hint": {
+    "text": "5-8 jumps",
+    "unit": "contacts"
+   },
+   "video": {
+    "url": "https://www.youtube.com/results?search_query=Assisted%20Squat%20Jump%20(holding%20a%20rack%2C%20rail%20or%20counter)",
+    "kind": "search"
+   },
+   "status": "live_library_selectable",
+   "sport_use": [],
+   "rule_refs": [
+    "R5-GRD-08"
+   ]
   },
   {
    "id": "back-lunge-with-contralateral-load-into-march-contralateral-scoop",
@@ -41389,6 +41650,72 @@
    "rule_refs": []
   },
   {
+   "id": "run-wod-station",
+   "source_id": "run-wod-station",
+   "name_key": "exercise.run-wod-station.name",
+   "cue_key": null,
+   "kind": "conditioning",
+   "family": "CARDIO",
+   "pattern": "CARDIO",
+   "node": "CA",
+   "slots": [
+    "COND_AEROBIC"
+   ],
+   "default_in_slots": [],
+   "laterality": "n/a",
+   "plane": "sagittal",
+   "level": "foundational",
+   "zone": null,
+   "rotation_bias": null,
+   "size_class": "n/a",
+   "exercise_class": "conditioning",
+   "counting": "conditioning_bouts",
+   "credit_class": "ATHLETIC",
+   "credits": {},
+   "primary_muscle": null,
+   "equipment": {
+    "any_of": [
+     [
+      "open_space_long"
+     ],
+     [
+      "treadmill"
+     ]
+    ],
+    "machine": null
+   },
+   "constraint": 1,
+   "axial_class": "none",
+   "axial": false,
+   "spine_class": "not_counted",
+   "axial_pattern": null,
+   "skill": "low",
+   "impact": "low",
+   "load_ceiling": "low",
+   "is_athletic": true,
+   "athletic": null,
+   "conditioning": null,
+   "medball": null,
+   "older_ok": true,
+   "older_opt_in_ok": true,
+   "youth_ok": true,
+   "tags": [],
+   "variation_axes": [],
+   "rep_hint": {
+    "text": "200-1600 m",
+    "unit": "metres"
+   },
+   "video": {
+    "url": "https://www.youtube.com/results?search_query=Run",
+    "kind": "search"
+   },
+   "status": "reference_only",
+   "sport_use": [],
+   "rule_refs": [
+    "R5-GRD-04"
+   ]
+  },
+  {
    "id": "running-routes-pre-planned-route-running",
    "source_id": "running-routes-pre-planned-route-running",
    "name_key": "exercise.running-routes-pre-planned-route-running.name",
@@ -53282,6 +53609,93 @@
    ]
   },
   {
+   "id": "suspension-trainer-assisted-jump-squat",
+   "source_id": "suspension-trainer-assisted-jump-squat",
+   "name_key": "exercise.suspension-trainer-assisted-jump-squat.name",
+   "cue_key": null,
+   "kind": "exercise",
+   "family": "ATHLETIC",
+   "pattern": "PLYO",
+   "node": "AP.JMP.FULL",
+   "slots": [
+    "AP_PLYO"
+   ],
+   "default_in_slots": [],
+   "laterality": "bilateral",
+   "plane": "sagittal",
+   "level": "foundational",
+   "zone": null,
+   "rotation_bias": null,
+   "size_class": "mixed",
+   "exercise_class": "athletic",
+   "counting": "contacts",
+   "credit_class": "ATHLETIC",
+   "credits": {},
+   "primary_muscle": null,
+   "equipment": {
+    "any_of": [
+     [
+      "trx"
+     ]
+    ],
+    "machine": null
+   },
+   "constraint": 1,
+   "axial_class": "none",
+   "axial": false,
+   "spine_class": "not_counted",
+   "axial_pattern": null,
+   "skill": "low",
+   "impact": "low",
+   "load_ceiling": "low",
+   "is_athletic": true,
+   "athletic": {
+    "quality": "ballistic",
+    "contact_class": "ballistic",
+    "olympic_family": null,
+    "day_pattern": null,
+    "olympic_tier": null,
+    "full_catch": false,
+    "from_floor": false,
+    "plyo_method_default": "create_then_land",
+    "rc_stage_default": "RC1",
+    "unilateral_harder": false,
+    "loaded_jump": false,
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
+   },
+   "conditioning": null,
+   "medball": null,
+   "older_ok": false,
+   "older_opt_in_ok": true,
+   "youth_ok": true,
+   "tags": [
+    "assisted",
+    "pain_friendly"
+   ],
+   "variation_axes": [
+    "range"
+   ],
+   "rep_hint": {
+    "text": "5-8 jumps",
+    "unit": "contacts"
+   },
+   "video": {
+    "url": "https://www.youtube.com/results?search_query=Suspension%20Trainer%20Assisted%20Jump%20Squat",
+    "kind": "search"
+   },
+   "status": "live_library_selectable",
+   "sport_use": [],
+   "rule_refs": [
+    "R5-GRD-08"
+   ]
+  },
+  {
    "id": "suspension-trainer-trx-biceps-curl",
    "source_id": "suspension-trainer-trx-biceps-curl",
    "name_key": "exercise.suspension-trainer-trx-biceps-curl.name",
@@ -54666,6 +55080,90 @@
    "status": "reference_only",
    "sport_use": [],
    "rule_refs": []
+  },
+  {
+   "id": "two-foot-lateral-jump",
+   "source_id": "two-foot-lateral-jump",
+   "name_key": "exercise.two-foot-lateral-jump.name",
+   "cue_key": null,
+   "kind": "exercise",
+   "family": "ATHLETIC",
+   "pattern": "PLYO",
+   "node": "AP.JMP.FULL",
+   "slots": [
+    "AP_PLYO"
+   ],
+   "default_in_slots": [],
+   "laterality": "bilateral",
+   "plane": "frontal",
+   "level": "foundational",
+   "zone": null,
+   "rotation_bias": null,
+   "size_class": "mixed",
+   "exercise_class": "athletic",
+   "counting": "contacts",
+   "credit_class": "ATHLETIC",
+   "credits": {},
+   "primary_muscle": null,
+   "equipment": {
+    "any_of": [
+     []
+    ],
+    "machine": null
+   },
+   "constraint": 1,
+   "axial_class": "none",
+   "axial": false,
+   "spine_class": "not_counted",
+   "axial_pattern": null,
+   "skill": "low",
+   "impact": "moderate",
+   "load_ceiling": "low",
+   "is_athletic": true,
+   "athletic": {
+    "quality": "ballistic",
+    "contact_class": "ballistic",
+    "olympic_family": null,
+    "day_pattern": null,
+    "olympic_tier": null,
+    "full_catch": false,
+    "from_floor": false,
+    "plyo_method_default": "create_then_land",
+    "rc_stage_default": "RC1",
+    "unilateral_harder": false,
+    "loaded_jump": false,
+    "count_unit": "contacts",
+    "response": "single",
+    "upper": false,
+    "low_amplitude": false,
+    "sport_only": null,
+    "no_cuts": false,
+    "sprint_kind": null
+   },
+   "conditioning": null,
+   "medball": null,
+   "older_ok": false,
+   "older_opt_in_ok": true,
+   "youth_ok": true,
+   "tags": [],
+   "variation_axes": [
+    "range",
+    "stance"
+   ],
+   "rep_hint": {
+    "text": "4-8 jumps",
+    "unit": "contacts"
+   },
+   "video": {
+    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+    "kind": "search"
+   },
+   "status": "live_library_selectable",
+   "sport_use": [],
+   "rule_refs": [
+    "R5-ATH-10",
+    "R5-GRD-03"
+   ]
   },
   {
    "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",

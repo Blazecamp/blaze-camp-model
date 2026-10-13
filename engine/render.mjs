@@ -1555,7 +1555,9 @@ function dayCard(plan, n, weekday, model, o) {
     if (!list.length) continue;
     L.push('', '**' + (b.kind === 'circuit' ? t('block.circuit', { n: b.circuit || 1 }) : t('block.' + b.kind)) + (b.on === false && has(model, 'edit.block_off') ? ' ' + t('edit.block_off') : '') + '**');
     const circ = (b.items || []).find(it => it.circuit);
-    if (circ) L.push('_' + t('ui.plan.circuit_dose', { rounds: circ.circuit.rounds, work_s: circ.circuit.work_s, transition_s: circ.circuit.transition_s }) + '_');
+    // engine 0.7 (COACH-R5 R5-GRD-05): the circuit says its format - in rounds through the stations, or station by station
+    const cfKey = circ && circ.circuit.format && has(model, 'ui.plan.circuit_dose_' + circ.circuit.format) ? 'ui.plan.circuit_dose_' + circ.circuit.format : 'ui.plan.circuit_dose';
+    if (circ) L.push('_' + t(cfKey, { rounds: circ.circuit.rounds, work_s: circ.circuit.work_s, transition_s: circ.circuit.transition_s }) + '_');
     list.forEach((it, i) => {
       L.push((i + 1) + '. ' + itemLine(plan, d, it, model, o));
       for (const s of itemDetails(plan, d, it, model, o, w)) L.push('   ' + s);

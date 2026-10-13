@@ -402,7 +402,7 @@
      },
      "day_types": {
       "A": {
-       "label": "Day A - squat + pull, hip thrust + press (complete)",
+       "label": "Full body 1 - squat + pull, single-leg hinge + press",
        "label_key": "day.aesthetics.2.A",
        "kind": "main",
        "format": "straight",
@@ -411,9 +411,10 @@
        "full_body": true,
        "groups": [
         "back",
-        "quads",
         "biceps",
         "calves",
+        "hips",
+        "quads",
         "shoulders"
        ],
        "axial": {
@@ -609,10 +610,10 @@
         },
         {
          "id": "A.s07",
-         "bucket": "RP_VPULL",
+         "bucket": "RP_VPUSH",
          "role": "paired_upper",
          "block": "strength",
-         "group": "back",
+         "group": "shoulders",
          "sets_hint": [
           2,
           3
@@ -624,7 +625,7 @@
          "circuit": null,
          "axial": null,
          "variant": null,
-         "variant_text": null,
+         "variant_text": "vertical push or incline press",
          "laterality_dial": false,
          "loading": null,
          "movable": false,
@@ -636,15 +637,15 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 3: vertical pull, like a lat pulldown (R4-SES-05)",
+         "note": "slot 3 of full-body day 1: a vertical push or an incline press (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 3)",
          "rank": 3
         },
         {
          "id": "A.s08",
-         "bucket": "RP_UKD",
+         "bucket": "RP_UHD",
          "role": "secondary",
          "block": "strength",
-         "group": "quads",
+         "group": "hips",
          "sets_hint": [
           2,
           3
@@ -668,7 +669,7 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 4: single-leg knee-dominant lift, like a lunge (R4-SES-05)",
+         "note": "slot 4 of full-body day 1: a single-leg hip-dominant lift (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 4)",
          "rank": 4
         },
         {
@@ -801,10 +802,10 @@
         }
        ],
        "count": null,
-       "skeleton": "gym_A"
+       "skeleton": "gym_FB1"
       },
       "B": {
-       "label": "Day B - deadlift + push, leg press + pull (complete)",
+       "label": "Full body 2 - hinge + push, lunge + pull",
        "label_key": "day.aesthetics.2.B",
        "kind": "main",
        "format": "straight",
@@ -812,11 +813,13 @@
        "lower_focus": "hip",
        "full_body": true,
        "groups": [
+        "back",
+        "calves",
         "chest",
         "hips",
+        "quads",
         "shoulders",
-        "triceps",
-        "calves"
+        "triceps"
        ],
        "axial": {
         "squat": false,
@@ -1011,42 +1014,10 @@
         },
         {
          "id": "B.s07",
-         "bucket": "RP_VPUSH",
+         "bucket": "RP_VPULL",
          "role": "paired_upper",
          "block": "strength",
-         "group": "shoulders",
-         "sets_hint": [
-          2,
-          3
-         ],
-         "sets_text": null,
-         "dose_text": null,
-         "pair": "P2",
-         "superset": "P2",
-         "circuit": null,
-         "axial": null,
-         "variant": null,
-         "variant_text": "vertical push or incline press",
-         "laterality_dial": false,
-         "loading": null,
-         "movable": false,
-         "counts_as_volume": true,
-         "condition": null,
-         "condition_text": null,
-         "older_default_excluded": false,
-         "older_default_text": null,
-         "group_label": null,
-         "pool_filter": null,
-         "rir": null,
-         "note": "slot 3: vertical push, like a shoulder press, or an incline press - \"more vertical than horizontal\" (R4-SES-05); incline is preferred for bodybuilders and the general population (R4-LIB-03)",
-         "rank": 3
-        },
-        {
-         "id": "B.s08",
-         "bucket": "RP_UHD",
-         "role": "secondary",
-         "block": "strength",
-         "group": "hips",
+         "group": "back",
          "sets_hint": [
           2,
           3
@@ -1070,7 +1041,39 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
+         "note": "slot 3 of full-body day 2: a vertical pull, like a lat pulldown (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 3)",
+         "rank": 3
+        },
+        {
+         "id": "B.s08",
+         "bucket": "RP_UKD",
+         "role": "secondary",
+         "block": "strength",
+         "group": "quads",
+         "sets_hint": [
+          2,
+          3
+         ],
+         "sets_text": null,
+         "dose_text": null,
+         "pair": "P2",
+         "superset": "P2",
+         "circuit": null,
+         "axial": null,
+         "variant": null,
+         "variant_text": null,
+         "laterality_dial": false,
+         "loading": null,
+         "movable": false,
+         "counts_as_volume": true,
+         "condition": null,
+         "condition_text": null,
+         "older_default_excluded": false,
+         "older_default_text": null,
+         "group_label": null,
+         "pool_filter": null,
+         "rir": null,
+         "note": "slot 4 of full-body day 2: a single-leg knee-dominant lift, like a lunge (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 4)",
          "rank": 4
         },
         {
@@ -1203,7 +1206,7 @@
         }
        ],
        "count": null,
-       "skeleton": "gym_B"
+       "skeleton": "gym_FB2"
       },
       "OPT": {
        "label": "Optional day",
@@ -11651,7 +11654,7 @@
      },
      "day_types": {
       "A": {
-       "label": "A - squat + pull (axial squat; clean day)",
+       "label": "Full body 1 - squat + pull, single-leg hinge + press",
        "label_key": "day.athletic.2.A",
        "kind": "main",
        "format": "straight",
@@ -11660,8 +11663,11 @@
        "full_body": true,
        "groups": [
         "back",
+        "biceps",
+        "calves",
+        "hips",
         "quads",
-        "calves"
+        "shoulders"
        ],
        "axial": {
         "squat": true,
@@ -11952,10 +11958,10 @@
         },
         {
          "id": "A.s10",
-         "bucket": "RP_VPULL",
+         "bucket": "RP_VPUSH",
          "role": "paired_upper",
          "block": "strength",
-         "group": "back",
+         "group": "shoulders",
          "sets_hint": [
           2,
           3
@@ -11967,7 +11973,7 @@
          "circuit": null,
          "axial": null,
          "variant": null,
-         "variant_text": null,
+         "variant_text": "vertical push or incline press",
          "laterality_dial": false,
          "loading": null,
          "movable": false,
@@ -11979,15 +11985,15 @@
          "group_label": "resistance",
          "pool_filter": null,
          "rir": null,
-         "note": "slot 3: vertical pull, like a lat pulldown (R4-SES-05)",
+         "note": "slot 3 of full-body day 1: a vertical push or an incline press (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 3)",
          "rank": 5
         },
         {
          "id": "A.s11",
-         "bucket": "RP_UKD",
+         "bucket": "RP_UHD",
          "role": "secondary",
          "block": "strength",
-         "group": "quads",
+         "group": "hips",
          "sets_hint": [
           2,
           3
@@ -12001,7 +12007,7 @@
          "variant": null,
          "variant_text": null,
          "laterality_dial": false,
-         "loading": "contralateral for COD athletes; ipsilateral step-ups for sprint acceleration",
+         "loading": "contralateral for COD athletes (into the hip); ipsilateral for sprint acceleration (out of the hip)",
          "movable": false,
          "counts_as_volume": true,
          "condition": null,
@@ -12011,7 +12017,7 @@
          "group_label": "resistance",
          "pool_filter": null,
          "rir": null,
-         "note": "slot 4: single-leg knee-dominant lift, like a lunge (R4-SES-05)",
+         "note": "slot 4 of full-body day 1: a single-leg hip-dominant lift (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 4)",
          "rank": 6
         },
         {
@@ -12144,10 +12150,10 @@
         }
        ],
        "count": null,
-       "skeleton": "athletic_A"
+       "skeleton": "athletic_FB1"
       },
       "B": {
-       "label": "B - deadlift + push (axial hinge; snatch day)",
+       "label": "Full body 2 - hinge + push, lunge + pull",
        "label_key": "day.athletic.2.B",
        "kind": "main",
        "format": "straight",
@@ -12155,10 +12161,13 @@
        "lower_focus": "hip",
        "full_body": true,
        "groups": [
+        "back",
+        "calves",
         "chest",
         "hips",
+        "quads",
         "shoulders",
-        "calves"
+        "triceps"
        ],
        "axial": {
         "squat": false,
@@ -12449,42 +12458,10 @@
         },
         {
          "id": "B.s10",
-         "bucket": "RP_VPUSH",
+         "bucket": "RP_VPULL",
          "role": "paired_upper",
          "block": "strength",
-         "group": "shoulders",
-         "sets_hint": [
-          2,
-          3
-         ],
-         "sets_text": null,
-         "dose_text": null,
-         "pair": "P2",
-         "superset": "P2",
-         "circuit": null,
-         "axial": null,
-         "variant": null,
-         "variant_text": "vertical push or incline press",
-         "laterality_dial": false,
-         "loading": null,
-         "movable": false,
-         "counts_as_volume": true,
-         "condition": null,
-         "condition_text": null,
-         "older_default_excluded": false,
-         "older_default_text": null,
-         "group_label": "resistance",
-         "pool_filter": null,
-         "rir": null,
-         "note": "slot 3: vertical push, like a shoulder press, or an incline press - \"more vertical than horizontal\" (R4-SES-05); incline is preferred for bodybuilders and the general population (R4-LIB-03)",
-         "rank": 5
-        },
-        {
-         "id": "B.s11",
-         "bucket": "RP_UHD",
-         "role": "secondary",
-         "block": "strength",
-         "group": "hips",
+         "group": "back",
          "sets_hint": [
           2,
           3
@@ -12498,7 +12475,7 @@
          "variant": null,
          "variant_text": null,
          "laterality_dial": false,
-         "loading": "contralateral for COD athletes (into the hip); ipsilateral for sprint acceleration (out of the hip)",
+         "loading": null,
          "movable": false,
          "counts_as_volume": true,
          "condition": null,
@@ -12508,7 +12485,39 @@
          "group_label": "resistance",
          "pool_filter": null,
          "rir": null,
-         "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
+         "note": "slot 3 of full-body day 2: a vertical pull, like a lat pulldown (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 3)",
+         "rank": 5
+        },
+        {
+         "id": "B.s11",
+         "bucket": "RP_UKD",
+         "role": "secondary",
+         "block": "strength",
+         "group": "quads",
+         "sets_hint": [
+          2,
+          3
+         ],
+         "sets_text": null,
+         "dose_text": null,
+         "pair": "P2",
+         "superset": "P2",
+         "circuit": null,
+         "axial": null,
+         "variant": null,
+         "variant_text": null,
+         "laterality_dial": false,
+         "loading": "contralateral for COD athletes; ipsilateral step-ups for sprint acceleration",
+         "movable": false,
+         "counts_as_volume": true,
+         "condition": null,
+         "condition_text": null,
+         "older_default_excluded": false,
+         "older_default_text": null,
+         "group_label": "resistance",
+         "pool_filter": null,
+         "rir": null,
+         "note": "slot 4 of full-body day 2: a single-leg knee-dominant lift, like a lunge (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 4)",
          "rank": 6
         },
         {
@@ -12673,7 +12682,7 @@
         }
        ],
        "count": null,
-       "skeleton": "athletic_B"
+       "skeleton": "athletic_FB2"
       },
       "OPT": {
        "label": "Optional day",
@@ -12930,7 +12939,7 @@
        },
        "day_types": {
         "IS_A": {
-         "label": "In-season A - sprint/jumps + single-leg squat + pull",
+         "label": "Full body 1 - squat + pull, single-leg hinge + press",
          "label_key": "day.athletic.2.in_season.IS_A",
          "kind": "main",
          "format": "straight",
@@ -12939,8 +12948,11 @@
          "full_body": true,
          "groups": [
           "back",
+          "biceps",
+          "calves",
+          "hips",
           "quads",
-          "calves"
+          "shoulders"
          ],
          "axial": {
           "squat": false,
@@ -13199,10 +13211,10 @@
           },
           {
            "id": "IS_A.s09",
-           "bucket": "RP_VPULL",
+           "bucket": "RP_VPUSH",
            "role": "paired_upper",
            "block": "strength",
-           "group": "back",
+           "group": "shoulders",
            "sets_hint": [
             2,
             3
@@ -13214,7 +13226,7 @@
            "circuit": null,
            "axial": null,
            "variant": null,
-           "variant_text": null,
+           "variant_text": "vertical push or incline press",
            "laterality_dial": false,
            "loading": null,
            "movable": false,
@@ -13223,18 +13235,18 @@
            "condition_text": null,
            "older_default_excluded": false,
            "older_default_text": null,
-           "group_label": null,
+           "group_label": "resistance",
            "pool_filter": null,
            "rir": null,
-           "note": "slot 3: vertical pull, like a lat pulldown (R4-SES-05)",
+           "note": "slot 3 of full-body day 1: a vertical push or an incline press (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 3)",
            "rank": 5
           },
           {
            "id": "IS_A.s10",
-           "bucket": "RP_UKD",
+           "bucket": "RP_UHD",
            "role": "secondary",
            "block": "strength",
-           "group": "quads",
+           "group": "hips",
            "sets_hint": [
             2,
             3
@@ -13248,17 +13260,17 @@
            "variant": null,
            "variant_text": null,
            "laterality_dial": false,
-           "loading": null,
+           "loading": "contralateral for COD athletes (into the hip); ipsilateral for sprint acceleration (out of the hip)",
            "movable": false,
            "counts_as_volume": true,
            "condition": null,
            "condition_text": null,
            "older_default_excluded": false,
            "older_default_text": null,
-           "group_label": null,
+           "group_label": "resistance",
            "pool_filter": null,
            "rir": null,
-           "note": "slot 4: single-leg knee-dominant lift, like a lunge (R4-SES-05)",
+           "note": "slot 4 of full-body day 1: a single-leg hip-dominant lift (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 4)",
            "rank": 6
           },
           {
@@ -13359,10 +13371,10 @@
           }
          ],
          "count": null,
-         "skeleton": "athletic_A"
+         "skeleton": "athletic_FB1"
         },
         "IS_B": {
-         "label": "In-season B - jumps + light hinge + push",
+         "label": "Full body 2 - hinge + push, lunge + pull",
          "label_key": "day.athletic.2.in_season.IS_B",
          "kind": "main",
          "format": "straight",
@@ -13370,10 +13382,13 @@
          "lower_focus": "hip",
          "full_body": true,
          "groups": [
+          "back",
+          "calves",
           "chest",
           "hips",
+          "quads",
           "shoulders",
-          "calves"
+          "triceps"
          ],
          "axial": {
           "squat": false,
@@ -13632,42 +13647,10 @@
           },
           {
            "id": "IS_B.s09",
-           "bucket": "RP_VPUSH",
+           "bucket": "RP_VPULL",
            "role": "paired_upper",
            "block": "strength",
-           "group": "shoulders",
-           "sets_hint": [
-            2,
-            3
-           ],
-           "sets_text": null,
-           "dose_text": null,
-           "pair": "P2",
-           "superset": "P2",
-           "circuit": null,
-           "axial": null,
-           "variant": null,
-           "variant_text": "vertical push or incline press",
-           "laterality_dial": false,
-           "loading": null,
-           "movable": false,
-           "counts_as_volume": true,
-           "condition": null,
-           "condition_text": null,
-           "older_default_excluded": false,
-           "older_default_text": null,
-           "group_label": "resistance",
-           "pool_filter": null,
-           "rir": null,
-           "note": "slot 3: vertical push, like a shoulder press, or an incline press - \"more vertical than horizontal\" (R4-SES-05); incline is preferred for bodybuilders and the general population (R4-LIB-03)",
-           "rank": 5
-          },
-          {
-           "id": "IS_B.s10",
-           "bucket": "RP_UHD",
-           "role": "secondary",
-           "block": "strength",
-           "group": "hips",
+           "group": "back",
            "sets_hint": [
             2,
             3
@@ -13681,17 +13664,49 @@
            "variant": null,
            "variant_text": null,
            "laterality_dial": false,
-           "loading": "contralateral for COD athletes (into the hip); ipsilateral for sprint acceleration (out of the hip)",
+           "loading": null,
            "movable": false,
            "counts_as_volume": true,
            "condition": null,
            "condition_text": null,
            "older_default_excluded": false,
            "older_default_text": null,
-           "group_label": "resistance",
+           "group_label": null,
            "pool_filter": null,
            "rir": null,
-           "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
+           "note": "slot 3 of full-body day 2: a vertical pull, like a lat pulldown (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 3)",
+           "rank": 5
+          },
+          {
+           "id": "IS_B.s10",
+           "bucket": "RP_UKD",
+           "role": "secondary",
+           "block": "strength",
+           "group": "quads",
+           "sets_hint": [
+            2,
+            3
+           ],
+           "sets_text": null,
+           "dose_text": null,
+           "pair": "P2",
+           "superset": "P2",
+           "circuit": null,
+           "axial": null,
+           "variant": null,
+           "variant_text": null,
+           "laterality_dial": false,
+           "loading": null,
+           "movable": false,
+           "counts_as_volume": true,
+           "condition": null,
+           "condition_text": null,
+           "older_default_excluded": false,
+           "older_default_text": null,
+           "group_label": null,
+           "pool_filter": null,
+           "rir": null,
+           "note": "slot 4 of full-body day 2: a single-leg knee-dominant lift, like a lunge (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 4)",
            "rank": 6
           },
           {
@@ -13824,7 +13839,7 @@
           }
          ],
          "count": null,
-         "skeleton": "athletic_B"
+         "skeleton": "athletic_FB2"
         }
        },
        "evidence": null,
@@ -38047,7 +38062,7 @@
      },
      "day_types": {
       "A": {
-       "label": "Day A - squat + pull / single-leg hinge + press",
+       "label": "Full body 1 - squat + pull, single-leg hinge + press",
        "label_key": "day.fat_loss_bootcamp.2.A",
        "kind": "main",
        "format": "straight",
@@ -38056,9 +38071,10 @@
        "full_body": true,
        "groups": [
         "back",
-        "quads",
         "biceps",
         "calves",
+        "hips",
+        "quads",
         "shoulders"
        ],
        "axial": {
@@ -38254,10 +38270,10 @@
         },
         {
          "id": "A.s07",
-         "bucket": "RP_VPULL",
+         "bucket": "RP_VPUSH",
          "role": "paired_upper",
          "block": "strength",
-         "group": "back",
+         "group": "shoulders",
          "sets_hint": [
           2,
           3
@@ -38269,7 +38285,7 @@
          "circuit": null,
          "axial": null,
          "variant": null,
-         "variant_text": null,
+         "variant_text": "vertical push or incline press",
          "laterality_dial": false,
          "loading": null,
          "movable": false,
@@ -38281,15 +38297,15 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 3: vertical pull, like a lat pulldown (R4-SES-05)",
+         "note": "slot 3 of full-body day 1: a vertical push or an incline press (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 3)",
          "rank": 3
         },
         {
          "id": "A.s08",
-         "bucket": "RP_UKD",
+         "bucket": "RP_UHD",
          "role": "secondary",
          "block": "strength",
-         "group": "quads",
+         "group": "hips",
          "sets_hint": [
           2,
           3
@@ -38313,7 +38329,7 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 4: single-leg knee-dominant lift, like a lunge (R4-SES-05)",
+         "note": "slot 4 of full-body day 1: a single-leg hip-dominant lift (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 4)",
          "rank": 4
         },
         {
@@ -38446,10 +38462,10 @@
         }
        ],
        "count": null,
-       "skeleton": "gym_A"
+       "skeleton": "gym_FB1"
       },
       "B": {
-       "label": "Day B - hinge + push / single-leg squat + pull (corrected)",
+       "label": "Full body 2 - hinge + push, lunge + pull",
        "label_key": "day.fat_loss_bootcamp.2.B",
        "kind": "main",
        "format": "straight",
@@ -38457,11 +38473,13 @@
        "lower_focus": "hip",
        "full_body": true,
        "groups": [
+        "back",
+        "calves",
         "chest",
         "hips",
+        "quads",
         "shoulders",
-        "triceps",
-        "calves"
+        "triceps"
        ],
        "axial": {
         "squat": false,
@@ -38656,42 +38674,10 @@
         },
         {
          "id": "B.s07",
-         "bucket": "RP_VPUSH",
+         "bucket": "RP_VPULL",
          "role": "paired_upper",
          "block": "strength",
-         "group": "shoulders",
-         "sets_hint": [
-          2,
-          3
-         ],
-         "sets_text": null,
-         "dose_text": null,
-         "pair": "P2",
-         "superset": "P2",
-         "circuit": null,
-         "axial": null,
-         "variant": null,
-         "variant_text": "vertical push or incline press",
-         "laterality_dial": false,
-         "loading": null,
-         "movable": false,
-         "counts_as_volume": true,
-         "condition": null,
-         "condition_text": null,
-         "older_default_excluded": false,
-         "older_default_text": null,
-         "group_label": null,
-         "pool_filter": null,
-         "rir": null,
-         "note": "slot 3: vertical push, like a shoulder press, or an incline press - \"more vertical than horizontal\" (R4-SES-05); incline is preferred for bodybuilders and the general population (R4-LIB-03)",
-         "rank": 3
-        },
-        {
-         "id": "B.s08",
-         "bucket": "RP_UHD",
-         "role": "secondary",
-         "block": "strength",
-         "group": "hips",
+         "group": "back",
          "sets_hint": [
           2,
           3
@@ -38715,7 +38701,39 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
+         "note": "slot 3 of full-body day 2: a vertical pull, like a lat pulldown (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 3)",
+         "rank": 3
+        },
+        {
+         "id": "B.s08",
+         "bucket": "RP_UKD",
+         "role": "secondary",
+         "block": "strength",
+         "group": "quads",
+         "sets_hint": [
+          2,
+          3
+         ],
+         "sets_text": null,
+         "dose_text": null,
+         "pair": "P2",
+         "superset": "P2",
+         "circuit": null,
+         "axial": null,
+         "variant": null,
+         "variant_text": null,
+         "laterality_dial": false,
+         "loading": null,
+         "movable": false,
+         "counts_as_volume": true,
+         "condition": null,
+         "condition_text": null,
+         "older_default_excluded": false,
+         "older_default_text": null,
+         "group_label": null,
+         "pool_filter": null,
+         "rir": null,
+         "note": "slot 4 of full-body day 2: a single-leg knee-dominant lift, like a lunge (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 4)",
          "rank": 4
         },
         {
@@ -38848,7 +38866,7 @@
         }
        ],
        "count": null,
-       "skeleton": "gym_B"
+       "skeleton": "gym_FB2"
       },
       "aerobic": {
        "label": "Aerobic session",
@@ -53206,7 +53224,7 @@
      },
      "day_types": {
       "A_BW": {
-       "label": "Day A - squat + pull / single-leg hinge + press (bodyweight pools)",
+       "label": "Full body 1 - squat + pull, single-leg hinge + press (bodyweight)",
        "label_key": "day.no_equipment.2.A_BW",
        "kind": "main",
        "format": "straight",
@@ -53215,9 +53233,10 @@
        "full_body": true,
        "groups": [
         "back",
-        "quads",
         "biceps",
         "calves",
+        "hips",
+        "quads",
         "shoulders"
        ],
        "axial": {
@@ -53413,10 +53432,10 @@
         },
         {
          "id": "A_BW.s07",
-         "bucket": "RP_VPULL",
+         "bucket": "RP_VPUSH",
          "role": "paired_upper",
          "block": "strength",
-         "group": "back",
+         "group": "shoulders",
          "sets_hint": [
           2,
           3
@@ -53428,7 +53447,7 @@
          "circuit": null,
          "axial": null,
          "variant": null,
-         "variant_text": null,
+         "variant_text": "vertical push or incline press",
          "laterality_dial": false,
          "loading": null,
          "movable": false,
@@ -53440,15 +53459,15 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 3: vertical pull, like a lat pulldown (R4-SES-05)",
+         "note": "slot 3 of full-body day 1: a vertical push or an incline press (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 3)",
          "rank": 3
         },
         {
          "id": "A_BW.s08",
-         "bucket": "RP_UKD",
+         "bucket": "RP_UHD",
          "role": "secondary",
          "block": "strength",
-         "group": "quads",
+         "group": "hips",
          "sets_hint": [
           2,
           3
@@ -53472,7 +53491,7 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 4: single-leg knee-dominant lift, like a lunge (R4-SES-05)",
+         "note": "slot 4 of full-body day 1: a single-leg hip-dominant lift (COACH-R5 R5-GEN-01; R4-SES-05 Day B slot 4)",
          "rank": 4
         },
         {
@@ -53605,10 +53624,10 @@
         }
        ],
        "count": null,
-       "skeleton": "gym_A"
+       "skeleton": "gym_FB1"
       },
       "B_BW": {
-       "label": "Day B - hinge + push / single-leg squat + pull (corrected) (bodyweight pools)",
+       "label": "Full body 2 - hinge + push, lunge + pull (bodyweight)",
        "label_key": "day.no_equipment.2.B_BW",
        "kind": "main",
        "format": "straight",
@@ -53616,11 +53635,13 @@
        "lower_focus": "hip",
        "full_body": true,
        "groups": [
+        "back",
+        "calves",
         "chest",
         "hips",
+        "quads",
         "shoulders",
-        "triceps",
-        "calves"
+        "triceps"
        ],
        "axial": {
         "squat": false,
@@ -53815,42 +53836,10 @@
         },
         {
          "id": "B_BW.s07",
-         "bucket": "RP_VPUSH",
+         "bucket": "RP_VPULL",
          "role": "paired_upper",
          "block": "strength",
-         "group": "shoulders",
-         "sets_hint": [
-          2,
-          3
-         ],
-         "sets_text": null,
-         "dose_text": null,
-         "pair": "P2",
-         "superset": "P2",
-         "circuit": null,
-         "axial": null,
-         "variant": null,
-         "variant_text": "vertical push or incline press",
-         "laterality_dial": false,
-         "loading": null,
-         "movable": false,
-         "counts_as_volume": true,
-         "condition": null,
-         "condition_text": null,
-         "older_default_excluded": false,
-         "older_default_text": null,
-         "group_label": null,
-         "pool_filter": null,
-         "rir": null,
-         "note": "slot 3: vertical push, like a shoulder press, or an incline press - \"more vertical than horizontal\" (R4-SES-05); incline is preferred for bodybuilders and the general population (R4-LIB-03)",
-         "rank": 3
-        },
-        {
-         "id": "B_BW.s08",
-         "bucket": "RP_UHD",
-         "role": "secondary",
-         "block": "strength",
-         "group": "hips",
+         "group": "back",
          "sets_hint": [
           2,
           3
@@ -53874,7 +53863,39 @@
          "group_label": null,
          "pool_filter": null,
          "rir": null,
-         "note": "slot 4: single-leg hip-dominant lift, like a staggered-stance deadlift, a single-leg hip extension or a glute bridge (R4-SES-05)",
+         "note": "slot 3 of full-body day 2: a vertical pull, like a lat pulldown (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 3)",
+         "rank": 3
+        },
+        {
+         "id": "B_BW.s08",
+         "bucket": "RP_UKD",
+         "role": "secondary",
+         "block": "strength",
+         "group": "quads",
+         "sets_hint": [
+          2,
+          3
+         ],
+         "sets_text": null,
+         "dose_text": null,
+         "pair": "P2",
+         "superset": "P2",
+         "circuit": null,
+         "axial": null,
+         "variant": null,
+         "variant_text": null,
+         "laterality_dial": false,
+         "loading": null,
+         "movable": false,
+         "counts_as_volume": true,
+         "condition": null,
+         "condition_text": null,
+         "older_default_excluded": false,
+         "older_default_text": null,
+         "group_label": null,
+         "pool_filter": null,
+         "rir": null,
+         "note": "slot 4 of full-body day 2: a single-leg knee-dominant lift, like a lunge (COACH-R5 R5-GEN-01; R4-SES-05 Day A slot 4)",
          "rank": 4
         },
         {
@@ -54007,7 +54028,7 @@
         }
        ],
        "count": null,
-       "skeleton": "gym_B"
+       "skeleton": "gym_FB2"
       },
       "run": {
        "label": "Run / walk-run",
