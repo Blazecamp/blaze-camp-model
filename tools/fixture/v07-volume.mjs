@@ -40,8 +40,11 @@ export function amendRulesV07(rules) {
     // G-231 (R5-VOL-07 "That's right": 'Allow a light chest exercise (fly or machine press) on the optional day even after a press day.
     // Machines and flies are easy on recovery'): the exception to the no-repeat rule of G-104 / G-210 for that case - a chest bonus on an
     // optional day may follow a press day when it is a fly or a machine press; a free-weight press still may not
+    // optional_day_max: the training days being full (the question's premise), such a light chest exercise may take one more place on
+    // the optional day than placement.bonus.max_added_per_optional_day (2) - PROPOSED reading of where the coach's exercise goes
     light_chest_optional: { enabled: true, groups: ['chest'], credit_classes: ['ISO_CHEST'], machine_press: { credit_classes: ['HPUSH'], tags: ['machine'] }, bucket: 'ISO_CHEST',
-      refs: ['R5-VOL-07', 'R3-VOL-03', 'CH5-03'], status: 'approved (COACH-R5 R5-VOL-07)' },
+      optional_day_max: 3,
+      refs: ['R5-VOL-07', 'R3-VOL-03', 'CH5-03'], status: 'approved (COACH-R5 R5-VOL-07); the third optional-day place for it PROPOSED' },
     // G-232 (R5-VOL-09 'Partly': "It can go up more as well depends on focus and goals"): the athlete's flat-press cap of 4
     // (placement.x3.athlete_press_max, G-101) is the default; with chest a Focus muscle the press may go to the level's per-exercise top
     athlete_press_focus: { enabled: true, refs: ['R5-VOL-09', 'R3-SES-01'], status: 'approved (COACH-R5 R5-VOL-09); "goals" other than a Focus pick is not an intake field (no new input)' },
@@ -96,7 +99,7 @@ export function amendRulesV07(rules) {
   // stairway in thirds (12 weeks: 3 / 4 / 5 in weeks 1-4 / 5-8 / 9-12; a shorter block splits the same way); replaces the level's
   // round count + one late round (G-09, fix round 2). The plan says people adjust (warning.circuit_rounds_thirds).
   R.supersets.bootcamp.x7 = {
-    rounds_by_third: { rounds: [3, 4, 5], warning_key: 'warning.circuit_rounds_thirds', refs: ['R5-CLS-03', 'PRG-03', 'CX-04'], status: 'approved (COACH-R5 R5-CLS-03)' }
+    rounds_by_third: { rounds: [3, 4, 5], warning_key: 'warning.circuit_rounds_thirds', floor_key: 'warning.circuit_rounds_floor', refs: ['R5-CLS-03', 'PRG-03', 'CX-04'], status: 'approved (COACH-R5 R5-CLS-03)' }
   };
 
   // ---- validation: V13 reads the stated racket-calf day (R5-VOL-10)
@@ -112,7 +115,8 @@ export const UI_V07 = {
   'why.racket_calf_both_days': ['Calf raise on both training days (racket player 50+, Achilles care): this day holds one exercise more than the usual range', 'Elevación de talones en los dos días de entrenamiento (jugador de raqueta de 50+, cuidado del tendón de Aquiles): este día lleva un ejercicio más que el rango habitual'],
   'warning.racket_calf_both_days': ['Calf raises stay on both training days for Achilles care (racket players 50+), so {days} holds one exercise more than the usual range. Remove it if you need a shorter session.', 'La elevación de talones se queda en los dos días de entrenamiento para cuidar el tendón de Aquiles (jugadores de raqueta de 50+), así que {days} lleva un ejercicio más que el rango habitual. Quítala si necesitas una sesión más corta.'],
   // G-234 (R5-CLS-03)
-  'warning.circuit_rounds_thirds': ['Circuit rounds climb with the plan: {plan}. Adjust the rounds to how you feel.', 'Las rondas del circuito suben con el plan: {plan}. Ajusta las rondas según cómo te sientas.'],
-  'ui.plan.rounds_in_weeks': ['{rounds} rounds in weeks {from}-{to}', '{rounds} rondas en las semanas {from}-{to}'],
-  'ui.plan.rounds_in_week': ['{rounds} rounds in week {from}', '{rounds} rondas en la semana {from}']
+  'warning.circuit_rounds_thirds': ['Circuit rounds climb with the plan, one more round each third of the block ({from} to {to} rounds). These are a guide: add or take away a round as you need.', 'Las rondas del circuito suben con el plan, una ronda más en cada tercio del bloque (de {from} a {to} rondas). Son una guía: agrega o quita una ronda según lo necesites.'],
+  'warning.circuit_rounds_floor': ['{group}: weeks 1-{last} run {rounds} rounds a station, so these groups sit under {floor} weekly sets until week {week}, when the rounds go up. Add a round if you want more sooner.', '{group}: las semanas 1-{last} llevan {rounds} rondas por estación, así que estos grupos quedan por debajo de {floor} series semanales hasta la semana {week}, cuando suben las rondas. Agrega una ronda si quieres más antes.'],
+  // G-230 (R5-VOL-01): a high-incline press is an upper-chest press now (was 'the shoulder press with some chest')
+  'swap.keeps.MRPUSH': ['the upper-chest press', 'el press de pecho superior']
 };

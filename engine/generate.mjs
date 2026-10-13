@@ -1353,7 +1353,9 @@ function buildMeta(C, v, weeks = []) {
       capped: b ? (b.capped || []).map(c => ({ ...c })) : [], below_floor: b ? (b.below_floor || []).slice() : [],
       bonus: b ? (b.bonus || []).map(x => ({ ...x })) : [],
       // v0.6 G-217: a group's bonus exercises on a training day, with the exercise block each one opens with
-      main_bonus: b ? (b.main_bonus || []).map(x => ({ ...x })) : [], focus_closed: b ? (b.focus_closed || []).map(x => ({ ...x })) : [], acceleration: acc, circuit: !!(b && b.circuit),
+      main_bonus: b ? (b.main_bonus || []).map(x => ({ ...x })) : [],
+      // v0.7 G-235 (R5-VOL-11): the day's first lift that takes a one-set shortfall's extra set in the last exercise block
+      one_set_shortfall: b ? (b.one_set_shortfall || []).map(x => ({ ...x })) : [], focus_closed: b ? (b.focus_closed || []).map(x => ({ ...x })) : [], acceleration: acc, circuit: !!(b && b.circuit),
       // v0.6 G-110: a timed circuit's groups that the uniform rounds take above their top number (said up front)
       over_top: b ? (b.over_top || []).map(x => ({ ...x })) : [],
       // v0.5 fix round 1: where the floor is read (the training days), the groups that hold it only with the optional day, the groups

@@ -479,6 +479,12 @@ export function buildWeekLayout(derived, shape, trainingBlock, model) {
       if (gap > 0 && gap < hardGapDays) warnings.push({ code: 'play_48h', key: 'warning.play_48h', args: { day: pd } });
     }
   }
+  // v0.7 G-233 (COACH-R5 R5-VOL-10): the days that keep the calf raise next to the arm slot hold one exercise more - said once
+  const RCw = R.session.x7 && R.session.x7.racket_calf_both_days;
+  if (RCw && RCw.warning_key) {
+    const ds = finals.filter((f) => (f.why || []).some((w) => w && w.key === RCw.why_key)).map((f) => f.weekday);
+    if (ds.length) warnings.push({ code: 'racket_calf_both_days', key: RCw.warning_key, args: { days: ds } });
+  }
   const offDays = WEEKDAYS.filter((wd) => !finals.some((d) => d.weekday === wd));
   return {
     template_id: template.id,
@@ -1192,7 +1198,14 @@ function buildDay(wd, placement, def, ctx, focusPlan, dayIndex) {
       let ok = counted < count;
       if (!ok && AS6.full_day === 'replace_last_accessory') {
         const victim = kept.filter((k) => k.st.block === 'accessories' && k.st.role === 'iso' && typeof k.st.rank === 'number' && k.st.rank < EXTRA_RANK && !['ISO_BICEP', 'ISO_TRICEP'].includes(k.st.bucket)).sort((x, y) => y.st.rank - x.st.rank)[0];
-        if (victim) { kept.splice(kept.indexOf(victim), 1); ok = true; dayWhy.push(why('why.arm_slot', 'CH5-02')); }
+        // v0.7 G-233 (COACH-R5 R5-VOL-10 'Keep the calf raise on both days for racket players 50+ (Achilles care) and let the day hold one
+        // more exercise'; rules.session.x7.racket_calf_both_days): the calf raise is not the arm slot's victim - the day holds one more
+        // exercise than its size range and says so (a stated reason V13 reads)
+        const RC = R.session.x7 && R.session.x7.racket_calf_both_days;
+        const age = ctx.derived && typeof ctx.derived.age === 'number' ? ctx.derived.age : 0;
+        const racketCalf = !!(RC && RC.enabled && age >= RC.from_age && ctx.derived.D2_profile && (RC.racket_profiles || []).includes(ctx.derived.D2_profile.id));
+        if (victim && racketCalf && victim.st.bucket === RC.bucket) { ok = true; dayWhy.push(why(RC.why_key, 'R5-VOL-10', { plus: RC.size_plus })); }
+        else if (victim) { kept.splice(kept.indexOf(victim), 1); ok = true; dayWhy.push(why('why.arm_slot', 'CH5-02')); }
       }
       if (ok) {
         const order = def.stations.indexOf(arm);

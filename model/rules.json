@@ -3612,12 +3612,13 @@
      ]
     },
     "bucket": "ISO_CHEST",
+    "optional_day_max": 3,
     "refs": [
      "R5-VOL-07",
      "R3-VOL-03",
      "CH5-03"
     ],
-    "status": "approved (COACH-R5 R5-VOL-07)"
+    "status": "approved (COACH-R5 R5-VOL-07); the third optional-day place for it PROPOSED"
    },
    "athlete_press_focus": {
     "enabled": true,
@@ -10551,6 +10552,7 @@
       5
      ],
      "warning_key": "warning.circuit_rounds_thirds",
+     "floor_key": "warning.circuit_rounds_floor",
      "refs": [
       "R5-CLS-03",
       "PRG-03",

@@ -651,6 +651,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const tplExtraIds = new Set();
   const isGroupBonus = (s) => !!s && s.origin === 'bonus' && !tplExtraIds.has(s.slot_id);
   const dormant = new Map();   // slot_id -> the exercise block a training day's bonus opens with (G-217: not before it is needed)
+  const gbWeek = new Map();    // v0.7 G-238: bonus key -> the stair week index it comes in (planStairs)
+  const dormantWk = new Map(); // v0.7 G-238: slot_id -> the stair week index a bonus waits for, at 0 sets
   const bonusGroupsAll = new Set(); // the groups that hold a bonus exercise in this block (open, waiting or scratch)
   const wpOn = () => { const W = PX3.work_over_paired; return !!W && (W.families || []).includes(layout.family) && (!W.modifiers || W.modifiers.includes(D9.modifier_id)); };
   // v0.7 G-236 (COACH-R5 R5-ATH-12 'Start the heavy deadlift at 3 sets and give it the next added set ahead of the other hip lifts'):
@@ -1207,7 +1209,11 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const openBonus = (g, n, log, probe = false, key = g, wide = false) => {
     if (bonusOpen.has(key) || typeof fillSlot !== 'function' || g === 'calves') return null;
     // (CH5-03: a second bonus exercise may use one more place on an optional day - rules.placement.x3.reach_planned.optional_day_max)
-    const dayMax = (wide || key !== g) && PX3.reach_planned && isNum(PX3.reach_planned.optional_day_max) ? PX3.reach_planned.optional_day_max : (BN.max_added_per_optional_day || 2);
+    const dayMax0 = (wide || key !== g) && PX3.reach_planned && isNum(PX3.reach_planned.optional_day_max) ? PX3.reach_planned.optional_day_max : (BN.max_added_per_optional_day || 2);
+    // v0.7 G-231 (COACH-R5 R5-VOL-07: the question's premise 'the training days are full at 8 exercises'): a light chest exercise may
+    // take one more place on an optional day (rules.placement.x7.light_chest_optional.optional_day_max) - only a fly or a machine press
+    const lcoMax = (wide || key !== g) && lightChestOk(g) && isNum(LCO.optional_day_max) ? Math.max(dayMax0, LCO.optional_day_max) : dayMax0;
+    const dayMax = lcoMax;
     const cands = optDi.filter(di => addedOn(di) < dayMax && daySlotsOf(di).some(s => ['core', ...RESISTANCE_KINDS].includes(kindOf(s))))
       .filter(di => key === g || !days[di].added.some(s => s.origin === 'bonus' && s.group === g))
       .sort((a, b) => addedOn(a) - addedOn(b) || a - b);
@@ -1231,7 +1237,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       // v0.6 G-104 (review 01 M2): never a compound pattern the day before already trained
       // v0.7 G-231 (COACH-R5 R5-VOL-07 'Allow a light chest exercise (fly or machine press) on the optional day even after a press day'):
       // a chest bonus on an optional day may follow a press day when it is a fly or a machine press - the day's pick, or else a fly
-      if (repeatsPreviousDay(f, di)) {
+      const extraPlace = addedOn(di) >= dayMax0; // (the light chest exercise's own place, G-231)
+      if (repeatsPreviousDay(f, di) || extraPlace) {
         if (!lightChestOk(g)) continue;
         if (!isLightChest(f)) {
           const alt = { ...slot, bucket: LCO.bucket || slot.bucket, why: [...slot.why, why('why.light_chest_optional', 'R5-VOL-07')] };
@@ -1614,7 +1621,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         const sl = openExtra(g, ws0.n, null, null, 'why.bonus_main_day');
         if (sl) { mainBonus.push(sl); reach = reachable(want); continue; }
       }
-      const slot = smallOnly ? null : openBonus(g, ws0.n, null, true); if (globalThis.__DBG) globalThis.__DBG("BON", g, reach[g], planned[g], slot && slot.slot_id, slot && fills[slot.slot_id] && fills[slot.slot_id].exercise_id, optDi.map(di => addedOn(di)));
+      const slot = smallOnly ? null : openBonus(g, ws0.n, null, true);
       if (!slot) {
         // v0.6 G-105 (R3-VOL-03 'with no optional day, on a day that already trains biceps'; review 07 M1): no optional day can take
         // it - the bonus exercise goes at the end of the training day that trains the group with the fewest exercises (inside the
@@ -1729,6 +1736,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     // day that trains it) takes that set over its own top in the block's last exercise block, never above the level's per-exercise
     // top. Read on the last week's bounds; kept only when it closes the gap.
     const OSS = PX7.one_set_shortfall && PX7.one_set_shortfall.enabled && !flatSets && !circuitPlan ? PX7.one_set_shortfall : null;
+    extraTop.clear();
     if (OSS) {
       const ebLast = wks[wks.length - 1].exercise_block;
       // (what the template's lifts hold without the bonus exercises: a bonus kept only for the first week's start or floor - H17 -
@@ -1773,6 +1781,30 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       if (hints && !flatSets) {
         if (isNum(hints.top && hints.top[g])) top[g] = Math.max(S0[g], Math.min(top[g], hints.top[g]));
         if (isNum(hints.start && hints.start[g])) { S0[g] = Math.max(S0[g], hints.start[g]); top[g] = Math.max(top[g], S0[g]); const i = lowered.findIndex(x => x.group === g); if (i >= 0 && S0[g] >= start[g]) lowered.splice(i, 1); else if (i >= 0) lowered[i].start = S0[g]; }
+      }
+    }
+    // v0.7 G-237 (COACH-R5 R5-CLS-07 'Nothing should start at their top number. It should all be gradual, and whatever the focus is,
+    // that should be a little bit higher to start'; rules.volume.x7.start_below_top): a group whose start sits at its top climbs at least
+    // min_climb sets - its start comes down first (never under what its exercises hold at their fewest sets, never under its floor),
+    // else its top goes up (inside the level's top, the absolute weekly ceiling and what its exercises hold). Calves keep their own dose
+    // (R3-SES-01), a pain-held group its pain numbers; a Focus group already starts higher (R3-SES-01).
+    const SBT = V.x7 && V.x7.start_below_top && V.x7.start_below_top.enabled && !flatSets ? V.x7.start_below_top : null;
+    if (SBT) {
+      const mc = isNum(SBT.min_climb) ? SBT.min_climb : 1;
+      for (const g of trained) {
+        if ((SBT.exempt_groups || []).includes(g) || top[g] > S0[g] || noBonus2.has(g) || armSlotGroup(g)) continue;
+        if (SBT.exempt_pain && (bt0.pain_muscles || []).includes(carrier[g])) continue;
+        const floorStruct = Math.floor((struct[g] || 0) + EPS);
+        const low = Math.max(floorStruct, floorOfGroup(g), top[g] - mc);
+        if (low < S0[g]) { S0[g] = low; continue; }
+        const line = carrier[g];
+        const levelTop = line && V.cap[line] && isNum(V.cap[line][L]) ? V.cap[line][L] : planned[g];
+        const want2 = Math.min(S0[g] + mc, levelTop, GMAX !== null ? GMAX : Infinity);
+        if (!(want2 > S0[g])) continue;
+        const wt = {}; for (const g2 of trained) wt[g2] = planned[g2];
+        wt[g] = want2;
+        const can = Math.floor((reachable(wt)[g] || 0) + EPS);
+        if (can >= want2) { top[g] = want2; planned[g] = Math.max(planned[g], want2); }
       }
     }
     // every week must be holdable: a group's sets that week are its own exercises (2-5 sets each) plus the helper credit the
@@ -1938,6 +1970,55 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       }
       for (const g of trained) noted[g] = N > 1 ? accelerationReport({ sets: sched[g], referenceRates: rates[g], noteAbove: PG.note_above, minWholeSets: PG.note_min_whole_sets }).noted.slice() : [];
     }
+    // v0.7 G-238 (round-8 coach-eye minors 01 m2 / 06 m1: 'open a bonus in the WEEK its group's template lifts all reach their tops, not
+    // at the start of its exercise block'; VOL-07; CH5-03 'if needed'; G-218; rules.placement.x7.bonus_open_week): inside the exercise
+    // block a bonus opens with, it comes in the first week whose number its group's template lifts - every one at its own top that week -
+    // and the bonuses already in cannot hold; the weeks before hold what the template lifts hold (they take those steps), and the week it
+    // comes in holds the week before plus its fewest sets (inside the week's cap and, before the last two weeks, under the final sets,
+    // R4-PRG-01) - else it comes in a later week; when no week allows that, it keeps its exercise block's first week (as G-217)
+    gbWeek.clear(); dormantWk.clear();
+    const BOW = whenOpen && PX7.bonus_open_week && PX7.bonus_open_week.enabled ? PX7.bonus_open_week : null;
+    if (BOW) {
+      const firstI = (eb) => [...Array(N).keys()].find(i => ebOfI(i) === eb);
+      const order = gb.filter(e => Number.isFinite(gbOpen.get(e.key))).sort((a, b) => gbOpen.get(a.key) - gbOpen.get(b.key));
+      const done = new Set();
+      for (const e of order) {
+        const g = e.g, eb = gbOpen.get(e.key), s = firstI(eb);
+        done.add(e.key);
+        if (s === undefined || (e.startNeed && eb === ebList[0])) { if (s !== undefined) gbWeek.set(e.key, s); continue; }
+        // (the bonuses in at week i: the other groups' by their exercise block, this group's own by the week they came in)
+        const inAt = (i) => new Set(gb.filter(x => x.key !== e.key && (x.g !== g ? gbOpen.get(x.key) <= ebOfI(i) : done.has(x.key) && gbWeek.has(x.key) && gbWeek.get(x.key) <= i)).map(x => x.key));
+        const holdOf = (i) => {
+          const t = {}; for (const g2 of trained) t[g2] = sched[g2][i];
+          t[g] = (GMAX || 99) + 99;
+          boundWeek = wks[Math.min(i, wks.length - 1)];
+          const keys = inAt(i);
+          return Math.floor((without(gb.filter(x => !keys.has(x.key)), () => reachable(t))[g] || 0) + EPS);
+        };
+        const sc = sched[g];
+        let w0 = -1;
+        for (let i = s; i < N; i++) if (holdOf(i) < sc[i]) { w0 = i; break; }
+        // (no week needs it, or the first week does: it keeps its exercise block's first week)
+        if (w0 <= 0) { gbWeek.set(e.key, s); continue; }
+        const b = fewestOf(e);
+        const mostAt = (i) => Math.min(capAt(g, i), i < N - 1 - earlyMax0 ? sc[N - 1] - 1 : sc[N - 1]);
+        // (the week before it comes in, every template lift of the group at its top: what they hold, inside that week's ceiling)
+        const fullAt = (i) => Math.max(sc[w0 - 1], Math.min(holdOf(i), mostAt(i)));
+        let at = -1;
+        for (let i = w0; i < N; i++) if (fullAt(i - 1) + b <= mostAt(i)) { at = i; break; }
+        if (at < 0) { gbWeek.set(e.key, s); continue; }
+        // (the weeks before it hold what the template lifts hold - they take those steps; the week it comes in takes the bonus's step)
+        const want = fullAt(at - 1) + b;
+        for (let j = w0; j < at; j++) sc[j] = Math.max(sc[j - 1], fullAt(j));
+        // (the template lifts take their last step the week before, not with the bonus in one jump)
+        if (sc[at - 1] < want - b && (at - 1 < 1 || sc[at - 2] <= want - b)) sc[at - 1] = want - b;
+        for (let k = at; k < N; k++) sc[k] = Math.max(sc[k], Math.min(want, capAt(g, k)));
+        for (let k = 1; k < N; k++) if (sc[k] < sc[k - 1]) sc[k] = sc[k - 1];
+        gbWeek.set(e.key, at);
+        if (ebOfI(at) > eb) gbOpen.set(e.key, ebOfI(at));
+      }
+      for (const g of trained) noted[g] = N > 1 ? accelerationReport({ sets: sched[g], referenceRates: rates[g], noteAbove: PG.note_above, minWholeSets: PG.note_min_whole_sets }).noted.slice() : [];
+    }
     boundWeek = null;
     for (const g of trained) {
       S0[g] = sched[g][0]; top[g] = sched[g][N - 1];
@@ -1950,7 +2031,13 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     const mainBonusOut = [];
     if (whenOpen) {
       for (const e of gb.slice()) if (gbOpen.get(e.key) === Infinity) dropBonus(e);
-      for (const e of gb) if (e.kind === 'main') { mainBonusOut.push({ group: e.g, slot_id: e.slot.slot_id, exercise_block: gbOpen.get(e.key) }); if (gbOpen.get(e.key) > ebList[0]) dormant.set(e.slot.slot_id, gbOpen.get(e.key)); }
+      for (const e of gb) if (e.kind === 'main') {
+        const wk = gbWeek.has(e.key) ? gbWeek.get(e.key) : null;
+        mainBonusOut.push({ group: e.g, slot_id: e.slot.slot_id, exercise_block: gbOpen.get(e.key), ...(wk !== null ? { week: wks[wk].n } : {}) });
+        // (v0.7 G-238: a bonus that comes in after its exercise block's first week waits for its week, at 0 sets)
+        if (wk !== null && wk > 0 && wk > [...Array(N).keys()].find(i => ebOfI(i) === gbOpen.get(e.key))) dormantWk.set(e.slot.slot_id, wk);
+        else if (gbOpen.get(e.key) > ebList[0]) dormant.set(e.slot.slot_id, gbOpen.get(e.key));
+      }
     } else if (gb) for (const e of gb) if (e.kind === 'main') mainBonusOut.push({ group: e.g, slot_id: e.slot.slot_id, exercise_block: ebList[0] });
     // (the scratch bonus slots close again; each one opens for real at the exercise block that first needs it)
     for (const [g, slot] of scratchBonus) {
@@ -1963,6 +2050,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     restore(sn0);
     for (const sl of mainBonus) if (sl && !isNum(sets[sl.slot_id])) sets[sl.slot_id] = EXS.sets[0];
     for (const id of dormant.keys()) sets[id] = 0;
+    for (const id of dormantWk.keys()) sets[id] = 0;
     for (const id of droppedIds) delete sets[id];
     // (engine 0.6.0 integration: a group the template caps - with COACH-CH5 CH5-02 the arms of every athletic day are trained groups -
     // arrives at what its slots hold in the last week, one week early at most, like every group (R4-PRG-01): a step the stagger gave
@@ -1983,7 +2071,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     const plannedOut = { ...planned };
     if (trained.includes('calves')) plannedOut.calves = top.calves;
     if (flatSets) for (const g of trained) plannedOut[g] = top[g];
-    blockInfo = { carrier, trained, creditOnly, planned_start: start, planned_top: plannedOut, start: S0, top, lambda, noted, capped, bonus_for: bonusFor, bonus_open: Object.fromEntries(gbOpen), main_bonus: mainBonusOut, struct, rates, focus_closed: focusClosed.slice(),
+    blockInfo = { carrier, trained, creditOnly, planned_start: start, planned_top: plannedOut, start: S0, top, lambda, noted, capped, bonus_for: bonusFor, bonus_open: Object.fromEntries(gbOpen), bonus_week: Object.fromEntries(gbWeek), main_bonus: mainBonusOut, struct, rates, focus_closed: focusClosed.slice(),
       lowered_start: lowered.slice(), balanced: balanced.start !== undefined || balanced.top !== undefined ? { group: backG, ...balanced, ratio: ppRatio ? ppRatio.want : null } : null };
   };
 
@@ -2102,7 +2190,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         changes.push({ key: 'changes.new_exercise_block', args: {} });
         // a station whose new exercise block has no pick leaves; one that has a pick again comes back at its fewest sets
         for (const [s, di] of allSlots()) {
-          if (dormant.has(s.slot_id)) { sets[s.slot_id] = 0; continue; }   // (G-217: a bonus waits for the exercise block that needs it)
+          if (dormant.has(s.slot_id) || dormantWk.has(s.slot_id)) { sets[s.slot_id] = 0; continue; }   // (G-217 / G-238: a bonus waits for the exercise block / week that needs it)
           const init = fixedSets(s, ws, di);
           if (init === null || init === 0) { if (init === 0 || !isNum(sets[s.slot_id])) sets[s.slot_id] = init; continue; }
           if (!isNum(sets[s.slot_id]) || sets[s.slot_id] <= 0) sets[s.slot_id] = init;
@@ -2136,7 +2224,11 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       if (BL && BL.open_when_needed && Object.keys(blockInfo.bonus_open || {}).length && (ws.is_training_block_start || ws.is_exercise_block_start)) {
         for (const key of blockInfo.bonus_for) {
           if (bonusOpen.has(key) || blockInfo.bonus_open[key] !== ws.exercise_block) continue;
-          openBonus(key.split('#')[0], ws.n, ws.is_training_block_start ? null : placed, false, key, !!PX3.reach_planned);
+          // (v0.7 G-238: a bonus that comes in after this week waits for its week, at 0 sets)
+          const wk = blockInfo.bonus_week && isNum(blockInfo.bonus_week[key]) ? blockInfo.bonus_week[key] : null;
+          const later = wk !== null && wk > idx;
+          const sl = openBonus(key.split('#')[0], ws.n, ws.is_training_block_start || later ? null : placed, false, key, !!PX3.reach_planned);
+          if (sl && later) { sets[sl.slot_id] = 0; dormantWk.set(sl.slot_id, wk); }
         }
         for (const [id, eb] of [...dormant]) {
           if (eb !== ws.exercise_block) continue;
@@ -2166,11 +2258,20 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
           if ((reach[g] || 0) < tgt[g] - EPS) openBonus(g, ws.n, ws.is_training_block_start ? null : placed, false, key, !!PX3.reach_planned);
         }
       }
+      // v0.7 G-238 (rules.placement.x7.bonus_open_week): a bonus that waited inside its exercise block comes in this week at its fewest sets
+      for (const [id, wk] of [...dormantWk]) {
+        if (wk !== idx) continue;
+        dormantWk.delete(id);
+        const hit = allSlots().find(([s2]) => s2.slot_id === id);
+        if (!hit || !hasPick(hit[0])) continue;
+        sets[id] = boundsOf(hit[0], hit[1])[0];
+        if (!ws.is_training_block_start) placed.push({ key: 'changes.bonus_added', args: { exercise: fills[id].exercise_id, day: days[hit[1]].weekday, slot_id: id } });
+      }
       // (the steps of this week: a Focus muscle's exercises first, never on a lift this week tests)
       stepWeek = ws.is_training_block_start ? null : ws;
       // (v0.6 G-108: the first week's own bounds hold for its allocation too - planStairs leaves them unset)
       if (PX3.start_max_sets && ws.is_training_block_start) boundWeek = ws;
-      testedSlots =stepWeek && ws.test ? new Set(strengthTestSlots(layout, ws, derived, model, fills)) : new Set();
+      testedSlots = stepWeek && ws.test ? new Set(strengthTestSlots(layout, ws, derived, model, fills)) : new Set();
       prevWeekSets = stepWeek ? { ...sets } : null;
       allocate(targets, ws.is_training_block_start ? null : placed);
       // (engine 0.6.0 integration: a group whose helper credit fell at an exercise-block change - a bonus press that became a fly for
@@ -2428,6 +2529,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       floor_counted_on: floorMain ? 'main_days' : 'all_days', floor_on_optional: floorOnOptional.slice(),
       bonus: [...bonusOpen.entries()].map(([k, s]) => ({ group: k.split('#')[0], slot_id: s.slot_id })),
       main_bonus: (blockInfo.main_bonus || []).filter(x => allSlots().some(([s2]) => s2.slot_id === x.slot_id)).map(x => ({ ...x })),
+      // v0.7 G-235 (R5-VOL-11): the lift that takes a one-set shortfall's extra set, and the exercise block it takes it in
+      one_set_shortfall: [...extraTop.entries()].map(([id, x]) => ({ group: x.group, slot_id: id, exercise_block: x.eb, sets: x.add })),
       focus_closed: (blockInfo.focus_closed || []).map(c => ({ ...c })),
       lowered_start: (blockInfo.lowered_start || []).map(c => ({ ...c })), balanced: blockInfo.balanced ? { ...blockInfo.balanced } : null,
       push_pull: ppRatio ? { pull_per_push: ppRatio.want, hard: ppRatio.hard } : null,
@@ -2443,10 +2546,26 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     const bw = weeksOut.slice(weeksOut.length - wks.length);
     const floorV = V.floor.value;
     const below = (D9.floor_groups || []).filter(g => g !== 'calves' && bw.some(w => (w.weekly_sets_by_group[g] || 0) > EPS) && bw.some(w => (w.weekly_sets_by_group[g] || 0) < floorV - EPS));
-    for (const g of below) warnings.push({ code: 'below_floor_template', key: 'warning.below_floor_template', args: { group: g, held: round2(Math.min(...bw.map(w => w.weekly_sets_by_group[g] || 0))), floor: floorV } });
+    // v0.7 G-234 (COACH-R5 R5-CLS-03 '3 rounds the first 4 weeks'; H17 'named in the plan, never hidden'): a group under the floor only
+    // in the first third's rounds is said once, with the week its rounds take it to the floor - not as a template that holds less
+    const RT0 = R.supersets && R.supersets.bootcamp && R.supersets.bootcamp.x7 && R.supersets.bootcamp.x7.rounds_by_third;
+    const earlyOnly = (g) => !!RT0 && bw[bw.length - 1] && (bw[bw.length - 1].weekly_sets_by_group[g] || 0) >= floorV - EPS;
+    const early = below.filter(earlyOnly);
+    for (const g of below) if (!early.includes(g)) warnings.push({ code: 'below_floor_template', key: 'warning.below_floor_template', args: { group: g, held: round2(Math.min(...bw.map(w => w.weekly_sets_by_group[g] || 0))), floor: floorV } });
+    if (early.length) {
+      const iOk = bw.findIndex(w => early.every(g => (w.weekly_sets_by_group[g] || 0) >= floorV - EPS));
+      const wk = iOk >= 0 ? wks[Math.min(iOk, wks.length - 1)] : null;
+      const r0 = wks[0] && wks[0].circuit ? wks[0].circuit.rounds : null;
+      if (wk && isNum(r0)) warnings.push({ code: 'circuit_rounds_floor', key: RT0.floor_key || 'warning.circuit_rounds_floor', args: { group: early.slice(), floor: floorV, rounds: r0, week: wk.n, last: wk.n - 1 } });
+    }
     // v0.6 G-110 (CX-03 / R4-PRG-04 'never above the level's top'; H10 / H17 'said, never hidden'; review 05 M3: bootcamp shoulders at
     // 18 = their top in week 1 and 22.5 by week 7, unflagged): every station of a timed circuit runs the same rounds (OBSERVED BYOP
     // BOOTCAMP), so a group the extra round takes above its top number is named, with what to do about it
+    // v0.7 G-234 (COACH-R5 R5-CLS-03 'and then people can adjust as they need to'): the rounds climb in thirds, and the plan says the
+    // person adjusts them
+    const RT = R.supersets && R.supersets.bootcamp && R.supersets.bootcamp.x7 && R.supersets.bootcamp.x7.rounds_by_third;
+    const rw = wks.map(w => (w.circuit && isNum(w.circuit.rounds) ? w.circuit.rounds : null)).filter(isNum);
+    if (RT && RT.warning_key && rw.length > 1 && rw[rw.length - 1] > rw[0]) warnings.push({ code: 'circuit_rounds_thirds', key: RT.warning_key, args: { from: rw[0], to: rw[rw.length - 1] } });
     const overTop = [];
     const CO = PX3.circuit_over_top;
     if (CO && CO.enabled) for (const g of GROUPS) {
