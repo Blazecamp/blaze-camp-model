@@ -241,8 +241,12 @@ test('R4-SES-02: the 8 samples - a main day holds at most its session count of e
   for (const { c, L } of allLayouts()) for (const d of mainDays(L)) {
     const counted = daySlots(d).filter((s) => s.counts_in_cap && !s.test);
     const size = c.derived.D6_week_layout.session_size;
-    assert.ok(d.exercise_count <= size.range[1], `${c.name} ${d.weekday}: count ${d.exercise_count}`);
-    assert.ok(counted.length <= size.range[1], `${c.name} ${d.weekday}: ${counted.length} exercises, range ${size.range}`);
+    // (converted in engine 0.7, G-233: COACH-R5 R5-VOL-10 'let the day hold one more exercise' - a racket player 50+ keeps the calf
+    // raise next to the arm slot and the day says so, why.racket_calf_both_days)
+    const RC = model.rules.session.x7 && model.rules.session.x7.racket_calf_both_days;
+    const plus = RC && (d.why || []).some((w) => w && w.key === RC.why_key) ? RC.size_plus : 0;
+    assert.ok(d.exercise_count <= size.range[1] + plus, `${c.name} ${d.weekday}: count ${d.exercise_count}`);
+    assert.ok(counted.length <= size.range[1] + plus, `${c.name} ${d.weekday}: ${counted.length} exercises, range ${size.range}`);
   }
 });
 
