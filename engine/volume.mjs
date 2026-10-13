@@ -1060,7 +1060,31 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   let balanceWant = false;    // true while the block's final sets are sized (planStairs)
   let blockedByBalance = false;
   let backRoomNow = null;     // set by the running allocation: () => the back may still take a pulling set (fix round 2)
+  // (G-311, performance only: the runs of one allocate() start from the same state with the same targets - only the numbers a group
+  // asks for of its own change - so they make the same addSet calls with the same answers until the first call that differs. A run
+  // replays the previous run's answers - the set taken, the day it was taken on, the balance flag - while its calls match one for one,
+  // and chooses again from the first call that does not.)
+  let replay = null;
   const addSet = (g, opts = {}) => {
+    if (!replay) return addSet0(g, opts);
+    const key = g + '|' + (opts.mainOnly ? 1 : 0) + (opts.forFloor ? 1 : 0) + (opts.pullOnly ? 1 : 0) + '|' + (opts.muscle === undefined ? '' : String(opts.muscle));
+    const prev = replay.prev;
+    if (replay.live && prev && replay.i < prev.length && prev[replay.i].key === key) {
+      const r = prev[replay.i++];
+      replay.cur.push(r);
+      blockedByBalance = r.blocked;
+      if (r.c) {
+        setS(r.c.s.slot_id, sets[r.c.s.slot_id] + 1);
+        if (!(BIGNEED && r.c.s.origin === 'bonus' && bigGroup(g))) lastDay[g] = r.c.di;
+      }
+      return r.c;
+    }
+    replay.live = false;
+    const c = addSet0(g, opts);
+    replay.cur.push({ key, c, blocked: blockedByBalance });
+    return c;
+  };
+  const addSet0 = (g, opts = {}) => {
     blockedByBalance = false;
     // (G-311: nothing changes the state until the chosen candidate takes its set, so a slot's bounds and the 'above the lead' test are
     // read once per slot in this call)
@@ -1364,11 +1388,15 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     const at = log ? log.length : 0;
     const eff = { ...targets };
     const cut = {};
+    let rec = null; // (G-311: the previous run's addSet calls - see addSet)
     for (let iter = 0; iter < 4; iter++) {
       restore(sn);
       if (log) log.length = at;
       const ownAdded = {};
+      replay = { prev: rec, i: 0, cur: [], live: true };
       allocateOnce(targets, eff, log, ownAdded);
+      rec = replay.cur;
+      replay = null;
       let again = false;
       for (const g of GROUPS) {
         if (!isNum(targets[g]) || !(ownAdded[g] > 0)) continue;
