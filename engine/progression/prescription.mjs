@@ -9,6 +9,7 @@
 //   MEDIUM-5  a pair's changeover saving may not exceed the smaller of its two changeovers (time never drops when a slot switches on)
 //   HIGH-1    is closed by CT-01: no time certification exists any more; every week's estimate is computed directly
 // Pure arithmetic: no I/O, no clock, no randomness, no model access. It never certifies exercise, population or clinical suitability.
+const hasOwn = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 const demand = (condition, message) => { if (!condition) throw new TypeError(message); };
 const integer = (value, name, min = 0) => {
@@ -99,7 +100,7 @@ export function planProgression({ sets, repMin, repMax, startReps, repStep, allo
   demand(startReps <= repMax, 'startReps exceeds repMax');
   demand(typeof allowLoadProgression === 'boolean', 'allowLoadProgression must be explicit');
   for (let index = 0; index < sets.length; index++) {
-    demand(Object.hasOwn(sets, index) && Object.hasOwn(rir, index), 'week arrays must not contain holes');
+    demand(hasOwn(sets, index) && hasOwn(rir, index), 'week arrays must not contain holes');
   }
   sets.forEach((value, index) => {
     integer(value, `sets[${index}]`, 1);
@@ -161,9 +162,18 @@ const GROUP_FIELDS = ['id', 'minCredits', 'maxCredits', 'maxDailyCredits', 'targ
 const DAY_FIELDS = ['id', 'optional', 'fixedSeconds'];
 const ITEM_FIELDS = ['id', 'sets', 'minSets', 'maxSets', 'reps', 'minReps', 'maxReps', 'secondsPerRep', 'restSeconds', 'changeoverSeconds', 'rir', 'credits'];
 const PAIR_FIELDS = ['a', 'b', 'changeoverSavingSeconds'];
+// (G-311: written without Object.hasOwn and structuredClone - Safari before 15.4 has neither, and the public tool runs the engine in
+// the browser; the prescription fields are plain data - numbers, strings, booleans, plain objects and arrays - copied deeply as before)
+const cloneData = (v) => {
+  if (v === null || typeof v !== 'object') return v;
+  if (Array.isArray(v)) { const a = new Array(v.length); for (let i = 0; i < v.length; i++) if (i in v) a[i] = cloneData(v[i]); return a; }
+  const o = {};
+  for (const k of Object.keys(v)) o[k] = cloneData(v[k]);
+  return o;
+};
 const pick = (source, fields) => {
   const out = {};
-  for (const key of fields) if (Object.hasOwn(source, key) && source[key] !== undefined) out[key] = structuredClone(source[key]);
+  for (const key of fields) if (hasOwn(source, key) && source[key] !== undefined) out[key] = cloneData(source[key]);
   return out;
 };
 

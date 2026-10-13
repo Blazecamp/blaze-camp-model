@@ -1524,8 +1524,11 @@ function dayTitle0(plan, d, model, o) {
   // the template names a pattern the day does not hold (a kit gap, pain or an exclusion left a slot empty: 'A - squat + pull' with
   // no squat)
   const holds = (bs) => items.some(it => bs.includes(it.bucket));
+  // ('press' not right after 'leg ', any case - the regex lookbehind /(?<!leg )press/i written as a loop: Safari < 16.4 cannot parse
+  // a lookbehind, and the public tool runs the engine in the browser; G-311)
+  const pressNotLeg = (str) => { const re = /press/gi; let mm; while ((mm = re.exec(str))) { if (!/^leg $/i.test(str.slice(Math.max(0, mm.index - 4), mm.index))) return true; re.lastIndex = mm.index + 1; } return false; };
   const missing = (/squat|knee|leg press|lunge/i.test(enLabel) && !holds(['RP_BKD', 'RP_UKD'])) || (/hinge|deadlift|\bhip\b/i.test(enLabel) && !holds(['RP_BHD', 'RP_UHD'])) ||
-    (/pull/i.test(enLabel) && !holds(['RP_HPULL', 'RP_VPULL'])) || (/push|(?<!leg )press/i.test(enLabel) && !holds(['RP_HPUSH', 'RP_VPUSH']));
+    (/pull/i.test(enLabel) && !holds(['RP_HPULL', 'RP_VPULL'])) || ((/push/i.test(enLabel) || pressNotLeg(enLabel)) && !holds(['RP_HPUSH', 'RP_VPUSH']));
   // v0.4 B4 (sample 04: 'Pull + push press day' after the Olympic budget trimmed the push press): a title with no day code (the
   // class model's own lift names) is rebuilt as '<lifts> day' when it names a lift or Olympic piece the day no longer holds
   const KWL = model.rules.session.class_lift;
