@@ -146,18 +146,21 @@ export function pdfDoc(plan, model, lang, ui0, brand = BRAND) {
       if (!day.simple) {
         for (const b of c.blocks) {
           const block = { title: txt(b.title), intro: b.intro.map(txt).filter(Boolean).join(' '), rows: [] };
-          b.items.forEach((r, i) => {
+          // each thing to do: a straight exercise numbered 1, 2 ...; a superset / circuit / WOD as a shaded header band and its
+          // exercises A1, A2 ... on a coloured rail (the day card's grouping, plan-view.js groupCard)
+          let k = 0;
+          const rowOf = (r, n, inGroup) => {
             const effort = r.meta.map(txt).filter(Boolean);
             if (r.effort_full && r.effort_full.length > 30 && !effort.length) effort.push(txt(r.effort_full));
-            block.rows.push({
-              n: i + 1,
-              name: txt(r.name),
-              tag: [r.superset_tag ? r.superset_tag : '', ...r.tags].map(txt).filter(Boolean).join(' '),
-              badge: txt(badge(r.badge)),
-              dose: txt(r.dose),
-              effort: effort.join(' · ')
-            });
-          });
+            return { n, name: txt(r.name), tag: [r.superset_tag ? r.superset_tag : '', ...r.tags].map(txt).filter(Boolean).join(' '), badge: txt(badge(r.badge)), dose: txt(r.dose), effort: effort.join(' · '), in: inGroup };
+          };
+          for (const g of b.groups || b.items.map(r => ({ kind: 'single', rows: [r] }))) {
+            if (g.kind === 'single') { block.rows.push(rowOf(g.rows[0], String(++k) + '.', false)); continue; }
+            const hd = V.groupHeader(g, ui);
+            block.rows.push({ head: txt(`${g.label} · ${hd.kind}  ${hd.line}${hd.note ? ' · ' + hd.note : ''}`) });
+            for (const r of g.rows) block.rows.push(rowOf(r, r.label || g.label, true));
+            if (g.kind === 'wod') for (const st of g.stations) block.rows.push({ n: st.label, name: txt(st.text), tag: '', badge: '', dose: '', effort: '', in: true });
+          }
           if (block.rows.length || block.title) day.blocks.push(block);
         }
       }
@@ -190,6 +193,8 @@ const PT = { w: 612, h: 792 };                 // US Letter, in points
 const M = { l: 36, r: 36, t: 44, b: 54 };      // margins; the footer sits in the bottom margin
 const CW = PT.w - M.l - M.r;                   // content width
 const COL = { name: 0.5, dose: 0.19 };        // the day table: exercise | sets x reps | effort and rest
+/** a light tint of a colour (the group band): 86% toward white */
+const tint = (c) => c.map(v => Math.round(v + (255 - v) * 0.86));
 const INK0 = [20, 20, 22], MUTED = [95, 95, 100], ACCENT0 = [217, 67, 11], LINE = [205, 205, 210], SHADE = [244, 244, 246];
 
 /**
@@ -264,12 +269,13 @@ export function drawPdf(doc, JsPDF) {
   const wName = CW * COL.name - 10, wDose = CW * COL.dose - 6, wEff = CW - CW * (COL.name + COL.dose) - 6;
   const ROW = 8.5;
   const rowLayout = (r) => {
-    const name = wrap(`${r.n}. ${r.name}${r.tag ? ' [' + r.tag + ']' : ''}`, wName, ROW, 'normal');
+    if (r.head) { const head = wrap(r.head, CW - 18, 8, 'bold'); return { head, h: head.length * lh(8) + 6 }; }
+    const name = wrap(`${r.n} ${r.name}${r.tag ? ' [' + r.tag + ']' : ''}`, wName - (r.in ? 6 : 0), ROW, 'normal');
     const badge = r.badge ? wrap(r.badge, wName, 7.5, 'bold') : [];
     const dose = wrap(r.dose, wDose, ROW);
     const eff = wrap(r.effort, wEff, ROW);
     const h = Math.max(name.length + (badge.length ? 0.9 : 0), dose.length, eff.length, 1) * lh(ROW) + 4;
-    return { name, badge, dose, eff, h };
+    return { name, badge, dose, eff, h, in: !!r.in };
   };
   const blockLayout = (b) => {
     const head = b.title ? wrap(b.title + (b.intro ? ' — ' + b.intro : ''), CW - 12, 8, 'bold') : [];
@@ -301,11 +307,21 @@ export function drawPdf(doc, JsPDF) {
       y += B.head.length * lh(8) + 6;
     }
     for (const R of B.rows) {
-      pdf.setDrawColor(...LINE); pdf.setLineWidth(0.4); pdf.line(M.l + 4, y, PT.w - M.r - 4, y);
-      font(ROW); R.name.forEach((ln, i) => pdf.text(ln, xName, y + 3 + ROW + i * lh(ROW)));
-      if (R.badge.length) { font(7.5, 'bold', ACCENT); pdf.text(R.badge[0], xName + 10, y + 3 + ROW + R.name.length * lh(ROW) - 1); }
-      font(ROW, 'bold'); R.dose.forEach((ln, i) => pdf.text(ln, xDose, y + 3 + ROW + i * lh(ROW)));
-      font(ROW, 'normal', [55, 55, 60]); R.eff.forEach((ln, i) => pdf.text(ln, xEff, y + 3 + ROW + i * lh(ROW)));
+      if (R.head) {
+        // a group's header: a light band in the brand colour with its rail, then its exercises on the same rail
+        pdf.setFillColor(...tint(ACCENT)); pdf.rect(M.l + 4, y + 1, CW - 8, R.h - 1, 'F');
+        pdf.setFillColor(...ACCENT); pdf.rect(M.l + 4, y + 1, 2.5, R.h - 1, 'F');
+        font(8, 'bold', ACCENT); R.head.forEach((ln, i) => pdf.text(ln, M.l + 11, y + 3 + 8 + i * lh(8)));
+        y += R.h;
+        continue;
+      }
+      pdf.setDrawColor(...LINE); pdf.setLineWidth(0.4); pdf.line(M.l + (R.in ? 10 : 4), y, PT.w - M.r - 4, y);
+      if (R.in) { pdf.setFillColor(...ACCENT); pdf.rect(M.l + 4, y, 2.5, R.h, 'F'); }
+      const xN = xName + (R.in ? 6 : 0);
+      font(ROW); R.name.forEach((ln, i) => pdf.text(ln, xN, y + 3 + ROW + i * lh(ROW)));
+      if (R.badge.length) { font(7.5, 'bold', ACCENT); pdf.text(R.badge[0], xN + 10, y + 3 + ROW + R.name.length * lh(ROW) - 1); }
+      font(ROW, 'bold'); (R.dose || []).forEach((ln, i) => pdf.text(ln, xDose, y + 3 + ROW + i * lh(ROW)));
+      font(ROW, 'normal', [55, 55, 60]); (R.eff || []).forEach((ln, i) => pdf.text(ln, xEff, y + 3 + ROW + i * lh(ROW)));
       y += R.h;
     }
   };

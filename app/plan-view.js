@@ -6,7 +6,8 @@
 // (renderDay / renderWeek / renderPlan), so the wording, the order and every rule the renderer applies stay the engine's. The plan
 // JSON adds the structure the Markdown does not carry: each row's exercise, sets, swaps and video link, and last week's sets.
 import { WEEKDAYS } from '../engine/util.mjs';
-import { renderDay, renderWeek, renderPlan, formatEffort } from '../engine/render.mjs';
+import { renderDay, renderWeek, renderPlan, formatEffort, formatRest } from '../engine/render.mjs';
+import { videoOf } from '../engine/library.mjs';
 import { plain, sections, stripMarkers } from './md.js';
 
 const DASH = ' — ';
@@ -277,7 +278,7 @@ export function dayCard(plan, model, lang, n, weekday) {
 
   const buildItem = (pi, it, compact) => {
     const s = splitItemLine(pi.line, model, lang, compact);
-    const row = { ...s, progress: [], notes: [], cue: [], swaps: [], video: null, copy_name: null, badge: null, sets: null, exercise_id: null, slot_id: null, edited: false, md_swaps: null, md_video: null };
+    const row = { ...s, progress: [], notes: [], cue: [], swaps: [], video: null, copy_name: null, badge: null, sets: null, exercise_id: null, slot_id: null, edited: false, superset_id: null, circuit: null, rest_obj: null, wod: null, label: '', md_swaps: null, md_video: null };
     for (const det of pi.details) {
       const txt = det.text;
       if (det.quote) { row.cue.push(txt); continue; }
@@ -300,6 +301,11 @@ export function dayCard(plan, model, lang, n, weekday) {
       }
       row.exercise_id = it.exercise_id || null;
       row.slot_id = it.slot_id || null;
+      // what groups the row with others (a superset / triset / giant set, a circuit station, a WOD and its stations)
+      row.superset_id = it.superset || null;
+      row.circuit = it.circuit || null;
+      row.rest_obj = it.rest || null;
+      row.wod = it.wod || null;
       row.edited = !!it.edited;
       row.sets = typeof it.sets === 'number' ? it.sets : null;
       row.badge = changeBadge(plan, n, weekday, it);
@@ -337,7 +343,130 @@ export function dayCard(plan, model, lang, n, weekday) {
       items: pb.items.map((pi, j) => buildItem(pi, jb ? jb.list[j] : null, false))
     });
   });
+  groupCard(card, model, lang);
   return card;
+}
+
+// ------------------------------------------------------------------------------------------------- grouped work
+
+const GROUP_KIND_BY_SIZE = (n) => (n === 2 ? 'superset' : n === 3 ? 'triset' : 'giant');
+const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+/** '90 s' / '1-2 min' / '60-120 s' from a rest object or the engine's rest words */
+export function restShort(rest, model, lang) {
+  if (!rest) return '';
+  if (rest.type === 'circuit') {
+    const s = rest.between_rounds_s;
+    if (typeof s !== 'number' || s <= 0) return '';
+    return s >= 60 && s % 60 === 0 ? (s / 60) + ' min' : s + ' s';
+  }
+  const m = /(\d+(?:-\d+)?)\s*(s|min)\b/.exec(plain(formatRest(rest, model, lang)));
+  return m ? m[1] + ' ' + m[2] : '';
+}
+
+/**
+ * The day's grouped work, so a person sees "today I have N things to do" (coach, 2026-10-13: "each exercise ... boxed, and then each
+ * set or superset ... boxed itself"). Each block gets `groups`: a straight exercise is {kind:'single', rows:[row]}; exercises done one
+ * after the other and then repeated are one group - a superset (2), triset (3) or giant set (4+) from the items' superset id, a circuit
+ * (a circuit block: its rounds, work, change and rest between rounds, `format` 'rounds' or 'stations'), or a WOD (its stations).
+ * Groups are lettered A, B ... across the day and their rows A1, A2 ...; a superset left with one exercise (the rest removed by an edit)
+ * is a straight exercise again. Inside a group the rest is said once, for the group, and taken off each row.
+ */
+export function groupCard(card, model, lang) {
+  let li = 0;
+  const nextLetter = () => LETTERS[li++ % LETTERS.length];
+  for (const b of card.blocks) {
+    const rows = b.items || [];
+    const groups = [];
+    if (b.kind === 'circuit' && rows.length > 1) {
+      const c = (rows.find(r => r.circuit) || {}).circuit || {};
+      const rest = rows.map(r => r.rest_obj).find(x => x && x.type === 'circuit') || null;
+      groups.push({ kind: 'circuit', rows, rounds: c.rounds || null, work_s: c.work_s || null, transition_s: c.transition_s || null, format: c.format || 'rounds', rest: restShort(rest, model, lang) });
+    } else {
+      for (let i = 0; i < rows.length; i++) {
+        const r = rows[i];
+        if (r.superset_id) {
+          let j = i;
+          while (j + 1 < rows.length && rows[j + 1].superset_id === r.superset_id) j++;
+          if (j > i) {
+            const list = rows.slice(i, j + 1);
+            const sets = list.map(x => x.sets).filter(x => typeof x === 'number');
+            const rounds = sets.length ? Math.max(...sets) : null;
+            const last = list[list.length - 1];
+            const rest = restShort(last.rest_obj, model, lang);
+            // the rest is said once, for the group: take the after-the-pair rest words off each row
+            for (const x of list) {
+              const words = plain(formatRest(x.rest_obj, model, lang));
+              const k = words ? x.meta.findIndex(m => plain(m) === words) : -1;
+              if (k >= 0) { x.meta.splice(k, 1); if (x.meta_s) x.meta_s.splice(k, 1); }
+              x.superset_with = '';
+              x.superset_tag = '';
+            }
+            groups.push({ kind: GROUP_KIND_BY_SIZE(list.length), rows: list, rounds, rest, fewer: list.map((x, q) => ({ q, sets: x.sets })).filter(x => typeof x.sets === 'number' && rounds && x.sets < rounds) });
+            i = j;
+            continue;
+          }
+        }
+        if (r.wod && Array.isArray(r.wod.stations) && r.wod.stations.length > 1) {
+          // the WOD's stations, from the engine's own line ('10 Reps Toes to Bar · 15 Reps Kettlebell Swing · ...')
+          const n = r.wod.stations.length;
+          const k = r.notes.findIndex(x => plain(x).split(' · ').length === n);
+          if (k >= 0) {
+            const parts = r.notes[k].split(' · ');
+            r.notes.splice(k, 1);
+            const stations = parts.map((text, q) => {
+              const id = r.wod.stations[q];
+              const ex = id && model.hasEx(id) ? model.ex(id) : null;
+              const v = ex ? videoOf(model, ex) : null;
+              return { text, exercise_id: ex ? ex.id : null, name: ex ? stripMarkers(model.t(lang, ex.name_key)) : plain(text), video: v && v.url ? v.url : null, video_kind: v ? v.kind : null };
+            });
+            groups.push({ kind: 'wod', rows: [r], stations, format: r.wod.format || null, rounds: r.wod.rounds || null });
+            continue;
+          }
+        }
+        groups.push({ kind: 'single', rows: [r] });
+      }
+    }
+    for (const g of groups) {
+      if (g.kind === 'single') { g.rows[0].label = ''; continue; }
+      g.label = nextLetter();
+      if (g.kind === 'wod') (g.stations || []).forEach((st, q) => { st.label = g.label + (q + 1); });
+      else g.rows.forEach((x, q) => { x.label = g.label + (q + 1); });
+    }
+    b.groups = groups;
+  }
+  return card;
+}
+
+/** 'A1 → A2 → A3' (a long list: 'A1 → A2 → … → A7') */
+export function groupSeq(labels) {
+  if (labels.length <= 5) return labels.join(' → ');
+  return [labels[0], labels[1], '…', labels[labels.length - 1]].join(' → ');
+}
+
+/**
+ * The group's header in plain words, in the app's words (`ui(key, args)`, app/i18n.js): {kind:'SUPERSET', line:'do A1 → A2, rest
+ * 60-90 s, repeat ×3', note:'A2: 2 rounds only'}.
+ */
+export function groupHeader(g, ui) {
+  const labels = g.kind === 'wod' ? (g.stations || []).map(s => s.label) : g.rows.map(r => r.label);
+  const seq = groupSeq(labels);
+  const out = { kind: ui('grp.' + (g.kind === 'circuit' && g.format === 'stations' ? 'stations' : g.kind)), line: '', note: '' };
+  if (g.kind === 'circuit') {
+    if (g.format === 'stations') out.line = ui('grp.stations_line', { n: g.rounds || '', first: labels[0], next: labels[1] || '' });
+    else out.line = ui(g.rest ? 'grp.circuit_line_rest' : 'grp.circuit_line', { seq, rest: g.rest, n: g.rounds || '' });
+    if (g.work_s) out.note = ui(g.transition_s ? 'grp.work_change' : 'grp.work', { work: g.work_s, change: g.transition_s || '' });
+  } else if (g.kind === 'wod') {
+    const r = Array.isArray(g.rounds) ? (g.rounds[0] === g.rounds[1] ? g.rounds[0] : g.rounds.join('-')) : g.rounds;
+    if (g.format === 'emom') out.line = ui('grp.wod_emom', { seq });
+    else if (g.format === 'amrap') out.line = ui('grp.wod_line', { seq });
+    else if (r) out.line = ui('grp.wod_rounds', { seq, n: r });
+    else out.line = ui('grp.wod_once', { seq });
+  } else {
+    out.line = ui(g.rest ? 'grp.line_rest' : 'grp.line', { seq, rest: g.rest, n: g.rounds || '' });
+    if (g.fewer && g.fewer.length) out.note = g.fewer.map(f => ui('grp.fewer', { label: g.rows[f.q].label, n: f.sets })).join(' · ');
+  }
+  return out;
 }
 
 // ------------------------------------------------------------------------------------------------- the progress tab

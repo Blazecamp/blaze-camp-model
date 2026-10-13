@@ -571,7 +571,8 @@ function swapWords(s) {
 }
 
 /** one exercise row: two short lines (name; sets × reps · reps in the tank · rest) and, tapped, its details */
-function rowHtml(r, i, key, forPrint, ed) {
+/** one exercise row; `num` is what its number shows: 1, 2 ... for a straight exercise, A1, A2 ... inside a group */
+function rowHtml(r, num, key, forPrint, ed) {
   const open = S.open.has(key) && !forPrint;
   const bar = ed && !forPrint ? editBarHtml(r, key, ed) : '';
   const det = bar + rowDetailsHtml(r, !!bar);
@@ -579,7 +580,7 @@ function rowHtml(r, i, key, forPrint, ed) {
   const dose = r.dose_s || r.dose;
   const meta = r.meta_s || r.meta;
   const line2 = dose || meta.length ? `<span class="r2">${dose ? `<span class="dose">${inline(dose)}</span>` : ''}${meta.length ? (dose ? ' · ' : '') + meta.map(x => inline(x)).join(' · ') : ''}${r.superset_with ? ` <span class="ss">⇄</span>` : ''}</span>` : '';
-  const inner = `<span class="r1"><span class="num">${i + 1}</span><span class="nm">${inline(r.name)}</span><span class="bdg">${tags}</span></span>${line2}`;
+  const inner = `<span class="r1"><span class="num">${h(String(num))}</span><span class="nm">${inline(r.name)}</span><span class="bdg">${tags}</span></span>${line2}`;
   // ▶ beside every exercise: the YouTube search for its exact name (R4-LIB-05: a search link, never a third-party video). A link of
   // its own next to the row button (never inside it), so a tap opens the videos and does not open or close the row.
   const play = r.video && !forPrint ? playHtml(r) : '';
@@ -589,6 +590,30 @@ function rowHtml(r, i, key, forPrint, ed) {
   }
   if (play) return `<div class="row-wrap"><div class="row plain">${inner}</div>${play}</div>`;
   return `<div class="row plain">${inner}</div>`;
+}
+
+/**
+ * A block's things to do, each lightly boxed (coach, 2026-10-13): a straight exercise is one card; a superset, triset, giant set,
+ * circuit or WOD is one card with a coloured rail, a header in plain words ("A · SUPERSET  do A1 → A2, rest 60-90 s, repeat ×3")
+ * and its exercises as lighter inner boxes, A1 → A2 ...
+ */
+function thingsHtml(b, keyOf, forPrint, ed) {
+  const groups = b.groups || b.items.map(r => ({ kind: 'single', rows: [r] }));
+  let k = 0, out = '';
+  for (const g of groups) {
+    if (g.kind === 'single') { out += `<div class="thing">${rowHtml(g.rows[0], ++k, keyOf(g.rows[0]), forPrint, ed)}</div>`; continue; }
+    const hd = V.groupHeader(g, t);
+    let inner = '';
+    if (g.kind === 'wod') {
+      inner += `<div class="thing wod-row">${rowHtml(g.rows[0], '', keyOf(g.rows[0]), forPrint, ed)}</div>`;
+      for (const st of g.stations) {
+        const play = st.video && !forPrint ? playHtml({ name: st.name, video: st.video, video_kind: st.video_kind }) : '';
+        inner += `<div class="thing in"><div class="row-wrap"><div class="row plain"><span class="r1"><span class="num">${h(st.label)}</span><span class="nm">${inline(st.text)}</span></span></div>${play}</div></div>`;
+      }
+    } else for (const r of g.rows) inner += `<div class="thing in">${rowHtml(r, r.label, keyOf(r), forPrint, ed)}</div>`;
+    out += `<div class="grp grp-${g.kind}" role="group" aria-label="${h(g.label + ' · ' + hd.kind)}"><div class="grp-h"><span class="grp-k">${h(g.label)} · ${h(hd.kind)}</span> <span class="grp-l">${h(hd.line)}</span>${hd.note ? `<span class="grp-n">${h(hd.note)}</span>` : ''}</div><div class="grp-b">${inner}</div></div>`;
+  }
+  return `<div class="things">${out}</div>`;
 }
 
 /** the ▶ button of a row: the exercise's YouTube search (the item's own `video` link), in a new tab or the YouTube app */
@@ -625,7 +650,7 @@ function dayCardHtml(n, weekday, forPrint) {
       const keyOf = (i) => `${n}.${weekday}.${(b.items[i] && b.items[i].slot_id) || bi + '.' + i}`;
       if (LINE_BLOCKS.includes(b.kind) && b.title && b.items.length) {
         const words = b.items.map(r => plain(r.name)).join(' + ');
-        const rows = b.items.map((r, i) => rowHtml(r, i, keyOf(i), forPrint, ed)).join('');
+        const rows = b.items.map((r, i) => rowHtml(r, i + 1, keyOf(i), forPrint, ed)).join('');
         body += `<details class="blk blk-line" data-keep="line-${b.kind}"><summary><b>${inline(b.title)}:</b> <span class="lw">${h(words)}</span></summary>${b.intro.map(x => `<div class="blk-intro">${inline(x)}</div>`).join('')}${rows}</details>`;
         return;
       }
@@ -633,8 +658,10 @@ function dayCardHtml(n, weekday, forPrint) {
       const m = /^(.*?)\s*(\(.*\))\s*$/.exec(b.title);
       if (m && b.kind === 'core') { title = m[1]; opt = m[2]; }
       body += `<div class="blk${b.on === false ? ' blk-off' : ''}"${b.kind ? ` data-kind="${b.kind}"` : ''}>${title ? `<div class="blk-h"><span class="blk-t"><span>${inline(title)}</span>${opt ? `<span class="opt">${inline(opt)}</span>` : ''}</span>${ed && b.toggle && b.kind ? blockSwitchHtml(b) : ''}</div>` : ''}`;
-      for (const x of b.intro) body += `<div class="blk-intro">${inline(x)}</div>`;
-      b.items.forEach((r, i) => { body += rowHtml(r, i, keyOf(i), forPrint, ed); });
+      // a circuit's own intro line is said by its group header
+      const grouped = (b.groups || []).some(g => g.kind !== 'single');
+      if (!(b.kind === 'circuit' && grouped)) for (const x of b.intro) body += `<div class="blk-intro">${inline(x)}</div>`;
+      body += thingsHtml(b, (r) => `${n}.${weekday}.${r.slot_id || bi + '.' + b.items.indexOf(r)}`, forPrint, ed);
       body += '</div>';
     });
   }
@@ -833,7 +860,13 @@ function buildPrint() {
       out += `<div class="pr-day"><h3>${h(c.weekday_name)} · ${inline(c.title)}</h3>${c.est ? `<div class="est">${inline(c.est)}</div>` : ''}<table>`;
       for (const b of c.blocks) {
         if (b.title) out += `<tr><td class="b" colspan="3">${inline(b.title)}${b.intro.length ? ' — ' + b.intro.map(inline).join(' ') : ''}</td></tr>`;
-        b.items.forEach((r, i) => { out += `<tr><td>${i + 1}. <b>${inline(r.name)}</b>${r.superset_tag ? ' [' + h(r.superset_tag) + ']' : ''}</td><td>${inline(r.dose)}</td><td>${r.meta.map(inline).join(' · ')}</td></tr>`; });
+        let k = 0;
+        for (const g of b.groups || b.items.map(r => ({ kind: 'single', rows: [r] }))) {
+          if (g.kind !== 'single') { const hd = V.groupHeader(g, t); out += `<tr class="pr-g"><td colspan="3"><b>${h(g.label)} · ${h(hd.kind)}</b> ${h(hd.line)}${hd.note ? ' · ' + h(hd.note) : ''}</td></tr>`; }
+          const cls = g.kind === 'single' ? '' : ' class="pr-in"';
+          for (const r of g.rows) out += `<tr${cls}><td>${h(g.kind === 'single' ? String(++k) + '.' : r.label || g.label)} <b>${inline(r.name)}</b>${r.superset_tag ? ' [' + h(r.superset_tag) + ']' : ''}</td><td>${inline(r.dose)}</td><td>${r.meta.map(inline).join(' · ')}</td></tr>`;
+          if (g.kind === 'wod') for (const st of g.stations) out += `<tr class="pr-in"><td>${h(st.label)} ${inline(st.text)}</td><td></td><td></td></tr>`;
+        }
       }
       out += '</table></div>';
     }
@@ -1084,7 +1117,8 @@ window.__bc = {
   answersFromIntake: B.answersFromIntake,
   load(answers) { S.answers = { ...answers }; S.screen = 'wizard'; S.step = SCREENS.length - 1; render(); },
   build() { return startBuild(); },
-  go(week, day) { S.week = week; S.day = day; render(); }
+  go(week, day) { S.week = week; S.day = day; render(); },
+  show(plan) { showPlan(plan, 0); }
 };
 
 async function boot() {

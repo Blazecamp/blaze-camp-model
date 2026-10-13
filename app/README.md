@@ -73,6 +73,29 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
        this plan* and *Optional add-ons*.
      * The full release line.
 
+## One box per thing to do
+
+The coach (2026-10-13): "each exercise ... boxed, and then each set or superset ... boxed itself, so people understand this is the
+segmentation of each one of the things I need to do today". On the day card (and in the print view, the PDF and the saved image):
+
+* A straight exercise is one light box, numbered 1, 2 ... within its block. The block names (warm-up, core, strength ...) stay as
+  headings above their boxes.
+* Work done one after the other and then repeated is one box with a coloured rail (the brand colour) and a header in plain words;
+  its exercises are lighter inner boxes A1 ↓ A2 ↓ A3, lettered A, B ... across the day:
+  * **superset** (2), **triset** (3), **giant set** (4+) from the items' superset id: "A · SUPERSET do A1 → A2, rest 60-90 s,
+    repeat ×3" (ES "SUPERSERIE haz A1 → A2, descansa 60-90 s, repite ×3"). The rest is said once, for the group, and taken off each
+    row; different sets are said simply ("B2: 2 rounds only").
+  * **circuit** (a bootcamp circuit block): "CIRCUIT do A1 → A2 → … → A7 in order, rest 90 s, 3 rounds · 35 s work · 15 s to
+    change"; a station-by-station circuit says so.
+  * **WOD** (the class): the WOD line, then its stations A1 → A2 → A3 (each with its ▶ search), worded by format (AMRAP "then
+    again", EMOM "one each minute", for time "N rounds").
+* Edits keep it right: a swap stays in its group; a superset left with one exercise is a straight exercise again.
+* The PDF draws a light band in the brand colour for each group header and a rail beside its exercises.
+
+`plan-view.js > groupCard` (in `dayCard`) and `groupHeader`; words `grp.*` in `i18n.js`; tested by `tests/app-groups.test.mjs`
+and `tools/app-qa/groups.mjs` (screenshots `phone-<lang>-8-superset / 8b-circuit / 8c-wod`, both brands). Today's wizard plans hold
+circuits and WODs; supersets appear when a plan has them switched on (the engine's `prefs.supersets_for_fatigue`).
+
 ## Editing
 
 The plan is an editable template (COACH-CX CX-02 / CX-04: "it should be all editable as they need to"; R4-SES-04: the person picks
