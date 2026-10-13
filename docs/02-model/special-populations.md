@@ -187,7 +187,7 @@ There are no check-ins and no pain log (R3-VOL-02, R3-GEN-01). So pain is handle
 | | The floor of 10 weekly sets does not apply to that group. | PROPOSED reading of VOL-03. Our R3-VOL-01 proposal said "a muscle cut back for pain stays cut". He marked it PARTLY and his words did not touch this part. |
 | | It still climbs a little: one set over the block. | PROPOSED |
 | A side | The two-leg vs one-leg share moves 20 points toward the pain-free option. | The idea is his (UNI-02); the 20 points are PROPOSED |
-| Severe pain | No automatic plan. See a professional. | PROPOSED (follows the health check, R2-GEN-03) |
+| Severe pain | The plan is built with the moderate pain rules and the health warning to see a medical professional (since round 5; before: no automatic plan) | PROPOSED (follows the health check, R2-GEN-03, R5-GEN-02) |
 
 **During the block.** The plan prints a short guide. The person or the coach follows it. The wording is PROPOSED; the steps come from his answers.
 
@@ -205,7 +205,7 @@ There are no check-ins and no pain log (R3-VOL-02, R3-GEN-01). So pain is handle
 
 **Rule.** Before any plan, a short health check (approved, R2-GEN-03). Since round 5 a yes no longer stops the plan: the plan is built with a clear warning to see a medical professional first (R5-GEN-02).
 
-| No automatic plan if the person has |
+| A health warning is printed if the person has (before round 5 these stopped the plan) |
 |---|
 | Chest pain or heart issues |
 | Surgery or a fracture in the last 6 months |

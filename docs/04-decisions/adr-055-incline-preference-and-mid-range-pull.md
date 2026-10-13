@@ -47,7 +47,7 @@ His sheets have a 'MID RANGE PUSH' group and no matching pull group. The team as
 - The mid-range pull category has two new row records (high row machine, 45-degree cable row). Both are PROPOSED records and optional add-ons ([ADR-054](adr-054-proposed-exercises-are-optional-add-ons.md)), offered as swaps for a row or a pulldown. A template does not pick them.
 - Face pulls stay shoulder work for counting (LIB-10, R2-LIB-04). "The face-pull angle" names the direction only.
 - PROPOSED: a mid-range pull counts as a horizontal pull for credit.
-- PROPOSED: an incline press of 30 to 45 degrees counts for chest. A high-incline press counts 1 set for front delts and half a set for chest. Open for the coach.
+- PROPOSED: an incline press of 30 to 45 degrees counts for chest. A high-incline press counts 1 set for front delts and half a set for chest. Open for the coach. **Answered by R5-VOL-01 (round 5): a high-incline press counts 1.0 chest + 0.25 front delts + 0.25 triceps.** Round 5 also keeps overhead pressing in the plan for shoulder health (R5-ATH-04).
 - A check (V32) warns when incline or mid-range presses are fewer than half of that slot's picks for these clients. It is a warning, not a failure.
 
 ## Where it lives in the data

@@ -2,7 +2,7 @@
 
 This repo holds the Blaze Camp training model: how Coach Lalo (Gerardo Vera), Master NASM coach, designs programs, made machine-readable so that a generator can write plans in his style. The model is his work and his intellectual property. Your job is to **find errors, gaps and contradictions** and report them. Please don't rewrite the model.
 
-Status on 2026-10-11: model v1.3 is complete and the plan engine (v0.5) is experimental. Read [MODEL_CARD.md](MODEL_CARD.md) first, then [HANDOFF.md](HANDOFF.md).
+Status on 2026-10-13: model v1.4 is complete (round 5, CH5 and CH6 applied) and the plan engine (v0.7.0) is experimental. Read [MODEL_CARD.md](MODEL_CARD.md) first, then [HANDOFF.md](HANDOFF.md).
 
 ## Ground rules
 

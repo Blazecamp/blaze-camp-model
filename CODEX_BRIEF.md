@@ -4,7 +4,7 @@
 
 The model is his intellectual property and his coaching experience (COACH-R4 R4-REL-03). You are checking it and looking for gaps. You are not redesigning it.
 
-## Status of this brief (2026-10-11)
+## Status of this brief (2026-10-11; updated 2026-10-13)
 
 - A first review was delivered: [reviews/codex-model-review.md](reviews/codex-model-review.md). It read the model as of commit `c13cbaa`, before round 4. Keep it as background.
 - Since then the coach answered **round 4** and gave two clarifications (**CT-01**, **CX-01..04**). The model is now v1.3. Several things that were open when the first review was written are now settled. Do not report them as open:
@@ -12,7 +12,8 @@ The model is his intellectual property and his coaching experience (COACH-R4 R4-
   - **Mid-range pull** is now its own category (R4-LIB-03).
   - **Rate limits against the final target.** The planned final sets are reached, faster steps are allowed, and a week that adds more than about 15% carries a note (CX-01, R4-PRG-01, R4-PRG-02).
   - **Proposed exercises** are optional add-ons, never template picks (R4-LIB-01).
-- A second research pass should work from the v1.3 files below.
+- **Round 5 (2026-10-12) and the chats CH5 / CH6 are in too: the model is now v1.4.** Settled there: a health-check yes warns and does not stop the plan (R5-GEN-02); 2 days = two full-body days (R5-GEN-01); a high-incline press counts 1.0 chest (R5-VOL-01); jumps two-leg first (R5-GRD-03); overhead pressing kept for shoulder health (R5-ATH-04); no group above 35 weekly sets (CH5-03). Full list: [coverage_matrix_round5.md](coverage_matrix_round5.md).
+- A second research pass should work from the v1.4 files below.
 
 ## Which source wins
 
@@ -23,9 +24,9 @@ The model is his intellectual property and his coaching experience (COACH-R4 R4-
 | What | File |
 |---|---|
 | One page on the model, its scope and its limits | `MODEL_CARD.md` |
-| The whole model, explained | `BLAZE_CAMP_BRAIN.md` (v1.3; section 0d lists what changed) |
+| The whole model, explained | `BLAZE_CAMP_BRAIN.md` (v1.4; section 0e lists what round 5 changed, 0d what round 4 changed) |
 | The same model as data (parameters, rule tables, intake fields) | `generator_spec_v1.json` |
-| Exercise library (every exercise with its tags) | `synthesis/02_exercise_catalog.json`, summary in `synthesis/02_exercise_catalog.md`; the compiled runtime library is `model/catalog.json` (733 exercises) |
+| Exercise library (every exercise with its tags) | `synthesis/02_exercise_catalog.json`, summary in `synthesis/02_exercise_catalog.md`; the compiled runtime library is `model/catalog.json` (742 exercises) |
 | How exercises are categorized | `synthesis/01_taxonomy.md` |
 | Volume rules and the science behind them | `synthesis/12_volume_algorithm_v1.md`, `synthesis/03_volume_dosing.md` |
 | Sports and "stay active" profiles (52 sports, 26 activities), each with a confidence label | `synthesis/04_athlete_profiles.md`, `synthesis/04_profiles.json`, `docs/02-model/sports.md` |
@@ -81,4 +82,4 @@ Rules for the report:
 - A coach answer you disagree with is not an error. List it under "for discussion with the coach".
 - Say which evidence is a trial, which is a review, which is expert practice and which is only a convention.
 - Do not write that the model is the best of its kind, and do not write that it prevents injury. The repo makes neither claim.
-- Do not look up or list the coach's certifications. He supplies them.
+- Do not look up or list the coach's certifications. His credential line is "Master NASM coach" only (R5-PUB-02).

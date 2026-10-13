@@ -81,7 +81,9 @@ function run(deps, intake, model, ropts = {}) {
   // (deriveValues carries it); the retired 'refer' stop stays only for a model without that rule. The release gate ran first.
   const s = deps.safetyScreen(v.intake, model);
   if (s && s.refer) return referPlan(v.intake, s, model);
-  const seed = makeSeed(intakeForHash(v.intake), model.version);
+  // G-305: rules.determinism.seed_version_map lets a release relabel the model without reshuffling the seeded tie-breaks
+  const seedMap = (model.rules && model.rules.determinism && model.rules.determinism.seed_version_map) || {};
+  const seed = makeSeed(intakeForHash(v.intake), Object.prototype.hasOwnProperty.call(seedMap, model.version) ? seedMap[model.version] : model.version);
   const derived = deps.deriveValues(v.intake, model);
   // warnings raised while normalizing the raw intake (e.g. warning.checkin_retired: the normalized intake no longer carries the
   // retired field, so deriveValues cannot see it again)

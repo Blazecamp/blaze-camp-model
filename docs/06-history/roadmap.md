@@ -1,5 +1,7 @@
 # Roadmap: what is done, what is open, what comes next
 
+> **Update 2026-10-13: release "model v1.4 + engine 0.7.0".** Round 5 (43 answers, including his grades of the 8 samples) and the chat answers CH5 and CH6 are applied (`coverage_matrix_round5.md`). Engine 0.6 and 0.7 worked through the AI reviews and his notes; the AI reviewers now grade every sample A- or A. **The next step is the front-end tool** (`HANDOFF.md`). Still open: the attorney's review (disclaimers, release, the new health warning) and the coach's review of the Spanish (832 lines). The rest of this page is as written on 2026-10-11.
+
 On 2026-10-11 the model is complete at version 1.3: four rounds of the coach's answers and his two later clarifications are applied and traced, and 52 sports and 26 activities are covered. The plan engine is at version 0.5 and is labelled experimental. It builds complete plans from his own templates with no time-fitting, passes its tests and checks, and its 8 sample plans get B- to B+ from AI reviewers. Update 2026-10-12: the coach graded them in round 5 (A for 3, B+ for 5; table below). The large optimizer planner that this page used to list as the next step is parked. Next come the coach's own review of the sample plans, his answers to 14 open questions, more engine work on athletic doses, the review of the Spanish and of the legal texts, and only then the tool that people will see. Nothing in this roadmap changes a coaching rule. Plans and estimates here are the team's, and they are marked PROPOSED or INFERRED where he has not confirmed them.
 
 > **How to read this page.** The status is a snapshot of 2026-10-11. The steps that led here are on [timeline.md](timeline.md). For anything that moves, read the live file named in the row. **The team** means the people working with the coach plus the AI agents they ran. A **coach-eye reviewer** is an AI agent that reads a plan the way the coach would. It is not the coach. Ids such as `R2-GEN-07` point to his answers: no prefix is round 1, `R2-` is round 2, `R3-` is round 3, `R4-` is round 4, `CT-01` is his clarification on session time and `CX-01` to `CX-04` are his clarifications on progression and editing.
@@ -39,7 +41,7 @@ On 2026-10-11 the model is complete at version 1.3: four rounds of the coach's a
 | Every answer traced to the master and the spec | `coverage_matrix.md`, `coverage_matrix_round2.md`, `coverage_matrix_round3.md`, `coverage_matrix_round4.md` | One file per round |
 | Master document v1.3 and the matching spec | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md), [generator_spec_v1.json](../../generator_spec_v1.json) | Round 4, CT-01 and CX applied. Section 0d of the master lists the changes |
 | Sport coverage: 127 profiles, 52 sports, 26 activities, each with a confidence label | [synthesis/04_profiles.json](../../synthesis/04_profiles.json), [sports.md](../02-model/sports.md) | 23 confirmed by him, 67 based on a similar sport, 37 proposed |
-| Library: 733 runtime exercises, proposed ones as optional add-ons, no third-party video links in the model data | [model/catalog.json](../../model/catalog.json), [exercise-library.md](../02-model/exercise-library.md) | R4-LIB-01 to R4-LIB-05 |
+| Library: 733 runtime exercises (742 in model 1.4.0), proposed ones as optional add-ons, no third-party video links in the model data | [model/catalog.json](../../model/catalog.json), [exercise-library.md](../02-model/exercise-library.md) | R4-LIB-01 to R4-LIB-05 |
 | MIT license | [LICENSE](../../LICENSE) | To Lalo Vera, doing business as Blaze Camp, and BFit Studios Corp. |
 | Disclaimers in English and Spanish | [DISCLAIMER.md](../../DISCLAIMER.md), [DISCLAIMER.es.md](../../DISCLAIMER.es.md) | **Drafts.** Attorney review is open |
 | Guides for agents, developers, contributors and reviewers | [AGENTS.md](../../AGENTS.md), [llms.txt](../../llms.txt), [CONTRIBUTING.md](../../CONTRIBUTING.md), [REVIEW_GUIDE.md](../../REVIEW_GUIDE.md), [adding-exercises.md](../adding-exercises.md), [adding-exercises.es.md](../adding-exercises.es.md) | |
@@ -86,7 +88,7 @@ The first seven are the ones he named (R2-GEN-07). The pickleball player is the 
 
 | # | Step | Who | Done when |
 |---|---|---|---|
-| 1 | Consolidate: commit engine 0.5 and model v1.3, and merge into `main` | Lead | `main` holds the release (R4-REL-01) |
+| 1 | Consolidate: commit engine 0.5 and model v1.3, and merge into `main` (now: engine 0.7.0 and model v1.4, on branch `engine-v06`) | Lead | `main` holds the release (R4-REL-01) |
 | 2 | His credentials | Coach | **Done (R5-PUB-02):** "Master NASM coach" only; the placeholder is removed, nothing added |
 | 3 | Grade the sample plans | Coach | **Done (round 5):** A for 01, 02, 07; B+ for 03, 04, 05, 06, 08. His B+ notes become rules and tests (engine 0.7) |
 | 4 | Answer the open questions below | Coach | Each one is his rule, or stays PROPOSED |
@@ -102,24 +104,24 @@ Step 5 and the estimates below are the team's plan (PROPOSED). Steps 2, 3, 4, 6,
 
 **His credentials.** Decided in round 5: "Master NASM coach" only, as written (R5-PUB-02). The placeholder for a longer list is removed; the team adds nothing.
 
-**Fourteen questions from the engine work.** They are written out in [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md). Until he answers, the engine's choice is PROPOSED.
+**Fourteen questions from the engine work.** They are written out in [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md). **All fourteen were answered in round 5** (2026-10-12; `coach_answers_round5.md`); his answer is added to each row.
 
-| # | Question | What the engine does today (PROPOSED) |
+| # | Question | What the engine did before round 5 (PROPOSED), and his answer |
 |---|---|---|
-| 1 | Does a high-incline press count for chest? | 1 set for front delts and half a set for chest |
-| 2 | Athletic A/B days: a two-leg lift in slot 2 on every day, so less single-leg work than his earlier 80-90% answer? | Yes, a two-leg lift in slot 2 |
-| 3 | 2- and 3-day athletic weeks: what share of a 4-day profile's jumps, throws, cuts and sprints? | Three quarters |
-| 4 | The class needs a second quad exposure in the week: a lunge, or a leg press or goblet squat? | A lunge, which now sits on the clean + pull day |
-| 5 | Should every plan hold pulling at or above pressing? | Only for sports whose profile asks for it |
-| 6 | A non-competitive adult (pickleball): how many exercises a day? | 5 to 10, from his sheet |
-| 7 | Side delts on a physique plan: a minimum of direct sets? | 4, 6 or 8 by level |
-| 8 | Small kits: may the two-arm dumbbell row and the chest-supported dumbbell row be regular picks? | Swaps only |
-| 9 | In season: is the session on the day before a game the lighter one? | Yes |
-| 10 | Bootcamp with no pull-up bar: does the freed station go to the hips or stay on the pulling side? | It stays on the pulling side (a rear-delt fly) |
-| 11 | Which floor anti-rotation core drills should be regular picks? | Bird dogs and dead bugs beside the planks |
-| 12 | Should throwers and volleyball players press incline-first like the swimmer? | Only the swimmer does |
-| 13 | Circuits: one more round in the last two weeks? | Yes |
-| 14 | May a press lead the pulls by one set while the back sits on its number for the week? | Yes |
+| 1 | Does a high-incline press count for chest? | 1 set for front delts and half a set for chest. **Answered (R5-VOL-01): 1.0 chest + 0.25 front delts + 0.25 triceps** |
+| 2 | Athletic A/B days: a two-leg lift in slot 2 on every day, so less single-leg work than his earlier 80-90% answer? | Yes, a two-leg lift in slot 2 **Answered (R5-ATH-01): yes.** |
+| 3 | 2- and 3-day athletic weeks: what share of a 4-day profile's jumps, throws, cuts and sprints? | Three quarters **Answered (R5-ATH-03): three quarters.** |
+| 4 | The class needs a second quad exposure in the week: a lunge, or a leg press or goblet squat? | A lunge, which now sits on the clean + pull day **Answered (R5-CLS-01): lunge.** |
+| 5 | Should every plan hold pulling at or above pressing? | Only for sports whose profile asks for it **Answered (R5-VOL-02): yes, every plan, adjustable.** |
+| 6 | A non-competitive adult (pickleball): how many exercises a day? | 5 to 10, from his sheet **Answered (R5-ATH-07): 5-10.** |
+| 7 | Side delts on a physique plan: a minimum of direct sets? | 4, 6 or 8 by level **Answered (R5-VOL-03): yes, as minimums.** |
+| 8 | Small kits: may the two-arm dumbbell row and the chest-supported dumbbell row be regular picks? | Swaps only **Answered (R5-LIB-01): yes, regular picks.** |
+| 9 | In season: is the session on the day before a game the lighter one? | Yes **Answered (R5-ATH-05): yes.** |
+| 10 | Bootcamp with no pull-up bar: does the freed station go to the hips or stay on the pulling side? | It stays on the pulling side (a rear-delt fly) **Answered (R5-CLS-02): a hip thrust or bridge.** |
+| 11 | Which floor anti-rotation core drills should be regular picks? | Bird dogs and dead bugs beside the planks **Answered (R5-LIB-02): dead bugs, bird dogs, side planks, Pallof press.** |
+| 12 | Should throwers and volleyball players press incline-first like the swimmer? | Only the swimmer does **Answered (R5-ATH-04): yes, and overhead pressing stays for shoulder health.** |
+| 13 | Circuits: one more round in the last two weeks? | Yes **Answered (R5-CLS-03): rounds climb in thirds, 3 / 4 / 5.** |
+| 14 | May a press lead the pulls by one set while the back sits on its number for the week? | Yes **Answered (R5-VOL-02): yes, adjustable.** |
 
 **What became of the nine planner questions.** The earlier version of this page listed nine rule conflicts that the optimizer needed him to rank. None was put to him in that form. Most were settled when time-fitting was removed.
 
@@ -147,7 +149,7 @@ Other open items from the model side are listed in [BLAZE_CAMP_BRAIN.md](../../B
 | Class and bootcamp samples | Still graded B- after both fix rounds. Small kits run out of library lifts | Samples 04 and 05 |
 | Validator | The rules added in the fix rounds are held by tests and the scorer, not yet by a validator check | `engine/validate.mjs` |
 | Printed copy | Minor items: whole sets in the weekly table, one exercise counter, swap lines once per block, the warm-up by day | `samples/STATUS_v0.5.md`, "Not fixed in this round" |
-| Leftovers | The locked-rule list in the compiled model still names the retired "less than 10% a week" rule (LK08). Nothing enforces it | `model/rules.json > locked` |
+| Leftovers | Done: the retired "less than 10% a week" rule (LK08) was removed from the locked-rule list (commit `1eb17e1`) | `model/rules.json > locked` |
 
 ### Spanish
 
@@ -201,11 +203,11 @@ He approved releasing the model as the finished product with the engine labelled
 | 5 | Disclaimers in English and Spanish | Drafts | R3-GEN-01 |
 | 6 | **A licensed Florida attorney reviews both disclaimers** and the release wording, and confirms the Spanish is legally equivalent | **Open** | The files themselves; R3-GEN-01 |
 | 7 | The terms and release are accepted before any plan is built, and every plan prints the release line | Done in the engine | R4-SCP-01, R4-SCP-02 |
-| 8 | The model is complete and consolidated on `main` | Model v1.3 complete. The merge is the lead's step | R4-REL-01 |
+| 8 | The model is complete and consolidated on `main` | Model v1.4 complete (2026-10-13). The merge is the lead's step | R4-REL-01 |
 | 9 | The engine is clearly labelled experimental | Done in the README, the model card and the handoff | R4-REL-01 |
 | 10 | He grades the sample plans | **Done** (round 5: A for 01, 02, 07; B+ for 03, 04, 05, 06, 08) | R2-GEN-07, R5-GRD-01 ... 08 |
 | 11 | The sample plans in the repo are ones he approved | Open. He graded them (round 5); his B+ notes are being applied | Team (PROPOSED) |
-| 12 | The Spanish is approved line by line | Open (842 lines) | R2-GEN-08 |
+| 12 | The Spanish is approved line by line | Open (832 lines in model 1.4.0) | R2-GEN-08 |
 | 13 | No third-party video links in the public data | **Done.** The compiled model and the library source never held them; the sheet exports (`raw/`, `dumps/`), the first-pass files in `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` and the old model snapshots in `design/scratch/snap*/` are link-stripped (each link replaced with `[video link removed]`, 2026-10-12) | R4-LIB-05, R5-PUB-01 |
 | 14 | He decides whether the sheet exports in `raw/` and `dumps/` stay in the public repo | **Done.** They stay public, link-stripped and checked for client names (none found) | R5-PUB-01 |
 | 15 | The sheet exports are checked for client names and for content that is not his (the half-marathon plan credited to someone else) | Open | Team (PROPOSED). See [source-sheets.md](source-sheets.md) |

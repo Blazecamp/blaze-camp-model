@@ -254,7 +254,7 @@ Wednesday and the weekend are rest days. They can hold cardio, accessories and F
 | Push / pull / legs | his other main layout, 3 or 6 days | R4-SES-05; OBSERVED in his 'PUSHPULLLEGS - 3 or 6 DAYS A WK' tab |
 | A true all-in-one full-body day (push, pull and legs together) | only "when you only have, let's say, 3 days a week of training or 2 days a week" | R4-SES-05 |
 | 3 days | his 3-day builder: an A day, a B day and a C day (row, squat, press, hinge, lunge, then small muscles) | OBSERVED in his '3 DAY BUILDER' tab |
-| 2 days | one A day and one B day cover every big group | R4-SES-03 |
+| 2 days | two full-body days cover every big group (round 5; was one A day and one B day). Day 1: row, squat, incline or vertical press, single-leg hinge, biceps. Day 2: press, hinge, vertical pull, lunge, triceps | R4-SES-03; R5-GEN-01 |
 | Athletic days | the athletic block first (jumps, throws, change of direction, Olympic lift), then the same A / B lifts without arm isolation | OBSERVED in his 'ATHLETIC - FULL BODY - 4 DAYS A' tab |
 | Other families | bootcamp, the CrossFit-style class, HYROX, and strength days built on the four roles keep their own layouts from his sheets | OBSERVED |
 | Each slot keeps its kind | a two-leg slot holds a two-leg lift and a single-leg slot a single-leg lift in every block; slot 1 of the A day is a two-arm row | his words "bilateral, symmetrical" and "unilateral" for each slot (R4-SES-05). The selection weights are **PROPOSED**. |

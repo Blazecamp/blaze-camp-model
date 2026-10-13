@@ -22,7 +22,7 @@ Thank you for helping. This repository holds the training model of Coach Lalo (G
 
 ## 1. What the product is, and what it is not
 
-The coach's answers set the shape of the product: round 3 (`coach_answers_round3.md`), then his clarifications CT-01 and CX-01..04, then round 4 (`coach_answers_round4.md`), which is the newest. A change that goes against these is rejected, however good the code is.
+The coach's answers set the shape of the product: round 3 (`coach_answers_round3.md`), then his clarifications CT-01 and CX-01..04, then round 4 (`coach_answers_round4.md`), then round 5 (`coach_answers_round5.md`) with the chat answers CH5 and CH6, which are the newest. A change that goes against these is rejected, however good the code is.
 
 | The product | Source |
 |---|---|
@@ -59,7 +59,7 @@ When two sources disagree, the higher one wins:
 
 - A document or rule that contradicts a coach answer is a bug.
 - A coach answer you think is scientifically questionable is **not** a bug. Raise it separately, marked "for discussion", with your sources.
-- For shapes, names, file layout and APIs, `engine/CONTRACTS.md` is the authority (its engine 0.5.0 amendment boxes at the top supersede the older text); every gap or conflict decided once is in `engine/DECISIONS.md` (C-nn, D-nn, E-nn, G-nn).
+- For shapes, names, file layout and APIs, `engine/CONTRACTS.md` is the authority (its amendment boxes at the top, engine 0.5.0 to 0.7.0, supersede the older text); every gap or conflict decided once is in `engine/DECISIONS.md` (C-nn, D-nn, E-nn, G-nn).
 - If an older document still describes a session-length input, a time check, a hard cap on the weekly step or check-ins, it is out of date. The newest answer wins. Report it.
 
 ## 3. Evidence labels

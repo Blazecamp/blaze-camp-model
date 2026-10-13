@@ -12,7 +12,7 @@ This file is a self-contained briefing for an AI agent on the training model of 
 
 **What it is for.** His programming system, captured so that clients, coaches and gyms can use it and developers and AI agents can build on it. It is "a complete coaching model from the experience of Coach Lalo, who is Gerardo Vera. Master NASM coach", and his intellectual property (R4-REL-03). It is free under the MIT license (R3-GEN-01). He builds from first principles, with Dr. Pat Davidson and Dr. Mike Israetel as his named sources, and not on packaged programs such as 5/3/1 (conversation). Make no "world's best" or injury-prevention claims (R4-REL-03).
 
-**State.** No website exists yet, by design. The engine was rebuilt as version 0.5: template-first, with no time-fitting ([ADR-058](04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md)). Its measured results and known gaps are in [samples/STATUS_v0.5.md](../samples/STATUS_v0.5.md). Version numbers move: read `model/MODEL_VERSION` and `engine/version.mjs`.
+**State (2026-10-13).** Release "model v1.4 + engine 0.7.0". No website exists yet: the front-end tool is the next step ([HANDOFF.md](../HANDOFF.md)). The engine is template-first, with no time-fitting ([ADR-058](04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md)), and stays experimental. The coach graded the 8 sample plans in round 5: A for 01, 02, 07; B+ for the rest. Round 5 and the chats CH5 / CH6 are summarized in §2.1 below; they win over anything older in this file.
 
 ## 2. Who decides: authority order and labels
 
@@ -20,6 +20,7 @@ When two sources disagree, the higher one wins.
 
 | Rank | Source | Cited as |
 |---|---|---|
+| 0 | `coach_answers_round5.md` (43 answers, 2026-10-12), with `coach_answers_chat_2026-10-11.md` and `coach_answers_chat_2026-10-13.md` (only the subjects answered there) | `R5-...`, `CH5-01..03`, `CH6-01..02` |
 | 1 | `coach_answers_round4.md` (20 answers, 2026-10-11) and `coach_answers_time_2026-10-10.md` | `R4-...`, `CT-01` |
 | 2 | `coach_answers_codex_2026-10-10.md`, only the subjects answered there | `CX-01..04` |
 | 3 | `coach_answers_round3.md` (13 answers) | `R3-...` |
@@ -33,6 +34,25 @@ When two sources disagree, the higher one wins.
 - RIGHT with no words means he approved the team's proposal as his rule. The wording is the team's.
 - Text that contradicts a coach answer is a bug. A coach answer you think is scientifically weak is not a bug: report it "for discussion with the coach" and leave the rule alone.
 - SCIENCE fills gaps. It never overrules him.
+
+### 2.1 Round 5 and the chats CH5 / CH6 (newest; full trace in [coverage_matrix_round5.md](../coverage_matrix_round5.md))
+
+| Rule now | Was | Id |
+|---|---|---|
+| A health-check yes **does not stop the plan**: the plan is built with a health warning (not a plan from a doctor; see a medical professional). Severe pain: built with the moderate pain rules and the warning (PROPOSED) | the plan stopped (refer) | R5-GEN-02 |
+| 2 days a week = **two full-body days**, each a knee lift with a pull and a hip lift with a push | one A day + one B day | R5-GEN-01 |
+| High-incline press = 1.0 chest + 0.25 front delts + 0.25 triceps | 1.0 front delts + 0.5 chest (PROPOSED) | R5-VOL-01 |
+| No group starts at its top number; a Focus group starts a little higher | | R5-CLS-07 |
+| A big group reaches its final sets, with a bonus exercise if needed; no group above 35 sets | held at what the slots hold | CH5-03 |
+| Every athletic A / B day has the arm slot; team practices are the athlete's to account for | some sports only; practices counted | CH5-02, CH5-01 |
+| Jumps: two-leg and low first, single-leg and higher later; assisted jumps with knee pain; skip jumps above 6 of 10 pain | | R5-GRD-03, R5-GRD-08, R5-ATH-10 |
+| Incline first for throwers and volleyball too; **overhead pressing stays for shoulder health** | | R5-ATH-04 |
+| Low-back core only with reported low-back pain; otherwise normal core with rotation | 50+ hot-spot list | R5-ATH-08, R5-LIB-02 |
+| Class: named CrossFit workouts (a Girl a week, a Hero a block). Bootcamp: rounds and station by station. Circuit rounds 3 / 4 / 5 in thirds | | R5-GRD-04, R5-GRD-05, R5-CLS-03 |
+| The core block prints as optional; everything is adjustable | | R5-GRD-06 |
+| Default exercise counts: general 7, aesthetics 7, strength 6, bootcamp 7, field athletes 12, older adults 6 | | R5-GEN-03 |
+| People may add their own exercise (one muscle question, labelled as theirs); front-end tool, not built | | CH6-02 |
+| Credentials: "Master NASM coach" only. Sheet exports stay public, link-stripped | | R5-PUB-02, R5-PUB-01 |
 
 ## 3. Categories
 
@@ -75,7 +95,7 @@ A **hard set** is a working set of 5 to 30 reps that ends with 1 to 3 **reps in 
 | A set written 10/10 (10 reps each side) | 1 set | UNI-01 |
 | Warm-up | never counts | ORD-08 |
 
-PROPOSED: a set counts at most once toward a group such as hips or shoulders. PROPOSED: an incline press of 30 to 45 degrees counts for chest; a high-incline press counts 1 set for front delts and half a set for chest.
+PROPOSED: a set counts at most once toward a group such as hips or shoulders. An incline press of 30 to 45 degrees counts for chest; a high-incline press counts 1.0 chest + 0.25 front delts + 0.25 triceps (COACH-R5 R5-VOL-01).
 
 ### 4.2 Weekly sets by client level
 
@@ -157,7 +177,7 @@ Approved example: a level 2 big muscle goes 15 to 22 sets in 12 weeks, with the 
 
 "The template is usually 6 exercises for the full-body days because we do that A-day/B-day of upper/lower." (R4-SES-05) Slots 7 and 8 are a small-muscle or core exercise. On these days a group can have one exercise (biceps, triceps). "2 to 4 exercises per group, never 1" (R2-SES-05) is kept for split days (INFERRED). Athletic days put the athletic block first, then the same lifts.
 
-**Incline first.** For bodybuilders and the general population, prefer an incline press over an overhead press in the vertical or mid-range push slot. Overhead stays as a variation (R4-LIB-03).
+**Incline first.** For bodybuilders, the general population, throwers and volleyball, prefer an incline press over an overhead press in the vertical or mid-range push slot. Overhead pressing stays in the plan for shoulder health (R4-LIB-03, R5-ATH-04).
 
 **Supersets** (two exercises back to back) are a recommendation to save time and a tool to add fatigue (ORD-05, R3-SES-02). No session length triggers them.
 
@@ -211,12 +231,12 @@ Approved example: a level 2 big muscle goes 15 to 22 sets in 12 weeks, with the 
 | No sex field and no rules by sex: "mainly by age, foundation, goal, and injuries". No sleep, stress, job or lifestyle questions: "I just need the workouts here". | GEN-02, ATH-09, R2-GEN-04 |
 | No data kept: "I don't want any data kept". The team reads this as no accounts, no stored answers, no email. | R3-GEN-01 |
 | **The liability gate.** Everyone may use the plans on their own. The terms and the release of liability must be accepted before a plan is generated: "they need to click it before the plan shows". Every plan prints a short release line, in English and Spanish, linking the disclaimer. | R4-SCP-01, R4-SCP-02 |
-| A short health check for clients, which a coach may skip with a warning. Open for the coach: whether a flagged answer should still stop a plan now that "everyone" may use it. Today it does. | R2-GEN-03, R3-GEN-01, R4-SCP-01 |
+| A short health check for clients, which a coach may skip with a warning. A flagged answer does not stop the plan: the plan is built with a health warning. | R2-GEN-03, R3-GEN-01, R4-SCP-01, R5-GEN-02 |
 | English first, with a full Spanish switch. Pounds or kilograms. | GEN-01, R2-GEN-08 |
 | A simple phone-friendly website, not an app. Not built yet. | GEN-03, R2-GEN-02 |
 | Videos: no third-party links in the public data. Each exercise has a YouTube search link built from its name, and the plan shows the exact name to copy. His own videos can be added later. | R2-GEN-02, R4-LIB-05 |
 | MIT license to Lalo Vera, doing business as Blaze Camp, and BFit Studios Corp. Disclaimers in English and Spanish. They are drafts until a Florida attorney reviews them. | R3-GEN-01 |
-| Model v1.3 is released as the finished model, with the engine in the same repo. | R4-REL-01, R4-REL-02 |
+| The model (now v1.4) is released as the finished model, with the engine (0.7.0, experimental) in the same repo. | R4-REL-01, R4-REL-02 |
 | Coaches may add their own rules. The layer mechanism is PROPOSED. | GEN-08 |
 
 ## 9. Retired: never rebuild
@@ -239,7 +259,7 @@ Approved example: a level 2 big muscle goes 15 to 22 sets in 12 weeks, with the 
 | Rear delts with their own sets and floor | Part of shoulders | R3-VOL-01 |
 | A weekly step by muscle size (3 / 5 / 7 %), or from the person's week | One planned stairway | VOL-05, R3-VOL-04 |
 | A deload inside a block; a mandatory easy week; "start hard" plans | The stairway; rest between blocks, recommended | R2-VOL-07, R2-PER-03, R3-PER-01 |
-| Fewer than 10 sets on a trained group when there are 3 or more training days | Floor of 10 (2 days: about 6 to 8) | R2-VOL-06, R4-SES-03 |
+| Fewer than 10 sets on a trained group when there are 3 or more training days | Floor of 10 (2 days, two full-body days: about 6 to 8) | R2-VOL-06, R4-SES-03, R5-GEN-01 |
 | Priority push of +4 to +6 sets as the default | Focus muscles, +1 to +3 | R3-SES-01 |
 | Bands, chains, weight releasers; a ranking of machines | None; no ranking | EQ-01, EQ-12, EQ-11 |
 | Core after the power block; leg curls as hip dominant; zone number as level | Core first; leg flexion; zones as tags | ATH-11, CAT-09, R2-LIB-02 |
@@ -249,7 +269,7 @@ Old keys for some of these may remain in the spec as retired notes, such as `ada
 
 ## 10. Where each thing lives
 
-Spec keys are in [generator_spec_v1.json](../generator_spec_v1.json). Keys written `rules: ...` are in `model/rules.json`, the compiled rules that engine 0.5 reads. For every CT, CX and round-4 answer, [coverage_matrix_round4.md](../coverage_matrix_round4.md) gives the master-document section and the spec key.
+Spec keys are in [generator_spec_v1.json](../generator_spec_v1.json). Keys written `rules: ...` are in `model/rules.json`, the compiled rules that engine 0.7 reads. For every CT, CX and round-4 answer, [coverage_matrix_round4.md](../coverage_matrix_round4.md) gives the master-document section and the spec key; for round 5, CH5 and CH6, [coverage_matrix_round5.md](../coverage_matrix_round5.md) gives the section, the rules key, the decision and the test.
 
 | Thing | Data | Explained in |
 |---|---|---|
@@ -275,7 +295,7 @@ Spec keys are in [generator_spec_v1.json](../generator_spec_v1.json). Keys writt
 ## 11. How to stay faithful to the coach
 
 1. **Find the answer first.** Before you state or change a rule, find the answer id that owns it. If there is none, your statement is PROPOSED.
-2. **The newest relevant answer wins.** Read round 4, CT-01 and the CX clarification first, then [changes across rounds](03-coach-answers/changes-across-rounds.md) before quoting an older answer.
+2. **The newest relevant answer wins.** Read round 5 and the chats CH5 / CH6 first (§2.1), then round 4, CT-01 and the CX clarification, then [changes across rounds](03-coach-answers/changes-across-rounds.md) before quoting an older answer.
 3. **Never invent a coach statement.** Quote only words that are in his answer files, with the id. `coach_chat_statements.md` is a close paraphrase, so quote only what it puts in quotation marks. Do not invent or look up his certifications.
 4. **Never upgrade a label.** INFERRED does not become OBSERVED or confirmed because it looks right. A `proposed` sport profile stays `proposed` until he confirms it.
 5. **Keep his vocabulary:** athletic patterns, resistance patterns, core, bigger and smaller muscles, stairway, Focus muscle, block, Day A and Day B. Keep his sheet spellings inside quotes ('SAGITAL', 'TRIPPLE EXTENSION').

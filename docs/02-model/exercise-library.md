@@ -74,7 +74,7 @@ How it was merged: 4,009 rows from the sheets were read, names were normalised, 
 
 **368 records can be a default pick** (`generator.default_candidate`). The rest are swaps.
 
-**The compiled library** (`model/catalog.json`, what the engine reads) holds 733 records: 731 of these source records, plus the 2 mid-range pull rows of round 4. Their status after the compile:
+**The compiled library** (`model/catalog.json`, what the engine reads) holds 742 records (model 1.4.0): 731 of these source records, the 2 mid-range pull rows of round 4, and 9 round-5 records (5 assisted jumps for knee pain, 3 two-foot lateral jumps, the WOD run station). Their status after the compile:
 
 | Status in `model/catalog.json` | Count | Meaning | Can a template pick it? |
 |---|---|---|---|

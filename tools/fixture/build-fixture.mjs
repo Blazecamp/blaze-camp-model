@@ -32,7 +32,7 @@ import { amendRulesV06, amendSportV06, UI_V06 } from './v06-volume.mjs';
 import { amendRulesW6, UI_W6 } from './v06-words.mjs';
 import { amendRulesS6, amendTemplatesS6, amendExerciseS6, amendSportS6, UI_S6 } from './v06-select.mjs';
 import { amendRulesV07, amendExerciseV07, UI_V07 } from './v07-volume.mjs';
-import { amendRulesW7, UI_W7 } from './v07-words.mjs';
+import { amendRulesW7, UI_W7, V07_MODEL_VERSION } from './v07-words.mjs';
 import { amendRulesV07 as amendRulesS7, amendTemplatesV07, amendExerciseV07 as amendExerciseS7, addedExercisesV07, amendSportV07, UI_V07 as UI_S7 } from './v07-select.mjs';
 
 const spec = readJSON(path.join(BASE, 'generator_spec_v1.json'));
@@ -218,14 +218,14 @@ const model = {
   },
   manifest: {
     schema: 'manifest/2',
-    model_version: R3_VERSION + '-fixture',
+    model_version: V07_MODEL_VERSION + '-fixture',
     spec_version: spec._meta.version,
     contracts_version: '1.1.0',
     files: { catalog: 'catalog.json', rules: 'rules.json', templates: 'templates.json', profiles: 'profiles.json', i18n: { en: 'i18n/en.json', es: 'i18n/es.json', es_review: 'i18n/es_review.json' } },
     languages: ['en', 'es'], default_lang: 'en',
     counts: { exercises: exercises.length, templates: templateCount, profiles: Object.keys(sports).length, sports_in_picker: picker.sports.length, activities: picker.activities.length }
   },
-  catalog: { schema: 'catalog/2', model_version: R3_VERSION + '-fixture', id_aliases: Object.fromEntries(Object.entries(aliases).sort()), exercises },
+  catalog: { schema: 'catalog/2', model_version: V07_MODEL_VERSION + '-fixture', id_aliases: Object.fromEntries(Object.entries(aliases).sort()), exercises },
   rules,
   templates,
   profiles,

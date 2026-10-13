@@ -75,7 +75,7 @@ The pattern is the approved stairway: about 3 % a week to the halfway week, abou
 
 | Item | Rule | Tag |
 |---|---|---|
-| Days | one A day and one B day: together they train every big group | R4-SES-03; R4-SES-05 |
+| Days | **two full-body days** (COACH-R5 R5-GEN-01; was: one A day and one B day): day 1 pairs the A day's row and squat with an incline / vertical press and a single-leg hinge; day 2 pairs the B day's press and hinge with a vertical pull and a lunge. Together they train every big group | R4-SES-03; R4-SES-05; R5-GEN-01 |
 | Weekly sets | every big group starts at 6 and tops at 8 (+ the Focus add); small groups take the same numbers at most; a 2-day maintenance plan holds no line above 8 | "about 6-8" R4-SES-03; exact numbers PROPOSED |
 | The floor of 10 | applies from 3 training days | R4-SES-03; R2-VOL-06 |
 | What the plan says | a plain note up front: with 2 days each big muscle gets about 6-8 sets a week; a third day would bring it to 10 or more | R4-SES-03 |

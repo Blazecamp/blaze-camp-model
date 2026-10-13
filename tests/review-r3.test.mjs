@@ -107,9 +107,9 @@ function testsAreTopSets(p) {
 }
 
 describe('engine 0.4.0 RECHECK regressions (compiled model)', { skip: !model && 'model/ not compiled' }, () => {
-  test('R3-engine-version: engine 0.4.0, model 1.3.0, no check-in API (R3-VOL-02 / R3-VOL-04)', () => {
+  test('R3-engine-version: engine 0.7.0, model 1.4.0, no check-in API (R3-VOL-02 / R3-VOL-04)', () => {
     assert.equal(ENGINE_VERSION, '0.7.0');   // (v0.5 V1: structure and volume; 0.6.0: the volume, selection and words packages; 0.7.0: round 5)
-    assert.match(model.version, /^1\.3\.0/);
+    assert.match(model.version, /^1\.4\.0/);   // model 1.4.0: round 5, CH5, CH6 (the release of 2026-10-13)
     for (const k of ['adapt', 'adaptWith', 'checkinRow']) assert.equal(GEN[k], undefined);
     // (v0.5, CT-01: no time check in the plan)
     for (const n of Object.keys(NAMES)) { assert.equal(plan(n).engine_version, '0.7.0'); assert.equal('time_check' in plan(n), false); assert.equal('offers' in plan(n), false); }

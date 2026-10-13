@@ -1,6 +1,6 @@
 {
  "schema": "rules/2",
- "rules_version": "1.3.0",
+ "rules_version": "1.4.0",
  "locked": [
   {
    "id": "LK01",
@@ -13906,5 +13906,29 @@
    ],
    "status": "approved rules (the coach ids above); PROPOSED: the wording of the core line; [LEGAL REVIEW]: the health warning"
   }
+ },
+ "release": {
+  "model_version": "1.4.0",
+  "confirmations": {
+   "volume.x3.nonfocus_start": "approved (COACH-R5 R5-VOL-08: Focus muscles start at 22, the others at 16)",
+   "athletic.x1.scale_by_days": "approved (COACH-R5 R5-ATH-03: about three quarters of a 4-day week on 2-3 days)",
+   "session.size.by_type.stay_active": "approved (COACH-R5 R5-ATH-07: 5-10 exercises, like his JUSTICE LEAGUE sheet)",
+   "session.size.by_type.*.default": "approved (COACH-R5 R5-GEN-03: general 7, aesthetics 7, strength 6, bootcamp 7 stations, field athletes 12, older adults 6)"
+  },
+  "refs": [
+   "R5-VOL-08",
+   "R5-ATH-03",
+   "R5-ATH-07",
+   "R5-GEN-03",
+   "G-305"
+  ]
+ },
+ "determinism": {
+  "seed_version_map": {
+   "1.4.0": "1.3.0",
+   "1.4.0-fixture": "1.3.0-fixture"
+  },
+  "ref": "G-305",
+  "status": "INFERRED: a release label must not change a plan (the coach graded the plans of model 1.3.0)"
  }
 }

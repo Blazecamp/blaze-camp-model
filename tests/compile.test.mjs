@@ -47,7 +47,7 @@ test('the architect check-fixture checks pass on the compiled model', () => {
 
 test('loadModel works on the compiled model', () => {
   const m = loadModel(structuredClone(raw));
-  assert.equal(m.version, '1.3.0'); // v1.2 review amendments + round-3 answers (tools/fixture/review-v12.mjs, round3.mjs)
+  assert.equal(m.version, '1.4.0'); // 1.3.0 (v1.2 review amendments + round-3 answers) + round 5, CH5, CH6 (tools/fixture/v07-words.mjs V07_MODEL_VERSION)
   assert.equal(m.ex('kb-face-pull-as-written-face-pulls-are-normally-cable-band').id, 'kb-face-pull');
   assert.ok(m.bySlot('ISO_HAM').length > 0, 'retired ISO_HAM alias resolves to leg flexion');
   assert.equal(m.t('es', 'weekday.Mon'), 'Lunes');

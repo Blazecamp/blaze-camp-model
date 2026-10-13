@@ -42,7 +42,7 @@ The coach's newest answers outrank everything below: round 4 (`coach_answers_rou
 | 1 | **His own templates are the skeleton.** A day = pull + knee dominant; B day = push + hip dominant; about 6 exercises, up to 8; 4 days = A, B, rest, A, B; push / pull / legs is the other option. The gym and athletic days are rebuilt on these skeletons. Day layouts are never invented | §0; §4.4; §4.6; §4.7; §8 (8.1, 8.2, 8.4, 8.6); §9 | COACH-R4 R4-SES-05 (NOT RIGHT + his template) |
 | 2 | **Session size by exercise count**, by client type (general 5-7, aesthetics 6-8, strength 5-6, bootcamp 5-7 stations, field athletes up to 12, older adults 5-6), not counting the warm-up or the 2 core exercises | §0; §7.2; §7.5; §8 "scaled from 45 to 90 minutes" | COACH-R4 R4-SES-02 |
 | 3 | **No time-fitting.** Session length is not an input and not a limit; a day prints an average time estimate. The time-vs-minimums check and its per-template table are retired; `include_from_minutes` and `superset_below_minutes` are gone from the compiled templates | §0; §7.1; §7.4-§7.6; §8.7.1; §9 steps 3-4 | COACH-CT CT-01; COACH-R4 R4-SES-01 |
-| 4 | **Two days = one A day and one B day**; every big group at about 6-8 weekly sets; a third day suggested | §8 (2-day templates); §8.7.1 | COACH-R4 R4-SES-03 |
+| 4 | **Two days = two full-body days** (v1.4, COACH-R5 R5-GEN-01; was: one A day and one B day); every big group at about 6-8 weekly sets; a third day suggested | §8 (2-day templates); §8.7.1 | COACH-R4 R4-SES-03; COACH-R5 R5-GEN-01 |
 | 5 | **Nothing is dropped automatically.** The cut order is retired; each day names the easiest things to remove and the person decides | §7.6 | COACH-R4 R4-SES-04 |
 | 6 | **Each slot keeps the laterality his template names** (two-leg squat or hinge in slot 2, single-leg in slot 4, a two-arm row first on the A day); the laterality dial moves only the slots the template leaves open | §4.5 | COACH-R4 R4-SES-05; athletic-day reading INFERRED |
 | 7 | **Incline before overhead** in the vertical / mid-range push slot for bodybuilders and the general population; a **mid-range pull** category between the horizontal and the vertical pull | §1 (buckets); §8 | COACH-R4 R4-LIB-03 |
@@ -105,7 +105,7 @@ The coach's newest answers outrank everything below: round 4 (`coach_answers_rou
 
 | Item | Rule | Tag |
 |---|---|---|
-| Days | one A day and one B day: together they train every big group | R4-SES-03; R4-SES-05 |
+| Days | **two full-body days** (COACH-R5 R5-GEN-01; was: one A day and one B day): day 1 pairs the A day's row and squat with an incline / vertical press and a single-leg hinge; day 2 pairs the B day's press and hinge with a vertical pull and a lunge. Together they train every big group | R4-SES-03; R4-SES-05; R5-GEN-01 |
 | Weekly sets | every big group starts at 6 and tops at 8 (+ the Focus add); small groups take the same numbers at most; a 2-day maintenance plan holds no line above 8 | "about 6-8" R4-SES-03; exact numbers PROPOSED |
 | The floor of 10 | applies from 3 training days | R4-SES-03; R2-VOL-06 |
 | What the plan says | a plain note up front: with 2 days each big muscle gets about 6-8 sets a week; a third day would bring it to 10 or more | R4-SES-03 |

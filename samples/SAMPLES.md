@@ -1,4 +1,25 @@
-# The 8 sample plans (engine 0.5.0, model 1.3.0): what the engine decided and why
+# The 8 sample plans: what the engine decided and why
+
+> **Current (2026-10-13, release "model v1.4 + engine 0.7.0").** The plans in `plans/` are built by engine 0.7.0 on model 1.4.0 with
+> the coach's round-5 notes applied. Total weekly resistance sets, week 1 -> last week (from `node tools/generate-samples.mjs`):
+> 01 swimming 64 -> 85; 02 football 73 -> 87; 03 soccer 59 in week 1, 44 in the last pre-season week (8); 04 CrossFit-style class
+> 74 -> 94; 05 bootcamp 54 -> 90 (circuit rounds 3 / 4 / 5); 06 full-body aesthetics 110 -> 156; 07 push / pull / legs 121 -> 166;
+> 08 pickleball 38 -> 47. All 8 are `ok` with 0 failing error checks.
+>
+> | Sample | The coach's grades (round 5, engine 0.6) | AI round 9 (engine 0.7) | AI round 10 |
+> |---|---|---|---|
+> | 01 Swimming | A | A | - |
+> | 02 Football | A | A | - |
+> | 03 Soccer | B+ | A- | - |
+> | 04 CrossFit-style class | B+ | B+ | A- |
+> | 05 Bootcamp | B+ | A- | - |
+> | 06 Full-body aesthetics | B+ | A- | - |
+> | 07 Push / pull / legs | A | B+ | A |
+> | 08 Pickleball | B+ | B+ | A- |
+>
+> The sections below were written for engine 0.5.0 on model 1.3.0 and are kept as history; their numbers no longer match the plans.
+> Round-by-round results: `STATUS_v0.5.md` (newest at the end). Summary and open items: `../HANDOFF.md`.
+
 
 The coach's seven sample clients (R2-GEN-07) plus the pickleball "stay athletic and active" bonus. Generated from the compiled model (`model/` 1.3.0) by engine 0.5.0 with `node tools/generate-samples.mjs`. The plans in `plans/` are the ones regenerated after fix round 2 (2026-10-11); a fresh generation gives the same files byte for byte (`RELEASE_CHECK_v1.3.md`).
 

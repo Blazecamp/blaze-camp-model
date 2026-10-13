@@ -1,6 +1,6 @@
 # Timeline: how the Blaze Camp model was built
 
-The Blaze Camp model was built in five days, from 2026-10-07 to 2026-10-11. It is the coaching model of Coach Lalo (Gerardo Vera), Master NASM coach, and it is his intellectual property. His two Google Sheets were exported and decoded tab by tab. First-pass analyses were written and fact-checked against the sheets. Then he answered four rounds of questions (140, 45, 13 and 20) and gave two clarifications in conversation. Each one changed the model, and his newest answer always wins. The sport list grew to 52 sports and 26 "stay athletic and active" activities. A first plan engine was built. Its plans had the right structure but the wrong dosing, and a large optimizer planner was designed to fix that. Then the coach removed the hardest requirement: plans no longer have to fit a session length. So the optimizer was parked, and engine 0.5 was built around his own templates instead. The MIT license and the disclaimers were added in round 3, and outside reviewers checked the science and the arithmetic. This page lists the steps in order, with the files each step left behind.
+The Blaze Camp model was built in five days, from 2026-10-07 to 2026-10-11, and finished as model v1.4 with engine 0.7.0 on 2026-10-13. It is the coaching model of Coach Lalo (Gerardo Vera), Master NASM coach, and it is his intellectual property. His two Google Sheets were exported and decoded tab by tab. First-pass analyses were written and fact-checked against the sheets. Then he answered four rounds of questions (140, 45, 13 and 20) and gave two clarifications in conversation. Each one changed the model, and his newest answer always wins. The sport list grew to 52 sports and 26 "stay athletic and active" activities. A first plan engine was built. Its plans had the right structure but the wrong dosing, and a large optimizer planner was designed to fix that. Then the coach removed the hardest requirement: plans no longer have to fit a session length. So the optimizer was parked, and engine 0.5 was built around his own templates instead. The MIT license and the disclaimers were added in round 3, and outside reviewers checked the science and the arithmetic. This page lists the steps in order, with the files each step left behind.
 
 > **How to read this page.**
 > - Dates come from three places: the "Collected" line at the top of each answer file, the git log, and file dates. Times of day are approximate.
@@ -41,6 +41,10 @@ The Blaze Camp model was built in five days, from 2026-10-07 to 2026-10-11. It i
 | 24 | 2026-10-11 | Engine 0.5 is built in four packages | [engine/](../../engine/), [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) |
 | 25 | 2026-10-11 | Three coach-eye reviews of the 8 sample plans and two fix rounds | [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) |
 | 26 | 2026-10-11 | Model v1.3 and the release documents | [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md), [MODEL_CARD.md](../../MODEL_CARD.md), [README.md](../../README.md) |
+| 27 | 2026-10-11 to 10-12 | Engine 0.6: AI coach-eye reviews rounds 4 to 7 and the fix rounds; his chat answers CH5 | [coach_answers_chat_2026-10-11.md](../../coach_answers_chat_2026-10-11.md), `reviews/coach-eye-r4..r7/`, [engine/DECISIONS.md](../../engine/DECISIONS.md) G-100 ... G-225 |
+| 28 | 2026-10-12 | Round 5: 43 questions, including his grades of the 8 samples (A for 3, B+ for 5) | [coach_answers_round5.md](../../coach_answers_round5.md), `answers_raw_r5/` |
+| 29 | 2026-10-12 to 10-13 | Engine 0.7: round 5 applied; AI reviews rounds 8 to 10; sweep fixes; his chat answers CH6 | [coach_answers_chat_2026-10-13.md](../../coach_answers_chat_2026-10-13.md), `reviews/coach-eye-r8..r10/`, G-230 ... G-304 |
+| 30 | 2026-10-13 | Release "model v1.4 + engine 0.7.0" | [HANDOFF.md](../../HANDOFF.md), [coverage_matrix_round5.md](../../coverage_matrix_round5.md), G-305 |
 
 What comes next is on [roadmap.md](roadmap.md).
 
@@ -589,16 +593,22 @@ Part of the rise in score comes from corrections to the scorer, which are listed
 
 **What was left open on purpose.** His list of certifications. He said he has many and that they could be looked up. The team did not look them up or invent any. The README and the model card carried a marked placeholder for him to fill. Round 5 closed it: "Master NASM coach" only, the placeholder removed and nothing added (R5-PUB-02).
 
+## 27-30. Engine 0.6 and 0.7, round 5, and the release (2026-10-11 to 2026-10-13)
+
+**What happened.** AI coach-eye reviewers read the 8 samples in rounds 4 to 7 and engine 0.6 fixed what they found (volume placement, selection, printed words). The coach answered three chat questions (CH5: team practices, the athletic arm slot, big groups up to 35 sets). In round 5 he graded the 8 samples himself, A for 01, 02 and 07 and B+ for the other five, and answered 35 more questions. Engine 0.7 applied them: a health-check yes warns instead of stopping the plan, two full-body days on 2 days, jumps two-leg first, named CrossFit workouts, bootcamp formats, circuit rounds in thirds, overhead pressing kept for health, the core block printed as optional. AI review rounds 8 to 10 and a sweep fix round followed. CH6 (2026-10-13): a dip above the bench is fine, and people may add their own exercise in the front-end tool. The model became v1.4 (the label only; no plan changed, G-305).
+
+**Where it lives.** [HANDOFF.md](../../HANDOFF.md) (state and next step), [coverage_matrix_round5.md](../../coverage_matrix_round5.md), [engine/DECISIONS.md](../../engine/DECISIONS.md) G-100 ... G-305, the end of [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md), [design/bench/V07.md](../../design/bench/V07.md).
+
 ## Versions
 
 Four things carry version numbers. They are four separate counters.
 
 | Thing | Versions so far | Where to read the live value |
 |---|---|---|
-| Master document | v0, v1, v1.1, v1.2, v1.3 | Top of [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md). Older ones are archived as `BLAZE_CAMP_BRAIN_v0.md`, `_v1.md`, `_v1_1.md`, `_v1_2.md` |
-| Machine spec | 0.1.0 (the v0 file), 1.0.0, 1.0.1, 1.1.0, 1.2.0, 1.3.0 | [generator_spec_v1.json](../../generator_spec_v1.json) `_meta.version` |
-| Compiled model | 1.1.0, 1.2.0, 1.3.0 | [model/MODEL_VERSION](../../model/MODEL_VERSION), [model/CHANGELOG.md](../../model/CHANGELOG.md) |
-| Engine | 0.2.0, 0.3.0, 0.4.0, 0.5.0 | [engine/version.mjs](../../engine/version.mjs) |
+| Master document | v0, v1, v1.1, v1.2, v1.3, v1.4 | Top of [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md). Older ones are archived as `BLAZE_CAMP_BRAIN_v0.md`, `_v1.md`, `_v1_1.md`, `_v1_2.md`, `_v1_3.md` |
+| Machine spec | 0.1.0 (the v0 file), 1.0.0, 1.0.1, 1.1.0, 1.2.0, 1.3.0, 1.4.0 | [generator_spec_v1.json](../../generator_spec_v1.json) `_meta.version` |
+| Compiled model | 1.1.0, 1.2.0, 1.3.0, 1.4.0 | [model/MODEL_VERSION](../../model/MODEL_VERSION), [model/CHANGELOG.md](../../model/CHANGELOG.md) |
+| Engine | 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.6.0, 0.7.0 | [engine/version.mjs](../../engine/version.mjs) |
 
 The compiled model's number is a separate counter from the master's. It reached 1.3.0 with engine 0.4, while the master was still v1.2, and it stayed 1.3.0 through engine 0.5: the v0.5 changes are listed as layers in [model/CHANGELOG.md](../../model/CHANGELOG.md). `spec_version` in [model/manifest.json](../../model/manifest.json) records which spec a compile read. "Model v1.3" in the README means the master document v1.3 together with the spec and the compiled model.
 

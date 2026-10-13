@@ -46,7 +46,7 @@ Coaches can skip the health check for their own clients, with a warning: "I want
 | 5 | Coaches, trainers, gyms | You act under your own professional judgment. You need your own screening, consent, release and insurance. Blaze Camp's release does not cover your clients. You agree to hold Blaze Camp harmless against claims from your clients. |
 | 6 | Minors | Plans for anyone under 18 must be reviewed and supervised by a parent or legal guardian and a qualified coach. |
 | 7 | No data collection | The Blaze Camp tool keeps no personal data. If you build your own app, the data handling and privacy terms are yours. |
-| 8 | Third-party content | Some names and links in the source sheets, such as video links, belong to other people. (Since round 4 the video links are removed from the model data, which is the compiled model and the exercise library; each exercise has a YouTube search link instead: R4-LIB-05. The exports of his original sheets in `raw/`, `dumps/` and `analysis/` still show them, and whether those files stay public is an open release item.) |
+| 8 | Third-party content | Some names and links in the source sheets, such as video links, belong to other people. (Since round 4 the video links are removed from the model data, which is the compiled model and the exercise library; each exercise has a YouTube search link instead: R4-LIB-05. The exports of his original sheets in `raw/`, `dumps/` and `analysis/` stay public with those links removed, by his decision R5-PUB-01.) |
 | 9 | Governing law | Florida, United States. |
 | 10 | Acceptance | Downloading or using the materials, or ticking the box in the plan generator, means you accept these terms. |
 
@@ -105,7 +105,7 @@ More detail: [special populations](../02-model/special-populations.md), [testing
 | Wording of the health check, the release and the coach warning | Placeholders, marked LEGAL REVIEW in the data |
 | One box or separate ticks | The lawyer's call |
 | The Blaze Camp name | The MIT license covers copyright. Whether the name needs its own protection is a question for the lawyer. |
-| Whether a flagged health-check answer still stops a plan | Open for the coach after R4-SCP-01 ("everyone"). Today it stops the plan. |
+| Whether a flagged health-check answer still stops a plan | **Answered (R5-GEN-02): it does not stop.** The plan is built with a health warning. The warning's wording joins the attorney's list. |
 | Wording of the printed release line, in English and Spanish | PROPOSED; a draft for the lawyer, like the disclaimer |
 | The plan engine | Experimental. The coach graded the 8 sample plans in round 5 (A for 3, B+ for 5). A health-check answer of yes no longer stops a plan: since engine 0.7 the plan is built with a health warning (R5-GEN-02), and the person should see a medical professional first. Check any generated plan with extra care. |
 

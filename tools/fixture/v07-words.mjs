@@ -19,6 +19,11 @@
 //     plan' says so once. The engine still builds it by default and never drops it on its own (H05, R4-SES-04).
 // The engine reads only keys (engine/intake.mjs, engine/generate.mjs, engine/validate.mjs, engine/render.mjs); every word is below.
 
+// Model 1.4.0 (release "model v1.4 + engine 0.7.0"): the round-5 answers (coach_answers_round5.md) and the chat answers CH5
+// (coach_answers_chat_2026-10-11.md) and CH6 (coach_answers_chat_2026-10-13.md) on top of model 1.3.0. Both builds read it
+// (tools/compile-model.mjs MODEL_VERSION, tools/fixture/build-fixture.mjs '-fixture'); amendRulesW7 writes it as rules_version.
+export const V07_MODEL_VERSION = '1.4.0';
+
 const clone = (o) => JSON.parse(JSON.stringify(o));
 const uniqSorted = (a) => [...new Set(a)].sort();
 
@@ -28,6 +33,24 @@ const uniqSorted = (a) => [...new Set(a)].sort();
  */
 export function amendRulesW7(rules) {
   const R = clone(rules);
+  R.rules_version = V07_MODEL_VERSION;   // model 1.4.0 (round 5, CH5, CH6)
+  // Release 1.4.0: round-5 confirmations of rules already built, recorded in one place (no value changes; the keys they confirm are
+  // owned by earlier layers, so their own status notes are left as those layers write them; coverage_matrix_round5.md).
+  R.release = {
+    model_version: V07_MODEL_VERSION,
+    confirmations: {
+      'volume.x3.nonfocus_start': 'approved (COACH-R5 R5-VOL-08: Focus muscles start at 22, the others at 16)',
+      'athletic.x1.scale_by_days': 'approved (COACH-R5 R5-ATH-03: about three quarters of a 4-day week on 2-3 days)',
+      'session.size.by_type.stay_active': 'approved (COACH-R5 R5-ATH-07: 5-10 exercises, like his JUSTICE LEAGUE sheet)',
+      'session.size.by_type.*.default': 'approved (COACH-R5 R5-GEN-03: general 7, aesthetics 7, strength 6, bootcamp 7 stations, field athletes 12, older adults 6)',
+    },
+    refs: ['R5-VOL-08', 'R5-ATH-03', 'R5-ATH-07', 'R5-GEN-03', 'G-305'],
+  };
+  // G-305: the version label moved to 1.4.0, the plans did not. The engine seeds its tie-breaks from the model version (CONTRACTS
+  // §1.3), so a bare label change would reshuffle every pick that ties - including the 8 sample plans the coach graded (R5-GRD) and
+  // the plans under review. The seed keeps reading the version the plans were built on; the plan still prints model 1.4.0.
+  R.determinism = { ...(R.determinism || {}), seed_version_map: { [V07_MODEL_VERSION]: '1.3.0', [V07_MODEL_VERSION + '-fixture']: '1.3.0-fixture' },
+    ref: 'G-305', status: 'INFERRED: a release label must not change a plan (the coach graded the plans of model 1.3.0)' };
   R.legal = R.legal || {};
   // R5-GEN-02 (G-270 ... G-273): the health check warns, it does not stop the plan
   R.legal.health_flag = {

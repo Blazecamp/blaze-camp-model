@@ -127,14 +127,14 @@ También deja fuera algunas cosas a propósito: no hay campo de sexo, no hay lig
 Notas sobre los números:
 
 - Todo lo que él saltó, dejó en blanco o no entendió en una ronda se volvió a preguntar y quedó respondido en una ronda posterior (PRG-01, FIX-01, LIB-10, LIB-12, CAT-12, R2-VOL-08).
-- La copia compilada que lee el motor (`model/`) tiene 733 ejercicios: 731 de los registros de origen, más las 2 remadas de rango medio (mid-range pull) que se agregaron en la ronda 4. Esa carpeta se genera; lea `model/manifest.json` para los números vigentes.
+- La copia compilada que lee el motor (`model/`) tiene 742 ejercicios: 731 de los registros de origen, las 2 remadas de rango medio (mid-range pull) que se agregaron en la ronda 4 y 9 registros de la ronda 5. Esa carpeta se genera; lea `model/manifest.json` para los números vigentes.
 - De los 732 registros activos, 31 son registros que propuso el equipo (27 ejercicios y 4 elementos de cardio). En la ronda 4 él convirtió 29 en extras opcionales (optional add-ons): la persona puede elegirlos y agregarlos, pero una plantilla nunca los elige (R4-LIB-01). Los 2 registros de cuello siguen como PROPOSED y no se muestran.
 
 ## Dónde vive en los datos
 
 | Archivo | Qué es |
 |---|---|
-| [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) | El documento maestro (v1.3). Cada regla, con su etiqueta de evidencia. |
+| [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) | El documento maestro (v1.4). Cada regla, con su etiqueta de evidencia. |
 | [generator_spec_v1.json](../../generator_spec_v1.json) | El mismo modelo como datos: `inputs_schema`, `derived_values`, `rule_tables`, `plan_types`, `tests`, `plan_editing`, `legal_and_privacy`, `validation_checks`. |
 | `synthesis/` | Un documento detallado por tema, la mayoría con su gemelo `.json`. |
 | `coach_answers*.md`, [coach_chat_statements.md](../../coach_chat_statements.md) | Sus propias palabras. Son la autoridad final. Gana la respuesta más nueva: primero la ronda 4 y las aclaraciones del 2026-10-10. |

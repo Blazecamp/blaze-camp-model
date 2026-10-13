@@ -2740,7 +2740,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 
 ---
 
-_Modelo 1.3.0 · Motor 0.7.0_
+_Modelo 1.4.0 · Motor 0.7.0_
 
 Responsabilidad liberada: los términos y la liberación de responsabilidad se aceptaron antes de crear este plan. No es consejo médico. Úsalo bajo tu propio riesgo. Entrena dentro de tus límites. Términos completos: Aviso legal y liberación de responsabilidad. [Lee el aviso legal y la liberación de responsabilidad completos](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.es.md)
 

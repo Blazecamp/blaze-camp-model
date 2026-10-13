@@ -1,154 +1,139 @@
 # Handoff: current state and next steps
 
-Last updated 2026-10-11. For any person or AI agent picking this project up without the original conversation.
+Last updated 2026-10-13, at the release **"model v1.4 + engine 0.7.0"**. For any person or AI agent picking this project up without the original conversation.
 
 ## What this project is
 
-The training model of Coach Lalo (Gerardo Vera), Master NASM coach, captured from his two Google Sheets and his own answers to 218 questions, plus an experimental engine that turns a person's basic information into a complete, editable training template in his style. The model is his intellectual property. It is shared as a free, open-source resource under the MIT license.
+The training model of Coach Lalo (Gerardo Vera), Master NASM coach, captured from his two Google Sheets and his own answers to 261 questions (five rounds) and a few chat answers, plus an experimental engine that turns a person's basic information into a complete, editable training template in his style. The model is his intellectual property. It is shared free under the MIT license.
 
 Start with [README.md](README.md), [MODEL_CARD.md](MODEL_CARD.md), `docs/README.md` (the map), `docs/CONTEXT_FOR_AI.md` (one-file briefing) and [AGENTS.md](AGENTS.md).
 
-## Authority order
+## Where things stand
 
-1. [coach_answers_round4.md](coach_answers_round4.md) (`R4-*`, 20 answers) and [coach_answers_time_2026-10-10.md](coach_answers_time_2026-10-10.md) (`CT-01`)
-2. [coach_answers_codex_2026-10-10.md](coach_answers_codex_2026-10-10.md) (`CX-01..04`)
-3. `coach_answers_round3.md`
-4. `coach_answers_round2.md`
-5. `coach_answers_full.md` (round 1)
-6. `coach_chat_statements.md` and `coach_answers.md` (things he said in conversation)
-7. Facts observed in his sheets (`raw/`, `dumps/`; his real programs are decoded in `analysis/programs/*.md`)
-8. Anything inferred or proposed by the team
-
-CT-01 and CX-01..04 win only on their own subjects (session time; progression and editing).
-
-## The big change since the last handoff
-
-**The coach removed time-fitting (CT-01, R4-SES-01).** Session minutes are no longer an input or a limit. A plan is sized by exercise count, built from his own templates, comes out complete, and the person edits it. That removed most of the difficulty the large planner was designed to solve, so the next step changed: engine 0.5 was built on the plan in [design/ENGINE_V05_PLAN.md](design/ENGINE_V05_PLAN.md), and the large planner is parked (see "Parked" below).
-
-The other round-4 decisions, in short:
-
-- **Session size by exercise count** (R4-SES-02): general 5-7, aesthetics 6-8, strength 5-6, bootcamp 5-7 stations, field athletes up to 12, older adults 5-6.
-- **His templates are the skeleton** (R4-SES-05): A day = pull + knee dominant, B day = push + hip dominant, push / pull / legs, and the others in his sheets.
-- **2 days a week** (R4-SES-03): every big group is trained at about 6-8 weekly sets, and the plan suggests a third day.
-- **Nothing is dropped automatically** (R4-SES-04). The person chooses what to remove.
-- **Progression** (CX-01..03, R4-PRG-01..04): reach the planned final sets, in the last week or one week early. Faster steps are allowed, with a note above about 15%. Reps and load are a rule the person applies. The next block starts about 5% higher.
-- **Everything is editable** (CX-04).
-- **Library** (R4-LIB-01..05): proposed exercises are optional add-ons, carries and sleds go by distance or time, a mid-range pull category, incline before overhead pressing, swaps say what they keep and lose, YouTube search links replace third-party video links.
-- **Safety and scope** (R4-SCP-01..03): everyone may use the plans, the terms and release must be accepted before a plan is built, a release line is printed on every plan, and each sport profile carries a confidence label.
-- **Release** (R4-REL-01..03): release the model as the finished product, keep the engine labelled experimental, and credit Coach Lalo as the author and owner.
-
-The decision records for these are ADR-050 to ADR-058 in [docs/04-decisions/](docs/04-decisions/index.md).
-
-## State
+The coach wants this version finished so the front-end tool can be built next. It is.
 
 | Part | State |
 |---|---|
-| Model v1.3 (`BLAZE_CAMP_BRAIN.md`, `generator_spec_v1.json`, `synthesis/`, `docs/`, compiled `model/` 1.3.0) | **Complete.** Rounds 1 to 4, CT-01 and CX-01..04 are applied. `coverage_matrix*.md` trace each answer. Complete does not mean every number is his: see "Confirmed and proposed" in `MODEL_CARD.md`. |
-| Exercise library | 733 runtime exercises compiled from 939 source records (`synthesis/02_exercise_catalog.json`). 32 are optional add-ons. 2 neck records stay proposed and are never shown. |
-| Sports and activities | 127 profiles, 52 sports, 26 "stay athletic and active" activities. Confidence labels: 23 confirmed by the coach, 67 based on a similar sport, 37 proposed. |
-| Engine 0.5.0 (`engine/`, `tests/`, `samples/`, `tools/`) | **Experimental.** Template-first, no time-fitting. All tests pass. The coach graded the 8 sample plans in round 5 (A for 3, B+ for 5). Results below. |
-| Docs | Front door: `README.md`, `MODEL_CARD.md`, this file, `AGENTS.md`, `REVIEW_GUIDE.md`, `CODEX_BRIEF.md`. Guides in `docs/`. |
-| License and disclaimers | MIT in `LICENSE`. `DISCLAIMER.md` and `DISCLAIMER.es.md` are drafts and **need a Florida attorney's review**. |
-| Spanish | The team reviewed the plan-facing lines for neutral Latin American wording. The coach has not approved any Spanish yet. 842 machine-translated lines (mostly exercise names and cues) are marked for his review (`model/i18n/es_review.json`). |
-| Large planner ("planner/1") | **Parked as research. Not being built.** |
-| Website or form | Not started, by decision. The model, the logic and its testing come first. |
+| Model v1.4 (`BLAZE_CAMP_BRAIN.md` v1.4, `generator_spec_v1.json` 1.4.0, compiled `model/` 1.4.0) | **Complete.** Rounds 1 to 5, CT-01, CX-01..04, CH5 and CH6 are applied. Every round-5 and chat answer is traced in [coverage_matrix_round5.md](coverage_matrix_round5.md). Complete does not mean every number is his: see "Confirmed and proposed" in `MODEL_CARD.md`. |
+| Engine 0.7.0 (`engine/`) | **Experimental.** Template-first, no time-fitting, all tests pass. |
+| Exercise library | 742 runtime exercises (731 from the 939 source records + 11 added). 32 optional add-ons. 2 neck records stay hidden. |
+| Sports and activities | 127 profiles: 52 sports, 26 "stay athletic and active" activities. 23 confirmed by the coach, 67 built on a similar sport, 37 proposed. |
+| Spanish | Reviewed by the team for neutral Latin American wording. **Not yet approved by the coach.** 832 machine-translated lines are listed in `model/i18n/es_review.json`. |
+| Disclaimers and the health warning | Drafts. **Need a Florida attorney.** |
+| Front-end tool (website or form) | **Not started. It is the next step.** |
+| Large planner (`design/PLANNER_SPEC.md`) | Parked as research. Do not build it. |
 
-## Engine 0.5 in numbers
+## What engine 0.6 and 0.7 did
 
-From [samples/STATUS_v0.5.md](samples/STATUS_v0.5.md) and [design/bench/V05.md](design/bench/V05.md), run of 2026-10-11. The test count was re-run for this handoff and matched.
+**Engine 0.6** (2026-10-11 and 12) fixed what the AI coach-eye reviews found in rounds 4 to 7 (`engine/DECISIONS.md` G-100 ... G-225):
+- volume: the main lift takes the first added set, every held group is said in the plan, a big group may take a bonus exercise to reach its final sets, no group above 35 sets (CH5-03)
+- selection: every athletic A / B day has an arm slot (CH5-02), team practices are left to the athlete (CH5-01), safer power lifts, cleaner block changes
+- words: circuit progression told from the real weeks, "What changes" by exercise, one acceleration line a week
+
+**Engine 0.7** (2026-10-12 and 13) applied his round-5 answers and notes (G-230 ... G-305):
+- **a health-check yes warns, it does not stop the plan** (R5-GEN-02)
+- **2 days a week = two full-body days** (R5-GEN-01)
+- high-incline press counts 1.0 chest (R5-VOL-01); no group starts at its top number (R5-CLS-07); the one-set shortfall, the heavy deadlift at 3 sets, the light chest exercise on the optional day
+- jumps go two-leg and low first, single-leg and higher later (R5-GRD-03); assisted jumps with knee pain and a "skip above 6 of 10 pain" line (R5-GRD-08)
+- named CrossFit workouts in the class: a Girl a week, a Hero a block (R5-GRD-04); bootcamp alternates rounds and station by station (R5-GRD-05); circuit rounds climb 3, 4, 5 in thirds (R5-CLS-03)
+- incline first for throwers and volleyball, and overhead pressing kept for shoulder health (R5-ATH-04)
+- the core block printed as optional (R5-GRD-06)
+- `raw/`, `dumps/`, `analysis/` kept public, link-stripped, checked for client names (R5-PUB-01); credentials "Master NASM coach" only (R5-PUB-02)
+- two fix rounds: the round-9 AI reviews (G-291 ... G-300) and the sweep (G-301 ... G-304)
+- the release: model label 1.4.0 with the 1.3.0 seed, so no plan changed with the label (G-305)
+
+## Grades
+
+The coach graded the engine 0.6 plans in round 5. The AI coach-eye reviewers graded the engine 0.7 plans after his notes were applied (round 9; round 10 re-read the three plans round 9 left below A-).
+
+| Sample | The coach's grades (round 5) | AI round 9 | AI round 10 |
+|---|---|---|---|
+| 01 Swimming | **A** | A | - |
+| 02 Football | **A** | A | - |
+| 03 Soccer | **B+** | A- | - |
+| 04 CrossFit-style class | **B+** | B+ | A- |
+| 05 Bootcamp | **B+** | A- | - |
+| 06 Full-body aesthetics | **B+** | A- | - |
+| 07 Push / pull / legs | **A** | B+ (a regression, fixed in G-291 / G-292) | A |
+| 08 Pickleball, 52, knee pain | **B+** | B+ | A- |
+
+AI grades are not his. Every sample is at A- or better by the AI reviewers' reading; he has not graded engine 0.7.
+
+## Numbers (2026-10-13, engine 0.7.0)
 
 | Check | Result |
 |---|---|
-| `node --test tests/` | 1,407 tests: 1,401 pass, 0 fail, 4 to-do, 2 skipped |
+| `node --test tests/` | 1,692 tests: 1,687 pass, 0 fail, 3 to-do, 2 skipped |
 | `node tools/check-model.mjs` | 0 errors, 0 warnings |
 | 8 sample plans | 8 of 8 `ok`, 0 failing error checks |
-| Sweep, 1,578 intakes (1,500 random, one per sport, one per activity) on the reference model and on the compiled model | 0 failing error checks, 0 render problems, 0 crashes |
-| Benchmark, 102 plans, scorer 2.3 | Mean 97.67, lowest 89.35. 3 hard-rule violations in 2 plans. 53 plans pass every row |
-| Benchmark, engine 0.4 baseline (older scorer) | Mean 64.4, lowest 27.6. 2,228 hard-rule violations. 1 plan passed every row |
-| AI coach-eye grades, third review | 01 Swimming B, 02 Football B, 03 Soccer B, 04 CrossFit-style class B-, 05 Bootcamp B-, 06 Full-body aesthetics B, 07 Push / pull / legs B+, 08 Pickleball B+ |
-| The coach's grades (round 5) | 01 Swimming **A**, 02 Football **A**, 03 Soccer **B+**, 04 CrossFit-style class **B+**, 05 Bootcamp **B+**, 06 Full-body aesthetics **B+**, 07 Push / pull / legs **A**, 08 Pickleball **B+** (COACH-R5 R5-GRD-01 ... 08, `coach_answers_round5.md`; his notes on the B+ plans are rules for engine 0.7) |
+| Sweep, 1,578 intakes x 2 models (1,500 random, one per sport, one per activity) | 0 failing error checks, 0 render problems, 0 crashes |
+| Benchmark, 102 plans, scorer 2.7 ([design/bench/V07.md](design/bench/V07.md)) | mean 98.04, lowest 89.35, 2 hard-rule violations in 1 plan, 60 plans pass every row |
 
-Read the numbers with care:
+Read with care: a benchmark score is a team tool, not a coach grade. Passing tests does not prove a plan is right for every person.
 
-- The third-review grades come from the build workflow's last review pass, which ran after fix round 2. `samples/STATUS_v0.5.md` lists the first two reviews. The plans in `samples/plans/` are the ones the third review read.
-- The plan's goal is B+ or better on every sample. **2 of 8 are there.**
-- The benchmark scorer was corrected during v0.5 (2.0 to 2.3), and part of the rise in score comes from those corrections. Each one is listed in `samples/STATUS_v0.5.md`.
-- Passing tests and checks does not show that a plan is right for every person.
+## Open items
+
+1. **Attorney:** `DISCLAIMER.md`, `DISCLAIMER.es.md`, the release wording, and the **new health warning** (R5-GEN-02; it prints with a `[LEGAL REVIEW]` marker until signed off). Also advice on the Blaze Camp name.
+2. **Coach: the Spanish.** He has approved none yet (832 machine-translated lines plus the priority list in `model/i18n/es_review.json`).
+3. **Coach: severe pain.** It now builds with the moderate pain rules and the health warning (G-271, PROPOSED). Is that right?
+4. **02 Football, lateral jump on Tuesday and Friday** (G-298). The library has two two-foot lateral jumps, so the first block holds one on Monday and Thursday only. A third and fourth record would close it.
+5. **12 benchmark plans score slightly below engine 0.6** (by 0.1 to 1.05; G-300 lists why): the high-incline credit (bench 34, 05), the first lift's first step landing on one exposure a week before the other (seven physique and combat plans), 07's dip at 5 next to the bench at 4 in weeks 11-12 (CH6-01: he is fine with it), and athletic share (38, 02, 63).
+6. **random-1332** (sweep): chest is held at 11 of its 13 final sets and the plan says so (G-301). A one-set display note, not fixed.
+7. Open minors from the AI reviews (round 10) are listed in `reviews/coach-eye-r10/`. None is a hard-rule break.
+8. PROPOSED readings waiting for his word are marked in `coverage_matrix_round5.md` (for example which slots go to which of the two full-body days, the weekly light overhead press in general plans, the named-WOD scaling).
+
+## Next step: the front-end tool
+
+Build the tool people will see (the website or form) on top of `engine/`. The engine is pure JavaScript with no I/O, so it runs in the browser as it is. Proposal: `synthesis/13_product_options.md`. Intake shape: `engine/CONTRACTS.md` §2.1. How to call it: `AGENTS.md` section 8.
+
+Must-haves from his answers:
+- the release accepted before every plan (H20), the release line on every plan, the health check with its warning (R5-GEN-02)
+- few inputs, no session length, no sex, sleep or stress fields
+- English and Spanish
+- everything editable (CX-04): sets, exercises, blocks on or off (`engine/edit.mjs`)
+- **the person's own exercise (CH6-02, approved):** they may put their own exercise anywhere with the sets they choose, answering one question only, "which muscle does it mainly work?" (chest, back, quads, hips, shoulders, biceps, triceps, calves, core, or "a jump / cardio, not a lifting set"). It counts 1.0 to that group, is flagged `custom: true`, is left out of the library-only checks, and prints "your exercise: not checked by Blaze Camp rules" in English and Spanish. Today `edit.mjs > add_exercise` takes library exercises only, so this needs a small engine addition. Adding an exercise to the official library still needs the full tagging (`docs/adding-exercises.md`) and his approval.
+
+**Do not add accounts or stored data on your own.** R3-GEN-01 says no data is kept. Saving plans, logins or analytics would go against that. Ask the coach first; until he decides, the tool keeps nothing (the plan can be downloaded or printed).
 
 ## Git state
 
-- Branch `planner-build`. The last commit is `50fd654` ("Add engine v0.5 plan (template-first, no time-fitting) and its workflow").
-- **Engine 0.5, the regenerated model and samples, and the v1.3 documents are in the working tree and were not committed by the agents that wrote them.** The lead commits. Check `git status` before acting.
-- `main` is at `04637ed` (engine 0.4). `review/codex` and `review/claude-codex` are merged into `planner-build`.
-- [RELEASE_CHECK_v1.3.md](RELEASE_CHECK_v1.3.md) is the final consistency check of this release (run on 2026-10-11): what was searched and fixed, the leftovers in code and data, the test and benchmark numbers, the sample grades and the items for the coach and the attorney. It rebuilt the reference fixture and recompiled `model/` after the last documentation edit to the spec. Only the spec's version and hash changed in `model/manifest.json`, `model/CHANGELOG.md` and `model/COMPILE_REPORT.json` (and the same version string in the fixture); every runtime file is byte for byte the same. **Any later change to a compile source (the spec, `coach_answers_round2.md` or the `synthesis/*.json` files) needs `node tools/compile-model.mjs` again, or one test fails.**
+- Branch `engine-v06`. The release commit is on top of `24014c3` (the round-10 reviews). The lead tags and merges to `main`.
+- `main` is still at engine 0.4. Do not push to `main` without the owner's say-so.
+- Any change to a compile source (the spec, `coach_answers_round2.md`, `synthesis/*.json`, a layer in `tools/fixture/`) needs `node tools/fixture/build-fixture.mjs`, `node tools/compile-model.mjs` and `node tools/generate-samples.mjs` again, or a test fails.
 
-## Next steps, in order
+## Authority order
 
-1. **Lead: consolidate.** Review the working tree, run the pipeline from clean (`node tools/fixture/build-fixture.mjs`, `node tools/compile-model.mjs`, `node tools/check-model.mjs`, `node --test tests/`, `node tools/generate-samples.mjs`), commit, and merge into `main` when satisfied. The coach approved this in R4-REL-01: "go ahead and finish it all, and then after you're done, consolidate everything."
-2. **Done (round 5): his credentials.** "Master NASM coach" only, as he wrote it (R5-PUB-02). The placeholder is removed from `README.md` and `MODEL_CARD.md`; nothing was added.
-3. **Done (round 5): he graded the 8 sample plans** (R5-GRD-01 ... 08: A for 01, 02, 07; B+ for 03, 04, 05, 06, 08). His notes on the B+ plans become rules and tests (engine 0.7 work packages).
-4. **Coach: the 14 open questions** at the end of `samples/STATUS_v0.5.md`. Examples: the chest credit of a high-incline press, single-leg work on athletic A/B days, the scale for 2- and 3-day athletic weeks, whether every plan holds pulling at or above pressing.
-5. **Engine, toward B+ on every sample:**
-   - The athletic layer: jumps, throws, cuts, sprint metres and Olympic sets are under the sport's weekly target in 45 of the 63 athletic benchmark plans. 4 to-do tests are open there.
-   - Say every shortfall in the plan (35 cases in 30 benchmark plans).
-   - The 3 remaining hard-rule violations (one CrossFit plan's jumps, one MYO placement).
-   - Samples 04 and 05 (class and bootcamp) are still graded B- after both fix rounds.
-   - The printed-copy items listed under "Not fixed in this round" in `samples/STATUS_v0.5.md`.
-   - New fix-round rules are held by tests and the scorer, not yet by a validator check.
-   - A leftover in the rule data: `model/rules.json > locked` still lists LK08 ("total weekly sets rise by less than 10%"), and every plan carries its key in `meta.locked_rule_keys`. CX-01 retired that cap and nothing enforces it. Remove it in the rule builders (`tools/fixture/rules.mjs`, `tools/compile/rules.mjs`) and the word tables.
-   - The other leftovers in code and data (two unused word-list lines that still speak of minutes, three unread minute keys in the rule data, the retired intake fields in the sample and benchmark intakes, comments about the time check) are listed in `RELEASE_CHECK_v1.3.md` section 4. None of them changes a plan.
-6. **Before the public release is called final:**
-   - attorney review of both disclaimers and of the release wording
-   - the coach's review of the Spanish
-   - **done (R5-PUB-01, 2026-10-12):** third-party video links are stripped from the sheet exports (`raw/MASTER_MODEL.xlsx`, `dumps/`), `analysis/`, `synthesis/02_exercise_catalog_crosswalk.json` and the old model snapshots under `design/scratch/snap*/`, each replaced with `[video link removed]`; the files stay public as the link-stripped exports. They were checked for client names and contact details: none found (`engine/DECISIONS.md` G-276; checked by `tests/v07-words.test.mjs`)
-   - the wording of the new health warning (R5-GEN-02: a health-check flag builds the plan with a warning instead of stopping it) joins the attorney's list
-   - advice on the Blaze Camp name (the team's reading is that the MIT license covers copyright and not the name)
-   - optional: map exercise ids to open databases (free-exercise-db, wger) for images and instructions
-7. **Then, and only then, the tool people will see** (the website or form). It is not started. Proposal: `synthesis/13_product_options.md`.
+1. `coach_answers_round5.md` (R5), `coach_answers_chat_2026-10-11.md` (CH5) and `coach_answers_chat_2026-10-13.md` (CH6); the chats only on their own subjects
+2. `coach_answers_round4.md` (R4) and `coach_answers_time_2026-10-10.md` (CT-01)
+3. `coach_answers_codex_2026-10-10.md` (CX-01..04)
+4. `coach_answers_round3.md`, then `coach_answers_round2.md`, then `coach_answers_full.md` (round 1)
+5. `coach_chat_statements.md` and `coach_answers.md`
+6. His sheets (`raw/`, `dumps/`; programs in `analysis/programs/*.md`)
+7. Anything inferred or proposed by the team
 
 ## Parked: the large planner
 
-The two-stage optimizer planner in `design/PLANNER_SPEC.md` and `design/IMPLEMENTATION_PLAN.md` is **research, not a build target.** Most of its difficulty came from fitting plans into session minutes, and CT-01 removed that requirement. Do not implement it, and do not run `workflows/planner_build.js`.
-
-| Kept | Where |
-|---|---|
-| The diagnosis of engine 0.4 and the algorithm research | `design/diagnosis.md`, `design/algorithm_research.md`, `design/design_*.md`, `design/judge_*.md` |
-| Every rule written as a constraint (a snapshot from before round 4) | `design/rules_as_constraints.md`, `.json`. Its flag `policy_amendment.implementation_ready` stays `false` |
-| The progression arithmetic | Moved into `engine/progression/` with the fixes from `reviews/claude-codex-audit.md`. The engine uses it. Proof notes: `design/PROGRESSION_MATH.md`, `design/PROGRESSION_VERIFICATION.md` |
-| The benchmark | `design/bench/` (94 intakes, the scorer, the 0.4 baseline and the 0.5 results). In use |
-| The decision records | [ADR-048](docs/04-decisions/adr-048-optimizer-rebuild-of-the-planner.md) (the optimizer rebuild, replaced as the next step by [ADR-058](docs/04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md)) and [ADR-049](docs/04-decisions/adr-049-endpoint-priority-and-editable-progression.md) (endpoint priority and editing, still in force) |
-
-If the coach later wants plans fitted to something the templates cannot express, this research is the place to start again.
-
-## Outside review
-
-- `reviews/codex-model-review.md`: an outside evidence review of the model foundation (as of commit `c13cbaa`, before round 4). Treat it as research context, not policy. Its Appendix F1 record fixes were applied in engine 0.5 work package V2.
-- `reviews/claude-codex-audit.md`: an independent audit of the progression arithmetic. Its fixes (HIGH-2, MEDIUM-1 to MEDIUM-5) were applied when the kernel moved into `engine/progression/`.
-- A coach answer a reviewer disagrees with is not an error. It goes on a list "for discussion with the coach".
+The two-stage optimizer in `design/PLANNER_SPEC.md` and `design/IMPLEMENTATION_PLAN.md` is research. Its hard part was fitting plans into session minutes, and CT-01 removed that. Do not build it, and do not run `workflows/planner_build.js`. The progression arithmetic from that work lives on in `engine/progression/`. The benchmark (`design/bench/`) is in use.
 
 ## Validation limits
 
-- The coach graded the 8 sample plans once (round 5). The fix rounds after that are graded by AI reviewers until he grades again.
-- The benchmark scorer is a team tool. A score is not a coach grade.
-- Edited plans: `engine/edit.mjs` recomputes totals, marks the plan `edited` and discards the old validation. It does not promise that an arbitrary edit still follows every rule.
-- No website, account system, personal-data storage or adaptive tracking exists. Accounts, stored personal data and adaptive tracking must never be added. The website comes last (next steps, item 7).
+- The coach graded the samples once (round 5, engine 0.6). Later rounds are AI-graded until he grades again.
+- Edited plans: `engine/edit.mjs` recomputes totals, marks the plan `edited` and drops the old validation. It does not promise that an edit follows every rule.
+- No website, accounts, stored data or tracking exist. See "Next step".
 
 ## Rules that must never be broken
 
 See `AGENTS.md` section 10 and `docs/01-philosophy/what-he-rejected.md`. In short:
 
-- core first; power before strength; horizontal before vertical
-- knee-dominant work pairs with a pull; hip-dominant work pairs with a push
-- heavy squat and heavy deadlift on different days, once per pattern per week
-- floor of 10 weekly sets on every trained group when there are 3 or more training days; on 2 days, every big group at about 6-8
+- core first (printed as optional); power before strength; horizontal before vertical
+- knee-dominant work with a pull; hip-dominant work with a push
+- heavy squat and heavy deadlift on different days, once each a week
+- floor of 10 weekly sets from 3 training days; on 2 days (two full-body days) every big group at about 6-8
 - helpers count a quarter set; athletic work never counts as muscle sets
 - no bands or variable resistance
 - no check-ins, tracking or stored data
-- no sex or lifestyle inputs
-- no session-minutes input and no time-fitting
-- no deload inside a block
-- older adults get no Olympic lifts or plyos unless they opt in
-- tests only at the start and end of a block
-- exercises stay the same inside a block
-- the terms and release are accepted before any plan is built
+- no sex or lifestyle inputs; no session-minutes input and no time-fitting
+- no deload inside a block; tests only at the start and end of a block
+- older adults: no Olympic lifts or plyos unless they opt in
+- the release is accepted before any plan is built; a health-check yes warns, it does not stop
 - English and Spanish

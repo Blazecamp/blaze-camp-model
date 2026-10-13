@@ -182,7 +182,7 @@ Related pages: [principles](principles.md), [how he thinks](how-he-thinks.md), [
 
 **His words.** "it can progress week by week by 10%. That's way too much. It's hard to sustain a program like that for an 8-week program." (UNI-05). On finishing lower to keep the steps small: "no, go ahead and increase faster if thats the need, they could edit accordingly" (CX-01). Round 4 approved "no hard limit" with a note above about 15% (R4-PRG-02).
 
-**In the data.** `model/rules.json > stairway > standard_steps` (0.03, 0.05), `model/rules.json > stairway > progression` (`target_reached`, `note_above: 0.15`); checks `V15`, `H10` (final sets reached) and `V35` (the note). The compiled list of locked rules still carries `LK08`, "total weekly sets rise by less than 10%": a leftover, retired by CX-01 and R4-PRG-02.
+**In the data.** `model/rules.json > stairway > standard_steps` (0.03, 0.05), `model/rules.json > stairway > progression` (`target_reached`, `note_above: 0.15`); checks `V15`, `H10` (final sets reached) and `V35` (the note). The old locked rule `LK08`, "total weekly sets rise by less than 10%", was removed from the compiled list (retired by CX-01 and R4-PRG-02).
 
 ### 2.3 A deload or maintenance week inside a block
 
@@ -466,7 +466,7 @@ He left the door open on these. Some are not in the model at all. Some are in it
 | Hip dominant with a push, knee dominant with a pull | `H06` | | `generator_spec_v1.json > validation_checks > V11_pairing` |
 | One heavy squat day and one heavy deadlift day | `H07` | `LK11` | `generator_spec_v1.json > validation_checks > V10_spine` |
 | Helpers a quarter set; athletic work counts for no muscle | `H08`, `H09` | `LK07` | `generator_spec_v1.json > validation_checks > V14_counting` |
-| Final sets reached in the last week, one week early at most; a note on a week above about 15% (the 7% and 10% limits are retired) | `H10` | (`LK08` is a leftover) | `model/rules.json > validation > checks`: `V15`, `V35` |
+| Final sets reached in the last week, one week early at most; a note on a week above about 15% (the 7% and 10% limits are retired) | `H10` | (`LK08` retired) | `model/rules.json > validation > checks`: `V15`, `V35` |
 | Medball limits | `H11` | `LK12` | `generator_spec_v1.json > validation_checks > V16_aesthetics` |
 | Older-adult defaults | `H12` | `LK09`, `LK15` | `generator_spec_v1.json > validation_checks > V5_older` |
 | No sex or gender field | `H13` | `LK10` | `generator_spec_v1.json > inputs_schema > removed_fields` |

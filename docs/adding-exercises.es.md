@@ -850,7 +850,7 @@ git diff --stat engine/fixtures/
 
 Solo deben cambiar sus registros (y el manifiesto de la copia). Si cambia algo más, deténgase y avise a los mantenedores: la copia ya estaba desactualizada antes de su cambio.
 
-**8.10 Actualice los números fijados.** `tests/compile.test.mjs` fija el número de ejercicios conservados (733 en el modelo 1.3.0; en tres lugares de la prueba "counts") y de líneas en español traducidas automáticamente (842 en el modelo 1.3.0). Suba cada uno en el número que agregó. Actualice también los conteos de ejercicios que citan `README.md` y `engine/README.md` si cambiaron.
+**8.10 Actualice los números fijados.** `tests/compile.test.mjs` fija el número de ejercicios conservados (742 en el modelo 1.4.0; en tres lugares de la prueba "counts") y de líneas en español traducidas automáticamente (832 en el modelo 1.4.0). Suba cada uno en el número que agregó. Actualice también los conteos de ejercicios que citan `README.md` y `engine/README.md` si cambiaron.
 
 **8.11 Corra todas las pruebas:**
 

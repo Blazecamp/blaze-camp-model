@@ -56,4 +56,6 @@
 //   sport's lateral jump, a weekly light overhead press for incline-first plans (R5-ATH-04) (DECISIONS G-291 ... G-299).
 // 0.7.0 (sweep fix round): a bonus week never raised above a later week, the weeks' targets rewritten with the levelled schedule (H21 / H22),
 //   the hold rule never raises plyometric work over the share nor lengthens the next plateau (V27) (DECISIONS G-301 ... G-304).
+// 0.7.0 (release "model v1.4 + engine 0.7.0", 2026-10-13): the seed reads rules.determinism.seed_version_map, so the model label
+//   1.4.0 keeps the 1.3.0 tie-breaks and every plan is unchanged (DECISIONS G-305).
 export const ENGINE_VERSION = '0.7.0';

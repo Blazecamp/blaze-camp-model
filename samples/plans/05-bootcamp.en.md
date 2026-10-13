@@ -1690,7 +1690,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 
 ---
 
-_Model 1.3.0 · Engine 0.7.0_
+_Model 1.4.0 · Engine 0.7.0_
 
 Liability released: the terms and the release were accepted before this plan was built. Not medical advice. Use at your own risk. Train within your limits. Full terms: Disclaimer and Release of Liability. [Read the full disclaimer and release](https://github.com/Blazecamp/blaze-camp-model/blob/main/DISCLAIMER.md)
 

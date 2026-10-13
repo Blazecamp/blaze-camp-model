@@ -2,7 +2,7 @@
 
 > A complete coaching model from the experience of Coach Lalo (Gerardo Vera), Master NASM coach (Blaze Camp, BFit Studios Corp.): a machine-readable model of how he designs training programs, plus an experimental, deterministic plan engine (plain JavaScript, Node 22 or browser, no dependencies) that turns one short intake into a whole 4-12-week or year plan in English or Spanish. The model is his intellectual property, shared under the MIT license. Few inputs go in, a complete editable template comes out once, built from his own day templates and sized by exercise count, with no time-fitting: no check-ins, no tracking, no stored user data. Use at your own risk (not medical advice).
 
-Authority order when sources disagree: coach_answers_round4.md and coach_answers_time_2026-10-10.md (CT-01; newest) > coach_answers_codex_2026-10-10.md (CX-01..04) > coach_answers_round3.md > coach_answers_round2.md > coach_answers_full.md > coach_chat_statements.md and coach_answers.md > OBSERVED facts from his sheets (raw/, dumps/) > INFERRED / SCIENCE / PROPOSED team work. Every rule carries an evidence label (OBSERVED, COACH-ANSWER <id>, COACH-R2 <id>, COACH-R3 <id>, COACH-R4 <id>, COACH-CT CT-01, COACH-CX <id>, INFERRED, SCIENCE, PROPOSED). The engine reads only the compiled model in model/; it is built from generator_spec_v1.json and synthesis/*.json by tools/compile-model.mjs. Run the tests with `node --test tests/`. Generate the sample plans with `node tools/generate-samples.mjs --out <dir>`. Status (2026-10-11): model v1.3 complete; engine 0.5.0 experimental (results in samples/STATUS_v0.5.md; the coach has not graded its sample plans). The large planner in design/PLANNER_SPEC.md is parked research: do not build it.
+Authority order when sources disagree: coach_answers_round5.md with coach_answers_chat_2026-10-11.md (CH5) and coach_answers_chat_2026-10-13.md (CH6) (newest) > coach_answers_round4.md and coach_answers_time_2026-10-10.md (CT-01) > coach_answers_codex_2026-10-10.md (CX-01..04) > coach_answers_round3.md > coach_answers_round2.md > coach_answers_full.md > coach_chat_statements.md and coach_answers.md > OBSERVED facts from his sheets (raw/, dumps/) > INFERRED / SCIENCE / PROPOSED team work. Every rule carries an evidence label (OBSERVED, COACH-ANSWER <id>, COACH-R2 <id>, COACH-R3 <id>, COACH-R4 <id>, COACH-R5 <id>, COACH-CH5 <id>, COACH-CH6 <id>, COACH-CT CT-01, COACH-CX <id>, INFERRED, SCIENCE, PROPOSED). The engine reads only the compiled model in model/; it is built from generator_spec_v1.json and synthesis/*.json by tools/compile-model.mjs. Run the tests with `node --test tests/`. Generate the sample plans with `node tools/generate-samples.mjs --out <dir>`. Status (2026-10-13): model v1.4 complete (rounds 1-5, CT, CX, CH5, CH6); engine 0.7.0 experimental; the coach graded the 8 samples A (01, 02, 07) and B+ (the rest) in round 5; next step: the front-end tool (HANDOFF.md).
 
 ## Start here
 
@@ -10,13 +10,16 @@ Authority order when sources disagree: coach_answers_round4.md and coach_answers
 - [README.md](README.md): project overview, credit, status with the engine's measured results, repo map, evidence labels, use-at-your-own-risk notice (EN/ES)
 - [MODEL_CARD.md](MODEL_CARD.md): one page: what the model is, who it is for, scope and limits, how it was built, what is confirmed and what is proposed, license, disclaimer
 - [HANDOFF.md](HANDOFF.md): current state and next steps
-- [RELEASE_CHECK_v1.3.md](RELEASE_CHECK_v1.3.md): the final consistency check of v1.3: what was searched and fixed, leftovers in code and data, test and benchmark numbers, sample grades, items for the coach and the attorney
+- [coverage_matrix_round5.md](coverage_matrix_round5.md): every round-5, CH5 and CH6 answer and where it lives (master section, rules key and layer, decision id, test)
+- [RELEASE_CHECK_v1.3.md](RELEASE_CHECK_v1.3.md): the consistency check of the v1.3 release (history): what was searched and fixed, leftovers in code and data, test and benchmark numbers, sample grades, items for the coach and the attorney
 - [BLAZE_CAMP_BRAIN.md](BLAZE_CAMP_BRAIN.md): master document of the coaching model: philosophy, categories, levels, volume engine and stairway, bilateral vs unilateral, variables, equipment, athletes and sports, templates, plan types, testing, generator, product
 - [generator_spec_v1.json](generator_spec_v1.json): the model as a machine spec: inputs_schema (intake fields F00-F46), derived_values D1-D14, vocab, rule_tables, plan_types, tests, validation_checks, output
 
 ## Coach answers (highest authority, never edit)
 
-- [coach_answers_round4.md](coach_answers_round4.md): round 4 (newest, 20 answers): no session-length input, exercise counts per session, the 2-day rule, nothing dropped automatically, the A/B and push/pull/legs templates as the skeleton, progression (final sets reached, a note above about 15%, reps and load as a rule, the next block), optional add-ons, carries by distance or time, mid-range pull, incline before overhead, swap notes, YouTube search links, the liability gate, profile confidence labels, release and credit
+- [coach_answers_round5.md](coach_answers_round5.md): round 5 (newest, 43 answers): his grades of the 8 samples (A for 01, 02, 07; B+ for the rest), a health-check yes warns and does not stop the plan, 2 days = two full-body days, high-incline press 1.0 chest, no group starts at its top, jumps two-leg first, assisted jumps with knee pain, named CrossFit workouts, bootcamp formats, circuit rounds in thirds, overhead pressing kept for health, link-stripped sheet exports, credentials
+- [coach_answers_chat_2026-10-11.md](coach_answers_chat_2026-10-11.md), [coach_answers_chat_2026-10-13.md](coach_answers_chat_2026-10-13.md): chat answers CH5 (team practices, the athletic arm slot, big groups up to 35 sets) and CH6 (a dip above the bench is fine; people may add their own exercise, front-end design)
+- [coach_answers_round4.md](coach_answers_round4.md): round 4 (20 answers): no session-length input, exercise counts per session, the 2-day rule, nothing dropped automatically, the A/B and push/pull/legs templates as the skeleton, progression (final sets reached, a note above about 15%, reps and load as a rule, the next block), optional add-ons, carries by distance or time, mid-range pull, incline before overhead, swap notes, YouTube search links, the liability gate, profile confidence labels, release and credit
 - [coach_answers_time_2026-10-10.md](coach_answers_time_2026-10-10.md): CT-01: session time is the user's responsibility; no time-fitting; plans are sized by exercise count
 - [coach_answers_codex_2026-10-10.md](coach_answers_codex_2026-10-10.md): CX-01..04: reach the planned final sets (faster steps allowed), same sets with rep or load progress, progress at the top number, the output is an editable template
 - [coach_answers_round3.md](coach_answers_round3.md): round 3: output-only plans with no check-ins, the stairway, block toggles and supersets, focus groups and Focus muscles 1/2, rear delts inside shoulders, calendar, swimming / 60+ / racket 50+ / HYROX / stay-active defaults, health check, release, MIT, no data kept (its time-vs-minimums policy is retired by CT-01 and round 4)
@@ -43,7 +46,7 @@ Authority order when sources disagree: coach_answers_round4.md and coach_answers
 
 - [engine/README.md](engine/README.md): how to run, module map, pipeline, where each hard rule is enforced and tested
 - [engine/CONTRACTS.md](engine/CONTRACTS.md): binding shapes and APIs: intake/2 (§2.1), model files (§3), module signatures (§4), plan/2 output schema (§5), validation checks V1-V37 and H01-H22 (§6), why-codes (§7); the engine 0.5.0 amendment boxes at the top supersede the older text
-- [engine/DECISIONS.md](engine/DECISIONS.md): every gap or conflict decided once (C-nn, D-nn, round 3 E-nn, engine 0.5 G-nn)
+- [engine/DECISIONS.md](engine/DECISIONS.md): every gap or conflict decided once (C-nn, D-nn, round 3 E-nn, engines 0.5-0.7 G-nn)
 - [engine/CONTRACT_REQUESTS.md](engine/CONTRACT_REQUESTS.md): append-only requests to change the contract
 - [engine/generate.mjs](engine/generate.mjs): `generate(intake, model)` orchestrator
 - [engine/model.mjs](engine/model.mjs): `loadModel(raw)` and `assertModel`
@@ -55,7 +58,7 @@ Authority order when sources disagree: coach_answers_round4.md and coach_answers
 ## Runtime model (model/, generated, never hand-edited)
 
 - [model/rules.json](model/rules.json): every number and table the engine reads (muscles, credit, volume, stairway, placement, session, time_model (estimate only), ordering, axial, reps, effort, selection, athletic, olympic, medball, conditioning, equipment, population, plan_types, tests, legal, render, validation, locked); each table carries its coach ids and a status (approved or PROPOSED)
-- [model/catalog.json](model/catalog.json): 733 runtime exercises with slots, credits, spine class, kit, 60+ / youth flags, variation axes, a status (32 are optional add-ons) and a YouTube search link built from the name
+- [model/catalog.json](model/catalog.json): 742 runtime exercises with slots, credits, spine class, kit, 60+ / youth flags, variation axes, a status (32 are optional add-ons) and a YouTube search link built from the name
 - [model/templates.json](model/templates.json): the coach's week and day templates as stations
 - [model/profiles.json](model/profiles.json): sport and activity profiles (each with a confidence label: confirmed_by_coach, similar_sport or proposed) and the sport picker
 - [model/i18n/en.json](model/i18n/en.json): English words; Spanish twin in model/i18n/es.json, machine-translated lines pending approval in model/i18n/es_review.json
@@ -75,7 +78,7 @@ Authority order when sources disagree: coach_answers_round4.md and coach_answers
 
 - [samples/intakes/](samples/intakes/): 8 example intakes (swimming, football, soccer, CrossFit-style bootcamp, bootcamp, full-body aesthetics, push/pull/legs, pickleball 52-year-old)
 - [samples/plans/](samples/plans/): the plans the engine generated for them (JSON + Markdown; soccer, bootcamp and pickleball also in Spanish)
-- [samples/STATUS_v0.5.md](samples/STATUS_v0.5.md): engine 0.5 results, review by review: tests, benchmark, known gaps, open questions for the coach
+- [samples/STATUS_v0.5.md](samples/STATUS_v0.5.md): engine 0.5 to 0.7 results, round by round (newest at the end): tests, benchmark, known gaps, open questions for the coach
 - [samples/SAMPLES.md](samples/SAMPLES.md): what the engine decided for each sample and why
 - [samples/RECHECK_v0.3.md](samples/RECHECK_v0.3.md), [samples/REVIEW_LOG.md](samples/REVIEW_LOG.md): history: the reviews of the engine 0.3 and 0.4 plans, which were time-fitted plans that no longer exist
 - [REVIEW_GUIDE.md](REVIEW_GUIDE.md): how to review the model, including the list of ideas the coach rejected

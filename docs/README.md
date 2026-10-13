@@ -38,7 +38,7 @@ He wants the repo to be "the most comprehensive training model that there is out
 |---|---|---|
 | His words | [coach_answers_round4.md](../coach_answers_round4.md), [coach_answers_time_2026-10-10.md](../coach_answers_time_2026-10-10.md), [coach_answers_codex_2026-10-10.md](../coach_answers_codex_2026-10-10.md), [coach_answers_round3.md](../coach_answers_round3.md), [coach_answers_round2.md](../coach_answers_round2.md), [coach_answers_full.md](../coach_answers_full.md), [coach_chat_statements.md](../coach_chat_statements.md), [coach_answers.md](../coach_answers.md) | The final authority. Never edited. |
 | His sheets | `raw/`, `dumps/` | His two Google Sheets, as Excel copies and as text |
-| The model in words | [BLAZE_CAMP_BRAIN.md](../BLAZE_CAMP_BRAIN.md) (v1.3), `synthesis/*.md` | Every rule, with its evidence label |
+| The model in words | [BLAZE_CAMP_BRAIN.md](../BLAZE_CAMP_BRAIN.md) (v1.4), `synthesis/*.md` | Every rule, with its evidence label |
 | The model as data | [generator_spec_v1.json](../generator_spec_v1.json), `synthesis/*.json`; compiled for the engine in `model/` | The same rules as JSON |
 | The explanation | this folder | Plain-language guides, his answers by topic, decision records, reference pages, history |
 
@@ -220,7 +220,7 @@ Each topic is written at six depths. Pick the one you need.
 
 ### 03-coach-answers: everything he answered
 
-All 223 ids, sorted by topic: 218 questionnaire answers from four rounds, plus the 5 ids of the two clarifications of 2026-10-10 (CX-01 to CX-04, CT-01). Each entry gives the question, his final answer, a short quote, what the team added, and where the rule lives.
+All 223 ids of rounds 1 to 4 and the 2026-10-10 clarifications (CX-01 to CX-04, CT-01), sorted by topic. Round 5 (43 ids) and the chats CH5 / CH6 are not yet written in entry by entry: see [coverage_matrix_round5.md](../coverage_matrix_round5.md). Each entry gives the question, his final answer, a short quote, what the team added, and where the rule lives.
 
 | File | What it is |
 |---|---|
@@ -287,7 +287,7 @@ One short record per decision: the rule, who decided it, what else was considere
 | [REVIEW_GUIDE.md](../REVIEW_GUIDE.md) | What reviewers check and how they report | Yes |
 | [CONTRIBUTING.md](../CONTRIBUTING.md) | How to propose a change | Yes |
 | [LICENSE](../LICENSE), [DISCLAIMER.md](../DISCLAIMER.md), [DISCLAIMER.es.md](../DISCLAIMER.es.md) | MIT license. Disclaimer and release, drafts until a Florida attorney reviews them. | Only through the owner |
-| [BLAZE_CAMP_BRAIN.md](../BLAZE_CAMP_BRAIN.md) | The master document, v1.3. Every rule with its evidence label. | Yes, with labels |
+| [BLAZE_CAMP_BRAIN.md](../BLAZE_CAMP_BRAIN.md) | The master document, v1.4 (§0e: what round 5 changed). Every rule with its evidence label. | Yes, with labels |
 | `BLAZE_CAMP_BRAIN_v0.md`, `_v1.md`, `_v1_1.md`, `_v1_2.md`, `generator_spec_v0.json` | Earlier snapshots, kept as history | Never |
 | [generator_spec_v1.json](../generator_spec_v1.json) | The model as a machine spec. The twin of the master document. | Yes, with labels |
 | `synthesis/` | One detailed document per topic (01 to 13), most with a `.json` twin. `synthesis/sports/` holds the per-group sport research. | Yes, with labels |
@@ -455,7 +455,7 @@ His sheets keep his own spelling inside quotes ('SAGITAL', 'TRIPPLE EXTENSION').
 | Open point | Where to look |
 |---|---|
 | The numbers and mechanics marked PROPOSED or INFERRED | [parameters](05-reference/parameters.md); [decision records](04-decisions/index.md), last table |
-| What engine 0.5 still does not do, and the open readings of round 4 | [samples/STATUS_v0.5.md](../samples/STATUS_v0.5.md); [ADR-058](04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md); [changes across rounds](03-coach-answers/changes-across-rounds.md), open readings; [roadmap](06-history/roadmap.md) |
+| What engine 0.7 still does not do, and the open items | [HANDOFF.md](../HANDOFF.md); [samples/STATUS_v0.5.md](../samples/STATUS_v0.5.md) (newest at the end); [ADR-058](04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md); [changes across rounds](03-coach-answers/changes-across-rounds.md), open readings; [roadmap](06-history/roadmap.md) |
 | His grades of the sample plans | [roadmap](06-history/roadmap.md). Round 5: A for 01, 02, 07; B+ for 03, 04, 05, 06, 08 ([coach_answers_round5.md](../coach_answers_round5.md)). |
 | His approval of the Spanish lines | [ADR-007](04-decisions/adr-007-bilingual-english-first-full-spanish.md) |
 | Attorney review of the disclaimer, health check and release | [ADR-009](04-decisions/adr-009-mit-license-and-disclaimers.md), [ADR-010](04-decisions/adr-010-health-check-and-release-every-build.md), [ADR-056](04-decisions/adr-056-liability-gate-before-every-plan.md) |

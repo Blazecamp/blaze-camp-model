@@ -1,9 +1,9 @@
 {
  "_meta": {
   "name": "Blaze Camp program generator spec",
-  "version": "1.3.0",
-  "date": "2026-10-11",
-  "twin_of": "BLAZE_CAMP_BRAIN.md v1.3 (round 4, CT-01, CX-01..04) - sections 5-13; cross-file decisions §0.3; what changed §0d; open items §16 and §0d.3",
+  "version": "1.4.0",
+  "date": "2026-10-13",
+  "twin_of": "BLAZE_CAMP_BRAIN.md v1.4 (round 5, CH5, CH6 on top of round 4, CT-01, CX-01..04) - sections 5-13; cross-file decisions §0.3; what changed §0e (v1.4) and §0d (v1.3); open items §16 and §0d.3",
   "supersedes": "generator_spec_v0.json 0.1.0 (kept unchanged as history)",
   "coach_answers": {
    "file": "coach_answers_full.md",
@@ -79,6 +79,36 @@
     "model v1.3 is the product, the engine is experimental and was rebuilt now; credit to Coach Lalo (Gerardo Vera), Master NASM coach (R4-REL-01..03)"
    ]
   },
+  "coach_answers_round5": {
+   "file": "coach_answers_round5.md",
+   "collected": "2026-10-12",
+   "authority": "highest, with CH5 and CH6: above round 4 and CT-01",
+   "ids": "R5-GRD-01..08, R5-VOL-01..05, R5-VOL-07..11, R5-ATH-01..05, R5-ATH-07..12, R5-CLS-01..07, R5-LIB-01..02, R5-GEN-01..03, R5-PUB-01..02",
+   "verdicts": {
+    "NOT_RIGHT": [
+     "R5-GEN-01"
+    ],
+    "PARTLY": [
+     "R5-VOL-01",
+     "R5-VOL-09",
+     "R5-CLS-03",
+     "R5-CLS-07",
+     "R5-GEN-02"
+    ]
+   },
+   "grades": "01 Swimming A, 02 Football A, 07 Push / pull / legs A; 03 Soccer, 04 CrossFit-style class, 05 Bootcamp, 06 Full-body aesthetics, 08 Pickleball B+ (R5-GRD-01..08)",
+   "product_rules": [
+    "a health-check flag no longer stops the plan: the plan is built and carries a health warning (EN / ES, [LEGAL REVIEW]); severe pain is built with the moderate pain rules and the same warning (PROPOSED) (R5-GEN-02)",
+    "2 days a week = two full-body days, each a knee lift with a pull and a hip lift with a push (R5-GEN-01)",
+    "a high-incline press counts 1.0 chest, 0.25 front delts, 0.25 triceps (R5-VOL-01)",
+    "no group starts at its top number; a Focus group starts a little higher (R5-CLS-07)",
+    "incline before overhead for throwers and volleyball too; overhead pressing stays in the plan for shoulder health (R5-ATH-04)",
+    "jumps progress from two-leg and low to single-leg and higher; assisted jumps first with knee pain and the pain-scale warning (R5-GRD-03, R5-GRD-08)",
+    "class workouts use the community's named benchmark workouts; bootcamp alternates rounds and station by station; circuit rounds climb in thirds (R5-GRD-04, R5-GRD-05, R5-CLS-03)",
+    "the core block is printed as optional; everything is adjustable (R5-GRD-06)",
+    "sheet exports stay public, link-stripped; credentials: 'Master NASM coach' only (R5-PUB-01, R5-PUB-02)"
+   ]
+  },
   "coach_clarifications_2026_10_10": {
    "CT-01": {
     "file": "coach_answers_time_2026-10-10.md",
@@ -98,7 +128,27 @@
     "supersedes": "only the rate-versus-endpoint subject and the scope of editing"
    }
   },
+  "coach_clarifications_2026_10_11_and_13": {
+   "CH5-01..03": {
+    "file": "coach_answers_chat_2026-10-11.md",
+    "authority": "newest, with round 5, on these three subjects only",
+    "rules": {
+     "CH5-01": "team practices are not built into the week or counted as aerobic sessions; one line tells the athlete to account for them",
+     "CH5-02": "every athletic A / B day holds the arm slot (biceps on A, triceps on B), adjustable",
+     "CH5-03": "a big group reaches its planned final sets, with a bonus exercise if needed; no group above 35 weekly sets"
+    }
+   },
+   "CH6-01..02": {
+    "file": "coach_answers_chat_2026-10-13.md",
+    "authority": "newest, on these two subjects only",
+    "rules": {
+     "CH6-01": "a dip above the bench in the last weeks is fine; no change (G-291, G-292)",
+     "CH6-02": "people and coaches may add their own exercise anywhere, answering one question (the main muscle) and marked as theirs, not checked by Blaze Camp rules; for the front-end tool, not built yet"
+    }
+   }
+  },
   "authority_order": [
+   "COACH-R5 <ID> (coach_answers_round5.md), COACH-CH5 <ID> (coach_answers_chat_2026-10-11.md) and COACH-CH6 <ID> (coach_answers_chat_2026-10-13.md); CH5 and CH6 only on their own subjects",
    "COACH-R4 <ID> (coach_answers_round4.md) and COACH-CT CT-01 (coach_answers_time_2026-10-10.md)",
    "COACH-CX CX-01..04 (coach_answers_codex_2026-10-10.md)",
    "COACH-R3 <ID> (coach_answers_round3.md)",
@@ -131,9 +181,17 @@
    "APPROVED (COACH-R4 <ID>)",
    "RETIRED (COACH-R4 <ID>)",
    "RETIRED (COACH-CT CT-01)",
-   "RETIRED (COACH-CX <ID>)"
+   "RETIRED (COACH-CX <ID>)",
+   "COACH-R5 <ID>",
+   "COACH-CH5 <ID>",
+   "COACH-CH6 <ID>",
+   "APPROVED (COACH-R5 <ID>)",
+   "RETIRED (COACH-R5 <ID>)"
   ],
   "sources": [
+   "coach_answers_round5.md",
+   "coach_answers_chat_2026-10-11.md",
+   "coach_answers_chat_2026-10-13.md",
    "coach_answers_round4.md",
    "coach_answers_time_2026-10-10.md",
    "coach_answers_codex_2026-10-10.md",
@@ -836,7 +894,7 @@
    "derived_values.D12_before_logs_step": "derived_values.D12_planned_step (COACH-R2 R2-VOL-03, R2-GEN-04: no intake rate; the planned stairway)",
    "rule_tables.rate_engine (v1 person-based rate)": "rule_tables.rate_engine = the stairway (v1 objects under rule_tables.rate_engine.retired_v1); v1.2: compressed into rule_tables.rate_engine.retired (COACH-R3 R3-VOL-02, R3-VOL-04)"
   },
-  "twin_version": "BLAZE_CAMP_BRAIN.md v1.3",
+  "twin_version": "BLAZE_CAMP_BRAIN.md v1.4",
   "coverage_audit_round3": {
    "date": "2026-10-09",
    "matrix": "coverage_matrix_round3.md (13 round-3 answers -> master section + spec key + OK / FIXED)",
@@ -874,7 +932,7 @@
     "world's best",
     "injury prevention"
    ],
-   "other_certifications": "added when the coach lists them; none is invented here",
+   "other_certifications": "none: 'Master NASM coach' only, as he wrote it (COACH-R5 R5-PUB-02); nothing is added",
    "licence": "MIT (legal_and_privacy.licence) - unchanged",
    "tag": "COACH-R4 R4-REL-03 (PARTLY: his words define it)"
   },
@@ -882,14 +940,33 @@
    "model": "v1.3 = library + categories + rules + sport profiles + coach answers + docs (COACH-R4 R4-REL-01)",
    "engine": "engine/ 0.5.0 on model/ 1.3.0: rebuilt now, template-first, no time-fitting (COACH-R4 R4-REL-02: 'I think you can try to build it now'); marked experimental (R4-REL-01)",
    "not_built": "the large two-stage planner of design/PLANNER_SPEC.md and design/IMPLEMENTATION_PLAN.md: research only (design/ENGINE_V05_PLAN.md)",
-   "tag": "COACH-R4 R4-REL-01 (RIGHT + words), R4-REL-02 (PARTLY)"
+   "tag": "COACH-R4 R4-REL-01 (RIGHT + words), R4-REL-02 (PARTLY)",
+   "model_v1_4": "v1.4 = v1.3 + the round-5 answers, CH5 and CH6 (2026-10-13)",
+   "engine_v0_7": "engine/ 0.7.0 on model/ 1.4.0: still experimental (R4-REL-01); the coach graded the samples A (01, 02, 07) and B+ (03, 04, 05, 06, 08) on engine 0.6 (R5-GRD-01..08); engine 0.7 applies his notes"
   },
   "coverage_audit_round4": {
    "date": "2026-10-11",
    "matrix": "coverage_matrix_round4.md (20 round-4 answers + CT-01 + CX-01..04 -> master section + spec key + status; and where every key retired in v1.3 now sits); the same trace is BLAZE_CAMP_BRAIN.md §0d.5",
    "step": "model v1.3 documentation"
   },
-  "build_v1_3": "scratchpad spec13.py (applied once to the 1.2.0 file; keeps the 1-space JSON format)"
+  "build_v1_3": "scratchpad spec13.py (applied once to the 1.2.0 file; keeps the 1-space JSON format)",
+  "coverage_audit_round5": {
+   "date": "2026-10-13",
+   "matrix": "coverage_matrix_round5.md (every R5-*, CH5-* and CH6-* answer -> master section + rules key / layer + decision id + test file); the same summary is BLAZE_CAMP_BRAIN.md §0e",
+   "step": "model v1.4 documentation"
+  },
+  "v1_4_changelog": [
+   {
+    "part": "_meta only",
+    "step": "model v1.4 documentation (round 5, CH5, CH6)",
+    "date": "2026-10-13",
+    "changes": [
+     "_meta.version 1.3.0 -> 1.4.0; coach_answers_round5, coach_clarifications_2026_10_11_and_13, authority order, status values, sources, credit, release, coverage_audit_round5",
+     "earlier in the engine 0.7 work: the health-check gate and V1 now read 'warn, not stop' (R5-GEN-02): legal_and_privacy, inputs_schema F01 / F36, validation_checks V1"
+    ],
+    "not_changed": "every other spec table: the round-5 and CH5 / CH6 rules reach model/ through the compiler layers tools/fixture/v06-*.mjs and v07-*.mjs (engine/DECISIONS.md G-100 ... G-304)"
+   }
+  ]
  },
  "inputs_schema": {
   "schema": "intake/3",

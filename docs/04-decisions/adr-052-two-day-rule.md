@@ -15,7 +15,7 @@ A person who trains only 2 days a week still trains every big muscle group. Each
 | 2 | About 6 to 8 for every big group | R4-SES-03 |
 | 3 or more | At least 10 (the floor) | R2-VOL-06, [ADR-017](adr-017-floor-of-10-on-focus-groups.md) |
 
-- One A day and one B day cover every big group ([ADR-051](adr-051-coach-templates-are-the-skeleton.md)).
+- Two full-body days cover every big group (round 5, R5-GEN-01: "Two full-body days would be more beneficial"; round 4 had one A day and one B day, [ADR-051](adr-051-coach-templates-are-the-skeleton.md)). Each day trains a knee lift with a pull and a hip lift with a push.
 - The plan prints the rule and suggests a third day. That line is a recommendation only.
 - The plan never drops a whole muscle group, and never adds exercises to force 10 sets into 2 days.
 - The person can still add, remove or adjust.

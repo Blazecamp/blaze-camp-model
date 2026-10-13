@@ -7,6 +7,16 @@ Supersedes `contracts/1.0.0` (written before round 2 was answered). Every builde
 exactly the shapes, names and signatures below. If something here is wrong or missing, **do not silently diverge**: implement
 the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` and in your final report under `problems`.
 
+> **Release "model v1.4 + engine 0.7.0" (2026-10-13) - binding, on top of every box below.** `manifest.model_version` is `1.4.0`
+> (the fixture `1.4.0-fixture`); `rules.rules_version` `1.4.0`; the spec `_meta.version` `1.4.0`; `ENGINE_VERSION` stays `0.7.0`.
+> * **The seed (§1.3) reads a seed version.** New rules key `rules.determinism {seed_version_map: {'1.4.0': '1.3.0', '1.4.0-fixture':
+>   '1.3.0-fixture'}, ref, status}` (layer `tools/fixture/v07-words.mjs`). `seed = makeSeed(intakeForHash(v.intake), map[model.version]
+>   ?? model.version)`. A version label change therefore keeps every tie-break, so model 1.4.0 builds the same plans as model 1.3.0
+>   did on engine 0.7.0 (only `plan.model_version` and the printed 'Model 1.4.0' line change). A model without the key, or a
+>   version not in the map, seeds from `model.version` as before. DECISIONS G-305; test `tests/v07-release.test.mjs`.
+> * **New rules key `rules.release {model_version, confirmations, refs}`** (information only, the engine does not read it): the round-5
+>   answers that confirmed rules already built (R5-VOL-08, R5-ATH-03, R5-ATH-07, R5-GEN-03), keyed by the rules path they confirm.
+
 > **Engine 0.7.0, work package "safety gate, printed words, public files" (coach_answers_round5.md; 2026-10-12) - binding, on top
 > of every box below.** Layer `tools/fixture/v07-words.mjs` (both builds, after the v0.6 layers); DECISIONS G-270 ... G-279; tests
 > `tests/v07-words.test.mjs`. No intake field changes (`intake/2`); the plan schema stays `plan/2`.

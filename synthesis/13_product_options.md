@@ -322,7 +322,7 @@ All options use the same engine (the model turned into code). The engine is the 
 | Screen | Content |
 |---|---|
 | **S0 · Landing** | "Build your training plan in the Blaze Camp style." EN / ES switch top right (English first, GEN-01); lb / kg set from the phone's region and switchable (R2-GEN-08). Two doors: "Build my plan" and "I'm a coach or trainer building for a client" (F39). One line: "Not medical advice. Use at your own risk. Blaze Camp keeps nothing you enter." (C14, C23) |
-| **S1 · Health check** | Client door: the short Blaze Camp health check (§12.2) with a link to the official PAR-Q+; any refer answer → no automatic plan and a "see a professional" message. Coach door: "Run the health check with my client now" or "Skip: I follow my own onboarding" with the coach warning (§12.3). [APPROVED, R3-GEN-01] |
+| **S1 · Health check** | Client door: the short Blaze Camp health check (§12.2) with a link to the official PAR-Q+; any refer answer → the plan is built with a health warning to see a medical professional (COACH-R5 R5-GEN-02; before round 5: no automatic plan). Coach door: "Run the health check with my client now" or "Skip: I follow my own onboarding" with the coach warning (§12.3). [APPROVED, R3-GEN-01] |
 | **S2 · About you** | Age; body weight (required, GEN-02); training experience in years, months off in the last 2 years, "I used to compete" (PRG-05) on the same screen. The level it chose and why, in plain words. No sex question (GEN-02). No sleep, stress or job questions (R2-GEN-04). |
 | **S3 · Goal** | Build muscle · Get stronger · **Train for my sport** · **Stay athletic and active** (§13.3) · Lose fat · General fitness and health · Hybrid / CrossFit. Then, where it applies: lift style; gym or bootcamp format (PRG-03). One optional line for every goal (competitive field athletes PROPOSED, N-PROD-25): **Focus muscle 1 · Focus muscle 2** ("Each gets 1 to 3 extra sets a week on top of a balanced plan"; glutes, quads, hamstrings, back, chest, shoulders, biceps, triceps, calves, core, V-taper) [APPROVED, R3-SES-01; list PROPOSED]. |
 | **S4 · Sport or activity** | "Train for my sport" → competitive or recreational → sport (every popular US sport, searchable, EN / ES) → position or event group → level of play → next season start date (or in season until / competition date; swimmers give the main championship meet date) → practice days and game days (§13.2; R2-GEN-05; R3-ATH-01). "Stay athletic and active" (or recreational) → pick up to two activities, no position or season (§13.3; GEN-02); under More options: the days they play, how long they usually play, and an event date [APPROVED, R3-ATH-05]. |
@@ -579,7 +579,7 @@ His words: "I don't know if we should be keeping any kind of data, but I don't w
 
 ### 7.6 Safety guardrails in the product
 
-* **Health check before every client plan** (§12.2): any answer on the approved refer list → no automatic plan, "see a professional or a coach" (R2-GEN-03, R3-GEN-01). Severe pain on the pain screen → the same (V1).
+* **Health check before every client plan** (§12.2): any answer on the approved refer list → the plan is built with a health warning, "see a medical professional" (R2-GEN-03, R3-GEN-01; COACH-R5 R5-GEN-02: "It doesn't stop ... but it should warn them"). Severe pain on the pain screen → the same warning, planned with the moderate pain rules (V1; PROPOSED).
 * **Coach skip only in coach mode**, with the legal warning that the coach screens the client with their own onboarding (R2-GEN-03, R3-GEN-01).
 * **Own risk + terms + release ticked every time a plan is built**, by clients and coaches alike; under-18s need a parent or guardian (§12.4). [LEGAL REVIEW]
 * **"Not medical advice. Use at your own risk."** on the landing page, in the plan header and on every export, with a link to the full Disclaimer (C14).
@@ -725,7 +725,7 @@ Landing (EN|ES, lb|kg)  "Not medical advice. Use at your own risk. Blaze Camp ke
    |
    v
 Who is this plan for?  ---- "Me" (client) ------------------> 12.2 Blaze Camp health check (+ link to the official PAR-Q+)
-   |                                                              | any refer answer -> REFER (no automatic plan)
+   |                                                              | any refer answer -> WARN (plan built + health warning; R5-GEN-02)
    | "A client: I'm a coach or trainer"                           | all clear -> continue
    v                                                              v
 12.3 Coach: "Run the health check with my client now" ----> same health check, coach taps the answers
@@ -750,7 +750,7 @@ Last page: what next (easy week recommended, then build the next block)  -> buil
 
 * **Who sees it:** every client ("Me"), and coach-mode users who choose "Run the health check with my client now".
 * **What it is (APPROVED, R3-GEN-01):** a short Blaze Camp health check written by a lawyer in English and Spanish: his five "see a professional first" items (chest pain or heart issues; surgery or a fracture in the last 6 months; pregnant or gave birth in the last 6 months; an injury currently under treatment; a doctor said not to train) plus the usual PAR-Q topics (heart and blood pressure, chest pain, dizziness or loss of balance, a bone, joint or soft-tissue problem made worse by exercise, a chronic condition or medicine a doctor manages), with **a link to the official PAR-Q+** for anyone who wants the full questionnaire (C3c). The official PAR-Q+ is copyrighted ("All rights reserved"), must be used unchanged and lists no Spanish version, which is why it is linked, not embedded [RESEARCH, eparmedx.com, 2026-10-08]. We added "fainting" to the heart item (PROPOSED, LEGAL REVIEW).
-* **Any refer answer** → **no automatic plan**, the refer message (C3), and a pointer to a professional or a coach. Answers to the general questions that are not on the refer list lead to "check with your doctor before you start" and an unticked "My doctor or a qualified professional has cleared me to exercise" box before continuing [PROPOSED; LEGAL REVIEW].
+* **Any refer answer** → **the plan is built with the health warning** (COACH-R5 R5-GEN-02; before round 5: no automatic plan and the refer message C3), with a pointer to a medical professional. Answers to the general questions that are not on the refer list lead to "check with your doctor before you start" and an unticked "My doctor or a qualified professional has cleared me to exercise" box before continuing [PROPOSED; LEGAL REVIEW].
 * **Fewest clicks:** one big button "None of these apply to me" and a "Some apply" button that opens the switches; never switches pre-set to "no" (a pre-set answer is not an answer) [INFERRED; LEGAL REVIEW].
 * **Privacy:** the answers are used on screen for this build only; they are never stored, never in the plan, links, images or exports. The plan's stamp carries only the route ("health check by the client", "by the coach with the client", "coach's own onboarding") (R3-GEN-01).
 

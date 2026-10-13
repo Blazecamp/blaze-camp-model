@@ -180,7 +180,7 @@ When two answers disagree, the newer one wins: round 4 and CT-01, then CX-01..04
 **In the data.**
 - `generator_spec_v1.json > rule_tables > rate_engine > principle`, `generator_spec_v1.json > rule_tables > rate_engine > standard_steps` and `generator_spec_v1.json > rule_tables > rate_engine > limits`
 - `synthesis/12_volume_algorithm_v1.json > stairway`
-- `model/rules.json > stairway > standard_steps`, `model/rules.json > stairway > progression`, `model/rules.json > cycles > next_block` and `model/rules.json > render > progression`. (The compiled list of locked rules still carries `LK08`, "total weekly sets rise by less than 10%". That is a leftover: CX-01 and R4-PRG-02 retired it as a limit.)
+- `model/rules.json > stairway > standard_steps`, `model/rules.json > stairway > progression`, `model/rules.json > cycles > next_block` and `model/rules.json > render > progression`. (The old locked rule `LK08`, "total weekly sets rise by less than 10%", was removed: CX-01 and R4-PRG-02 retired it as a limit.)
 
 **Not confirmed (PROPOSED).** The scaling formula that sizes the steps so a group lands on its final sets; never flagging one single added set as a big step; and at least one whole set more in the next block.
 

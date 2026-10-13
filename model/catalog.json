@@ -1,6 +1,6 @@
 {
  "schema": "catalog/2",
- "model_version": "1.3.0",
+ "model_version": "1.4.0",
  "id_aliases": {
   "assisted-dips-band-or-machine": "assisted-dips-machine",
   "assisted-pull-up-band-or-machine": "assisted-pull-up-machine",

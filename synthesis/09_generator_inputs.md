@@ -160,7 +160,7 @@ F01 safety check · F02 age · F07 goal · F11 sport (athletes only) · F14 seas
 
 | ID | Condition | What the form or generator does | Basis |
 |---|---|---|---|
-| V1 | Any "yes" in F01, "severe" in F36, or "yes" in F37 | No automatic plan. Send the answers to the coach. | INFERRED safety rule (N-IN-04) |
+| V1 | Any "yes" in F01, "severe" in F36, or "yes" in F37 | **v1.4 (COACH-R5 R5-GEN-02):** the plan is built and carries a health warning (see a medical professional); severe pain is planned with the moderate pain rules (PROPOSED). Before round 5: no automatic plan | INFERRED safety rule (N-IN-04); COACH-R5 R5-GEN-02 |
 | V2 | Fewer days ticked in F23 than F22 | Error: "pick at least N days". | form logic |
 | V3 | F22 = 2 and F07 = strength or hybrid competitor | Warning: 2 days covers each main lift once a week. | 05 8.3 / 8.5 two-day layouts |
 | V4 | F24 = 30 and F07 = athlete | Warning: the athletic block shrinks to 1 plyo + triple extension + 2 supersets. | 05 7.3 |
@@ -289,7 +289,7 @@ Caveat: if the coach confirms that STARTING / MID / ADVANCED are three back-to-b
 
 | Field(s) | What could change | Question |
 |---|---|---|
-| F01, F37 | Whether a health screen exists and which answers stop the plan | N-IN-04 |
+| F01, F37 | Whether a health screen exists and which answers stop the plan (answered: none stops it; a yes gives the health warning, R5-GEN-02) | N-IN-04 |
 | F13, F17-F19, D2 | How the level is decided; 3 or 4 levels | N-IN-01, N-IN-02, N-IN-03, PRG-05 |
 | F14, F15, D4 | Phase picker vs dates; practice load | N-IN-06, N-ATH-07, N-PER-07 |
 | F11, F12 | Which sports and positions are offered | N-ATH-01, N-ATH-11 |

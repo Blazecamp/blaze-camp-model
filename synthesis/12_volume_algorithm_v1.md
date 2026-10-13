@@ -42,7 +42,7 @@ The coach's newest answers outrank everything below: round 4 (`coach_answers_rou
 | 9 | **Reps and load progress by a rule the person applies** | §3.7.2 (adds to it) | COACH-R4 R4-PRG-03 |
 | 10 | **Next block**: about 5 % above the last block's start, never above the level's top; "ceiling + 1" retired | §0 rule 14; §3.12; §7 item 7 | COACH-R4 R4-PRG-04 |
 | 11 | **Everything is editable**, the sets of any day or week included; after an edit the totals are recomputed and the plan is marked edited (an edit does not rebuild the plan) | §0 rule 12; §3.10.2 | COACH-CX CX-02, CX-04 |
-| 12 | **Credit map**: carries and sled work credit no muscle; a 30-45 degree incline press counts 1.0 chest, a high-incline press 1.0 front delts + 0.5 chest + 0.25 triceps (PROPOSED) | §3.1 | COACH-R4 R4-LIB-02, R4-LIB-03 |
+| 12 | **Credit map**: carries and sled work credit no muscle; a 30-45 degree incline press counts 1.0 chest, a high-incline press 1.0 front delts + 0.5 chest + 0.25 triceps (PROPOSED; **v1.4, COACH-R5 R5-VOL-01: 1.0 chest + 0.25 front delts + 0.25 triceps**) | §3.1 | COACH-R4 R4-LIB-02, R4-LIB-03 |
 
 ### V2. Session size, groups and the time estimate
 
@@ -172,7 +172,7 @@ The plan's own words (`design/ENGINE_V05_PLAN.md`, "How volume is allocated"): w
 
 | Item | Rule | Tag |
 |---|---|---|
-| Days | one A day and one B day: together they train every big group | R4-SES-03; R4-SES-05 |
+| Days | **two full-body days** (COACH-R5 R5-GEN-01; was: one A day and one B day): day 1 pairs the A day's row and squat with an incline / vertical press and a single-leg hinge; day 2 pairs the B day's press and hinge with a vertical pull and a lunge. Together they train every big group | R4-SES-03; R4-SES-05; R5-GEN-01 |
 | Weekly sets | every big group starts at 6 and tops at 8 (+ the Focus add); small groups take the same numbers at most; a 2-day maintenance plan holds no line above 8 | "about 6-8" R4-SES-03; exact numbers PROPOSED |
 | The floor of 10 | applies from 3 training days | R4-SES-03; R2-VOL-06 |
 | What the plan says | a plain note up front: with 2 days each big muscle gets about 6-8 sets a week; a third day would bring it to 10 or more | R4-SES-03 |
@@ -620,7 +620,7 @@ RP also puts a practical per-session ceiling at about **8-12 sets per muscle**, 
 
 ### 3.1 Counting units
 
-> **Changed in v1.3** (COACH-R4 R4-LIB-02, R4-LIB-03). Carries and sled work credit no muscle. A 30-45 degree incline press counts 1.0 for chest; a high-incline press counts 1.0 front delts + 0.5 chest + 0.25 triceps (PROPOSED). Where the text below differs, the v1.3 section at the top of this file wins.
+> **Changed in v1.3** (COACH-R4 R4-LIB-02, R4-LIB-03). Carries and sled work credit no muscle. A 30-45 degree incline press counts 1.0 for chest; a high-incline press counts 1.0 front delts + 0.5 chest + 0.25 triceps (v1.4, COACH-R5 R5-VOL-01: 1.0 chest + 0.25 front delts + 0.25 triceps; PROPOSED). Where the text below differs, the v1.3 section at the top of this file wins.
 
 **Credit map** (one working set; RIR 1-3, 5-30 reps). Main mover 1.0, helpers 0.25 (COACH-ANSWER VOL-09).
 
@@ -1314,7 +1314,7 @@ Lower-body bilateral share **0.22** in weeks 1 and 8 (trap-bar RDL and 45-degree
 
 ### 5.5 The coach's own example (COACH-R3 SES-02): a pickleball player who keeps 2 × 45 minutes - RETIRED in v1.3
 
-> **RETIRED in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-03). In v1.3 a 2-day player gets one A day and one B day, every big group trained at about 6-8 weekly sets, and the plan suggests a third day. No group is left to compound credit because of time. The text below is kept as history only.
+> **RETIRED in v1.3** (COACH-CT CT-01; COACH-R4 R4-SES-03). In v1.3 a 2-day player gets one A day and one B day (v1.4, COACH-R5 R5-GEN-01: two full-body days), every big group trained at about 6-8 weekly sets, and the plan suggests a third day. No group is left to compound credit because of time. The text below is kept as history only.
 
 **Inputs.** 55 years old, L2 (2 years of training), "stay athletic and active" with pickleball 3+ times a week (general-fitness factor 0.8: big lines start 12, shoulders and arms 10 by the floor, ceilings 18; calves one exercise × 3 sets per leg day, ceiling 4 per leg day), 2 days (Mon, Thu) × 45 minutes. Profile defaults (COACH-R3 ATH-02, ATH-05): knee-friendly, mostly bilateral and machine strength; **calf and Achilles work every leg day (pinned: never dropped by the time policy)**; rotator-cuff work in the warm-up (no bands); low-impact jumps only; with 3+ play sessions a week the extra agility drills and half the jumps go, so one athletic station a day (Monday a light rotational medball throw, Thursday a step-down-and-stick landing). The full plan trains every group with 2 exercises per day it is trained (Monday quads, hips, back, shoulders, biceps; Thursday hips, chest, quads, back, triceps), paired as supersets.
 

@@ -848,7 +848,7 @@ git diff --stat engine/fixtures/
 
 Only your records (plus the fixture's manifest) should change. If anything else changes, stop and tell the maintainers: the fixture was out of date before your change.
 
-**8.10 Update the pinned numbers.** `tests/compile.test.mjs` pins the number of kept exercises (733 in model 1.3.0; three places in the "counts" test) and of machine-translated Spanish lines (842 in model 1.3.0). Raise each by the number you added. Also update the exercise counts quoted in `README.md` and `engine/README.md` if they changed.
+**8.10 Update the pinned numbers.** `tests/compile.test.mjs` pins the number of kept exercises (742 in model 1.4.0; three places in the "counts" test) and of machine-translated Spanish lines (832 in model 1.4.0). Raise each by the number you added. Also update the exercise counts quoted in `README.md` and `engine/README.md` if they changed.
 
 **8.11 Run the whole suite:**
 

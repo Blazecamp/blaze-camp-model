@@ -253,7 +253,7 @@ His own landmarks, for reference (UNI-01):
 |---|---|---|
 | Weekly sets for a big group on 2 days | starts at 6, ends at 8 (plus any Focus add) | Coach: R4-SES-03 gave "about 6-8". Using 6 as the start and 8 as the top is the team's reading. |
 | Small groups on 2 days | at most the same 6 to 8 | **PROPOSED**: he spoke of big muscles |
-| The week | one A day and one B day cover every big group ([sessions.md](sessions.md) §6) | R4-SES-05 |
+| The week | two full-body days cover every big group (round 5; [sessions.md](sessions.md) §6) | R4-SES-05; R5-GEN-01 |
 | The printed line | "With 2 training days a week every big muscle group is trained with about 6-8 weekly sets instead of 10 or more. A third training day would let every group reach 10." | wording **PROPOSED** |
 | His earlier answer | "train fewer muscles directly" (R3-SES-02) | replaced by R4-SES-03 |
 

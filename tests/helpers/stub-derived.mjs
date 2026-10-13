@@ -37,7 +37,9 @@ export function stubSeed(intake, model) {
     }
     return o;
   };
-  return makeSeed(strip(intake), model.version);
+  // the engine's seed reads rules.determinism.seed_version_map (G-305: the 1.4.0 label keeps the 1.3.0 seeds)
+  const map = (model.rules && model.rules.determinism && model.rules.determinism.seed_version_map) || {};
+  return makeSeed(strip(intake), Object.prototype.hasOwnProperty.call(map, model.version) ? map[model.version] : model.version);
 }
 
 // --- §9 acceptance table (the parts that need B2 logic) -------------------------------------------------------------

@@ -1393,3 +1393,16 @@ checks, 0 throws, 0 render problems on both models; samples: only 08 changes (it
 G-300); against the previous `results_v07.json` 15 plans change, 13 at the same score, bench-21 91.61 -> 91.55 (share_off one more week)
 and bench-63 95.10 -> 94.94 (athletic_attainment one more miss) - the price of a hold pass that no longer overdoses the share or lengthens
 the peak.
+
+### Release "model v1.4 + engine 0.7.0" (2026-10-13)
+
+The model label moves to 1.4.0: model 1.3.0 plus the coach's round-5 answers (`coach_answers_round5.md`) and his chat answers CH5
+(`coach_answers_chat_2026-10-11.md`) and CH6 (`coach_answers_chat_2026-10-13.md`), all of them already applied by the v0.6 and v0.7
+layers (G-100 ... G-304; `coverage_matrix_round5.md`). The engine stays 0.7.0. Test: `tests/v07-release.test.mjs`.
+
+| # | Decision | Where |
+|---|---|---|
+| G-305 | **A release label does not change a plan** (INFERRED; the coach graded the sample plans, R5-GRD-01 ... 08). The seed of every tie-break hashes the intake with the model version (CONTRACTS §1.3). Bumping the label to 1.4.0 with nothing else reshuffled the picks of all 8 samples (a different seal row, lunge, curl, triceps lift, ankle hop, medball throws ...), with no rule behind the change. `rules.determinism.seed_version_map` maps 1.4.0 to 1.3.0 (and the fixture's 1.4.0-fixture to 1.3.0-fixture); `generate.mjs` seeds from the mapped version. The 8 samples are byte-identical except `model_version` and the printed 'Model 1.4.0' line. A later model version that should reseed simply leaves the map out. | `rules.determinism` (`tools/fixture/v07-words.mjs`); `generate.mjs` run; `tests/helpers/stub-derived.mjs` stubSeed |
+
+Tests converted: `compile.test.mjs` 'loadModel works on the compiled model' and `review-r3.test.mjs` 'R3-engine-version' read model 1.4.0 (were 1.3.0).
+

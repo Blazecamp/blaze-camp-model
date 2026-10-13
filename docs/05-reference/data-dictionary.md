@@ -12,7 +12,7 @@ This page describes every field of the four records that make up the Blaze Camp 
 
 | Record | Source (edit here) | Runtime (generated, never edit) | Shape defined in |
 |---|---|---|---|
-| Exercise | [`synthesis/02_exercise_catalog.json`](../../synthesis/02_exercise_catalog.json): an array of 939 records | `model/catalog.json > exercises[]`: 733 records (731 source records plus the 2 mid-range pull rows of round 4) | [`engine/CONTRACTS.md`](../../engine/CONTRACTS.md) §3.2 |
+| Exercise | [`synthesis/02_exercise_catalog.json`](../../synthesis/02_exercise_catalog.json): an array of 939 records | `model/catalog.json > exercises[]`: 742 records (731 source records, the 2 mid-range pull rows of round 4, 9 round-5 records) | [`engine/CONTRACTS.md`](../../engine/CONTRACTS.md) §3.2 |
 | Profile | [`synthesis/04_profiles.json`](../../synthesis/04_profiles.json) `> profiles[]`: 127 records | `model/profiles.json > sports{}` | CONTRACTS §3.5 |
 | Template | [`synthesis/05_templates.json`](../../synthesis/05_templates.json) `> generator_split_templates[family][days]`: 30 templates | `model/templates.json > families{}` | CONTRACTS §3.4 |
 | Rules (numbers) | [`generator_spec_v1.json`](../../generator_spec_v1.json) and `synthesis/12_volume_algorithm_v1.json` | `model/rules.json` | CONTRACTS §3.3; see [parameters.md](parameters.md) |

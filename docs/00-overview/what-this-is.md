@@ -97,7 +97,7 @@ It also leaves some things out on purpose: no sex field, no bands or variable re
 
 | Thing | Count | Where it lives |
 |---|---|---|
-| Questions put to the coach | 218, in four rounds (140, 45, 13 and 20). All have his answer. He also gave two dated clarifications in conversation on 2026-10-10 (CX-01 to CX-04 and CT-01). | [coach_answers_full.md](../../coach_answers_full.md), [coach_answers_round2.md](../../coach_answers_round2.md), [coach_answers_round3.md](../../coach_answers_round3.md), [coach_answers_round4.md](../../coach_answers_round4.md), [coach_answers_codex_2026-10-10.md](../../coach_answers_codex_2026-10-10.md), [coach_answers_time_2026-10-10.md](../../coach_answers_time_2026-10-10.md) |
+| Questions put to the coach | 261, in five rounds (140, 45, 13, 20 and 43). All have his answer. He also gave dated clarifications in conversation (CX-01 to CX-04 and CT-01 on 2026-10-10, CH5 on 2026-10-11, CH6 on 2026-10-13). | [coach_answers_round5.md](../../coach_answers_round5.md), [coach_answers_chat_2026-10-11.md](../../coach_answers_chat_2026-10-11.md), [coach_answers_chat_2026-10-13.md](../../coach_answers_chat_2026-10-13.md), [coach_answers_full.md](../../coach_answers_full.md), [coach_answers_round2.md](../../coach_answers_round2.md), [coach_answers_round3.md](../../coach_answers_round3.md), [coach_answers_round4.md](../../coach_answers_round4.md), [coach_answers_codex_2026-10-10.md](../../coach_answers_codex_2026-10-10.md), [coach_answers_time_2026-10-10.md](../../coach_answers_time_2026-10-10.md) |
 | Records in the exercise catalog | 939. Of these, 732 are active: 633 exercises, 72 cardio items, 14 drills and 13 tests. | `synthesis/02_exercise_catalog.json` |
 | Records that can be the first pick in a slot | 368 (329 exercises, 22 cardio items, 13 tests and 4 drills). The other active records can only be swaps. | same file, `generator.default_candidate` |
 | Sports in the picker | 52, in 5 groups, with 146 position or event choices | `synthesis/04_profiles.json > sports.list` |
@@ -113,19 +113,19 @@ It also leaves some things out on purpose: no sex field, no bands or variable re
 Notes on the counts:
 
 - Everything he skipped, left blank or did not understand in one round was asked again and answered in a later round (PRG-01, FIX-01, LIB-10, LIB-12, CAT-12, R2-VOL-08).
-- The compiled copy that the engine reads (`model/`) holds 733 exercises: 731 of the source records, plus the 2 mid-range pull rows added in round 4. That folder is generated; read `model/manifest.json` for the live counts.
+- The compiled copy that the engine reads (`model/`) holds 742 exercises: 731 of the source records, the 2 mid-range pull rows added in round 4, and 9 records added in round 5. That folder is generated; read `model/manifest.json` for the live counts.
 - Of the 732 active records, 31 are records the team proposed (27 exercises and 4 cardio items). In round 4 he made 29 of them optional add-ons: a person can choose and add them, but a template never picks them (R4-LIB-01). The 2 neck records stay PROPOSED and are not shown.
 
 ## Where it lives in the data
 
 | File | What it is |
 |---|---|
-| [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) | The master document (v1.3). Every rule, with its evidence label. |
+| [BLAZE_CAMP_BRAIN.md](../../BLAZE_CAMP_BRAIN.md) | The master document (v1.4). Every rule, with its evidence label. |
 | [generator_spec_v1.json](../../generator_spec_v1.json) | The same model as data: `inputs_schema`, `derived_values`, `rule_tables`, `plan_types`, `tests`, `plan_editing`, `legal_and_privacy`, `validation_checks`. |
 | `synthesis/` | One detailed document per topic, most with a `.json` twin. |
-| `coach_answers*.md`, [coach_chat_statements.md](../../coach_chat_statements.md) | His own words. These are the final authority. The newest answer wins: round 4 and the 2026-10-10 clarifications first. |
+| `coach_answers*.md`, [coach_chat_statements.md](../../coach_chat_statements.md) | His own words. These are the final authority. The newest answer wins: round 5 and the chat answers CH5 / CH6 first, then round 4 and the 2026-10-10 clarifications. |
 | `raw/`, `dumps/` | His two original sheets, as Excel copies and as text. |
-| `model/`, `engine/`, `tests/`, `samples/` | The compiled model, the plan engine (0.5), its tests and 8 sample plans. Status: [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md). |
+| `model/`, `engine/`, `tests/`, `samples/` | The compiled model (1.4.0), the plan engine (0.7.0), its tests and 8 sample plans. Status: [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md). |
 
 ## Where to go next
 

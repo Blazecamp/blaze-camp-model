@@ -1,5 +1,11 @@
 # Engine 0.5 status
 
+> **Read this first (2026-10-13, release "model v1.4 + engine 0.7.0").** This file is the running log of every engine round since
+> 0.5. The newest results are at the end: [Engine 0.7.0 fix round on the round-9 reviews](#engine-070-round-5-fix-round-on-the-round-9-coach-eye-reviews-2026-10-13)
+> and [Engine 0.7.0 sweep fix round](#engine-070-sweep-fix-round-2026-10-13). The release itself changed no plan: the model label
+> moved to 1.4.0 and kept the 1.3.0 seed (DECISIONS G-305), so the sample plans differ only in the printed "Model 1.4.0" line. The
+> current summary, grades and open items are in [HANDOFF.md](../HANDOFF.md). The sections below this note are history.
+
 Written 2026-10-11, at the end of work package V4 (integrate). Engine 0.5.0, model 1.3.0. Nothing here is committed or pushed.
 
 ## In one paragraph
