@@ -175,7 +175,7 @@ for (const [mname, model] of MODELS) {
       }
       const en = t('en', 'ui.plan.progress.double', { low: 8, high: 12, rir: '1-2' });
       assert.equal(en, 'Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.');
-      assert.equal(t('es', 'ui.plan.progress.double', { low: 8, high: 12, rir: '1-2' }), 'Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.');
+      assert.equal(t('es', 'ui.plan.progress.double', { low: 8, high: 12, rir: '1-2' }), 'Para avanzar: cuando llegues a 12 en todas las series con 1-2 de sobra, sube el peso la próxima vez y vuelve a empezar en 8.'); // plain words (CH7-09, G-315): wording converted
     });
 
     it('R4-PRG-03: "How you progress" says the rule with an example from the plan, and no line promises a number for a week', () => {
@@ -280,8 +280,8 @@ for (const [mname, model] of MODELS) {
         // nothing reads like a limit
         assert.ok(!/over your minutes|minutes over|longer than your|session length|más de tus minutos|duración de la sesión/i.test(out), `${n} ${lang}`);
       }
-      assert.match(t('en', 'guide.adjust.time'), /nothing in this plan is cut or changed because of time/);
-      assert.match(t('es', 'guide.adjust.time'), /nada de este plan se recorta ni se cambia por tiempo/);
+      assert.match(t('en', 'guide.adjust.time'), /nothing in this plan is cut or changed because of time/i); // plain words (CH7-09, G-315): wording converted
+      assert.match(t('es', 'guide.adjust.time'), /nada de este plan se corta ni cambia por el tiempo/i);
     });
 
     it('CT-01: no check of the validator and no metric of the scorer is about minutes; a long estimate changes nothing', () => {

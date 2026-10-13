@@ -19,9 +19,9 @@ _Your Blaze Camp plan_
 - Triceps: this plan holds 20 sets a week, less than the planned 25. Add an exercise if you want more.
 - Weeks 11 and 12 have Christmas and New Year. Move a session by a day or two if you need to. Plan long holidays between blocks.
 - Biceps: 4 of its 18 final sets sit on your optional day (Supine (Lying) Biceps Curl, Wednesday). Skip that day and the biceps total ends at about 14.
-- Triceps: 7 of its 20 final sets are on bonus exercises (Cable Triceps Pushdown - straight bar, supinated (reverse) grip, Tuesday; Overhead Cable Triceps Extension, Saturday). Do them last on their days. Your plan's lifts for it are already full. Skip them, and the triceps total ends at about 13.
+- Triceps: 7 of its 20 final sets sit on bonus exercises (Cable Triceps Pushdown - straight bar, supinated (reverse) grip, Tuesday; Overhead Cable Triceps Extension, Saturday). Do them last on their days. Your plan's lifts for it are already full. Skip them, and the triceps total ends at about 13.
 - Back: 5 of its 25 final sets sit on your optional days (Machine Row (Close / Neutral Grip), Wednesday, from week 7; Lat Pulldown (Close Grip), Saturday, from week 9). Skip those days and the back total ends at about 20.
-- Chest: 5 of its 25 final sets are on bonus exercises (Flat DB Fly, Wednesday, from week 11; Machine Fly (Pec Deck), Friday, from week 9). Do them last on their days. Your plan's lifts for it are already full. Skip them, and the chest total ends at about 20.
+- Chest: 5 of its 25 final sets sit on bonus exercises (Flat DB Fly, Wednesday, from week 11; Machine Fly (Pec Deck), Friday, from week 9). Do them last on their days. Your plan's lifts for it are already full. Skip them, and the chest total ends at about 20.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.

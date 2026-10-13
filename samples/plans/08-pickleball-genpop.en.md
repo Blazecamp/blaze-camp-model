@@ -15,7 +15,7 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - With 2 training days a week, every big muscle group gets about 6-8 sets a week. That is less than 10. A third training day would let every group reach 10.
-- Calf raises stay on both training days to care for your Achilles (racket players 50+). So Thursday has one more exercise than usual. Take it out if you need a shorter day.
+- Calf raises stay on both training days for Achilles care (racket players 50+). So Thursday has one more exercise than usual. Take it out if you need a shorter day.
 - You told us about pain in your knee (worse with deep knee bends). Here is what this plan does. It leaves out the lifts that load it the most, and says so on the lift. It keeps Quads at the same sets, without adding more (add reps and weight instead). It tells you where to stop on lifts that bend it. If the pain grows, stop and see a professional.
 - Jumps and pain: on a scale of 1 to 10, 10 means you need a hospital. Skip the jumps on any day your pain is above 6. If it stays that high, see a professional.
 - Weeks 11 and 12 have Christmas and New Year. Move a session by a day or two if you need to. Plan long holidays between blocks.

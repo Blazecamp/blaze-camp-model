@@ -14,7 +14,7 @@ _Your Blaze Camp plan_
 
 ## Before you start
 
-- Quads: 3 of its 18 final sets are on a bonus exercise (Goblet Squat (Heels Elevated), Monday, from week 5). Do it last that day. Your plan's lifts for it are already full. Skip it, and the quads total ends at about 15.
+- Quads: 3 of its 18 final sets sit on a bonus exercise (Goblet Squat (Heels Elevated), Monday, from week 5). Do it last that day. Your plan's lifts for it are already full. Skip it, and the quads total ends at about 15.
 
 ## Basic Instruction
 > \*Instead of working to failure, push your limits over the course of time.

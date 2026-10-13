@@ -16,10 +16,10 @@ _Tu plan Blaze Camp_
 
 - La semana 4 sube más de lo habitual (33 % más series en total): ajusta si hace falta.
 - La semana 7 sube más de lo habitual (25 % más series en total): ajusta si hace falta.
-- Cuádriceps, pecho, espalda, bíceps y tríceps: las semanas 1-3 hacen 3 rondas por estación. Por eso estos grupos quedan bajo 10 series por semana hasta la semana 4, cuando suben las rondas. Agrega una ronda si quieres más antes.
+- Cuádriceps, pecho, espalda, bíceps y tríceps: las semanas 1-3 llevan 3 rondas por estación. Por eso estos grupos quedan bajo 10 series por semana hasta la semana 4, cuando suben las rondas. Agrega una ronda si quieres más antes.
 - Las rondas del circuito suben con el plan, una ronda más en cada tercio del bloque (de 3 a 5 rondas). Son una guía: agrega o quita una ronda según lo necesites.
 - Cadera (glúteos + isquiotibiales): todas las estaciones hacen las mismas rondas. Por eso este grupo llega a 18.75 series por semana, por encima de su tope habitual de 18. Para quedarte en el tope, deja sus estaciones en 4 rondas cuando las demás hagan más.
-- Opcional: barra de dominadas (pull-up bar) o entrenador de suspensión (TRX) te daría más opciones de ejercicios. El plan ya usa lo que tienes.
+- Opcional: barra de dominadas (pull-up bar) o entrenador de suspensión (TRX) agregaría más opciones de ejercicios. El plan ya usa lo que tienes.
 - Con este equipo, el plan no tiene jalón desde arriba (dominada o jalón en polea). Un remo o una apertura de hombro de atrás toma su lugar. Una barra, una polea o un TRX lo agregarían.
 - Tu bootcamp mezcla dos formas de entrenar. Algunos días vas en rondas por todas las estaciones. Otros días vas estación por estación: todas las series de una y luego la siguiente. Cada circuito dice cuál.
 
@@ -756,7 +756,7 @@ _Opcional: puedes desactivar este cardio o pasarlo a otro día._
 
 _Nivel de la semana: 4.8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
-_Esta semana sube más de lo normal (33 % más series para todos los grupos, con una ronda más de circuito). Cámbialo si hace falta._
+_Esta semana sube más de lo habitual (33 % más series para todos los grupos, con una ronda más de circuito). Cámbialo si hace falta._
 
 **Qué cambia esta semana**
 - Una ronda más: 4 rondas por estación (antes 3)
@@ -1316,7 +1316,7 @@ _Opcional: puedes desactivar este cardio o pasarlo a otro día._
 
 _Nivel de la semana: 9.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
-_Esta semana sube más de lo normal (25 % más series para todos los grupos, con una ronda más de circuito). Cámbialo si hace falta._
+_Esta semana sube más de lo habitual (25 % más series para todos los grupos, con una ronda más de circuito). Cámbialo si hace falta._
 
 **Qué cambia esta semana**
 - El trabajo del circuito sube a 50 s

@@ -16,7 +16,7 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - Weeks 11 and 12 have Christmas and New Year. Move a session or a test day by a day or two if you need to. Plan long holidays between blocks.
-- Biceps: 3 of its 25 final sets are on a bonus exercise (Barbell Curl, Friday, from week 9). Do it last that day. Your plan's lifts for it are already full. Skip it, and the biceps total ends at about 22.
+- Biceps: 3 of its 25 final sets sit on a bonus exercise (Barbell Curl, Friday, from week 9). Do it last that day. Your plan's lifts for it are already full. Skip it, and the biceps total ends at about 22.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.

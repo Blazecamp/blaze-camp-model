@@ -102,7 +102,7 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 11 J
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way. A set counts once for its group. Hips = glutes + hamstrings. Shoulders = front, side and rear shoulder. Helper muscles get 1/4 set. Jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets. "7 (4 direct)" = 7 sets for the group. 4 of them come from its own exercise. The rest are helper sets from other lifts._
+_Counted the coach's way. A set counts once for its group. Hips = glutes + hamstrings. Shoulders = front, side and rear shoulder. Helper muscles get 1/4 set. Jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets. "7 (4 direct)" = 7 sets for the group, 4 of them from its own exercise. The rest are helper sets from other lifts._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|

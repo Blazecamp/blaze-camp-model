@@ -54,7 +54,7 @@ keys, not words); only the rendered Markdown changed. Model version 1.4.0, engin
 | EN before | 502 | 5.4 | 5 | 248 | 90 | 15.5 |
 | EN after | 514 | 3 | 2.9 | 67 | 2 | 10.7 |
 | ES before | 541 | 6 | 6.1 | 408 | 32 | 11.7 |
-| ES after | 539 | 4.9 | 4.9 | 232 | 2 | 8.7 |
+| ES after | 539 | 4.9 | 4.9 | 234 | 2 | 8.7 |
 
 * 1420 strings in scope (1148 model, 272 app); rewritten 465 (443 model, 22 app).
 * Lines with a jargon term (EN + ES): before 121, after 26. (the 26 left are the allowed ones: the stairway intro lines, the spelled-out AMRAP, and the MYO set lines that point to its explanation).
@@ -351,6 +351,7 @@ English: 32 lines are above grade 6 (all listed below); the rest of the 67 Engli
 * Wording-only conversions in older tests (never logic), listed in `engine/DECISIONS.md` G-315: `render.test.mjs` (the effort
   and rest words), `review-r2f3.test.mjs` (the circuit week line, the adjust line prefix, the accessories line),
   `review-v12.test.mjs` (the quick-jumps line and the effort line read through their keys), `v07-select.test.mjs` (the
-  jump-pain line, the named-workout and bootcamp lines), `v05-words.test.mjs` (the time estimate line), and the "the layer's
+  jump-pain line, the named-workout and bootcamp lines), `v05-words.test.mjs` (the time estimate line, the Spanish progress line, the 'nothing is cut for time' line), `v06-words.test.mjs` (a Spanish sentence now starts with "Mantiene"), and the "the layer's
   words are in the model" loops of `v05-fix2`, `v05-words`, `v06-select`, `v06-volume`, `v06-words`, `v07-select` and
   `v07-words`, which now skip a line the plain-words layer rewrote (checked by the new test instead).
+* Full suite on 2026-10-13 (`node --test tests/`): 1,776 tests, 1,771 pass, 0 fail, 2 skipped, 3 todo. The 8 samples build with 0 failing error checks; their plan JSON is byte-identical to before; the EN and ES Markdown has no raw key or placeholder.

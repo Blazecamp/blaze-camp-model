@@ -266,7 +266,7 @@ describe('printed-copy minors of the round-4 reviews', () => {
   it('R2-GEN-08 rev08-m14 rev05-m11: Spanish articles, lists and lower-case groups mid-sentence; equipment options joined with "or"', () => {
     const es = mdOf('08', 'es');
     assert.ok(es.includes('dolor en la rodilla') && !es.includes('dolor en rodilla'));
-    assert.ok(es.includes('mantiene cuádriceps'));
+    assert.ok(/[Mm]antiene cuádriceps/.test(es)); // plain words (CH7-09, G-315): wording converted
     assert.ok(es.includes('Las semanas 11 y 12'));
     assert.ok(mdOf('08').includes('Weeks 11 and 12'));
     assert.ok(mdOf('05').includes('pull-up bar or suspension trainer (TRX) would add'));

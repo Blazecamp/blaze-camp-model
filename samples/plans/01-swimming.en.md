@@ -21,7 +21,7 @@ _Your Blaze Camp plan_
 - Weeks 11 and 12 have Christmas and New Year. Move a session or a test day by a day or two if you need to. Plan long holidays between blocks.
 - This plan does not count your 6 team practices a week. Think about them and change the weight yourself. Go lighter on a hard practice day. Do a bit more in a light week.
 - Chest: 2 of its 14 final sets sit on your optional day (Flat DB Fly, Saturday, from week 11). Skip that day and the chest total ends at about 12.
-- Shoulders: 3 of its 12 final sets are on a bonus exercise (Seated DB Lateral Raise, Wednesday). Do it last that day. Your plan's lifts for it are already full. Skip it, and the shoulders total ends at about 9.
+- Shoulders: 3 of its 12 final sets sit on a bonus exercise (Seated DB Lateral Raise, Wednesday). Do it last that day. Your plan's lifts for it are already full. Skip it, and the shoulders total ends at about 9.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -117,7 +117,7 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 O
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way. A set counts once for its group. Hips = glutes + hamstrings. Shoulders = front, side and rear shoulder. Helper muscles get 1/4 set. Jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets. "6 (2 direct)" = 6 sets for the group. 2 of them come from its own exercise. The rest are helper sets from other lifts._
+_Counted the coach's way. A set counts once for its group. Hips = glutes + hamstrings. Shoulders = front, side and rear shoulder. Helper muscles get 1/4 set. Jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets. "6 (2 direct)" = 6 sets for the group, 2 of them from its own exercise. The rest are helper sets from other lifts._
 
 |  | Week 1 | Week 6 | Week 12 |
 |---|---|---|---|

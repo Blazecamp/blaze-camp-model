@@ -116,7 +116,7 @@ Días de prueba (anótalos; el plan no manda avisos): semana 1: lunes 12 oct 202
 
 ## Series semanales por grupo muscular
 
-_Contado a la manera del coach. Una serie cuenta una vez para su grupo. Cadera = glúteos + isquiotibiales. Hombros = parte de adelante, de lado y de atrás. Los músculos que ayudan cuentan 1/4 de serie. Saltos, lanzamientos, sprints, swings, caminatas con peso y olímpicos nunca cuentan. Los números están redondeados a series enteras. "5 (2 directas)" = 5 series para el grupo. 2 vienen de su propio ejercicio. Las demás son series de ayuda de otros ejercicios._
+_Contado a la manera del coach. Una serie cuenta una vez para su grupo. Cadera = glúteos + isquiotibiales. Hombros = parte de adelante, de lado y de atrás. Los músculos que ayudan cuentan 1/4 de serie. Saltos, lanzamientos, sprints, swings, caminatas con peso y olímpicos nunca cuentan. Los números están redondeados a series enteras. "5 (2 directas)" = 5 series para el grupo, 2 de ellas de su propio ejercicio. Las demás son series de ayuda de otros ejercicios._
 
 |  | Semana 1 | Semana 3 | Semana 6 |
 |---|---|---|---|

@@ -15,7 +15,7 @@ _Tu plan Blaze Camp_
 ## Antes de empezar
 
 - Con 2 días de entrenamiento por semana, cada grupo grande recibe unas 6-8 series por semana. Es menos de 10. Un tercer día dejaría que cada grupo llegue a 10.
-- Las elevaciones de talón se quedan en los dos días para cuidar tu Aquiles (jugadores de raqueta de 50+). Por eso jueves tiene un ejercicio más de lo normal. Quítalo si necesitas un día más corto.
+- La elevación de talones se queda en los dos días de entrenamiento para cuidar tu Aquiles (jugadores de raqueta de 50+). Por eso jueves tiene un ejercicio más de lo normal. Quítala si necesitas un día más corto.
 - Nos dijiste que tienes dolor en la rodilla (peor con flexiones profundas de rodilla). Esto hace el plan. Deja fuera los ejercicios que más cargan esa zona, y lo dice en el ejercicio. Mantiene cuádriceps en las mismas series, sin sumar más (sube repeticiones y peso). Te dice dónde parar en los ejercicios que la doblan. Si el dolor sube, para y ve con un profesional.
 - Saltos y dolor: en una escala del 1 al 10, 10 quiere decir que necesitas un hospital. No hagas los saltos el día que tu dolor pase de 6. Si sigue así de alto, ve con un profesional.
 - Las semanas 11 y 12 tienen Navidad y Año Nuevo. Mueve una sesión uno o dos días si hace falta. Deja las vacaciones largas entre bloques.

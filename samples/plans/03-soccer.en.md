@@ -20,7 +20,7 @@ _Your Blaze Camp plan_
 - Your training days hold about 80% of your sport's weekly jumps (box, squat, long and quick jumps). The work still goes up every week. Add a station or a day if you want it all.
 - Two-leg lifts are about 50 % of your leg sets. Your sport's guide is about 20 %. The coach's A and B days keep a two-leg squat and a two-leg hinge. Want more one-leg work? Use the one-leg swap for one of them.
 - This plan does not count your 2 team practices a week. Think about them and change the weight yourself. Go lighter on a hard practice day. Do a bit more in a light week.
-- Shoulders: 3 of its 11 final sets are on a bonus exercise (Seated DB Lateral Raise, Wednesday). Do it last that day. Your plan's lifts for it are already full. Skip it, and the shoulders total ends at about 8.
+- Shoulders: 3 of its 11 final sets sit on a bonus exercise (Seated DB Lateral Raise, Wednesday). Do it last that day. Your plan's lifts for it are already full. Skip it, and the shoulders total ends at about 8.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -116,7 +116,7 @@ Test days (mark your calendar; the plan sends no reminders): week 1: Monday 12 O
 
 ## Weekly sets per muscle group
 
-_Counted the coach's way. A set counts once for its group. Hips = glutes + hamstrings. Shoulders = front, side and rear shoulder. Helper muscles get 1/4 set. Jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets. "5 (2 direct)" = 5 sets for the group. 2 of them come from its own exercise. The rest are helper sets from other lifts._
+_Counted the coach's way. A set counts once for its group. Hips = glutes + hamstrings. Shoulders = front, side and rear shoulder. Helper muscles get 1/4 set. Jumps, throws, sprints, swings, carries and Olympic lifts never count. Numbers are rounded to whole sets. "5 (2 direct)" = 5 sets for the group, 2 of them from its own exercise. The rest are helper sets from other lifts._
 
 |  | Week 1 | Week 3 | Week 6 |
 |---|---|---|---|

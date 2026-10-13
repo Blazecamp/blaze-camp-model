@@ -16,10 +16,10 @@ _Your Blaze Camp plan_
 
 - Week 4 jumps more than usual (33 % more sets in total): adjust if needed.
 - Week 7 jumps more than usual (25 % more sets in total): adjust if needed.
-- Quads, Chest, Back, Biceps, Triceps: weeks 1-3 do 3 rounds at each station. So these groups stay under 10 sets a week until week 4, when the rounds go up. Add a round if you want more sooner.
+- Quads, Chest, Back, Biceps, Triceps: weeks 1-3 run 3 rounds a station. So these groups stay under 10 sets a week until week 4, when the rounds go up. Add a round if you want more sooner.
 - Circuit rounds climb with the plan, one more round each third of the block (3 to 5 rounds). These are a guide: add or take away a round as you need.
 - Hips (glutes + hamstrings): every station does the same rounds. So this group gets 18.75 sets a week, above its usual top of 18. To stay at the top, keep its stations at 4 rounds when the others do more.
-- Optional: pull-up bar or suspension trainer (TRX) would give you more exercise choices. The plan already uses what you have.
+- Optional: pull-up bar or suspension trainer (TRX) would add more exercise choices. The plan already uses what you have.
 - With this equipment, the plan has no pull from above (pull-up or pulldown). A row or a rear shoulder fly takes its place. A pull-up bar, a cable or a TRX would add it.
 - Your bootcamp mixes two ways to train. Some days you go in rounds through all the stations. Other days you go station by station: all the sets at one station, then the next. Each circuit says which.
 
