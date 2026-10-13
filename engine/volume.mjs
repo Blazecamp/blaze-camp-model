@@ -1460,13 +1460,6 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       const backG = PPB ? PPB.pull_group : null;
       backRoomNow = () => !!backG && isNum(targets[backG]) && credited(backG) + 1 <= targets[backG] + EPS;
       blockedByBalance = hit.blocked;
-      if (globalThis.__VERIFY_REACH) {
-        const before = ser(sets) + '|' + ser(lastDay);
-        const sn = snapshot(); allocate(targets, null); const t2 = tally(false, 'group'); restore(sn);
-        const after = ser(sets) + '|' + ser(lastDay);
-        globalThis.__VR = globalThis.__VR || { hit: 0, bad: 0 }; globalThis.__VR.hit++;
-        if (ser(t2) !== ser(hit.t) || blockedByBalance !== hit.blocked || before !== after || curTargets !== targets) { globalThis.__VR.bad++; }
-      }
       return { ...hit.t };
     }
     const sn = snapshot();

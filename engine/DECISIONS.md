@@ -1406,3 +1406,16 @@ layers (G-100 ... G-304; `coverage_matrix_round5.md`). The engine stays 0.7.0. T
 
 Tests converted: `compile.test.mjs` 'loadModel works on the compiled model' and `review-r3.test.mjs` 'R3-engine-version' read model 1.4.0 (were 1.3.0).
 
+
+### Performance pass: faster set placement, identical plans (2026-10-13)
+
+The public web tool calls `generate()` once per plan in the browser, where samples 06 and 07 took 12-17 s. A pure refactor: every
+plan, and its rendered text in English and Spanish, is byte-identical to engine 0.7.0 before the pass. Checked with
+`tools/perf/plan-hashes.mjs` (SHA-256 of the plan JSON and of the full EN / ES render, every sample and benchmark intake, generated
+in EN and in ES, on the compiled model and the reference fixture: 408 of 408 identical) and with a same-process A/B against the
+old engine on random sweep intakes (see the commit message for the counts). `ENGINE_VERSION` stays '0.7.0': the plan JSON carries
+`engine_version`, so a bump would change every plan's bytes for no change of behaviour.
+
+| # | Decision | Where |
+|---|---|---|
+| G-311 | **The set placement keeps what it has already worked out** (performance only; no rule changes). (1) The credits of an exercise in a bucket and their group / line sums are memoised per model; a slot's credits, credit class and lead lift are kept with the pick they were read for. (2) Every write to the block's sets and picks goes through one writer that moves a state version; the credit tallies, the press / pull totals (kept as exact running sums - every credit is 1, 0.5 or 0.25 and every set a whole number), the group slot lists and the day lists are read again only after a write. (3) A scratch run (`reachable`) is keyed by everything the allocation reads - the sets, last days, owners, picks, day lists, the bound week's three readings, every switch and table - and answered from the memo when the same question comes again, with the targets, back-room check and balance flag the run would leave behind. (4) Inside one `allocate`, a run that starts from the same state with the same targets replays the previous run's `addSet` answers while its calls match one for one. (5) The candidate order reads each sort key once per candidate (same comparator, same order); a list of one is not sorted. (6) Selection compiles each rule pattern once; tie-break hashes and the forbidden-key / third-party-link walks of the checks avoid repeated work. (7) Browser support: the engine uses nothing newer than Safari 15.0 - the `(?<!leg )press` lookbehind in `render.mjs` (which made the module fail to parse on Safari before 16.4) is an explicit loop with the same matches, and `Array.prototype.at`, `Object.hasOwn` and `structuredClone` in `engine/progression/` are written out; `tests/v07-browser.test.mjs` scans for them. | `volume.mjs` (runBlock: `write`, `live*`, `reachMemo`, `replay`, `tallyOf`), `select.mjs` (`reOf`), `util.mjs` (`tieBreak`, `forbiddenKeys`), `validate.mjs`, `render.mjs`, `progression/*.mjs`; `tools/perf/plan-hashes.mjs` |
