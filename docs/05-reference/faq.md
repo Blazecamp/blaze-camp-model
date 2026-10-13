@@ -365,7 +365,7 @@ Many numbers are PROPOSED. Examples: Level 3's definition, the +2 default for a 
 
 ### 28. Can I generate a plan today? How good is the engine?
 
-**Short answer.** You can generate a plan. The engine is plain JavaScript with no dependencies. It gives the same plan for the same answers and it explains each decision with a `why`. Version 0.5 builds plans from the coach's own day templates, with no time-fitting. Its tests pass, and a sweep of 1,578 generated plans has no failing error check. Treat its output as a draft all the same. Team reviewers (not the coach) read the eight sample plans the way a coach would and graded them between B- and B+; the first engine had scored D to B-. The part still weakest is the athletic layer: jumps, throws, sprints and Olympic sets are often under a sport's weekly target. The coach has not graded the sample plans yet. He said he will (R2-GEN-07).
+**Short answer.** You can generate a plan. The engine is plain JavaScript with no dependencies. It gives the same plan for the same answers and it explains each decision with a `why`. Version 0.5 builds plans from the coach's own day templates, with no time-fitting. Its tests pass, and a sweep of 1,578 generated plans has no failing error check. Treat its output as a draft all the same. Team reviewers (not the coach) read the eight sample plans the way a coach would and graded them between B- and B+; the first engine had scored D to B-. The part still weakest is the athletic layer: jumps, throws, sprints and Olympic sets are often under a sport's weekly target. The coach graded the sample plans in round 5: A for three, B+ for five (R5-GRD-01 ... 08, `coach_answers_round5.md`).
 
 **Why this matters.** To learn his rules, read the model documents, not the engine code.
 

@@ -1234,6 +1234,7 @@ Layer: `tools/fixture/v07-words.mjs` (applied by both builds after the v0.6 laye
 | `intake.test.mjs` | safetyScreen: refers on any safety item ... | converted | `safetyScreen` returns `warn` too; without a model it keeps the 0.6 stop, with this model the same reasons warn (G-270, G-272) |
 | `generate.test.mjs` | a safety answer refers the person (V1) | converted | run on a model without `rules.legal.health_flag` (the retired stop); the new behaviour is in `v07-words.test.mjs` (G-270) |
 | `validate.test.mjs` | a refer plan with reasons and no weeks passes V1; a refer plan that still has weeks fails V1 | converted | checked on a model without the rule; a new test: a refer plan fails V1 on this model (G-273) |
+| `render.test.mjs` | full view: phone-friendly day cards (the core heading) | converted | the core heading now reads "Core (optional: you may switch it off or change it)" (R5-GRD-06, G-275) |
 | `review-r3.test.mjs`, `v05-structure.test.mjs` | engine version | converted | `ENGINE_VERSION` is 0.7.0 (a behaviour change: the health flag builds the plan) |
 
 No test was retired or skipped.

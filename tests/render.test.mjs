@@ -93,7 +93,8 @@ describe('full view (markdown)', () => {
     assert.ok(en.includes('Name to copy into YouTube: `' + model.t('en', model.ex('front-squat-barbell').name_key) + '`'), 'the exact name to copy');
     assert.match(en, /Swap for: [^\n]*\(keeps [^;()]+; loses [^()]+\)/);
     assert.ok(en.includes('**Test week:** 3 or 5 rep max'));
-    assert.ok(en.includes('**' + model.t('en', 'block.core') + '**'));
+    // engine 0.7 (COACH-R5 R5-GRD-06, G-275): the core heading carries the 'optional' suffix
+    assert.ok(en.includes('**' + model.t('en', 'block.core') + ' ' + model.t('en', 'block.optional_suffix') + '**'));
   });
 
   test('footer: model / engine stamp, disclaimer, video note', () => {

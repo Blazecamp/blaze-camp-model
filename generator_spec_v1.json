@@ -930,7 +930,7 @@
      "F01 (self)",
      "F45 -> F01 or bypass (client)"
     ],
-    "gate": "F01 refer -> stop (no automatic plan)",
+    "gate": "F01 refer item yes -> the plan is built with the health warning (COACH-R5 R5-GEN-02; before round 5: stop, no automatic plan)",
     "note": "Blaze Camp short health check (lawyer-written, EN / ES) + link to the official PAR-Q+; coach: run it with the client or skip with warn.coach_bypass (COACH-R3 R3-GEN-01, APPROVED)"
    },
    {
@@ -1005,7 +1005,7 @@
      "F36",
      "F38"
     ],
-    "gate": "F36 severe -> refer"
+    "gate": "F36 severe -> the plan is built with the moderate pain rules and the health warning (PROPOSED, read from COACH-R5 R5-GEN-02; before round 5: refer)"
    },
    {
     "step": 11,
@@ -1378,11 +1378,11 @@
     ],
     "default": "all false",
     "consumed_by": [
-     "V1 refer: no automatic plan"
+     "V1: a yes builds the plan with the health warning (COACH-R5 R5-GEN-02; before round 5: refer, no automatic plan)"
     ],
     "tag": "COACH-R2 R2-GEN-03 (refer list approved; PAR-Q for clients); COACH-R3 R3-GEN-01 (APPROVED: a short Blaze Camp health check written by a lawyer in EN and ES, with a link to the official PAR-Q+); general items wording LEGAL REVIEW",
     "shown_if": "F39 == self or F45 == coach_screen",
-    "refer_rule": "any refer item yes -> outcome 'refer': no automatic plan, health.refer message, point to a professional or a coach",
+    "refer_rule": "COACH-R5 R5-GEN-02: any refer item yes -> the plan is built and carries the health warning (not a plan from a doctor; see a medical professional; wording [LEGAL REVIEW]); the plan names only 'a yes on the health check', never the question. Before round 5: outcome 'refer', no automatic plan, health.refer message",
     "general_items": {
      "status": "route APPROVED (COACH-R3 R3-GEN-01): our own short screen written with the lawyer (the five refer items + the usual PAR-Q topics) in English and Spanish; wording LEGAL REVIEW",
      "topics": [
@@ -5056,7 +5056,7 @@
      "severity": [
       "mild",
       "moderate",
-      "severe (-> refer)"
+      "severe (-> built with the moderate pain rules and the health warning, PROPOSED, R5-GEN-02)"
      ],
      "worse_with": [
       "overhead",
@@ -11976,7 +11976,7 @@
   "8 after the build (the person's side, outside generate): applyPlanEdits(plan, edits[]) for the sets of a day or a week, block toggles, added / removed exercises or blocks and superset choices; totals recomputed, plan marked edited, checks re-run and stamped edited; notes, never refusals; Blaze Camp keeps nothing (R3-SES-02, R3-GEN-01; COACH-CX CX-02, CX-04)"
  ],
  "validation_checks": {
-  "V1_safety": "any F01 refer item or F36 severe pain -> refer, no plan; the F01 part is skipped only when F45 == coach_own_sop (coach warning shown, coach release used) (COACH-R2 R2-GEN-03)",
+  "V1_safety": "COACH-R5 R5-GEN-02: any F01 refer item or F36 severe pain -> the plan is built with the health warning (severe pain with the moderate pain rules, PROPOSED); status refer is a violation. The F01 part is skipped only when F45 == coach_own_sop (coach warning shown, coach release used). Before round 5: refer, no plan (COACH-R2 R2-GEN-03)",
   "V2_days": "weekdays < training days -> ask",
   "V3_short_athletes": "v1.3 \"no time-fitting\": a plan that carries a session length, a minutes limit, a time check, a time offer or a time warning fails (COACH-CT CT-01; COACH-R4 R4-SES-01)",
   "V4_youth": "under 18: L1-L2 exercise levels by default; Olympic lifts from the floor from ~14 after a hang block (COACH-R2 R2-ATH-08); lighter medballs; guardian release (F46 minor); nothing stored for anyone (COACH-R3 R3-GEN-01)",

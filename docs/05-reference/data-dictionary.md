@@ -520,12 +520,12 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | Field | Meaning | Allowed values |
 |---|---|---|
 | `schema` | Schema name | `plan/2` |
-| `status` | Result | `ok` (a full plan), `refer` (a health answer or severe pain stopped it), `invalid` (the intake was wrong, or the terms and release were not accepted: R4-SCP-02) |
+| `status` | Result | `ok` (a full plan; since round 5 also after a yes on the health check or with severe pain, with the health warning, R5-GEN-02), `refer` (retired: only a model without `rules.legal.health_flag` still stops on a health answer or severe pain), `invalid` (the intake was wrong, or the terms and release were not accepted: R4-SCP-02) |
 | `model_version`, `engine_version`, `contracts_version` | What built the plan | version strings |
 | `seed`, `intake_hash` | Fixed values taken from the intake, so the result can be reproduced | strings |
 | `lang`, `units` | Language and units | `en`, `es`; `lb`, `kg` |
 | `release_stamp` | The release accepted for this build. Printed on the plan as the release line, top and bottom (R4-SCP-01, R4-SCP-02). Never stored (R3-GEN-01). | `{version, lang, role, guardian, accepted}`; `accepted: true` on every `ok` plan; null when the status is not `ok` |
-| `refer` | Why the person was referred | `{reasons: [keys]}` or null |
+| `refer` | Why the person was referred (retired by R5-GEN-02; null on this model) | `{reasons: [keys]}` or null |
 | `errors[]` | Intake problems, when `invalid` | issue objects |
 | `edited` | False on a generated plan. True after `applyPlanEdits` (CX-04): totals are recounted, an `edits` list is added, and the checks that judge the generated layout no longer vouch for the plan. | boolean |
 | `meta` | Everything decided once for the whole plan | see 5.2 |
@@ -558,7 +558,7 @@ The plan is one JSON object. It holds codes and word-list keys, never sentences.
 | `aerobic` | `{per_week, base, adjust, replaced_by_activity, walks, sport_is_aerobic}` |
 | `tests` | `{items, baseline_week, end_weeks, from_zero, test_days, test_dates}` |
 | `addons[]` | Optional add-ons that fit this person (R4-LIB-01): `{exercise_id, name_key, kind: joint_care, sport or carry, code, bucket, block, sets: [min, max], reps, counts_as_muscle_sets, video, why}`. None is in the plan's days; the person adds one with an edit. |
-| `health` | `{role, health_route, refer, reasons, bypass}`. The health answers themselves are not in the plan. |
+| `health` | `{role, health_route, refer, warn, reasons, bypass}`. `warn: true` when the plan was built with the health warning (R5-GEN-02); `reasons` say only 'a yes on the health check' and / or 'severe pain'. The health answers themselves are not in the plan. |
 | `after_plan` | What comes next for an athlete (for example a pre-season) |
 | `instruction_keys[]` | The coach's instruction block shown at the top of the plan (GEN-07) |
 | `locked_rule_keys[]` | The hard rules in force |

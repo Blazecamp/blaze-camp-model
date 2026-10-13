@@ -475,7 +475,7 @@ These three entries are the newest on this page.
 - **We proposed (round 4):** Claude builds it when your weekly usage resets, using the planner design already in the repo (minus all the time-fitting), and your Codex reviews it.
 - **His verdict (round 4):** PARTLY
 - **In his words:** "I think you can try to build it now." (R4-REL-02)
-- **Not confirmed by him:** How it was built is a team decision: engine 0.5 is template-first, and the large two-stage planner in `design/PLANNER_SPEC.md` was not built ([ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md)). He has not graded the engine's sample plans.
+- **Not confirmed by him:** How it was built is a team decision: engine 0.5 is template-first, and the large two-stage planner in `design/PLANNER_SPEC.md` was not built ([ADR-058](../04-decisions/adr-058-engine-v05-template-first-not-the-large-planner.md)). He graded the engine's 8 sample plans in round 5: A for three, B+ for five (R5-GRD-01 ... 08).
 - **Where it lives:** `design/ENGINE_V05_PLAN.md`, `engine/`, `samples/STATUS_v0.5.md`. Master section and spec key: [coverage matrix, round 4](../../coverage_matrix_round4.md).
 - **This answer changed:** [R2-GEN-07](#r2-gen-07) (refined), [R4-REL-01](#r4-rel-01) (refined)
 - **See also:** [CT-01](sessions-and-order.md#ct-01), [R2-GEN-07](#r2-gen-07)

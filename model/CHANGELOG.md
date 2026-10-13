@@ -68,7 +68,7 @@ Applied after the v0.6 layers by both builds (engine/DECISIONS.md G-270 ...): `l
 
 ### Sources (sha256)
 
-- `generator_spec_v1.json` 9e8b6ea7d9275c1e023f2f37bf4020ca425f3027d16fc847db1b0bc936b83dc6
+- `generator_spec_v1.json` 610ba382a69a19548d6bcc9fcf6fdedf908dcdab6c8dabb157648a20371c1223
 - `coach_answers_round2.md` dcd8a6c5bec9a6e2be424869708521116f7fe77680f799338b71ed3fe9c6b10d
 - `synthesis/02_exercise_catalog.json` d082d1319858d30fbc3ef5f63542249a76e2c635a94de6b9b6c508a515eb8398
 - `synthesis/03_volume_rules.json` c4e34c7076a9665d0e2763b5840010dd73c57ad9aa37c71128bf16e7ecb86abb

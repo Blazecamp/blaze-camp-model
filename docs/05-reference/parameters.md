@@ -169,7 +169,7 @@ Bootcamp is dosed by time, not by these factors (see section 15).
 | Ceiling of a pain-reduced group | start + 1 | sets / week | S `rule_tables > pain[0]` | team | PROPOSED |
 | Floor of 10 on a pain-reduced group | does not apply | | S `rule_tables > weekly_sets > floors > exempt` | VOL-03 (the cut); the exemption was in the team's R3-VOL-01 proposal, and his answer spoke only about rear delts | INFERRED |
 | Shift of the bilateral share toward the pain-free side | 20 | points | S `rule_tables > pain[4]`; R `bilateral_share > pain_shift` | UNI-02 (adjust for pain) | Rule confirmed; 20 PROPOSED |
-| Pain severity that stops the plan | severe | | S `validation_checks > V1_safety` | team, following the refer route of R2-GEN-03 | PROPOSED |
+| Pain severity that gives the health warning (built with the moderate pain rules; it no longer stops the plan) | severe | | S `validation_checks > V1_safety`; R `legal.health_flag.severe_pain` | team, reading R5-GEN-02 (before round 5: the refer route of R2-GEN-03) | PROPOSED |
 | Printed guide: when an exercise hurts mid-plan | swap; then cut its sets by a third to a half; then drop it | | S `rule_tables > pain[1]`; S `rule_tables > rate_engine > self_adjust_guide` | UNI-08, VOL-03, R3-VOL-04 | The actions are his (swap or machine, cut, drop); their order and wording PROPOSED |
 
 ## 7. The stairway

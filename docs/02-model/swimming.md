@@ -433,4 +433,4 @@ The repo holds one generated plan for the swimmer of this page:
 | `samples/plans/01-swimming.json` | The same plan as data, with a reason attached to every decision |
 | `samples/SAMPLES.md` | Notes on what the engine decided |
 
-That plan is the output of engine 0.5 (template-first, no time-fitting). The sample weeks printed on this page are illustrations written before that engine and can differ from the sample plan in exercise picks. The coach has not graded the plan yet. When the sample and this page disagree, read the coach's answers.
+That plan is the output of engine 0.5 (template-first, no time-fitting). The sample weeks printed on this page are illustrations written before that engine and can differ from the sample plan in exercise picks. The coach graded this sample plan A in round 5 (COACH-R5 R5-GRD-01). When the sample and this page disagree, read the coach's answers.

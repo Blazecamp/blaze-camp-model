@@ -10,7 +10,7 @@ This is the last search for retired ideas that are still written as if they were
 - **The engine and the compiled model follow his newest answers.** No time-fitting, no hard limit on a weekly step, no check-ins, no sex field, no bands, and no third-party video link in any plan or in the compiled model. A few leftovers remain in code and data. None of them changes a plan. They are listed in section 4 and were not edited.
 - **Tests: 1,407 tests, 1,401 pass, 0 fail,** 4 to-do, 2 skipped. Before this check one test failed, because the spec had been edited after the last compile. The model was recompiled; only the spec's version and hash changed.
 - **Benchmark: 102 plans, mean 97.67, lowest 89.35,** 3 hard-rule violations in 2 plans. A fresh run on the final files gives the stored result plan for plan.
-- **Sample plans: 8 of 8 build with no failing check.** AI reviewers grade them B- to B+. **2 of 8 reach the goal of B+.** The coach has not graded them.
+- **Sample plans: 8 of 8 build with no failing check.** AI reviewers grade them B- to B+. **2 of 8 reach the goal of B+.** At the time of this check the coach had not graded them. **Round 5:** The coach graded the 8 sample plans in round 5: A for 01 swimming, 02 football and 07 push / pull / legs; B+ for the other five (COACH-R5 R5-GRD-01 ... 08).
 - **Not final yet:** the attorney's review of the legal text (now including the new health warning, R5-GEN-02) and his approval of the Spanish. **Settled in round 5 (2026-10-12):** his grades of the 8 samples (A for 01, 02, 07; B+ for 03, 04, 05, 06, 08), his credentials ("Master NASM coach" only, R5-PUB-02), and the old sheet exports (kept public, link-stripped, checked for client names: none found, R5-PUB-01).
 
 ## 1. What was checked

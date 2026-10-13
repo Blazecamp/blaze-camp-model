@@ -459,7 +459,9 @@ Some words have more than one meaning (block, level, zone, family, phase). Those
 
 **Receive-Create stages** (RC1, RC2, RC3). His plyo progression. Stage 1 **Land**: receive and pause. Stage 2 **Land & Go**: receive, then create once. Stage 3 **Repeat**: receive and create again and again. "Your body and your connective tissue need to learn how to receive forces before we teach it how to create" (CAT-10). 12-week plan: weeks 1-3 / 4-7 / 8-12 (R2-ATH-03). His sheet wrote these as 'Receive pause/creat', 'Receive/create', 'Repeat receive create'. They are not Davidson zones.
 
-**Refer**. The result when a health-check answer (R2-GEN-03) or severe pain (PROPOSED) stops the automatic plan. The person is sent to a professional. Open for the coach after R4-SCP-01 ("Everyone should be able to use the plan on their own"): whether a health answer should still stop a plan.
+**Refer**. Retired in round 5. Before it, a health-check answer (R2-GEN-03) or severe pain (PROPOSED) stopped the automatic plan and the person was sent to a professional. Now a health-check flag no longer stops the plan: the plan is built and carries a health warning (COACH-R5 R5-GEN-02); severe pain is built with the moderate pain rules and the same warning (PROPOSED). See **Health warning**.
+
+**Health warning**. The warning printed at the top of a plan built after a yes on the health check or with severe pain: it is general fitness information, not a plan from a doctor; see a medical professional to make sure it is safe for you (COACH-R5 R5-GEN-02; wording [LEGAL REVIEW]). The plan never says which health question was a yes.
 
 **Release** (release stamp). The acceptance of the terms and the release of liability. It is required before a plan is generated, every time (R3-GEN-01, R4-SCP-02). The stamp is printed on the plan as the **release line**. Nothing is stored. See **Liability gate** and [DISCLAIMER.md](../../DISCLAIMER.md).
 

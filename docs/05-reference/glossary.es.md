@@ -465,7 +465,9 @@ Algunas palabras tienen más de un significado (bloque, nivel, zona, familia, fa
 
 **Rango medio, empuje y jalón de** (mid-range push / mid-range pull). Levantamientos en un ángulo entre horizontal y vertical. Empuje de rango medio: press inclinado y press landmine ('MID RANGE PUSH' en su hoja, OBSERVED). Jalón de rango medio: remo alto, remo a 45 grados, el ángulo del face pull; una categoría pequeña propia entre el jalón horizontal y el vertical (redacción aprobada, R4-LIB-03).
 
-**Referir** (refer). El resultado cuando una respuesta del chequeo de salud (R2-GEN-03) o un dolor severo (PROPOSED) detiene el plan automático. La persona se remite a un profesional. Abierto para el coach después de R4-SCP-01: si una respuesta de salud debe seguir deteniendo un plan.
+**Referir** (refer). Retirado en la ronda 5. Antes, una respuesta del chequeo de salud (R2-GEN-03) o un dolor severo (PROPOSED) detenía el plan automático y la persona se remitía a un profesional. Ahora una alerta del chequeo de salud ya no detiene el plan: el plan se crea y lleva una advertencia de salud (COACH-R5 R5-GEN-02); el dolor severo se planifica con las reglas del dolor moderado y la misma advertencia (PROPOSED). Ver **Advertencia de salud**.
+
+**Advertencia de salud** (health warning). La advertencia que se imprime al inicio de un plan creado tras un sí en el chequeo de salud o con dolor severo: es información general de acondicionamiento físico, no un plan de un médico; consulta a un profesional de la salud para asegurarte de que es seguro para ti (COACH-R5 R5-GEN-02; redacción [REVISIÓN LEGAL]). El plan nunca dice qué pregunta de salud fue un sí.
 
 **Regla bloqueada** (locked rule). Una regla que el generador nunca puede romper (nunca al fallo en compuestos pesados, nada de V-squat, nada de bandas, etc.). Ids `LK01`-`LK18` en `model/rules.json > locked`, verificadas como `H01`-`H22`.
 

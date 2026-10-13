@@ -570,7 +570,7 @@ A sample that already met the goal was not read again, and its grade is carried 
 
 Part of the rise in score comes from corrections to the scorer, which are listed in the status file.
 
-**Where it stands.** The goal was B+ or better on every sample. Two of eight reached it. The athletic layer (jumps, throws, sprints, Olympic sets) is the main part still short of its targets. The class and bootcamp samples were still graded B- after both fix rounds. Fourteen questions for the coach came out of the fix rounds. **These are AI grades. The coach has not graded a plan.**
+**Where it stands.** The goal was B+ or better on every sample. Two of eight reached it. The athletic layer (jumps, throws, sprints, Olympic sets) is the main part still short of its targets. The class and bootcamp samples were still graded B- after both fix rounds. Fourteen questions for the coach came out of the fix rounds. **These are AI grades. At that point the coach had not graded a plan;** he graded all 8 in round 5 (A for 01, 02, 07; B+ for 03, 04, 05, 06, 08; R5-GRD-01 ... 08).
 
 **Where it lives.** [samples/STATUS_v0.5.md](../../samples/STATUS_v0.5.md) (the first two reviews, both fix rounds, the known gaps and the open questions). The third review's grades are recorded in [README.md](../../README.md) and [HANDOFF.md](../../HANDOFF.md).
 
