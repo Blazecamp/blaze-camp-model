@@ -8,13 +8,14 @@ _Your Blaze Camp plan_
 - **Level:** Beginner (L1): 0.5 years of consistent training
 - **Plan type:** 12 weeks (recommended) · Week 1-12
 - **Start date:** 12 Oct 2026
-- **Training days per week:** 2 · Monday, Thursday · about 9-10 exercises a session (plus the warm-up and the 2 core exercises)
+- **Training days per week:** 2 · Monday, Thursday · about 10 exercises a session (plus the warm-up and the 2 core exercises)
 - Terms and release of liability accepted before this plan was built: client, English
 - Health check: answered; nothing in it asked for a doctor first. [Official PAR-Q+ (in English)](https://eparmedx.com/)
 
 ## Before you start
 
 - With 2 training days a week every big muscle group is trained with about 6-8 weekly sets instead of 10 or more. A third training day would let every group reach 10.
+- Calf raises stay on both training days for Achilles care (racket players 50+), so Thursday holds one exercise more than usual. Remove it if you need a shorter session.
 - You told us about pain in your knee (worse with deep knee bends). What this plan does about it: it leaves out the lifts that load it hardest and says so on the lift, it holds Quads at the same sets instead of adding more (progress with reps and load), and it tells you where to stop on the lifts that bend it. If the pain grows, stop and see a professional.
 - Weeks 11 and 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
 - You play 3 or more times a week: every week has half the jumps and no extra agility drills.
@@ -56,7 +57,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - Everything feels easy? Add a little weight or a rep first; never jump ahead more than one week.
 - Something hurts? First use a listed swap, then cut that exercise's sets by a third to a half, then drop it for the rest of the block. See a professional if it keeps hurting.
 - Life got in the way for several weeks (sick, travel, busy)? Stop the block, take the recommended easy week if you want, then build a new block.
-- You (or your coach) can switch off these blocks on any day: jumps, throws and speed; power / Olympic lifts; core; cardio; joint care; accessories. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
+- You (or your coach) can switch off these blocks on any day: jumps, throws and speed; power / Olympic lifts; core; cardio; accessories. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
 - Switching off the accessories block takes away every direct set for Shoulders, Biceps, Triceps and Calves.
 - You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
 - The time shown on each day is an average estimate, for information only: nothing in this plan is cut or changed because of time. Want a shorter day? Use the suggested supersets, or remove what the day lists as easiest to remove.
@@ -84,18 +85,18 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 1 | 2.0 ▮▮ | 3 in the tank | 36 |
-| 2 | 2.6 ▮▮▮ | 3 in the tank | 36 |
-| 3 | 3.2 ▮▮▮ | 3 in the tank | 37 |
-| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 37 |
-| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 37 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 38 |
-| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 38 |
-| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 39 |
-| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 39 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 40 |
-| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 43 |
-| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 43 |
+| 1 | 2.0 ▮▮ | 3 in the tank | 38 |
+| 2 | 2.6 ▮▮▮ | 3 in the tank | 38 |
+| 3 | 3.2 ▮▮▮ | 3 in the tank | 39 |
+| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 39 |
+| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 40 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 40 |
+| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 41 |
+| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 41 |
+| 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 42 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 43 |
+| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 46 |
+| 12 | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 47 |
 
 weeks 1-4: Getting used to it (small steps) · weeks 5-8: Driving it · weeks 9-12: Hardest weeks
 
@@ -118,15 +119,15 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Shoulders | 6 | 6 | 7 |
 | Biceps | 4 | 4 | 5 |
 | Triceps | 4 | 4 | 5 |
-| Calves | 4 | 4 | 4 |
-| **Total** | **36** | **38** | **43** |
+| Calves | 6 | 6 | 8 |
+| **Total** | **38** | **40** | **47** |
 
 ### Week 1 at a glance
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
-| Monday | A - squat + pull | about 70-90 min | Quads 3, Back 2, Biceps 1, Calves 1 |
-| Thursday | B - deadlift + push | about 75-90 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 1, Triceps 1 |
+| Monday | A - squat + pull | about 70-85 min | Quads 3, Back 2, Biceps 1, Calves 1 |
+| Thursday | B - deadlift + push | about 75-90 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 1, Triceps 1, Calves 1 |
 | Friday | Optional day | about 40-45 min | – |
 
 ## Training block, week by week · Week 1-12
@@ -142,12 +143,12 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Quads | 6 6 6 6 · 6 6 6 6 · 6 6 6 6 | 6 |
 | Hips (glutes + hamstrings) | 7 7 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Back | 6 6 7 7 · 7 7 7 7 · 7 7 8 8 | 8 |
-| Chest | 6 6 6 6 · 6 7 7 7 · 7 7 8 8 | 8 |
+| Chest | 6 6 6 6 · 7 7 7 7 · 7 7 8 8 | 8 |
 | Shoulders | 6 6 6 6 · 6 6 6 6 · 6 6 7 7 | 7 |
 | Biceps | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 5 |
 | Triceps | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 5 |
-| Calves | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 4 |
-| **Total** | 36 36 37 37 · 37 38 38 39 · 39 40 43 43 | 43 |
+| Calves | 6 6 6 6 · 6 6 7 7 · 7 7 7 8 | 8 |
+| **Total** | 38 38 39 39 · 40 40 41 41 · 42 43 46 47 | 47 |
 
 ### Monday · A - squat + pull
 
@@ -162,9 +163,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hack Squat (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 8 to 12 Reps |
 | Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 to 15 per side → 8 to 12 per side |
 | Step-Up (forward and lateral) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
-| Dumbbell Hammer Curl | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 15 to 20 Reps |
+| Dumbbell Hammer Curl | 2 2 2 2 · 2 2 2 2 · 3 3 3 3 | 15 to 20 Reps |
 | Leg Extension (machine) → Leg Extension (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
-| Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom) | 3 3 3 3 · 3 3 4 4 · 4 4 4 4 | 15 to 20 Reps |
 
 ### Thursday · B - deadlift + push
 
@@ -175,14 +176,14 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contacts → 12 contacts → 15 contacts |
 | Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 Reps → 5 per side → 6 per side |
 | Split-Stance Contralateral Single-Arm KB Swing | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Flat DB Bench Press | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
+| Flat DB Bench Press | 3 3 3 3 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 to 15 Reps → 10 to 12 Reps |
 | Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
 | Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 to 20 Reps |
 | Seated Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
-| KB Face Pull → KB Face Pull - 1-second squeeze at the top | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
-| Standing DB Calf Raise (deficit optional) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps |
+| KB Face Pull | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 15 to 20 Reps |
 
 ### Friday · Optional day
 
@@ -197,7 +198,7 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 6 jump contacts · 27 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 70-90 min (an estimate, for information only)_
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -279,7 +280,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -290,14 +291,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Thursday · B - deadlift + push
 _Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -348,7 +349,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
@@ -373,11 +374,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -412,7 +413,7 @@ _Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 6 jump contacts · 30 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 70-90 min (an estimate, for information only)_
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -491,7 +492,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -502,14 +503,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Thursday · B - deadlift + push
 _Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -557,7 +558,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
@@ -581,11 +582,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -620,7 +621,7 @@ _Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 6 jump contacts · 33 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -699,7 +700,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -710,14 +711,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Thursday · B - deadlift + push
 _Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -765,7 +766,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
@@ -789,11 +790,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -828,7 +829,7 @@ _Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
@@ -907,7 +908,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -918,14 +919,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Thursday · B - deadlift + push
 _Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -973,7 +974,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
@@ -997,11 +998,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -1033,219 +1034,14 @@ _Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - New exercise block: 8 exercises change a little (another version or one new detail); the rest stay
 - Monday: Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump; Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Leg Extension (machine) → Leg Extension (machine) - one leg at a time
-- Thursday: Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops; Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops; Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift; KB Face Pull → KB Face Pull - 1-second squeeze at the top
+- Thursday: Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops; Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops; Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift; Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top
 - Jumps move to Receive-Create 2: Land & Go
-- Same sets: add a little load or reps this week
-
-**Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
-
-### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
-_Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
-_Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
-
-**Warm-up**
-1. 5 min any cardio
-2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
-
-**Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
-
-**Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - low box (6-12 in)
-   - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Staggered-Stance Box Jump (keeps the jump; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-2. **Rotational Medball Chest Pass (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
-   - 8 lb ball
-   > No levels: just do them right (quality and intent over load).
-   - Swap for: Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Alternating Back-to-Wall Rotational Scoops (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Chest Pass (R & L)`
-
-**Power / Olympic lifts**
-1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
-   - weight by speed: fast and powerful
-   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - Instead of Mid-Hang Clean Pull, to protect your knee.
-   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
-
-**Strength**
-1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses the free-weight balance work) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
-   > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
-   - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
-   - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
-
-**Accessories**
-1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
-2. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
-   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
-   - Joint care for the knees
-   - This lift is also your joint care: lower slowly and stay in a pain-free range.
-   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Joint care for the Achilles and calves
-   - This lift is also your joint care: lower slowly and stay in a pain-free range.
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
-
-### Wednesday · Play day (Pickleball)
-
-### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
-_Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
-_Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
-_Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
-
-**Warm-up**
-1. 5 min any cardio
-2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
-
-**Core**
-1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-
-**Jumps, throws and speed**
-1. **Bilateral Lateral Ankle Hops** — 3 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
-   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
-2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
-   - 8 lb ball
-   > No levels: just do them right (quality and intent over load).
-   - Swap for: Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Overhead Throw (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
-
-**Power / Olympic lifts**
-1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
-   - weight by speed: fast and powerful
-   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
-   - per side = 1 set
-   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
-
-**Strength**
-1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
-2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
-   - Keep this lift at 10-12 reps.
-   - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
-   - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
-
-**Accessories**
-1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
-2. **Seated Leg Curl (machine)** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
-   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
-   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
-   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
-   - Joint care for overhead / racket shoulders
-   - This lift is also your joint care: lower slowly and stay in a pain-free range.
-   - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
-
-### Friday · Optional day
-_Average time: about 40-45 min (an estimate, for information only)_
-_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
-
-**Warm-up**
-1. 5 min any cardio
-
-**Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-
-**Aerobic**
-1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
-   - Any cardio tool works. Go by time, not distance.
-   - This cardio session is part of the plan even if you skip the optional lifting.
-   - Your Pickleball sessions count as aerobic work this week
-
-### Saturday · Play day (Pickleball)
-
-### Sunday · Play day (Pickleball)
-
-## Week 6 — Driving it
-
-_Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
-
-**What changes this week**
 - +1 set on Flat DB Bench Press (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
+_Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
@@ -1323,7 +1119,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1333,15 +1129,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Average time: about 75-95 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1388,7 +1184,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
 3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
@@ -1405,17 +1201,222 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+### Friday · Optional day
+_Average time: about 40-45 min (an estimate, for information only)_
+_You can switch off these blocks today: core, cardio. You can also add or remove exercises._
+
+**Warm-up**
+1. 5 min any cardio
+
+**Core**
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+
+**Aerobic**
+1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
+   - Any cardio tool works. Go by time, not distance.
+   - This cardio session is part of the plan even if you skip the optional lifting.
+   - Your Pickleball sessions count as aerobic work this week
+
+### Saturday · Play day (Pickleball)
+
+### Sunday · Play day (Pickleball)
+
+## Week 6 — Driving it
+
+_Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
+
+**What changes this week**
+- Same sets: add a little load or reps this week
+
+**Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
+
+### Monday · A - squat + pull
+_Average time: about 70-90 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
+
+**Warm-up**
+1. 5 min any cardio
+2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
+
+**Core**
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+
+**Jumps, throws and speed**
+1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - low box (6-12 in)
+   - One big effort each rep: land soft, reset, go again
+   - per side = 1 set
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Staggered-Stance Box Jump (keeps the jump; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
+2. **Rotational Medball Chest Pass (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
+   - 8 lb ball
+   > No levels: just do them right (quality and intent over load).
+   - Swap for: Rotational Medball Scoop Toss (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Alternating Back-to-Wall Rotational Scoops (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Rotational%20Medball%20Chest%20Pass%20(R%20%26%20L)) · Name to copy into YouTube: `Rotational Medball Chest Pass (R & L)`
+
+**Power / Olympic lifts**
+1. **Kettlebell Swing (Russian)** — 2 × 10 to 15 Reps · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
+   - weight by speed: fast and powerful
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - Instead of Mid-Hang Clean Pull, to protect your knee.
+   - Swap for: DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / Split-Stance Contralateral Single-Arm KB Swing (keeps the explosive hip drive; loses the heavier two-sided load) / American KB Swing (overhead) (keeps the explosive hip drive; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Kettlebell%20Swing%20(Russian)) · Name to copy into YouTube: `Kettlebell Swing (Russian)`
+
+**Strength**
+1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Machine Row (Supinated Grip) (keeps the horizontal pull; loses the free-weight balance work) / Machine Row (Pronated Grip) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
+2. **Hack Squat (machine)** — 2 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
+   > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
+   - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+
+**Accessories**
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
+2. **Leg Extension (machine) - one leg at a time** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
+   - Pain-free range only: set the machine (seat, pad or range stops) so your knee bends only as far as it stays pain-free.
+   - Joint care for the knees
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
+3. **Machine Calf Raise** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Joint care for the Achilles and calves
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the top-end load) / Standing DB Calf Raise (deficit optional) (keeps the calf work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Machine%20Calf%20Raise) · Name to copy into YouTube: `Machine Calf Raise`
+
+### Wednesday · Play day (Pickleball)
+
+### Thursday · B - deadlift + push
+_Average time: about 75-95 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+
+**Warm-up**
+1. 5 min any cardio
+2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
+
+**Core**
+1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+
+**Jumps, throws and speed**
+1. **Bilateral Lateral Ankle Hops** — 3 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Quick, continuous contacts: stay springy on the balls of your feet
+   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
+2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
+   - 8 lb ball
+   > No levels: just do them right (quality and intent over load).
+   - Swap for: Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Overhead Throw (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Medball%20Alternating%20Back-to-Wall%20Rotational%20Scoops) · Name to copy into YouTube: `Medball Alternating Back-to-Wall Rotational Scoops`
+
+**Power / Olympic lifts**
+1. **Split-Stance Contralateral Single-Arm KB Swing** — 2 × 10 to 15 per side · move it fast: if the kettlebell slows down or your technique breaks, it is too heavy · 2-3 min rest
+   - weight by speed: fast and powerful
+   - Ballistic power: snap the hips, let the kettlebell float. Not counted as glute sets.
+   - per side = 1 set
+   - Swap for: Kettlebell Swing (Russian) (keeps the explosive hip drive; loses the one-side-at-a-time work) / DB/KB High Pull (keeps the explosive hip drive; loses the exact drill - the same quality, trained another way) / American KB Swing (overhead) (keeps the explosive hip drive; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
+
+**Strength**
+1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
+2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
+   - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
+3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+
+**Accessories**
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
+2. **Seated Leg Curl (machine)** — 2 × 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time.
+   - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
+   - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
+3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Joint care for overhead / racket shoulders
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
+   - Joint care for the Achilles and calves
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -1445,7 +1446,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- +1 set on Machine Calf Raise (Monday): 3 → 4 sets
 
 **Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
@@ -1538,15 +1539,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Average time: about 75-95 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1593,7 +1594,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
 3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
@@ -1610,17 +1611,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -1650,7 +1651,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Dumbbell Hammer Curl (Monday): 2 → 3 sets
+- Same sets: add a little load or reps this week
 
 **Athletic work this week:** 8 jump contacts · 42 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
@@ -1722,7 +1723,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl) · Name to copy into YouTube: `Dumbbell Hammer Curl`
@@ -1743,15 +1744,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 75-90 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Average time: about 75-95 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1798,7 +1799,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
 3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
@@ -1815,17 +1816,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -1859,7 +1860,7 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 - Monday: Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L); Seal Row - DB (Supinated Grip) → Seal Row - DB (Pronated Grip); Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom)
 - Thursday: Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops; Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg); Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom; Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher
 - Jumps move to Receive-Create 3: Repeat
-- Same sets: add a little load or reps this week
+- +1 set on Dumbbell Hammer Curl (Monday): 2 → 3 sets
 
 **Athletic work this week:** 8 jump contacts · 45 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
@@ -1952,15 +1953,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 80-100 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Average time: about 85-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2007,7 +2008,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
 3. **Incline DB Bench Press - 1-second pause at the bottom** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
@@ -2024,17 +2025,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -2157,15 +2158,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 80-100 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Average time: about 85-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2212,7 +2213,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
 3. **Incline DB Bench Press - 1-second pause at the bottom** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
@@ -2229,17 +2230,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -2365,14 +2366,14 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Thursday · B - deadlift + push
 _Average time: about 90-110 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2419,7 +2420,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
 3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
@@ -2436,17 +2437,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day
@@ -2478,7 +2479,7 @@ _Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 _Last week: one intensifier on each of these days (Monday and Thursday): a MYO set on the day's last small-muscle or machine exercise_
 
 **What changes this week**
-- Same sets: add a little load or reps this week
+- +1 set on Standing DB Calf Raise (deficit optional) (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 8 jump contacts · 57 ankle-hop contacts · 52 throws · 4 Olympic-lift sets
 
@@ -2571,15 +2572,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · B - deadlift + push
-_Average time: about 90-110 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Average time: about 95-115 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2626,7 +2627,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
 3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - Swap for: High-Incline DB Press (keeps the same main muscle; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same main muscle; loses the exact movement pattern)
    - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
@@ -2643,17 +2644,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Leg%20Curl%20(machine)) · Name to copy into YouTube: `Seated Leg Curl (machine)`
-3. **KB Face Pull - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
+3. **KB Face Pull** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Joint care for overhead / racket shoulders
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-
-**Joint care**
-1. **Standing DB Calf Raise (deficit optional)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+   - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
-   - Swap for: Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work) / Tibialis Raise (back against a wall) (keeps the same job in the session; loses the feel of the original implement) / Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Standing Calf Raise (bodyweight, from a deficit/step) (keeps the calf work; loses the free-weight balance work)
+   - This lift is also your joint care: lower slowly and stay in a pain-free range.
+   - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
 ### Friday · Optional day

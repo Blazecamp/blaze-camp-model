@@ -480,7 +480,11 @@ for (const [mname, model] of MODELS) {
           assert.ok(it.why.some(x => x.key === (onOpt ? 'why.bonus_optional_day' : 'why.extra_small_exercise')), slot_id);
         }
       }
-      for (const wd of optDays) assert.ok(b.bonus.filter(x => x.slot_id.startsWith(wd + '.')).length <= R.placement.bonus.max_added_per_optional_day);
+      // (converted in engine 0.7, G-231: COACH-R5 R5-VOL-07's light chest exercise may take one more place on an optional day -
+      // rules.placement.x7.light_chest_optional.optional_day_max)
+      const LCO = R.placement.x7 && R.placement.x7.light_chest_optional;
+      const lightOn = (wd) => p.weeks.some(w => w.days.some(d => d.weekday === wd && itemsOf(d).some(it => it.origin === 'bonus' && (it.why || []).some(y => y.key === 'why.light_chest_optional'))));
+      for (const wd of optDays) assert.ok(b.bonus.filter(x => x.slot_id.startsWith(wd + '.')).length <= (LCO && lightOn(wd) ? Math.max(LCO.optional_day_max, R.placement.bonus.max_added_per_optional_day) : R.placement.bonus.max_added_per_optional_day));
       // capped and said: the planned final sets, what the template holds
       for (const c of b.capped) {
         assert.ok(c.held < c.planned);

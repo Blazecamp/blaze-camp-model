@@ -16,7 +16,7 @@ _Tu plan Blaze Camp_
 
 - Tu temporada está cerca: las últimas 2 semanas de este plan son de pretemporada (más velocidad y potencia, menos series).
 - Bíceps y tríceps: un ejercicio propio en los días de entrenamiento (el espacio de brazos de la plantilla), con sus series fijas. No suben de series como los demás grupos: progrésalos con peso y repeticiones.
-- Los ejercicios a dos piernas son cerca del 50 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
+- Los ejercicios a dos piernas son cerca del 51 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
 - Este plan no cuenta tus 2 prácticas de equipo por semana: tómalas en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).
 - Hombros: 3 de sus 11 series finales están en un ejercicio extra, al final de su día (Elevación lateral sentado con mancuernas (Seated Lateral Raise), miércoles), porque los ejercicios de tu plantilla para este grupo ya están en su máximo de series. Si lo omites, el total de hombros queda en unas 8.
 
@@ -132,7 +132,7 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Martes | Día aeróbico | aprox. 20 min | – |
 | Miércoles | S2 - balón medicinal + cadera + empuje | aprox. 115-140 min | Cadera (glúteos + isquiotibiales) 3, Pecho 2, Hombros 2, Tríceps 1, Pantorrillas 1 |
 | Jueves | Día aeróbico | aprox. 25-35 min | – |
-| Viernes | S3 - olímpicos + fuerza | aprox. 100-120 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 2, Pecho 1, Pantorrillas 1 |
+| Viernes | S3 - olímpicos + fuerza | aprox. 100-125 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 2, Pecho 1, Pantorrillas 1 |
 | Sábado | Día opcional | aprox. 25-30 min | – |
 
 ## Bloque de entrenamiento, semana a semana · Semana 1-6
@@ -185,9 +185,9 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) | 2 2 2 2 2 2 | 9 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) | 2 2 2 2 2 2 | 5 por lado |
 | Press de banca con mancuernas (DB Bench Press) | 3 3 3 3 4 4 | 8 a 12 reps |
-| Hiperextensión a 45° (Back Extension) | 3 3 3 3 3 3 | 10 a 12 reps |
+| Hiperextensión a 45° (Back Extension) | 2 2 2 3 3 3 | 10 a 12 reps |
 | Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) | 3 3 3 3 3 3 | 8 a 12 por lado |
-| Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) | 2 2 2 3 3 3 | 8 a 12 por lado |
+| Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) | 2 2 2 2 2 3 | 8 a 12 por lado |
 | Press Tate (Tate Press) | 2 2 2 2 2 2 | 10 a 12 reps |
 | Curl nórdico (Nordic Curl) | 2 2 2 2 2 3 | 6 a 8 reps |
 | Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) | 3 3 3 3 4 4 | 15 a 20 reps |
@@ -206,7 +206,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Agilidad 5-10-5 (Pro Agility) | 3 3 3 3 3 3 | 5 reps |
 | Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 2 2 2 2 3 2 | 8/8 |
 | Press de banca con barra (Bench Press) | 4 4 4 4 4 4 | 6 a 8 reps |
-| Peso muerto con barra hexagonal (Trap Bar Deadlift) | 2 3 3 3 3 4 | 6 a 8 reps |
+| Peso muerto con barra hexagonal (Trap Bar Deadlift) | 3 4 4 4 4 4 | 6 a 8 reps |
 | Remo a un brazo con mancuerna (1-Arm DB Row) | 3 3 3 3 3 4 | 8 a 12 por lado |
 | Sentadilla búlgara (Bulgarian Split Squat) | 2 2 2 2 2 2 | 8 a 12 por lado |
 | Zancada lateral (Lateral Lunge) | 2 2 2 2 2 2 | 8 a 12 por lado |
@@ -411,7 +411,7 @@ _Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
-_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
@@ -459,7 +459,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
-2. **Hiperextensión a 45° (Back Extension)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
@@ -469,7 +469,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene la misma función en la sesión; pierde el movimiento libre de cada mano)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene el mismo músculo principal; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene el mismo músculo principal; pierde el movimiento libre de cada mano)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
@@ -513,10 +513,10 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 100-120 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 100-125 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
@@ -567,7 +567,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Nombre para copiar en YouTube: `Barbell Bench Press`
-2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 3-6 min de descanso
+2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 3-6 min de descanso
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
    - Progresión: cuando llegues a 8 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
@@ -629,7 +629,7 @@ _Nivel de la semana: 3.3 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 2 → 3 series
-- +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes): 2 → 3 series
+- +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes): 3 → 4 series
 
 **Trabajo atlético esta semana:** 95 contactos de salto · 46 contactos de saltos de tobillo · 20 lanzamientos · 87 cambios de dirección · 330 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 53% · Recibir-Crear 2: Aterrizar y salir
 
@@ -731,7 +731,7 @@ _Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
-_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
@@ -776,7 +776,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
-2. **Hiperextensión a 45° (Back Extension)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / GHD: extensión de cadera / elevación glúteo-femoral (Glute-Ham Raise) (mantiene la bisagra de cadera a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
@@ -784,7 +784,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 3. **Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene la misma función en la sesión; pierde el movimiento libre de cada mano)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene el mismo músculo principal; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene el mismo músculo principal; pierde el movimiento libre de cada mano)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
@@ -827,10 +827,10 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 100-125 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 105-125 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
@@ -881,7 +881,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Nombre para copiar en YouTube: `Barbell Bench Press`
-2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 3-6 min de descanso
+2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 4 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 3-6 min de descanso
    - Progresión: cuando llegues a 8 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Peso muerto convencional (Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra)
@@ -1040,7 +1040,7 @@ _Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
-_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
@@ -1085,7 +1085,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
-2. **Hiperextensión a 45° (Back Extension)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / GHD: extensión de cadera / elevación glúteo-femoral (Glute-Ham Raise) (mantiene la bisagra de cadera a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1093,7 +1093,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 3. **Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene la misma función en la sesión; pierde el movimiento libre de cada mano)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene el mismo músculo principal; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene el mismo músculo principal; pierde el movimiento libre de cada mano)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
@@ -1136,10 +1136,10 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 100-125 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 105-125 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
@@ -1190,7 +1190,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Nombre para copiar en YouTube: `Barbell Bench Press`
-2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 3-6 min de descanso
+2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 4 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 3-6 min de descanso
    - Progresión: cuando llegues a 8 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Peso muerto convencional (Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra)
@@ -1247,7 +1247,7 @@ _Nivel de la semana: 6.7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - +1 serie en Sentadilla frontal con barra (Front Squat) (lunes): 3 → 4 series
-- +1 serie en Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (miércoles): 2 → 3 series
+- +1 serie en Hiperextensión a 45° (Back Extension) (miércoles): 2 → 3 series
 - +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (viernes): 2 → 3 series
 - +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (lunes): 3 → 4 series
 
@@ -1347,12 +1347,12 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 125-155 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 125-150 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
@@ -1405,9 +1405,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene la misma función en la sesión; pierde el movimiento libre de cada mano)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene el mismo músculo principal; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene el mismo músculo principal; pierde el movimiento libre de cada mano)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Alternating Incline DB Bench Press (one up / one down)`
-4. **Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift)** — 3 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+4. **Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift)** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
@@ -1449,10 +1449,10 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
@@ -1502,7 +1502,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Nombre para copiar en YouTube: `Barbell Bench Press`
-2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 3-6 min de descanso
+2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 4 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 3-6 min de descanso
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Peso muerto convencional (Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Nombre para copiar en YouTube: `Hex (Trap) Bar Deadlift`
@@ -1661,12 +1661,12 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 130-160 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 130-155 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
@@ -1719,9 +1719,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 10 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene la misma función en la sesión; pierde el movimiento libre de cada mano)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene el mismo músculo principal; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene el mismo músculo principal; pierde el movimiento libre de cada mano)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Alternating Incline DB Bench Press (one up / one down)`
-4. **Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift)** — 3 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+4. **Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift)** — 2 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
@@ -1763,10 +1763,10 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 120-145 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
@@ -1816,7 +1816,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 8 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con mancuernas, pies en la pared (Incline DB Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Nombre para copiar en YouTube: `Barbell Bench Press`
-2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 3 × 6 a 8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 3-6 min de descanso
+2. **Peso muerto con barra hexagonal (Trap Bar Deadlift)** — 4 × 6 a 8 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 3-6 min de descanso
    - Progresión: cuando llegues a 8 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Peso muerto convencional (Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Nombre para copiar en YouTube: `Hex (Trap) Bar Deadlift`
@@ -1877,8 +1877,8 @@ _Nivel de la semana: 11 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 3 → 4 series
+- +1 serie en Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (miércoles): 2 → 3 series
 - +1 serie en Curl nórdico (Nordic Curl) (miércoles): 2 → 3 series
-- +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes): 3 → 4 series
 - +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes): 3 → 4 series
 - +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (miércoles): 3 → 4 series
 
@@ -2038,7 +2038,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 10 por lado en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene la misma función en la sesión; pierde el movimiento libre de cada mano)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene el mismo músculo principal; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene el mismo músculo principal; pierde el movimiento libre de cada mano)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift)** — 3 × 8 a 10 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
@@ -2345,7 +2345,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene la misma función en la sesión; pierde el movimiento libre de cada mano)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene el mismo músculo principal; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene el mismo músculo principal; pierde el movimiento libre de cada mano)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
@@ -2640,7 +2640,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene la misma función en la sesión; pierde el movimiento libre de cada mano)
+   - Cambiar por: Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el movimiento libre de cada mano) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene el mismo músculo principal; pierde el trabajo de un lado a la vez) / Press inclinado alto sentado con barra (High-Incline Barbell Press) (mantiene el mismo músculo principal; pierde el movimiento libre de cada mano)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Nombre para copiar en YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.

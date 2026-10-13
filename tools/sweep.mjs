@@ -29,7 +29,7 @@ for (const [label, model] of models) {
     ...model.profiles.picker.sports.map((s, k) => ['sport-' + s.id, sportIntake(k, model)]),
     ...model.profiles.picker.activities.map((a, k) => ['activity-' + a.id, activityIntake(k, model)])
   ];
-  const st = { ok: 0, notOk: [], throws: [], err: {}, warn: {}, over: 0, overPlans: new Set(), noGroup: [], renderBad: [] };
+  const st = { ok: 0, notOk: [], throws: [], err: {}, warn: {}, over: 0, overPlans: new Set(), stated: 0, statedPlans: new Set(), noGroup: [], renderBad: [] };
   for (const [name, intake] of intakes) {
     let plan;
     try { plan = generate(intake, model); } catch (e) { st.throws.push(name + ': ' + e.message); continue; }
@@ -38,7 +38,15 @@ for (const [label, model] of models) {
     for (const c of plan.validation.checks) if (!c.pass) (c.severity === 'error' ? (st.err[c.id] ||= []) : (st.warn[c.id] ||= [])).push(name + ' ' + JSON.stringify(c.violations[0]).slice(0, 200));
     // v0.5 (CT-01): no minute limit to compare against - the sweep counts the sessions above their size range instead (R4-SES-02)
     const sizeMax = plan.meta.session_size ? plan.meta.session_size.range[1] : Infinity;
-    for (const w of plan.weeks) for (const d of w.days) if (d.kind === 'main' && d.exercise_count > sizeMax) { st.over++; st.overPlans.add(name); }
+    // (engine 0.7, G-233 / R5-VOL-10: a day whose stated reason is in rules.validation.v05.size_plus_whys may hold
+    // rules.session.x7.racket_calf_both_days.size_plus exercises more - counted apart)
+    const SPW = (model.rules.validation && model.rules.validation.v05 && model.rules.validation.v05.size_plus_whys) || [];
+    const RC = model.rules.session && model.rules.session.x7 && model.rules.session.x7.racket_calf_both_days;
+    const plusOf = (d) => (SPW.length && (d.why || []).some(x => x && SPW.includes(x.key)) ? (RC && typeof RC.size_plus === 'number' ? RC.size_plus : 1) : 0);
+    for (const w of plan.weeks) for (const d of w.days) if (d.kind === 'main' && d.exercise_count > sizeMax) {
+      if (d.exercise_count <= sizeMax + plusOf(d)) { st.stated++; st.statedPlans.add(name); continue; }
+      st.over++; st.overPlans.add(name);
+    }
     if ((plan.meta.stairway || []).some(b => !b.circuit && (b.groups || []).length === 0)) st.noGroup.push(name);
     if (render) for (const lang of ['en', 'es']) {
       let txt;
@@ -51,7 +59,7 @@ for (const [label, model] of models) {
   console.log(`${label}: ${intakes.length} intakes (${N} random + ${model.profiles.picker.sports.length} sports + ${model.profiles.picker.activities.length} activities) · ok ${st.ok} · not ok ${st.notOk.length} · throws ${st.throws.length}`);
   console.log(`  error checks failing (plans): ${counts(st.err)}`);
   console.log(`  warn checks failing (plans):  ${counts(st.warn)}`);
-  console.log(`  main days above the session size range: ${st.over} in ${st.overPlans.size} plans · plans training no group directly: ${st.noGroup.length}${render ? ` · render problems: ${st.renderBad.length}` : ''}`);
+  console.log(`  main days above the session size range: ${st.over} in ${st.overPlans.size} plans (one more, stated - R5-VOL-10: ${st.stated} in ${st.statedPlans.size}) · plans training no group directly: ${st.noGroup.length}${render ? ` · render problems: ${st.renderBad.length}` : ''}`);
   for (const x of [...st.notOk, ...st.throws].slice(0, 5)) console.log('  ! ' + x);
   for (const [id, list] of Object.entries(st.err)) for (const x of list.slice(0, 3)) console.log(`  ${id} ${x}`);
   for (const x of st.renderBad.slice(0, 5)) console.log('  render ' + x);

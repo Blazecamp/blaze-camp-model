@@ -41,9 +41,10 @@ export function amendRulesV07(rules) {
     // Machines and flies are easy on recovery'): the exception to the no-repeat rule of G-104 / G-210 for that case - a chest bonus on an
     // optional day may follow a press day when it is a fly or a machine press; a free-weight press still may not
     // optional_day_max: the training days being full (the question's premise), such a light chest exercise may take one more place on
-    // the optional day than placement.bonus.max_added_per_optional_day (2) - PROPOSED reading of where the coach's exercise goes
+    // the optional day than placement.bonus.max_added_per_optional_day (2) on a physique week (the question's family, 'Full-body
+    // aesthetics, 4 days') - PROPOSED reading of where the coach's exercise goes
     light_chest_optional: { enabled: true, groups: ['chest'], credit_classes: ['ISO_CHEST'], machine_press: { credit_classes: ['HPUSH'], tags: ['machine'] }, bucket: 'ISO_CHEST',
-      optional_day_max: 3,
+      optional_day_max: 3, optional_day_max_families: ['aesthetics'],
       refs: ['R5-VOL-07', 'R3-VOL-03', 'CH5-03'], status: 'approved (COACH-R5 R5-VOL-07); the third optional-day place for it PROPOSED' },
     // G-232 (R5-VOL-09 'Partly': "It can go up more as well depends on focus and goals"): the athlete's flat-press cap of 4
     // (placement.x3.athlete_press_max, G-101) is the default; with chest a Focus muscle the press may go to the level's per-exercise top

@@ -247,7 +247,7 @@
           "hamstrings": 1.7514,
           "chest": 1.0266,
           "lats_upper_back": 0.9484,
-          "shoulders": 0,
+          "shoulders": 0.3654,
           "biceps": 0.4005,
           "triceps": 0.4005,
           "calves": 1.2297
@@ -293,7 +293,7 @@
           "hips": 12,
           "back": 12,
           "chest": 11,
-          "shoulders": 12,
+          "shoulders": 11,
           "biceps": 10,
           "triceps": 10,
           "calves": 6
@@ -323,8 +323,8 @@
             12,
             13,
             14,
-            14,
-            16,
+            15,
+            17,
             17,
             18,
             18
@@ -360,12 +360,12 @@
             14
           ],
           "shoulders": [
-            12,
-            12,
-            12,
-            12,
-            12,
-            12,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
             12,
             12
           ],
@@ -405,7 +405,7 @@
           "hips": 1.7514,
           "back": 0.9484,
           "chest": 1.0266,
-          "shoulders": 0,
+          "shoulders": 0.3654,
           "biceps": 0.4005,
           "triceps": 0.4005,
           "calves": 1.2297
@@ -415,7 +415,7 @@
           "hips": 7,
           "back": 7,
           "chest": 7,
-          "shoulders": null,
+          "shoulders": 7,
           "biceps": 7,
           "triceps": 7,
           "calves": 7
@@ -425,7 +425,7 @@
           "hips": 7,
           "back": 7,
           "chest": 7,
-          "shoulders": null,
+          "shoulders": 1,
           "biceps": 7,
           "triceps": 4,
           "calves": 7
@@ -447,9 +447,11 @@
           {
             "group": "quads",
             "slot_id": "Mon.SQUAT.x01",
-            "exercise_block": 2
+            "exercise_block": 2,
+            "week": 5
           }
         ],
+        "one_set_shortfall": [],
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
@@ -1461,7 +1463,7 @@
         "glutes": null,
         "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 6
@@ -1549,7 +1551,7 @@
         "hips": 12,
         "back": 12,
         "chest": 11,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 6
@@ -3869,12 +3871,12 @@
                   "swap_notes": [
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.same_pattern"
                     },
                     {
                       "id": "high-incline-seated-db-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.barbell_load"
                     },
                     {
@@ -8256,7 +8258,7 @@
         "glutes": null,
         "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 6
@@ -8344,7 +8346,7 @@
         "hips": 13,
         "back": 12,
         "chest": 11,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 6
@@ -10419,12 +10421,12 @@
                   "swap_notes": [
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.same_pattern"
                     },
                     {
                       "id": "high-incline-seated-db-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.barbell_load"
                     },
                     {
@@ -14637,7 +14639,7 @@
         "glutes": null,
         "chest": 11,
         "lats_upper_back": 12,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 6
@@ -14725,7 +14727,7 @@
         "hips": 14,
         "back": 12,
         "chest": 11,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 6
@@ -16800,12 +16802,12 @@
                   "swap_notes": [
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.same_pattern"
                     },
                     {
                       "id": "high-incline-seated-db-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.barbell_load"
                     },
                     {
@@ -21008,7 +21010,7 @@
       "test": null,
       "circuit": null,
       "step_by_muscle": {
-        "quads": 0,
+        "quads": 0.0714,
         "hamstrings": 0,
         "chest": 0.0909,
         "lats_upper_back": 0.0833,
@@ -21018,20 +21020,20 @@
         "calves": 0
       },
       "target_by_muscle": {
-        "quads": 14,
+        "quads": 15,
         "hamstrings": 14,
         "glutes": null,
         "chest": 12,
         "lats_upper_back": 13,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 6
       },
       "weekly_sets_by_muscle": {
-        "quads": 14,
+        "quads": 15,
         "hamstrings": 11,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 12,
         "lats_upper_back": 13,
         "side_delts": 4.75,
@@ -21043,11 +21045,11 @@
         "forearms": 1.75,
         "front_delts": 5.25,
         "traps": 0,
-        "adductors": 3.5,
+        "adductors": 3.75,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 14,
+        "quads": 15,
         "hamstrings": 11,
         "glutes": 0,
         "chest": 12,
@@ -21065,9 +21067,9 @@
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 14,
+        "quads": 15,
         "hamstrings": 11,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 12,
         "lats_upper_back": 13,
         "shoulders": 13,
@@ -21076,9 +21078,9 @@
         "calves": 6
       },
       "weekly_sets_by_line": {
-        "quads": 14,
+        "quads": 15,
         "hamstrings": 11,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 12,
         "lats_upper_back": 13,
         "shoulders": 13,
@@ -21087,8 +21089,8 @@
         "calves": 6
       },
       "weekly_sets_by_group": {
-        "quads": 14,
-        "hips": 14.5,
+        "quads": 15,
+        "hips": 14.75,
         "back": 13,
         "chest": 12,
         "shoulders": 13,
@@ -21097,8 +21099,8 @@
         "calves": 6
       },
       "main_sets_by_group": {
-        "quads": 14,
-        "hips": 14.5,
+        "quads": 15,
+        "hips": 14.75,
         "back": 13,
         "chest": 12,
         "shoulders": 13,
@@ -21107,18 +21109,18 @@
         "calves": 6
       },
       "target_by_group": {
-        "quads": 14,
+        "quads": 15,
         "hips": 14,
         "back": 13,
         "chest": 12,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 6
       },
       "acceleration": [],
       "credit_only_groups": [],
-      "total_main_sets": 80,
+      "total_main_sets": 81,
       "group_counts_by_day": {
         "Mon": {
           "quads": 2,
@@ -21144,8 +21146,8 @@
           "biceps": 1
         }
       },
-      "total_resistance_sets": 80,
-      "rise_vs_prev": 0.0256,
+      "total_resistance_sets": 81,
+      "rise_vs_prev": 0.0385,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -21177,6 +21179,14 @@
       },
       "aerobic_sessions": 2,
       "changes": [
+        {
+          "key": "changes.set_added",
+          "args": {
+            "exercise": "stationary-lunge-split-squat",
+            "day": "Fri",
+            "slot_id": "Fri.CLEAN/PUSH.s14"
+          }
+        },
         {
           "key": "changes.set_added",
           "args": {
@@ -23186,12 +23196,12 @@
                   "swap_notes": [
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.same_pattern"
                     },
                     {
                       "id": "high-incline-seated-db-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.barbell_load"
                     },
                     {
@@ -25379,7 +25389,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.CLEAN/PUSH",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 98,
+          "est_minutes": 101,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "class_pull",
@@ -26030,7 +26040,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -27394,7 +27404,7 @@
       "test": null,
       "circuit": null,
       "step_by_muscle": {
-        "quads": 0.1429,
+        "quads": 0.1333,
         "hamstrings": 0.0714,
         "chest": 0,
         "lats_upper_back": 0.0769,
@@ -27404,20 +27414,20 @@
         "calves": 0.1667
       },
       "target_by_muscle": {
-        "quads": 16,
+        "quads": 17,
         "hamstrings": 15,
         "glutes": null,
         "chest": 12,
         "lats_upper_back": 14,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 7
       },
       "weekly_sets_by_muscle": {
-        "quads": 16,
+        "quads": 17,
         "hamstrings": 11,
-        "glutes": 6,
+        "glutes": 6.25,
         "chest": 12,
         "lats_upper_back": 14,
         "side_delts": 4.75,
@@ -27429,11 +27439,11 @@
         "forearms": 1.75,
         "front_delts": 5.25,
         "traps": 0,
-        "adductors": 4,
+        "adductors": 4.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 16,
+        "quads": 17,
         "hamstrings": 11,
         "glutes": 0,
         "chest": 12,
@@ -27451,9 +27461,9 @@
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 16,
+        "quads": 17,
         "hamstrings": 11,
-        "glutes": 6,
+        "glutes": 6.25,
         "chest": 12,
         "lats_upper_back": 14,
         "shoulders": 13,
@@ -27462,9 +27472,9 @@
         "calves": 7
       },
       "weekly_sets_by_line": {
-        "quads": 16,
+        "quads": 17,
         "hamstrings": 11,
-        "glutes": 6,
+        "glutes": 6.25,
         "chest": 12,
         "lats_upper_back": 14,
         "shoulders": 13,
@@ -27473,8 +27483,8 @@
         "calves": 7
       },
       "weekly_sets_by_group": {
-        "quads": 16,
-        "hips": 15,
+        "quads": 17,
+        "hips": 15.25,
         "back": 14,
         "chest": 12,
         "shoulders": 13,
@@ -27483,8 +27493,8 @@
         "calves": 7
       },
       "main_sets_by_group": {
-        "quads": 16,
-        "hips": 15,
+        "quads": 17,
+        "hips": 15.25,
         "back": 14,
         "chest": 12,
         "shoulders": 13,
@@ -27493,18 +27503,18 @@
         "calves": 7
       },
       "target_by_group": {
-        "quads": 16,
+        "quads": 17,
         "hips": 15,
         "back": 14,
         "chest": 12,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 7
       },
       "acceleration": [],
       "credit_only_groups": [],
-      "total_main_sets": 84,
+      "total_main_sets": 85,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -27530,8 +27540,8 @@
           "biceps": 1
         }
       },
-      "total_resistance_sets": 84,
-      "rise_vs_prev": 0.05,
+      "total_resistance_sets": 85,
+      "rise_vs_prev": 0.0494,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -29781,12 +29791,12 @@
                   "swap_notes": [
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.same_pattern"
                     },
                     {
                       "id": "high-incline-seated-db-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.barbell_load"
                     },
                     {
@@ -32069,7 +32079,7 @@
           "label_key": "day.hybrid_crossfit.4.crossfit_style_bootcamp.CLEAN/PUSH",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 102,
+          "est_minutes": 105,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "class_pull",
@@ -32734,7 +32744,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -34115,7 +34125,7 @@
       "test": null,
       "circuit": null,
       "step_by_muscle": {
-        "quads": 0.0625,
+        "quads": 0,
         "hamstrings": 0.0667,
         "chest": 0.0833,
         "lats_upper_back": 0,
@@ -34130,7 +34140,7 @@
         "glutes": null,
         "chest": 13,
         "lats_upper_back": 14,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 7
@@ -34218,7 +34228,7 @@
         "hips": 16,
         "back": 14,
         "chest": 13,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": 10,
         "triceps": 10,
         "calves": 7
@@ -34252,7 +34262,7 @@
         }
       },
       "total_resistance_sets": 87,
-      "rise_vs_prev": 0.0357,
+      "rise_vs_prev": 0.0235,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -34284,14 +34294,6 @@
       },
       "aerobic_sessions": 2,
       "changes": [
-        {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "stationary-lunge-split-squat",
-            "day": "Fri",
-            "slot_id": "Fri.CLEAN/PUSH.s14"
-          }
-        },
         {
           "key": "changes.set_added",
           "args": {
@@ -36498,12 +36500,12 @@
                   "swap_notes": [
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.same_pattern"
                     },
                     {
                       "id": "high-incline-seated-db-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.barbell_load"
                     },
                     {
@@ -40836,7 +40838,7 @@
         "hamstrings": 0.125,
         "chest": 0.0769,
         "lats_upper_back": 0.0714,
-        "shoulders": 0,
+        "shoulders": 0.0909,
         "biceps": 0.1,
         "triceps": 0.1,
         "calves": 0.1429
@@ -43247,12 +43249,12 @@
                   "swap_notes": [
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.same_pattern"
                     },
                     {
                       "id": "high-incline-seated-db-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.barbell_load"
                     },
                     {
@@ -50091,12 +50093,12 @@
                   "swap_notes": [
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.same_pattern"
                     },
                     {
                       "id": "high-incline-seated-db-press",
-                      "keeps": "swap.keeps.same_muscle",
+                      "keeps": "swap.keeps.same_job",
                       "loses": "swap.loses.barbell_load"
                     },
                     {
@@ -54443,8 +54445,8 @@
       74,
       76,
       78,
-      80,
-      84,
+      81,
+      85,
       87,
       94,
       94
@@ -54466,8 +54468,8 @@
         12,
         13,
         14,
-        14,
-        16,
+        15,
+        17,
         17,
         18,
         18
@@ -54486,8 +54488,8 @@
         4.5,
         5,
         5.5,
-        5.5,
-        6,
+        5.75,
+        6.25,
         6.25,
         7,
         7
@@ -54606,8 +54608,8 @@
         3,
         3.25,
         3.5,
-        3.5,
-        4,
+        3.75,
+        4.25,
         4.25,
         4.5,
         4.5
@@ -54628,8 +54630,8 @@
         12,
         13,
         14,
-        14,
-        16,
+        15,
+        17,
         17,
         18,
         18
@@ -54648,8 +54650,8 @@
         4.5,
         5,
         5.5,
-        5.5,
-        6,
+        5.75,
+        6.25,
         6.25,
         7,
         7
@@ -54720,8 +54722,8 @@
         12,
         13,
         14,
-        14,
-        16,
+        15,
+        17,
         17,
         18,
         18
@@ -54730,8 +54732,8 @@
         12,
         13.25,
         14.5,
-        14.5,
-        15,
+        14.75,
+        15.25,
         16.25,
         18.5,
         18.5
@@ -54802,8 +54804,8 @@
         12,
         13,
         14,
-        14,
-        16,
+        15,
+        17,
         17,
         18,
         18
@@ -54839,12 +54841,12 @@
         15
       ],
       "shoulders": [
-        12,
-        12,
-        12,
-        12,
-        12,
-        12,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
         12,
         12
       ],
@@ -54884,8 +54886,8 @@
         12,
         13,
         14,
-        14,
-        16,
+        15,
+        17,
         17,
         18,
         18
@@ -54921,12 +54923,12 @@
         14
       ],
       "shoulders": [
-        12,
-        12,
-        12,
-        12,
-        12,
-        12,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
         12,
         12
       ],

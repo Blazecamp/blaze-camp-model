@@ -284,7 +284,7 @@
         "N": 12,
         "lambda": {
           "quads": 0.6367,
-          "hamstrings": 0.6367,
+          "hamstrings": 0.4602,
           "chest": 0.6651,
           "lats_upper_back": 0.6651,
           "shoulders": 0.6651,
@@ -332,7 +332,7 @@
         ],
         "group_start": {
           "quads": 14,
-          "hips": 14,
+          "hips": 15,
           "back": 10,
           "chest": 10,
           "shoulders": 10,
@@ -342,7 +342,7 @@
           "quads": 18,
           "hips": 18,
           "back": 13,
-          "chest": 12,
+          "chest": 13,
           "shoulders": 13,
           "calves": 12
         },
@@ -370,15 +370,15 @@
             18
           ],
           "hips": [
-            14,
-            14,
-            15,
-            15,
             15,
             15,
             16,
             16,
             16,
+            16,
+            16,
+            17,
+            17,
             17,
             18,
             18
@@ -406,10 +406,10 @@
             11,
             11,
             11,
-            11,
-            11,
             12,
-            12
+            12,
+            13,
+            13
           ],
           "shoulders": [
             10,
@@ -417,10 +417,10 @@
             10,
             10,
             10,
+            10,
             11,
             11,
             11,
-            12,
             12,
             13,
             13
@@ -442,7 +442,7 @@
         },
         "group_lambda": {
           "quads": 0.6367,
-          "hips": 0.6367,
+          "hips": 0.4602,
           "back": 0.6651,
           "chest": 0.6651,
           "shoulders": 0.6651,
@@ -468,21 +468,22 @@
           "quads": 18,
           "hips": 18,
           "back": 13,
-          "chest": 12,
-          "shoulders": 13.75,
+          "chest": 13,
+          "shoulders": 13,
           "calves": 12
         },
-        "capped": [
-          {
-            "group": "chest",
-            "planned": 13,
-            "held": 12,
-            "notice": true
-          }
-        ],
+        "capped": [],
         "below_floor": [],
         "bonus": [],
         "main_bonus": [],
+        "one_set_shortfall": [
+          {
+            "group": "chest",
+            "slot_id": "Tue.B1.s08",
+            "exercise_block": 3,
+            "sets": 1
+          }
+        ],
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
@@ -811,15 +812,6 @@
     },
     "warnings": [
       {
-        "code": "capped_by_template",
-        "key": "warning.capped_by_template",
-        "args": {
-          "group": "chest",
-          "held": 12,
-          "planned": 13
-        }
-      },
-      {
         "code": "slot_held_groups",
         "key": "warning.slot_held_groups",
         "args": {
@@ -833,7 +825,7 @@
         "code": "laterality_capped",
         "key": "warning.laterality_capped",
         "args": {
-          "share": 53,
+          "share": 56,
           "target": 30
         }
       }
@@ -1518,7 +1510,7 @@
       },
       "target_by_muscle": {
         "quads": 14,
-        "hamstrings": 14,
+        "hamstrings": 15,
         "glutes": null,
         "chest": 10,
         "lats_upper_back": 10,
@@ -1529,8 +1521,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 14,
-        "hamstrings": 12,
-        "glutes": 4.5,
+        "hamstrings": 13,
+        "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 10,
         "side_delts": 2.5,
@@ -1547,7 +1539,7 @@
       },
       "direct_sets_by_muscle": {
         "quads": 14,
-        "hamstrings": 12,
+        "hamstrings": 13,
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 10,
@@ -1565,8 +1557,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 14,
-        "hamstrings": 12,
-        "glutes": 4.5,
+        "hamstrings": 13,
+        "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 10,
         "shoulders": 10,
@@ -1576,8 +1568,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 14,
-        "hamstrings": 12,
-        "glutes": 4.5,
+        "hamstrings": 13,
+        "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 10,
         "shoulders": 10,
@@ -1587,7 +1579,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 14,
-        "hips": 14.5,
+        "hips": 15.5,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -1597,7 +1589,7 @@
       },
       "main_sets_by_group": {
         "quads": 14,
-        "hips": 14.5,
+        "hips": 15.5,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -1607,7 +1599,7 @@
       },
       "target_by_group": {
         "quads": 14,
-        "hips": 14,
+        "hips": 15,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -1620,7 +1612,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 72,
+      "total_main_sets": 73,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -1649,7 +1641,7 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 72,
+      "total_resistance_sets": 73,
       "rise_vs_prev": null,
       "athletic_budget": {
         "plyo_share": 0.35,
@@ -1720,10 +1712,6 @@
         {
           "key": "why.stairway_target",
           "ref": "CX-01"
-        },
-        {
-          "key": "why.capped_by_template",
-          "ref": "R4-SES-04"
         },
         {
           "key": "why.planned_only",
@@ -8423,7 +8411,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 104,
+          "est_minutes": 106,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -8474,7 +8462,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -9504,7 +9492,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -10913,7 +10901,7 @@
       },
       "target_by_muscle": {
         "quads": 15,
-        "hamstrings": 14,
+        "hamstrings": 15,
         "glutes": null,
         "chest": 10,
         "lats_upper_back": 10,
@@ -10924,8 +10912,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 12,
-        "glutes": 4.75,
+        "hamstrings": 13,
+        "glutes": 5,
         "chest": 10,
         "lats_upper_back": 10,
         "side_delts": 2.5,
@@ -10942,7 +10930,7 @@
       },
       "direct_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 12,
+        "hamstrings": 13,
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 10,
@@ -10960,8 +10948,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 12,
-        "glutes": 4.75,
+        "hamstrings": 13,
+        "glutes": 5,
         "chest": 10,
         "lats_upper_back": 10,
         "shoulders": 10,
@@ -10971,8 +10959,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 15,
-        "hamstrings": 12,
-        "glutes": 4.75,
+        "hamstrings": 13,
+        "glutes": 5,
         "chest": 10,
         "lats_upper_back": 10,
         "shoulders": 10,
@@ -10982,7 +10970,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 15,
-        "hips": 14.75,
+        "hips": 15.75,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -10992,7 +10980,7 @@
       },
       "main_sets_by_group": {
         "quads": 15,
-        "hips": 14.75,
+        "hips": 15.75,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -11002,7 +10990,7 @@
       },
       "target_by_group": {
         "quads": 15,
-        "hips": 14,
+        "hips": 15,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -11015,7 +11003,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 73,
+      "total_main_sets": 74,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -11044,8 +11032,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 73,
-      "rise_vs_prev": 0.0139,
+      "total_resistance_sets": 74,
+      "rise_vs_prev": 0.0137,
       "athletic_budget": {
         "plyo_share": 0.365,
         "stage": "RC1",
@@ -17530,7 +17518,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 94,
+          "est_minutes": 96,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -17581,7 +17569,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -18605,7 +18593,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -19988,7 +19976,7 @@
       "circuit": null,
       "step_by_muscle": {
         "quads": 0,
-        "hamstrings": 0.0714,
+        "hamstrings": 0.0667,
         "chest": 0,
         "lats_upper_back": 0,
         "shoulders": 0,
@@ -19996,7 +19984,7 @@
       },
       "target_by_muscle": {
         "quads": 15,
-        "hamstrings": 15,
+        "hamstrings": 16,
         "glutes": null,
         "chest": 10,
         "lats_upper_back": 10,
@@ -20007,8 +19995,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 10,
         "lats_upper_back": 10,
         "side_delts": 2.5,
@@ -20025,7 +20013,7 @@
       },
       "direct_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
+        "hamstrings": 14,
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 10,
@@ -20043,8 +20031,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 10,
         "lats_upper_back": 10,
         "shoulders": 10,
@@ -20054,8 +20042,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 10,
         "lats_upper_back": 10,
         "shoulders": 10,
@@ -20065,7 +20053,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 15,
-        "hips": 15.75,
+        "hips": 16.75,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -20075,7 +20063,7 @@
       },
       "main_sets_by_group": {
         "quads": 15,
-        "hips": 15.75,
+        "hips": 16.75,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -20085,7 +20073,7 @@
       },
       "target_by_group": {
         "quads": 15,
-        "hips": 15,
+        "hips": 16,
         "back": 10,
         "chest": 10,
         "shoulders": 10,
@@ -20098,7 +20086,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 74,
+      "total_main_sets": 75,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -20127,8 +20115,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 74,
-      "rise_vs_prev": 0.0137,
+      "total_resistance_sets": 75,
+      "rise_vs_prev": 0.0135,
       "athletic_budget": {
         "plyo_share": 0.38,
         "stage": "RC1",
@@ -20179,9 +20167,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "45-degree-hyperextension-back-hip-extension",
-            "day": "Tue",
-            "slot_id": "Tue.B1.s09"
+            "exercise": "stiff-leg-deadlift-rdl",
+            "day": "Fri",
+            "slot_id": "Fri.B2.s09"
           }
         }
       ],
@@ -22266,7 +22254,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 126,
+          "est_minutes": 123,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -22313,7 +22301,7 @@
                 "Tue.B1.s08",
                 "Tue.B1.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -23313,7 +23301,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -26613,7 +26601,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 94,
+          "est_minutes": 98,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -26664,7 +26652,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -27688,7 +27676,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -29079,7 +29067,7 @@
       },
       "target_by_muscle": {
         "quads": 15,
-        "hamstrings": 15,
+        "hamstrings": 16,
         "glutes": null,
         "chest": 10,
         "lats_upper_back": 11,
@@ -29090,8 +29078,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 10,
         "lats_upper_back": 11,
         "side_delts": 2.5,
@@ -29108,7 +29096,7 @@
       },
       "direct_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
+        "hamstrings": 14,
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 11,
@@ -29126,8 +29114,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 10,
         "lats_upper_back": 11,
         "shoulders": 10,
@@ -29137,8 +29125,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 10,
         "lats_upper_back": 11,
         "shoulders": 10,
@@ -29148,7 +29136,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 15,
-        "hips": 15.75,
+        "hips": 16.75,
         "back": 11,
         "chest": 10,
         "shoulders": 10,
@@ -29158,7 +29146,7 @@
       },
       "main_sets_by_group": {
         "quads": 15,
-        "hips": 15.75,
+        "hips": 16.75,
         "back": 11,
         "chest": 10,
         "shoulders": 10,
@@ -29168,7 +29156,7 @@
       },
       "target_by_group": {
         "quads": 15,
-        "hips": 15,
+        "hips": 16,
         "back": 11,
         "chest": 10,
         "shoulders": 10,
@@ -29181,7 +29169,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 75,
+      "total_main_sets": 76,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -29210,8 +29198,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 75,
-      "rise_vs_prev": 0.0135,
+      "total_resistance_sets": 76,
+      "rise_vs_prev": 0.0133,
       "athletic_budget": {
         "plyo_share": 0.395,
         "stage": "RC1",
@@ -31349,7 +31337,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 126,
+          "est_minutes": 123,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -31396,7 +31384,7 @@
                 "Tue.B1.s08",
                 "Tue.B1.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -32396,7 +32384,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 12,
@@ -35696,7 +35684,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 94,
+          "est_minutes": 98,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -35747,7 +35735,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -36771,7 +36759,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -38162,7 +38150,7 @@
       },
       "target_by_muscle": {
         "quads": 15,
-        "hamstrings": 15,
+        "hamstrings": 16,
         "glutes": null,
         "chest": 11,
         "lats_upper_back": 11,
@@ -38173,8 +38161,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
         "side_delts": 2.5,
@@ -38191,7 +38179,7 @@
       },
       "direct_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
+        "hamstrings": 14,
         "glutes": 0,
         "chest": 11,
         "lats_upper_back": 11,
@@ -38209,8 +38197,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
         "shoulders": 10.25,
@@ -38220,8 +38208,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
         "shoulders": 10.25,
@@ -38231,7 +38219,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 15,
-        "hips": 15.75,
+        "hips": 16.75,
         "back": 11,
         "chest": 11,
         "shoulders": 10.25,
@@ -38241,7 +38229,7 @@
       },
       "main_sets_by_group": {
         "quads": 15,
-        "hips": 15.75,
+        "hips": 16.75,
         "back": 11,
         "chest": 11,
         "shoulders": 10.25,
@@ -38251,7 +38239,7 @@
       },
       "target_by_group": {
         "quads": 15,
-        "hips": 15,
+        "hips": 16,
         "back": 11,
         "chest": 11,
         "shoulders": 10,
@@ -38264,7 +38252,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 76,
+      "total_main_sets": 77,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -38293,8 +38281,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 76,
-      "rise_vs_prev": 0.0133,
+      "total_resistance_sets": 77,
+      "rise_vs_prev": 0.0132,
       "athletic_budget": {
         "plyo_share": 0.41,
         "stage": "RC2",
@@ -40498,7 +40486,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 129,
+          "est_minutes": 126,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -40545,7 +40533,7 @@
                 "Tue.B1.s08",
                 "Tue.B1.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -41565,7 +41553,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -44952,7 +44940,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 100,
+          "est_minutes": 105,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -45003,7 +44991,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -46039,7 +46027,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -47436,27 +47424,27 @@
         "hamstrings": 0,
         "chest": 0,
         "lats_upper_back": 0,
-        "shoulders": 0.1,
+        "shoulders": 0,
         "calves": 0
       },
       "target_by_muscle": {
         "quads": 15,
-        "hamstrings": 15,
+        "hamstrings": 16,
         "glutes": null,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 11,
+        "shoulders": 10,
         "biceps": null,
         "triceps": null,
         "calves": 12
       },
       "weekly_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
-        "side_delts": 3.5,
+        "side_delts": 2.5,
         "rear_delts": 3.5,
         "biceps": 6.75,
         "triceps": 7.25,
@@ -47470,11 +47458,11 @@
       },
       "direct_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
+        "hamstrings": 14,
         "glutes": 0,
         "chest": 11,
         "lats_upper_back": 11,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
@@ -47488,52 +47476,52 @@
       },
       "main_sets_by_muscle": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 11.25,
+        "shoulders": 10.25,
         "biceps": 6.75,
         "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 15,
-        "hamstrings": 13,
-        "glutes": 5,
+        "hamstrings": 14,
+        "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 11,
-        "shoulders": 11.25,
+        "shoulders": 10.25,
         "biceps": 6.75,
         "triceps": 7.25,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 15,
-        "hips": 15.75,
+        "hips": 16.75,
         "back": 11,
         "chest": 11,
-        "shoulders": 11.25,
+        "shoulders": 10.25,
         "biceps": 6.75,
         "triceps": 7.25,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 15,
-        "hips": 15.75,
+        "hips": 16.75,
         "back": 11,
         "chest": 11,
-        "shoulders": 11.25,
+        "shoulders": 10.25,
         "biceps": 6.75,
         "triceps": 7.25,
         "calves": 12
       },
       "target_by_group": {
         "quads": 15,
-        "hips": 15,
+        "hips": 16,
         "back": 11,
         "chest": 11,
-        "shoulders": 11,
+        "shoulders": 10,
         "biceps": null,
         "triceps": null,
         "calves": 12
@@ -47573,7 +47561,7 @@
         }
       },
       "total_resistance_sets": 77,
-      "rise_vs_prev": 0.0132,
+      "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.425,
         "stage": "RC2",
@@ -47620,12 +47608,8 @@
       "aerobic_sessions": 3,
       "changes": [
         {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "seated-db-lateral-raise",
-            "day": "Tue",
-            "slot_id": "Tue.B1.s13"
-          }
+          "key": "changes.load_up",
+          "args": {}
         }
       ],
       "why": [
@@ -47642,8 +47626,8 @@
           "ref": "R3-VOL-04"
         },
         {
-          "key": "why.set_added",
-          "ref": "VOL-07"
+          "key": "why.sets_hold",
+          "ref": "CX-02"
         }
       ],
       "days": [
@@ -49760,7 +49744,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 130,
+          "est_minutes": 126,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -49807,7 +49791,7 @@
                 "Tue.B1.s08",
                 "Tue.B1.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -49834,7 +49818,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -50827,7 +50811,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -51575,7 +51559,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise",
                     "copy_name": "Seated DB Lateral Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -54214,7 +54198,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 100,
+          "est_minutes": 105,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -54265,7 +54249,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -55301,7 +55285,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -56695,10 +56679,10 @@
       "circuit": null,
       "step_by_muscle": {
         "quads": 0.0667,
-        "hamstrings": 0.0667,
+        "hamstrings": 0,
         "chest": 0,
         "lats_upper_back": 0,
-        "shoulders": 0,
+        "shoulders": 0.1,
         "calves": 0
       },
       "target_by_muscle": {
@@ -56714,8 +56698,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
+        "hamstrings": 14,
+        "glutes": 5.5,
         "chest": 11,
         "lats_upper_back": 11,
         "side_delts": 3.5,
@@ -56732,7 +56716,7 @@
       },
       "direct_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
+        "hamstrings": 14,
         "glutes": 0,
         "chest": 11,
         "lats_upper_back": 11,
@@ -56750,8 +56734,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
+        "hamstrings": 14,
+        "glutes": 5.5,
         "chest": 11,
         "lats_upper_back": 11,
         "shoulders": 11.25,
@@ -56761,8 +56745,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
+        "hamstrings": 14,
+        "glutes": 5.5,
         "chest": 11,
         "lats_upper_back": 11,
         "shoulders": 11.25,
@@ -56772,7 +56756,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 17,
         "back": 11,
         "chest": 11,
         "shoulders": 11.25,
@@ -56782,7 +56766,7 @@
       },
       "main_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 17,
         "back": 11,
         "chest": 11,
         "shoulders": 11.25,
@@ -56805,7 +56789,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 78,
+      "total_main_sets": 79,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -56834,8 +56818,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 78,
-      "rise_vs_prev": 0.013,
+      "total_resistance_sets": 79,
+      "rise_vs_prev": 0.026,
       "athletic_budget": {
         "plyo_share": 0.44,
         "stage": "RC2",
@@ -56887,6 +56871,14 @@
             "exercise": "front-foot-elevated-split-squat-lunge-ffe",
             "day": "Thu",
             "slot_id": "Thu.A2.s11"
+          }
+        },
+        {
+          "key": "changes.set_added",
+          "args": {
+            "exercise": "seated-db-lateral-raise",
+            "day": "Tue",
+            "slot_id": "Tue.B1.s13"
           }
         }
       ],
@@ -59023,7 +59015,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 130,
+          "est_minutes": 128,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -59070,7 +59062,7 @@
                 "Tue.B1.s08",
                 "Tue.B1.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -60091,7 +60083,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -63478,7 +63470,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 100,
+          "est_minutes": 105,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -63529,7 +63521,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -64565,7 +64557,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -65959,7 +65951,7 @@
       "circuit": null,
       "step_by_muscle": {
         "quads": 0,
-        "hamstrings": 0,
+        "hamstrings": 0.0625,
         "chest": 0,
         "lats_upper_back": 0.0909,
         "shoulders": 0,
@@ -65967,7 +65959,7 @@
       },
       "target_by_muscle": {
         "quads": 16,
-        "hamstrings": 16,
+        "hamstrings": 17,
         "glutes": null,
         "chest": 11,
         "lats_upper_back": 12,
@@ -65978,8 +65970,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
+        "hamstrings": 14,
+        "glutes": 5.5,
         "chest": 11,
         "lats_upper_back": 12,
         "side_delts": 3.5,
@@ -65996,7 +65988,7 @@
       },
       "direct_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
+        "hamstrings": 14,
         "glutes": 0,
         "chest": 11,
         "lats_upper_back": 12,
@@ -66014,8 +66006,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
+        "hamstrings": 14,
+        "glutes": 5.5,
         "chest": 11,
         "lats_upper_back": 12,
         "shoulders": 11.25,
@@ -66025,8 +66017,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
+        "hamstrings": 14,
+        "glutes": 5.5,
         "chest": 11,
         "lats_upper_back": 12,
         "shoulders": 11.25,
@@ -66036,7 +66028,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 17,
         "back": 12,
         "chest": 11,
         "shoulders": 11.25,
@@ -66046,7 +66038,7 @@
       },
       "main_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 17,
         "back": 12,
         "chest": 11,
         "shoulders": 11.25,
@@ -66056,7 +66048,7 @@
       },
       "target_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 17,
         "back": 12,
         "chest": 11,
         "shoulders": 11,
@@ -66069,7 +66061,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 79,
+      "total_main_sets": 80,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -66098,8 +66090,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 79,
-      "rise_vs_prev": 0.0128,
+      "total_resistance_sets": 80,
+      "rise_vs_prev": 0.0127,
       "athletic_budget": {
         "plyo_share": 0.455,
         "stage": "RC2",
@@ -68287,7 +68279,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 130,
+          "est_minutes": 128,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -68334,7 +68326,7 @@
                 "Tue.B1.s08",
                 "Tue.B1.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -69355,7 +69347,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -72742,7 +72734,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 100,
+          "est_minutes": 105,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -72793,7 +72785,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -73829,7 +73821,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -75224,45 +75216,45 @@
       "step_by_muscle": {
         "quads": 0,
         "hamstrings": 0,
-        "chest": 0,
+        "chest": 0.0909,
         "lats_upper_back": 0,
-        "shoulders": 0.0909,
+        "shoulders": 0,
         "calves": 0
       },
       "target_by_muscle": {
         "quads": 16,
-        "hamstrings": 16,
+        "hamstrings": 17,
         "glutes": null,
-        "chest": 11,
+        "chest": 12,
         "lats_upper_back": 12,
-        "shoulders": 12,
+        "shoulders": 11,
         "biceps": null,
         "triceps": null,
         "calves": 12
       },
       "weekly_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
-        "chest": 11,
+        "hamstrings": 14,
+        "glutes": 5.5,
+        "chest": 12,
         "lats_upper_back": 12,
-        "side_delts": 3.75,
+        "side_delts": 3.5,
         "rear_delts": 3.5,
         "biceps": 7,
         "triceps": 7.5,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.75,
+        "front_delts": 5,
         "traps": 0,
         "adductors": 3,
         "neck": 0
       },
       "direct_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
+        "hamstrings": 14,
         "glutes": 0,
-        "chest": 11,
+        "chest": 12,
         "lats_upper_back": 12,
         "side_delts": 3,
         "rear_delts": 2,
@@ -75271,59 +75263,59 @@
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 0,
-        "front_delts": 3,
+        "front_delts": 2,
         "traps": 0,
         "adductors": 0,
         "neck": 0
       },
       "main_sets_by_muscle": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
-        "chest": 11,
+        "hamstrings": 14,
+        "glutes": 5.5,
+        "chest": 12,
         "lats_upper_back": 12,
-        "shoulders": 12.25,
+        "shoulders": 11.5,
         "biceps": 7,
         "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 16,
-        "hamstrings": 13,
-        "glutes": 5.25,
-        "chest": 11,
+        "hamstrings": 14,
+        "glutes": 5.5,
+        "chest": 12,
         "lats_upper_back": 12,
-        "shoulders": 12.25,
+        "shoulders": 11.5,
         "biceps": 7,
         "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 17,
         "back": 12,
-        "chest": 11,
-        "shoulders": 12.25,
+        "chest": 12,
+        "shoulders": 11.5,
         "biceps": 7,
         "triceps": 7.5,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 17,
         "back": 12,
-        "chest": 11,
-        "shoulders": 12.25,
+        "chest": 12,
+        "shoulders": 11.5,
         "biceps": 7,
         "triceps": 7.5,
         "calves": 12
       },
       "target_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 17,
         "back": 12,
-        "chest": 11,
-        "shoulders": 12,
+        "chest": 12,
+        "shoulders": 11,
         "biceps": null,
         "triceps": null,
         "calves": 12
@@ -75333,7 +75325,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 80,
+      "total_main_sets": 81,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -75362,8 +75354,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 80,
-      "rise_vs_prev": 0.0127,
+      "total_resistance_sets": 81,
+      "rise_vs_prev": 0.0125,
       "athletic_budget": {
         "plyo_share": 0.47,
         "stage": "RC3",
@@ -75422,9 +75414,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "seesaw-db-press-alternating-one-up-one-down",
-            "day": "Fri",
-            "slot_id": "Fri.B2.s10"
+            "exercise": "alternating-incline-db-bench-press-one-up-one-down",
+            "day": "Tue",
+            "slot_id": "Tue.B1.s10"
           }
         }
       ],
@@ -77572,7 +77564,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 139,
+          "est_minutes": 137,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -77619,7 +77611,7 @@
                 "Tue.B1.s08",
                 "Tue.B1.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -78643,7 +78635,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -78806,7 +78798,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -82108,7 +82100,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 114,
+          "est_minutes": 121,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -82159,7 +82151,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -83206,7 +83198,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 2,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -83363,7 +83355,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)",
                     "copy_name": "Seesaw DB Press (alternating, one up / one down)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -84604,17 +84596,17 @@
       "circuit": null,
       "step_by_muscle": {
         "quads": 0.0625,
-        "hamstrings": 0.0625,
+        "hamstrings": 0,
         "chest": 0,
         "lats_upper_back": 0,
-        "shoulders": 0,
+        "shoulders": 0.0909,
         "calves": 0
       },
       "target_by_muscle": {
         "quads": 17,
         "hamstrings": 17,
         "glutes": null,
-        "chest": 11,
+        "chest": 12,
         "lats_upper_back": 12,
         "shoulders": 12,
         "biceps": null,
@@ -84625,16 +84617,16 @@
         "quads": 17,
         "hamstrings": 14,
         "glutes": 5.5,
-        "chest": 11,
+        "chest": 12,
         "lats_upper_back": 12,
         "side_delts": 3.75,
         "rear_delts": 3.5,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5.75,
+        "front_delts": 6,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -84643,7 +84635,7 @@
         "quads": 17,
         "hamstrings": 14,
         "glutes": 0,
-        "chest": 11,
+        "chest": 12,
         "lats_upper_back": 12,
         "side_delts": 3,
         "rear_delts": 2,
@@ -84661,49 +84653,49 @@
         "quads": 17,
         "hamstrings": 14,
         "glutes": 5.5,
-        "chest": 11,
+        "chest": 12,
         "lats_upper_back": 12,
-        "shoulders": 12.25,
+        "shoulders": 12.5,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 17,
         "hamstrings": 14,
         "glutes": 5.5,
-        "chest": 11,
+        "chest": 12,
         "lats_upper_back": 12,
-        "shoulders": 12.25,
+        "shoulders": 12.5,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 17,
         "hips": 17,
         "back": 12,
-        "chest": 11,
-        "shoulders": 12.25,
+        "chest": 12,
+        "shoulders": 12.5,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 17,
         "hips": 17,
         "back": 12,
-        "chest": 11,
-        "shoulders": 12.25,
+        "chest": 12,
+        "shoulders": 12.5,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "target_by_group": {
         "quads": 17,
         "hips": 17,
         "back": 12,
-        "chest": 11,
+        "chest": 12,
         "shoulders": 12,
         "biceps": null,
         "triceps": null,
@@ -84714,7 +84706,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 82,
+      "total_main_sets": 83,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -84743,8 +84735,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 82,
-      "rise_vs_prev": 0.025,
+      "total_resistance_sets": 83,
+      "rise_vs_prev": 0.0247,
       "athletic_budget": {
         "plyo_share": 0.485,
         "stage": "RC3",
@@ -84801,9 +84793,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "stiff-leg-deadlift-rdl",
+            "exercise": "seesaw-db-press-alternating-one-up-one-down",
             "day": "Fri",
-            "slot_id": "Fri.B2.s09"
+            "slot_id": "Fri.B2.s10"
           }
         }
       ],
@@ -86944,7 +86936,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 139,
+          "est_minutes": 137,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -86991,7 +86983,7 @@
                 "Tue.B1.s08",
                 "Tue.B1.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -88015,7 +88007,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -88178,7 +88170,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)",
                     "copy_name": "Alternating Incline DB Bench Press (one up / one down)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -91480,7 +91472,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 122,
+          "est_minutes": 127,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -91531,7 +91523,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -92578,7 +92570,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -93977,7 +93969,7 @@
       "step_by_muscle": {
         "quads": 0.0588,
         "hamstrings": 0.0588,
-        "chest": 0.0909,
+        "chest": 0.0833,
         "lats_upper_back": 0.0833,
         "shoulders": 0.0833,
         "calves": 0
@@ -93986,7 +93978,7 @@
         "quads": 18,
         "hamstrings": 18,
         "glutes": null,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
         "shoulders": 13,
         "biceps": null,
@@ -93997,16 +93989,16 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
         "side_delts": 3.75,
-        "rear_delts": 4.75,
+        "rear_delts": 3.75,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 6,
+        "front_delts": 6.25,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -94015,10 +94007,10 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 0,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
         "side_delts": 3,
-        "rear_delts": 3,
+        "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
         "calves": 12,
@@ -94033,49 +94025,49 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
-        "shoulders": 13.75,
+        "shoulders": 13,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
-        "shoulders": 13.75,
+        "shoulders": 13,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 12,
-        "shoulders": 13.75,
+        "chest": 13,
+        "shoulders": 13,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 12,
-        "shoulders": 13.75,
+        "chest": 13,
+        "shoulders": 13,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12
       },
       "target_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 12,
+        "chest": 13,
         "shoulders": 13,
         "biceps": null,
         "triceps": null,
@@ -94116,7 +94108,7 @@
         }
       },
       "total_resistance_sets": 87,
-      "rise_vs_prev": 0.061,
+      "rise_vs_prev": 0.0482,
       "athletic_budget": {
         "plyo_share": 0.5,
         "stage": "RC3",
@@ -94176,9 +94168,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "staggered-stance-kickstand-db-deadlift",
+            "exercise": "45-degree-hyperextension-back-hip-extension",
             "day": "Tue",
-            "slot_id": "Tue.B1.s11"
+            "slot_id": "Tue.B1.s09"
           }
         },
         {
@@ -94192,17 +94184,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "alternating-incline-db-bench-press-one-up-one-down",
+            "exercise": "barbell-bench-press",
             "day": "Tue",
-            "slot_id": "Tue.B1.s10"
-          }
-        },
-        {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "seated-chest-to-thighs-db-reverse-fly",
-            "day": "Fri",
-            "slot_id": "Fri.B2.s13"
+            "slot_id": "Tue.B1.s08"
           }
         }
       ],
@@ -96399,7 +96383,7 @@
                 "Tue.B1.s10",
                 "Tue.B1.s11"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -97275,7 +97259,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -97741,7 +97725,7 @@
                     "url": "https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift",
                     "copy_name": "Staggered-Stance (Kickstand) DB Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -100879,7 +100863,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 124,
+          "est_minutes": 127,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -100930,7 +100914,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -100957,7 +100941,7 @@
                 "Fri.B2.s13",
                 "Fri.B2.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -101977,7 +101961,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -102733,7 +102717,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly",
                     "copy_name": "Seated (Chest-to-Thighs) DB Reverse Fly"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -103393,7 +103377,7 @@
         "quads": 18,
         "hamstrings": 18,
         "glutes": null,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
         "shoulders": 13,
         "biceps": null,
@@ -103404,16 +103388,16 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
         "side_delts": 3.75,
-        "rear_delts": 4.75,
+        "rear_delts": 3.75,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 6,
+        "front_delts": 6.25,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -103422,10 +103406,10 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 0,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
         "side_delts": 3,
-        "rear_delts": 3,
+        "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
         "calves": 12,
@@ -103440,49 +103424,49 @@
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
-        "shoulders": 13.75,
+        "shoulders": 13,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12
       },
       "weekly_sets_by_line": {
         "quads": 18,
         "hamstrings": 15,
         "glutes": 5.75,
-        "chest": 12,
+        "chest": 13,
         "lats_upper_back": 13,
-        "shoulders": 13.75,
+        "shoulders": 13,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12
       },
       "weekly_sets_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 12,
-        "shoulders": 13.75,
+        "chest": 13,
+        "shoulders": 13,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12
       },
       "main_sets_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 12,
-        "shoulders": 13.75,
+        "chest": 13,
+        "shoulders": 13,
         "biceps": 7.25,
-        "triceps": 7.75,
+        "triceps": 8,
         "calves": 12
       },
       "target_by_group": {
         "quads": 18,
         "hips": 18,
         "back": 13,
-        "chest": 12,
+        "chest": 13,
         "shoulders": 13,
         "biceps": null,
         "triceps": null,
@@ -105914,7 +105898,7 @@
                 "Tue.B1.s10",
                 "Tue.B1.s11"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -106906,7 +106890,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Bench%20Press",
                     "copy_name": "Barbell Bench Press"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -106959,7 +106943,7 @@
                     {
                       "key": "note.test_back_off",
                       "args": {
-                        "n": 3,
+                        "n": 4,
                         "rir": "2"
                       }
                     }
@@ -107386,7 +107370,7 @@
                     "url": "https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift",
                     "copy_name": "Staggered-Stance (Kickstand) DB Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -110463,7 +110447,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 134,
+          "est_minutes": 137,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -110514,7 +110498,7 @@
                 "Fri.B2.s08",
                 "Fri.B2.s09"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -110541,7 +110525,7 @@
                 "Fri.B2.s13",
                 "Fri.B2.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -111561,7 +111545,7 @@
                     "url": "https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL",
                     "copy_name": "Stiff-Leg Deadlift / RDL"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -112317,7 +112301,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20(Chest-to-Thighs)%20DB%20Reverse%20Fly",
                     "copy_name": "Seated (Chest-to-Thighs) DB Reverse Fly"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -112949,20 +112933,20 @@
   ],
   "summary": {
     "total_resistance_sets_by_week": [
-      72,
       73,
       74,
       75,
       76,
       77,
-      78,
+      77,
       79,
       80,
-      82,
+      81,
+      83,
       87,
       87
     ],
-    "max_weekly_rise": 0.061,
+    "max_weekly_rise": 0.0482,
     "planned_steps_max": 0.1,
     "stair_levels": [
       2,
@@ -112994,29 +112978,29 @@
         18
       ],
       "hamstrings": [
-        12,
-        12,
         13,
         13,
-        13,
-        13,
-        13,
-        13,
-        13,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
         14,
         15,
         15
       ],
       "glutes": [
-        4.5,
         4.75,
         5,
-        5,
-        5,
-        5,
         5.25,
         5.25,
         5.25,
+        5.25,
+        5.5,
+        5.5,
+        5.5,
         5.5,
         5.75,
         5.75
@@ -113030,10 +113014,10 @@
         11,
         11,
         11,
-        11,
-        11,
         12,
-        12
+        12,
+        13,
+        13
       ],
       "lats_upper_back": [
         10,
@@ -113055,10 +113039,10 @@
         2.5,
         2.5,
         2.5,
+        2.5,
         3.5,
         3.5,
         3.5,
-        3.75,
         3.75,
         3.75,
         3.75
@@ -113074,8 +113058,8 @@
         3.5,
         3.5,
         3.5,
-        4.75,
-        4.75
+        3.75,
+        3.75
       ],
       "biceps": [
         6.5,
@@ -113101,9 +113085,9 @@
         7.25,
         7.25,
         7.5,
-        7.5,
         7.75,
-        7.75
+        8,
+        8
       ],
       "calves": [
         12,
@@ -113156,10 +113140,10 @@
         4.75,
         4.75,
         4.75,
-        5.75,
-        5.75,
+        5,
         6,
-        6
+        6.25,
+        6.25
       ],
       "traps": [
         0,
@@ -113220,29 +113204,29 @@
         18
       ],
       "hamstrings": [
-        12,
-        12,
         13,
         13,
-        13,
-        13,
-        13,
-        13,
-        13,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
         14,
         15,
         15
       ],
       "glutes": [
-        4.5,
         4.75,
         5,
-        5,
-        5,
-        5,
         5.25,
         5.25,
         5.25,
+        5.25,
+        5.5,
+        5.5,
+        5.5,
         5.5,
         5.75,
         5.75
@@ -113256,10 +113240,10 @@
         11,
         11,
         11,
-        11,
-        11,
         12,
-        12
+        12,
+        13,
+        13
       ],
       "lats_upper_back": [
         10,
@@ -113281,13 +113265,13 @@
         10,
         10,
         10.25,
+        10.25,
         11.25,
         11.25,
-        11.25,
-        12.25,
-        12.25,
-        13.75,
-        13.75
+        11.5,
+        12.5,
+        13,
+        13
       ],
       "biceps": [
         6.5,
@@ -113313,9 +113297,9 @@
         7.25,
         7.25,
         7.5,
-        7.5,
         7.75,
-        7.75
+        8,
+        8
       ],
       "calves": [
         12,
@@ -113348,15 +113332,15 @@
         18
       ],
       "hips": [
-        14.5,
-        14.75,
+        15.5,
         15.75,
-        15.75,
-        15.75,
-        15.75,
-        16,
-        16,
-        16,
+        16.75,
+        16.75,
+        16.75,
+        16.75,
+        17,
+        17,
+        17,
         17,
         18,
         18
@@ -113384,10 +113368,10 @@
         11,
         11,
         11,
-        11,
-        11,
         12,
-        12
+        12,
+        13,
+        13
       ],
       "shoulders": [
         10,
@@ -113395,13 +113379,13 @@
         10,
         10,
         10.25,
+        10.25,
         11.25,
         11.25,
-        11.25,
-        12.25,
-        12.25,
-        13.75,
-        13.75
+        11.5,
+        12.5,
+        13,
+        13
       ],
       "biceps": [
         6.5,
@@ -113427,9 +113411,9 @@
         7.25,
         7.25,
         7.5,
-        7.5,
         7.75,
-        7.75
+        8,
+        8
       ],
       "calves": [
         12,
@@ -113462,15 +113446,15 @@
         18
       ],
       "hamstrings": [
-        14,
-        14,
-        15,
-        15,
         15,
         15,
         16,
         16,
         16,
+        16,
+        16,
+        17,
+        17,
         17,
         18,
         18
@@ -113484,10 +113468,10 @@
         11,
         11,
         11,
-        11,
-        11,
         12,
-        12
+        12,
+        13,
+        13
       ],
       "lats_upper_back": [
         10,
@@ -113509,10 +113493,10 @@
         10,
         10,
         10,
+        10,
         11,
         11,
         11,
-        12,
         12,
         13,
         13
@@ -113548,15 +113532,15 @@
         18
       ],
       "hips": [
-        14,
-        14,
-        15,
-        15,
         15,
         15,
         16,
         16,
         16,
+        16,
+        16,
+        17,
+        17,
         17,
         18,
         18
@@ -113584,10 +113568,10 @@
         11,
         11,
         11,
-        11,
-        11,
         12,
-        12
+        12,
+        13,
+        13
       ],
       "shoulders": [
         10,
@@ -113595,10 +113579,10 @@
         10,
         10,
         10,
+        10,
         11,
         11,
         11,
-        12,
         12,
         13,
         13
@@ -113633,18 +113617,7 @@
       0,
       1
     ],
-    "shortfalls": [
-      {
-        "code": "capped_by_template",
-        "key": "warning.capped_by_template",
-        "args": {
-          "group": "chest",
-          "held": 12,
-          "planned": 13
-        },
-        "week": 12
-      }
-    ]
+    "shortfalls": []
   },
   "validation": {
     "ok": true,

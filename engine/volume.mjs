@@ -659,7 +659,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   // the week's counted heavy hinge - the main two-leg hinge of an athletic B day (rules.placement.x7.heavy_hinge_lead)
   const HH = PX7.heavy_hinge_lead && PX7.heavy_hinge_lead.enabled ? PX7.heavy_hinge_lead : null;
   const extraTop = new Map(); // v0.7 G-235: slot_id -> {eb, add, group} - the one-set shortfall's lift (set by planStairs)
-  const heavyHinge = (slot, di) => !!HH && (HH.families || []).includes(layout.family) && isMainDi(di) && slot.origin !== 'bonus' && !isCircuitSlot(slot) &&
+  const hingeOff = new Set(); // (a heavy hinge whose start of 3 would take its group above its final sets keeps its fewest sets - planStairs)
+  const heavyHinge = (slot, di) => !!HH && !hingeOff.has(slot.slot_id) && (HH.families || []).includes(layout.family) && isMainDi(di) && slot.origin !== 'bonus' && !isCircuitSlot(slot) &&
     slot.role === HH.role && slot.bucket === HH.bucket && !!fills[slot.slot_id] && (fills[slot.slot_id].flags || []).includes(HH.flag);
   const boundsOf = (slot, di) => {
     const b0 = boundsOf0(slot, di);
@@ -1212,7 +1213,9 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     const dayMax0 = (wide || key !== g) && PX3.reach_planned && isNum(PX3.reach_planned.optional_day_max) ? PX3.reach_planned.optional_day_max : (BN.max_added_per_optional_day || 2);
     // v0.7 G-231 (COACH-R5 R5-VOL-07: the question's premise 'the training days are full at 8 exercises'): a light chest exercise may
     // take one more place on an optional day (rules.placement.x7.light_chest_optional.optional_day_max) - only a fly or a machine press
-    const lcoMax = (wide || key !== g) && lightChestOk(g) && isNum(LCO.optional_day_max) ? Math.max(dayMax0, LCO.optional_day_max) : dayMax0;
+    // (the question's premise is a physique week - rules.placement.x7.light_chest_optional.optional_day_max_families)
+    const lcoFam = !!LCO && (!Array.isArray(LCO.optional_day_max_families) || LCO.optional_day_max_families.includes(layout.family));
+    const lcoMax = (wide || key !== g) && lightChestOk(g) && lcoFam && isNum(LCO.optional_day_max) ? Math.max(dayMax0, LCO.optional_day_max) : dayMax0;
     const dayMax = lcoMax;
     const cands = optDi.filter(di => addedOn(di) < dayMax && daySlotsOf(di).some(s => ['core', ...RESISTANCE_KINDS].includes(kindOf(s))))
       .filter(di => key === g || !days[di].added.some(s => s.origin === 'bonus' && s.group === g))
@@ -1462,6 +1465,14 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         if (BOC.always || (r[g] || 0) >= planned[g] - EPS) for (const [s] of open) { closedFocus.add(s.slot_id); focusClosed.push({ group: g, slot_id: s.slot_id }); }
         else open.forEach(([s], i) => { sets[s.slot_id] = before[i]; });
       }
+    }
+    // v0.7 G-236 (R5-ATH-12): the heavy hinge's start of 3 comes out of its group's numbers - where it would leave the group's fewest
+    // sets no room under its final sets to climb (R5-CLS-07: a 2-day band, a pitcher's hips), the hinge keeps its fewest sets
+    const mcH = V.x7 && V.x7.start_below_top && isNum(V.x7.start_below_top.min_climb) ? V.x7.start_below_top.min_climb : 1;
+    if (HH) for (const [s, di] of allSlots()) {
+      if (!heavyHinge(s, di)) continue;
+      const g = owner[s.slot_id], t = tally(false, 'group');
+      if (g && isNum(planned[g]) && (t[g] || 0) > planned[g] - mcH + EPS) { hingeOff.add(s.slot_id); if (isNum(sets[s.slot_id]) && sets[s.slot_id] > 0) sets[s.slot_id] = boundsOf(s, di)[0]; }
     }
     // what the minimum structure already holds (every exercise at its fewest sets)
     const struct = tally(false, 'group');
@@ -1799,7 +1810,10 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         if (low < S0[g]) { S0[g] = low; continue; }
         const line = carrier[g];
         const levelTop = line && V.cap[line] && isNum(V.cap[line][L]) ? V.cap[line][L] : planned[g];
-        const want2 = Math.min(S0[g] + mc, levelTop, GMAX !== null ? GMAX : Infinity);
+        // (never above the block's own top for the line - the sport's or the class's scaled top, R4-PRG-04 'never above the level's top':
+        // a group whose fewest sets already sit at that top stays there, as it must)
+        const blockTop = line && bt0 && bt0.cap && isNum(bt0.cap[line]) ? bt0.cap[line] : Infinity;
+        const want2 = Math.min(S0[g] + mc, levelTop, blockTop, GMAX !== null ? GMAX : Infinity);
         if (!(want2 > S0[g])) continue;
         const wt = {}; for (const g2 of trained) wt[g2] = planned[g2];
         wt[g] = want2;

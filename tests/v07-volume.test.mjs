@@ -19,6 +19,12 @@ import { loadModel } from '../engine/model.mjs';
 import { generate } from '../engine/generate.mjs';
 import { renderPlan } from '../engine/render.mjs';
 import { roundsByThird } from '../engine/shape.mjs';
+import { randomIntake } from './helpers/random-intake.mjs';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 const EPS = 1e-9;
 const NAMES = { '01': '01-swimming', '02': '02-football', '03': '03-soccer', '04': '04-crossfit-style-bootcamp', '05': '05-bootcamp', '06': '06-full-body-aesthetics', '07': '07-push-pull-legs', '08': '08-pickleball-genpop' };
@@ -37,6 +43,7 @@ const GM = { hips: ['glutes', 'hamstrings'], back: ['lats_upper_back'], shoulder
 const inGroup = (it, g) => Object.entries(it.credits || {}).some(([m, c]) => c >= 1 - EPS && (m === g || (GM[g] || []).includes(m)));
 const lastWeek = (p) => p.weeks[p.weeks.length - 1];
 const validOk = (p) => p.status === 'ok' && p.validation.ok;
+const benchOf = (id) => { const dir = path.join(ROOT, 'design', 'bench', 'intakes'); const f = fs.readdirSync(dir).find(x => x.startsWith(id + '-')); let i = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); if (i.intake) i = i.intake; return generate(i, model); };
 const failing = (p) => (p.validation.checks || []).filter(c => !c.pass && c.severity === 'error').map(c => c.id + ':' + JSON.stringify((c.violations || []).slice(0, 2)));
 
 describe('R5-VOL-01 (G-230): a high-incline press counts 1.0 chest, 0.25 front delts, 0.25 triceps', () => {
@@ -91,6 +98,18 @@ describe('R5-VOL-07 (G-231): a light chest exercise on the optional day, even ri
       assert.ok((x.it.why || []).some(y => y.key === 'why.light_chest_optional' && y.ref === 'R5-VOL-07'), 'why on ' + x.it.slot_id);
     }
     assert.ok(seen > 0, 'a light chest bonus on an optional day');
+  });
+});
+
+describe('R5-VOL-07 (G-231): the light chest exercise\'s third optional-day place is for a physique week only', () => {
+  it('a 3-day strength plan (bench 15) keeps at most 2 bonus exercises on its optional day', () => {
+    const p = benchOf('15');
+    const L = R.placement.x7.light_chest_optional;
+    assert.deepEqual(L.optional_day_max_families, ['aesthetics']);
+    for (const w of p.weeks) for (const d of w.days.filter(x => x.kind === 'optional')) {
+      const n = d.blocks.flatMap(b => b.items).filter(it => it.origin === 'bonus' && it.exercise_id).length;
+      assert.ok(n <= R.placement.bonus.max_added_per_optional_day, 'week ' + w.n + ' ' + d.weekday + ': ' + n);
+    }
   });
 });
 
@@ -189,6 +208,19 @@ describe('R5-CLS-03 (G-234): circuit rounds climb with the plan in thirds; peopl
   });
 });
 
+describe('R5-CLS-03 / VOL-06 (G-234): a circuit whose rounds would pass the absolute weekly cap is built again with fewer rounds at the top', () => {
+  it('random intakes 69 / 104 / 204 (6-day bodyweight circuits): no failing error check; the rounds never go down', () => {
+    const fx = loadFixtureModel();
+    for (const i of [69, 104, 204]) {
+      const p = generate(randomIntake(i, fx), fx);
+      assert.equal(p.status, 'ok', String(i));
+      assert.deepEqual(failing(p), [], String(i));
+      const rs = p.weeks.filter(w => w.circuit && w.block_type === 'stairway').map(w => w.circuit.rounds);
+      for (let k = 1; k < rs.length; k++) if (p.weeks[k].training_block === p.weeks[k - 1].training_block) assert.ok(rs[k] >= rs[k - 1], i + ': ' + rs.join(' '));
+    }
+  });
+});
+
 describe('R5-VOL-11 (G-235): a one-set shortfall - the day\'s first lift of the group takes one more set in the last block', () => {
   it('02: chest reaches its final 13 of 13 (was held at 12), not capped', () => {
     const p = planOf('02');
@@ -230,6 +262,20 @@ describe('R5-ATH-12 (G-236): the week\'s heavy hinge starts at 3 sets and takes 
       if (x.it.sets >= 3 && series(p, x.it.slot_id)[0] < 3) assert.ok(i >= k, x.it.exercise_id + ' takes its 3rd set in week ' + x.w.n + ' before the RDL\'s 4th (week ' + (k + 1) + ')');
     }
     assert.ok(validOk(p), failing(p).join(' '));
+  });
+});
+
+describe('R5-ATH-12 / R5-CLS-07 (G-236): the heavy hinge\'s 3 sets come out of its group\'s numbers', () => {
+  it('a 2-day swimmer (bench 24): the hinge keeps 2 sets where 3 would put the hips at their final sets from week 1; the hips climb', () => {
+    const p = benchOf('24');
+    const st = p.meta.stairway[0];
+    assert.ok(st.group_start.hips < st.group_top.hips, st.group_start.hips + ' -> ' + st.group_top.hips);
+    const w1 = itemsOf(p.weeks[0]).find(x => (x.it.flags || []).includes('axial_counted') && x.it.bucket === 'RP_BHD' && x.it.role === 'work');
+    assert.ok(w1 && w1.it.sets === 2, JSON.stringify(w1 && w1.it.sets));
+  });
+  it('a hyrox athlete (bench 49): no group is raised above its block\'s own top for R5-CLS-07 (back held at 16, never 17)', () => {
+    const p = benchOf('49');
+    for (const w of p.weeks) assert.ok((w.weekly_sets_by_group.back || 0) <= 16 + EPS, 'week ' + w.n + ' back ' + w.weekly_sets_by_group.back);
   });
 });
 
