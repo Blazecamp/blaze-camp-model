@@ -5,7 +5,7 @@
  "spec_version": "1.3.0",
  "counts": {
   "source_records": 939,
-  "kept": 733,
+  "kept": 742,
   "added_v2": 2,
   "dropped": 208,
   "dropped_by_reason": {
@@ -29,12 +29,12 @@
   "profiles": 127,
   "sports_in_picker": 52,
   "activities": 26,
-  "en_keys": 2773,
-  "es_keys": 2773,
+  "en_keys": 2831,
+  "es_keys": 2831,
   "es_missing": 0,
-  "es_machine_translated": 842,
+  "es_machine_translated": 832,
   "coach_patches": 16,
-  "coach_patch_record_changes": 35
+  "coach_patch_record_changes": 30
  },
  "templates": {
   "built": [
@@ -310,7 +310,7 @@
    "rule": "decoder notes removed from rendered text ('(complete)', '(corrected)', '(OT02 Day 3)', 'INFERRED', '(COACH-R2 ...)', 'the BYOP cell says ...', 'bodyweight pools'); templates.label stays verbatim",
    "action": "applied",
    "counts": {
-    "strings_cleaned": 23
+    "strings_cleaned": 18
    }
   }
  ],
@@ -405,14 +405,14 @@
  ],
  "i18n": {
   "es_by_source": {
-   "architect_wordlist": 1398,
-   "b1_machine_translation": 805,
+   "architect_wordlist": 1466,
+   "b1_machine_translation": 795,
    "profiles_04": 383,
    "spec": 146,
    "v3_spanish_review": 41
   },
   "machine_translated_by_namespace": {
-   "day": 140,
+   "day": 130,
    "exercise.cue": 63,
    "exercise.name": 587,
    "profile.name": 52
@@ -431,6 +431,8 @@
    "cue: Constrained, no axial (spinal) load: the default second squat-pattern lift of the week (PER-04).",
    "cue: Use if available and the client feels the right muscles.",
    "cue: Less constrained than a hack squat or leg press (EQ-11).",
+   "day label: Day A - squat + pull, hip thrust + press",
+   "day label: Day B - deadlift + push, leg press + pull",
    "day label: A - squat + pull (axial squat)",
    "day label: B - deadlift + push (axial hinge)",
    "day label: A1 - squat + pull (axial squat)",
@@ -441,6 +443,8 @@
    "day label: Legs 2 - hinge-led (axial hinge, leg press)",
    "day label: A - squat + pull (axial squat; clean day)",
    "day label: B - deadlift + push (axial hinge; snatch day)",
+   "day label: In-season A - sprint/jumps + single-leg squat + pull",
+   "day label: In-season B - jumps + light hinge + push",
    "day label: A1 - squat + pull (axial squat; clean day)",
    "day label: A2 - leg press / belt squat + pull (clean day)",
    "day label: B1 - non-axial hinge + push (snatch day)",
@@ -461,16 +465,6 @@
   "catalog_records_removed": [],
   "en_values_changed": [
    {
-    "key": "day.aesthetics.2.A",
-    "fixture": "Day A - squat + pull, hip thrust + press (complete)",
-    "model": "Day A - squat + pull, hip thrust + press"
-   },
-   {
-    "key": "day.aesthetics.2.B",
-    "fixture": "Day B - deadlift + push, leg press + pull (complete)",
-    "model": "Day B - deadlift + push, leg press + pull"
-   },
-   {
     "key": "day.aesthetics.3.C",
     "fixture": "Day C - both bilaterals, non-axial (OT02 Day 3)",
     "model": "Day C - both bilaterals, non-axial"
@@ -481,24 +475,9 @@
     "model": "Thu (strength) - squat + vertical pull"
    },
    {
-    "key": "day.fat_loss_bootcamp.2.B",
-    "fixture": "Day B - hinge + push / single-leg squat + pull (corrected)",
-    "model": "Day B - hinge + push / single-leg squat + pull"
-   },
-   {
     "key": "day.fat_loss_bootcamp.4.B",
     "fixture": "Day B - hinge + push / single-leg squat + pull (corrected)",
     "model": "Day B - hinge + push / single-leg squat + pull"
-   },
-   {
-    "key": "day.no_equipment.2.A_BW",
-    "fixture": "Day A - squat + pull / single-leg hinge + press (bodyweight pools)",
-    "model": "Day A - squat + pull / single-leg hinge + press (bodyweight)"
-   },
-   {
-    "key": "day.no_equipment.2.B_BW",
-    "fixture": "Day B - hinge + push / single-leg squat + pull (corrected) (bodyweight pools)",
-    "model": "Day B - hinge + push / single-leg squat + pull (bodyweight)"
    },
    {
     "key": "day.no_equipment.3.BC1_BW",
@@ -618,7 +597,7 @@
   ],
   "en_keys_added": [],
   "es_fixture_values_changed": [],
-  "es_keys_added": 805
+  "es_keys_added": 795
  },
  "dropped": [
   {

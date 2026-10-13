@@ -29,6 +29,8 @@ const ISOMETRIC_RE = /(plank|hold|hollow|dead-hang|wall-sit|isometric)/; // INFE
 export function repClassFor(slot, exercise, model) {
   const b = model.bucket(slot.bucket);
   if (b.kind === 'prehab') return 'prehab';
+  // (engine 0.7, G-252: a joint-care slot that holds a lifting pattern - the shoulder-health overhead press - is dosed as joint care)
+  if (slot.role === 'prehab' && b.kind === 'resistance') return 'prehab';
   let rc = b.rep_class;
   // F3: a delt station's reps follow the exercise it holds (a side raise in a rear-delt station, select's delt variants, R3-VOL-01)
   let variant = slot.variant;

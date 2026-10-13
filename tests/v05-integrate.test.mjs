@@ -69,7 +69,8 @@ for (const [mname, model] of MODELS) {
       assert.deepEqual(SL.skeleton_prefixes, [...PINNED_SKELETON_PREFIXES_X1, 'class_']);
       assert.equal(SL.lower_fixed, true);
       assert.deepEqual(SL.laterality_of_bucket, { RP_BKD: 'bilateral', RP_BHD: 'bilateral', RP_UKD: 'unilateral', RP_UHD: 'unilateral' });
-      assert.deepEqual(SL.lead_row.skeletons, ['gym_A', 'athletic_A', 'class_squat', 'class_pull']); assert.equal(SL.lead_row.bucket, 'RP_HPULL'); assert.ok(SL.lead_row.penalty < 0);
+      // (engine 0.7, converted - R5-GEN-01, DECISIONS G-250: full-body day 1 opens with his A day's two-arm row too)
+      assert.deepEqual([...SL.lead_row.skeletons].sort(), ['athletic_A', 'athletic_FB1', 'class_pull', 'class_squat', 'gym_A', 'gym_FB1']); assert.equal(SL.lead_row.bucket, 'RP_HPULL'); assert.ok(SL.lead_row.penalty < 0);
       assert.ok(SL.refs.includes('R4-SES-05'));
       assert.ok(SL.skeleton_prefixes.some(p => 'athletic_A'.startsWith(p)), 'the athletic days keep each slot\'s laterality (R4-SES-05)');
       assert.deepEqual(R.validation.v05.skeleton.laterality_of_bucket, SL.laterality_of_bucket);

@@ -136,16 +136,20 @@ describe('v0.4 fix round 2 / F2: athletic work (coach-eye reviews of the v0.4 sa
     q.weeks[11].athletic_budget.planned.throws = q.weeks[10].athletic_budget.planned.throws + 30;
     assert.ok(validatePlan(q, model).checks.find(c => c.id === 'V27').violations.some(v => v.args.code === 'hold_over'));
   });
-  test('R02-cod-and-throws-climb: cuts and throws climb to the block\'s peak in even steps (cuts sat at 72 from week 4 to week 12, throws at 90 from week 8) - one scale down the block, no total held for more than two weeks (E-160, E-166)', { todo: "engine 0.5.0 (DECISIONS G): ATHLETIC LAYER, open: with the athletic day at 12 exercises the linebacker's sprint metres hold 360 m for 5 weeks (300 300 300 315 360 x5 420 420) - 'no total held more than two weeks' fails; the dose steps need re-tuning for the new station counts" }, () => {
+  // (converted from todo in engine 0.7, COACH-R5 R5-ATH-02 'they may hold for up to 2 weeks, as long as they reach the block's final
+  // number' - DECISIONS G-256: every family, sprint metres included, holds at most 2 weeks (a run of 3 equal weeks) and its last
+  // stairway week is its highest; the stricter 'cuts and throws hold at most 1 week' line read an engine inference, not his rule)
+  test('R02-cod-and-throws-climb: cuts and throws climb to the block\'s peak in even steps (cuts sat at 72 from week 4 to week 12, throws at 90 from week 8) - one scale down the block, no total held for more than two weeks (E-160, E-166; R5-ATH-02)', () => {
     const p = plan('02');
     const ws = stairWeeks(p).filter(w => !w.athletic_budget.hold);
+    const maxHold = model.rules.athletic.v7.hold.max_hold_weeks;
     for (const keys of [['cod_cuts'], ['throws'], ['sprint_m'], JUMPS]) {
       const v = famSeries(ws, keys);
       for (let i = 1; i < v.length; i++) assert.ok(v[i] >= v[i - 1] - EPS, `${keys} drops: ${v.join(' ')}`);
       assert.ok(v[v.length - 1] >= 1.2 * v[0], `${keys} ${v.join(' ')}`);
-      assert.ok(maxRun(v) <= 3, `${keys} holds ${maxRun(v)} weeks: ${v.join(' ')}`);
+      assert.ok(maxRun(v) <= maxHold + 1, `${keys} holds ${maxRun(v)} weeks: ${v.join(' ')}`);
+      assert.ok(v[v.length - 1] >= Math.max(...v) - EPS, `${keys}: the block's final number is its last week: ${v.join(' ')}`);
     }
-    assert.ok(maxRun(famSeries(ws, ['cod_cuts'])) <= 2 && maxRun(famSeries(ws, ['throws'])) <= 2);
     // the scale never shrinks from one exercise block to the next
     for (const k of ['cod_cuts', 'throws', 'sprint_m']) { const sc = ws.map(w => w.athletic_budget.scale[k]); for (let i = 1; i < sc.length; i++) assert.ok(sc[i] >= sc[i - 1] - EPS, `${k} scale ${sc.join(' ')}`); }
   });

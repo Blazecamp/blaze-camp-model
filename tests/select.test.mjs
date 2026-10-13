@@ -337,9 +337,11 @@ test('fallbacks: bootcamp kit without a pull-up bar -> nearest pattern + buy lis
   // v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): Monday's second back station is a vertical pull the kit cannot
   // set up - with two rows in the kit it is a rear-delt fly, not one more row (sample 05 major 'the same two rows four times');
   // Friday's own vertical-pull slot stays a row of another family and both still name the pull-up bar to buy
+  // (engine 0.7, converted - COACH-R5 R5-CLS-02 'a hip thrust or bridge (hips get more work; pressing then leads pulling by one
+  // station)', DECISIONS G-260: the free station is a glute-dominant hip lift, no longer the rear-delt fly)
   const vp = sel.fills['Mon.BC1.s07'];
-  assert.equal(vp.bucket, 'ISO_SIDE_REAR_DELT');
-  assert.equal(ex(vp.exercise_id).credit_class, 'ISO_REAR');
+  assert.equal(vp.bucket, 'RP_BHD');
+  assert.match(vp.exercise_id, /hip-thrust|bridge/);
   assert.ok(vp.flags.includes('pattern_gap') && vp.flags.includes('no_vertical_pull') && vp.exercise_id);
   const vf = sel.fills['Fri.BC3.s07'];
   assert.equal(vf.bucket, 'RP_HPULL');

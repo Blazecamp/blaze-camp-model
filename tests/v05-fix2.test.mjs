@@ -22,6 +22,7 @@ import { buildShape } from '../engine/shape.mjs';
 import { swapNote } from '../engine/library.mjs';
 import { isNearDuplicate } from '../engine/select.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2, UI_X2, CLASS_SKELETONS } from '../tools/fixture/v05-fix2.mjs';
+import { amendRulesV07, amendTemplatesV07 } from '../tools/fixture/v07-select.mjs';
 import { makeContext, scorePlan, SCORER_VERSION } from '../design/bench/score.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -53,7 +54,9 @@ describe('v0.5 fix round 2 - the amendment layer', () => {
     const r0 = clone(fx.rules), t0 = clone(fx.templates.families);
     const r1 = amendRulesX2(fx.rules), t1 = amendTemplatesX2(fx.templates.families);
     assert.deepEqual(fx.rules, r0); assert.deepEqual(fx.templates.families, t0);
-    assert.deepEqual(r1, fx.rules, 'the fixture already carries the layer'); assert.deepEqual(t1, fx.templates.families);
+    // (engine 0.7, converted - DECISIONS G-250 / G-262: the v0.7 layer rewrites some of the same sections - the 2-day templates, the
+    // skeleton lists, statuses the round-5 answers confirm - so the layer is idempotent on the built model once v0.7 is applied after it)
+    assert.deepEqual(amendRulesV07(r1), fx.rules, 'the fixture already carries the layer'); assert.deepEqual(amendTemplatesV07(t1), fx.templates.families);
     for (const e of fx.catalog.exercises) assert.deepEqual(amendExerciseX2(e), e, e.id);
     // the compiled model carries the same rules
     assert.deepEqual(raw.rules.selection.x2, fx.rules.selection.x2);
@@ -120,13 +123,17 @@ describe('v0.5 fix round 2 - sample 01 (swimming)', () => {
       if (!['RP_HPUSH', 'RP_VPUSH'].includes(x.it.bucket) || !x.it.exercise_id || x.d.optional) continue;
       const e = ex(x.it.exercise_id); presses++;
       assert.ok(!(e.tags.includes('fixed_grip') && /barbell/.test(e.id)), `w${x.w.n} ${x.d.weekday}: ${e.id}`);
-      if (x.it.bucket === 'RP_VPUSH') assert.ok(e.tags.includes('mid_range_push') || /incline/.test(e.id), `w${x.w.n} slot 3: ${e.id}`);
+      // (engine 0.7, converted - COACH-R5 R5-ATH-04, DECISIONS G-252: slot 3 stays the incline press; her one overhead press a week is
+      // joint care - role 'prehab', no muscle-set credit)
+      if (x.it.bucket === 'RP_VPUSH' && x.it.role !== 'prehab') assert.ok(e.tags.includes('mid_range_push') || /incline/.test(e.id), `w${x.w.n} slot 3: ${e.id}`);
     }
     assert.ok(presses > 0);
     assert.equal(check(p.validation, 'V4').pass, true);
-    // a thrower keeps his own one-arm press: the rule is named by hot-spot code, not by 'any sore shoulder'
+    // (engine 0.7, converted - COACH-R5 R5-ATH-04 'Also for throwers ... Yeah, but going overhead is also important', DECISIONS G-252:
+    // the pitcher is incline-first now, by his profile; he keeps an overhead press in the plan)
     const pit = benchOf('34');
-    assert.ok(allItems(pit).some(x => x.it.bucket === 'RP_VPUSH' && x.it.exercise_id && ex(x.it.exercise_id).laterality !== 'bilateral'), 'the pitcher holds a one-arm or alternating vertical press');
+    assert.ok(allItems(pit).some(x => x.it.bucket === 'RP_VPUSH' && x.it.exercise_id && ex(x.it.exercise_id).tags.includes('mid_range_push')), 'the pitcher holds an incline press');
+    assert.ok(allItems(pit).some(x => x.it.bucket === 'RP_VPUSH' && x.it.exercise_id && ex(x.it.exercise_id).tags.includes('overhead') && !ex(x.it.exercise_id).tags.includes('mid_range_push')), 'the pitcher keeps an overhead press');
   });
   it('R4-SES-05 (01 / 03): a 3-day athletic week with one B day takes the incline press in its "Chest / Shoulders" slot - three chest lifts, none above the level\'s sets on its own', () => {
     assert.equal(X2.chest_shoulders_single_b.max_press_days, 2);
@@ -322,7 +329,8 @@ describe('v0.5 fix round 2 - sample 05 (bootcamp)', () => {
     }
     assert.ok(codes(p).includes('no_vertical_pull'));
     const mon = allItems(p).filter(x => x.w.n === 1 && x.it.slot_id === 'Mon.BC1.s07')[0];
-    assert.ok(mon && ex(mon.it.exercise_id).credit_class === 'ISO_REAR' && mon.it.flags.includes('no_vertical_pull'), 'Monday\'s second back station is a rear-delt fly, not one more row');
+    // (engine 0.7, converted - COACH-R5 R5-CLS-02, DECISIONS G-260: the free station is a hip thrust or bridge, not a rear-delt fly)
+    assert.ok(mon && /hip-thrust|bridge/.test(mon.it.exercise_id) && (mon.it.why || []).some(y => y.key === 'why.circuit_free_station_hips'), 'Monday\'s second back station is a hip thrust or bridge, not one more row');
     assert.equal(swapNote(model, ex('lat-pulldown-wide-grip'), ex('seal-row-db-pronated-grip')).loses, 'swap.loses.vertical_pull');
     // every trained group holds its floor, the chest among them (RECHECK v0.4 05 major)
     // (converted in engine 0.7, G-234: COACH-R5 R5-CLS-03 sets 3 rounds for the block's first third, so a group under the floor in those
@@ -335,8 +343,11 @@ describe('v0.5 fix round 2 - sample 05 (bootcamp)', () => {
     }
     assert.ok(!codes(p).includes('below_floor_template'));
     // pulling stations are not outnumbered by pressing stations
+    // (engine 0.7, converted - COACH-R5 R5-CLS-02 'pressing then leads pulling by one station', DECISIONS G-260: the free pull-up
+    // station's hip thrust is that one-station lead)
     const cls = (it) => ex(it.exercise_id).credit_class, PP = R.volume.push_pull, circ = itemsOf(p.weeks[0]).filter(x => x.b.kind === 'circuit' && x.it.exercise_id).map(x => x.it);
-    assert.ok(circ.filter(it => PP.pull_classes.includes(cls(it))).length >= circ.filter(it => PP.push_classes.includes(cls(it))).length);
+    const freeHip = circ.filter(it => (it.why || []).some(y => y.key === 'why.circuit_free_station_hips')).length;
+    assert.ok(circ.filter(it => PP.pull_classes.includes(cls(it))).length + freeHip >= circ.filter(it => PP.push_classes.includes(cls(it))).length);
   });
   it('PRG-03 / CX-02 (05): the work time climbs in 5-s timer steps to 50 s, one more round in the last two weeks, and the last week\'s hold sits on an isolation exercise', () => {
     const BX = R.supersets.bootcamp.x2;

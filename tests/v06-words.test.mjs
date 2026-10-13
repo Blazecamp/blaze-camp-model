@@ -74,7 +74,10 @@ describe('05 M2 (R4-PRG-03, R4-PRG-02, CX-02): circuit progression from the real
     }
     const first = p.weeks[0].circuit, last = p.weeks[p.weeks.length - 1].circuit;
     const blk = unesc(renderPlan(p, model, { lang: 'en', view: 'block' }));
-    assert.ok(blk.includes(`${t('en', 'reps.rounds_work', first)} → ${t('en', 'reps.rounds_work', last)} |`), 'first -> last');
+    // (engine 0.7, converted - COACH-R5 R5-GRD-05, DECISIONS G-259: a station-by-station circuit day reads 'sets', a day in rounds
+    // 'rounds' - the row's first and last weeks may be in either format)
+    const fk = ['reps.rounds_work', 'reps.sets_work'];
+    assert.ok(fk.some(a => fk.some(z => blk.includes(`${t('en', a, first)} → ${t('en', z, last)} |`))), 'first -> last');
   });
 });
 

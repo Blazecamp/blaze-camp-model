@@ -22,6 +22,7 @@ import { athleticKeyOf, planAthletic, plannedAthletic as plannedAthleticOf, plan
 import { setCost, supersetMinutes } from './estimate.mjs';
 import { progressionRule } from './progression/prescription.mjs';
 import { videoOf, swapNotes, isCarry, carryReps, neverPick } from './library.mjs';
+import { applyBootcampFormat, applyNamedWods } from './classwork.mjs';
 
 export { ENGINE_VERSION } from './version.mjs';
 
@@ -195,6 +196,10 @@ function run(deps, intake, model, ropts = {}) {
   const collected = shape.weeks.map(ws => collectWeek(C, ws.n));
   C.athleticPlan = planAthletic(model, derived, shape, athletic, collected.map(col => athleticItemsOf(col, model)));
   const weeks = shape.weeks.map(ws => finishWeek(C, ws.n, collected[ws.n - 1]));
+  // engine 0.7 (COACH-R5 R5-GRD-05, R5-GRD-04): the bootcamp's two formats and the class workout's named benchmark workouts are
+  // decided on the whole week (engine/classwork.mjs); neither moves a muscle set
+  applyBootcampFormat(weeks, model, derived);
+  applyNamedWods(weeks, model, derived, shape);
   const plan = {
     schema: 'plan/2',
     status: 'ok',
@@ -1320,6 +1325,22 @@ function buildMeta(C, v, weeks = []) {
       }
       void X;
     }
+  }
+  // engine 0.7 (COACH-R5 R5-GRD-08 'warn against plyos if pain is more than a 6 on a scale 1-10 (10 being you need a hospital)'): a
+  // client with pain in an area a landing loads, whose plan holds lower-body jumps, reads the pain-scale line up front
+  {
+    const JW = model.rules.selection.v7 && model.rules.selection.v7.jump_pain_warning;
+    const painJ = JW && (d.pain || []).some(x => x && (JW.pain_areas || []).includes(x.area) && !(model.rules.volume.pain.refer_if_severity || []).includes(x.severity));
+    const jumps = painJ && weeks.some(w => (w.days || []).some(dd => (dd.blocks || []).some(b => (b.items || []).some(it => ['AP_PLYO', 'AP_JUMP_LIMITED_KNEE'].includes(it.bucket) && it.exercise_id && !(it.athletic && it.athletic.key === 'upper_contacts')))));
+    if (jumps && model.has('en', JW.key)) pushW({ code: 'jump_pain_scale', key: JW.key, args: { above: JW.above, max: JW.scale_max } });
+  }
+  // engine 0.7 (COACH-R5 R5-GRD-05 'vary bootcamp into circuit training not just horizontal set by set'): a plan whose circuit days use
+  // both formats says so once up front (each circuit then prints its own format line)
+  {
+    const BF = model.rules.supersets.v7 && model.rules.supersets.v7.bootcamp_format;
+    const fmts = new Set();
+    if (BF && BF.key) for (const w of weeks) for (const dd of w.days || []) for (const b of dd.blocks || []) for (const it of b.items || []) if (it.circuit && it.circuit.format) fmts.add(it.circuit.format);
+    if (fmts.size > 1 && model.has('en', BF.key)) pushW({ code: 'bootcamp_format', key: BF.key });
   }
   // v0.5 fix round 2 (samples 02 / 03; UNI-02 / UNI-03 against R4-SES-05 - 'the plan never says the dial was missed'): one line when
   // the two-leg share of the lower-body lifting sets ends more than 10 points above the sport's guide

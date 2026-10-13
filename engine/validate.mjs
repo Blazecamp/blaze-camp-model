@@ -1258,15 +1258,20 @@ function v29PushPull(c) {
   const PP = c.R.volume && c.R.volume.push_pull;
   const pushC = PP && Array.isArray(PP.push_classes) ? PP.push_classes : ['HPUSH', 'VPUSH', 'DIPS'];
   const pullC = PP && Array.isArray(PP.pull_classes) ? PP.pull_classes : ['HPULL', 'VPULL'];
+  // engine 0.7 (COACH-R5 R5-CLS-02 'a hip thrust or bridge (hips get more work; pressing then leads pulling by one station)'): the sets
+  // of a circuit's free pull-up station that takes a hip lift are the pressing lead the coach accepted (rules.selection.x2.circuit.stand_in)
+  const FS = c.R.selection && c.R.selection.x2 && c.R.selection.x2.circuit && c.R.selection.x2.circuit.stand_in && c.R.selection.x2.circuit.stand_in.RP_VPULL;
+  const freeKey = FS && FS.bucket !== 'ISO_SIDE_REAR_DELT' ? FS.why : null;
   for (const w of c.weeks) {
-    let push = 0, pull = 0;
+    let push = 0, pull = 0, lead = 0;
     for (const d of w.days || []) for (const b of d.blocks || []) for (const it of b.items || []) {
       const e = c.ex(it.exercise_id);
       if (!e || !it.sets || it.role === 'prehab') continue;
       if (pushC.includes(e.credit_class)) push += it.sets;
       else if (pullC.includes(e.credit_class)) pull += it.sets;
+      else if (freeKey && (it.why || []).some(y => y && y.key === freeKey)) lead += it.sets;
     }
-    if (push >= 4 && pull < 0.8 * push - EPS) out.push(viol({ week: w.n }, 'check.v29_push_pull', { pull, push }));
+    if (push >= 4 && pull + lead < 0.8 * push - EPS) out.push(viol({ week: w.n }, 'check.v29_push_pull', { pull, push }));
   }
   return out;
 }

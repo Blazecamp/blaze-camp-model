@@ -3222,9 +3222,10 @@
     "lighter_by": 1,
     "keep_sets": 2,
     "refs": [
-     "R2-ATH-07"
+     "R2-ATH-07",
+     "R5-ATH-05"
     ],
-    "status": "PROPOSED (fix round 1)"
+    "status": "approved (COACH-R5 R5-ATH-05): the session on the eve of a game is the lighter one"
    },
    "keep_climb_when_capped": true,
    "bonus_from_block_start": true,
@@ -6626,6 +6627,34 @@
     "R2-ATH-01"
    ],
    "status": "INFERRED (keeps the approved share band)"
+  },
+  "v7": {
+   "hold": {
+    "max_hold_weeks": 2,
+    "families": {
+     "jumps": [
+      "plyo_contacts",
+      "jump_contacts"
+     ],
+     "throws": [
+      "throws"
+     ],
+     "cuts": [
+      "cod_cuts"
+     ],
+     "sprint": [
+      "sprint_m"
+     ]
+    },
+    "refs": [
+     "R5-ATH-02",
+     "R3-VOL-04"
+    ],
+    "status": "approved (COACH-R5 R5-ATH-02 \"they may hold for up to 2 weeks, as long as they reach the block's final number\")"
+   },
+   "refs": [
+    "R5-ATH-02"
+   ]
   }
  },
  "olympic": {
@@ -7450,10 +7479,11 @@
     "heavy_hinge": true,
     "refs": [
      "ORD-03",
+     "R2-ATH-07",
      "R2-SES-06",
-     "R2-ATH-07"
+     "R5-ATH-11"
     ],
-    "status": "PROPOSED: the hard interval colour is never the day before top-speed sprints or the week's heavy hinge"
+    "status": "approved (COACH-R5 R5-ATH-11): the hard interval colour is never the day before top-speed sprints or the week's heavy hinge"
    },
    "refs": [
     "R3-ATH-05",
@@ -7461,6 +7491,1519 @@
     "R2-SES-06"
    ],
    "status": "PROPOSED (engine 0.6 selection package)"
+  },
+  "v7": {
+   "named_wods": {
+    "families": [
+     "hybrid_crossfit"
+    ],
+    "not_variant_re": "hyrox",
+    "girl_per_week": 1,
+    "hero_per_block": 1,
+    "hero_at": 0.75,
+    "benchmark_every_weeks": 3,
+    "never_spine_classes": [
+     "counted"
+    ],
+    "l2_plus_levels": [
+     "L3"
+    ],
+    "library": [
+     {
+      "id": "fran",
+      "kind": "girl",
+      "format": "for_time",
+      "cap": {
+       "L1": 10,
+       "L2": 10,
+       "L3": 10
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "barbell-thruster",
+         "db-thruster-front-squat-into-overhead-press"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          35,
+          45
+         ],
+         "L2": [
+          45,
+          65
+         ],
+         "L3": [
+          65,
+          95
+         ]
+        },
+        "load_scaled": {
+         "unit": "dumbbells",
+         "L1": [
+          15,
+          20
+         ],
+         "L2": [
+          20,
+          30
+         ],
+         "L3": [
+          30,
+          40
+         ]
+        }
+       },
+       {
+        "ids": [
+         "pull-up-grip-not-stated",
+         "jumping-pull-up",
+         "inverted-row"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        }
+       }
+      ],
+      "name": "Fran"
+     },
+     {
+      "id": "grace",
+      "kind": "girl",
+      "format": "for_time",
+      "cap": {
+       "L1": 10,
+       "L2": 8,
+       "L3": 8
+      },
+      "levels": [
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "power-clean-and-jerk"
+        ],
+        "reps": {
+         "L1": 20,
+         "L2": 30,
+         "L3": 30
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          45,
+          65
+         ],
+         "L2": [
+          65,
+          95
+         ],
+         "L3": [
+          95,
+          135
+         ]
+        }
+       }
+      ],
+      "name": "Grace"
+     },
+     {
+      "id": "helen",
+      "kind": "girl",
+      "format": "for_time",
+      "rounds": {
+       "L1": 2,
+       "L2": 3,
+       "L3": 3
+      },
+      "cap": {
+       "L1": 14,
+       "L2": 15,
+       "L3": 15
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "run-wod-station",
+         "calorie-effort-15-cal-bike-rower-ski"
+        ],
+        "metres": {
+         "L1": 200,
+         "L2": 400,
+         "L3": 400
+        },
+        "calories": {
+         "L1": 10,
+         "L2": 20,
+         "L3": 20
+        }
+       },
+       {
+        "ids": [
+         "kettlebell-swing-russian"
+        ],
+        "reps": {
+         "L1": 15,
+         "L2": 21,
+         "L3": 21
+        },
+        "load": {
+         "unit": "kettlebell",
+         "L1": [
+          18,
+          26
+         ],
+         "L2": [
+          26,
+          35
+         ],
+         "L3": [
+          35,
+          53
+         ]
+        }
+       },
+       {
+        "ids": [
+         "pull-up-grip-not-stated",
+         "jumping-pull-up",
+         "inverted-row"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": 9,
+         "L2": 12,
+         "L3": 12
+        }
+       }
+      ],
+      "name": "Helen"
+     },
+     {
+      "id": "cindy",
+      "kind": "girl",
+      "format": "amrap",
+      "cap": {
+       "L1": 15,
+       "L2": 20,
+       "L3": 20
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "pull-up-grip-not-stated",
+         "jumping-pull-up",
+         "inverted-row"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": 5,
+         "L2": 5,
+         "L3": 5
+        }
+       },
+       {
+        "ids": [
+         "push-up",
+         "kneeling-push-up"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 10,
+         "L2": 10,
+         "L3": 10
+        }
+       },
+       {
+        "ids": [
+         "bodyweight-squat-air-squat"
+        ],
+        "reps": {
+         "L1": 15,
+         "L2": 15,
+         "L3": 15
+        }
+       }
+      ],
+      "name": "Cindy"
+     },
+     {
+      "id": "annie",
+      "kind": "girl",
+      "format": "for_time",
+      "cap": {
+       "L1": 12,
+       "L2": 12,
+       "L3": 12
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "double-unders-jump-rope",
+         "jump-rope"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": "50-40-30-20-10",
+         "L2": "50-40-30-20-10",
+         "L3": "50-40-30-20-10"
+        }
+       },
+       {
+        "ids": [
+         "sit-up"
+        ],
+        "reps": {
+         "L1": "25-20-15-10-5",
+         "L2": "50-40-30-20-10",
+         "L3": "50-40-30-20-10"
+        }
+       }
+      ],
+      "name": "Annie"
+     },
+     {
+      "id": "diane",
+      "kind": "girl",
+      "format": "for_time",
+      "cap": {
+       "L1": 12,
+       "L2": 10,
+       "L3": 10
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "barbell-deadlift-conventional",
+         "dumbbell-deadlift"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          65,
+          95
+         ],
+         "L2": [
+          95,
+          135
+         ],
+         "L3": [
+          135,
+          225
+         ]
+        },
+        "load_scaled": {
+         "unit": "dumbbells",
+         "L1": [
+          20,
+          30
+         ],
+         "L2": [
+          30,
+          45
+         ],
+         "L3": [
+          45,
+          60
+         ]
+        }
+       },
+       {
+        "ids": [
+         "handstand-push-up-wall-supported",
+         "pike-push-up",
+         "push-up",
+         "kneeling-push-up"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        }
+       }
+      ],
+      "name": "Diane"
+     },
+     {
+      "id": "elizabeth",
+      "kind": "girl",
+      "format": "for_time",
+      "cap": {
+       "L1": 12,
+       "L2": 12,
+       "L3": 12
+      },
+      "levels": [
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "clean-squat-clean",
+         "hang-power-clean-from-the-high-hang-hip-crease"
+        ],
+        "scaled_first": [
+         "L2"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          45,
+          65
+         ],
+         "L2": [
+          65,
+          95
+         ],
+         "L3": [
+          95,
+          135
+         ]
+        }
+       },
+       {
+        "ids": [
+         "parallel-bar-dip",
+         "bench-dip"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        }
+       }
+      ],
+      "name": "Elizabeth"
+     },
+     {
+      "id": "isabel",
+      "kind": "girl",
+      "format": "for_time",
+      "cap": {
+       "L1": 10,
+       "L2": 10,
+       "L3": 10
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "hang-power-snatch-from-the-high-hang",
+         "single-arm-db-snatch"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": 20,
+         "L2": 30,
+         "L3": 30
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          45,
+          65
+         ],
+         "L2": [
+          65,
+          95
+         ],
+         "L3": [
+          95,
+          135
+         ]
+        },
+        "load_scaled": {
+         "unit": "dumbbells",
+         "L1": [
+          15,
+          25
+         ],
+         "L2": [
+          25,
+          35
+         ],
+         "L3": [
+          35,
+          50
+         ]
+        }
+       }
+      ],
+      "name": "Isabel"
+     },
+     {
+      "id": "jackie",
+      "kind": "girl",
+      "format": "for_time",
+      "cap": {
+       "L1": 14,
+       "L2": 14,
+       "L3": 14
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "calorie-effort-15-cal-bike-rower-ski"
+        ],
+        "calories": {
+         "L1": 30,
+         "L2": 50,
+         "L3": 60
+        }
+       },
+       {
+        "ids": [
+         "barbell-thruster",
+         "db-thruster-front-squat-into-overhead-press"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 30,
+         "L2": 50,
+         "L3": 50
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          35,
+          45
+         ],
+         "L2": [
+          45,
+          45
+         ],
+         "L3": [
+          45,
+          45
+         ]
+        },
+        "load_scaled": {
+         "unit": "dumbbells",
+         "L1": [
+          10,
+          15
+         ],
+         "L2": [
+          15,
+          20
+         ],
+         "L3": [
+          20,
+          25
+         ]
+        }
+       },
+       {
+        "ids": [
+         "pull-up-grip-not-stated",
+         "jumping-pull-up",
+         "inverted-row"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": 20,
+         "L2": 30,
+         "L3": 30
+        }
+       }
+      ],
+      "name": "Jackie"
+     },
+     {
+      "id": "karen",
+      "kind": "girl",
+      "format": "for_time",
+      "cap": {
+       "L1": 10,
+       "L2": 12,
+       "L3": 12
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "wall-ball-medball-squat-to-target"
+        ],
+        "reps": {
+         "L1": 75,
+         "L2": 100,
+         "L3": 150
+        },
+        "load": {
+         "unit": "medball",
+         "L1": [
+          10,
+          14
+         ],
+         "L2": [
+          14,
+          20
+         ],
+         "L3": [
+          14,
+          20
+         ]
+        }
+       }
+      ],
+      "name": "Karen"
+     },
+     {
+      "id": "nancy",
+      "kind": "girl",
+      "format": "for_time",
+      "rounds": {
+       "L1": 3,
+       "L2": 4,
+       "L3": 5
+      },
+      "cap": {
+       "L1": 18,
+       "L2": 20,
+       "L3": 20
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "run-wod-station",
+         "calorie-effort-15-cal-bike-rower-ski"
+        ],
+        "metres": {
+         "L1": 400,
+         "L2": 400,
+         "L3": 400
+        },
+        "calories": {
+         "L1": 20,
+         "L2": 20,
+         "L3": 20
+        }
+       },
+       {
+        "ids": [
+         "barbell-overhead-squat",
+         "goblet-squat-kb-db"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 15,
+         "L2": 15,
+         "L3": 15
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          35,
+          45
+         ],
+         "L2": [
+          45,
+          65
+         ],
+         "L3": [
+          65,
+          95
+         ]
+        },
+        "load_scaled": {
+         "unit": "dumbbells",
+         "L1": [
+          20,
+          30
+         ],
+         "L2": [
+          30,
+          40
+         ],
+         "L3": [
+          40,
+          50
+         ]
+        }
+       }
+      ],
+      "name": "Nancy"
+     },
+     {
+      "id": "kelly",
+      "kind": "girl",
+      "format": "for_time",
+      "rounds": {
+       "L1": 3,
+       "L2": 4,
+       "L3": 5
+      },
+      "cap": {
+       "L1": 25,
+       "L2": 30,
+       "L3": 30
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "run-wod-station",
+         "calorie-effort-15-cal-bike-rower-ski"
+        ],
+        "metres": {
+         "L1": 400,
+         "L2": 400,
+         "L3": 400
+        },
+        "calories": {
+         "L1": 20,
+         "L2": 20,
+         "L3": 20
+        }
+       },
+       {
+        "ids": [
+         "mid-box-jump-knee-height",
+         "step-up-forward-and-lateral"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 15,
+         "L2": 30,
+         "L3": 30
+        }
+       },
+       {
+        "ids": [
+         "wall-ball-medball-squat-to-target"
+        ],
+        "reps": {
+         "L1": 15,
+         "L2": 30,
+         "L3": 30
+        },
+        "load": {
+         "unit": "medball",
+         "L1": [
+          10,
+          14
+         ],
+         "L2": [
+          14,
+          20
+         ],
+         "L3": [
+          14,
+          20
+         ]
+        }
+       }
+      ],
+      "name": "Kelly"
+     },
+     {
+      "id": "chelsea",
+      "kind": "girl",
+      "format": "emom",
+      "cap": {
+       "L1": 15,
+       "L2": 20,
+       "L3": 30
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "pull-up-grip-not-stated",
+         "jumping-pull-up",
+         "inverted-row"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": 5,
+         "L2": 5,
+         "L3": 5
+        }
+       },
+       {
+        "ids": [
+         "push-up",
+         "kneeling-push-up"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 10,
+         "L2": 10,
+         "L3": 10
+        }
+       },
+       {
+        "ids": [
+         "bodyweight-squat-air-squat"
+        ],
+        "reps": {
+         "L1": 15,
+         "L2": 15,
+         "L3": 15
+        }
+       }
+      ],
+      "name": "Chelsea"
+     },
+     {
+      "id": "murph",
+      "kind": "hero",
+      "format": "for_time",
+      "cap": {
+       "L1": 30,
+       "L2": 45,
+       "L3": 60
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "run-wod-station",
+         "calorie-effort-15-cal-bike-rower-ski"
+        ],
+        "metres": {
+         "L1": 400,
+         "L2": 800,
+         "L3": 1600
+        },
+        "calories": {
+         "L1": 20,
+         "L2": 40,
+         "L3": 80
+        }
+       },
+       {
+        "ids": [
+         "pull-up-grip-not-stated",
+         "jumping-pull-up",
+         "inverted-row"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 100
+        }
+       },
+       {
+        "ids": [
+         "push-up",
+         "kneeling-push-up"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 50,
+         "L2": 100,
+         "L3": 200
+        }
+       },
+       {
+        "ids": [
+         "bodyweight-squat-air-squat"
+        ],
+        "reps": {
+         "L1": 75,
+         "L2": 150,
+         "L3": 300
+        }
+       },
+       {
+        "ids": [
+         "run-wod-station",
+         "calorie-effort-15-cal-bike-rower-ski"
+        ],
+        "metres": {
+         "L1": 400,
+         "L2": 800,
+         "L3": 1600
+        },
+        "calories": {
+         "L1": 20,
+         "L2": 40,
+         "L3": 80
+        }
+       }
+      ],
+      "name": "Murph"
+     },
+     {
+      "id": "dt",
+      "kind": "hero",
+      "format": "for_time",
+      "rounds": {
+       "L1": 3,
+       "L2": 5,
+       "L3": 5
+      },
+      "cap": {
+       "L1": 15,
+       "L2": 15,
+       "L3": 15
+      },
+      "levels": [
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "barbell-deadlift-conventional",
+         "dumbbell-deadlift"
+        ],
+        "reps": {
+         "L1": 12,
+         "L2": 12,
+         "L3": 12
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          65,
+          85
+         ],
+         "L2": [
+          85,
+          115
+         ],
+         "L3": [
+          115,
+          155
+         ]
+        },
+        "load_scaled": {
+         "unit": "dumbbells",
+         "L1": [
+          20,
+          30
+         ],
+         "L2": [
+          30,
+          45
+         ],
+         "L3": [
+          45,
+          60
+         ]
+        }
+       },
+       {
+        "ids": [
+         "hang-power-clean-from-the-high-hang-hip-crease"
+        ],
+        "reps": {
+         "L1": 9,
+         "L2": 9,
+         "L3": 9
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          65,
+          85
+         ],
+         "L2": [
+          85,
+          115
+         ],
+         "L3": [
+          115,
+          155
+         ]
+        }
+       },
+       {
+        "ids": [
+         "barbell-push-jerk",
+         "barbell-push-press"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": 6,
+         "L2": 6,
+         "L3": 6
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          65,
+          85
+         ],
+         "L2": [
+          85,
+          115
+         ],
+         "L3": [
+          115,
+          155
+         ]
+        }
+       }
+      ],
+      "name": "DT"
+     },
+     {
+      "id": "michael",
+      "kind": "hero",
+      "format": "for_time",
+      "rounds": {
+       "L1": 2,
+       "L2": 3,
+       "L3": 3
+      },
+      "cap": {
+       "L1": 30,
+       "L2": 35,
+       "L3": 40
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "run-wod-station",
+         "calorie-effort-15-cal-bike-rower-ski"
+        ],
+        "metres": {
+         "L1": 400,
+         "L2": 800,
+         "L3": 800
+        },
+        "calories": {
+         "L1": 20,
+         "L2": 40,
+         "L3": 40
+        }
+       },
+       {
+        "ids": [
+         "45-degree-hyperextension-back-hip-extension"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        }
+       },
+       {
+        "ids": [
+         "sit-up"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        }
+       }
+      ],
+      "name": "Michael"
+     },
+     {
+      "id": "jt",
+      "kind": "hero",
+      "format": "for_time",
+      "cap": {
+       "L1": 15,
+       "L2": 15,
+       "L3": 15
+      },
+      "levels": [
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "handstand-push-up-wall-supported",
+         "pike-push-up"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        }
+       },
+       {
+        "ids": [
+         "parallel-bar-dip",
+         "bench-dip"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        }
+       },
+       {
+        "ids": [
+         "push-up",
+         "kneeling-push-up"
+        ],
+        "reps": {
+         "L1": "15-12-9",
+         "L2": "21-15-9",
+         "L3": "21-15-9"
+        }
+       }
+      ],
+      "name": "JT"
+     },
+     {
+      "id": "filthy_fifty",
+      "kind": "benchmark",
+      "format": "for_time",
+      "cap": {
+       "L1": 25,
+       "L2": 30,
+       "L3": 35
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "mid-box-jump-knee-height",
+         "step-up-forward-and-lateral"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        }
+       },
+       {
+        "ids": [
+         "jumping-pull-up",
+         "inverted-row"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        }
+       },
+       {
+        "ids": [
+         "kettlebell-swing-russian"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        },
+        "load": {
+         "unit": "kettlebell",
+         "L1": [
+          18,
+          26
+         ],
+         "L2": [
+          26,
+          35
+         ],
+         "L3": [
+          35,
+          53
+         ]
+        }
+       },
+       {
+        "ids": [
+         "walking-lunge"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        }
+       },
+       {
+        "ids": [
+         "knees-to-chest-hanging",
+         "sit-up"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        }
+       },
+       {
+        "ids": [
+         "barbell-push-press",
+         "db-push-press"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          35,
+          45
+         ],
+         "L2": [
+          45,
+          45
+         ],
+         "L3": [
+          45,
+          45
+         ]
+        },
+        "load_scaled": {
+         "unit": "dumbbells",
+         "L1": [
+          10,
+          15
+         ],
+         "L2": [
+          15,
+          20
+         ],
+         "L3": [
+          20,
+          25
+         ]
+        }
+       },
+       {
+        "ids": [
+         "45-degree-hyperextension-back-hip-extension"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        }
+       },
+       {
+        "ids": [
+         "wall-ball-medball-squat-to-target"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        },
+        "load": {
+         "unit": "medball",
+         "L1": [
+          10,
+          14
+         ],
+         "L2": [
+          14,
+          20
+         ],
+         "L3": [
+          14,
+          20
+         ]
+        }
+       },
+       {
+        "ids": [
+         "burpees"
+        ],
+        "reps": {
+         "L1": 25,
+         "L2": 50,
+         "L3": 50
+        }
+       },
+       {
+        "ids": [
+         "double-unders-jump-rope",
+         "jump-rope"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 50,
+         "L2": 50,
+         "L3": 50
+        }
+       }
+      ],
+      "name": "Filthy Fifty"
+     },
+     {
+      "id": "the_chief",
+      "kind": "benchmark",
+      "format": "amrap",
+      "cap": {
+       "L1": 11,
+       "L2": 19,
+       "L3": 19
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "power-clean",
+         "kb-squat-clean"
+        ],
+        "scaled_first": [
+         "L1",
+         "L2"
+        ],
+        "reps": {
+         "L1": 3,
+         "L2": 3,
+         "L3": 3
+        },
+        "load": {
+         "unit": "barbell",
+         "L1": [
+          45,
+          65
+         ],
+         "L2": [
+          65,
+          95
+         ],
+         "L3": [
+          95,
+          135
+         ]
+        },
+        "load_scaled": {
+         "unit": "kettlebell",
+         "L1": [
+          18,
+          26
+         ],
+         "L2": [
+          26,
+          35
+         ],
+         "L3": [
+          35,
+          53
+         ]
+        }
+       },
+       {
+        "ids": [
+         "push-up",
+         "kneeling-push-up"
+        ],
+        "scaled_first": [
+         "L1"
+        ],
+        "reps": {
+         "L1": 6,
+         "L2": 6,
+         "L3": 6
+        }
+       },
+       {
+        "ids": [
+         "bodyweight-squat-air-squat"
+        ],
+        "reps": {
+         "L1": 9,
+         "L2": 9,
+         "L3": 9
+        }
+       }
+      ],
+      "name": "The Chief"
+     },
+     {
+      "id": "death_by_burpees",
+      "kind": "benchmark",
+      "format": "emom",
+      "cap": {
+       "L1": 10,
+       "L2": 12,
+       "L3": 15
+      },
+      "levels": [
+       "L1",
+       "L2",
+       "L3"
+      ],
+      "movements": [
+       {
+        "ids": [
+         "burpees"
+        ],
+        "reps": {
+         "L1": "1, 2, 3 ...",
+         "L2": "1, 2, 3 ...",
+         "L3": "1, 2, 3 ..."
+        }
+       }
+      ],
+      "name": "Death by Burpees"
+     }
+    ],
+    "refs": [
+     "R5-GRD-04",
+     "PRG-10"
+    ],
+    "status": "approved rule (COACH-R5 R5-GRD-04); PROPOSED: the library (standard CrossFit community prescriptions), the scaling by level, the week a Hero workout falls on (three quarters into the block) and a benchmark every 3 weeks"
+   },
+   "refs": [
+    "R5-GRD-04"
+   ]
   }
  },
  "equipment": {
@@ -8160,6 +9703,16 @@
     "per_week": 2,
     "days": "any",
     "sets": 2
+   },
+   "OVERHEAD_HEALTH": {
+    "bucket": "RP_VPUSH",
+    "per_week": 1,
+    "days": "no_vpush",
+    "sets": 2,
+    "refs": [
+     "R5-ATH-04"
+    ],
+    "status": "approved (COACH-R5 R5-ATH-04 \"overhead pressing should be included for health\"); PROPOSED: once a week, 2 light sets, as joint care"
    }
   },
   "block": "prehab",
@@ -8204,7 +9757,19 @@
     "kb-face-pull",
     "floor-prone-y-t-raises"
    ],
-   "NECK": []
+   "NECK": [],
+   "OVERHEAD_HEALTH": [
+    "tall-kneeling-db-overhead-press",
+    "db-z-press-seated-on-floor",
+    "seated-machine-shoulder-press",
+    "standing-db-overhead-press",
+    "alternating-db-overhead-press",
+    "tall-kneeling-barbell-overhead-press",
+    "barbell-z-press-seated-on-floor",
+    "standing-barbell-overhead-press-strict",
+    "half-kneeling-single-arm-landmine-press",
+    "pike-push-up"
+   ]
   },
   "skip_if_week_has_same": true,
   "per_day_max": 2,
@@ -9628,9 +11193,10 @@
      ],
      "enabled": true,
      "refs": [
-      "R4-LIB-01"
+      "R4-LIB-01",
+      "R5-CLS-04"
      ],
-     "status": "PROPOSED reading of \"maybe in the CrossFit program\" (R4-LIB-01): on for the class WOD; set enabled false to keep them out"
+     "status": "approved (COACH-R5 R5-CLS-04): on in the class workout; set enabled false to switch them off"
     }
    ],
    "offer": {
@@ -9787,10 +11353,12 @@
    ],
    "lead_row": {
     "skeletons": [
-     "gym_A",
      "athletic_A",
+     "athletic_FB1",
+     "class_pull",
      "class_squat",
-     "class_pull"
+     "gym_A",
+     "gym_FB1"
     ],
     "bucket": "RP_HPULL",
     "penalty": -6
@@ -10025,8 +11593,10 @@
    "core_primary": {
     "live_only": true,
     "low_back_allow_ids": [
+     "bird-dogs",
      "dead-bugs",
-     "bird-dogs"
+     "pallof-press",
+     "side-plank-elbow"
     ],
     "low_back_repeat_first": true,
     "never_tags": [
@@ -10062,7 +11632,8 @@
      "R2-SES-03",
      "CAT-05"
     ],
-    "status": "approved rule (R4-LIB-01: his live exercises are the template picks); PROPOSED: the two reference drills kept for the low-back opener, the exempt side plank, the weights"
+    "status": "approved rule (R4-LIB-01: his live exercises are the template picks); PROPOSED: the two reference drills kept for the low-back opener, the exempt side plank, the weights",
+    "low_back_status": "approved (COACH-R5 R5-LIB-02)"
    },
    "incline_first_hotspot_codes": [
     "SHOULDER_SWIMMER"
@@ -10136,13 +11707,22 @@
       "not_home": true
      },
      "RP_VPULL": {
-      "bucket": "ISO_SIDE_REAR_DELT",
+      "bucket": "RP_BHD",
       "classes": [
-       "ISO_REAR"
+       "GLUTE_ISO"
       ],
-      "why": "why.circuit_hand_over",
+      "also_buckets": [
+       "RP_UHD"
+      ],
+      "id_re": "(hip-thrust|glute-bridge|bridge)",
+      "why": "why.circuit_free_station_hips",
       "when": "no_vertical_pull",
-      "not_own": true
+      "not_own": true,
+      "refs": [
+       "R5-CLS-02",
+       "OT06"
+      ],
+      "status": "approved (COACH-R5 R5-CLS-02)"
      }
     },
     "lead_row_two_arm": -6,
@@ -10211,16 +11791,17 @@
      "chest-supported-row"
     ],
     "refs": [
+     "PER-04",
      "R4-LIB-01",
-     "PER-04"
+     "R5-LIB-01"
     ],
-    "status": "PROPOSED pending the coach's answer (STATUS open question 8): reference-tab rows as picks only when the kit holds no library two-arm row"
+    "status": "approved (COACH-R5 R5-LIB-01): in a small kit with no library two-arm row the two-arm bent-over DB row and the chest-supported DB row are regular picks"
    }
   },
   "s6": {
    "core": {
     "low_back_list_only_with_pain": true,
-    "hotspot_list_from_age": 50,
+    "hotspot_list_from_age": null,
     "hotspot_anti_bonus": 2,
     "hotspot_flexion_re": "weighted|sit-up|crunch|v-up|leg-raise|toes-to-bar|knees-to-chest",
     "hotspot_flexion": -2,
@@ -10233,7 +11814,8 @@
      "CAT-08",
      "R4-SES-05"
     ],
-    "status": "approved rules (R2-SES-03 light opener; PER-02 one change a block); PROPOSED: the weights and the one-core-change-a-day reading"
+    "status": "approved rules (R2-SES-03 light opener; PER-02 one change a block); PROPOSED: the weights and the one-core-change-a-day reading",
+    "hotspot_status": "COACH-R5 R5-ATH-08: the low-back list only with reported low-back pain, at any age (the 50+ reading of G-131 is retired)"
    },
    "jumps": {
     "start_stages": [
@@ -10249,12 +11831,13 @@
      "bonus": 8
     },
     "refs": [
-     "R2-ATH-03",
-     "CAT-13",
      "CAT-10",
+     "CAT-13",
+     "R2-ATH-03",
+     "R5-ATH-10",
      "UNI-12"
     ],
-    "status": "approved stages (R2-ATH-03); PROPOSED: the per-day single-leg / lateral station and its weight"
+    "status": "approved (COACH-R5 R5-ATH-10): a cutting sport holds a single-leg or lateral jump every training day, a two-foot lateral jump in the first stage; the stages are R2-ATH-03"
    },
    "olympic_safe": {
     "when_pain": true,
@@ -10271,11 +11854,12 @@
      "L1"
     ],
     "refs": [
-     "EQ-03",
      "ATH-10",
-     "R3-ATH-02"
+     "EQ-03",
+     "R3-ATH-02",
+     "R5-ATH-09"
     ],
-    "status": "approved rule (EQ-03, ATH-10); PROPOSED: the play-day threshold (3, the heavy play week of R3-ATH-05)"
+    "status": "approved (COACH-R5 R5-ATH-09): KB swing or DB / KB high pull instead of snatches and barbell cleans with pain, 3 or more play days a week, or a 50+ racket player"
    },
    "block_change": {
     "keep_upper_laterality_skeleton_prefixes": [
@@ -10300,11 +11884,12 @@
     "bucket": "COND_CIRCUIT",
     "ballistic_penalty": -14,
     "refs": [
-     "PRG-03",
      "OT06",
-     "R4-SES-05"
+     "PRG-03",
+     "R4-SES-05",
+     "R5-CLS-06"
     ],
-    "status": "OBSERVED station (his OPTION 2 Cardio slot); PROPOSED: the weight"
+    "status": "approved (COACH-R5 R5-CLS-06): the bootcamp cardio station takes plain cardio first; a KB swing or a ball slam is a swap the person can choose"
    },
    "arm_slot": {
     "every_athletic_day": true,
@@ -10326,6 +11911,138 @@
     "CH5-02"
    ],
    "status": "PROPOSED (engine 0.6 selection package): readings of approved answers from the round-4 coach-eye reviews; arm_slot approved (CH5-02)"
+  },
+  "v7": {
+   "two_day_full_body": {
+    "skeletons": {
+     "gym_FB1": "gym_A",
+     "gym_FB2": "gym_B",
+     "athletic_FB1": "athletic_A",
+     "athletic_FB2": "athletic_B"
+    },
+    "day1": [
+     "RP_HPULL",
+     "RP_BKD",
+     "RP_VPUSH",
+     "RP_UHD"
+    ],
+    "day2": [
+     "RP_HPUSH",
+     "RP_BHD",
+     "RP_VPULL",
+     "RP_UKD"
+    ],
+    "chest_shoulders_skeletons": [
+     "athletic_FB1",
+     "gym_FB1"
+    ],
+    "refs": [
+     "R5-GEN-01",
+     "R4-SES-05",
+     "R4-SES-03",
+     "CH5-02",
+     "UNI-11"
+    ],
+    "status": "approved (COACH-R5 R5-GEN-01 \"two full-body days would be more beneficial\"); PROPOSED: which slots go to which day (each day a knee lift with a pull and a hip lift with a push; both upper vectors and both lower patterns over the two days)"
+   },
+   "incline_overhead": {
+    "profile_re": "^(baseball_|softball|rec_softball$|track_javelin$|volleyball|rec_volleyball$)",
+    "keep_overhead_hotspot_codes": [
+     "SHOULDER_SWIMMER"
+    ],
+    "keep_overhead": {
+     "per_week_min": 1,
+     "slots_min": 2,
+     "weight": 8,
+     "not_tags": [
+      "mid_range_push",
+      "push_press",
+      "push_jerk"
+     ],
+     "tag": "overhead"
+    },
+    "one_slot_care": {
+     "code": "OVERHEAD_HEALTH"
+    },
+    "refs": [
+     "R5-ATH-04",
+     "R4-LIB-03",
+     "R3-ATH-01"
+    ],
+    "status": "approved (COACH-R5 R5-ATH-04 \"we bias incline pressing for strength, but overhead pressing should be included for health\"); PROPOSED: one overhead press a week (the last vertical-push slot of the week; with one such slot a week, the last exercise block of the training block) and the profiles read as throwers and volleyball"
+   },
+   "jumps": {
+    "buckets": [
+     "AP_PLYO",
+     "AP_JUMP_LIMITED_KNEE"
+    ],
+    "high_tags": [
+     "hurdle_hop",
+     "depth_jump",
+     "high_depth_drop",
+     "high_impact",
+     "bound"
+    ],
+    "high_id_re": "(^|-)(tuck|broad|mid-box|high-box|squirrel|repeat-jumps|bounding|skater|right-angle-hurdle)(-|$)",
+    "cap_offset": 1,
+    "max_level": 4,
+    "over_penalty": -10,
+    "lean_penalty": -2,
+    "return_penalty": -12,
+    "stay_low_penalty": -10,
+    "never_first_block_re": "hurdle",
+    "never_first_block_tags": [
+     "hurdle_hop"
+    ],
+    "refs": [
+     "R5-GRD-03",
+     "R5-ATH-10",
+     "CAT-10",
+     "R2-ATH-03"
+    ],
+    "status": "approved (COACH-R5 R5-GRD-03 \"start with jump rope then bilateral high hops, then unilateral easy hops to then hurdle hop overs\"); PROPOSED: the four levels read on the records, one level a block, the penalty weight"
+   },
+   "assisted_jumps": {
+    "pain_areas": [
+     "knee"
+    ],
+    "tag": "assisted",
+    "only_with_pain": true,
+    "assisted_blocks": 1,
+    "level_shift": 1,
+    "bonus": 30,
+    "other_penalty": -30,
+    "second_same_day": -32,
+    "refs": [
+     "R5-GRD-08",
+     "EQ-01",
+     "VOL-03"
+    ],
+    "status": "approved (COACH-R5 R5-GRD-08 \"when knee pain, don't start with bodyweight plyos, you can start them assisted plyos\"); PROPOSED: one exercise block assisted, the records"
+   },
+   "jump_pain_warning": {
+    "pain_areas": [
+     "knee",
+     "ankle_foot",
+     "hip_groin",
+     "lower_back"
+    ],
+    "above": 6,
+    "scale_max": 10,
+    "key": "warning.jump_pain_scale",
+    "refs": [
+     "R5-GRD-08"
+    ],
+    "status": "approved (COACH-R5 R5-GRD-08); PROPOSED: the pain areas that read it (the ones a landing loads)"
+   },
+   "refs": [
+    "R5-GEN-01",
+    "R5-ATH-04",
+    "R5-GRD-03",
+    "R5-GRD-08",
+    "R5-ATH-10"
+   ],
+   "status": "engine 0.7 selection package (coach answers round 5)"
   }
  },
  "ordering": {
@@ -10609,6 +12326,27 @@
     "CT-01"
    ],
    "status": "recommendation approved (R3-SES-02); pair list PROPOSED"
+  },
+  "v7": {
+   "bootcamp_format": {
+    "families": [
+     "fat_loss_bootcamp"
+    ],
+    "formats": [
+     "rounds",
+     "stations"
+    ],
+    "split": "alternate_days_flip_each_block",
+    "key": "warning.bootcamp_format",
+    "refs": [
+     "R5-GRD-05",
+     "PRG-03"
+    ],
+    "status": "approved (COACH-R5 R5-GRD-05 \"vary bootcamp into circuit training not just horizontal set by set per muscle\"); PROPOSED: the split - the week's circuit days alternate the two formats, and each exercise block swaps them"
+   },
+   "refs": [
+    "R5-GRD-05"
+   ]
   }
  },
  "plan_types": {
@@ -11620,11 +13358,15 @@
     ],
     "partner": {
      "skeleton_prefixes": [
+      "athletic_A",
+      "athletic_B",
+      "athletic_FB1",
+      "athletic_FB2",
       "class_",
       "gym_A",
       "gym_B",
-      "athletic_A",
-      "athletic_B"
+      "gym_FB1",
+      "gym_FB2"
      ],
      "knee": [
       "RP_BKD",

@@ -245,10 +245,12 @@ describe('v0.6 volume - CX-02 / R4-PRG-03 one step an exercise, the real change 
 });
 
 describe('v0.6 volume - CX-03 a circuit above its top is said (05 M3)', () => {
-  it('CX-03 (G-110, 05): the bootcamp\'s shoulders above their top of 18 are named in meta.stairway and up front, EN and ES', () => {
+  // (engine 0.7, converted - COACH-R5 R5-CLS-02, DECISIONS G-260: the free pull-up station is a hip thrust, no longer a rear-delt fly,
+  // so the group a circuit round takes above its top of 18 is the hips, not the shoulders - still named and said)
+  it('CX-03 (G-110, 05): the bootcamp\'s group above its top of 18 (the hips, with the free station\'s hip thrust) is named in meta.stairway and up front, EN and ES', () => {
     const p = planOf('05');
     const st = p.meta.stairway[0];
-    const o = (st.over_top || []).find(x => x.group === 'shoulders');
+    const o = (st.over_top || []).find(x => x.group === 'hips');
     assert.ok(o && o.top === 18 && o.held > 18, JSON.stringify(st.over_top));
     assert.ok(codes(p).includes('circuit_over_top'));
     assert.match(renderPlan(p, model, { lang: 'en' }), /above its usual top of 18/);

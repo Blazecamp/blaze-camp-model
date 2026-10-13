@@ -105,6 +105,18 @@
 //   * session size        a day whose stated reason is in rules.validation.v05.size_plus_whys (R5-VOL-10, G-233: the racket player's
 //                         calf raise on both days) may hold rules.session.x7.racket_calf_both_days.size_plus exercises more.
 //                         Without the four keys the scorer reads as 2.5.
+// Scorer 2.6 (engine 0.7 selection package, DECISIONS G-250 ...): the coach's newer answer changes what a template day is:
+//   * skeleton            COACH-R5 R5-GEN-01 ('Two full-body days would be more beneficial'): on a 2-day week the A / B days are two
+//                         full-body days built from his slots - day 1 = horizontal pull, squat, vertical / incline push, single-leg
+//                         hinge (+ biceps, leg extension); day 2 = horizontal push, hinge, vertical pull, lunge (+ triceps, leg curl).
+//                         The skeleton ids gym_FB1 / gym_FB2 / athletic_FB1 / athletic_FB2 are read like gym_A / gym_B: their compound
+//                         slots, their small slots on the gym days, and each day's patterns (pull + knee + push + hip). Without the
+//                         reading every 2-day plan would score its template days as 'not the coach's'.
+//   * push_pull_ratio     COACH-R5 R5-CLS-02 ('a hip thrust or bridge (hips get more work; pressing then leads pulling by one
+//                         station)'): a bootcamp circuit's free pull-up station that takes a hip lift counts with the pulls, as V29 reads
+//                         it. Without the reading every no-bar bootcamp plan (sample 05, bench 78) scores a 0.75 week the coach chose.
+//   * rest_out_of_class   COACH-R5 R5-ATH-04 (G-252): a joint-care item (role 'prehab') rests as joint care, also when its slot holds a
+//                         lifting pattern - the weekly shoulder-health overhead press of an incline-first athlete.
 export const SCORER_VERSION = '2.6';
 export const SCORE_SCHEMA = 'bench-score/2';
 
@@ -363,11 +375,11 @@ function resolveParams(R, overrides = {}) {
   // R4-SES-05 in the coach's words: Day A = horizontal pull, squat, vertical pull, lunge, biceps, leg extension; Day B = horizontal
   // push, hinge / hip thrust, vertical or incline push, unilateral hinge, triceps, leg curl. The compound slots are read on every
   // A / B skeleton (the gym days and the athletic days, 'athletic block, then the same A / B lifts'); the two small slots on the gym days.
-  put('ab_compound_slots', { A: ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD'], B: ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD'] }, 'COACH-R4 R4-SES-05 (slots 1-4 of Day A / Day B)');
-  put('ab_small_slots', { A: ['ISO_BICEP', 'ISO_QUAD'], B: ['ISO_TRICEP', 'ISO_LEG_FLEXION'] }, 'COACH-R4 R4-SES-05 (slots 5-6 of Day A / Day B, gym skeletons)');
-  put('skeleton_day_of', { gym_A: 'A', athletic_A: 'A', gym_B: 'B', athletic_B: 'B' }, 'engine/DECISIONS G-04 (skeleton ids of the templates)');
-  put('skeleton_gym', ['gym_A', 'gym_B'], 'engine/DECISIONS G-04');
-  put('skeleton_patterns', { gym_A: ['pull', 'knee'], athletic_A: ['pull', 'knee'], gym_B: ['push', 'hip'], athletic_B: ['push', 'hip'], ppl_push: ['push'], ppl_pull: ['pull'], ppl_legs: ['knee', 'hip'] },
+  put('ab_compound_slots', { A: ['RP_HPULL', 'RP_BKD', 'RP_VPULL', 'RP_UKD'], B: ['RP_HPUSH', 'RP_BHD', 'RP_VPUSH', 'RP_UHD'], FB1: ['RP_HPULL', 'RP_BKD', 'RP_VPUSH', 'RP_UHD'], FB2: ['RP_HPUSH', 'RP_BHD', 'RP_VPULL', 'RP_UKD'] }, 'COACH-R4 R4-SES-05 (slots 1-4 of Day A / Day B); COACH-R5 R5-GEN-01 (scorer 2.6: the two full-body days of a 2-day week)');
+  put('ab_small_slots', { A: ['ISO_BICEP', 'ISO_QUAD'], B: ['ISO_TRICEP', 'ISO_LEG_FLEXION'], FB1: ['ISO_BICEP', 'ISO_QUAD'], FB2: ['ISO_TRICEP', 'ISO_LEG_FLEXION'] }, 'COACH-R4 R4-SES-05 (slots 5-6 of Day A / Day B, gym skeletons); COACH-R5 R5-GEN-01, CH5-02');
+  put('skeleton_day_of', { gym_A: 'A', athletic_A: 'A', gym_B: 'B', athletic_B: 'B', gym_FB1: 'FB1', athletic_FB1: 'FB1', gym_FB2: 'FB2', athletic_FB2: 'FB2' }, 'engine/DECISIONS G-04 (skeleton ids of the templates); G-250 (the 2-day full-body days)');
+  put('skeleton_gym', ['gym_A', 'gym_B', 'gym_FB1', 'gym_FB2'], 'engine/DECISIONS G-04, G-250');
+  put('skeleton_patterns', { gym_A: ['pull', 'knee'], athletic_A: ['pull', 'knee'], gym_B: ['push', 'hip'], athletic_B: ['push', 'hip'], gym_FB1: ['pull', 'knee', 'push', 'hip'], athletic_FB1: ['pull', 'knee', 'push', 'hip'], gym_FB2: ['pull', 'knee', 'push', 'hip'], athletic_FB2: ['pull', 'knee', 'push', 'hip'], ppl_push: ['push'], ppl_pull: ['pull'], ppl_legs: ['knee', 'hip'] },
     'COACH-R4 R4-SES-05 (A = pull + knee dominant, B = push + hip dominant; push / pull / legs as in his sheets)');
   put('pattern_of_bucket', { RP_BKD: 'knee', RP_UKD: 'knee', ISO_QUAD: 'knee', RP_BHD: 'hip', RP_UHD: 'hip', ISO_LEG_FLEXION: 'hip', RP_HPULL: 'pull', RP_VPULL: 'pull', RP_HPUSH: 'push', RP_VPUSH: 'push', ISO_CHEST: 'push' },
     'scorer: the movement pattern a template slot names');
@@ -1790,6 +1802,8 @@ function checkEffortRest(S, X, ctx) {
     const r = I.raw.rest;
     if (!r || typeof r.min !== 'number' || typeof r.max !== 'number' || r.type === 'work_rest') continue;
     let ok;
+    // (scorer 2.6: a joint-care item - role 'prehab', the shoulder-health overhead press of R5-ATH-04 / G-252 included - rests as joint care)
+    if (I.role === 'prehab' || I.bk === 'prehab') continue;
     if (I.bk === 'core' || I.block === 'core') ok = [RR.core_s];
     else if (I.bk === 'power') ok = [RR.olympic_s];
     else if (I.bk === 'resistance' || I.bk === 'focus') ok = [RR.hypertrophy_s, RR.strength_s, [RR.hypertrophy_s ? RR.hypertrophy_s[0] : 60, RR.hypertrophy_max_s || 180], RR.isolation_s];
@@ -1906,7 +1920,16 @@ function checkBalance(S, X, ctx) {
       const cc = U.ex && U.ex.credit_class;
       return (PPc.push_classes || []).includes(cc) ? 'push' : (PPc.pull_classes || []).includes(cc) ? 'pull' : null;
     };
-    for (const D of W.days) for (const U of D.units) { const d = dirOf(U); if (d === 'push') push += U.sets; else if (d === 'pull') pull += U.sets; }
+    // (scorer 2.6: COACH-R5 R5-CLS-02 'a hip thrust or bridge (hips get more work; pressing then leads pulling by one station)' - the
+    // sets of a circuit's free pull-up station that takes a hip lift are the pressing lead the coach accepted, as the engine's V29 reads
+    // them; the station is read on its why `why.circuit_free_station_hips`)
+    let lead = 0;
+    for (const D of W.days) for (const U of D.units) {
+      const d = dirOf(U);
+      if (d === 'push') push += U.sets; else if (d === 'pull') pull += U.sets;
+      else if (((U.lead.raw && U.lead.raw.why) || []).some(y => y && y.key === 'why.circuit_free_station_hips')) lead += U.sets;
+    }
+    pull += lead;
     if (push <= 0 || pushFocus) continue;
     S.n('push_pull_ratio');
     if (pull < 0.8 * push - EPS) S.hit('push_pull_ratio', { week: W.n }, 'pull ' + pull + ' against push ' + push + ' (' + r2(pull / push) + ')');

@@ -25,6 +25,8 @@ import { stairwayProgress, staggerStairways } from '../engine/progression/stairw
 import { amendRulesX1, amendTemplatesX1, amendExerciseX1, PINNED_SKELETON_PREFIXES_X1, UI_X1 } from '../tools/fixture/v05-fix1.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2 } from '../tools/fixture/v05-fix2.mjs';
 import { amendRulesV07, amendExerciseV07 } from '../tools/fixture/v07-volume.mjs';
+import { amendRulesV07 as amendRulesS7, amendExerciseV07 as amendExerciseS7 } from '../tools/fixture/v07-select.mjs';
+import { amendRulesW7 } from '../tools/fixture/v07-words.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BENCH_DIR = path.join(ROOT, 'design', 'bench', 'intakes');
@@ -97,9 +99,10 @@ describe('v0.5 fix round 1 / the amendment layer is pure and marks what is PROPO
     // layer is idempotent on the built model once the later layer is applied after it, as the build does
     // (engine 0.7, G-230: the v0.7 volume layer rewrites the high-incline press credits this layer set - COACH-R5 R5-VOL-01 - so the
     // later layer is applied after it, as the build does)
-    assert.deepEqual(amendRulesV07(amendRulesX2(r1)), fx.rules, 'the fixture already carries both layers'); assert.deepEqual(amendTemplatesX1(t1), t1);
+    // (engine 0.7, converted - DECISIONS G-250 / G-262: and the v0.7 layer after them, as the build does)
+    assert.deepEqual(amendRulesW7(amendRulesS7(amendRulesV07(amendRulesX2(r1)))), fx.rules, 'the fixture already carries both layers'); assert.deepEqual(amendTemplatesX1(t1), t1);
     assert.deepEqual(amendTemplatesX2(t1), fx.templates);
-    for (const e of fx.catalog.exercises.slice(0, 200)) assert.deepEqual(amendExerciseV07(amendExerciseX2(amendExerciseX1(e))), e, e.id);
+    for (const e of fx.catalog.exercises.slice(0, 200)) assert.deepEqual(amendExerciseS7(amendExerciseV07(amendExerciseX2(amendExerciseX1(e)))), e, e.id);
     assert.deepEqual(PINNED_SKELETON_PREFIXES_X1, ['gym_', 'ppl_', 'athletic_']);
   });
   it('every new rule section names its coach answers; the engine\'s own numbers say PROPOSED', () => {
@@ -107,7 +110,7 @@ describe('v0.5 fix round 1 / the amendment layer is pure and marks what is PROPO
     for (const [name, sec] of [['volume.push_pull', R.volume.push_pull], ['athletic.x1', R.athletic.x1], ['prehab.x1', R.prehab.x1], ['conditioning.wod.x1', R.conditioning.wod.x1]]) {
       assert.ok(Array.isArray(sec.refs) && sec.refs.length > 0, name + ': refs');
     }
-    assert.match(R.athletic.x1.status, /PROPOSED/); assert.match(R.prehab.x1.status, /PROPOSED/); assert.match(R.placement.x1.eve_of_game.status, /PROPOSED/);
+    assert.match(R.athletic.x1.status, /PROPOSED/); assert.match(R.prehab.x1.status, /PROPOSED/); assert.match(R.placement.x1.eve_of_game.status, /COACH-R5 R5-ATH-05/); // (engine 0.7, converted - G-262: the coach confirmed it)
     for (const [k, v] of Object.entries(UI_X1)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k + ': English and Spanish'); assert.ok(!/\b(RIR|RPE|AMRAP)\b/.test(v[0]) || /MYO/.test(k), k); }
   });
 });
@@ -348,7 +351,10 @@ describe('v0.5 fix round 1 / the 8 samples and the benchmark plans (compiled mod
       const rows = w.days.flatMap(d => itemsOf(d)).filter(it => cls(it) === 'HPULL' && it.sets > 0);
       assert.ok(rows.length >= 2, `w${w.n}: ${rows.length} row`);
       const { push, pull } = pushPull({ days: w.days.map(d => ({ blocks: d.blocks.map(b => ({ kind: 'x', items: b.items })) })) });
-      assert.ok(pull >= push - EPS, `w${w.n}: pull ${pull} against push ${push}`);
+      // (engine 0.7, converted - COACH-R5 R5-CLS-02, DECISIONS G-260: the free pull-up station is a hip thrust or bridge and pressing
+      // leads pulling by that one station - its sets are the accepted lead, as V29 reads them)
+      const lead = w.days.flatMap(d => itemsOf(d)).filter(it => (it.why || []).some(y => y.key === 'why.circuit_free_station_hips')).reduce((a, it) => a + (it.sets || 0), 0);
+      assert.ok(pull + lead >= push - EPS, `w${w.n}: pull ${pull} (+ ${lead} free-station hip sets) against push ${push}`);
     }
     // at 4 rounds every trained group holds the floor
     const w4 = p.weeks.find(w => w.circuit && w.circuit.rounds >= 4);
@@ -519,7 +525,11 @@ describe('v0.5 fix round 1 / the 8 samples and the benchmark plans (compiled mod
     assert.deepEqual([SD.reference_days, SD.floor], [4, 0.75]);
     const scale = (n) => deriveValues(validateIntake(clone(loadSample(n)), model).intake, model).D11_athletic_budget.day_scale;
     assert.equal(scale('03'), 0.75); assert.equal(scale('08'), 0.75);
-    assert.ok(!planOf('03').meta.warnings.some(w => w.key === 'warning.athletic_capacity'), 'the soccer week holds its targets now');
+    // (engine 0.7, converted - COACH-R5 R5-GRD-03 'not as high in a program', DECISIONS G-253: the soccer player's first block jumps on two
+    // feet and low - single drills with fewer contacts a set - so the block holds about 80 % of its jump target and the plan says so;
+    // every other family still holds its target)
+    const cap03 = planOf('03').meta.warnings.filter(w => w.key === 'warning.athletic_capacity');
+    assert.ok(cap03.every(w => w.args.key === 'athletic.key.jumps' && w.args.pct >= 75), JSON.stringify(cap03));
   });
 
   it('R2-PER-06 (03 and the sport corpus): a pre-season week keeps the athletic work of the off-season block before it', () => {

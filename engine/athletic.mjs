@@ -1133,6 +1133,63 @@ export function planAthletic(model, derived, shape, budget, weeksItems) {
           mark(d, dn.key); d.lowered = d.lowered || new Set(); d.lowered.add(dn.key);
         }
       }
+      // engine 0.7 (COACH-R5 R5-ATH-02 'they may hold for up to 2 weeks, as long as they reach the block's final number';
+      // rules.athletic.v7.hold): a family total of the stairway holds at most `max_hold_weeks` weeks (a run of at most
+      // max_hold_weeks + 1 equal weeks). A longer run is split from its end - its last week takes one dose step, never above the
+      // week after it nor its own budget limit, inside the day's contact cap and the plyo share band - else from its start - its first
+      // week gives one dose step back, never below the week before it. The block's last week is never lowered: the final number stays.
+      const HV = R.athletic.v7 && R.athletic.v7.hold;
+      if (HV) {
+        const maxRun = (HV.max_hold_weeks || 2) + 1;
+        const inBand = (d) => { const sv = SH ? shareTarget(d) : null; if (sv === null) return true; const sh = shareOf(d); return sh === null || (sh <= shareTop(sv) + EPS && sh >= sv - SH.tolerance - EPS); };
+        for (const keys of Object.values(HV.families || {})) {
+          const seqI = data.map((d, i) => i).filter((i) => !data[i].hold && famItems(data[i], keys).length > 0);
+          if (seqI.length <= maxRun) continue;
+          const stuck = new Set();
+          for (let guard = 0; guard < 200; guard++) {
+            const v = seqI.map((i) => tot(data[i], keys));
+            // the first run longer than maxRun not yet given up on
+            let a = -1, b = -1;
+            for (let x = 0; x < v.length;) {
+              let y = x;
+              while (y + 1 < v.length && Math.abs(v[y + 1] - v[x]) < EPS) y++;
+              if (y - x + 1 > maxRun && !stuck.has(x + ':' + v[x])) { a = x; b = y; break; }
+              x = y + 1;
+            }
+            if (a < 0) break;
+            let moved = false;
+            // (1) the run's later weeks step up, the last first (the week after the run caps it; the last live week is free)
+            for (let p = b; p > a && !moved; p--) {
+              const d = data[seqI[p]];
+              const nextV = p + 1 < v.length ? v[p + 1] : Infinity;
+              // (never more than one dose step over the week's own sport target: a hold is better than an overdose)
+              const T0 = (budget[d.ws.n - 1] && budget[d.ws.n - 1].targets) || {};
+              const Tw = keys.reduce((acc, k) => acc + (isNum(T0[k]) ? T0[k] : 0), 0);
+              const ups = famItems(d, keys).filter((it) => !it.replaced && canUp(d, it) && v[p] + it.sets * it.b.step <= nextV + EPS && v[p] + it.sets * it.b.step <= Tw + it.sets * it.b.step + EPS && v[p] < Tw + EPS).sort((x1, x2) => x1.per / x1.b.hi - x2.per / x2.b.hi);
+              for (const it of ups) {
+                const sh0 = inBand(d);
+                it.per += it.b.step;
+                if (sh0 && !inBand(d)) { it.per -= it.b.step; continue; }
+                moved = true; break;
+              }
+            }
+            // (2) else its first week gives a step back (staying above the week before; never the block's last live week)
+            if (!moved) {
+              const d = data[seqI[a]];
+              const prevV = a > 0 ? v[a - 1] : -Infinity;
+              const downs = famItems(d, keys).filter((it) => !it.replaced && canDown(it) && v[a] - it.sets * it.b.step > prevV + EPS && a < v.length - 1).sort((x1, x2) => x2.per / x2.b.hi - x1.per / x1.b.hi);
+              for (const it of downs) {
+                const sh0 = inBand(d);
+                it.per -= it.b.step;
+                if (sh0 && !inBand(d)) { it.per += it.b.step; continue; }
+                d.lowered = d.lowered || new Set(); for (const k of keys) d.lowered.add(k);
+                moved = true; break;
+              }
+            }
+            if (!moved) stuck.add(a + ':' + v[a]);
+          }
+        }
+      }
     }
     // the peak week's planned totals (as the week is dosed, before the end-test week's own rule) for the next block's pre-season
     const peakD = stair ? data.filter(d => !d.hold).slice(-1)[0] : null;

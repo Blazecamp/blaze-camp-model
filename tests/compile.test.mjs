@@ -65,9 +65,11 @@ test('templates and profiles equal the reference build (same output as the fixtu
 
 // engine 0.5.0 / V2 (converted; DECISIONS G): 733 = the 731 source records + the 2 mid-range pull records the coach's approved proposal
 // names (COACH-R4 R4-LIB-03: high row, 45-degree row; optional add-ons, tools/fixture/v05-library.mjs)
-test('counts: 733 kept (731 source + 2 mid-range pull records) / 208 dropped, 30 templates, 127 profiles, 52 picker sports, 26 activities', () => {
+// engine 0.7 selection package (converted; DECISIONS G-254, G-255, G-258, tools/fixture/v07-select.mjs): 742 = 733 + 9 records the
+// round-5 answers name (COACH-R5 R5-GRD-08 five assisted jumps, R5-ATH-10 three two-foot lateral jumps, R5-GRD-04 the WOD run station)
+test('counts: 742 kept (731 source + 2 mid-range pull records + 9 round-5 records) / 208 dropped, 30 templates, 127 profiles, 52 picker sports, 26 activities', () => {
   const c = first.report.counts;
-  assert.equal(c.kept, 733); assert.equal(c.dropped, 208); assert.equal(c.kept - 2 + c.dropped, c.source_records);
+  assert.equal(c.kept, 742); assert.equal(c.dropped, 208); assert.equal(c.kept - 11 + c.dropped, c.source_records);
   // v1.2 sources: one calf exercise per leg day (R3-SES-01), rebuilt 05 templates; + 55 stations of the stage-B2 HYROX variant
   // athletic.4/hyrox (COACH-R3 R3-ATH-03, tools/fixture/athletic-b2.mjs); fix round 2 / F1 (tools/fixture/fix-r2-f1.mjs): + 32 stations of
   // the athletic.3 same_pattern variant (the v1.1 S1 / S2, E-137), + 2 on the cross-pattern S2, - 1 on the class (snatch to the press
@@ -81,7 +83,7 @@ test('counts: 733 kept (731 source + 2 mid-range pull records) / 208 dropped, 30
   // engine 0.6.0 (converted; COACH-CH5 CH5-02, DECISIONS G-198): + 2, the in-season variant's A / B day types take the arm station too
   assert.equal(c.templates_total, 30); assert.equal(c.stations, 1706);
   assert.equal(c.profiles, 127); assert.equal(c.sports_in_picker, 52); assert.equal(c.activities, 26);
-  assert.deepEqual(raw.manifest.counts, { exercises: 733, templates: 30, profiles: 127, sports_in_picker: 52, activities: 26 });
+  assert.deepEqual(raw.manifest.counts, { exercises: 742, templates: 30, profiles: 127, sports_in_picker: 52, activities: 26 });
   for (const d of first.report.dropped) assert.ok(d.reason && d.rule, `drop ${d.source_id} has a reason and a rule`);
 });
 
@@ -199,7 +201,9 @@ test('i18n: every key used has EN and ES; nothing missing; ES placeholders match
   for (const k of Object.keys(en)) if (k !== '_meta') assert.ok(k in es, `ES ${k}`);
   for (const k of es_review.machine_translated) { assert.ok(k in es, k); assert.equal(PH(es[k]), PH(en[k]), `placeholders ${k}`); }
   // (v0.5 fix round 2, converted - DECISIONS G: the side plank press got a coach-style Spanish name with the layer, 843 -> 842)
-  assert.equal(es_review.machine_translated.length, 842); // v1.2: review-v12 UI strings carry coach-reviewed ES; v0.4 B3: Spanish fixes of names / cues / labels (render-b3.mjs)
+  // (engine 0.7 selection package, converted - DECISIONS G-250: the 2-day day titles of the aesthetics, athletic (in season too),
+  // bootcamp and no-equipment templates are written in the layer's own Spanish, 842 -> 832)
+  assert.equal(es_review.machine_translated.length, 832); // v1.2: review-v12 UI strings carry coach-reviewed ES; v0.4 B3: Spanish fixes of names / cues / labels (render-b3.mjs)
   if (fixture) for (const k of Object.keys(fixture.i18n.en)) assert.ok(k in en, `fixture EN key ${k} kept`);
 });
 
