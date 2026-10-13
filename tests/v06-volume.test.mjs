@@ -107,8 +107,13 @@ describe('v0.6 volume - VOL-07 main lift first (reviews 01 / 02 / 03 M2)', () =>
   });
   it('VOL-07 (G-101): a group with fewer than 3 exercises of its own keeps its press (the pitcher\'s one chest press is not held under the floor)', () => {
     const p = benchOf('34');
+    // (engine 0.7, converted - DECISIONS G-290: COACH-R5 R5-VOL-01 counts the high-incline press 1.0 for chest, so the pitcher's
+    // chest no longer rests on one press: the press holds 4 while the group still never sits under its floor and reaches its final)
     const most = Math.max(...stair(p).flatMap(w => itemsOf(w).filter(x => x.it.slot_id === 'Tue.TUE.s08' && x.it.role !== 'test').map(x => x.it.sets)));
-    assert.equal(most, 5);
+    assert.ok(most >= 4 && most <= 5, String(most));
+    const ws = stair(p);
+    for (const w of ws) assert.ok(w.weekly_sets_by_group.chest >= 10 - EPS, `w${w.n} chest ${w.weekly_sets_by_group.chest}`);
+    assert.ok(ws[ws.length - 1].weekly_sets_by_group.chest >= ws[0].weekly_sets_by_group.chest + 2, 'chest climbs');
   });
 });
 
