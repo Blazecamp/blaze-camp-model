@@ -1062,10 +1062,15 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   let backRoomNow = null;     // set by the running allocation: () => the back may still take a pulling set (fix round 2)
   const addSet = (g, opts = {}) => {
     blockedByBalance = false;
+    // (G-311: nothing changes the state until the chosen candidate takes its set, so a slot's bounds and the 'above the lead' test are
+    // read once per slot in this call)
+    const bMemo = new Map(), aMemo = new Map();
+    const boundsOfA = (s, di) => { let m = bMemo.get(s); if (!m) { m = []; bMemo.set(s, m); } let v = m[di]; if (v === undefined) { v = boundsOf(s, di); m[di] = v; } return v; };
+    const aboveLeadA = (s, di, n) => { let m = aMemo.get(s); if (!m) { m = new Map(); aMemo.set(s, m); } const k = di * 4096 + n; let v = m.get(k); if (v === undefined) { v = aboveLead(s, di, n); m.set(k, v); } return v; };
     // (the floor of 10 is the higher rule: an isolation exercise takes its 4th set before a trained group sits under the floor)
     const isoRelax = (s, di) => (opts.forFloor && PX.iso_main_day_max && kindOf(s) === 'isolation' && isMainDi(di) && s.bucket !== 'ISO_CALF' && !isCircuitSlot(s) && s.origin !== 'bonus' ? Math.min(maxEx, PX.iso_main_day_max.hardest) : 0);
     // (G-311: an inactive slot is dropped before its bounds are read - the bounds read nothing they change)
-    let cands = slotsOfGroup(g).filter(([s]) => active(s)).map(([s, di]) => ({ s, di, n: sets[s.slot_id] || 0, max: Math.max(boundsOf(s, di)[1], isoRelax(s, di)), opt: isMainDi(di) ? 0 : 1, pos: posInDay(di, s) }))
+    let cands = slotsOfGroup(g).filter(([s]) => active(s)).map(([s, di]) => ({ s, di, n: sets[s.slot_id] || 0, max: Math.max(boundsOfA(s, di)[1], isoRelax(s, di)), opt: isMainDi(di) ? 0 : 1, pos: posInDay(di, s) }))
       .filter(c => active(c.s) && c.n + 1 <= c.max && !(opts.mainOnly && c.opt) && !(opts.pullOnly && !isPull(c.s)) && !(opts.muscle && !(((crOf(c.s) || {})[opts.muscle] || 0) >= 1 - EPS)));
     // (the group's final sets are still reached, CX-01: with no other exercise left the tested lift takes the set)
     if (stepWeek && PX.test_week_no_step_on_tested && testedSlots.size && !(PX2.order && PX2.order.lead_first)) { const rest = cands.filter(c => !testedSlots.has(c.s.slot_id)); if (rest.length) cands = rest; }
@@ -1104,7 +1109,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         if (!OX || !OX.lead_first) return 0;
         const list = daySlotsOf(c.di);
         // (v0.7 G-292: an earlier lift that waits behind its own day's first lift of another group - a dip behind the bench - holds nothing back)
-        for (let i = 0; i < c.pos; i++) { const s2 = list[i]; if (owner[s2.slot_id] === g && active(s2) && candIds.has(s2.slot_id) && sets[s2.slot_id] < c.n + 1 && sets[s2.slot_id] < boundsOf(s2, c.di)[1] && !aboveLead(s2, c.di, sets[s2.slot_id] + 1)) return 1; }
+        for (let i = 0; i < c.pos; i++) { const s2 = list[i]; if (owner[s2.slot_id] === g && active(s2) && candIds.has(s2.slot_id) && sets[s2.slot_id] < c.n + 1 && sets[s2.slot_id] < boundsOfA(s2, c.di)[1] && !aboveLeadA(s2, c.di, sets[s2.slot_id] + 1)) return 1; }
         return 0;
       };
       const kIso = (c) => {
@@ -1198,7 +1203,7 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       // v0.7 G-292 (VOL-07; rules.placement.x7.later_not_above_lead; review r9 07 M1: the weighted dip - 0.5 chest - climbed to 5 sets
       // while the day's bench held 3): a later lift of a training day whose step would put it above the day's first lift of a group it
       // credits with at least min_credit sets waits behind every other choice (its group still reaches its final sets, H10)
-      const kAbove = (c) => (aboveLead(c.s, c.di, c.n + 1) ? 1 : 0);
+      const kAbove = (c) => (aboveLeadA(c.s, c.di, c.n + 1) ? 1 : 0);
       // (G-311, performance only: every key below reads the state only - nothing changes while the candidates are sorted - so each is
       // read once per candidate; the order is the same)
       for (let i = 0; i < cands.length; i++) cands[i]._i = i;
@@ -1406,11 +1411,14 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     for (const k of Object.keys(v)) out += JSON.stringify(k) + ':' + ser(v[k]) + ',';
     return out + '}';
   };
+  // (the week the bounds are read for, by the three things the bounds read of it: the isolation 4th-set switch, the exercise block and
+  // whether it is the block's first stair week)
+  const boundKey = () => (boundWeek ? 'W' + ser(PX.iso_main_day_max ? isoFourthOpen() : 'x') + ser(boundWeek.exercise_block) + ser(boundWeek.stair_week === 1) : 'W-');
   const reachKey = (targets) => {
     syncLists();
     let fl = '';
     for (const [s0, di] of allPairs) { const f = fills[s0.slot_id]; fl += idOf(s0) + '@' + di + '=' + (f ? idOf(f) + ':' + ser(f.exercise_id) : ser(f)) + ';'; }
-    return [ser(targets), ser(sets), ser(lastDay), ser(owner), fl, boundWeek ? idOf(boundWeek) : ser(boundWeek), stepWeek ? idOf(stepWeek) : ser(stepWeek),
+    return [ser(targets), ser(sets), ser(lastDay), ser(owner), fl, boundKey(), stepWeek ? idOf(stepWeek) : ser(stepWeek),
       ser(noRelax), ser(balanceOn), ser(balanceWant), ser(ppRatio), ser(capOfGroup), ser(extraTop), ser(hingeOff), ser(leadBase), ser(closedFocus),
       ser(tplExtraIds), ser(bonusGroupsAll), ser(testedSlots), ser(prevWeekSets), ser(calfMainMax), ser(dormant), ser(dormantWk), ser(gbWeek),
       ser(twoDayLim), ser(noBonus2)].join('|');
