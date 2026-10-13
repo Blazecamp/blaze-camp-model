@@ -107,6 +107,7 @@ export function pdfDoc(plan, model, lang, ui0, brand = BRAND) {
     disclaimer: txt([lg.footer, lg.disclaimer].filter(Boolean).join(' ')),
     url: lg.url || '',
     credit: txt(ui('app.credit')),
+    play_hint: txt(ui('pdf.play_hint')),
     generated: txt(ui('print.generated') + ' · ' + mt('ui.plan.model_version', { model: plan.model_version, engine: plan.engine_version })),
     brand: txt(brand.short),
     meta: { name: brand.name, author: BP.author || brand.name, creator: BP.creator || brand.name },
@@ -152,14 +153,14 @@ export function pdfDoc(plan, model, lang, ui0, brand = BRAND) {
           const rowOf = (r, n, inGroup) => {
             const effort = r.meta.map(txt).filter(Boolean);
             if (r.effort_full && r.effort_full.length > 30 && !effort.length) effort.push(txt(r.effort_full));
-            return { n, name: txt(r.name), tag: [r.superset_tag ? r.superset_tag : '', ...r.tags].map(txt).filter(Boolean).join(' '), badge: txt(badge(r.badge)), dose: txt(r.dose), effort: effort.join(' · '), in: inGroup };
+            return { n, name: txt(r.name), tag: [r.superset_tag ? r.superset_tag : '', ...r.tags].map(txt).filter(Boolean).join(' '), badge: txt(badge(r.badge)), dose: txt(r.dose), effort: effort.join(' · '), in: inGroup, video: r.video || null };
           };
           for (const g of b.groups || b.items.map(r => ({ kind: 'single', rows: [r] }))) {
             if (g.kind === 'single') { block.rows.push(rowOf(g.rows[0], String(++k) + '.', false)); continue; }
             const hd = V.groupHeader(g, ui);
             block.rows.push({ head: txt(`${g.label} · ${hd.kind}  ${hd.line}${hd.note ? ' · ' + hd.note : ''}`) });
             for (const r of g.rows) block.rows.push(rowOf(r, r.label || g.label, true));
-            if (g.kind === 'wod') for (const st of g.stations) block.rows.push({ n: st.label, name: txt(st.text), tag: '', badge: '', dose: '', effort: '', in: true });
+            if (g.kind === 'wod') for (const st of g.stations) block.rows.push({ n: st.label, name: txt(st.text), tag: '', badge: '', dose: '', effort: '', in: true, video: st.video || null });
           }
           if (block.rows.length || block.title) day.blocks.push(block);
         }
@@ -246,6 +247,14 @@ export function drawPdf(doc, JsPDF) {
     y += h + 8;
   };
 
+  /** the ▶ button: a small rounded square in the brand colour with a white triangle, linked to the exercise's YouTube search */
+  const PLAY = 11;
+  const play = (x, top, url) => {
+    pdf.setFillColor(...BRANDC); pdf.roundedRect(x, top, PLAY, PLAY, 2.2, 2.2, 'F');
+    pdf.setFillColor(255, 255, 255); pdf.triangle(x + 4, top + 3, x + 4, top + PLAY - 3, x + PLAY - 3, top + PLAY / 2, 'F');
+    if (url) pdf.link(x - 2, top - 2, PLAY + 4, PLAY + 4, { url });
+  };
+
   // ---- cover
   if (doc.logo && doc.logo.data) {
     const lw = 74, lhgt = Math.round(lw * doc.logo.h / doc.logo.w);
@@ -261,6 +270,7 @@ export function drawPdf(doc, JsPDF) {
   box(doc.release, 9, SHADE, LINE);
   para(doc.disclaimer, 8.5, 'normal', MUTED, 0, 2);
   if (doc.url) { need(lh(8.5)); font(8.5, 'normal', [30, 80, 170]); pdf.textWithLink(doc.url, M.l, y + 8.5, { url: doc.url }); y += lh(8.5) + 8; }
+  if (doc.play_hint) { need(lh(9) + 4); play(M.l, y + 1, null); font(9, 'normal', INK); pdf.text(doc.play_hint.trim(), M.l + PLAY + 5, y + 9.5); y += lh(9) + 8; }
   para(doc.credit, 9.5, 'bold', INK, 0, 1);
   para(doc.generated, 8.5, 'normal', MUTED, 0, 0);
 
@@ -270,12 +280,12 @@ export function drawPdf(doc, JsPDF) {
   const ROW = 8.5;
   const rowLayout = (r) => {
     if (r.head) { const head = wrap(r.head, CW - 18, 8, 'bold'); return { head, h: head.length * lh(8) + 6 }; }
-    const name = wrap(`${r.n} ${r.name}${r.tag ? ' [' + r.tag + ']' : ''}`, wName - (r.in ? 6 : 0), ROW, 'normal');
+    const name = wrap(`${r.n} ${r.name}${r.tag ? ' [' + r.tag + ']' : ''}`, wName - (r.in ? 6 : 0) - (r.video ? PLAY + 14 : 0), ROW, 'normal');
     const badge = r.badge ? wrap(r.badge, wName, 7.5, 'bold') : [];
     const dose = wrap(r.dose, wDose, ROW);
     const eff = wrap(r.effort, wEff, ROW);
     const h = Math.max(name.length + (badge.length ? 0.9 : 0), dose.length, eff.length, 1) * lh(ROW) + 4;
-    return { name, badge, dose, eff, h, in: !!r.in };
+    return { name, badge, dose, eff, h, in: !!r.in, video: r.video || null };
   };
   const blockLayout = (b) => {
     const head = b.title ? wrap(b.title + (b.intro ? ' — ' + b.intro : ''), CW - 12, 8, 'bold') : [];
@@ -319,6 +329,7 @@ export function drawPdf(doc, JsPDF) {
       if (R.in) { pdf.setFillColor(...ACCENT); pdf.rect(M.l + 4, y, 2.5, R.h, 'F'); }
       const xN = xName + (R.in ? 6 : 0);
       font(ROW); R.name.forEach((ln, i) => pdf.text(ln, xN, y + 3 + ROW + i * lh(ROW)));
+      if (R.video) play(xDose - PLAY - 8, y + 3.5, R.video);
       if (R.badge.length) { font(7.5, 'bold', ACCENT); pdf.text(R.badge[0], xN + 10, y + 3 + ROW + R.name.length * lh(ROW) - 1); }
       font(ROW, 'bold'); (R.dose || []).forEach((ln, i) => pdf.text(ln, xDose, y + 3 + ROW + i * lh(ROW)));
       font(ROW, 'normal', [55, 55, 60]); (R.eff || []).forEach((ln, i) => pdf.text(ln, xEff, y + 3 + ROW + i * lh(ROW)));
