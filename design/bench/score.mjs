@@ -105,6 +105,11 @@
 //   * session size        a day whose stated reason is in rules.validation.v05.size_plus_whys (R5-VOL-10, G-233: the racket player's
 //                         calf raise on both days) may hold rules.session.x7.racket_calf_both_days.size_plus exercises more.
 //                         Without the four keys the scorer reads as 2.5.
+// Scorer 2.7 (engine 0.7 fix round on the round-9 reviews, DECISIONS G-300): one reading follows the model rule the round added:
+//   * first lift first    VOL-07 'add it to the first exercise on the list' (rules.placement.x7.lead_first_step, G-291): the day's first
+//                         lift of a group takes the group's first added set of the block - that lead (one set over its block start) is
+//                         not a staircase deviation nor an exposure imbalance, as the heavy deadlift's lead (2.6). Without the key the
+//                         scorer reads as 2.6.
 // Scorer 2.6 (engine 0.7 selection package, DECISIONS G-250 ...): the coach's newer answer changes what a template day is:
 //   * skeleton            COACH-R5 R5-GEN-01 ('Two full-body days would be more beneficial'): on a 2-day week the A / B days are two
 //                         full-body days built from his slots - day 1 = horizontal pull, squat, vertical / incline push, single-leg
@@ -117,7 +122,7 @@
 //                         it. Without the reading every no-bar bootcamp plan (sample 05, bench 78) scores a 0.75 week the coach chose.
 //   * rest_out_of_class   COACH-R5 R5-ATH-04 (G-252): a joint-care item (role 'prehab') rests as joint care, also when its slot holds a
 //                         lifting pattern - the weekly shoulder-health overhead press of an incline-first athlete.
-export const SCORER_VERSION = '2.6';
+export const SCORER_VERSION = '2.7';
 export const SCORE_SCHEMA = 'bench-score/2';
 
 const EPS = 1e-9;
@@ -327,6 +332,9 @@ function resolveParams(R, overrides = {}) {
   // (scorer 2.6: engine 0.7 G-236, R5-ATH-12 - the week's heavy deadlift starts at 3 and takes its group's next set first)
   rule('heavy_hinge', 'placement.x7.heavy_hinge_lead', null);
   rule('racket_calf', 'session.x7.racket_calf_both_days', null);
+  // (scorer 2.7: engine 0.7 G-291, VOL-07 'add it to the first exercise on the list' - the day's first lift of a group takes the
+  // group's first added set of the block)
+  rule('lead_first', 'placement.x7.lead_first_step', null);
   rule('progression', 'stairway.progression', { arrival_weeks_early_max: 1, note_above: 0.15, note_min_whole_sets: 2 });
   rule('absolute_cap', 'volume.priority.absolute_cap', 30);
   rule('focus', 'volume.focus', { max: 2, add_range: [1, 3] });
@@ -1076,6 +1084,18 @@ const heavyHingeUnit = (U, X, P) => {
   return (U.bucket || raw.bucket) === HH.bucket && (U.role || raw.role) === HH.role && (raw.flags || []).includes(HH.flag);
 };
 const heavyHingeLead = (P) => (P.heavy_hinge ? P.heavy_hinge.start_sets + (P.heavy_hinge.steps_ahead || 1) : 0);
+/** scorer 2.7 (rules.placement.x7.lead_first_step, DECISIONS G-291 / VOL-07): is U the day's first lift of group g, at most one set above
+ *  what it held in its block's first two weeks (its first added set of the block)? */
+const leadStart = (U, D, B, g, P) => {
+  if (!P.lead_first || !P.lead_first.enabled || U.origin === 'bonus') return null;
+  const lead = D.units.find(V => V.prime[0] === g && V.origin !== 'bonus');
+  if (lead !== U) return null;
+  // (its sets in the block's first week, a tested lift's test set included)
+  const D0 = B.weeks[0].days.find(d => d.weekday === D.weekday);
+  const start = D0 ? D0.units.filter(x => x.slot === U.slot || x.slot === U.slot + '.test').reduce((a, x) => a + (x.sets || 0), 0) : 0;
+  return start > 0 ? start : null;
+};
+const leadFirstUnit = (U, D, B, g, P) => { const st = leadStart(U, D, B, g, P); return st !== null && U.sets <= st + 1; };
 const saysGroup = (X, code, g) => X.warnings.some(w => w && w.code === code && w.args && [].concat(w.args.group || []).map(x => String(x).replace(/^group\./, '')).includes(g));
 
 /**
@@ -1566,7 +1586,9 @@ function checkCounts(S, X, ctx) {
           const hi0 = (U) => (cmpMin && U.ex && U.ex.exercise_class === 'compound' && below.some(V => V.ex && V.ex.exercise_class === 'isolation' && V.sets < cmpMin) ? Math.min(U.sets, Math.max(cmpMin - 1, Math.min(...below.map(V => V.sets)) + 1)) : U.sets);
           // (scorer 2.6, G-236 / R5-ATH-12 'even if that breaks the even 3/3/3 pattern of that day': the heavy deadlift's lead - its
           // start and its first added set - is not a hole in the staircase)
-          const hi = (U) => (heavyHingeUnit(U, X, P) && below.length && U.sets <= heavyHingeLead(P) ? Math.min(U.sets, Math.min(...below.map(V => V.sets)) + 1) : hi0(U));
+          // (scorer 2.7, G-291 / VOL-07 'add it to the first exercise on the list': the day's first lift of the group one set over its block
+          // start - its first added set - is not a hole in the staircase either)
+          const hi = (U) => ((heavyHingeUnit(U, X, P) && below.length && U.sets <= heavyHingeLead(P)) || (below.length && leadFirstUnit(U, D, B, g, P)) ? Math.min(U.sets, Math.min(...below.map(V => V.sets)) + 1) : hi0(U));
           if (below.length) dev += Math.max(0, Math.max(...us.map(hi)) - Math.min(...below.map(U => U.sets)) - 1);
           for (let k = 0; k < dev; k++) S.hit('staircase_deviation', { ...where, group: g }, g + ' sets ' + us.map(U => U.sets).join('/'));
         }
@@ -1635,7 +1657,8 @@ function checkPlacementPairs(S, X, ctx) {
         // on one training day for a group the template cannot take to its final sets is not part of the A / B pairing)
         // (scorer 2.6, G-236 / R5-ATH-12: the heavy deadlift's lead set - the group's next set taken ahead of the other hip lifts - is
         // not an exposure imbalance: it is read at its start)
-        const own = (W, wd) => { const D = W.days.find(d => d.weekday === wd); return D ? sum(D.units.filter(U => U.prime.includes(g) && U.origin !== 'bonus').map(U => (heavyHingeUnit(U, X, ctx.P) && U.sets <= heavyHingeLead(ctx.P) ? Math.min(U.sets, ctx.P.heavy_hinge.start_sets) : U.sets))) : 0; };
+        // (scorer 2.7, G-291: the first lift's first added set of the block is read at its block start too)
+        const own = (W, wd) => { const D = W.days.find(d => d.weekday === wd); return D ? sum(D.units.filter(U => U.prime.includes(g) && U.origin !== 'bonus').map(U => (heavyHingeUnit(U, X, ctx.P) && U.sets <= heavyHingeLead(ctx.P) ? Math.min(U.sets, ctx.P.heavy_hinge.start_sets) : leadStart(U, D, B, g, ctx.P) !== null && U.sets === leadStart(U, D, B, g, ctx.P) + 1 ? U.sets - 1 : U.sets))) : 0; };
         const a0 = own(w1, da), b0 = own(w1, db);
         if (!a0 && !b0) continue;
         for (const W of B.weeks.slice(1)) {

@@ -1037,7 +1037,8 @@ function pairLeftovers(blocks, model, on) {
   const lower = (it) => { const ex = it.exercise_id && model.hasEx(it.exercise_id) ? model.ex(it.exercise_id) : null; const m = ex && ex.primary_muscle; return (m && MD[m] ? MD[m].region === 'lower' : false) || /LOWER|CALF|QUAD|LEG_|HIP|GLUTE/.test(it.bucket || ''); };
   // (fix round 2 / F1, E-158: the item that carries the last week's MYO set stays out of a suggested pair - a MYO never runs inside a
   // superset, VOL-15)
-  const eligible = (it) => live(it) && lone(it) && !it.test && !(it.effort && it.effort.last_set === 'myo') && !['work', 'test', 'core_block', 'warmup'].includes(it.role) && (['isolation', 'focus', 'prehab'].includes(kind(it)) || it.role === 'prehab');
+  // (engine 0.7 G-252 / G-299: a joint-care item that holds a lifting pattern - the weekly light overhead press - is no superset partner)
+  const eligible = (it) => live(it) && lone(it) && !(it.role === 'prehab' && kind(it) !== 'prehab') && !it.test && !(it.effort && it.effort.last_set === 'myo') && !['work', 'test', 'core_block', 'warmup'].includes(it.role) && (['isolation', 'focus', 'prehab'].includes(kind(it)) || it.role === 'prehab');
   const compatible = (a, b) => {
     if (a.role === 'prehab' && b.role === 'prehab') return false;
     if (a.bucket === b.bucket || (a.group && a.group === b.group)) return false;
@@ -1156,6 +1157,8 @@ function insteadNoteKey(model) {
 
 /** the progression rule of a set-and-rep item (R4-PRG-03): the rep range, when to add load, else repeat */
 function progressionOf(dose, x, bd) {
+  // (engine 0.7 G-299: joint care - the weekly light overhead press too - is done easy and controlled; it carries no load rule)
+  if (x.slot && x.slot.role === 'prehab') return null;
   if (!x.isRes || !bd || !['resistance', 'isolation', 'focus'].includes(bd.kind) || typeof x.sets !== 'number' || x.sets <= 0) return null;
   const r = dose && dose.reps;
   if (!r || r.type === 'test') return null;

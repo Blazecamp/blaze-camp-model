@@ -671,7 +671,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
     if (!LNA || !isMainDi(di) || slot.origin === 'bonus' || isCircuitSlot(slot) || !hasPick(slot)) return false;
     const gc = gcOf(slot), list = daySlotsOf(di), at = list.indexOf(slot);
     for (const g2 of GROUPS) {
-      if ((gc[g2] || 0) < (LNA.min_credit || 0.5) - EPS) continue;
+      // (a group the lift trains as its prime mover keeps its own staircase - only a group it half-credits, the dip's chest, is read here)
+      if ((gc[g2] || 0) < (LNA.min_credit || 0.5) - EPS || (gc[g2] || 0) >= 1 - EPS || owner[slot.slot_id] === g2) continue;
       const lead = leadSlotOf(di, g2);
       if (lead && lead !== slot && list.indexOf(lead) < at && n > (sets[lead.slot_id] || 0)) return true;
     }
@@ -917,7 +918,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       const kLead = (c) => {
         if (!OX || !OX.lead_first) return 0;
         const list = daySlotsOf(c.di);
-        for (let i = 0; i < c.pos; i++) { const s2 = list[i]; if (owner[s2.slot_id] === g && active(s2) && candIds.has(s2.slot_id) && sets[s2.slot_id] < c.n + 1 && sets[s2.slot_id] < boundsOf(s2, c.di)[1]) return 1; }
+        // (v0.7 G-292: an earlier lift that waits behind its own day's first lift of another group - a dip behind the bench - holds nothing back)
+        for (let i = 0; i < c.pos; i++) { const s2 = list[i]; if (owner[s2.slot_id] === g && active(s2) && candIds.has(s2.slot_id) && sets[s2.slot_id] < c.n + 1 && sets[s2.slot_id] < boundsOf(s2, c.di)[1] && !aboveLead(s2, c.di, sets[s2.slot_id] + 1)) return 1; }
         return 0;
       };
       const kIso = (c) => {
@@ -997,12 +999,17 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       const kHinge = (c) => (HH && stepWeek && heavyHinge(c.s, c.di) && !testedSlots.has(c.s.slot_id) && c.n < Math.min(maxEx, HH.start_sets) + (HH.steps_ahead || 1) ? 0 : 1);
       // v0.7 G-291 (VOL-07 'I add it to the first exercise on the list'; review r9 07 M1): the day's first lift of the group takes the
       // group's first added set on that day in the training block (not in a week that tests it)
-      const kFirst = (c) => (LFS && stepWeek && leadBase && !testedSlots.has(c.s.slot_id) && leadSlotOf(c.di, g) === c.s && c.n <= (leadBase[c.s.slot_id] || 0) ? 0 : 1);
+      // (R3-VOL-03 'alternate between the two exposures': the lead of a day that holds more of the group's sets than its twin waits)
+      const daySum = (di) => daySlotsOf(di).reduce((a, s2) => a + (owner[s2.slot_id] === g && active(s2) && !isGroupBonus(s2) ? sets[s2.slot_id] : 0), 0);
+      const notAhead = (c) => days.every((d, dj) => !twinDays(c.di, dj) || !isMainDi(dj) || daySum(c.di) <= daySum(dj));
+      const kFirst = (c) => (LFS && stepWeek && leadBase && !testedSlots.has(c.s.slot_id) && leadSlotOf(c.di, g) === c.s && c.n <= (leadBase[c.s.slot_id] || 0) && notAhead(c) ? 0 : 1);
+      // (two leads in line on the two exposures of one day type: the first exposure first - R3-VOL-03 'Monday's first ..., then Thursday's')
+      const kFirstExp = (a, b) => (kFirst(a) === 0 && kFirst(b) === 0 && twinDays(a.di, b.di) ? exposureOf(a.di) - exposureOf(b.di) : 0);
       // v0.7 G-292 (VOL-07; rules.placement.x7.later_not_above_lead; review r9 07 M1: the weighted dip - 0.5 chest - climbed to 5 sets
       // while the day's bench held 3): a later lift of a training day whose step would put it above the day's first lift of a group it
       // credits with at least min_credit sets waits behind every other choice (its group still reaches its final sets, H10)
       const kAbove = (c) => (aboveLead(c.s, c.di, c.n + 1) ? 1 : 0);
-      cands.sort((a, b) => a.opt - b.opt || kAbove(a) - kAbove(b) || kHinge(a) - kHinge(b) || kFirst(a) - kFirst(b) || kCmp(a) - kCmp(b) || kMainBig(a) - kMainBig(b) || kTwinGo(a) - kTwinGo(b) || pri(a) - pri(b) || kLead(a) - kLead(b) || kTest(a) - kTest(b) || kSpill(a) - kSpill(b) || kIso(a) - kIso(b) || (twinDays(a.di, b.di) ? 0 : kWork(a) - kWork(b)) || a.n - b.n || kStep(a) - kStep(b) || (twinDays(a.di, b.di) ? 0 : kPair(a) - kPair(b)) || kBonus(a) - kBonus(b) || kExp(a, b) || dist(a.di) - dist(b.di) || a.pos - b.pos);
+      cands.sort((a, b) => a.opt - b.opt || kAbove(a) - kAbove(b) || kHinge(a) - kHinge(b) || kFirst(a) - kFirst(b) || kFirstExp(a, b) || kCmp(a) - kCmp(b) || kMainBig(a) - kMainBig(b) || kTwinGo(a) - kTwinGo(b) || pri(a) - pri(b) || kLead(a) - kLead(b) || kTest(a) - kTest(b) || kSpill(a) - kSpill(b) || kIso(a) - kIso(b) || (twinDays(a.di, b.di) ? 0 : kWork(a) - kWork(b)) || a.n - b.n || kStep(a) - kStep(b) || (twinDays(a.di, b.di) ? 0 : kPair(a) - kPair(b)) || kBonus(a) - kBonus(b) || kExp(a, b) || dist(a.di) - dist(b.di) || a.pos - b.pos);
       return cands;
     };
     if (ppRatio && balanceOn && cands.some(c => isPress(c.s))) {

@@ -14,6 +14,7 @@ import { loadFixtureModel, loadCompiledModel, loadSample, readModelDir, readFixt
 import { loadModel } from '../engine/model.mjs';
 import { generate } from '../engine/generate.mjs';
 import { renderPlan } from '../engine/render.mjs';
+import { makeContext, scorePlan, SCORER_VERSION } from '../design/bench/score.mjs';
 
 const clone = (x) => JSON.parse(JSON.stringify(x));
 const NAMES = { '01': '01-swimming', '02': '02-football', '03': '03-soccer', '04': '04-crossfit-style-bootcamp', '05': '05-bootcamp', '06': '06-full-body-aesthetics', '07': '07-push-pull-legs', '08': '08-pickleball-genpop' };
@@ -152,9 +153,10 @@ describe('R5-ATH-08 (G-295, G-296): no reported low-back pain - normal core, inc
     const ids = coreOf(p).filter(x => x.d.kind === 'main').map(x => x.it.exercise_id);
     assert.ok(!ids.some(id => (R.selection.v7.core_rotation.ids || []).includes(id)), ids.join(', '));
   });
-  it('the hot-spot lean is off: no hold bonus, no reference floor drills by hot spot alone; loaded flexion keeps its small minus', () => {
-    assert.equal(R.selection.s6.core.hotspot_anti_bonus, 0);
-    assert.equal(R.selection.s6.core.hotspot_flexion_re, 'weighted');
+  it('the hot-spot lean of G-131 stays (holds a little up); the rotational drill is never a loaded one for a hot-spot client', () => {
+    assert.equal(R.selection.s6.core.hotspot_anti_bonus, 2);
+    assert.equal(R.selection.v7.core_rotation.loaded_re, 'weighted');
+    for (const x of allItems(planOf('08'))) if (x.b.kind === 'core') assert.ok(!/weighted/.test(x.it.exercise_id), x.it.exercise_id);
     assert.equal(R.selection.v7.core_rotation.enabled, true);
     assert.ok(R.selection.v7.core_rotation.refs.includes('R5-ATH-08'));
   });
@@ -174,15 +176,13 @@ describe('R2-PER-07 / R5-ATH-02 (G-297): a test week whose athletic work is ligh
   });
 });
 
-describe('R5-ATH-10 (G-298): a cutting sport\'s lateral jump weighs more in the first block (review r9 02 m1)', () => {
-  it('02 block 1: Monday, Tuesday and Friday each hold a two-foot lateral jump (was Monday and Thursday only)', () => {
+describe('R5-ATH-10 / R2-ATH-03 (G-298): the cutting sport\'s Land-stage lateral jump is a two-foot ballistic one (review r9 02 m1, open)', () => {
+  it('02 week 1 (the Land stage) holds no reactive jump contacts, and its lateral jumps are two-foot ballistic records', () => {
     const p = planOf('02');
-    assert.equal(R.selection.s6.jumps.cutting.bonus, 12);
-    const w = p.weeks[1];
-    for (const wd of ['Mon', 'Tue', 'Fri']) {
-      const ids = itemsOf(w).filter(x => x.d.weekday === wd && x.it.bucket === 'AP_PLYO').map(x => x.it.exercise_id);
-      assert.ok(ids.some(id => /(^|-)lateral(-|$)/.test(id)), `${wd}: ${ids.join(', ')}`);
-    }
+    assert.equal(p.weeks[0].athletic_budget.planned.plyo_contacts, 0);
+    const lat = p.weeks.slice(0, 4).flatMap(itemsOf).filter(x => x.it.bucket === 'AP_PLYO' && /(^|-)lateral(-|$)/.test(x.it.exercise_id) && x.w.athletic_budget && x.w.athletic_budget.planned.plyo_contacts === 0);
+    assert.ok(lat.length >= 1);
+    for (const x of lat) assert.equal(ex(x.it.exercise_id).athletic.quality, 'ballistic', x.it.exercise_id);
   });
 });
 
@@ -199,5 +199,15 @@ describe('R5-ATH-04 (G-299): overhead pressing kept for health - one light overh
   });
   it('the rule names its reading as PROPOSED', () => {
     assert.match(R.selection.v7.incline_overhead.general_care.status, /PROPOSED/);
+  });
+});
+
+describe('VOL-07 (G-300): benchmark scorer 2.7 reads the first lift\'s first added set of a block as the coach\'s staircase', () => {
+  it('07: the leads\' steps are no staircase deviation with the rule; without the key the scorer reads as 2.6 and counts them', () => {
+    assert.equal(SCORER_VERSION, '2.7');
+    const raw = rawOf();
+    const hits = (rules) => { const r = scorePlan(planOf('07'), makeContext({ rules, catalog: raw.catalog, templates: raw.templates, profiles: raw.profiles })); return ((r.metrics || {}).staircase_deviation || {}).value || 0; };
+    const off = clone(raw.rules); delete off.placement.x7.lead_first_step;
+    assert.ok(hits(raw.rules) < hits(off), `${hits(raw.rules)} vs ${hits(off)}`);
   });
 });

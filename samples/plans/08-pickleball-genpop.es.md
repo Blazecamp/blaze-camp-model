@@ -58,7 +58,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 - ¿Todo se siente fácil? Primero agrega un poco de peso o una repetición; nunca te adelantes más de una semana.
 - ¿Algo te duele? Primero usa uno de los cambios de la lista, luego quita entre un tercio y la mitad de las series de ese ejercicio y, si sigue, quítalo por el resto del bloque. Consulta a un profesional si el dolor sigue.
 - ¿La vida se interpuso por varias semanas (enfermedad, viajes, trabajo)? Detén el bloque, toma la semana suave recomendada si quieres y luego crea un bloque nuevo.
-- Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
+- Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: saltos, lanzamientos y velocidad; potencia / olímpicos; core (abdomen); cardio; cuidado articular; accesorios. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior). Usa las superseries sugeridas para ahorrar tiempo.
 - Desactivar el bloque de accesorios quita todas las series directas de hombros, bíceps, tríceps y pantorrillas.
 - Tú (o tu entrenador) también puedes cambiar las series de cualquier ejercicio en cualquier día o semana: el plan es una plantilla.
 - El bloque de core es opcional: puedes desactivarlo o cambiar sus ejercicios cualquier día. Todo en este plan se puede ajustar.
@@ -129,7 +129,7 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 | Día | Sesión | Tiempo | Grupos musculares (ejercicios) |
 |---|---|---|---|
 | Lunes | Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press | aprox. 70-85 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 1, Pecho 1, Bíceps 1, Pantorrillas 1 |
-| Jueves | Cuerpo completo 2 - bisagra + empuje, zancada + tirón | aprox. 75-95 min | Cuádriceps 1, Cadera (glúteos + isquiotibiales) 2, Espalda 1, Pecho 1, Hombros 1, Tríceps 1, Pantorrillas 1 |
+| Jueves | Cuerpo completo 2 - bisagra + empuje, zancada + tirón | aprox. 80-100 min | Cuádriceps 1, Cadera (glúteos + isquiotibiales) 2, Espalda 1, Pecho 1, Hombros 2, Tríceps 1, Pantorrillas 1 |
 | Viernes | Día opcional | aprox. 40-45 min | – |
 
 ## Bloque de entrenamiento, semana a semana · Semana 1-12
@@ -156,8 +156,8 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
-| Perro de caza (Bird Dog) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
+| Abdominal bicicleta (Bicycle Crunch) → Leñador en polea (Cable Woodchopper) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 reps → 10 a 15 por lado |
+| Abdominal inverso (Reverse Crunch) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
 | Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) → Salto a cajón bajo (Low Box Jump) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contactos → 4 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 por lado → 6 por lado |
 | Swing ruso con kettlebell (KB Swing) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
@@ -174,7 +174,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Ejercicio | Series | Reps |
 |---|---|---|
 | Plancha lateral (Side Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
-| Bicho muerto (Dead Bug) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
+| Perro de caza (Bird Dog) → Bicho muerto (Dead Bug) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
 | Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contactos → 12 contactos → 15 contactos |
 | Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 reps → 5 por lado → 6 por lado |
 | Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
@@ -182,16 +182,17 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Hiperextensión a 45° (Back Extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 a 15 reps → 10 a 12 reps |
 | Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 a 15 por lado → 8 a 12 por lado |
 | Subida al cajón frontal y lateral (Step-Up) → Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 12 por lado → 8 a 12 por lado |
-| Extensión de tríceps sobre la cabeza (Overhead Extension) → Rompecráneos con mancuernas en el piso (Floor Skullcrusher) | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 a 20 reps |
+| Extensión de tríceps sobre la cabeza (Overhead Extension) | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 a 20 reps |
 | Curl femoral sentado (Seated Leg Curl) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 reps |
 | Face pull con kettlebell (KB Face Pull) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 a 20 reps |
-| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) → Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 15 a 20 reps |
+| Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 15 a 20 reps |
+| Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) → Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - palmas enfrentadas (agarre neutro) → Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - pausa de 1 segundo abajo | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 a 15 reps |
 
 ### Viernes · Día opcional
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Press Pallof (Pallof Press) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
+| Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 
 ## Semana 1 — Adaptación (pasos pequeños)
 
@@ -202,7 +203,7 @@ _Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal bicicleta (Bicycle Crunch) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -214,13 +215,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+1. **Abdominal bicicleta (Bicycle Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Nombre para copiar en YouTube: `Bicycle Crunch`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -291,9 +291,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
+_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
@@ -310,10 +310,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
-2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
+   - Cambiar por: Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)** — 3 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -382,6 +382,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
+
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
@@ -390,10 +396,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -417,7 +422,7 @@ _Nivel de la semana: 2.6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal bicicleta (Bicycle Crunch) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -429,13 +434,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+1. **Abdominal bicicleta (Bicycle Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Nombre para copiar en YouTube: `Bicycle Crunch`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -502,9 +506,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
+_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
@@ -521,10 +525,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
-2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
+   - Cambiar por: Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)** — 3 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -590,6 +594,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
+
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
@@ -598,10 +608,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -625,7 +634,7 @@ _Nivel de la semana: 3.2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal bicicleta (Bicycle Crunch) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -637,13 +646,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+1. **Abdominal bicicleta (Bicycle Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Nombre para copiar en YouTube: `Bicycle Crunch`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -710,9 +718,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
+_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
@@ -729,10 +737,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
-2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
+   - Cambiar por: Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)** — 3 × 11 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -798,6 +806,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
+
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
@@ -806,10 +820,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -833,7 +846,7 @@ _Nivel de la semana: 3.8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal bicicleta (Bicycle Crunch) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -845,13 +858,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+1. **Abdominal bicicleta (Bicycle Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Nombre para copiar en YouTube: `Bicycle Crunch`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -918,9 +930,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
+_Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
@@ -937,10 +949,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
-2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
+   - Cambiar por: Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)** — 3 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -1006,6 +1018,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
 
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
+
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. También puedes agregar o quitar ejercicios._
@@ -1014,10 +1032,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
@@ -1034,9 +1051,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 4.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- Nuevo bloque de ejercicios: 8 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
-- Lunes: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass); Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro); Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez
-- Jueves: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops); Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops); Subida al cajón frontal y lateral (Step-Up) → Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo; Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) → Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba
+- Nuevo bloque de ejercicios: 10 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
+- Lunes: Abdominal bicicleta (Bicycle Crunch) → Leñador en polea (Cable Woodchopper); Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass); Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro); Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez
+- Jueves: Perro de caza (Bird Dog) → Bicho muerto (Dead Bug); Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops); Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops); Subida al cajón frontal y lateral (Step-Up) → Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo; Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) → Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - palmas enfrentadas (agarre neutro)
 - Los saltos pasan a Recibir-Crear 2: Aterrizar y salir
 - +1 serie en Press inclinado con mancuernas (Incline DB Press) (lunes): 3 → 4 series
 
@@ -1045,7 +1062,7 @@ _Nivel de la semana: 4.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -1057,13 +1074,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -1128,15 +1145,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1149,7 +1166,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
@@ -1208,12 +1225,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - palmas enfrentadas (agarre neutro)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
@@ -1223,10 +1246,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -1250,7 +1272,7 @@ _Nivel de la semana: 5 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -1262,13 +1284,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -1333,15 +1355,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1354,7 +1376,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
@@ -1413,12 +1435,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - palmas enfrentadas (agarre neutro)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
@@ -1428,10 +1456,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -1455,7 +1482,7 @@ _Nivel de la semana: 6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -1467,13 +1494,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -1538,15 +1565,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1559,7 +1586,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
@@ -1618,12 +1645,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - palmas enfrentadas (agarre neutro)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
@@ -1633,10 +1666,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -1660,7 +1692,7 @@ _Nivel de la semana: 7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -1672,13 +1704,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -1743,15 +1775,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 75-95 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1764,7 +1796,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
@@ -1823,12 +1855,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - palmas enfrentadas (agarre neutro)** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
@@ -1838,10 +1876,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
@@ -1860,7 +1897,7 @@ _Nivel de la semana: 8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Qué cambia esta semana**
 - Nuevo bloque de ejercicios: 8 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
 - Lunes: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) → Salto a cajón bajo (Low Box Jump); Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss); Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) → Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row); Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo
-- Jueves: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass); Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba; Extensión de tríceps sobre la cabeza (Overhead Extension) → Rompecráneos con mancuernas en el piso (Floor Skullcrusher)
+- Jueves: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass); Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba; Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - palmas enfrentadas (agarre neutro) → Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - pausa de 1 segundo abajo
 - Los saltos pasan a Recibir-Crear 3: Repetir
 - +1 serie en Curl martillo (Hammer Curl) (lunes): 2 → 3 series
 
@@ -1869,7 +1906,7 @@ _Nivel de la semana: 8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto a cajón bajo (Low Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -1881,13 +1918,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto a cajón bajo (Low Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -1952,15 +1989,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Tiempo promedio: aprox. 85-105 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Rompecráneos con mancuernas en el piso (Floor Skullcrusher)_
+_Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1973,7 +2010,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
@@ -2018,10 +2055,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Nombre para copiar en YouTube: `Floor Dumbbell Skullcrusher`
+   - Cambiar por: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Nombre para copiar en YouTube: `Overhead Dumbbell Triceps Extension`
 2. **Curl femoral sentado (Seated Leg Curl)** — 2 × 15 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
@@ -2032,12 +2069,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - pausa de 1 segundo abajo** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
@@ -2047,10 +2090,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -2067,14 +2109,14 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (jueves): 2 → 3 series
+- +1 serie en Extensión de tríceps sobre la cabeza (Overhead Extension) (jueves): 2 → 3 series
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 48 contactos de saltos de tobillo · 52 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto a cajón bajo (Low Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -2086,13 +2128,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto a cajón bajo (Low Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -2157,15 +2199,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Rompecráneos con mancuernas en el piso (Floor Skullcrusher)_
+_Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2178,7 +2220,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
@@ -2223,10 +2265,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Nombre para copiar en YouTube: `Floor Dumbbell Skullcrusher`
+   - Cambiar por: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Nombre para copiar en YouTube: `Overhead Dumbbell Triceps Extension`
 2. **Curl femoral sentado (Seated Leg Curl)** — 2 × 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
@@ -2237,12 +2279,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - pausa de 1 segundo abajo** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
@@ -2252,10 +2300,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -2281,7 +2328,7 @@ _Nivel de la semana: 10 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto a cajón bajo (Low Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -2293,13 +2340,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto a cajón bajo (Low Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -2364,15 +2411,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 95-115 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Tiempo promedio: aprox. 100-120 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Rompecráneos con mancuernas en el piso (Floor Skullcrusher)_
+_Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 5 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2385,7 +2432,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
@@ -2430,10 +2477,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Nombre para copiar en YouTube: `Floor Dumbbell Skullcrusher`
+   - Cambiar por: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Nombre para copiar en YouTube: `Overhead Dumbbell Triceps Extension`
 2. **Curl femoral sentado (Seated Leg Curl)** — 2 × 15 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1-2 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
@@ -2444,12 +2491,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - pausa de 1 segundo abajo** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
@@ -2459,10 +2512,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -2488,7 +2540,7 @@ _Última semana: un intensificador en cada uno de estos días (lunes y jueves): 
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Salto a cajón bajo (Low Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
@@ -2500,13 +2552,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 2. Movilidad: aperturas de libro con kettlebell, rotaciones torácicas y aperturas de pectoral menor (5 min)
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
-2. **Perro de caza (Bird Dog)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
+   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
+2. **Abdominal inverso (Reverse Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Elevación de piernas acostado boca arriba (Lying Leg Raise) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado (Hanging Knees to Chest) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Rodillas al pecho colgado con balón medicinal entre rodillas o pies (Hanging Knees to Chest) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
 1. **Salto a cajón bajo (Low Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
@@ -2571,15 +2623,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 ### Miércoles · Día de juego (Pickleball)
 
 ### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
-_Tiempo promedio: aprox. 95-115 min (un estimado, solo como información)_
-_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
+_Tiempo promedio: aprox. 100-120 min (un estimado, solo como información)_
+_Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
-_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba (ahorras unos 6 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Rompecráneos con mancuernas en el piso (Floor Skullcrusher)_
+_Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
+_Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 6 min)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2592,7 +2644,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - Cambiar por: Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha con elevación alterna de pies (Plank Leg Raise) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Conexión cruzada: rodadas / balanceo / sostén (Cross Connect) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Marcha antirrotación (Anti-Rotation March) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
@@ -2637,10 +2689,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
-1. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 3 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 3 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
-   - Cambiar por: Extensión de tríceps sobre la cabeza (Overhead Extension) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Nombre para copiar en YouTube: `Floor Dumbbell Skullcrusher`
+   - Cambiar por: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Press Tate (Tate Press) (mantiene el trabajo de tríceps; pierde poco: mismo movimiento, otro agarre o posición) / Extensión de tríceps en polea con barra recta, agarre prono (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre) / Extensión de tríceps en polea (Triceps Pushdown) (mantiene el trabajo de tríceps; pierde el trabajo de equilibrio del peso libre)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Nombre para copiar en YouTube: `Overhead Dumbbell Triceps Extension`
 2. **Curl femoral sentado (Seated Leg Curl)** — 2 × 15 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez.
    - Cambiar por: Curl femoral acostado (Lying Leg Curl) (mantiene el curl de isquiotibiales; pierde poco: mismo movimiento, otro agarre o posición) / Curl femoral con deslizadores (Slider Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina) / Curl femoral con balón medicinal o de estabilidad (Ball Hamstring Curl) (mantiene el curl de isquiotibiales; pierde el apoyo de la máquina)
@@ -2651,12 +2703,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Face pull en polea (Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre) / Face pull hacia arriba, de abajo hacia arriba de la cabeza (Upward Face Pull) (mantiene el trabajo de deltoides posterior; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Nombre para copiar en YouTube: `KB Face Pull`
-4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba** — 4 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+4. **Elevación de pantorrillas de pie con mancuernas (DB Calf Raise)** — 4 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Elevación de pantorrillas en máquina (Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre) / Elevación de talones sentado (Seated Calf Raise) (mantiene el trabajo de pantorrillas; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Nombre para copiar en YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Cuidado articular**
+1. **Press de hombro arrodillado con mancuernas (Tall-Kneeling DB Press) - pausa de 1 segundo abajo** — 2 × 12 a 15 reps · suave y controlado · 30-60 s de descanso
+   - Salud del hombro: un press ligero por encima de la cabeza en todo tu rango, una vez a la semana - tu press inclinado construye la fuerza, este mantiene tu alcance
+   - Cambiar por: Press Z con mancuernas sentado en el piso (DB Z-Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene el empuje vertical; pierde el trabajo de equilibrio del peso libre) / Press de hombro de pie con mancuernas (Standing DB Press) (mantiene el empuje vertical; pierde poco: mismo movimiento, otro agarre o posición) / Press de hombro alterno con mancuernas (Alternating DB Overhead Press) (mantiene el empuje vertical; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Nombre para copiar en YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Viernes · Día opcional
 _Tiempo promedio: aprox. 40-45 min (un estimado, solo como información)_
@@ -2666,10 +2724,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
+1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar

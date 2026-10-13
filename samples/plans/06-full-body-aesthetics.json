@@ -1549,7 +1549,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -1650,7 +1650,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 81,
+          "est_minutes": 87,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -1723,13 +1723,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -3169,8 +3170,116 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -9824,7 +9933,7 @@
       "weekly_sets_by_muscle": {
         "quads": 17,
         "hamstrings": 13.75,
-        "glutes": 12,
+        "glutes": 12.25,
         "chest": 17,
         "lats_upper_back": 17,
         "side_delts": 8,
@@ -9836,7 +9945,7 @@
         "forearms": 2.5,
         "front_delts": 4.25,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 3.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -9860,7 +9969,7 @@
       "main_sets_by_muscle": {
         "quads": 17,
         "hamstrings": 12.75,
-        "glutes": 8,
+        "glutes": 8.25,
         "chest": 17,
         "lats_upper_back": 17,
         "shoulders": 15.5,
@@ -9871,7 +9980,7 @@
       "weekly_sets_by_line": {
         "quads": 17,
         "hamstrings": 13.75,
-        "glutes": 12,
+        "glutes": 12.25,
         "chest": 17,
         "lats_upper_back": 17,
         "shoulders": 19.5,
@@ -9881,7 +9990,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 17,
-        "hips": 22,
+        "hips": 22.25,
         "back": 17,
         "chest": 17,
         "shoulders": 19.5,
@@ -9891,7 +10000,7 @@
       },
       "main_sets_by_group": {
         "quads": 17,
-        "hips": 18,
+        "hips": 18.25,
         "back": 17,
         "chest": 17,
         "shoulders": 15.5,
@@ -9916,7 +10025,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -9986,9 +10095,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "leg-extension-machine",
+            "exercise": "front-squat-barbell",
             "day": "Mon",
-            "slot_id": "Mon.A1.s10"
+            "slot_id": "Mon.A1.s06"
           }
         },
         {
@@ -10043,7 +10152,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 85,
+          "est_minutes": 91,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -10082,7 +10191,7 @@
                 "Mon.A1.s05",
                 "Mon.A1.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -10100,7 +10209,7 @@
                 "Mon.A1.s09",
                 "Mon.A1.s10"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             },
             {
@@ -10116,13 +10225,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -10625,7 +10735,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -11189,7 +11299,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -11534,8 +11644,116 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -18117,7 +18335,7 @@
       "weekly_sets_by_muscle": {
         "quads": 17,
         "hamstrings": 14.75,
-        "glutes": 12.25,
+        "glutes": 12.5,
         "chest": 17,
         "lats_upper_back": 17,
         "side_delts": 9,
@@ -18129,7 +18347,7 @@
         "forearms": 2.5,
         "front_delts": 4.25,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 3.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -18153,7 +18371,7 @@
       "main_sets_by_muscle": {
         "quads": 17,
         "hamstrings": 13.75,
-        "glutes": 8.25,
+        "glutes": 8.5,
         "chest": 17,
         "lats_upper_back": 17,
         "shoulders": 16.5,
@@ -18164,7 +18382,7 @@
       "weekly_sets_by_line": {
         "quads": 17,
         "hamstrings": 14.75,
-        "glutes": 12.25,
+        "glutes": 12.5,
         "chest": 17,
         "lats_upper_back": 17,
         "shoulders": 20.5,
@@ -18174,7 +18392,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 17,
-        "hips": 23,
+        "hips": 23.25,
         "back": 17,
         "chest": 17,
         "shoulders": 20.5,
@@ -18184,7 +18402,7 @@
       },
       "main_sets_by_group": {
         "quads": 17,
-        "hips": 19,
+        "hips": 19.25,
         "back": 17,
         "chest": 17,
         "shoulders": 16.5,
@@ -18209,7 +18427,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -18279,9 +18497,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer",
+            "exercise": "hex-trap-bar-deadlift",
             "day": "Fri",
-            "slot_id": "Fri.B2.s08"
+            "slot_id": "Fri.B2.s06"
           }
         },
         {
@@ -18328,7 +18546,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 85,
+          "est_minutes": 91,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -18367,7 +18585,7 @@
                 "Mon.A1.s05",
                 "Mon.A1.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -18385,7 +18603,7 @@
                 "Mon.A1.s09",
                 "Mon.A1.s10"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             },
             {
@@ -18401,13 +18619,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -18910,7 +19129,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -19474,7 +19693,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -19819,8 +20038,116 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -23976,7 +24303,7 @@
           "label_key": "day.aesthetics.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 101,
+          "est_minutes": 100,
           "aerobic_minutes": 30,
           "exercise_count": 7,
           "skeleton": "gym_B",
@@ -24007,7 +24334,7 @@
                 "Fri.B2.s05",
                 "Fri.B2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -24016,7 +24343,7 @@
                 "Fri.B2.s07",
                 "Fri.B2.s08"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -24682,7 +25009,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -24970,7 +25297,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)",
                     "copy_name": "Alternating Staggered-Stance Single-Leg Deadlift (DB)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -26402,7 +26729,7 @@
       "weekly_sets_by_muscle": {
         "quads": 18,
         "hamstrings": 14.75,
-        "glutes": 12.25,
+        "glutes": 12.75,
         "chest": 18,
         "lats_upper_back": 18,
         "side_delts": 9,
@@ -26414,7 +26741,7 @@
         "forearms": 2.5,
         "front_delts": 4.5,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 3.5,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -26438,7 +26765,7 @@
       "main_sets_by_muscle": {
         "quads": 18,
         "hamstrings": 13.75,
-        "glutes": 8.25,
+        "glutes": 8.75,
         "chest": 18,
         "lats_upper_back": 18,
         "shoulders": 17,
@@ -26449,7 +26776,7 @@
       "weekly_sets_by_line": {
         "quads": 18,
         "hamstrings": 14.75,
-        "glutes": 12.25,
+        "glutes": 12.75,
         "chest": 18,
         "lats_upper_back": 18,
         "shoulders": 21,
@@ -26459,7 +26786,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 18,
-        "hips": 23,
+        "hips": 23.5,
         "back": 18,
         "chest": 18,
         "shoulders": 21,
@@ -26469,7 +26796,7 @@
       },
       "main_sets_by_group": {
         "quads": 18,
-        "hips": 19,
+        "hips": 19.5,
         "back": 18,
         "chest": 18,
         "shoulders": 17,
@@ -26494,7 +26821,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -26564,9 +26891,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "leg-extension-machine",
+            "exercise": "leg-press-machine",
             "day": "Thu",
-            "slot_id": "Thu.A2.s10"
+            "slot_id": "Thu.A2.s06"
           }
         },
         {
@@ -26613,7 +26940,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 85,
+          "est_minutes": 91,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -26652,7 +26979,7 @@
                 "Mon.A1.s05",
                 "Mon.A1.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -26670,7 +26997,7 @@
                 "Mon.A1.s09",
                 "Mon.A1.s10"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             },
             {
@@ -26686,13 +27013,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -27195,7 +27523,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -27759,7 +28087,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -28104,8 +28432,116 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -30679,7 +31115,7 @@
           "label_key": "day.aesthetics.4.A2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 82,
+          "est_minutes": 83,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -30718,7 +31154,7 @@
                 "Thu.A2.s05",
                 "Thu.A2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -30736,7 +31172,7 @@
                 "Thu.A2.s09",
                 "Thu.A2.s10"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             },
             {
@@ -31282,7 +31718,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Press%20(machine)",
                     "copy_name": "Leg Press (machine)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -31831,7 +32267,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -32265,7 +32701,7 @@
           "label_key": "day.aesthetics.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 103,
+          "est_minutes": 102,
           "aerobic_minutes": 30,
           "exercise_count": 7,
           "skeleton": "gym_B",
@@ -32296,7 +32732,7 @@
                 "Fri.B2.s05",
                 "Fri.B2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -32305,7 +32741,7 @@
                 "Fri.B2.s07",
                 "Fri.B2.s08"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -32975,7 +33411,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -33263,7 +33699,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)",
                     "copy_name": "Alternating Staggered-Stance Single-Leg Deadlift (DB)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -34695,7 +35131,7 @@
       "weekly_sets_by_muscle": {
         "quads": 19,
         "hamstrings": 14.75,
-        "glutes": 12.5,
+        "glutes": 12.75,
         "chest": 20,
         "lats_upper_back": 20,
         "side_delts": 9,
@@ -34707,7 +35143,7 @@
         "forearms": 2.5,
         "front_delts": 5,
         "traps": 0,
-        "adductors": 3.25,
+        "adductors": 3.5,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -34731,7 +35167,7 @@
       "main_sets_by_muscle": {
         "quads": 19,
         "hamstrings": 13.75,
-        "glutes": 8.5,
+        "glutes": 8.75,
         "chest": 20,
         "lats_upper_back": 20,
         "shoulders": 17.5,
@@ -34742,7 +35178,7 @@
       "weekly_sets_by_line": {
         "quads": 19,
         "hamstrings": 14.75,
-        "glutes": 12.5,
+        "glutes": 12.75,
         "chest": 20,
         "lats_upper_back": 20,
         "shoulders": 21.5,
@@ -34752,7 +35188,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 19,
-        "hips": 23.25,
+        "hips": 23.5,
         "back": 20,
         "chest": 20,
         "shoulders": 21.5,
@@ -34762,7 +35198,7 @@
       },
       "main_sets_by_group": {
         "quads": 19,
-        "hips": 19.25,
+        "hips": 19.5,
         "back": 20,
         "chest": 20,
         "shoulders": 17.5,
@@ -34787,7 +35223,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -34861,9 +35297,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "front-squat-barbell",
+            "exercise": "leg-extension-machine",
             "day": "Mon",
-            "slot_id": "Mon.A1.s06"
+            "slot_id": "Mon.A1.s10"
           }
         },
         {
@@ -34926,7 +35362,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 90,
+          "est_minutes": 96,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -34999,13 +35435,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -36476,8 +36913,120 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -39123,7 +39672,7 @@
           "label_key": "day.aesthetics.4.A2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 84,
+          "est_minutes": 85,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -39162,7 +39711,7 @@
                 "Thu.A2.s05",
                 "Thu.A2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -39180,7 +39729,7 @@
                 "Thu.A2.s09",
                 "Thu.A2.s10"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             },
             {
@@ -39730,7 +40279,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Press%20(machine)",
                     "copy_name": "Leg Press (machine)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -40304,7 +40853,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -40784,7 +41333,7 @@
                 "Fri.B2.s05",
                 "Fri.B2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -40793,7 +41342,7 @@
                 "Fri.B2.s07",
                 "Fri.B2.s08"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -41471,7 +42020,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -41763,7 +42312,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)",
                     "copy_name": "Alternating Staggered-Stance Single-Leg Deadlift (DB)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -43224,7 +43773,7 @@
       "weekly_sets_by_muscle": {
         "quads": 19,
         "hamstrings": 14.75,
-        "glutes": 12.5,
+        "glutes": 12.75,
         "chest": 20,
         "lats_upper_back": 20,
         "side_delts": 10,
@@ -43236,7 +43785,7 @@
         "forearms": 2.5,
         "front_delts": 5,
         "traps": 0,
-        "adductors": 3.25,
+        "adductors": 3.5,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -43260,7 +43809,7 @@
       "main_sets_by_muscle": {
         "quads": 19,
         "hamstrings": 13.75,
-        "glutes": 8.5,
+        "glutes": 8.75,
         "chest": 20,
         "lats_upper_back": 20,
         "shoulders": 18.5,
@@ -43271,7 +43820,7 @@
       "weekly_sets_by_line": {
         "quads": 19,
         "hamstrings": 14.75,
-        "glutes": 12.5,
+        "glutes": 12.75,
         "chest": 20,
         "lats_upper_back": 20,
         "shoulders": 22.5,
@@ -43281,7 +43830,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 19,
-        "hips": 23.25,
+        "hips": 23.5,
         "back": 20,
         "chest": 20,
         "shoulders": 22.5,
@@ -43291,7 +43840,7 @@
       },
       "main_sets_by_group": {
         "quads": 19,
-        "hips": 19.25,
+        "hips": 19.5,
         "back": 20,
         "chest": 20,
         "shoulders": 18.5,
@@ -43316,7 +43865,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -43419,7 +43968,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 90,
+          "est_minutes": 96,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -43492,13 +44041,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -44969,8 +45519,120 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -47616,7 +48278,7 @@
           "label_key": "day.aesthetics.4.A2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 84,
+          "est_minutes": 85,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -47655,7 +48317,7 @@
                 "Thu.A2.s05",
                 "Thu.A2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -47673,7 +48335,7 @@
                 "Thu.A2.s09",
                 "Thu.A2.s10"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             },
             {
@@ -48223,7 +48885,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Press%20(machine)",
                     "copy_name": "Leg Press (machine)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -48797,7 +49459,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 15,
@@ -49246,7 +49908,7 @@
           "label_key": "day.aesthetics.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 108,
+          "est_minutes": 107,
           "aerobic_minutes": 30,
           "exercise_count": 7,
           "skeleton": "gym_B",
@@ -49277,7 +49939,7 @@
                 "Fri.B2.s05",
                 "Fri.B2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -49286,7 +49948,7 @@
                 "Fri.B2.s07",
                 "Fri.B2.s08"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -49964,7 +50626,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -50256,7 +50918,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)",
                     "copy_name": "Alternating Staggered-Stance Single-Leg Deadlift (DB)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -51809,7 +52471,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -51888,9 +52550,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "leg-press-machine",
+            "exercise": "leg-extension-machine",
             "day": "Thu",
-            "slot_id": "Thu.A2.s06"
+            "slot_id": "Thu.A2.s10"
           }
         },
         {
@@ -51929,7 +52591,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 90,
+          "est_minutes": 96,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -52002,13 +52664,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -53479,8 +54142,120 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -57895,7 +58670,7 @@
           "label_key": "day.aesthetics.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 108,
+          "est_minutes": 107,
           "aerobic_minutes": 30,
           "exercise_count": 7,
           "skeleton": "gym_B",
@@ -57926,7 +58701,7 @@
                 "Fri.B2.s05",
                 "Fri.B2.s06"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -57935,7 +58710,7 @@
                 "Fri.B2.s07",
                 "Fri.B2.s08"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -58613,7 +59388,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -58905,7 +59680,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)",
                     "copy_name": "Alternating Staggered-Stance Single-Leg Deadlift (DB)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -60458,7 +61233,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -60537,9 +61312,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "hex-trap-bar-deadlift",
+            "exercise": "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer",
             "day": "Fri",
-            "slot_id": "Fri.B2.s06"
+            "slot_id": "Fri.B2.s08"
           }
         },
         {
@@ -60578,7 +61353,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 95,
+          "est_minutes": 101,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -60651,13 +61426,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -62128,8 +62904,120 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -69107,7 +69995,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -69248,7 +70136,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 95,
+          "est_minutes": 101,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -69321,13 +70209,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -69996,11 +70885,7 @@
                   "group": "back",
                   "exercise_id": "single-arm-lat-pulldown",
                   "name_key": "exercise.single-arm-lat-pulldown.name",
-                  "detail": {
-                    "axis": "range",
-                    "key": "detail.v.pause_top",
-                    "value": "pause_top"
-                  },
+                  "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
@@ -70076,9 +70961,7 @@
                     }
                   ],
                   "instead_of": null,
-                  "flags": [
-                    "detail_variation"
-                  ],
+                  "flags": [],
                   "why": [
                     {
                       "key": "why.default_pick",
@@ -70102,13 +70985,6 @@
                     {
                       "key": "why.level_soft",
                       "ref": "CAT-05"
-                    },
-                    {
-                      "key": "why.detail_variation",
-                      "ref": "R2-LIB-01",
-                      "args": {
-                        "axis": "range"
-                      }
                     },
                     {
                       "key": "why.reps_matrix",
@@ -70809,8 +71685,128 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": {
+                    "axis": "range",
+                    "key": "detail.v.pause_bottom",
+                    "value": "pause_bottom"
+                  },
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "detail_variation",
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    },
+                    {
+                      "key": "why.detail_variation",
+                      "ref": "R2-LIB-01",
+                      "args": {
+                        "axis": "range"
+                      }
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -78066,7 +79062,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -78195,7 +79191,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 97,
+          "est_minutes": 103,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -78268,13 +79264,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -78943,11 +79940,7 @@
                   "group": "back",
                   "exercise_id": "single-arm-lat-pulldown",
                   "name_key": "exercise.single-arm-lat-pulldown.name",
-                  "detail": {
-                    "axis": "range",
-                    "key": "detail.v.pause_top",
-                    "value": "pause_top"
-                  },
+                  "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
@@ -79023,9 +80016,7 @@
                     }
                   ],
                   "instead_of": null,
-                  "flags": [
-                    "detail_variation"
-                  ],
+                  "flags": [],
                   "why": [
                     {
                       "key": "why.default_pick",
@@ -79049,13 +80040,6 @@
                     {
                       "key": "why.level_soft",
                       "ref": "CAT-05"
-                    },
-                    {
-                      "key": "why.detail_variation",
-                      "ref": "R2-LIB-01",
-                      "args": {
-                        "axis": "range"
-                      }
                     },
                     {
                       "key": "why.reps_matrix",
@@ -79756,8 +80740,128 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": {
+                    "axis": "range",
+                    "key": "detail.v.pause_bottom",
+                    "value": "pause_bottom"
+                  },
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "detail_variation",
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    },
+                    {
+                      "key": "why.detail_variation",
+                      "ref": "R2-LIB-01",
+                      "args": {
+                        "axis": "range"
+                      }
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -87013,7 +88117,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -87151,7 +88255,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 97,
+          "est_minutes": 103,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -87224,13 +88328,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -87899,11 +89004,7 @@
                   "group": "back",
                   "exercise_id": "single-arm-lat-pulldown",
                   "name_key": "exercise.single-arm-lat-pulldown.name",
-                  "detail": {
-                    "axis": "range",
-                    "key": "detail.v.pause_top",
-                    "value": "pause_top"
-                  },
+                  "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
@@ -87979,9 +89080,7 @@
                     }
                   ],
                   "instead_of": null,
-                  "flags": [
-                    "detail_variation"
-                  ],
+                  "flags": [],
                   "why": [
                     {
                       "key": "why.default_pick",
@@ -88005,13 +89104,6 @@
                     {
                       "key": "why.level_soft",
                       "ref": "CAT-05"
-                    },
-                    {
-                      "key": "why.detail_variation",
-                      "ref": "R2-LIB-01",
-                      "args": {
-                        "axis": "range"
-                      }
                     },
                     {
                       "key": "why.reps_matrix",
@@ -88712,8 +89804,128 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": {
+                    "axis": "range",
+                    "key": "detail.v.pause_bottom",
+                    "value": "pause_bottom"
+                  },
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "detail_variation",
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    },
+                    {
+                      "key": "why.detail_variation",
+                      "ref": "R2-LIB-01",
+                      "args": {
+                        "axis": "range"
+                      }
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -96102,7 +97314,7 @@
         "Mon": {
           "quads": 3,
           "back": 2,
-          "shoulders": 1,
+          "shoulders": 2,
           "biceps": 1,
           "calves": 1
         },
@@ -96252,7 +97464,7 @@
           "label_key": "day.aesthetics.4.A1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 99,
+          "est_minutes": 105,
           "aerobic_minutes": 0,
           "exercise_count": 8,
           "skeleton": "gym_A",
@@ -96316,13 +97528,14 @@
           "toggle_blocks": [
             "core",
             "accessories",
+            "prehab",
             "cooldown"
           ],
           "toggle_items": [],
           "groups": {
             "quads": 3,
             "back": 2,
-            "shoulders": 1,
+            "shoulders": 2,
             "biceps": 1,
             "calves": 1
           },
@@ -96991,11 +98204,7 @@
                   "group": "back",
                   "exercise_id": "single-arm-lat-pulldown",
                   "name_key": "exercise.single-arm-lat-pulldown.name",
-                  "detail": {
-                    "axis": "range",
-                    "key": "detail.v.pause_top",
-                    "value": "pause_top"
-                  },
+                  "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
@@ -97071,9 +98280,7 @@
                     }
                   ],
                   "instead_of": null,
-                  "flags": [
-                    "detail_variation"
-                  ],
+                  "flags": [],
                   "why": [
                     {
                       "key": "why.default_pick",
@@ -97097,13 +98304,6 @@
                     {
                       "key": "why.level_soft",
                       "ref": "CAT-05"
-                    },
-                    {
-                      "key": "why.detail_variation",
-                      "ref": "R2-LIB-01",
-                      "args": {
-                        "axis": "range"
-                      }
                     },
                     {
                       "key": "why.reps_matrix",
@@ -97812,8 +99012,128 @@
               "removable": true
             },
             {
-              "kind": "cooldown",
+              "kind": "prehab",
               "position": 4,
+              "movable": false,
+              "circuit": null,
+              "items": [
+                {
+                  "slot_id": "Mon.A1.p01",
+                  "station_id": "A1.p01",
+                  "bucket": "RP_VPUSH",
+                  "role": "prehab",
+                  "origin": "prehab_added",
+                  "group": "shoulders",
+                  "exercise_id": "tall-kneeling-db-overhead-press",
+                  "name_key": "exercise.tall-kneeling-db-overhead-press.name",
+                  "detail": {
+                    "axis": "range",
+                    "key": "detail.v.pause_bottom",
+                    "value": "pause_bottom"
+                  },
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press",
+                    "copy_name": "Tall-Kneeling DB Overhead Press"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 12,
+                    "max": 15,
+                    "bracket": "b12_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.prehab"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {},
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "prehab.label.OVERHEAD_HEALTH",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    }
+                  ],
+                  "swaps": [
+                    "db-z-press-seated-on-floor",
+                    "seated-machine-shoulder-press",
+                    "standing-db-overhead-press",
+                    "alternating-db-overhead-press"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "db-z-press-seated-on-floor",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "seated-machine-shoulder-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.free_weight_balance"
+                    },
+                    {
+                      "id": "standing-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "alternating-db-overhead-press",
+                      "keeps": "swap.keeps.VPUSH",
+                      "loses": "swap.loses.two_side_load"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [
+                    "detail_variation",
+                    "prehab_preferred"
+                  ],
+                  "why": [
+                    {
+                      "key": "why.prehab",
+                      "ref": "D-23",
+                      "args": {
+                        "code": "OVERHEAD_HEALTH"
+                      }
+                    },
+                    {
+                      "key": "why.detail_variation",
+                      "ref": "R2-LIB-01",
+                      "args": {
+                        "axis": "range"
+                      }
+                    }
+                  ],
+                  "superset_suggested": null
+                }
+              ],
+              "id": "blk.mon-a1.prehab.1",
+              "toggle": true,
+              "removable": true
+            },
+            {
+              "kind": "cooldown",
+              "position": 5,
               "movable": false,
               "circuit": null,
               "items": [
@@ -105145,11 +106465,11 @@
       ],
       "glutes": [
         12,
-        12,
-        12.25,
         12.25,
         12.5,
-        12.5,
+        12.75,
+        12.75,
+        12.75,
         13.75,
         14.25,
         14.5,
@@ -105313,11 +106633,11 @@
       ],
       "adductors": [
         3,
-        3,
-        3,
-        3,
         3.25,
         3.25,
+        3.5,
+        3.5,
+        3.5,
         3.5,
         3.75,
         4,
@@ -105371,11 +106691,11 @@
       ],
       "glutes": [
         12,
-        12,
-        12.25,
         12.25,
         12.5,
-        12.5,
+        12.75,
+        12.75,
+        12.75,
         13.75,
         14.25,
         14.5,
@@ -105485,11 +106805,11 @@
       ],
       "hips": [
         22,
-        22,
-        23,
-        23,
+        22.25,
         23.25,
-        23.25,
+        23.5,
+        23.5,
+        23.5,
         24.5,
         25.75,
         26,

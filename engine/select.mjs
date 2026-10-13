@@ -468,7 +468,12 @@ function coreRotationOn(E) {
 /** a moving rotational core drill: one of the rule's picks, or a live transverse-plane drill that is not a hold / anti-movement drill */
 function rotationalCore(ex, E) {
   const CR = E.V7 && E.V7.core_rotation;
-  return !!CR && ((CR.ids || []).includes(ex.id) || (ex.plane === 'transverse' && !antiCore(ex) && ex.status === 'live_library_selectable'));
+  // (a cable record named for its cable - 'Cable Woodchopper' - is the rotational drill only where the kit holds a cable)
+  if (!CR || ((CR.cable_only_ids || []).includes(ex.id) && !(E.kitObj && E.kitObj.tokens && E.kitObj.tokens.has('cable')))) return false;
+  // (a profile low-back hot spot keeps loaded trunk flexion and rotation out - rules.selection.s6.core.hotspot_flexion_re, G-295)
+  const CLB = E.F3 && E.F3.core_low_back;
+  if (CR.loaded_re && CLB && (CLB.hotspots || []).some((h) => E.injuries.has(h)) && new RegExp(CR.loaded_re).test(ex.id)) return false;
+  return (CR.ids || []).includes(ex.id) || (ex.plane === 'transverse' && !antiCore(ex) && ex.status === 'live_library_selectable');
 }
 
 /** does the week (every day picked so far) hold its rotational drill(s)? */
@@ -1093,7 +1098,9 @@ function scoreOf(ex, slot, eb, E, st, day) {
     // lateral jump station on every training day
     // (the Land stage lands on two feet first, CAT-10: there the station is a two-foot lateral one; single-leg from Land & Go on)
     const rc1 = !E.stage || E.stage === 'RC1';
-    if (E.cuttingDaily && eb === 'AP_PLYO' && slot.variant !== 'upper' && !ex.athletic.upper && ((isUnilateral(ex) && !rc1) || (LATERAL_JUMP_RE.test(ex.id) && !(rc1 && isUnilateral(ex)))) &&
+    // (engine 0.7 G-298: in the Land stage the lateral jump that takes the day's weight is a two-foot ballistic one - the stage holds no
+    // reactive contacts, R2-ATH-03)
+    if (E.cuttingDaily && eb === 'AP_PLYO' && slot.variant !== 'upper' && !ex.athletic.upper && ((isUnilateral(ex) && !rc1) || (LATERAL_JUMP_RE.test(ex.id) && !(rc1 && isUnilateral(ex)) && !(rc1 && ex.athletic.quality === 'plyometric'))) &&
         !(st.dayJumpUL && st.dayJumpUL.has(weekdayOfSlot(slot)))) s += (R.selection.s6.jumps.cutting.bonus || 0);
     if (E.FR && tags.includes('depth_jump') && (st.depthUsed || 0) >= E.depthCap) s -= 8;
     // the sport's jump directions (04 direction_pct; review 01 / 08: no lateral plate hops for a 5 % lateral swimmer)
@@ -2406,11 +2413,9 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
   const SKR = R.selection.x2 && R.selection.x2.small_kit_rows;
   const smallKitRow = (c) => !!SKR && !!E.smallKitRows && (SKR.ids || []).includes(c.ex.id);
   // (v0.6, G-131: a low-back hot spot without pain may still take the two reference floor drills of the low-back opener)
-  // (v0.7 G-295, COACH-R5 R5-ATH-08 'otherwise normal core, including rotation': rules.selection.s6.core.hotspot_reference_drills false
-  // retires that allowance)
-  const lbHotCore = !lowBackCore && !!CLB && bk === 'core' && !!(R.selection.s6 && R.selection.s6.core) && R.selection.s6.core.hotspot_reference_drills !== false && (CLB.hotspots || []).some((h) => E.injuries.has(h));
+  const lbHotCore = !lowBackCore && !!CLB && bk === 'core' && !!(R.selection.s6 && R.selection.s6.core) && (CLB.hotspots || []).some((h) => E.injuries.has(h));
   // (v0.7 G-295: the weekly rotational drill may be one of the coach's program drills the rule names)
-  const rotOk = (c) => bk === 'core' && coreRotationOn(E) && (E.V7.core_rotation.ids || []).includes(c.ex.id);
+  const rotOk = (c) => bk === 'core' && coreRotationOn(E) && (E.V7.core_rotation.ids || []).includes(c.ex.id) && rotationalCore(c.ex, E);
   const pickOk = (c) => (/^AP_/.test(eb) && pickOkIds.has(c.ex.id)) || ((lowBackCore || lbHotCore) && lowBackOk(c)) || rotOk(c) || hangPick(c) || (eb === 'RP_HPULL' && smallKitRow(c));
   // F3 (CAT-05; RECHECK 05 major): an above-ladder pick that is high-skill (or any above-ladder pick in a timed circuit) is a fallback only
   const LH = E.F3 && E.F3.level_hard;
@@ -2679,7 +2684,7 @@ function pickFor(slot, day, E, st, eb, opts = {}) {
       // or a moving one), then the plane alone (rules.selection.s6.core.block_change_relax)
       const RLX = R.selection.s6 && R.selection.s6.core && R.selection.s6.core.block_change_relax;
       if (rotPrev) alt = base.find((c) => rotationalCore(c.ex, E)) || alt;
-      if (!alt && RLX) alt = base.find((c) => corePlaneOf(c.ex) === corePlaneOf(prevEx) && antiCore(c.ex) === antiCore(prevEx)) || base.find((c) => corePlaneOf(c.ex) === corePlaneOf(prevEx)) || null;
+      if (!alt && RLX && !lowBackClient(E)) alt = base.find((c) => corePlaneOf(c.ex) === corePlaneOf(prevEx) && antiCore(c.ex) === antiCore(prevEx)) || base.find((c) => corePlaneOf(c.ex) === corePlaneOf(prevEx)) || null;
     } else if (prevEx && BC.one_detail) {
       const dist = (c) => changeDistance(prevEx, c.ex);
       const weekIds = new Set([...st.usedWeek, ...(opts.reserved || []), ...(opts.weekKeep || []), ...E.weekUsed]);

@@ -69302,8 +69302,8 @@
     "core": {
      "low_back_list_only_with_pain": true,
      "hotspot_list_from_age": null,
-     "hotspot_anti_bonus": 0,
-     "hotspot_flexion_re": "weighted",
+     "hotspot_anti_bonus": 2,
+     "hotspot_flexion_re": "weighted|sit-up|crunch|v-up|leg-raise|toes-to-bar|knees-to-chest",
      "hotspot_flexion": -2,
      "transverse_min_pct": 20,
      "transverse_bonus": 4,
@@ -69317,9 +69317,7 @@
      ],
      "status": "approved rules (R2-SES-03 light opener; PER-02 one change a block); PROPOSED: the weights and the one-core-change-a-day reading",
      "hotspot_status": "COACH-R5 R5-ATH-08: the low-back list only with reported low-back pain, at any age (the 50+ reading of G-131 is retired)",
-     "hotspot_reference_drills": true,
-     "block_change_relax": true,
-     "hotspot_lean_status": "COACH-R5 R5-ATH-08 (G-295): no lean for a hot spot without pain; loaded flexion -2 PROPOSED"
+     "block_change_relax": true
     },
     "jumps": {
      "start_stages": [
@@ -69332,7 +69330,7 @@
        "field_court"
       ],
       "cod_sport": true,
-      "bonus": 12
+      "bonus": 8
      },
      "refs": [
       "CAT-10",
@@ -69556,15 +69554,18 @@
      "enabled": true,
      "min_transverse_pct": 30,
      "per_week": 1,
-     "bonus": 6,
+     "bonus": 12,
      "ids": [
       "bicycle-crunch",
-      "cable-woodchopper-cable-chop",
-      "russian-twist"
+      "cable-woodchopper-cable-chop"
      ],
      "level_exempt_ids": [
       "cable-woodchopper-cable-chop"
      ],
+     "cable_only_ids": [
+      "cable-woodchopper-cable-chop"
+     ],
+     "loaded_re": "weighted",
      "refs": [
       "R5-ATH-08",
       "R5-LIB-02",

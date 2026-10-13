@@ -1503,7 +1503,9 @@ function pairRemaining(day, ctx) {
   const grp = (s) => (s.bucket === 'ISO_SIDE_REAR_DELT' ? (s.variant === 'rear' ? 'rear' : 'side') : s.bucket === 'ISO_CALF' ? 'calves' : s.bucket === 'ISO_BICEP' ? 'biceps'
     : s.bucket === 'ISO_TRICEP' ? 'triceps' : (s.group || (s.focus_muscle ? model.groupOf(s.focus_muscle) : null) || s.bucket));
   const eligible = (s) => !s.superset && !s.superset_eligible && !s.test && !s.aerobic && s.role !== 'work' && s.role !== 'core_block' && s.block !== 'circuit' &&
-    (['isolation', 'focus', 'prehab'].includes(kindOfS(s)) || s.role === 'prehab');
+    (['isolation', 'focus', 'prehab'].includes(kindOfS(s)) || s.role === 'prehab') &&
+    // (engine 0.7 G-252 / G-299: a joint-care slot that holds a lifting pattern - the weekly light overhead press - is no superset partner)
+    !(s.role === 'prehab' && !['prehab', 'isolation', 'focus'].includes(kindOfS(s)));
   const compatible = (a, b) => {
     if (grp(a) === grp(b)) return false; // two exercises of one group are never supersetted (master 10.6)
     if (a.role === 'prehab' && b.role === 'prehab') return false;

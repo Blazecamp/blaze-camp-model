@@ -525,7 +525,10 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
     assert.ok(!/or a test day/.test(s6) && !/or a test day/.test(s8));
     assert.ok(/or a test day/.test(md('01')));
     const adj = (s) => s.split('\n').find(l => l.startsWith('- You (or your coach) can switch off these blocks'));
-    assert.ok(adj(s6) && !/jumps|joint care/.test(adj(s6)) && /accessories/.test(adj(s6)), adj(s6));
+    // (engine 0.7 fix round, converted - DECISIONS G-299: 06 now holds the weekly light overhead press as joint care, R5-ATH-04, so its
+    // adjust line names the joint-care block it can switch off)
+    const has6 = plan('06').weeks.some(w => w.days.some(d => d.blocks.some(b => b.kind === 'prehab' && b.items.length)));
+    assert.ok(adj(s6) && !/jumps/.test(adj(s6)) && /joint care/.test(adj(s6)) === has6 && /accessories/.test(adj(s6)), adj(s6));
     // (v0.5 fix round 1: the pickleball player's joint care lives in the template's own lifts - rules.prehab.x1 - so there is no
     // joint-care block to switch off; a plan that holds one still names it)
     const has8 = plan('08').weeks.some(w => w.days.some(d => d.blocks.some(b => b.kind === 'prehab' && b.items.length)));
@@ -587,7 +590,10 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
   test('R08-core-for-a-court-back: a 52-year-old court player\'s core holds no leg raise, crunch or reverse crunch (the rotational low-back hot spot) and changes nothing for the worse across blocks (08 major; E-184)', () => {
     const p = plan('08');
     assert.ok(R.selection.f3.core_low_back.hotspots.includes('LOW_BACK_ROTATIONAL'));
-    for (const x of allItems(p)) if (x.it.exercise_id && kindOf(x.it.bucket) === 'core') assert.ok(!/leg-raise|crunch|sit-up|v-up|toes-to|knees-to|russian-twist|hanging/.test(x.it.exercise_id), `w${x.w.n} ${x.d.weekday} ${x.it.exercise_id}`);
+    // (engine 0.7 fix round, converted - COACH-R5 R5-ATH-08 'Only when they report low-back pain. Otherwise normal core, including
+    // rotation', DECISIONS G-295: the player reports no low-back pain, so a moving rotational drill a week - the bicycle crunch, the chop -
+    // and an unloaded crunch are normal core for him; loaded trunk flexion and rotation, hanging raises and long-lever flexion stay out)
+    for (const x of allItems(p)) if (x.it.exercise_id && kindOf(x.it.bucket) === 'core') assert.ok(!/leg-raise|weighted|sit-up|v-up|toes-to|knees-to|russian-twist|hanging/.test(x.it.exercise_id), `w${x.w.n} ${x.d.weekday} ${x.it.exercise_id}`);
     const core = items(p.weeks[0]).filter(x => x.d.kind === 'main' && kindOf(x.it.bucket) === 'core').map(x => x.it.exercise_id);
     assert.ok(core.some(id => /bird-dog|pallof|anti-rotation|march|feet-raises|shoulder-tap|suitcase/.test(id)), core.join(', '));
   });

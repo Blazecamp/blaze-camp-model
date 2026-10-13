@@ -303,7 +303,9 @@ for (const [mname, model] of MODELS) {
       assert.deepEqual(IF.goals, ['muscle', 'general', 'fat_loss', 'active']); assert.equal(IF.bucket, 'RP_VPUSH'); assert.equal(IF.overhead_stays, true);
       const cases = [['S06', planOf('06')], ['S07', planOf('07')], ['S08', planOf('08')], ...(mname === 'model' ? [['B01', benchOf('01')], ['B77', benchOf('77')], ['B02', benchOf('02')]] : [])];
       for (const [tag, p] of cases) {
-        const slots = allItems(p).filter(x => x.it.bucket === 'RP_VPUSH' && x.d.kind === 'main' && x.it.exercise_id && x.b.kind !== 'circuit');
+        // (engine 0.7 fix round, converted - DECISIONS G-299: the weekly light overhead press of R5-ATH-04 is joint care, role prehab, not
+        // the slot's work)
+        const slots = allItems(p).filter(x => x.it.bucket === 'RP_VPUSH' && x.d.kind === 'main' && x.it.exercise_id && x.b.kind !== 'circuit' && x.it.role !== 'prehab');
         assert.ok(slots.length > 0, tag);
         // every week leads with incline pressing: the first vertical / mid-range push of the week is an incline press, and so is
         // most of the slot's work

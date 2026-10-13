@@ -58,7 +58,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 - Everything feels easy? Add a little weight or a rep first; never jump ahead more than one week.
 - Something hurts? First use a listed swap, then cut that exercise's sets by a third to a half, then drop it for the rest of the block. See a professional if it keeps hurting.
 - Life got in the way for several weeks (sick, travel, busy)? Stop the block, take the recommended easy week if you want, then build a new block.
-- You (or your coach) can switch off these blocks on any day: jumps, throws and speed; power / Olympic lifts; core; cardio; accessories. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
+- You (or your coach) can switch off these blocks on any day: jumps, throws and speed; power / Olympic lifts; core; cardio; joint care; accessories. You can also add or remove exercises (more rear-delt work, for example). Use the suggested supersets to save time.
 - Switching off the accessories block takes away every direct set for Shoulders, Biceps, Triceps and Calves.
 - You (or your coach) can also change the sets of any exercise on any day or week: the plan is a template.
 - The core block is optional: you may switch it off or change its exercises on any day. Everything in this plan is adjustable.
@@ -129,7 +129,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
 | Monday | Full body 1 - squat + pull, single-leg hinge + press | about 70-85 min | Quads 2, Hips (glutes + hamstrings) 1, Back 1, Chest 1, Biceps 1, Calves 1 |
-| Thursday | Full body 2 - hinge + push, lunge + pull | about 75-95 min | Quads 1, Hips (glutes + hamstrings) 2, Back 1, Chest 1, Shoulders 1, Triceps 1, Calves 1 |
+| Thursday | Full body 2 - hinge + push, lunge + pull | about 80-100 min | Quads 1, Hips (glutes + hamstrings) 2, Back 1, Chest 1, Shoulders 2, Triceps 1, Calves 1 |
 | Friday | Optional day | about 40-45 min | – |
 
 ## Training block, week by week · Week 1-12
@@ -156,8 +156,8 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
-| Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Bicycle Crunch → Cable Woodchopper (cable chop) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps → 10 to 15 per side |
+| Reverse Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) → Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) → Low Box Jump (Half-Shin Height) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contacts → 4 contacts |
 | Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 per side → 6 per side |
 | Kettlebell Swing (Russian) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
@@ -174,7 +174,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Exercise | Sets | Reps |
 |---|---|---|
 | Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
-| Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Bird Dogs → Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Assisted Pogo Hops (holding a rack, rail or counter) → Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contacts → 12 contacts → 15 contacts |
 | Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 Reps → 5 per side → 6 per side |
 | Split-Stance Contralateral Single-Arm KB Swing | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
@@ -182,16 +182,17 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | 45-Degree Hyperextension (back/hip extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 to 15 Reps → 10 to 12 Reps |
 | Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 to 15 per side → 8 to 12 per side |
 | Step-Up (forward and lateral) → Step-Up (forward and lateral) - 1-second pause at the bottom | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
-| Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 to 20 Reps |
+| Overhead Dumbbell Triceps Extension | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 to 20 Reps |
 | Seated Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
 | KB Face Pull | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
-| Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 15 to 20 Reps |
+| Standing DB Calf Raise (deficit optional) | 3 3 3 3 · 3 3 3 3 · 3 3 3 4 | 15 to 20 Reps |
+| Tall-Kneeling DB Overhead Press → Tall-Kneeling DB Overhead Press - palms facing each other (neutral grip) → Tall-Kneeling DB Overhead Press - 1-second pause at the bottom | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps |
 
 ### Friday · Optional day
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Pallof Press | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 
 ## Week 1 — Getting used to it (small steps)
 
@@ -202,7 +203,7 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -214,13 +215,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Bear Crawl (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -291,9 +291,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 75-95 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Assisted Pogo Hops (holding a rack, rail or counter) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
@@ -310,10 +310,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Assisted Pogo Hops (holding a rack, rail or counter)** — 3 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -382,6 +382,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
+
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
@@ -390,10 +396,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -417,7 +422,7 @@ _Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -429,13 +434,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Bear Crawl (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -502,9 +506,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 75-95 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Assisted Pogo Hops (holding a rack, rail or counter) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
@@ -521,10 +525,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Assisted Pogo Hops (holding a rack, rail or counter)** — 3 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -590,6 +594,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
+
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
@@ -598,10 +608,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -625,7 +634,7 @@ _Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -637,13 +646,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Bear Crawl (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -710,9 +718,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 75-95 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Assisted Pogo Hops (holding a rack, rail or counter) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
@@ -729,10 +737,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Assisted Pogo Hops (holding a rack, rail or counter)** — 3 × 11 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -798,6 +806,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
+
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
@@ -806,10 +820,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -833,7 +846,7 @@ _Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -845,13 +858,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Bear Crawl (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -918,9 +930,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 75-95 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Assisted Pogo Hops (holding a rack, rail or counter) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
@@ -937,10 +949,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Assisted Pogo Hops (holding a rack, rail or counter)** — 3 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1006,6 +1018,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
 
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
+
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
 _You can switch off these blocks today: core, cardio. You can also add or remove exercises._
@@ -1014,10 +1032,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
@@ -1034,9 +1051,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- New exercise block: 8 exercises change a little (another version or one new detail); the rest stay
-- Monday: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) → Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing); Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); Incline DB Bench Press → Incline DB Bench Press - palms facing each other (neutral grip); Leg Extension (machine) → Leg Extension (machine) - one leg at a time
-- Thursday: Assisted Pogo Hops (holding a rack, rail or counter) → Bilateral Lateral Ankle Hops; Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops; Step-Up (forward and lateral) → Step-Up (forward and lateral) - 1-second pause at the bottom; Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top
+- New exercise block: 10 exercises change a little (another version or one new detail); the rest stay
+- Monday: Bicycle Crunch → Cable Woodchopper (cable chop); Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) → Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing); Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); Incline DB Bench Press → Incline DB Bench Press - palms facing each other (neutral grip); Leg Extension (machine) → Leg Extension (machine) - one leg at a time
+- Thursday: Bird Dogs → Dead Bugs; Assisted Pogo Hops (holding a rack, rail or counter) → Bilateral Lateral Ankle Hops; Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops; Step-Up (forward and lateral) → Step-Up (forward and lateral) - 1-second pause at the bottom; Tall-Kneeling DB Overhead Press → Tall-Kneeling DB Overhead Press - palms facing each other (neutral grip)
 - Jumps move to Receive-Create 2: Land & Go
 - +1 set on Incline DB Bench Press (Monday): 3 → 4 sets
 
@@ -1045,7 +1062,7 @@ _Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - palms facing each other (neutral grip) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -1057,13 +1074,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Bear Crawl (keeps the core work; loses some difficulty - this one is easier) / Star Toe Touches (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1128,15 +1145,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 75-95 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1149,7 +1166,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
@@ -1208,12 +1225,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press - palms facing each other (neutral grip)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
@@ -1223,10 +1246,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -1250,7 +1272,7 @@ _Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - palms facing each other (neutral grip) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -1262,13 +1284,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Bear Crawl (keeps the core work; loses some difficulty - this one is easier) / Star Toe Touches (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1333,15 +1355,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 75-95 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1354,7 +1376,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
@@ -1413,12 +1435,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 20 on every set with 3 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press - palms facing each other (neutral grip)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
@@ -1428,10 +1456,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -1455,7 +1482,7 @@ _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - palms facing each other (neutral grip) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -1467,13 +1494,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Bear Crawl (keeps the core work; loses some difficulty - this one is easier) / Star Toe Touches (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1538,15 +1565,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 75-95 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1559,7 +1586,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
@@ -1618,12 +1645,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press - palms facing each other (neutral grip)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
@@ -1633,10 +1666,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -1660,7 +1692,7 @@ _Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - palms facing each other (neutral grip) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -1672,13 +1704,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Bear Crawl (keeps the core work; loses some difficulty - this one is easier) / Star Toe Touches (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1743,15 +1775,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 75-95 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Average time: about 80-100 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1764,7 +1796,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
@@ -1823,12 +1855,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press - palms facing each other (neutral grip)** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
@@ -1838,10 +1876,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
@@ -1860,7 +1897,7 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - New exercise block: 8 exercises change a little (another version or one new detail); the rest stay
 - Monday: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) → Low Box Jump (Half-Shin Height); Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L); Seal Row - DB (Supinated Grip) → Seal Row - DB (Pronated Grip); Incline DB Bench Press - palms facing each other (neutral grip) → Incline DB Bench Press - 1-second pause at the bottom
-- Thursday: Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops; Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg); Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher
+- Thursday: Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops; Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg); Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Tall-Kneeling DB Overhead Press - palms facing each other (neutral grip) → Tall-Kneeling DB Overhead Press - 1-second pause at the bottom
 - Jumps move to Receive-Create 3: Repeat
 - +1 set on Dumbbell Hammer Curl (Monday): 2 → 3 sets
 
@@ -1869,7 +1906,7 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Low Box Jump (Half-Shin Height) + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Pronated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -1881,13 +1918,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Bear Crawl (keeps the core work; loses some difficulty - this one is easier) / Star Toe Touches (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Low Box Jump (Half-Shin Height)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1952,15 +1989,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 85-100 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Average time: about 85-105 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
-_Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
+_Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1973,7 +2010,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
@@ -2018,10 +2055,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
-   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
 2. **Seated Leg Curl (machine)** — 2 × 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
@@ -2032,12 +2069,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
@@ -2047,10 +2090,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -2067,14 +2109,14 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Floor Dumbbell Skullcrusher (Thursday): 2 → 3 sets
+- +1 set on Overhead Dumbbell Triceps Extension (Thursday): 2 → 3 sets
 
 **Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 52 throws · 4 Olympic-lift sets
 
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Low Box Jump (Half-Shin Height) + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Pronated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -2086,13 +2128,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Bear Crawl (keeps the core work; loses some difficulty - this one is easier) / Star Toe Touches (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Low Box Jump (Half-Shin Height)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2157,15 +2199,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 85-100 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Average time: about 90-110 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
-_Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
+_Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2178,7 +2220,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
@@ -2223,10 +2265,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
 2. **Seated Leg Curl (machine)** — 2 × 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
@@ -2237,12 +2279,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
@@ -2252,10 +2300,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -2281,7 +2328,7 @@ _Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Low Box Jump (Half-Shin Height) + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Pronated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -2293,13 +2340,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Bear Crawl (keeps the core work; loses some difficulty - this one is easier) / Star Toe Touches (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Low Box Jump (Half-Shin Height)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2364,15 +2411,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 95-115 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Average time: about 100-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
-_Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
+_Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 5 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2385,7 +2432,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
@@ -2430,10 +2477,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
-   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
 2. **Seated Leg Curl (machine)** — 2 × 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
@@ -2444,12 +2491,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
@@ -2459,10 +2512,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -2488,7 +2540,7 @@ _Last week: one intensifier on each of these days (Monday and Thursday): a MYO s
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Reverse Crunch (about 2.5 min saved)_
 _Superset to save time: Low Box Jump (Half-Shin Height) + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Pronated Grip) + Hack Squat (machine) (about 4 min saved)_
 _Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
@@ -2500,13 +2552,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Bear Crawl (keeps the core work; loses some difficulty - this one is easier) / Star Toe Touches (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Medball Hanging Knees to Chest (ball between knees/feet) (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Low Box Jump (Half-Shin Height)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2571,15 +2623,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Wednesday · Play day (Pickleball)
 
 ### Thursday · Full body 2 - hinge + push, lunge + pull
-_Average time: about 95-115 min (an estimate, for information only)_
-_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
+_Average time: about 100-120 min (an estimate, for information only)_
+_You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
-_Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
-_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top (about 6 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, KB Face Pull, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
+_Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
+_Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 6 min saved)_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: Standing DB Calf Raise (deficit optional), KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2592,7 +2644,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
@@ -2637,10 +2689,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
-1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+1. **Overhead Dumbbell Triceps Extension** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
-   - Swap for: Overhead Dumbbell Triceps Extension (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
-   - [Watch how](https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher) · Name to copy into YouTube: `Floor Dumbbell Skullcrusher`
+   - Swap for: Floor Dumbbell Skullcrusher (keeps the triceps work; loses little - same movement, another grip or position) / Tate Press (keeps the triceps work; loses little - same movement, another grip or position) / Cable Triceps Pushdown - straight bar, pronated grip (keeps the triceps work; loses the free-weight balance work) / Cable Triceps Push-down (keeps the triceps work; loses the free-weight balance work)
+   - [Watch how](https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension) · Name to copy into YouTube: `Overhead Dumbbell Triceps Extension`
 2. **Seated Leg Curl (machine)** — 2 × 15 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time.
    - Swap for: Lying Leg Curl (machine) (keeps the hamstring curl; loses little - same movement, another grip or position) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses the machine's support) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses the machine's support)
@@ -2651,12 +2703,18 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Face Pull (keeps the rear-delt work; loses the free-weight balance work) / Upward Face Pull (low-to-high / overhead finish) (keeps the rear-delt work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
-4. **Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+4. **Standing DB Calf Raise (deficit optional)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: Machine Calf Raise (keeps the calf work; loses the free-weight balance work) / Seated / Bent-Knee Calf Raise (soleus; machine or DBs on the knees) (keeps the calf work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20DB%20Calf%20Raise%20(deficit%20optional)) · Name to copy into YouTube: `Standing DB Calf Raise (deficit optional)`
+
+**Joint care**
+1. **Tall-Kneeling DB Overhead Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
+   - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
+   - Swap for: DB Z-Press (seated on floor) (keeps the vertical press; loses little - same movement, another grip or position) / Seated Machine Shoulder Press (keeps the vertical press; loses the free-weight balance work) / Standing DB Overhead Press (keeps the vertical press; loses little - same movement, another grip or position) / Alternating DB Overhead Press (keeps the vertical press; loses the heavier two-sided load)
+   - [Watch how](https://www.youtube.com/results?search_query=Tall-Kneeling%20DB%20Overhead%20Press) · Name to copy into YouTube: `Tall-Kneeling DB Overhead Press`
 
 ### Friday · Optional day
 _Average time: about 40-45 min (an estimate, for information only)_
@@ -2666,10 +2724,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
+1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk

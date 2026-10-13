@@ -1496,7 +1496,8 @@ function v34Progression(c) {
     }
     if (r.it.origin === 'edit' || r.it.edited === true) continue;
     const reps = r.it.reps;
-    const expected = isRes(r) && r.bd && RESISTANCE_KINDS.includes(r.bd.kind) && typeof r.it.sets === 'number' && r.it.sets > 0 && !r.it.circuit && !!reps && REP_RULE_TYPES.includes(reps.type);
+    // (engine 0.7 G-299: joint care - the weekly light overhead press too - is done easy and controlled and carries no load rule)
+    const expected = isRes(r) && r.it.role !== 'prehab' && r.bd && RESISTANCE_KINDS.includes(r.bd.kind) && typeof r.it.sets === 'number' && r.it.sets > 0 && !r.it.circuit && !!reps && REP_RULE_TYPES.includes(reps.type);
     if (!expected) continue;
     if (!pr) { out.push(viol(where(r), k, { rule: 'rule_missing' })); continue; }
     const lo = typeof reps.min === 'number' ? reps.min : reps.value, hi = typeof reps.max === 'number' ? reps.max : lo;

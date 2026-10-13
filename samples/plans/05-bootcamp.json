@@ -1663,26 +1663,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "weighted-russian-twist",
+                  "name_key": "exercise.weighted-russian-twist.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
+                    "copy_name": "Weighted Russian Twist"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 60
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -1692,7 +1692,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "alternating",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -1705,35 +1705,38 @@
                   "progression": null,
                   "notes": [
                     {
+                      "key": "note.per_side"
+                    },
+                    {
                       "key": "note.core_supersets_optional"
                     }
                   ],
                   "swaps": [
-                    "high-plank-straight-arm-plank",
-                    "medball-plank-rockers",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "star-toe-touches",
+                    "bear-crawl",
+                    "kb-book-opener",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "star-toe-touches",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "bear-crawl",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "l-sit-hold",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.external_load"
                     }
                   ],
                   "instead_of": null,
@@ -1750,6 +1753,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -1808,8 +1815,8 @@
                   ],
                   "swaps": [
                     "high-straight-arm-side-plank",
-                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "side-plank-hip-lifts-slow",
+                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
@@ -1819,14 +1826,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
                       "id": "side-plank-hip-lifts-slow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -1848,10 +1855,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -3152,21 +3155,22 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "weighted-russian-twist",
-                  "name_key": "exercise.weighted-russian-twist.name",
+                  "exercise_id": "crunch",
+                  "name_key": "exercise.crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
-                    "copy_name": "Weighted Russian Twist"
+                    "url": "https://www.youtube.com/results?search_query=Crunch",
+                    "copy_name": "Crunch"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "per_side",
+                    "type": "range",
                     "min": 10,
-                    "max": 15
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
@@ -3181,7 +3185,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "alternating",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -3192,37 +3196,33 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
+                  "notes": [],
                   "swaps": [
-                    "kb-book-opener",
-                    "star-supine-cross-connect",
-                    "bear-crawl",
-                    "cross-body-mountain-climber"
+                    "sit-up",
+                    "weighted-sit-up",
+                    "v-up",
+                    "butterfly-sit-up"
                   ],
                   "swap_notes": [
                     {
-                      "id": "kb-book-opener",
+                      "id": "sit-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "star-supine-cross-connect",
+                      "id": "weighted-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bear-crawl",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "cross-body-mountain-climber",
+                      "id": "butterfly-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -6357,26 +6357,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "weighted-russian-twist",
+                  "name_key": "exercise.weighted-russian-twist.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
+                    "copy_name": "Weighted Russian Twist"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 60
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -6386,7 +6386,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "alternating",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -6397,33 +6397,37 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "high-plank-straight-arm-plank",
-                    "medball-plank-rockers",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "star-toe-touches",
+                    "bear-crawl",
+                    "kb-book-opener",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "star-toe-touches",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "bear-crawl",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "l-sit-hold",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.external_load"
                     }
                   ],
                   "instead_of": null,
@@ -6440,6 +6444,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -6498,8 +6506,8 @@
                   ],
                   "swaps": [
                     "high-straight-arm-side-plank",
-                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "side-plank-hip-lifts-slow",
+                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
@@ -6509,14 +6517,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
                       "id": "side-plank-hip-lifts-slow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -6538,10 +6546,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -7827,21 +7831,22 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "weighted-russian-twist",
-                  "name_key": "exercise.weighted-russian-twist.name",
+                  "exercise_id": "crunch",
+                  "name_key": "exercise.crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
-                    "copy_name": "Weighted Russian Twist"
+                    "url": "https://www.youtube.com/results?search_query=Crunch",
+                    "copy_name": "Crunch"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "per_side",
+                    "type": "range",
                     "min": 10,
-                    "max": 15
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
@@ -7856,7 +7861,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "alternating",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -7867,37 +7872,33 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
+                  "notes": [],
                   "swaps": [
-                    "kb-book-opener",
-                    "star-supine-cross-connect",
-                    "bear-crawl",
-                    "cross-body-mountain-climber"
+                    "sit-up",
+                    "weighted-sit-up",
+                    "v-up",
+                    "butterfly-sit-up"
                   ],
                   "swap_notes": [
                     {
-                      "id": "kb-book-opener",
+                      "id": "sit-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "star-supine-cross-connect",
+                      "id": "weighted-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bear-crawl",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "cross-body-mountain-climber",
+                      "id": "butterfly-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -11011,26 +11012,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "weighted-russian-twist",
+                  "name_key": "exercise.weighted-russian-twist.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
+                    "copy_name": "Weighted Russian Twist"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 60
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -11040,7 +11041,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "alternating",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -11051,33 +11052,37 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "high-plank-straight-arm-plank",
-                    "medball-plank-rockers",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "star-toe-touches",
+                    "bear-crawl",
+                    "kb-book-opener",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "star-toe-touches",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "bear-crawl",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "l-sit-hold",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.external_load"
                     }
                   ],
                   "instead_of": null,
@@ -11094,6 +11099,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -11152,8 +11161,8 @@
                   ],
                   "swaps": [
                     "high-straight-arm-side-plank",
-                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "side-plank-hip-lifts-slow",
+                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
@@ -11163,14 +11172,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
                       "id": "side-plank-hip-lifts-slow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -11192,10 +11201,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -12481,21 +12486,22 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "weighted-russian-twist",
-                  "name_key": "exercise.weighted-russian-twist.name",
+                  "exercise_id": "crunch",
+                  "name_key": "exercise.crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
-                    "copy_name": "Weighted Russian Twist"
+                    "url": "https://www.youtube.com/results?search_query=Crunch",
+                    "copy_name": "Crunch"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "per_side",
+                    "type": "range",
                     "min": 10,
-                    "max": 15
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
@@ -12510,7 +12516,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "alternating",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -12521,37 +12527,33 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
+                  "notes": [],
                   "swaps": [
-                    "kb-book-opener",
-                    "star-supine-cross-connect",
-                    "bear-crawl",
-                    "cross-body-mountain-climber"
+                    "sit-up",
+                    "weighted-sit-up",
+                    "v-up",
+                    "butterfly-sit-up"
                   ],
                   "swap_notes": [
                     {
-                      "id": "kb-book-opener",
+                      "id": "sit-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "star-supine-cross-connect",
+                      "id": "weighted-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bear-crawl",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "cross-body-mountain-climber",
+                      "id": "butterfly-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -15708,26 +15710,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "weighted-russian-twist",
+                  "name_key": "exercise.weighted-russian-twist.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
+                    "copy_name": "Weighted Russian Twist"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 60
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -15737,7 +15739,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "alternating",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -15748,33 +15750,37 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "high-plank-straight-arm-plank",
-                    "medball-plank-rockers",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "star-toe-touches",
+                    "bear-crawl",
+                    "kb-book-opener",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "star-toe-touches",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "bear-crawl",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "l-sit-hold",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.external_load"
                     }
                   ],
                   "instead_of": null,
@@ -15791,6 +15797,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -15849,8 +15859,8 @@
                   ],
                   "swaps": [
                     "high-straight-arm-side-plank",
-                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "side-plank-hip-lifts-slow",
+                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
@@ -15860,14 +15870,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
                       "id": "side-plank-hip-lifts-slow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -15889,10 +15899,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -17178,21 +17184,22 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "weighted-russian-twist",
-                  "name_key": "exercise.weighted-russian-twist.name",
+                  "exercise_id": "crunch",
+                  "name_key": "exercise.crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
-                    "copy_name": "Weighted Russian Twist"
+                    "url": "https://www.youtube.com/results?search_query=Crunch",
+                    "copy_name": "Crunch"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "per_side",
+                    "type": "range",
                     "min": 10,
-                    "max": 15
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
@@ -17207,7 +17214,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "alternating",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -17218,37 +17225,33 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
+                  "notes": [],
                   "swaps": [
-                    "kb-book-opener",
-                    "star-supine-cross-connect",
-                    "bear-crawl",
-                    "cross-body-mountain-climber"
+                    "sit-up",
+                    "weighted-sit-up",
+                    "v-up",
+                    "butterfly-sit-up"
                   ],
                   "swap_notes": [
                     {
-                      "id": "kb-book-opener",
+                      "id": "sit-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "star-supine-cross-connect",
+                      "id": "weighted-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bear-crawl",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "cross-body-mountain-climber",
+                      "id": "butterfly-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -20366,26 +20369,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "weighted-russian-twist",
+                  "name_key": "exercise.weighted-russian-twist.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
+                    "copy_name": "Weighted Russian Twist"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 25,
-                    "max": 60
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -20395,7 +20398,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "alternating",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -20406,33 +20409,37 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "high-plank-straight-arm-plank",
-                    "medball-plank-rockers",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "star-toe-touches",
+                    "bear-crawl",
+                    "kb-book-opener",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "star-toe-touches",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "bear-crawl",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "l-sit-hold",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.external_load"
                     }
                   ],
                   "instead_of": null,
@@ -20453,6 +20460,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -20511,8 +20522,8 @@
                   ],
                   "swaps": [
                     "high-straight-arm-side-plank",
-                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "side-plank-hip-lifts-slow",
+                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
@@ -20522,14 +20533,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
                       "id": "side-plank-hip-lifts-slow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -21880,21 +21891,22 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "weighted-russian-twist",
-                  "name_key": "exercise.weighted-russian-twist.name",
+                  "exercise_id": "sit-up",
+                  "name_key": "exercise.sit-up.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
-                    "copy_name": "Weighted Russian Twist"
+                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
+                    "copy_name": "Sit-Up"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "per_side",
+                    "type": "range",
                     "min": 10,
-                    "max": 15
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
@@ -21909,7 +21921,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "alternating",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -21920,45 +21932,47 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
+                  "notes": [],
                   "swaps": [
-                    "kb-book-opener",
-                    "star-supine-cross-connect",
-                    "bear-crawl",
-                    "cross-body-mountain-climber"
+                    "crunch",
+                    "weighted-sit-up",
+                    "v-up",
+                    "butterfly-sit-up"
                   ],
                   "swap_notes": [
                     {
-                      "id": "kb-book-opener",
+                      "id": "crunch",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "star-supine-cross-connect",
+                      "id": "weighted-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bear-crawl",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "cross-body-mountain-climber",
+                      "id": "butterfly-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "block_change"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.block_change",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.default_pick",
@@ -21967,10 +21981,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
                     },
                     {
                       "key": "why.second_exposure",
@@ -25135,26 +25145,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "weighted-russian-twist",
+                  "name_key": "exercise.weighted-russian-twist.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
+                    "copy_name": "Weighted Russian Twist"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 25,
-                    "max": 60
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -25164,7 +25174,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "alternating",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -25175,33 +25185,37 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "high-plank-straight-arm-plank",
-                    "medball-plank-rockers",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "star-toe-touches",
+                    "bear-crawl",
+                    "kb-book-opener",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "star-toe-touches",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "bear-crawl",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "l-sit-hold",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.external_load"
                     }
                   ],
                   "instead_of": null,
@@ -25222,6 +25236,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -25280,8 +25298,8 @@
                   ],
                   "swaps": [
                     "high-straight-arm-side-plank",
-                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "side-plank-hip-lifts-slow",
+                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
@@ -25291,14 +25309,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
                       "id": "side-plank-hip-lifts-slow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -26649,21 +26667,22 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "weighted-russian-twist",
-                  "name_key": "exercise.weighted-russian-twist.name",
+                  "exercise_id": "sit-up",
+                  "name_key": "exercise.sit-up.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
-                    "copy_name": "Weighted Russian Twist"
+                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
+                    "copy_name": "Sit-Up"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "per_side",
+                    "type": "range",
                     "min": 10,
-                    "max": 15
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
@@ -26678,7 +26697,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "alternating",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -26689,45 +26708,47 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
+                  "notes": [],
                   "swaps": [
-                    "kb-book-opener",
-                    "star-supine-cross-connect",
-                    "bear-crawl",
-                    "cross-body-mountain-climber"
+                    "crunch",
+                    "weighted-sit-up",
+                    "v-up",
+                    "butterfly-sit-up"
                   ],
                   "swap_notes": [
                     {
-                      "id": "kb-book-opener",
+                      "id": "crunch",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "star-supine-cross-connect",
+                      "id": "weighted-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bear-crawl",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "cross-body-mountain-climber",
+                      "id": "butterfly-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "block_change"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.block_change",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.default_pick",
@@ -26736,10 +26757,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
                     },
                     {
                       "key": "why.second_exposure",
@@ -29959,26 +29976,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "weighted-russian-twist",
+                  "name_key": "exercise.weighted-russian-twist.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
+                    "copy_name": "Weighted Russian Twist"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 25,
-                    "max": 60
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -29988,7 +30005,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "alternating",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -29999,33 +30016,37 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "high-plank-straight-arm-plank",
-                    "medball-plank-rockers",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "star-toe-touches",
+                    "bear-crawl",
+                    "kb-book-opener",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "star-toe-touches",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "bear-crawl",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "l-sit-hold",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.external_load"
                     }
                   ],
                   "instead_of": null,
@@ -30046,6 +30067,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -30104,8 +30129,8 @@
                   ],
                   "swaps": [
                     "high-straight-arm-side-plank",
-                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "side-plank-hip-lifts-slow",
+                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
@@ -30115,14 +30140,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
                       "id": "side-plank-hip-lifts-slow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -31473,21 +31498,22 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "weighted-russian-twist",
-                  "name_key": "exercise.weighted-russian-twist.name",
+                  "exercise_id": "sit-up",
+                  "name_key": "exercise.sit-up.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
-                    "copy_name": "Weighted Russian Twist"
+                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
+                    "copy_name": "Sit-Up"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "per_side",
+                    "type": "range",
                     "min": 10,
-                    "max": 15
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
@@ -31502,7 +31528,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "alternating",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -31513,45 +31539,47 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
+                  "notes": [],
                   "swaps": [
-                    "kb-book-opener",
-                    "star-supine-cross-connect",
-                    "bear-crawl",
-                    "cross-body-mountain-climber"
+                    "crunch",
+                    "weighted-sit-up",
+                    "v-up",
+                    "butterfly-sit-up"
                   ],
                   "swap_notes": [
                     {
-                      "id": "kb-book-opener",
+                      "id": "crunch",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "star-supine-cross-connect",
+                      "id": "weighted-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bear-crawl",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "cross-body-mountain-climber",
+                      "id": "butterfly-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "block_change"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.block_change",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.default_pick",
@@ -31560,10 +31588,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
                     },
                     {
                       "key": "why.second_exposure",
@@ -34742,26 +34766,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "weighted-russian-twist",
+                  "name_key": "exercise.weighted-russian-twist.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
+                    "copy_name": "Weighted Russian Twist"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 25,
-                    "max": 60
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -34771,7 +34795,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "alternating",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -34782,33 +34806,37 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "high-plank-straight-arm-plank",
-                    "medball-plank-rockers",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "star-toe-touches",
+                    "bear-crawl",
+                    "kb-book-opener",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "star-toe-touches",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "bear-crawl",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.external_load"
+                    },
+                    {
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "l-sit-hold",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.external_load"
                     }
                   ],
                   "instead_of": null,
@@ -34829,6 +34857,10 @@
                     {
                       "key": "why.continuity",
                       "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -34887,8 +34919,8 @@
                   ],
                   "swaps": [
                     "high-straight-arm-side-plank",
-                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "side-plank-hip-lifts-slow",
+                    "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
@@ -34898,14 +34930,14 @@
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
                       "id": "side-plank-hip-lifts-slow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -36260,21 +36292,22 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "weighted-russian-twist",
-                  "name_key": "exercise.weighted-russian-twist.name",
+                  "exercise_id": "sit-up",
+                  "name_key": "exercise.sit-up.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist",
-                    "copy_name": "Weighted Russian Twist"
+                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
+                    "copy_name": "Sit-Up"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "per_side",
+                    "type": "range",
                     "min": 10,
-                    "max": 15
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
@@ -36289,7 +36322,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "alternating",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -36300,45 +36333,47 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
+                  "notes": [],
                   "swaps": [
-                    "kb-book-opener",
-                    "star-supine-cross-connect",
-                    "bear-crawl",
-                    "cross-body-mountain-climber"
+                    "crunch",
+                    "weighted-sit-up",
+                    "v-up",
+                    "butterfly-sit-up"
                   ],
                   "swap_notes": [
                     {
-                      "id": "kb-book-opener",
+                      "id": "crunch",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "star-supine-cross-connect",
+                      "id": "weighted-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bear-crawl",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     },
                     {
-                      "id": "cross-body-mountain-climber",
+                      "id": "butterfly-sit-up",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.external_load"
+                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "block_change"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.block_change",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.default_pick",
@@ -36347,10 +36382,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
                     },
                     {
                       "key": "why.second_exposure",

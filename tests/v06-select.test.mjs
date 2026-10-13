@@ -348,7 +348,9 @@ describe('v0.6 selection - the benchmark scorer reads the package\'s rules (scor
     // (engine 0.7 volume package: 2.6 reads the light chest exercise's optional-day place and the circuit floor notice, G-240)
     // (engine 0.7 selection package: 2.6 reads the 2-day full-body skeletons and R5-CLS-02's free-station hip lift, G-263 - the two
     // readings tested here are unchanged)
-    assert.equal(SCORER_VERSION, '2.6');
+    // (engine 0.7 fix round on the round-9 reviews: 2.7 reads the first lift's first added set of a block, G-291 / G-300 - the two
+    // readings tested here are unchanged)
+    assert.equal(SCORER_VERSION, '2.7');
     const ctx = makeContext({ rules: raw.rules, catalog: raw.catalog, templates: raw.templates, profiles: raw.profiles });
     const s08 = scorePlan(planOf('08'), ctx);
     assert.equal((s08.metrics.olympic_day_pattern || {}).value || 0, 0, JSON.stringify(s08.metrics.olympic_day_pattern));

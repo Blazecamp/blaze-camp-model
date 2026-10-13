@@ -148,7 +148,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
+| Weighted Russian Twist | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Copenhagen Plank | 2 2 2 2 · 2 2 2 2 | 10-30 s |
 | Box Goblet Squat (touch-and-go) → High-Zercher DB Squat (DB hugged high at chest) | 3 3 3 4 · 4 4 5 5 | 3 rounds x 35 s → 5 sets x 50 s |
 | Chest-Supported Row | 3 3 3 4 · 4 4 5 5 | 3 rounds x 35 s → 5 sets x 50 s |
@@ -162,7 +162,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Weighted Russian Twist | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Crunch → Sit-Up | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Single-Kettlebell Deadlift → Dumbbell Deadlift | 3 3 3 4 · 4 4 5 5 | 3 sets x 35 s → 5 rounds x 50 s |
 | DB Floor Press | 3 3 3 4 · 4 4 5 5 | 3 sets x 35 s → 5 rounds x 50 s |
@@ -195,7 +195,7 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 35-40 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Weighted Russian Twist + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -204,12 +204,13 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Star Toe Touches (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
@@ -259,7 +260,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 35-40 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Burpees (conditioning station). You can also add or remove exercises._
-_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Crunch + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -268,10 +269,9 @@ _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (abo
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
 2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
@@ -393,7 +393,7 @@ _Week level: 2.9 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 35-40 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Weighted Russian Twist + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -402,12 +402,13 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Star Toe Touches (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
@@ -452,7 +453,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 35-40 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Burpees (conditioning station). You can also add or remove exercises._
-_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Crunch + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -461,10 +462,9 @@ _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (abo
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
 2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
@@ -578,7 +578,7 @@ _Week level: 3.9 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 35-40 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Weighted Russian Twist + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -587,12 +587,13 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Star Toe Touches (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
@@ -637,7 +638,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 35-40 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Burpees (conditioning station). You can also add or remove exercises._
-_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Crunch + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -646,10 +647,9 @@ _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (abo
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
 2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
@@ -765,7 +765,7 @@ _This week jumps more than usual (33 % more sets for every muscle group: one mor
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Weighted Russian Twist + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -774,12 +774,13 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Star Toe Touches (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
@@ -824,7 +825,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 40-50 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Burpees (conditioning station). You can also add or remove exercises._
-_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Crunch + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -833,10 +834,9 @@ _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (abo
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
 2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
@@ -944,9 +944,9 @@ _Optional: you can switch off this cardio session, or move it to another day._
 _Week level: 6.3 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- New exercise block: 6 exercises change a little (another version or one new detail); the rest stay
+- New exercise block: 7 exercises change a little (another version or one new detail); the rest stay
 - Monday: Box Goblet Squat (touch-and-go) → High-Zercher DB Squat (DB hugged high at chest); Dumbbell Hammer Curl → Zottman Curl (supinated up, pronated down)
-- Wednesday: Single-Kettlebell Deadlift → Dumbbell Deadlift; Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down)
+- Wednesday: Crunch → Sit-Up; Single-Kettlebell Deadlift → Dumbbell Deadlift; Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down)
 - Friday: Chest-Supported Row → Chest-Supported Row - underhand grip (palms up); Bent-Over DB or KB Row (two-arm) → Bent-Over DB or KB Row (two-arm) - underhand grip (palms up)
 - Circuit work goes up to 45 s
 - Keep your weights this week (the stations got longer); add load only where you finish a station with more than 2 reps left
@@ -954,7 +954,7 @@ _Week level: 6.3 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 45-55 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Weighted Russian Twist + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -963,12 +963,13 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Star Toe Touches (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
@@ -1013,7 +1014,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 45-55 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Burpees (conditioning station). You can also add or remove exercises._
-_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Sit-Up + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1022,10 +1023,9 @@ _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (abo
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
@@ -1138,7 +1138,7 @@ _Week level: 7.9 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 45-55 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Weighted Russian Twist + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1147,12 +1147,13 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Star Toe Touches (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
@@ -1197,7 +1198,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 45-55 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Burpees (conditioning station). You can also add or remove exercises._
-_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Sit-Up + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1206,10 +1207,9 @@ _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (abo
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
@@ -1326,7 +1326,7 @@ _This week jumps more than usual (25 % more sets for every muscle group: one mor
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Weighted Russian Twist + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1335,12 +1335,13 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Star Toe Touches (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
@@ -1385,7 +1386,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Burpees (conditioning station). You can also add or remove exercises._
-_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Sit-Up + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1394,10 +1395,9 @@ _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (abo
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
@@ -1514,7 +1514,7 @@ _Last week: one intensifier on each of these days (Monday, Wednesday and Friday)
 ### Monday · Bootcamp 1 - squat + row + single-leg hinge
 _Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Jump Rope (conditioning station). You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Weighted Russian Twist + Copenhagen Plank (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1523,12 +1523,13 @@ _Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Star Toe Touches (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
+   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Circuit 1**
@@ -1573,7 +1574,7 @@ _Optional: you can switch off this cardio session, or move it to another day._
 ### Wednesday · Bootcamp 2 - hinge + presses
 _Average time: about 55-65 min (an estimate, for information only)_
 _You can switch off these blocks today: core, Burpees (conditioning station). You can also add or remove exercises._
-_Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Sit-Up + Leg Raise (lying / supine) (about 2.5 min saved)_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1582,10 +1583,9 @@ _Superset to save time: Weighted Russian Twist + Leg Raise (lying / supine) (abo
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - per side = 1 set
-   - Swap for: KB Book Opener (keeps the core work; loses little - same movement, another grip or position) / Star Supine Cross Connect (keeps the core work; loses the added load) / Bear Crawl (keeps the core work; loses the added load) / Cross-Body Mountain Climber (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Name to copy into YouTube: `Weighted Russian Twist`
+1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
 2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
    - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`

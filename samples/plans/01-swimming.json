@@ -458,7 +458,7 @@
         },
         "realized_top": {
           "quads": 16,
-          "hips": 16,
+          "hips": 16.25,
           "back": 20,
           "chest": 14,
           "shoulders": 12.5,
@@ -971,7 +971,7 @@
         "code": "laterality_capped",
         "key": "warning.laterality_capped",
         "args": {
-          "share": 61,
+          "share": 63,
           "target": 50
         }
       }
@@ -4037,17 +4037,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -6602,113 +6592,15 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "pallof-press",
-                  "name_key": "exercise.pallof-press.name",
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Pallof%20Press",
-                    "copy_name": "Pallof Press"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 10,
-                    "max": 15
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "unilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
-                  "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "dead-bugs",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "dead-bugs",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -6743,31 +6635,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
                   ],
                   "swap_notes": [
                     {
-                      "id": "v-up",
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "leg-raise-lying-supine",
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "knees-to-chest-hanging",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -6778,8 +6670,106 @@
                       "ref": "ATH-11"
                     },
                     {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
+                  "exercise_id": "dead-bugs",
+                  "name_key": "exercise.dead-bugs.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Dead%20Bugs",
+                    "copy_name": "Dead Bugs"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "alternating",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
+                  "swaps": [
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "bird-dogs",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "cross-connect-rolls-rocking-hold",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-with-alternating-feet-raises",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-supermans-held",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
                     },
                     {
                       "key": "why.constraint_band",
@@ -8639,8 +8629,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -8654,12 +8644,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -8744,7 +8734,7 @@
         "chest": 10,
         "lats_upper_back": 16,
         "side_delts": 3,
-        "rear_delts": 5,
+        "rear_delts": 5.25,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9,
@@ -8779,7 +8769,7 @@
         "glutes": 4,
         "chest": 10,
         "lats_upper_back": 16,
-        "shoulders": 10.5,
+        "shoulders": 10.75,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9
@@ -8790,7 +8780,7 @@
         "glutes": 4,
         "chest": 10,
         "lats_upper_back": 16,
-        "shoulders": 10.5,
+        "shoulders": 10.75,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9
@@ -8800,7 +8790,7 @@
         "hips": 11.25,
         "back": 16,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10.75,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9
@@ -8810,7 +8800,7 @@
         "hips": 11.25,
         "back": 16,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10.75,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9
@@ -8898,9 +8888,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "single-arm-lat-pulldown",
+            "exercise": "single-arm-db-kb-row",
             "day": "Fri",
-            "slot_id": "Fri.S3.s10"
+            "slot_id": "Fri.S3.s08"
           }
         }
       ],
@@ -10935,17 +10925,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -13357,113 +13337,15 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "pallof-press",
-                  "name_key": "exercise.pallof-press.name",
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Pallof%20Press",
-                    "copy_name": "Pallof Press"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 10,
-                    "max": 15
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "unilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
-                  "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "dead-bugs",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "dead-bugs",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -13498,31 +13380,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
                   ],
                   "swap_notes": [
                     {
-                      "id": "v-up",
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "leg-raise-lying-supine",
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "knees-to-chest-hanging",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -13533,8 +13415,106 @@
                       "ref": "ATH-11"
                     },
                     {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
+                  "exercise_id": "dead-bugs",
+                  "name_key": "exercise.dead-bugs.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Dead%20Bugs",
+                    "copy_name": "Dead Bugs"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "alternating",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
+                  "swaps": [
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "bird-dogs",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "cross-connect-rolls-rocking-hold",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-with-alternating-feet-raises",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-supermans-held",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
                     },
                     {
                       "key": "why.constraint_band",
@@ -14253,7 +14233,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -14722,7 +14702,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown",
                     "copy_name": "Single-Arm Lat Pulldown"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 12,
@@ -15206,8 +15186,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -15221,12 +15201,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -15311,7 +15291,7 @@
         "chest": 10,
         "lats_upper_back": 16,
         "side_delts": 3,
-        "rear_delts": 5,
+        "rear_delts": 5.25,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9,
@@ -15346,7 +15326,7 @@
         "glutes": 4.5,
         "chest": 10,
         "lats_upper_back": 16,
-        "shoulders": 10.5,
+        "shoulders": 10.75,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9
@@ -15357,7 +15337,7 @@
         "glutes": 4.5,
         "chest": 10,
         "lats_upper_back": 16,
-        "shoulders": 10.5,
+        "shoulders": 10.75,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9
@@ -15367,7 +15347,7 @@
         "hips": 12.5,
         "back": 16,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10.75,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9
@@ -15377,7 +15357,7 @@
         "hips": 12.5,
         "back": 16,
         "chest": 10,
-        "shoulders": 10.5,
+        "shoulders": 10.75,
         "biceps": 6,
         "triceps": 4.5,
         "calves": 9
@@ -15465,9 +15445,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "deficit-reverse-lunge-standing-on-plate-step",
-            "day": "Mon",
-            "slot_id": "Mon.S1.s12"
+            "exercise": "double-kb-front-rack-squat",
+            "day": "Fri",
+            "slot_id": "Fri.S3.s12"
           }
         },
         {
@@ -15506,7 +15486,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 102,
+          "est_minutes": 99,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -15558,7 +15538,7 @@
                 "Mon.S1.s11",
                 "Mon.S1.s12"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -16854,7 +16834,7 @@
                     "url": "https://www.youtube.com/results?search_query=Deficit%20Reverse%20Lunge%20(standing%20on%20plate%2Fstep)",
                     "copy_name": "Deficit Reverse Lunge (standing on plate/step)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -17510,17 +17490,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -19737,7 +19707,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 99,
+          "est_minutes": 101,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -19777,7 +19747,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -19932,113 +19902,15 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "pallof-press",
-                  "name_key": "exercise.pallof-press.name",
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Pallof%20Press",
-                    "copy_name": "Pallof Press"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 10,
-                    "max": 15
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "unilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
-                  "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "dead-bugs",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "dead-bugs",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -20073,31 +19945,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
                   ],
                   "swap_notes": [
                     {
-                      "id": "v-up",
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "leg-raise-lying-supine",
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "knees-to-chest-hanging",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -20108,8 +19980,106 @@
                       "ref": "ATH-11"
                     },
                     {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
+                  "exercise_id": "dead-bugs",
+                  "name_key": "exercise.dead-bugs.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Dead%20Bugs",
+                    "copy_name": "Dead Bugs"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "alternating",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
+                  "swaps": [
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "bird-dogs",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "cross-connect-rolls-rocking-hold",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-with-alternating-feet-raises",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-supermans-held",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
                     },
                     {
                       "key": "why.constraint_band",
@@ -20828,7 +20798,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -20987,7 +20957,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -21297,7 +21267,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown",
                     "copy_name": "Single-Arm Lat Pulldown"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 12,
@@ -21781,8 +21751,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -21796,12 +21766,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -21886,7 +21856,7 @@
         "chest": 11,
         "lats_upper_back": 16,
         "side_delts": 3,
-        "rear_delts": 5,
+        "rear_delts": 5.25,
         "biceps": 6,
         "triceps": 4.75,
         "calves": 9,
@@ -21921,7 +21891,7 @@
         "glutes": 4.5,
         "chest": 11,
         "lats_upper_back": 16,
-        "shoulders": 10.75,
+        "shoulders": 11,
         "biceps": 6,
         "triceps": 4.75,
         "calves": 9
@@ -21932,7 +21902,7 @@
         "glutes": 4.5,
         "chest": 11,
         "lats_upper_back": 16,
-        "shoulders": 10.75,
+        "shoulders": 11,
         "biceps": 6,
         "triceps": 4.75,
         "calves": 9
@@ -21942,7 +21912,7 @@
         "hips": 12.5,
         "back": 16,
         "chest": 11,
-        "shoulders": 10.75,
+        "shoulders": 11,
         "biceps": 6,
         "triceps": 4.75,
         "calves": 9
@@ -21952,7 +21922,7 @@
         "hips": 12.5,
         "back": 16,
         "chest": 11,
-        "shoulders": 10.75,
+        "shoulders": 11,
         "biceps": 6,
         "triceps": 4.75,
         "calves": 9
@@ -22073,7 +22043,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 102,
+          "est_minutes": 99,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -22125,7 +22095,7 @@
                 "Mon.S1.s11",
                 "Mon.S1.s12"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -23421,7 +23391,7 @@
                     "url": "https://www.youtube.com/results?search_query=Deficit%20Reverse%20Lunge%20(standing%20on%20plate%2Fstep)",
                     "copy_name": "Deficit Reverse Lunge (standing on plate/step)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -24077,17 +24047,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -26304,7 +26264,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 99,
+          "est_minutes": 101,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -26344,7 +26304,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -26499,113 +26459,15 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "pallof-press",
-                  "name_key": "exercise.pallof-press.name",
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Pallof%20Press",
-                    "copy_name": "Pallof Press"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "per_side",
-                    "min": 10,
-                    "max": 15
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "unilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [
-                    {
-                      "key": "note.per_side"
-                    }
-                  ],
-                  "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "dead-bugs",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "dead-bugs",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
                   },
                   "sets": 2,
                   "reps": {
@@ -26640,31 +26502,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
                   ],
                   "swap_notes": [
                     {
-                      "id": "v-up",
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "leg-raise-lying-supine",
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "knees-to-chest-hanging",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -26675,8 +26537,106 @@
                       "ref": "ATH-11"
                     },
                     {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
+                  "exercise_id": "dead-bugs",
+                  "name_key": "exercise.dead-bugs.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Dead%20Bugs",
+                    "copy_name": "Dead Bugs"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "alternating",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
+                  "swaps": [
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "bird-dogs",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "cross-connect-rolls-rocking-hold",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-with-alternating-feet-raises",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-supermans-held",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
                     },
                     {
                       "key": "why.constraint_band",
@@ -27395,7 +27355,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 10,
@@ -27554,7 +27514,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -27864,7 +27824,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown",
                     "copy_name": "Single-Arm Lat Pulldown"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 12,
@@ -28348,8 +28308,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -28363,12 +28323,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -28620,9 +28580,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "seal-row-db-supinated-grip",
-            "day": "Mon",
-            "slot_id": "Mon.S1.s09"
+            "exercise": "single-arm-lat-pulldown",
+            "day": "Fri",
+            "slot_id": "Fri.S3.s10"
           }
         }
       ],
@@ -28660,7 +28620,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 103,
+          "est_minutes": 98,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -28712,7 +28672,7 @@
                 "Mon.S1.s11",
                 "Mon.S1.s12"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -29571,7 +29531,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)",
                     "copy_name": "Seal Row - DB (Supinated Grip)"
                   },
-                  "sets": 5,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -30021,7 +29981,7 @@
                     "url": "https://www.youtube.com/results?search_query=Deficit%20Reverse%20Lunge%20(standing%20on%20plate%2Fstep)",
                     "copy_name": "Deficit Reverse Lunge (standing on plate/step)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -30703,17 +30663,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -32961,7 +32911,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 99,
+          "est_minutes": 104,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -33005,7 +32955,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -33160,6 +33110,109 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [],
+                  "swaps": [
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "kb-book-opener",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    },
+                    {
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "dead-bugs",
                   "name_key": "exercise.dead-bugs.name",
                   "detail": null,
@@ -33206,132 +33259,31 @@
                     }
                   ],
                   "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "pallof-press",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
                   ],
                   "swap_notes": [
                     {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
+                      "id": "bird-dogs",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "cross-connect-rolls-rocking-hold",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     },
                     {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
+                      "id": "plank-with-alternating-feet-raises",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     },
                     {
-                      "id": "pallof-press",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
+                      "id": "plank-supermans-held",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [
-                    "block_change"
-                  ],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.block_change",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [],
-                  "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "v-up",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "leg-raise-lying-supine",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "knees-to-chest-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "toes-to-bar-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -33340,10 +33292,6 @@
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.constraint_band",
@@ -34178,7 +34126,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -34339,7 +34287,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -35147,8 +35095,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -35162,12 +35110,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -35248,7 +35196,7 @@
       "weekly_sets_by_muscle": {
         "quads": 13,
         "hamstrings": 11,
-        "glutes": 4.75,
+        "glutes": 5,
         "chest": 11,
         "lats_upper_back": 17,
         "side_delts": 3,
@@ -35260,7 +35208,7 @@
         "forearms": 0.5,
         "front_delts": 2.75,
         "traps": 0,
-        "adductors": 2.5,
+        "adductors": 2.75,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -35284,7 +35232,7 @@
       "main_sets_by_muscle": {
         "quads": 13,
         "hamstrings": 11,
-        "glutes": 4.75,
+        "glutes": 5,
         "chest": 11,
         "lats_upper_back": 17,
         "shoulders": 11,
@@ -35295,7 +35243,7 @@
       "weekly_sets_by_line": {
         "quads": 13,
         "hamstrings": 11,
-        "glutes": 4.75,
+        "glutes": 5,
         "chest": 11,
         "lats_upper_back": 17,
         "shoulders": 11,
@@ -35305,7 +35253,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 13,
-        "hips": 13.5,
+        "hips": 13.75,
         "back": 17,
         "chest": 11,
         "shoulders": 11,
@@ -35315,7 +35263,7 @@
       },
       "main_sets_by_group": {
         "quads": 13,
-        "hips": 13.5,
+        "hips": 13.75,
         "back": 17,
         "chest": 11,
         "shoulders": 11,
@@ -35406,9 +35354,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "leg-extension-machine",
+            "exercise": "deficit-reverse-lunge-standing-on-plate-step",
             "day": "Mon",
-            "slot_id": "Mon.S1.s13"
+            "slot_id": "Mon.S1.s12"
           }
         },
         {
@@ -35447,7 +35395,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 106,
+          "est_minutes": 102,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -36358,7 +36306,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)",
                     "copy_name": "Seal Row - DB (Supinated Grip)"
                   },
-                  "sets": 5,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -37114,7 +37062,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -37490,17 +37438,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -39748,7 +39686,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 99,
+          "est_minutes": 104,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -39792,7 +39730,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -39947,6 +39885,109 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [],
+                  "swaps": [
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "kb-book-opener",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    },
+                    {
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "dead-bugs",
                   "name_key": "exercise.dead-bugs.name",
                   "detail": null,
@@ -39993,132 +40034,31 @@
                     }
                   ],
                   "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "pallof-press",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
                   ],
                   "swap_notes": [
                     {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
+                      "id": "bird-dogs",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "cross-connect-rolls-rocking-hold",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     },
                     {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
+                      "id": "plank-with-alternating-feet-raises",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     },
                     {
-                      "id": "pallof-press",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
+                      "id": "plank-supermans-held",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [
-                    "block_change"
-                  ],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.block_change",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [],
-                  "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "v-up",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "leg-raise-lying-supine",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "knees-to-chest-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "toes-to-bar-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -40127,10 +40067,6 @@
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.constraint_band",
@@ -40965,7 +40901,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -41126,7 +41062,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -41934,8 +41870,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -41949,12 +41885,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -42035,7 +41971,7 @@
       "weekly_sets_by_muscle": {
         "quads": 13,
         "hamstrings": 11,
-        "glutes": 4.75,
+        "glutes": 5,
         "chest": 11,
         "lats_upper_back": 18,
         "side_delts": 3,
@@ -42047,7 +41983,7 @@
         "forearms": 0.5,
         "front_delts": 2.75,
         "traps": 0,
-        "adductors": 2.5,
+        "adductors": 2.75,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -42071,7 +42007,7 @@
       "main_sets_by_muscle": {
         "quads": 13,
         "hamstrings": 11,
-        "glutes": 4.75,
+        "glutes": 5,
         "chest": 11,
         "lats_upper_back": 18,
         "shoulders": 11.25,
@@ -42082,7 +42018,7 @@
       "weekly_sets_by_line": {
         "quads": 13,
         "hamstrings": 11,
-        "glutes": 4.75,
+        "glutes": 5,
         "chest": 11,
         "lats_upper_back": 18,
         "shoulders": 11.25,
@@ -42092,7 +42028,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 13,
-        "hips": 13.5,
+        "hips": 13.75,
         "back": 18,
         "chest": 11,
         "shoulders": 11.25,
@@ -42102,7 +42038,7 @@
       },
       "main_sets_by_group": {
         "quads": 13,
-        "hips": 13.5,
+        "hips": 13.75,
         "back": 18,
         "chest": 11,
         "shoulders": 11.25,
@@ -42193,9 +42129,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "single-arm-db-kb-row",
-            "day": "Fri",
-            "slot_id": "Fri.S3.s08"
+            "exercise": "seal-row-db-supinated-grip",
+            "day": "Mon",
+            "slot_id": "Mon.S1.s09"
           }
         }
       ],
@@ -42226,7 +42162,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 106,
+          "est_minutes": 104,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -43894,7 +43830,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -44270,17 +44206,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -46528,7 +46454,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 102,
+          "est_minutes": 104,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -46572,7 +46498,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -46727,6 +46653,109 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [],
+                  "swaps": [
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "kb-book-opener",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    },
+                    {
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "dead-bugs",
                   "name_key": "exercise.dead-bugs.name",
                   "detail": null,
@@ -46773,132 +46802,31 @@
                     }
                   ],
                   "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "pallof-press",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
                   ],
                   "swap_notes": [
                     {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
+                      "id": "bird-dogs",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "cross-connect-rolls-rocking-hold",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     },
                     {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
+                      "id": "plank-with-alternating-feet-raises",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     },
                     {
-                      "id": "pallof-press",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
+                      "id": "plank-supermans-held",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [
-                    "block_change"
-                  ],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.block_change",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [],
-                  "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "v-up",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "leg-raise-lying-supine",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "knees-to-chest-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "toes-to-bar-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -46907,10 +46835,6 @@
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.constraint_band",
@@ -47906,7 +47830,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -48714,8 +48638,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -48729,12 +48653,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -48973,9 +48897,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "front-squat-barbell",
+            "exercise": "leg-extension-machine",
             "day": "Mon",
-            "slot_id": "Mon.S1.s10"
+            "slot_id": "Mon.S1.s13"
           }
         },
         {
@@ -49014,7 +48938,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 111,
+          "est_minutes": 109,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -49057,7 +48981,7 @@
                 "Mon.S1.s09",
                 "Mon.S1.s10"
               ],
-              "minutes_saved": 7,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -50059,7 +49983,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -51058,17 +50982,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -53316,7 +53230,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 102,
+          "est_minutes": 104,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -53360,7 +53274,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -53515,6 +53429,109 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [],
+                  "swaps": [
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "kb-book-opener",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    },
+                    {
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "dead-bugs",
                   "name_key": "exercise.dead-bugs.name",
                   "detail": null,
@@ -53561,132 +53578,31 @@
                     }
                   ],
                   "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "pallof-press",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
                   ],
                   "swap_notes": [
                     {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
+                      "id": "bird-dogs",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.little"
+                    },
+                    {
+                      "id": "cross-connect-rolls-rocking-hold",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     },
                     {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
+                      "id": "plank-with-alternating-feet-raises",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     },
                     {
-                      "id": "pallof-press",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
+                      "id": "plank-supermans-held",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [
-                    "block_change"
-                  ],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.block_change",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [],
-                  "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "v-up",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "leg-raise-lying-supine",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "knees-to-chest-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "toes-to-bar-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
                     }
                   ],
                   "instead_of": null,
@@ -53695,10 +53611,6 @@
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.constraint_band",
@@ -54694,7 +54606,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -55502,8 +55414,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -55517,12 +55429,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -55774,9 +55686,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "pull-up-grip-not-stated",
-            "day": "Mon",
-            "slot_id": "Mon.S1.s11"
+            "exercise": "single-arm-lat-pulldown",
+            "day": "Fri",
+            "slot_id": "Fri.S3.s10"
           }
         },
         {
@@ -55830,7 +55742,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 126,
+          "est_minutes": 119,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -55873,7 +55785,7 @@
                 "Mon.S1.s09",
                 "Mon.S1.s10"
               ],
-              "minutes_saved": 7,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -56891,7 +56803,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -57049,7 +56961,7 @@
                     "url": "https://www.youtube.com/results?search_query=Pull-up",
                     "copy_name": "Pull-up"
                   },
-                  "sets": 5,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -57897,17 +57809,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -60167,7 +60069,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 114,
+          "est_minutes": 119,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -60211,7 +60113,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -60366,6 +60268,109 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [],
+                  "swaps": [
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "kb-book-opener",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    },
+                    {
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "dead-bugs",
                   "name_key": "exercise.dead-bugs.name",
                   "detail": null,
@@ -60412,29 +60417,29 @@
                     }
                   ],
                   "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "pallof-press",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
                   ],
                   "swap_notes": [
                     {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "pallof-press",
+                      "id": "bird-dogs",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
+                      "id": "cross-connect-rolls-rocking-hold",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-with-alternating-feet-raises",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-supermans-held",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     }
@@ -60445,109 +60450,6 @@
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [],
-                  "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "v-up",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "leg-raise-lying-supine",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "knees-to-chest-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "toes-to-bar-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.constraint_band",
@@ -61566,7 +61468,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -61888,7 +61790,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown",
                     "copy_name": "Single-Arm Lat Pulldown"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -62391,8 +62293,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -62406,12 +62308,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -62653,9 +62555,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "deficit-reverse-lunge-standing-on-plate-step",
+            "exercise": "front-squat-barbell",
             "day": "Mon",
-            "slot_id": "Mon.S1.s12"
+            "slot_id": "Mon.S1.s10"
           }
         }
       ],
@@ -62686,7 +62588,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 129,
+          "est_minutes": 124,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -62738,7 +62640,7 @@
                 "Mon.S1.s11",
                 "Mon.S1.s12"
               ],
-              "minutes_saved": 7,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -63905,7 +63807,7 @@
                     "url": "https://www.youtube.com/results?search_query=Pull-up",
                     "copy_name": "Pull-up"
                   },
-                  "sets": 5,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -64043,7 +63945,7 @@
                     "url": "https://www.youtube.com/results?search_query=Deficit%20Reverse%20Lunge%20(standing%20on%20plate%2Fstep)",
                     "copy_name": "Deficit Reverse Lunge (standing on plate/step)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -64753,17 +64655,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -67023,7 +66915,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 114,
+          "est_minutes": 119,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -67067,7 +66959,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -67222,6 +67114,109 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [],
+                  "swaps": [
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "kb-book-opener",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    },
+                    {
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "dead-bugs",
                   "name_key": "exercise.dead-bugs.name",
                   "detail": null,
@@ -67268,29 +67263,29 @@
                     }
                   ],
                   "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "pallof-press",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
                   ],
                   "swap_notes": [
                     {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "pallof-press",
+                      "id": "bird-dogs",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
+                      "id": "cross-connect-rolls-rocking-hold",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-with-alternating-feet-raises",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-supermans-held",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     }
@@ -67301,109 +67296,6 @@
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [],
-                  "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "v-up",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "leg-raise-lying-supine",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "knees-to-chest-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "toes-to-bar-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.constraint_band",
@@ -68422,7 +68314,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -68744,7 +68636,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown",
                     "copy_name": "Single-Arm Lat Pulldown"
                   },
-                  "sets": 4,
+                  "sets": 5,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -69247,8 +69139,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -69262,12 +69154,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -69348,7 +69240,7 @@
       "weekly_sets_by_muscle": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 14,
         "lats_upper_back": 20,
         "side_delts": 3,
@@ -69360,7 +69252,7 @@
         "forearms": 0.5,
         "front_delts": 3,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 3.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -69384,7 +69276,7 @@
       "main_sets_by_muscle": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 12,
         "lats_upper_back": 20,
         "shoulders": 12.5,
@@ -69395,7 +69287,7 @@
       "weekly_sets_by_line": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 14,
         "lats_upper_back": 20,
         "shoulders": 12.5,
@@ -69405,7 +69297,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 16.25,
         "back": 20,
         "chest": 14,
         "shoulders": 12.5,
@@ -69415,7 +69307,7 @@
       },
       "main_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 16.25,
         "back": 20,
         "chest": 12,
         "shoulders": 12.5,
@@ -69527,9 +69419,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "leg-extension-machine",
+            "exercise": "deficit-reverse-lunge-standing-on-plate-step",
             "day": "Mon",
-            "slot_id": "Mon.S1.s13"
+            "slot_id": "Mon.S1.s12"
           }
         },
         {
@@ -69543,9 +69435,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "single-arm-lat-pulldown",
-            "day": "Fri",
-            "slot_id": "Fri.S3.s10"
+            "exercise": "pull-up-grip-not-stated",
+            "day": "Mon",
+            "slot_id": "Mon.S1.s11"
           }
         },
         {
@@ -69592,7 +69484,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 131,
+          "est_minutes": 129,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -71266,7 +71158,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -71659,17 +71551,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -73929,7 +73811,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 117,
+          "est_minutes": 119,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -73973,7 +73855,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -74128,6 +74010,109 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [],
+                  "swaps": [
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "kb-book-opener",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    },
+                    {
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "dead-bugs",
                   "name_key": "exercise.dead-bugs.name",
                   "detail": null,
@@ -74174,29 +74159,29 @@
                     }
                   ],
                   "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "pallof-press",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
                   ],
                   "swap_notes": [
                     {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "pallof-press",
+                      "id": "bird-dogs",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
+                      "id": "cross-connect-rolls-rocking-hold",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-with-alternating-feet-raises",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-supermans-held",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     }
@@ -74207,109 +74192,6 @@
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [],
-                  "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "v-up",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "leg-raise-lying-supine",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "knees-to-chest-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "toes-to-bar-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.constraint_band",
@@ -75328,7 +75210,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -76161,8 +76043,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -76176,12 +76058,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -76411,7 +76293,7 @@
       "weekly_sets_by_muscle": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 14,
         "lats_upper_back": 20,
         "side_delts": 3,
@@ -76423,7 +76305,7 @@
         "forearms": 0.5,
         "front_delts": 3,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 3.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -76447,7 +76329,7 @@
       "main_sets_by_muscle": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 12,
         "lats_upper_back": 20,
         "shoulders": 12.5,
@@ -76458,7 +76340,7 @@
       "weekly_sets_by_line": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 14,
         "lats_upper_back": 20,
         "shoulders": 12.5,
@@ -76468,7 +76350,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 16.25,
         "back": 20,
         "chest": 14,
         "shoulders": 12.5,
@@ -76478,7 +76360,7 @@
       },
       "main_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 16.25,
         "back": 20,
         "chest": 12,
         "shoulders": 12.5,
@@ -76616,7 +76498,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 140,
+          "est_minutes": 138,
           "aerobic_minutes": 0,
           "exercise_count": 9,
           "skeleton": "athletic_A",
@@ -78386,7 +78268,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -78779,17 +78661,7 @@
                   "circuit": null,
                   "wod": null,
                   "test": null,
-                  "progression": {
-                    "kind": "double_progression",
-                    "rep_range": [
-                      12,
-                      15
-                    ],
-                    "when": "all_sets_at_top_of_range_within_planned_rir_with_good_technique_otherwise_repeat",
-                    "then": "add_load_next_time_and_restart_at_bottom_of_range",
-                    "else": "repeat",
-                    "promised_numbers": false
-                  },
+                  "progression": null,
                   "notes": [
                     {
                       "key": "prehab.label.OVERHEAD_HEALTH",
@@ -81171,7 +81043,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 127,
+          "est_minutes": 129,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_C",
@@ -81206,7 +81078,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -81361,6 +81233,109 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
+                  "detail": null,
+                  "text_key": null,
+                  "cue_key": null,
+                  "video": {
+                    "kind": "search",
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
+                  },
+                  "sets": 2,
+                  "reps": {
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
+                  },
+                  "set_reps": null,
+                  "effort": {
+                    "type": "intent",
+                    "key": "effort.core_opener"
+                  },
+                  "rest": {
+                    "type": "seconds",
+                    "min": 30,
+                    "max": 60
+                  },
+                  "load": null,
+                  "tempo_key": null,
+                  "superset": null,
+                  "laterality": "bilateral",
+                  "loading": null,
+                  "credits": {
+                    "abs_obliques": 1
+                  },
+                  "athletic": null,
+                  "aerobic": null,
+                  "circuit": null,
+                  "wod": null,
+                  "test": null,
+                  "progression": null,
+                  "notes": [],
+                  "swaps": [
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "kb-book-opener",
+                    "kettlebell-rotational-swings-no-hip-thrust-trunk-driven"
+                  ],
+                  "swap_notes": [
+                    {
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "kb-book-opener",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    },
+                    {
+                      "id": "kettlebell-rotational-swings-no-hip-thrust-trunk-driven",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.core_action"
+                    }
+                  ],
+                  "instead_of": null,
+                  "flags": [],
+                  "why": [
+                    {
+                      "key": "why.core_first",
+                      "ref": "ATH-11"
+                    },
+                    {
+                      "key": "why.constraint_band",
+                      "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
+                    },
+                    {
+                      "key": "why.second_exposure",
+                      "ref": "PER-04"
+                    }
+                  ],
+                  "superset_suggested": "core_pair"
+                },
+                {
+                  "slot_id": "Fri.S3.s04",
+                  "station_id": "S3.s04",
+                  "bucket": "CP_CORE_PELVIS",
+                  "role": "core_block",
+                  "origin": "template",
+                  "group": null,
                   "exercise_id": "dead-bugs",
                   "name_key": "exercise.dead-bugs.name",
                   "detail": null,
@@ -81407,29 +81382,29 @@
                     }
                   ],
                   "swaps": [
-                    "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                    "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                    "pallof-press",
-                    "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation"
+                    "bird-dogs",
+                    "cross-connect-rolls-rocking-hold",
+                    "plank-with-alternating-feet-raises",
+                    "plank-supermans-held"
                   ],
                   "swap_notes": [
                     {
-                      "id": "tall-kneeling-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "supine-floor-pallof-hold-cable-object-squeezed-between-knees",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.movement"
-                    },
-                    {
-                      "id": "pallof-press",
+                      "id": "bird-dogs",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "bench-pallof-plank-plank-on-a-bench-with-cable-anti-rotation",
+                      "id": "cross-connect-rolls-rocking-hold",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-with-alternating-feet-raises",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.movement"
+                    },
+                    {
+                      "id": "plank-supermans-held",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.movement"
                     }
@@ -81440,109 +81415,6 @@
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.constraint_band",
-                      "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
-                    }
-                  ],
-                  "superset_suggested": "core_pair"
-                },
-                {
-                  "slot_id": "Fri.S3.s04",
-                  "station_id": "S3.s04",
-                  "bucket": "CP_CORE_PELVIS",
-                  "role": "core_block",
-                  "origin": "template",
-                  "group": null,
-                  "exercise_id": "reverse-crunch",
-                  "name_key": "exercise.reverse-crunch.name",
-                  "detail": null,
-                  "text_key": null,
-                  "cue_key": null,
-                  "video": {
-                    "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Reverse%20Crunch",
-                    "copy_name": "Reverse Crunch"
-                  },
-                  "sets": 2,
-                  "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
-                  },
-                  "set_reps": null,
-                  "effort": {
-                    "type": "intent",
-                    "key": "effort.core_opener"
-                  },
-                  "rest": {
-                    "type": "seconds",
-                    "min": 30,
-                    "max": 60
-                  },
-                  "load": null,
-                  "tempo_key": null,
-                  "superset": null,
-                  "laterality": "bilateral",
-                  "loading": null,
-                  "credits": {
-                    "abs_obliques": 1
-                  },
-                  "athletic": null,
-                  "aerobic": null,
-                  "circuit": null,
-                  "wod": null,
-                  "test": null,
-                  "progression": null,
-                  "notes": [],
-                  "swaps": [
-                    "v-up",
-                    "leg-raise-lying-supine",
-                    "knees-to-chest-hanging",
-                    "toes-to-bar-hanging"
-                  ],
-                  "swap_notes": [
-                    {
-                      "id": "v-up",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "leg-raise-lying-supine",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "knees-to-chest-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "toes-to-bar-hanging",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    }
-                  ],
-                  "instead_of": null,
-                  "flags": [],
-                  "why": [
-                    {
-                      "key": "why.core_first",
-                      "ref": "ATH-11"
-                    },
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
                     },
                     {
                       "key": "why.constraint_band",
@@ -82709,7 +82581,7 @@
                     "url": "https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat",
                     "copy_name": "Double-KB Front-Rack Squat"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -83542,8 +83414,8 @@
                   "swaps": [
                     "weighted-sit-up",
                     "reverse-crunch",
-                    "sit-up",
-                    "toes-to-bar-hanging"
+                    "v-up",
+                    "leg-raise-lying-supine"
                   ],
                   "swap_notes": [
                     {
@@ -83557,12 +83429,12 @@
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "sit-up",
+                      "id": "v-up",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "leg-raise-lying-supine",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.external_load"
                     }
@@ -83811,13 +83683,13 @@
         4.5,
         4.5,
         4.5,
-        4.75,
-        4.75,
+        5,
+        5,
         5.25,
         5.25,
         5.5,
-        5.5,
-        5.5
+        5.75,
+        5.75
       ],
       "chest": [
         10,
@@ -83863,9 +83735,9 @@
       ],
       "rear_delts": [
         5,
-        5,
-        5,
-        5,
+        5.25,
+        5.25,
+        5.25,
         5.25,
         5.25,
         5.5,
@@ -83979,13 +83851,13 @@
         2.5,
         2.5,
         2.5,
-        2.5,
-        2.5,
+        2.75,
+        2.75,
         2.75,
         2.75,
         3,
-        3,
-        3
+        3.25,
+        3.25
       ],
       "neck": [
         0,
@@ -84037,13 +83909,13 @@
         4.5,
         4.5,
         4.5,
-        4.75,
-        4.75,
+        5,
+        5,
         5.25,
         5.25,
         5.5,
-        5.5,
-        5.5
+        5.75,
+        5.75
       ],
       "chest": [
         10,
@@ -84075,9 +83947,9 @@
       ],
       "shoulders": [
         10.5,
-        10.5,
-        10.5,
         10.75,
+        10.75,
+        11,
         11,
         11,
         11.25,
@@ -84151,13 +84023,13 @@
         12.5,
         12.5,
         12.5,
-        13.5,
-        13.5,
+        13.75,
+        13.75,
         14.75,
         14.75,
         15,
-        16,
-        16
+        16.25,
+        16.25
       ],
       "back": [
         15,
@@ -84189,9 +84061,9 @@
       ],
       "shoulders": [
         10.5,
-        10.5,
-        10.5,
         10.75,
+        10.75,
+        11,
         11,
         11,
         11.25,

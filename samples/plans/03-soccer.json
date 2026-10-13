@@ -422,7 +422,7 @@
         },
         "realized_top": {
           "quads": 16,
-          "hips": 16,
+          "hips": 16.25,
           "back": 14,
           "chest": 11,
           "shoulders": 11.75,
@@ -441,7 +441,15 @@
         ],
         "one_set_shortfall": [],
         "focus_closed": [],
-        "acceleration": [],
+        "acceleration": [
+          {
+            "week": 6,
+            "group": "hips",
+            "from": 14,
+            "to": 16.25,
+            "pct": 16
+          }
+        ],
         "circuit": false,
         "over_top": [],
         "floor_counted_on": "main_days",
@@ -859,6 +867,15 @@
         }
       },
       {
+        "code": "acceleration",
+        "key": "warning.acceleration",
+        "args": {
+          "week": 6,
+          "pct": 16,
+          "group": "hips"
+        }
+      },
+      {
         "code": "slot_held_groups",
         "key": "warning.slot_held_groups",
         "args": {
@@ -881,7 +898,7 @@
         "code": "laterality_capped",
         "key": "warning.laterality_capped",
         "args": {
-          "share": 51,
+          "share": 50,
           "target": 20
         }
       }
@@ -2042,26 +2059,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "cable-woodchopper-cable-chop",
+                  "name_key": "exercise.cable-woodchopper-cable-chop.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)",
+                    "copy_name": "Cable Woodchopper (cable chop)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 40
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -2071,7 +2088,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -2084,39 +2101,44 @@
                   "progression": null,
                   "notes": [
                     {
+                      "key": "note.per_side"
+                    },
+                    {
                       "key": "note.core_supersets_optional"
                     }
                   ],
                   "swaps": [
-                    "medball-plank-rockers",
-                    "high-plank-straight-arm-plank",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "weighted-russian-twist",
+                    "kb-book-opener",
+                    "medball-rotational-throw-initiated-from-the-hands-thorax-led",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "weighted-russian-twist",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "l-sit-hold",
+                      "id": "medball-rotational-throw-initiated-from-the-hands-thorax-led",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "level_shift"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
@@ -2129,6 +2151,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -2186,12 +2212,17 @@
                     }
                   ],
                   "swaps": [
+                    "side-plank-knee-to-elbow",
                     "high-straight-arm-side-plank",
                     "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                    "side-plank-knee-to-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "side-plank-knee-to-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.difficulty"
+                    },
                     {
                       "id": "high-straight-arm-side-plank",
                       "keeps": "swap.keeps.CORE",
@@ -2201,11 +2232,6 @@
                       "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "side-plank-knee-to-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.difficulty"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -2227,10 +2253,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -8294,27 +8316,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "sit-up",
-                  "name_key": "exercise.sit-up.name",
+                  "exercise_id": "plank-forearm-low-plank",
+                  "name_key": "exercise.plank-forearm-low-plank.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
-                    "copy_name": "Sit-Up"
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
+                    "type": "seconds",
+                    "min": 20,
+                    "max": 40
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.core_opener"
+                    "key": "effort.hold_quality"
                   },
                   "rest": {
                     "type": "seconds",
@@ -8337,31 +8358,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "weighted-sit-up",
-                    "toes-to-bar-hanging",
-                    "crunch",
-                    "weighted-decline-sit-up"
+                    "high-plank-straight-arm-plank",
+                    "medball-plank-rockers",
+                    "l-sit-hold",
+                    "streamline-hold-hollow-body-arms-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "weighted-sit-up",
+                      "id": "high-plank-straight-arm-plank",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "medball-plank-rockers",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "crunch",
+                      "id": "l-sit-hold",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "weighted-decline-sit-up",
+                      "id": "streamline-hold-hollow-body-arms-overhead",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -8697,9 +8718,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "step-up-forward-and-lateral",
-            "day": "Mon",
-            "slot_id": "Mon.S1.s12"
+            "exercise": "rear-foot-elevated-lunge-rfe-bulgarian-split-squat",
+            "day": "Fri",
+            "slot_id": "Fri.S3.s12"
           }
         },
         {
@@ -8738,7 +8759,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 93,
+          "est_minutes": 90,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_A",
@@ -8966,26 +8987,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "cable-woodchopper-cable-chop",
+                  "name_key": "exercise.cable-woodchopper-cable-chop.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)",
+                    "copy_name": "Cable Woodchopper (cable chop)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 40
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -8995,7 +9016,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -9006,37 +9027,43 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "medball-plank-rockers",
-                    "high-plank-straight-arm-plank",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "weighted-russian-twist",
+                    "kb-book-opener",
+                    "medball-rotational-throw-initiated-from-the-hands-thorax-led",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "weighted-russian-twist",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "l-sit-hold",
+                      "id": "medball-rotational-throw-initiated-from-the-hands-thorax-led",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "level_shift"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
@@ -9049,6 +9076,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -9106,12 +9137,17 @@
                     }
                   ],
                   "swaps": [
+                    "side-plank-knee-to-elbow",
                     "high-straight-arm-side-plank",
                     "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                    "side-plank-knee-to-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "side-plank-knee-to-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.difficulty"
+                    },
                     {
                       "id": "high-straight-arm-side-plank",
                       "keeps": "swap.keeps.CORE",
@@ -9121,11 +9157,6 @@
                       "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "side-plank-knee-to-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.difficulty"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -9147,10 +9178,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -10182,7 +10209,7 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -13157,7 +13184,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 114,
+          "est_minutes": 117,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -13205,7 +13232,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             }
           ],
@@ -14612,7 +14639,7 @@
                     "url": "https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)",
                     "copy_name": "Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -15251,27 +15278,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "sit-up",
-                  "name_key": "exercise.sit-up.name",
+                  "exercise_id": "plank-forearm-low-plank",
+                  "name_key": "exercise.plank-forearm-low-plank.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
-                    "copy_name": "Sit-Up"
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
+                    "type": "seconds",
+                    "min": 20,
+                    "max": 40
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.core_opener"
+                    "key": "effort.hold_quality"
                   },
                   "rest": {
                     "type": "seconds",
@@ -15294,31 +15320,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "weighted-sit-up",
-                    "toes-to-bar-hanging",
-                    "crunch",
-                    "weighted-decline-sit-up"
+                    "high-plank-straight-arm-plank",
+                    "medball-plank-rockers",
+                    "l-sit-hold",
+                    "streamline-hold-hollow-body-arms-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "weighted-sit-up",
+                      "id": "high-plank-straight-arm-plank",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "medball-plank-rockers",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "crunch",
+                      "id": "l-sit-hold",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "weighted-decline-sit-up",
+                      "id": "streamline-hold-hollow-body-arms-overhead",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -15488,11 +15514,11 @@
       "weekly_sets_by_muscle": {
         "quads": 13,
         "hamstrings": 10,
-        "glutes": 4.5,
+        "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 11,
         "side_delts": 3,
-        "rear_delts": 4.5,
+        "rear_delts": 4.75,
         "biceps": 4.75,
         "triceps": 4.5,
         "calves": 9,
@@ -15500,7 +15526,7 @@
         "forearms": 0.5,
         "front_delts": 2.5,
         "traps": 0,
-        "adductors": 2.5,
+        "adductors": 2.75,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -15524,10 +15550,10 @@
       "main_sets_by_muscle": {
         "quads": 13,
         "hamstrings": 10,
-        "glutes": 4.5,
+        "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 11,
-        "shoulders": 10,
+        "shoulders": 10.25,
         "biceps": 4.75,
         "triceps": 4.5,
         "calves": 9
@@ -15535,30 +15561,30 @@
       "weekly_sets_by_line": {
         "quads": 13,
         "hamstrings": 10,
-        "glutes": 4.5,
+        "glutes": 4.75,
         "chest": 10,
         "lats_upper_back": 11,
-        "shoulders": 10,
+        "shoulders": 10.25,
         "biceps": 4.75,
         "triceps": 4.5,
         "calves": 9
       },
       "weekly_sets_by_group": {
         "quads": 13,
-        "hips": 12.5,
+        "hips": 12.75,
         "back": 11,
         "chest": 10,
-        "shoulders": 10,
+        "shoulders": 10.25,
         "biceps": 4.75,
         "triceps": 4.5,
         "calves": 9
       },
       "main_sets_by_group": {
         "quads": 13,
-        "hips": 12.5,
+        "hips": 12.75,
         "back": 11,
         "chest": 10,
-        "shoulders": 10,
+        "shoulders": 10.25,
         "biceps": 4.75,
         "triceps": 4.5,
         "calves": 9
@@ -15654,17 +15680,17 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "leg-extension-machine",
+            "exercise": "step-up-forward-and-lateral",
             "day": "Mon",
-            "slot_id": "Mon.S1.s13"
+            "slot_id": "Mon.S1.s12"
           }
         },
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "pull-up-grip-not-stated",
-            "day": "Mon",
-            "slot_id": "Mon.S1.s11"
+            "exercise": "single-arm-db-kb-row",
+            "day": "Fri",
+            "slot_id": "Fri.S3.s08"
           }
         }
       ],
@@ -15695,7 +15721,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 97,
+          "est_minutes": 93,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_A",
@@ -15751,7 +15777,7 @@
                 "Mon.S1.s11",
                 "Mon.S1.s12"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -15923,26 +15949,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "cable-woodchopper-cable-chop",
+                  "name_key": "exercise.cable-woodchopper-cable-chop.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)",
+                    "copy_name": "Cable Woodchopper (cable chop)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 40
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -15952,7 +15978,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -15963,37 +15989,43 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "medball-plank-rockers",
-                    "high-plank-straight-arm-plank",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "weighted-russian-twist",
+                    "kb-book-opener",
+                    "medball-rotational-throw-initiated-from-the-hands-thorax-led",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "weighted-russian-twist",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "l-sit-hold",
+                      "id": "medball-rotational-throw-initiated-from-the-hands-thorax-led",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "level_shift"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
@@ -16006,6 +16038,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -16063,12 +16099,17 @@
                     }
                   ],
                   "swaps": [
+                    "side-plank-knee-to-elbow",
                     "high-straight-arm-side-plank",
                     "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                    "side-plank-knee-to-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "side-plank-knee-to-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.difficulty"
+                    },
                     {
                       "id": "high-straight-arm-side-plank",
                       "keeps": "swap.keeps.CORE",
@@ -16078,11 +16119,6 @@
                       "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "side-plank-knee-to-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.difficulty"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -16104,10 +16140,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -16996,7 +17028,7 @@
                     "url": "https://www.youtube.com/results?search_query=Pull-up",
                     "copy_name": "Pull-up"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -17427,7 +17459,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -20114,7 +20146,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 114,
+          "est_minutes": 120,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -20162,7 +20194,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             }
           ],
@@ -21425,7 +21457,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -21569,7 +21601,7 @@
                     "url": "https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)",
                     "copy_name": "Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -22208,27 +22240,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "sit-up",
-                  "name_key": "exercise.sit-up.name",
+                  "exercise_id": "plank-forearm-low-plank",
+                  "name_key": "exercise.plank-forearm-low-plank.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
-                    "copy_name": "Sit-Up"
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
+                    "type": "seconds",
+                    "min": 20,
+                    "max": 40
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.core_opener"
+                    "key": "effort.hold_quality"
                   },
                   "rest": {
                     "type": "seconds",
@@ -22251,31 +22282,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "weighted-sit-up",
-                    "toes-to-bar-hanging",
-                    "crunch",
-                    "weighted-decline-sit-up"
+                    "high-plank-straight-arm-plank",
+                    "medball-plank-rockers",
+                    "l-sit-hold",
+                    "streamline-hold-hollow-body-arms-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "weighted-sit-up",
+                      "id": "high-plank-straight-arm-plank",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "medball-plank-rockers",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "crunch",
+                      "id": "l-sit-hold",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "weighted-decline-sit-up",
+                      "id": "streamline-hold-hollow-body-arms-overhead",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -22449,7 +22480,7 @@
         "chest": 10,
         "lats_upper_back": 12,
         "side_delts": 3,
-        "rear_delts": 4.5,
+        "rear_delts": 4.75,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10,
@@ -22484,7 +22515,7 @@
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 12,
-        "shoulders": 10,
+        "shoulders": 10.25,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10
@@ -22495,7 +22526,7 @@
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 12,
-        "shoulders": 10,
+        "shoulders": 10.25,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10
@@ -22505,7 +22536,7 @@
         "hips": 13.75,
         "back": 12,
         "chest": 10,
-        "shoulders": 10,
+        "shoulders": 10.25,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10
@@ -22515,7 +22546,7 @@
         "hips": 13.75,
         "back": 12,
         "chest": 10,
-        "shoulders": 10,
+        "shoulders": 10.25,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10
@@ -22612,9 +22643,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "front-squat-barbell",
+            "exercise": "leg-extension-machine",
             "day": "Mon",
-            "slot_id": "Mon.S1.s10"
+            "slot_id": "Mon.S1.s13"
           }
         },
         {
@@ -22628,9 +22659,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "single-arm-lat-pulldown",
-            "day": "Fri",
-            "slot_id": "Fri.S3.s10"
+            "exercise": "pull-up-grip-not-stated",
+            "day": "Mon",
+            "slot_id": "Mon.S1.s11"
           }
         },
         {
@@ -22669,7 +22700,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 117,
+          "est_minutes": 111,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_A",
@@ -22897,26 +22928,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "cable-woodchopper-cable-chop",
+                  "name_key": "exercise.cable-woodchopper-cable-chop.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)",
+                    "copy_name": "Cable Woodchopper (cable chop)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 40
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -22926,7 +22957,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -22937,37 +22968,43 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "medball-plank-rockers",
-                    "high-plank-straight-arm-plank",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "weighted-russian-twist",
+                    "kb-book-opener",
+                    "medball-rotational-throw-initiated-from-the-hands-thorax-led",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "weighted-russian-twist",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "l-sit-hold",
+                      "id": "medball-rotational-throw-initiated-from-the-hands-thorax-led",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "level_shift"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
@@ -22980,6 +23017,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -23037,12 +23078,17 @@
                     }
                   ],
                   "swaps": [
+                    "side-plank-knee-to-elbow",
                     "high-straight-arm-side-plank",
                     "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                    "side-plank-knee-to-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "side-plank-knee-to-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.difficulty"
+                    },
                     {
                       "id": "high-straight-arm-side-plank",
                       "keeps": "swap.keeps.CORE",
@@ -23052,11 +23098,6 @@
                       "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "side-plank-knee-to-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.difficulty"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -23078,10 +23119,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -23820,7 +23857,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -27119,7 +27156,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 129,
+          "est_minutes": 132,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -27167,7 +27204,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             }
           ],
@@ -28409,7 +28446,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -28564,7 +28601,7 @@
                     "url": "https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)",
                     "copy_name": "Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -28886,7 +28923,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown",
                     "copy_name": "Single-Arm Lat Pulldown"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -29232,27 +29269,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "sit-up",
-                  "name_key": "exercise.sit-up.name",
+                  "exercise_id": "plank-forearm-low-plank",
+                  "name_key": "exercise.plank-forearm-low-plank.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
-                    "copy_name": "Sit-Up"
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
+                    "type": "seconds",
+                    "min": 20,
+                    "max": 40
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.core_opener"
+                    "key": "effort.hold_quality"
                   },
                   "rest": {
                     "type": "seconds",
@@ -29275,31 +29311,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "weighted-sit-up",
-                    "toes-to-bar-hanging",
-                    "crunch",
-                    "weighted-decline-sit-up"
+                    "high-plank-straight-arm-plank",
+                    "medball-plank-rockers",
+                    "l-sit-hold",
+                    "streamline-hold-hollow-body-arms-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "weighted-sit-up",
+                      "id": "high-plank-straight-arm-plank",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "medball-plank-rockers",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "crunch",
+                      "id": "l-sit-hold",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "weighted-decline-sit-up",
+                      "id": "streamline-hold-hollow-body-arms-overhead",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -29641,17 +29677,17 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "step-up-forward-and-lateral",
+            "exercise": "front-squat-barbell",
             "day": "Mon",
-            "slot_id": "Mon.S1.s12"
+            "slot_id": "Mon.S1.s10"
           }
         },
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "seal-row-db-supinated-grip",
-            "day": "Mon",
-            "slot_id": "Mon.S1.s09"
+            "exercise": "single-arm-lat-pulldown",
+            "day": "Fri",
+            "slot_id": "Fri.S3.s10"
           }
         },
         {
@@ -29698,7 +29734,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 122,
+          "est_minutes": 117,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_A",
@@ -29745,7 +29781,7 @@
                 "Mon.S1.s09",
                 "Mon.S1.s10"
               ],
-              "minutes_saved": 7,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -29926,26 +29962,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "cable-woodchopper-cable-chop",
+                  "name_key": "exercise.cable-woodchopper-cable-chop.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)",
+                    "copy_name": "Cable Woodchopper (cable chop)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 40
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -29955,7 +29991,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -29966,37 +30002,43 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "medball-plank-rockers",
-                    "high-plank-straight-arm-plank",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "weighted-russian-twist",
+                    "kb-book-opener",
+                    "medball-rotational-throw-initiated-from-the-hands-thorax-led",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "weighted-russian-twist",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "l-sit-hold",
+                      "id": "medball-rotational-throw-initiated-from-the-hands-thorax-led",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "level_shift"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
@@ -30009,6 +30051,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -30066,12 +30112,17 @@
                     }
                   ],
                   "swaps": [
+                    "side-plank-knee-to-elbow",
                     "high-straight-arm-side-plank",
                     "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                    "side-plank-knee-to-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "side-plank-knee-to-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.difficulty"
+                    },
                     {
                       "id": "high-straight-arm-side-plank",
                       "keeps": "swap.keeps.CORE",
@@ -30081,11 +30132,6 @@
                       "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "side-plank-knee-to-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.difficulty"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -30107,10 +30153,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -30712,7 +30754,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)",
                     "copy_name": "Seal Row - DB (Supinated Grip)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -31133,7 +31175,7 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -34148,7 +34190,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 132,
+          "est_minutes": 138,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -34196,7 +34238,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             }
           ],
@@ -35438,7 +35480,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -35593,7 +35635,7 @@
                     "url": "https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)",
                     "copy_name": "Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -36261,27 +36303,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "sit-up",
-                  "name_key": "exercise.sit-up.name",
+                  "exercise_id": "plank-forearm-low-plank",
+                  "name_key": "exercise.plank-forearm-low-plank.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
-                    "copy_name": "Sit-Up"
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
+                    "type": "seconds",
+                    "min": 20,
+                    "max": 40
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.core_opener"
+                    "key": "effort.hold_quality"
                   },
                   "rest": {
                     "type": "seconds",
@@ -36304,31 +36345,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "weighted-sit-up",
-                    "toes-to-bar-hanging",
-                    "crunch",
-                    "weighted-decline-sit-up"
+                    "high-plank-straight-arm-plank",
+                    "medball-plank-rockers",
+                    "l-sit-hold",
+                    "streamline-hold-hollow-body-arms-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "weighted-sit-up",
+                      "id": "high-plank-straight-arm-plank",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "medball-plank-rockers",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "crunch",
+                      "id": "l-sit-hold",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "weighted-decline-sit-up",
+                      "id": "streamline-hold-hollow-body-arms-overhead",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -36510,7 +36551,7 @@
       "weekly_sets_by_muscle": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 11,
         "lats_upper_back": 14,
         "side_delts": 3,
@@ -36522,7 +36563,7 @@
         "forearms": 0.5,
         "front_delts": 2.75,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 3.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
@@ -36546,7 +36587,7 @@
       "main_sets_by_muscle": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 11,
         "lats_upper_back": 14,
         "shoulders": 11.75,
@@ -36557,7 +36598,7 @@
       "weekly_sets_by_line": {
         "quads": 16,
         "hamstrings": 13,
-        "glutes": 5.5,
+        "glutes": 5.75,
         "chest": 11,
         "lats_upper_back": 14,
         "shoulders": 11.75,
@@ -36567,7 +36608,7 @@
       },
       "weekly_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 16.25,
         "back": 14,
         "chest": 11,
         "shoulders": 11.75,
@@ -36577,7 +36618,7 @@
       },
       "main_sets_by_group": {
         "quads": 16,
-        "hips": 16,
+        "hips": 16.25,
         "back": 14,
         "chest": 11,
         "shoulders": 11.75,
@@ -36595,7 +36636,14 @@
         "triceps": null,
         "calves": 11
       },
-      "acceleration": [],
+      "acceleration": [
+        {
+          "group": "hips",
+          "from": 14,
+          "to": 16.25,
+          "pct": 16
+        }
+      ],
       "credit_only_groups": [
         "biceps",
         "triceps"
@@ -36683,9 +36731,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "leg-extension-machine",
+            "exercise": "step-up-forward-and-lateral",
             "day": "Mon",
-            "slot_id": "Mon.S1.s13"
+            "slot_id": "Mon.S1.s12"
           }
         },
         {
@@ -36707,9 +36755,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "single-arm-db-kb-row",
-            "day": "Fri",
-            "slot_id": "Fri.S3.s08"
+            "exercise": "seal-row-db-supinated-grip",
+            "day": "Mon",
+            "slot_id": "Mon.S1.s09"
           }
         },
         {
@@ -36756,7 +36804,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 120,
+          "est_minutes": 118,
           "aerobic_minutes": 0,
           "exercise_count": 10,
           "skeleton": "athletic_A",
@@ -36980,26 +37028,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "cable-woodchopper-cable-chop",
+                  "name_key": "exercise.cable-woodchopper-cable-chop.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)",
+                    "copy_name": "Cable Woodchopper (cable chop)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 40
+                    "type": "per_side",
+                    "min": 10,
+                    "max": 15
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -37009,7 +37057,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {
                     "abs_obliques": 1
@@ -37020,37 +37068,43 @@
                   "wod": null,
                   "test": null,
                   "progression": null,
-                  "notes": [],
+                  "notes": [
+                    {
+                      "key": "note.per_side"
+                    }
+                  ],
                   "swaps": [
-                    "medball-plank-rockers",
-                    "high-plank-straight-arm-plank",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "weighted-russian-twist",
+                    "kb-book-opener",
+                    "medball-rotational-throw-initiated-from-the-hands-thorax-led",
+                    "cross-body-mountain-climber"
                   ],
                   "swap_notes": [
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "weighted-russian-twist",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "high-plank-straight-arm-plank",
+                      "id": "kb-book-opener",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "l-sit-hold",
+                      "id": "medball-rotational-throw-initiated-from-the-hands-thorax-led",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.difficulty"
                     },
                     {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
+                      "id": "cross-body-mountain-climber",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.core_action"
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "level_shift"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
@@ -37063,6 +37117,10 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
+                    },
+                    {
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -37120,12 +37178,17 @@
                     }
                   ],
                   "swaps": [
+                    "side-plank-knee-to-elbow",
                     "high-straight-arm-side-plank",
                     "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
-                    "side-plank-knee-to-elbow",
                     "copenhagen-raise-dynamic"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "side-plank-knee-to-elbow",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.difficulty"
+                    },
                     {
                       "id": "high-straight-arm-side-plank",
                       "keeps": "swap.keeps.CORE",
@@ -37135,11 +37198,6 @@
                       "id": "elbow-oblique-sit-side-lying-oblique-hold-on-the-elbow",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "side-plank-knee-to-elbow",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.difficulty"
                     },
                     {
                       "id": "copenhagen-raise-dynamic",
@@ -37161,10 +37219,6 @@
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     }
                   ],
                   "superset_suggested": "core_pair"
@@ -38451,7 +38505,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -41127,7 +41181,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 128,
+          "est_minutes": 131,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_C",
@@ -41171,7 +41225,7 @@
                 "Fri.S3.s08",
                 "Fri.S3.s12"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             }
           ],
@@ -42521,7 +42575,7 @@
                     "url": "https://www.youtube.com/results?search_query=Rear-Foot-Elevated%20Lunge%20(RFE%20%2F%20Bulgarian%20split%20squat)",
                     "copy_name": "Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -43189,27 +43243,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "sit-up",
-                  "name_key": "exercise.sit-up.name",
+                  "exercise_id": "plank-forearm-low-plank",
+                  "name_key": "exercise.plank-forearm-low-plank.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
-                    "copy_name": "Sit-Up"
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
+                    "type": "seconds",
+                    "min": 20,
+                    "max": 40
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.core_opener"
+                    "key": "effort.hold_quality"
                   },
                   "rest": {
                     "type": "seconds",
@@ -43232,31 +43285,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "weighted-sit-up",
-                    "toes-to-bar-hanging",
-                    "crunch",
-                    "weighted-decline-sit-up"
+                    "high-plank-straight-arm-plank",
+                    "medball-plank-rockers",
+                    "l-sit-hold",
+                    "streamline-hold-hollow-body-arms-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "weighted-sit-up",
+                      "id": "high-plank-straight-arm-plank",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "toes-to-bar-hanging",
+                      "id": "medball-plank-rockers",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "crunch",
+                      "id": "l-sit-hold",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "weighted-decline-sit-up",
+                      "id": "streamline-hold-hollow-body-arms-overhead",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -43838,26 +43891,27 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 40
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -43880,51 +43934,53 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "medball-plank-rockers",
-                    "high-plank-straight-arm-plank",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "star-v-ups-cross-body-diagonal-v-ups",
+                    "weighted-russian-twist"
                   ],
                   "swap_notes": [
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "high-plank-straight-arm-plank",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "l-sit-hold",
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
+                      "id": "star-v-ups-cross-body-diagonal-v-ups",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "weighted-russian-twist",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "block_change"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
                     },
                     {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
+                      "key": "why.block_change",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
                     },
                     {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     },
                     {
                       "key": "why.second_exposure",
@@ -50028,27 +50084,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "sit-up",
-                  "name_key": "exercise.sit-up.name",
+                  "exercise_id": "plank-forearm-low-plank",
+                  "name_key": "exercise.plank-forearm-low-plank.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
-                    "copy_name": "Sit-Up"
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
+                    "type": "seconds",
+                    "min": 20,
+                    "max": 40
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.core_opener"
+                    "key": "effort.hold_quality"
                   },
                   "rest": {
                     "type": "seconds",
@@ -50071,31 +50126,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "weighted-sit-up",
-                    "crunch",
-                    "weighted-decline-sit-up",
-                    "v-up"
+                    "high-plank-straight-arm-plank",
+                    "medball-plank-rockers",
+                    "l-sit-hold",
+                    "streamline-hold-hollow-body-arms-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "weighted-sit-up",
+                      "id": "high-plank-straight-arm-plank",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "crunch",
+                      "id": "medball-plank-rockers",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "weighted-decline-sit-up",
+                      "id": "l-sit-hold",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "v-up",
+                      "id": "streamline-hold-hollow-body-arms-overhead",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -50658,26 +50713,27 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "plank-forearm-low-plank",
-                  "name_key": "exercise.plank-forearm-low-plank.name",
+                  "exercise_id": "bicycle-crunch",
+                  "name_key": "exercise.bicycle-crunch.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
-                    "copy_name": "Plank (forearm / low plank)"
+                    "url": "https://www.youtube.com/results?search_query=Bicycle%20Crunch",
+                    "copy_name": "Bicycle Crunch"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "seconds",
-                    "min": 20,
-                    "max": 40
+                    "type": "range",
+                    "min": 10,
+                    "max": 15,
+                    "bracket": "b10_15"
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.hold_quality"
+                    "key": "effort.core_opener"
                   },
                   "rest": {
                     "type": "seconds",
@@ -50700,51 +50756,53 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "medball-plank-rockers",
-                    "high-plank-straight-arm-plank",
-                    "l-sit-hold",
-                    "streamline-hold-hollow-body-arms-overhead"
+                    "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
+                    "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
+                    "star-v-ups-cross-body-diagonal-v-ups",
+                    "weighted-russian-twist"
                   ],
                   "swap_notes": [
                     {
-                      "id": "medball-plank-rockers",
+                      "id": "rotational-crunch-chop-midline-horizontal-supine-object-squeezed-between-knees",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "high-plank-straight-arm-plank",
-                      "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
-                    },
-                    {
-                      "id": "l-sit-hold",
+                      "id": "tall-kneeling-cable-crunch-chop-midline-horizontal-object-squeezed-between-",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "streamline-hold-hollow-body-arms-overhead",
+                      "id": "star-v-ups-cross-body-diagonal-v-ups",
+                      "keeps": "swap.keeps.CORE",
+                      "loses": "swap.loses.simplicity"
+                    },
+                    {
+                      "id": "weighted-russian-twist",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
-                  "flags": [],
+                  "flags": [
+                    "block_change"
+                  ],
                   "why": [
                     {
                       "key": "why.core_first",
                       "ref": "ATH-11"
                     },
                     {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
+                      "key": "why.block_change",
+                      "ref": "PER-02"
                     },
                     {
                       "key": "why.constraint_band",
                       "ref": "EQ-13"
                     },
                     {
-                      "key": "why.continuity",
-                      "ref": "PER-02"
+                      "key": "why.core_rotation",
+                      "ref": "R5-ATH-08"
                     },
                     {
                       "key": "why.second_exposure",
@@ -56848,27 +56906,26 @@
                   "role": "core_block",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "sit-up",
-                  "name_key": "exercise.sit-up.name",
+                  "exercise_id": "plank-forearm-low-plank",
+                  "name_key": "exercise.plank-forearm-low-plank.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Sit-Up",
-                    "copy_name": "Sit-Up"
+                    "url": "https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)",
+                    "copy_name": "Plank (forearm / low plank)"
                   },
                   "sets": 2,
                   "reps": {
-                    "type": "range",
-                    "min": 10,
-                    "max": 15,
-                    "bracket": "b10_15"
+                    "type": "seconds",
+                    "min": 20,
+                    "max": 40
                   },
                   "set_reps": null,
                   "effort": {
                     "type": "intent",
-                    "key": "effort.core_opener"
+                    "key": "effort.hold_quality"
                   },
                   "rest": {
                     "type": "seconds",
@@ -56891,31 +56948,31 @@
                   "progression": null,
                   "notes": [],
                   "swaps": [
-                    "weighted-sit-up",
-                    "crunch",
-                    "weighted-decline-sit-up",
-                    "v-up"
+                    "high-plank-straight-arm-plank",
+                    "medball-plank-rockers",
+                    "l-sit-hold",
+                    "streamline-hold-hollow-body-arms-overhead"
                   ],
                   "swap_notes": [
                     {
-                      "id": "weighted-sit-up",
+                      "id": "high-plank-straight-arm-plank",
                       "keeps": "swap.keeps.CORE",
                       "loses": "swap.loses.little"
                     },
                     {
-                      "id": "crunch",
+                      "id": "medball-plank-rockers",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "weighted-decline-sit-up",
+                      "id": "l-sit-hold",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.simplicity"
                     },
                     {
-                      "id": "v-up",
+                      "id": "streamline-hold-hollow-body-arms-overhead",
                       "keeps": "swap.keeps.CORE",
-                      "loses": "swap.loses.little"
+                      "loses": "swap.loses.core_action"
                     }
                   ],
                   "instead_of": null,
@@ -57090,10 +57147,10 @@
       "glutes": [
         4,
         4.5,
-        4.5,
+        4.75,
         5,
         5.25,
-        5.5,
+        5.75,
         3.5,
         3.5
       ],
@@ -57130,8 +57187,8 @@
       "rear_delts": [
         4.5,
         4.5,
-        4.5,
-        4.5,
+        4.75,
+        4.75,
         5.75,
         6,
         3,
@@ -57210,10 +57267,10 @@
       "adductors": [
         2.25,
         2.5,
-        2.5,
+        2.75,
         2.75,
         3,
-        3,
+        3.25,
         2,
         2
       ],
@@ -57252,10 +57309,10 @@
       "glutes": [
         4,
         4.5,
-        4.5,
+        4.75,
         5,
         5.25,
-        5.5,
+        5.75,
         3.5,
         3.5
       ],
@@ -57282,8 +57339,8 @@
       "shoulders": [
         10,
         10,
-        10,
-        10,
+        10.25,
+        10.25,
         11.5,
         11.75,
         4.5,
@@ -57334,10 +57391,10 @@
       "hips": [
         11.25,
         12.5,
-        12.5,
+        12.75,
         13.75,
         14,
-        16,
+        16.25,
         10,
         10
       ],
@@ -57364,8 +57421,8 @@
       "shoulders": [
         10,
         10,
-        10,
-        10,
+        10.25,
+        10.25,
         11.5,
         11.75,
         4.5,
@@ -57526,7 +57583,15 @@
         null
       ]
     },
-    "acceleration": [],
+    "acceleration": [
+      {
+        "week": 6,
+        "group": "hips",
+        "from": 14,
+        "to": 16.25,
+        "pct": 16
+      }
+    ],
     "myo_equivalent_sets_by_week": [
       0,
       0,

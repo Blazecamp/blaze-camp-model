@@ -17,7 +17,7 @@ _Your Blaze Camp plan_
 - Week 11 jumps more than usual (17 % more sets for Chest): adjust if needed.
 - Back: this template holds 20 weekly sets, below the planned 21. Add an exercise if you want more.
 - Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.
-- Two-leg lifts are about 61 % of your lower-body lifting sets (your sport's guide is about 50 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
+- Two-leg lifts are about 63 % of your lower-body lifting sets (your sport's guide is about 50 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 - Weeks 11 and 12 include Christmas / New Year: move a session (or a test day) by a day or two if you need to; plan longer holidays between blocks.
 - This plan does not count your 6 team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).
 - Chest: 2 of its 14 final sets sit on your optional day (Flat DB Fly, Saturday, from week 11). Skip that day and the chest total ends at about 12.
@@ -170,12 +170,12 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Low Depth Drop → Squat Jump (high, bodyweight or lightly loaded) → Two-Foot Lateral Jump (side to side over a line or a low hurdle) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 contacts → 6 contacts |
 | Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops → Single-Leg Right-Angle Ankle Hops | 2 2 2 2 · 1 2 2 2 · 1 1 1 1 | 6 contacts → 5 contacts per leg |
 | Hang Power Clean - from the High Hang (hip crease) | 2 2 2 2 · 2 2 2 3 · 3 3 3 2 | 3 to 5 Reps |
-| Front Squat (barbell) | 2 3 3 3 · 3 3 3 4 · 4 4 4 3 | 8-10 Reps → 6 to 8 Reps |
-| Seal Row - DB (Supinated Grip) | 4 4 4 4 · 5 5 5 5 · 5 5 5 5 | 10 to 12 Reps → 8 to 12 Reps → 8-10 Reps |
-| Pull-up | 4 4 4 4 · 4 4 4 4 · 5 5 5 5 | 8-10 Reps → 6 to 8 Reps |
-| Deficit Reverse Lunge (standing on plate/step) | 2 2 3 3 · 3 3 3 3 · 3 4 4 4 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
+| Front Squat (barbell) | 2 3 3 3 · 3 3 3 3 · 3 4 4 3 | 8-10 Reps → 6 to 8 Reps |
+| Seal Row - DB (Supinated Grip) | 4 4 4 4 · 4 4 5 5 · 5 5 5 5 | 10 to 12 Reps → 8 to 12 Reps → 8-10 Reps |
+| Pull-up | 4 4 4 4 · 4 4 4 4 · 4 4 5 5 | 8-10 Reps → 6 to 8 Reps |
+| Deficit Reverse Lunge (standing on plate/step) | 2 2 2 2 · 2 3 3 3 · 3 3 4 4 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
 | Spider Curl (chest on incline bench) → Spider Curl (chest on incline bench) - palms facing each other (hammer grip) → Spider Curl (chest on incline bench) - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 10 to 15 Reps |
-| Leg Extension (machine) | 2 2 2 2 · 2 3 3 3 · 3 3 4 4 | 12 to 15 Reps → 10 to 12 Reps → 8 to 12 Reps |
+| Leg Extension (machine) | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 12 to 15 Reps → 10 to 12 Reps → 8 to 12 Reps |
 | Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 4 4 4 4 | 12 to 15 Reps |
 | KB Face Pull | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps |
 | Seated Machine Shoulder Press → Seated Machine Shoulder Press - 1-second pause at the bottom | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps |
@@ -204,18 +204,18 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Pallof Press → Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Reverse Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Bicycle Crunch | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Medium Depth Drop → Mid Box Jump (Knee Height) → Broad Jump | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 contacts → 6 contacts |
 | Bilateral Lateral Ankle Hops → Single-Leg Ankle Hops | – – – – · 2 2 2 2 · 2 2 2 1 | 6 contacts → 4 contacts per leg |
 | Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L) → Medball Rotational Side-to-Side Floor Slams | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 per side |
 | High-Hang Snatch Pull → Low-Hang Snatch Pull | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 8 Reps → 6 Reps |
 | Hex (Trap) Bar Deadlift | 2 3 4 4 · 4 4 4 4 · 4 4 4 3 | 8-10 Reps → 6 to 8 Reps |
 | Machine Bench Press → Machine Bench Press - 1-second pause at the bottom | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 12 to 15 Reps → 8 to 12 Reps → 8-10 Reps |
-| Single-Arm DB/KB Row → Single-Arm DB/KB Row - 1-second squeeze at the top | 4 4 4 4 · 4 4 5 5 · 5 5 5 5 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
-| Double-KB Front-Rack Squat → Double-KB Front-Rack Squat - 1-second pause at the bottom | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 Reps → 8 to 12 Reps → 8-10 Reps |
+| Single-Arm DB/KB Row → Single-Arm DB/KB Row - 1-second squeeze at the top | 4 5 5 5 · 5 5 5 5 · 5 5 5 5 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
+| Double-KB Front-Rack Squat → Double-KB Front-Rack Squat - 1-second pause at the bottom | 2 2 3 3 · 3 3 3 3 · 3 3 3 3 | 10 to 12 Reps → 8 to 12 Reps → 8-10 Reps |
 | Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 8 to 10 per side |
-| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 4 4 4 · 4 4 4 4 · 4 4 5 5 | 12 to 15 per side → 8 to 12 per side → 8 to 10 per side |
+| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 4 4 4 4 · 5 5 5 5 | 12 to 15 per side → 8 to 12 per side → 8 to 10 per side |
 | Barbell Calf Raise | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 12 to 15 Reps |
 | KB Face Pull | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps |
 
@@ -335,7 +335,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -452,7 +451,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Friday · S3 - Olympic + strength
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Pallof Press + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Double-KB Front-Rack Squat (about 4 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Barbell Calf Raise_
@@ -462,13 +461,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Medium Depth Drop** — 2 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -558,7 +557,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 2 — Getting used to it (small steps)
@@ -566,7 +565,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 _Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Single-Arm Lat Pulldown (Friday): 3 → 4 sets
+- +1 set on Single-Arm DB/KB Row (Friday): 4 → 5 sets
 
 **Athletic work this week:** 38 jump contacts · 12 ankle-hop contacts · 36 throws · 6 Olympic-lift sets · Plyo share 14% · Receive-Create 1: Land
 
@@ -663,7 +662,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -770,7 +768,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Friday · S3 - Olympic + strength
 _Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Pallof Press + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Double-KB Front-Rack Squat (about 4 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
@@ -781,13 +779,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Medium Depth Drop** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -820,7 +818,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 8-10 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
-3. **Single-Arm DB/KB Row** — 4 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm DB/KB Row** — 5 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
@@ -837,7 +835,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Front-%20and%20Rear-Foot-Elevated%20Split%20Squat%20(FFE%20%26%20RFE)) · Name to copy into YouTube: `Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)`
-6. **Single-Arm Lat Pulldown** — 4 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+6. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
    - per side = 1 set
    - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
@@ -865,7 +863,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 3 — Getting used to it (small steps)
@@ -873,7 +871,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 _Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Deficit Reverse Lunge (standing on plate/step) (Monday): 2 → 3 sets
+- +1 set on Double-KB Front-Rack Squat (Friday): 2 → 3 sets
 - +1 set on Hex (Trap) Bar Deadlift (Friday): 3 → 4 sets
 
 **Athletic work this week:** 40 jump contacts · 12 ankle-hop contacts · 36 throws · 6 Olympic-lift sets · Plyo share 14% · Receive-Create 1: Land
@@ -883,7 +881,7 @@ _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 5.5 min saved)_
+_Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 4 min saved)_
 _Superset to save time: Spider Curl (chest on incline bench) + Leg Extension (machine) (about 3.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Low Depth Drop · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Spider Curl (chest on incline bench)_
@@ -943,7 +941,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Assisted Pull-Up Machine (Close Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Deficit Reverse Lunge (standing on plate/step)** — 3 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Deficit Reverse Lunge (standing on plate/step)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
@@ -971,7 +969,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -1078,9 +1075,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Friday · S3 - Olympic + strength
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Pallof Press + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Double-KB Front-Rack Squat (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Double-KB Front-Rack Squat (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Barbell Calf Raise_
 
@@ -1089,13 +1086,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Medium Depth Drop** — 2 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1128,13 +1125,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 8-10 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
-3. **Single-Arm DB/KB Row** — 4 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm DB/KB Row** — 5 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Double-KB Front-Rack Squat** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
@@ -1145,7 +1142,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Front-%20and%20Rear-Foot-Elevated%20Split%20Squat%20(FFE%20%26%20RFE)) · Name to copy into YouTube: `Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)`
-6. **Single-Arm Lat Pulldown** — 4 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+6. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
    - per side = 1 set
    - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
@@ -1173,7 +1170,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 4 — Driving it
@@ -1190,7 +1187,7 @@ _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 5.5 min saved)_
+_Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 4 min saved)_
 _Superset to save time: Spider Curl (chest on incline bench) + Leg Extension (machine) (about 3.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Ankle Hops (bilateral, in place), Low Depth Drop · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Spider Curl (chest on incline bench)_
@@ -1250,7 +1247,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Assisted Pull-Up Machine (Close Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Deficit Reverse Lunge (standing on plate/step)** — 3 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Deficit Reverse Lunge (standing on plate/step)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
@@ -1278,7 +1275,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -1385,9 +1381,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Friday · S3 - Olympic + strength
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Pallof Press + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Double-KB Front-Rack Squat (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Double-KB Front-Rack Squat (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Barbell Calf Raise_
 
@@ -1396,13 +1392,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Medium Depth Drop** — 2 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1435,13 +1431,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 8-10 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
-3. **Single-Arm DB/KB Row** — 4 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm DB/KB Row** — 5 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Double-KB Front-Rack Squat** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
@@ -1452,7 +1448,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Front-%20and%20Rear-Foot-Elevated%20Split%20Squat%20(FFE%20%26%20RFE)) · Name to copy into YouTube: `Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)`
-6. **Single-Arm Lat Pulldown** — 4 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+6. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
    - per side = 1 set
    - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
@@ -1480,7 +1476,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 5 — Driving it
@@ -1488,21 +1484,21 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 _Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- New exercise block: 15 exercises change a little (another version or one new detail); the rest stay
+- New exercise block: 14 exercises change a little (another version or one new detail); the rest stay
 - Monday: Low Box Jump (Half-Shin Height) → Two-Foot Lateral Jump (side to side over a line or a low hurdle); Low Depth Drop → Squat Jump (high, bodyweight or lightly loaded); Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops; Spider Curl (chest on incline bench) → Spider Curl (chest on incline bench) - palms facing each other (hammer grip); Seated Machine Shoulder Press → Seated Machine Shoulder Press - 1-second pause at the bottom
 - Wednesday: Mid Box Jump (Knee Height) → Broad Jump; Medball Overhead Throw → Step-Forward Medball Overhead Throw (R & L leg); Seated Leg Curl (machine) → Lying Leg Curl (machine); Bent-Over DB Reverse Fly → Seated (Chest-to-Thighs) DB Reverse Fly
-- Friday: Pallof Press → Dead Bugs; Medium Depth Drop → Mid Box Jump (Knee Height); Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); High-Hang Snatch Pull → Low-Hang Snatch Pull; Single-Arm DB/KB Row → Single-Arm DB/KB Row - 1-second squeeze at the top; Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top
+- Friday: Medium Depth Drop → Mid Box Jump (Knee Height); Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); High-Hang Snatch Pull → Low-Hang Snatch Pull; Single-Arm DB/KB Row → Single-Arm DB/KB Row - 1-second squeeze at the top; Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top
 - Jumps move to Receive-Create 2: Land & Go
-- +1 set on Seal Row - DB (Supinated Grip) (Monday): 4 → 5 sets
+- +1 set on Single-Arm Lat Pulldown (Friday): 3 → 4 sets
 
 **Athletic work this week:** 42 jump contacts · 18 ankle-hop contacts · 38 throws · 6 Olympic-lift sets · Plyo share 18% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 5.5 min saved)_
+_Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 4 min saved)_
 _Superset to save time: Spider Curl (chest on incline bench) - palms facing each other (hammer grip) + Leg Extension (machine) (about 3.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Bilateral Backward Ankle Hops, Squat Jump (high, bodyweight or lightly loaded) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Spider Curl (chest on incline bench) - palms facing each other (hammer grip)_
@@ -1543,7 +1539,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Hang%20Power%20Clean%20-%20from%20the%20High%20Hang%20(hip%20crease)) · Name to copy into YouTube: `Hang Power Clean - from the High Hang (hip crease)`
 
 **Strength**
-1. **Seal Row - DB (Supinated Grip)** — 5 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
@@ -1558,7 +1554,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Assisted Pull-Up Machine (Close Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Deficit Reverse Lunge (standing on plate/step)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Deficit Reverse Lunge (standing on plate/step)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Side (Lateral) Lunge (keeps the single-leg squat pattern; loses the added load) / Walking Lunge (keeps the single-leg squat pattern; loses the added load) / Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses the added load)
@@ -1585,7 +1581,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -1687,11 +1682,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Prone%20Y%20%2F%20T%20Raises%20(bodyweight%20or%20light%20DBs)) · Name to copy into YouTube: `Floor Prone Y / T Raises (bodyweight or light DBs)`
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L), Bilateral Lateral Ankle Hops · small-muscle accessories: Barbell Calf Raise_
 
@@ -1700,13 +1695,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Mid Box Jump (Knee Height)** — 2 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -1742,12 +1737,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
-3. **Single-Arm DB/KB Row - 1-second squeeze at the top** — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm DB/KB Row - 1-second squeeze at the top** — 5 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat** — 2 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Double-KB Front-Rack Squat** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat) · Name to copy into YouTube: `Double-KB Front-Rack Squat`
@@ -1784,7 +1779,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 6 — Driving it
@@ -1792,13 +1787,13 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 _Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Monday): 2 → 3 sets
+- +1 set on Deficit Reverse Lunge (standing on plate/step) (Monday): 2 → 3 sets
 - +1 set on 45-Degree Hyperextension (back/hip extension) (Wednesday): 2 → 3 sets
 
 **Athletic work this week:** 44 jump contacts · 24 ankle-hop contacts · 40 throws · 6 Olympic-lift sets · Plyo share 22% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
@@ -1843,7 +1838,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Hang%20Power%20Clean%20-%20from%20the%20High%20Hang%20(hip%20crease)) · Name to copy into YouTube: `Hang Power Clean - from the High Hang (hip crease)`
 
 **Strength**
-1. **Seal Row - DB (Supinated Grip)** — 5 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Seal Row - DB (Supinated Grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
@@ -1869,7 +1864,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
-2. **Leg Extension (machine)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **Leg Extension (machine)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -1885,7 +1880,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -1987,11 +1981,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Prone%20Y%20%2F%20T%20Raises%20(bodyweight%20or%20light%20DBs)) · Name to copy into YouTube: `Floor Prone Y / T Raises (bodyweight or light DBs)`
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L), Bilateral Lateral Ankle Hops · small-muscle accessories: Barbell Calf Raise_
 
@@ -2000,13 +1994,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Mid Box Jump (Knee Height)** — 2 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2042,12 +2036,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
-3. **Single-Arm DB/KB Row - 1-second squeeze at the top** — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm DB/KB Row - 1-second squeeze at the top** — 5 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat** — 2 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Double-KB Front-Rack Squat** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat) · Name to copy into YouTube: `Double-KB Front-Rack Squat`
@@ -2084,7 +2078,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 7 — Driving it
@@ -2092,7 +2086,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Single-Arm DB/KB Row (Friday): 4 → 5 sets
+- +1 set on Seal Row - DB (Supinated Grip) (Monday): 4 → 5 sets
 
 **Athletic work this week:** 44 jump contacts · 24 ankle-hop contacts · 40 throws · 6 Olympic-lift sets · Plyo share 22% · Receive-Create 2: Land & Go
 
@@ -2168,7 +2162,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
-2. **Leg Extension (machine)** — 3 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+2. **Leg Extension (machine)** — 2 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -2184,7 +2178,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -2286,11 +2279,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Prone%20Y%20%2F%20T%20Raises%20(bodyweight%20or%20light%20DBs)) · Name to copy into YouTube: `Floor Prone Y / T Raises (bodyweight or light DBs)`
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L), Bilateral Lateral Ankle Hops · small-muscle accessories: Barbell Calf Raise_
 
@@ -2299,13 +2292,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Mid Box Jump (Knee Height)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2346,7 +2339,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Double-KB Front-Rack Squat** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat) · Name to copy into YouTube: `Double-KB Front-Rack Squat`
@@ -2383,7 +2376,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 8 — Driving it
@@ -2391,7 +2384,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 _Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Front Squat (barbell) (Monday): 3 → 4 sets
+- +1 set on Leg Extension (machine) (Monday): 2 → 3 sets
 - +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Wednesday): 2 → 3 sets
 
 **Athletic work this week:** 46 jump contacts · 24 ankle-hop contacts · 40 throws · 7 Olympic-lift sets · Plyo share 22% · Receive-Create 2: Land & Go
@@ -2400,7 +2393,7 @@ _Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 _Average time: about 100-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 5.5 min saved)_
 _Superset to save time: Spider Curl (chest on incline bench) - palms facing each other (hammer grip) + Leg Extension (machine) (about 3.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) + KB Face Pull (about 2.5 min saved)_
@@ -2446,7 +2439,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the heavier barbell load) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the heavier barbell load) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement)
@@ -2484,7 +2477,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -2586,11 +2578,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Prone%20Y%20%2F%20T%20Raises%20(bodyweight%20or%20light%20DBs)) · Name to copy into YouTube: `Floor Prone Y / T Raises (bodyweight or light DBs)`
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L), Bilateral Lateral Ankle Hops · small-muscle accessories: Barbell Calf Raise_
 
@@ -2599,13 +2591,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Mid Box Jump (Knee Height)** — 2 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2646,7 +2638,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat** — 2 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Double-KB Front-Rack Squat** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Double-KB%20Front-Rack%20Squat) · Name to copy into YouTube: `Double-KB Front-Rack Squat`
@@ -2683,7 +2675,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 9 — Hardest weeks
@@ -2696,17 +2688,17 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 - Wednesday: Broad Jump → Single-Leg Broad Jump; Step-Forward Medball Overhead Throw (R & L leg) → Step-Forward Medball Chest Pass (R & L leg); Alternating Staggered-Stance Single-Leg Deadlift (DB) → Staggered-Stance (Kickstand) DB Deadlift; Tate Press → Overhead Dumbbell Triceps Extension
 - Friday: Mid Box Jump (Knee Height) → Broad Jump; Bilateral Lateral Ankle Hops → Single-Leg Ankle Hops; Rotational Medball Chest Pass (R & L) → Medball Rotational Side-to-Side Floor Slams; Machine Bench Press → Machine Bench Press - 1-second pause at the bottom; Double-KB Front-Rack Squat → Double-KB Front-Rack Squat - 1-second pause at the bottom
 - Jumps move to Receive-Create 3: Repeat
-- +1 set on Pull-up (Monday): 4 → 5 sets
+- +1 set on Single-Arm Lat Pulldown (Friday): 4 → 5 sets
 - +1 set on Incline DB Bench Press (Wednesday): 3 → 4 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Monday): 3 → 4 sets
 
 **Athletic work this week:** 48 jump contacts · 26 ankle-hop contacts · 44 throws · 7 Olympic-lift sets · Plyo share 22% · Receive-Create 3: Repeat
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 5.5 min saved)_
 _Superset to save time: Spider Curl (chest on incline bench) - 1-second squeeze at the top + Leg Extension (machine) (about 3.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + KB Face Pull (about 2.5 min saved)_
@@ -2754,11 +2746,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the heavier barbell load) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the heavier barbell load) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Pull-up** — 5 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+3. **Pull-up** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Assisted Pull-Up Machine (Close Grip) (keeps the vertical pull; loses the feel of the original implement)
@@ -2791,7 +2783,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -2894,11 +2885,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Prone%20Y%20%2F%20T%20Raises%20(bodyweight%20or%20light%20DBs)) · Name to copy into YouTube: `Floor Prone Y / T Raises (bodyweight or light DBs)`
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat - 1-second pause at the bottom (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat - 1-second pause at the bottom (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Side-to-Side Floor Slams, Single-Leg Ankle Hops · small-muscle accessories: Barbell Calf Raise_
 
@@ -2907,13 +2898,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Broad Jump** — 2 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2955,7 +2946,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat - 1-second pause at the bottom** — 2 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Double-KB Front-Rack Squat - 1-second pause at the bottom** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
@@ -2965,7 +2956,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Front-%20and%20Rear-Foot-Elevated%20Split%20Squat%20(FFE%20%26%20RFE)) · Name to copy into YouTube: `Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)`
-6. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 4 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+6. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 5 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -2994,7 +2985,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 10 — Hardest weeks
@@ -3002,16 +2993,16 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 _Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Deficit Reverse Lunge (standing on plate/step) (Monday): 3 → 4 sets
+- +1 set on Front Squat (barbell) (Monday): 3 → 4 sets
 
 **Athletic work this week:** 48 jump contacts · 26 ankle-hop contacts · 44 throws · 7 Olympic-lift sets · Plyo share 22% · Receive-Create 3: Repeat
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
-_Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 7 min saved)_
+_Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 5.5 min saved)_
 _Superset to save time: Spider Curl (chest on incline bench) - 1-second squeeze at the top + Leg Extension (machine) (about 3.5 min saved)_
 _Superset to save time: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Single-Leg Right-Angle Ankle Hops, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Leg Extension (machine), Spider Curl (chest on incline bench) - 1-second squeeze at the top_
@@ -3062,12 +3053,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / High-Zercher DB Squat (DB hugged high at chest) (keeps the two-leg squat; loses the heavier barbell load) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the heavier barbell load) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Pull-up** — 5 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 2-3 min rest
+3. **Pull-up** — 4 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 2-3 min rest
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Supinated / Underhand Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Assisted Pull-Up Machine (Close Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Deficit Reverse Lunge (standing on plate/step)** — 4 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Deficit Reverse Lunge (standing on plate/step)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -3095,7 +3086,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -3198,11 +3188,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Floor%20Prone%20Y%20%2F%20T%20Raises%20(bodyweight%20or%20light%20DBs)) · Name to copy into YouTube: `Floor Prone Y / T Raises (bodyweight or light DBs)`
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat - 1-second pause at the bottom (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat - 1-second pause at the bottom (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Side-to-Side Floor Slams, Single-Leg Ankle Hops · small-muscle accessories: Barbell Calf Raise_
 
@@ -3211,13 +3201,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Broad Jump** — 2 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -3259,7 +3249,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat - 1-second pause at the bottom** — 2 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Double-KB Front-Rack Squat - 1-second pause at the bottom** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
@@ -3269,7 +3259,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front-Foot-Elevated Split Squat / Lunge (FFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Front-%20and%20Rear-Foot-Elevated%20Split%20Squat%20(FFE%20%26%20RFE)) · Name to copy into YouTube: `Front- and Rear-Foot-Elevated Split Squat (FFE & RFE)`
-6. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 4 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+6. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 5 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -3298,7 +3288,7 @@ _You can switch off these blocks today: core. You can also add or remove exercis
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 ## Week 11 — Hardest weeks
@@ -3309,16 +3299,16 @@ _This week jumps more than usual (17 % more sets for Chest): adjust if needed._
 
 **What changes this week**
 - New bonus exercise: Flat DB Fly (Saturday)
-- +1 set on Leg Extension (machine) (Monday): 3 → 4 sets
+- +1 set on Deficit Reverse Lunge (standing on plate/step) (Monday): 3 → 4 sets
 - +1 set on Lying Leg Curl (machine) (Wednesday): 2 → 3 sets
-- +1 set on Single-Arm Lat Pulldown (Friday): 4 → 5 sets
+- +1 set on Pull-up (Monday): 4 → 5 sets
 - +1 set on Seated (Chest-to-Thighs) DB Reverse Fly (Wednesday): 3 → 4 sets
 - +1 set on Machine Calf Raise (Wednesday): 3 → 4 sets
 
 **Athletic work this week:** 50 jump contacts · 26 ankle-hop contacts · 44 throws · 8 Olympic-lift sets · Plyo share 22% · Receive-Create 3: Repeat
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 120-145 min (an estimate, for information only)_
+_Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
@@ -3390,7 +3380,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
-2. **Leg Extension (machine)** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+2. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -3406,7 +3396,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -3511,9 +3500,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Friday · S3 - Olympic + strength
 _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Reverse Crunch (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Machine Bench Press - 1-second pause at the bottom + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat - 1-second pause at the bottom (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat - 1-second pause at the bottom (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Side-to-Side Floor Slams, Single-Leg Ankle Hops · small-muscle accessories: Barbell Calf Raise_
 
@@ -3522,13 +3511,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Broad Jump** — 2 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -3570,7 +3559,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Double-KB Front-Rack Squat - 1-second pause at the bottom** — 2 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Double-KB Front-Rack Squat - 1-second pause at the bottom** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
@@ -3610,7 +3599,7 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Fla
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 **Accessories**
@@ -3629,10 +3618,10 @@ _Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - Same sets: on a tested lift the test takes the place of the top set; on the other lifts add a little load or reps
 
-**Athletic work this week:** 28 jump contacts · 16 ankle-hop contacts · 30 throws · 6 Olympic-lift sets · Plyo share 22% · Receive-Create 3: Repeat
+**Athletic work this week:** 28 jump contacts · 16 ankle-hop contacts · 30 throws · 6 Olympic-lift sets · Plyo share 22% · Receive-Create 3: Repeat Test week: jumps, throws and sprints are lighter so you test fresh.
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 125-155 min (an estimate, for information only)_
+_Average time: about 125-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Pull-up + Deficit Reverse Lunge (standing on plate/step) (about 7 min saved)_
@@ -3708,7 +3697,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
    - Swap for: Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Supine (Lying) Biceps Curl (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Spider%20Curl%20(chest%20on%20incline%20bench)) · Name to copy into YouTube: `Spider Curl (chest on incline bench)`
-2. **Leg Extension (machine)** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+2. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -3724,7 +3713,6 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Swap for: Side-Lying DB External Rotation (keeps the joint care; loses the feel of the original implement) / Floor Prone Y / T Raises (bodyweight or light DBs) (keeps the same main muscle; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=KB%20Face%20Pull) · Name to copy into YouTube: `KB Face Pull`
 2. **Seated Machine Shoulder Press - 1-second pause at the bottom** — 2 × 12 to 15 Reps · easy and controlled · 30-60 s rest
-   - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 12.
    - Shoulder health: a light overhead press through your full range, once a week - your incline press builds the strength, this keeps your reach
    - Swap for: Alternating DB Overhead Press (keeps the vertical press; loses the machine's support) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Machine%20Shoulder%20Press) · Name to copy into YouTube: `Seated Machine Shoulder Press`
@@ -3833,8 +3821,8 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 ### Friday · S3 - Olympic + strength
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Dead Bugs + Reverse Crunch (about 2.5 min saved)_
-_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat - 1-second pause at the bottom (about 4 min saved)_
+_Superset to save time: Bicycle Crunch + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Single-Arm DB/KB Row - 1-second squeeze at the top + Double-KB Front-Rack Squat - 1-second pause at the bottom (about 5.5 min saved)_
 _Superset to save time: Barbell Calf Raise + KB Face Pull (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Rotational Side-to-Side Floor Slams, Single-Leg Ankle Hops · small-muscle accessories: Barbell Calf Raise_
 
@@ -3843,13 +3831,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 2. Mobility: KB book openers, thoracic rotations and pec-minor openers (5 min)
 
 **Core (optional: you may switch it off or change it)**
-1. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / KB Book Opener (keeps the core work; loses the same trunk action - this one trains the core another way) / Kettlebell Rotational Swings (no hip thrust - trunk-driven) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Pallof Press (keeps the core work; loses little - same movement, another grip or position) / Bench Pallof Plank (plank on a bench with cable anti-rotation) (keeps the core work; loses the moving reps)
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
-2. **Reverse Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Knees to Chest (hanging) (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
 1. **Broad Jump** — 2 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -3896,7 +3884,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-5. **Double-KB Front-Rack Squat - 1-second pause at the bottom** — 2 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+5. **Double-KB Front-Rack Squat - 1-second pause at the bottom** — 3 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Goblet Squat (Heels Elevated) (keeps the two-leg squat; loses the feel of the original implement) / Leg Press (machine) (keeps the two-leg squat; loses the free-weight balance work) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the feel of the original implement) / Low DB Squat (two DBs hanging at the sides) (keeps the two-leg squat; loses the feel of the original implement)
@@ -3936,7 +3924,7 @@ _Easiest to remove if you want a shorter day (your choice): bonus exercises: Fla
 
 **Core (optional: you may switch it off or change it)**
 1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load) / Toes to Bar (hanging) (keeps the core work; loses the added load)
+   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Leg Raise (lying / supine) (keeps the core work; loses the added load)
    - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
 
 **Accessories**

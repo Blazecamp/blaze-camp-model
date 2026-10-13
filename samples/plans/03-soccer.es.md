@@ -15,9 +15,10 @@ _Tu plan Blaze Camp_
 ## Antes de empezar
 
 - Tu temporada está cerca: las últimas 2 semanas de este plan son de pretemporada (más velocidad y potencia, menos series).
+- La semana 6 sube más de lo habitual (16 % más series para cadera (glúteos + isquiotibiales)): ajusta si hace falta.
 - Bíceps y tríceps: un ejercicio propio en los días de entrenamiento (el espacio de brazos de la plantilla), con sus series fijas. No suben de series como los demás grupos: progrésalos con peso y repeticiones.
 - Esta plantilla cubre cerca del 80% del volumen semanal de tu deporte en contactos de salto (cajón, sentadilla, salto largo y reactivos): igual sube cada semana. Agrega una estación o un día si quieres la dosis completa.
-- Los ejercicios a dos piernas son cerca del 51 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
+- Los ejercicios a dos piernas son cerca del 50 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
 - Este plan no cuenta tus 2 prácticas de equipo por semana: tómalas en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).
 - Hombros: 3 de sus 11 series finales están en un ejercicio extra, al final de su día (Elevación lateral sentado con mancuernas (Seated Lateral Raise), miércoles), porque los ejercicios de tu plantilla para este grupo ya están en su máximo de series. Si lo omites, el total de hombros queda en unas 8.
 
@@ -46,6 +47,7 @@ Las superseries de core son opcionales en cualquier parte: puedes juntar un ejer
 
 - Las repeticiones y el peso siguen una regla que aplicas tú, no un número que este plan prometa. Cada ejercicio trae un rango de repeticiones. Ejemplo de tu plan: Sentadilla frontal con barra (Front Squat), 3 series de 6-8. Cuando llegues a 8 en todas las series, con las repeticiones en reserva planeadas y buena técnica, sube el peso la próxima vez y vuelve a empezar en 6. ¿Todavía no llegas? Mantén el peso y agrega una repetición donde puedas.
 - Las series siguen la escalera: el plan agrega series semana a semana hasta que cada grupo muscular llega a sus series finales en la última semana (mira la tabla semana a semana). En una semana con las mismas series que la anterior, progresas con repeticiones o peso.
+- La semana 6 sube más de lo habitual (más de un 15 % de series para un grupo muscular, o en total). Está marcada con ↑: ajusta si hace falta.
 - Tu siguiente bloque empieza un poco por encima de donde empezó este (cerca de un 5 % más de series, en series enteras), nunca por encima del número máximo de tu nivel. En el máximo, las series se mantienen y progresas con peso y repeticiones.
 - Este plan es una plantilla que puedes editar: cambia las series de cualquier ejercicio en cualquier día o semana, agrega o quita ejercicios y desactiva bloques.
 
@@ -88,7 +90,9 @@ Tu plan sube como una escalera: pasos pequeños hasta la semana 3, un poco más 
 | 3 | 4.6 ▮▮▮▮▮ | 3 en reserva | 63 |
 | 4 | 6.7 ▮▮▮▮▮▮▮ | 2 en reserva | 67 |
 | 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 71 |
-| 6 · prueba | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva | 76 |
+| 6 ↑ · prueba | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva | 76 |
+
+_↑ = una semana que sube más de lo habitual: ajusta si hace falta._
 
 semanas 1-2: Adaptación (pasos pequeños) · semanas 3-4: Subiendo el ritmo · semanas 5-6: Semanas más duras
 
@@ -161,19 +165,19 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha en antebrazos (Plank) | 2 2 2 2 2 2 | 20-40 s |
+| Leñador en polea (Cable Woodchopper) | 2 2 2 2 2 2 | 10 a 15 por lado |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 2 2 2 2 | 10-30 s |
 | Saltos laterales con dos pies, rápidos, de lado a lado sobre un escalón bajo (Lateral Step Hops) | 3 3 3 3 3 3 | 5 contactos |
 | Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) | 3 3 3 3 3 3 | 5 contactos |
 | Saltos de tobillo en el lugar (Ankle Hops) | 2 2 2 2 2 2 | 10 contactos |
 | Prueba L de tres conos (L-Drill) | – 3 3 3 3 – | 3 reps |
 | Cargada de potencia desde colgado alto (Hang Power Clean) | 2 2 2 3 3 2 | 3 a 5 reps |
-| Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) | 3 3 3 3 4 4 | 8 a 12 reps |
-| Sentadilla frontal con barra (Front Squat) | 3 3 3 4 4 4 | 6 a 8 reps |
-| Dominadas (Pull-Up) | 2 2 3 3 3 3 | 6 a 8 reps |
-| Subida al cajón frontal y lateral (Step-Up) | 2 3 3 3 4 4 | 8 a 12 por lado |
+| Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) | 3 3 3 3 3 4 | 8 a 12 reps |
+| Sentadilla frontal con barra (Front Squat) | 3 3 3 3 4 4 | 6 a 8 reps |
+| Dominadas (Pull-Up) | 2 2 2 3 3 3 | 6 a 8 reps |
+| Subida al cajón frontal y lateral (Step-Up) | 2 2 3 3 3 4 | 8 a 12 por lado |
 | Curl de bíceps con mancuernas (DB Curl) | 2 2 2 2 2 2 | 10 a 12 reps |
-| Extensión de piernas en máquina (Leg Extension) | 2 2 3 3 3 4 | 10 a 12 reps |
+| Extensión de piernas en máquina (Leg Extension) | 2 2 2 3 3 3 | 10 a 12 reps |
 | Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 3 3 3 4 4 4 | 12 a 15 reps |
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
@@ -209,17 +213,17 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 2 2 2 2 3 2 | 8/8 |
 | Press de banca con barra (Bench Press) | 4 4 4 4 4 4 | 6 a 8 reps |
 | Peso muerto con barra hexagonal (Trap Bar Deadlift) | 3 4 4 4 4 4 | 6 a 8 reps |
-| Remo a un brazo con mancuerna (1-Arm DB Row) | 3 3 3 3 3 4 | 8 a 12 por lado |
-| Sentadilla búlgara (Bulgarian Split Squat) | 2 2 2 2 2 2 | 8 a 12 por lado |
+| Remo a un brazo con mancuerna (1-Arm DB Row) | 3 3 4 4 4 4 | 8 a 12 por lado |
+| Sentadilla búlgara (Bulgarian Split Squat) | 2 3 3 3 3 3 | 8 a 12 por lado |
 | Zancada lateral (Lateral Lunge) | 2 2 2 2 2 2 | 8 a 12 por lado |
-| Jalón al pecho a un brazo (Single-Arm Pulldown) | 2 2 2 3 3 3 | 8 a 12 por lado |
+| Jalón al pecho a un brazo (Single-Arm Pulldown) | 2 2 2 2 3 3 | 8 a 12 por lado |
 | Elevación de pantorrillas con barra (Barbell Calf Raise) | 3 3 3 3 3 3 | 12 a 15 reps |
 
 ### Sábado · Día opcional
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Abdominal completo (Sit-Up) | 2 2 2 2 2 2 | 10 a 15 reps |
+| Plancha en antebrazos (Plank) | 2 2 2 2 2 2 | 20-40 s |
 
 ## Bloque de pretemporada, semana a semana · Semana 7-8
 
@@ -243,7 +247,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha en antebrazos (Plank) | 2 2 | 20-40 s |
+| Abdominal bicicleta (Bicycle Crunch) | 2 2 | 10 a 15 reps |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 | 10-30 s |
 | Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) | 3 3 | 8 contactos |
 | Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) | 3 3 | 8 contactos |
@@ -300,7 +304,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Abdominal completo (Sit-Up) | 2 2 | 10 a 15 reps |
+| Plancha en antebrazos (Plank) | 2 2 | 20-40 s |
 
 ## Semana 1 — Adaptación (pasos pequeños)
 
@@ -313,7 +317,7 @@ _Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
@@ -326,12 +330,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Lanzamiento rotacional con balón medicinal iniciado desde las manos, guiado por el tórax (Rotational Throw) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Prueba**
@@ -615,9 +620,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Azul (A): corto / alta intensidad · carrera** — 15 min · 20 s corriendo / 40 s caminando, repite
@@ -629,15 +634,15 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 3.3 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 2 → 3 series
+- +1 serie en Sentadilla búlgara (Bulgarian Split Squat) (viernes): 2 → 3 series
 - +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes): 3 → 4 series
 
 **Trabajo atlético esta semana:** 81 contactos de salto · 46 contactos de saltos de tobillo · 20 lanzamientos · 87 cambios de dirección · 330 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 54% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
@@ -650,12 +655,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Lanzamiento rotacional con balón medicinal iniciado desde las manos, guiado por el tórax (Rotational Throw) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
@@ -701,7 +707,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin bandas elásticas (pies en el piso, anillas o TRX).
    - Cambiar por: Jalón al pecho agarre abierto (Lat Pulldown) (mantiene el tirón vertical; pierde la sensación del implemento original) / Jalón al pecho con agarre MAG abierto (MAG Grip Pulldown) (mantiene el tirón vertical; pierde la sensación del implemento original) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up) (mantiene el tirón vertical; pierde poco: mismo movimiento, otro agarre o posición) / Dominada con agarre cerrado (Close-Grip Pull-Up) (mantiene el tirón vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pull-up) · Nombre para copiar en YouTube: `Pull-up`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
@@ -827,11 +833,11 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 105-125 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
-_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 5.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
@@ -890,7 +896,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo perro de caza con mancuerna (Bird Dog Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Nombre para copiar en YouTube: `Single-Arm DB/KB Row`
-4. **Sentadilla búlgara (Bulgarian Split Squat)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+4. **Sentadilla búlgara (Bulgarian Split Squat)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
@@ -922,9 +928,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Azul (A): corto / alta intensidad · carrera** — 16 min · 20 s corriendo / 40 s caminando, repite
@@ -936,17 +942,17 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 4.6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 2 → 3 series
-- +1 serie en Dominadas (Pull-Up) (lunes): 2 → 3 series
+- +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 2 → 3 series
+- +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes): 3 → 4 series
 
 **Trabajo atlético esta semana:** 87 contactos de salto · 58 contactos de saltos de tobillo · 24 lanzamientos · 96 cambios de dirección · 390 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 57% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 85-105 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
@@ -957,12 +963,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Lanzamiento rotacional con balón medicinal iniciado desde las manos, guiado por el tórax (Rotational Throw) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
@@ -1002,7 +1009,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Sentadilla Zercher alta con barra (High Zercher Squat) (mantiene la sentadilla a dos piernas; pierde la carga máxima) / Sentadilla con barra hexagonal (Trap Bar Squat) (mantiene la sentadilla a dos piernas; pierde la sensación del implemento original) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) (mantiene la sentadilla a dos piernas; pierde la sensación del implemento original) / Sentadilla Zercher con barra (Zercher Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Nombre para copiar en YouTube: `Front Squat (barbell)`
-3. **Dominadas (Pull-Up)** — 3 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Dominadas (Pull-Up)** — 2 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 8 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin bandas elásticas (pies en el piso, anillas o TRX).
@@ -1020,7 +1027,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-2. **Extensión de piernas en máquina (Leg Extension)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
+2. **Extensión de piernas en máquina (Leg Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
@@ -1134,11 +1141,11 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 105-125 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 110-130 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
-_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 5.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
@@ -1192,12 +1199,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Peso muerto convencional (Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Nombre para copiar en YouTube: `Hex (Trap) Bar Deadlift`
-3. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 4 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo perro de caza con mancuerna (Bird Dog Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Nombre para copiar en YouTube: `Single-Arm DB/KB Row`
-4. **Sentadilla búlgara (Bulgarian Split Squat)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+4. **Sentadilla búlgara (Bulgarian Split Squat)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
@@ -1229,9 +1236,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Azul (A): corto / alta intensidad · carrera** — 17 min · 20 s corriendo / 40 s caminando, repite
@@ -1243,17 +1250,17 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 6.7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Sentadilla frontal con barra (Front Squat) (lunes): 3 → 4 series
+- +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 2 → 3 series
 - +1 serie en Hiperextensión a 45° (Back Extension) (miércoles): 2 → 3 series
-- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (viernes): 2 → 3 series
+- +1 serie en Dominadas (Pull-Up) (lunes): 2 → 3 series
 - +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (lunes): 3 → 4 series
 
 **Trabajo atlético esta semana:** 93 contactos de salto · 68 contactos de saltos de tobillo · 28 lanzamientos · 102 cambios de dirección · 400 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 100-120 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
@@ -1266,12 +1273,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Lanzamiento rotacional con balón medicinal iniciado desde las manos, guiado por el tórax (Rotational Throw) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
@@ -1307,7 +1315,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Mantén este ejercicio en 8-10 repeticiones.
    - Cambiar por: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo sentado en polea (Seated Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo con pecho apoyado con barra, agarre prono (Seal Row) (mantiene el tirón horizontal; pierde el movimiento libre de cada mano) / Remo en polea a 45 grados (45-Degree Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Sentadilla frontal con barra (Front Squat)** — 4 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 3-6 min de descanso
+2. **Sentadilla frontal con barra (Front Squat)** — 3 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 3-6 min de descanso
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Sentadilla Zercher alta con barra (High Zercher Squat) (mantiene la sentadilla a dos piernas; pierde la carga máxima) / Sentadilla con barra hexagonal (Trap Bar Squat) (mantiene la sentadilla a dos piernas; pierde la sensación del implemento original) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) (mantiene la sentadilla a dos piernas; pierde la sensación del implemento original) / Sentadilla Zercher con barra (Zercher Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Nombre para copiar en YouTube: `Front Squat (barbell)`
@@ -1445,11 +1453,11 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 120-145 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
-_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 5.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
@@ -1501,13 +1509,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Peso muerto convencional (Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Nombre para copiar en YouTube: `Hex (Trap) Bar Deadlift`
-3. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+3. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 4 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
    - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo perro de caza con mancuerna (Bird Dog Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Nombre para copiar en YouTube: `Single-Arm DB/KB Row`
-4. **Sentadilla búlgara (Bulgarian Split Squat)** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+4. **Sentadilla búlgara (Bulgarian Split Squat)** — 3 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
@@ -1520,7 +1528,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
    - Cambiar por: Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20(Lateral)%20Lunge) · Nombre para copiar en YouTube: `Side (Lateral) Lunge`
-6. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+6. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 2 × 8 a 10 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
@@ -1541,9 +1549,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Azul (A): corto / alta intensidad · carrera** — 18 min · 30 s corriendo / 30 s caminando, repite
@@ -1555,18 +1563,18 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 8.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 3 → 4 series
-- +1 serie en Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) (lunes): 3 → 4 series
+- +1 serie en Sentadilla frontal con barra (Front Squat) (lunes): 3 → 4 series
+- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (viernes): 2 → 3 series
 - +1 serie en Press de banca con mancuernas (DB Bench Press) (miércoles): 3 → 4 series
 - +1 serie en Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (miércoles): 3 → 4 series
 
 **Trabajo atlético esta semana:** 96 contactos de salto · 72 contactos de saltos de tobillo · 32 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
@@ -1578,12 +1586,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Lanzamiento rotacional con balón medicinal iniciado desde las manos, guiado por el tórax (Rotational Throw) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
@@ -1614,7 +1623,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hang%20Power%20Clean%20-%20from%20the%20High%20Hang%20(hip%20crease)) · Nombre para copiar en YouTube: `Hang Power Clean - from the High Hang (hip crease)`
 
 **Fuerza**
-1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8-10 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 3 × 8-10 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - Cambiar por: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo sentado en polea (Seated Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo con pecho apoyado con barra, agarre prono (Seal Row) (mantiene el tirón horizontal; pierde el movimiento libre de cada mano) / Remo en polea a 45 grados (45-Degree Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
@@ -1628,7 +1637,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin bandas elásticas (pies en el piso, anillas o TRX).
    - Cambiar por: Jalón al pecho agarre abierto (Lat Pulldown) (mantiene el tirón vertical; pierde la sensación del implemento original) / Jalón al pecho con agarre MAG abierto (MAG Grip Pulldown) (mantiene el tirón vertical; pierde la sensación del implemento original) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up) (mantiene el tirón vertical; pierde poco: mismo movimiento, otro agarre o posición) / Dominada con agarre cerrado (Close-Grip Pull-Up) (mantiene el tirón vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pull-up) · Nombre para copiar en YouTube: `Pull-up`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 4 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+4. **Subida al cajón frontal y lateral (Step-Up)** — 3 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
@@ -1757,11 +1766,11 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 120-145 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 125-150 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
-_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 5.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
@@ -1813,13 +1822,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 8 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Peso muerto convencional (Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Nombre para copiar en YouTube: `Hex (Trap) Bar Deadlift`
-3. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+3. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 4 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
    - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo perro de caza con mancuerna (Bird Dog Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Nombre para copiar en YouTube: `Single-Arm DB/KB Row`
-4. **Sentadilla búlgara (Bulgarian Split Squat)** — 2 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+4. **Sentadilla búlgara (Bulgarian Split Squat)** — 3 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
@@ -1853,9 +1862,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Azul (A): corto / alta intensidad · carrera** — 19 min · 30 s corriendo / 30 s caminando, repite
@@ -1868,19 +1877,21 @@ _Nivel de la semana: 11 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Prueba final esta semana: cada prueba toma el lugar de la estación de sprint, cambio de dirección o salto de ese día** (Velocidad / agilidad, Saltos)
 
+_Esta semana sube más de lo habitual (16 % más series para cadera (glúteos + isquiotibiales)): ajusta si hace falta._
+
 **Qué cambia esta semana**
-- +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 3 → 4 series
+- +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 3 → 4 series
 - +1 serie en Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (miércoles): 2 → 3 series
 - +1 serie en Curl nórdico (Nordic Curl) (miércoles): 2 → 3 series
-- +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes): 3 → 4 series
+- +1 serie en Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) (lunes): 3 → 4 series
 - +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (miércoles): 3 → 4 series
 
-**Trabajo atlético esta semana:** 54 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 51 cambios de dirección · 120 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 61% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 54 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 51 cambios de dirección · 120 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 61% · Recibir-Crear 2: Aterrizar y salir Semana de pruebas: los saltos, lanzamientos y sprints son más ligeros para que hagas las pruebas descansado.
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 110-130 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
@@ -1893,12 +1904,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Leñador en polea (Cable Woodchopper)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Giro ruso con peso (Weighted Russian Twist) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Lanzamiento rotacional con balón medicinal iniciado desde las manos, guiado por el tórax (Rotational Throw) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Nombre para copiar en YouTube: `Cable Woodchopper (cable chop)`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Prueba**
@@ -1957,7 +1969,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-2. **Extensión de piernas en máquina (Leg Extension)** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+2. **Extensión de piernas en máquina (Leg Extension)** — 3 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
@@ -2074,11 +2086,11 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 120-145 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
-_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 5.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
@@ -2135,7 +2147,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - por lado = 1 serie
    - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo perro de caza con mancuerna (Bird Dog Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Nombre para copiar en YouTube: `Single-Arm DB/KB Row`
-4. **Sentadilla búlgara (Bulgarian Split Squat)** — 2 × 8 a 10 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
+4. **Sentadilla búlgara (Bulgarian Split Squat)** — 3 × 8 a 10 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
@@ -2169,9 +2181,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Pies a la barra (Toes-to-Bar) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Azul (A): corto / alta intensidad · carrera** — 20 min · 30 s corriendo / 30 s caminando, repite
@@ -2185,7 +2197,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal bicicleta (Bicycle Crunch) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -2198,9 +2210,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Abdominal bicicleta (Bicycle Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominales en V cruzados en diagonal (Star V-Ups) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Giro ruso con peso (Weighted Russian Twist) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Nombre para copiar en YouTube: `Bicycle Crunch`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -2460,9 +2472,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · carrera** — 30-40 min · ritmo constante: todavía puedes hablar
@@ -2476,7 +2488,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal bicicleta (Bicycle Crunch) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
@@ -2489,9 +2501,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Abdominal bicicleta (Bicycle Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal rotacional con corte horizontal, boca arriba con objeto apretado entre las rodillas (Rotational Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal en polea arrodillado con corte horizontal, objeto apretado entre las rodillas (Cable Crunch Chop) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominales en V cruzados en diagonal (Star V-Ups) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Giro ruso con peso (Weighted Russian Twist) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Nombre para copiar en YouTube: `Bicycle Crunch`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
    - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
@@ -2751,9 +2763,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - Cambiar por: Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal declinado con peso (Weighted Decline Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
+1. **Plancha en antebrazos (Plank)** — 2 × 20-40 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
+   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · carrera** — 30-40 min · ritmo constante: todavía puedes hablar

@@ -16,7 +16,7 @@ _Your Blaze Camp plan_
 
 - Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.
 - This template holds about 83% of your sport's weekly jump contacts (box, squat, broad and reactive jumps): the work climbs across the block (not every week). Add a station or a day if you want the full dose.
-- Two-leg lifts are about 56 % of your lower-body lifting sets (your sport's guide is about 30 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
+- Two-leg lifts are about 61 % of your lower-body lifting sets (your sport's guide is about 30 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 
 ## Basic Instruction
 > \*Always leave 1 rep in the tank, never work up to failure but get as close as you can.
@@ -43,7 +43,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 
 ## How you progress
 
-- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Front Squat (barbell), 3 sets of 8-10. When you hit 10 on every set with the planned reps left in the tank and good form, add weight next time and start again at 8. Not there yet? Keep the weight and add a rep where you can.
+- Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Front Squat (barbell), 4 sets of 8-10. When you hit 10 on every set with the planned reps left in the tank and good form, add weight next time and start again at 8. Not there yet? Keep the weight and add a rep where you can.
 - Sets follow the stairway: the plan adds sets week by week until each muscle group reaches its final sets in the last week (see the week-by-week table). In a week with the same sets as the week before, you progress with reps or weight.
 - Your next block starts a little above where this one started (about 5 % more sets, in whole sets), never above the top number for your level. At the top, the sets stay and you progress with weight and reps.
 - This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
@@ -85,7 +85,7 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 | 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 79 |
 | 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 80 |
 | 9 | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 81 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 83 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 82 |
 | 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 87 |
 | 12 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 87 |
 
@@ -110,7 +110,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Hips (glutes + hamstrings) | 16 | 17 | 18 |
 | Back | 10 | 11 | 13 |
 | Chest | 10 | 11 | 13 |
-| Shoulders | 10 | 10 | 13 |
+| Shoulders | 10 | 11 | 13 |
 | Biceps | 7 (4 direct) | 7 (4 direct) | 7 (4 direct) |
 | Triceps | 7 (4 direct) | 7 (4 direct) | 8 (4 direct) |
 | Calves | 12 | 12 | 12 |
@@ -141,29 +141,29 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Hips (glutes + hamstrings) | 16 16 17 17 · 17 17 17 17 · 17 17 18 18 | 18 |
 | Back | 10 10 10 11 · 11 11 11 12 · 12 12 13 13 | 13 |
 | Chest | 10 10 10 10 · 11 11 11 11 · 12 12 13 13 | 13 |
-| Shoulders | 10 10 10 10 · 10 10 11 11 · 12 12 13 13 | 13 |
+| Shoulders | 10 10 10 10 · 11 11 12 12 · 12 12 13 13 | 13 |
 | Biceps | 7 7 7 7 · 7 7 7 7 · 7 7 7 7 | held: 4 direct sets a week |
 | Triceps | 7 7 7 7 · 7 7 7 7 · 8 8 8 8 | held: 4 direct sets a week |
 | Calves | 12 12 12 12 · 12 12 12 12 · 12 12 12 12 | 12 |
-| **Total** | 73 74 75 76 · 77 77 79 80 · 81 83 87 87 | 87 |
+| **Total** | 73 74 75 76 · 77 77 79 80 · 81 82 87 87 | 87 |
 
 ### Monday · A1 - squat + pull
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
-| Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Cable Oblique Rotation (cable rotational twist) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Copenhagen Plank | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
 | Acceleration Starts | 3 3 3 3 · 3 3 3 3 · 3 3 3 2 | 5 x 10 m → 4 x 15 m → 4 x 20 m |
 | Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) → Two-Foot Lateral Step Hops (quick, side to side over a low step) → Bulgarian (Rear-Foot-Elevated) Split Jumps | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 5 contacts → 9 contacts → 5 contacts per leg |
 | Medball Chest Pass → Medball Sit-Up to Chest Pass → Step-Forward Medball Chest Pass (R & L leg) | 3 3 3 3 · 3 3 3 3 · 3 3 3 2 | 9 Reps → 9 per side |
 | Lateral Shuffles → Dig / Out Route → Comeback / Curl Route | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 cuts → 10 cuts |
 | Power Clean & Jerk | 2 2 3 3 · 3 3 3 3 · 3 3 3 2 | 3 to 5 Reps |
-| Front Squat (barbell) | 2 3 3 3 · 3 3 3 3 · 3 3 3 2 | 8-10 Reps → 6 to 8 Reps |
-| Seal Row - Barbell (Supinated Grip) | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 10 to 12 Reps → 8 to 12 Reps → 8-10 Reps |
-| Chin-Up (supinated) → Strict Pull-Up (Knees to Chest / tuck) → Wide-Grip Pull-Up | 2 2 2 3 · 3 3 3 3 · 3 3 3 3 | 8-10 Reps → 6 to 8 Reps |
-| Side (Lateral) Lunge | 2 3 3 3 · 3 3 3 3 · 3 3 3 3 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
+| Front Squat (barbell) | 2 4 4 4 · 4 4 4 4 · 4 4 4 3 | 8-10 Reps → 6 to 8 Reps |
+| Seal Row - Barbell (Supinated Grip) | 3 3 3 4 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps → 8-10 Reps |
+| Chin-Up (supinated) → Strict Pull-Up (Knees to Chest / tuck) → Wide-Grip Pull-Up | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 8-10 Reps → 6 to 8 Reps |
+| Side (Lateral) Lunge | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
 | Dumbbell Concentration Curl → Dumbbell Concentration Curl - palms facing each other (hammer grip) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 per side → 10 to 12 per side → 10 to 15 per side |
-| Leg Extension (machine) → Leg Extension (machine) - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 12 to 15 Reps → 10 to 12 Reps → 8 to 12 Reps |
+| Leg Extension (machine) → Leg Extension (machine) - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 8 to 12 Reps |
 | Standing DB Calf Raise (deficit optional) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 12 to 15 Reps |
 | Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski) | 1 1 1 1 · 2 2 2 2 · 3 3 3 3 | 20 cal → 15 cal → 10 cal |
 
@@ -172,7 +172,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Exercise | Sets | Reps |
 |---|---|---|
 | Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
-| Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Low Box Jump (Half-Shin Height) → Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) → Bilateral Lateral Hurdle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 6 contacts → 8 contacts → 10 contacts |
 | Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops → Single-Leg Forward/Backward Ankle Hops | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 14 contacts → 10 contacts per leg |
 | Flat Route → Post / Corner Route → 5-10-5 Pro-Agility Shuttle | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 cuts → 10 cuts → 5 Reps |
@@ -190,24 +190,24 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Cable Oblique Rotation (cable rotational twist) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Cable Woodchopper (cable chop) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 
 ### Thursday · A2 - leg press / belt squat + pull
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Weighted Decline Sit-Up → V-Up → Weighted Sit-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Copenhagen Plank | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
+| Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-40 s → 25-45 s → 30-50 s |
+| Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Falling-Start Accelerations | – 3 3 3 · 3 3 3 3 · 3 3 3 – | 5 x 10 m → 4 x 15 m → 3 x 20 m |
 | Two-Foot Lateral Jump (side to side over a line or a low hurdle) → Single-Leg Broad Jump | – 3 3 3 · 3 3 3 3 · 3 3 3 – | 6 contacts → 8 contacts → 5 contacts per leg |
 | Rotational Medball Chest Pass (R & L) → Medball Rotational Downward Slam → Medball Rotational Side-to-Side Floor Slams | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 6 per side → 9 per side → 8 per side |
 | Power Clean | 2 2 2 2 · 2 2 2 3 · 3 3 3 2 | 3 to 5 Reps |
-| Seated Cable Row (bilateral) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 12 to 15 Reps → 8 to 12 Reps → 8-10 Reps |
-| Leg Press (machine) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 12 to 15 Reps → 10 to 12 Reps |
-| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 12 to 15 per side → 8 to 12 per side → 8 to 10 per side |
-| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) → Front-Foot-Elevated Split Squat / Lunge (FFE) → Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom | 2 2 2 2 · 2 2 3 3 · 3 3 3 3 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
+| Seated Cable Row (bilateral) | 3 3 3 3 · 3 3 3 4 · 4 4 4 4 | 12 to 15 Reps → 8 to 12 Reps → 8-10 Reps |
+| Leg Press (machine) | 3 3 3 3 · 3 3 4 4 · 4 4 4 4 | 12 to 15 Reps → 10 to 12 Reps |
+| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 per side → 8 to 12 per side → 8 to 10 per side |
+| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) → Front-Foot-Elevated Split Squat / Lunge (FFE) → Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
 | Zottman Curl (supinated up, pronated down) → Dumbbell Curl | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 10 to 15 Reps |
-| Leg Extension (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 to 15 Reps → 10 to 12 Reps → 8 to 12 Reps |
+| Leg Extension (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 8 to 12 Reps |
 | Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 12 to 15 Reps |
 | Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski) | 1 1 1 1 · 2 2 2 2 · 3 3 3 3 | 20 cal → 15 cal → 10 cal |
 
@@ -216,14 +216,14 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Exercise | Sets | Reps |
 |---|---|---|
 | Crunch → Sit-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Reverse Crunch → Leg Raise (lying / supine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
+| Reverse Crunch → V-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Low Depth Drop → Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) → Two-Foot Lateral Jump (side to side over a line or a low hurdle) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 6 contacts → 8 contacts |
 | Bilateral Forward/Backward Ankle Hops → Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) → Bilateral Zig-Zag Ankle Hops | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 contacts → 19 contacts |
 | Slant Route → L-Test / L-Drill (3-Cone) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 cuts → 3 Reps → 4 Reps |
 | Low-Hang Snatch Pull | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 8 Reps → 6 Reps |
 | Flat DB Bench Press | 3 3 3 3 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps → 6 to 8 Reps |
 | Stiff-Leg Deadlift / RDL | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 8-10 Reps → 6 to 8 Reps |
-| Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down) | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
+| Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
 | Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
 | Floor Dumbbell Skullcrusher | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 10 to 15 Reps |
 | Lying Leg Curl (machine) → Seated Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 8 to 12 Reps |
@@ -235,7 +235,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Cable Woodchopper (cable chop) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
+| Russian Twist | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 
 ## Week 1 — Getting used to it (small steps)
 
@@ -248,7 +248,7 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · A1 - squat + pull
 _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) + Medball Chest Pass (about 4.5 min saved)_
 _Superset to save time: Chin-Up (supinated) + Side (Lateral) Lunge (about 4 min saved)_
 _Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) (about 3.5 min saved)_
@@ -261,13 +261,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 5 x 10 m · max intent; stop when quality drops · full recovery between sets
@@ -276,7 +277,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 2. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 5 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 3. **Medball Chest Pass** — 3 × 9 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
@@ -352,7 +353,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: DB Lateral (Side) Raise + Machine Calf Raise (about 3.5 min saved)_
@@ -369,16 +370,16 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Low Box Jump (Half-Shin Height)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
 2. **Ankle Hops (bilateral, in place)** — 2 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
@@ -459,10 +460,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
@@ -472,7 +473,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Weighted Decline Sit-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Superset to save time: Zottman Curl (supinated up, pronated down) + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
@@ -485,13 +486,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
-2. **Copenhagen Plank** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Test**
 1. **Test: 10-30 m sprint** — max intent; stop when quality drops · full recovery between sets
@@ -595,7 +596,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - low box (6-12 in)
    - Land and stick it: hold 3 s
    > Box height about 6-12 in.
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Depth%20Drop) · Name to copy into YouTube: `Low Depth Drop`
 2. **Bilateral Forward/Backward Ankle Hops** — 2 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
@@ -673,10 +674,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 15 min · 30 s run / 30 s walk, repeat
@@ -688,14 +689,14 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Side (Lateral) Lunge (Monday): 2 → 3 sets
+- +1 set on Front Squat (barbell) (Monday)
 
 **Athletic work this week:** 72 jump contacts · 58 ankle-hop contacts · 63 throws · 81 direction changes · 300 m of sprints · 8 Olympic-lift sets · Plyo share 30% · Receive-Create 1: Land
 
 ### Monday · A1 - squat + pull
 _Average time: about 100-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) + Medball Chest Pass (about 4.5 min saved)_
 _Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Chin-Up (supinated) + Side (Lateral) Lunge (about 4 min saved)_
@@ -709,13 +710,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 5 x 10 m · max intent; stop when quality drops · full recovery between sets
@@ -724,7 +726,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 2. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 3. **Medball Chest Pass** — 3 × 9 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
@@ -748,7 +750,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Keep this lift at 10-12 reps.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
@@ -759,7 +761,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Strict Pull-Up (Knees to Chest / tuck) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Chin-Up%20(supinated)) · Name to copy into YouTube: `Chin-Up (supinated)`
-4. **Side (Lateral) Lunge** — 3 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Side (Lateral) Lunge** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
@@ -791,7 +793,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -809,16 +811,16 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Low Box Jump (Half-Shin Height)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
 2. **Ankle Hops (bilateral, in place)** — 2 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
@@ -889,10 +891,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
@@ -902,7 +904,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Weighted Decline Sit-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Jump (side to side over a line or a low hurdle) + Rotational Medball Chest Pass (R & L) (about 4.5 min saved)_
 _Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
@@ -916,13 +918,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
-2. **Copenhagen Plank** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 5 x 10 m · max intent; stop when quality drops · full recovery between sets
@@ -930,7 +932,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
 2. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
 3. **Rotational Medball Chest Pass (R & L)** — 3 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
@@ -1017,7 +1019,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - low box (6-12 in)
    - Land and stick it: hold 3 s
    > Box height about 6-12 in.
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Depth%20Drop) · Name to copy into YouTube: `Low Depth Drop`
 2. **Bilateral Forward/Backward Ankle Hops** — 2 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
@@ -1091,10 +1093,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 17 min · 30 s run / 30 s walk, repeat
@@ -1111,9 +1113,9 @@ _Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 75 jump contacts · 58 ankle-hop contacts · 69 throws · 84 direction changes · 300 m of sprints · 9 Olympic-lift sets · Plyo share 29% · Receive-Create 1: Land
 
 ### Monday · A1 - squat + pull
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) + Medball Chest Pass (about 4.5 min saved)_
 _Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Chin-Up (supinated) + Side (Lateral) Lunge (about 4 min saved)_
@@ -1127,13 +1129,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 5 x 10 m · max intent; stop when quality drops · full recovery between sets
@@ -1142,7 +1145,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 2. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 3. **Medball Chest Pass** — 3 × 9 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
@@ -1166,7 +1169,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Keep this lift at 10-12 reps.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
@@ -1177,7 +1180,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Strict Pull-Up (Knees to Chest / tuck) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Chin-Up%20(supinated)) · Name to copy into YouTube: `Chin-Up (supinated)`
-4. **Side (Lateral) Lunge** — 3 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Side (Lateral) Lunge** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
@@ -1209,7 +1212,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -1227,16 +1230,16 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Low Box Jump (Half-Shin Height)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
 2. **Ankle Hops (bilateral, in place)** — 2 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
@@ -1307,10 +1310,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
@@ -1320,7 +1323,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Weighted Decline Sit-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Jump (side to side over a line or a low hurdle) + Rotational Medball Chest Pass (R & L) (about 4.5 min saved)_
 _Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
@@ -1334,13 +1337,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
-2. **Copenhagen Plank** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 5 x 10 m · max intent; stop when quality drops · full recovery between sets
@@ -1348,7 +1351,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
 2. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 7 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
 3. **Rotational Medball Chest Pass (R & L)** — 3 × 7 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
@@ -1435,7 +1438,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - low box (6-12 in)
    - Land and stick it: hold 3 s
    > Box height about 6-12 in.
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Depth%20Drop) · Name to copy into YouTube: `Low Depth Drop`
 2. **Bilateral Forward/Backward Ankle Hops** — 2 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
@@ -1509,10 +1512,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 18 min · 30 s run / 30 s walk, repeat
@@ -1524,17 +1527,17 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Chin-Up (supinated) (Monday): 2 → 3 sets
+- +1 set on Seal Row - Barbell (Supinated Grip) (Monday): 3 → 4 sets
 
 **Athletic work this week:** 78 jump contacts · 58 ankle-hop contacts · 75 throws · 87 direction changes · 315 m of sprints · 9 Olympic-lift sets · Plyo share 27% · Receive-Create 1: Land
 
 ### Monday · A1 - squat + pull
 _Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) + Medball Chest Pass (about 4.5 min saved)_
-_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Chin-Up (supinated) + Side (Lateral) Lunge (about 5.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Chin-Up (supinated) + Side (Lateral) Lunge (about 4 min saved)_
 _Superset to save time: Dumbbell Concentration Curl + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 20 cal (bike / rower / ski) · extra jump / throw stations: Lateral Shuffles, Medball Chest Pass, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) · 1 more_
 
@@ -1545,13 +1548,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -1560,7 +1564,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 2. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box%2C%20stick%20the%20landing)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)`
 3. **Medball Chest Pass** — 3 × 9 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
@@ -1579,23 +1583,23 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean%20%26%20Jerk) · Name to copy into YouTube: `Power Clean & Jerk`
 
 **Strength**
-1. **Seal Row - Barbell (Supinated Grip)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Seal Row - Barbell (Supinated Grip)** — 4 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Front Squat (barbell)** — 4 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Chin-Up (supinated)** — 3 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Chin-Up (supinated)** — 2 × 8-10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Strict Pull-Up (Knees to Chest / tuck) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Chin-Up%20(supinated)) · Name to copy into YouTube: `Chin-Up (supinated)`
-4. **Side (Lateral) Lunge** — 3 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Side (Lateral) Lunge** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
@@ -1627,7 +1631,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -1645,16 +1649,16 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Low Box Jump (Half-Shin Height)** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
 2. **Ankle Hops (bilateral, in place)** — 2 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
@@ -1725,10 +1729,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
@@ -1738,7 +1742,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Weighted Decline Sit-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Jump (side to side over a line or a low hurdle) + Rotational Medball Chest Pass (R & L) (about 4.5 min saved)_
 _Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
@@ -1752,13 +1756,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Decline Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Crunch (keeps the core work; loses the added load) / V-Up (keeps the core work; loses the added load) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Decline%20Sit-Up) · Name to copy into YouTube: `Weighted Decline Sit-Up`
-2. **Copenhagen Plank** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 3 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -1766,7 +1770,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Name to copy into YouTube: `Falling-Start Accelerations`
 2. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 7 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Low Depth Drop (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Name to copy into YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
 3. **Rotational Medball Chest Pass (R & L)** — 3 × 8 per side · max intent; stop when quality drops · 45-90 s rest
    - 8-10 lb ball
@@ -1853,7 +1857,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - low box (6-12 in)
    - Land and stick it: hold 3 s
    > Box height about 6-12 in.
-   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Step Hops (quick, side to side over a low step) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - Swap for: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Mid Box Jump (Knee Height) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Depth%20Drop) · Name to copy into YouTube: `Low Depth Drop`
 2. **Bilateral Forward/Backward Ankle Hops** — 2 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
@@ -1927,10 +1931,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 20 min · 30 s run / 30 s walk, repeat
@@ -1942,23 +1946,23 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- New exercise block: 23 exercises change a little (another version or one new detail); the rest stay
+- New exercise block: 22 exercises change a little (another version or one new detail); the rest stay
 - Monday: Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) → Two-Foot Lateral Step Hops (quick, side to side over a low step); Medball Chest Pass → Medball Sit-Up to Chest Pass; Lateral Shuffles → Dig / Out Route; Chin-Up (supinated) → Strict Pull-Up (Knees to Chest / tuck); Dumbbell Concentration Curl → Dumbbell Concentration Curl - palms facing each other (hammer grip); Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski)
 - Tuesday: Low Box Jump (Half-Shin Height) → Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral); Ankle Hops (bilateral, in place) → Bilateral Backward Ankle Hops; Flat Route → Post / Corner Route; Staggered-Stance (Kickstand) DB Deadlift → Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee; DB Lateral (Side) Raise → Seated DB Lateral Raise
-- Thursday: Weighted Decline Sit-Up → V-Up; Rotational Medball Chest Pass (R & L) → Medball Rotational Downward Slam; Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) → Front-Foot-Elevated Split Squat / Lunge (FFE); Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski)
-- Friday: Reverse Crunch → Leg Raise (lying / supine); Low Depth Drop → Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing); Bilateral Forward/Backward Ankle Hops → Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward); Slant Route → L-Test / L-Drill (3-Cone); Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee; Bent-Over DB Reverse Fly → Seated (Chest-to-Thighs) DB Reverse Fly; Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski)
+- Thursday: Rotational Medball Chest Pass (R & L) → Medball Rotational Downward Slam; Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) → Front-Foot-Elevated Split Squat / Lunge (FFE); Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski)
+- Friday: Reverse Crunch → V-Up; Low Depth Drop → Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing); Bilateral Forward/Backward Ankle Hops → Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward); Slant Route → L-Test / L-Drill (3-Cone); Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee; Bent-Over DB Reverse Fly → Seated (Chest-to-Thighs) DB Reverse Fly; Calorie Effort: 20 cal (bike / rower / ski) → Calorie Effort: 15 cal (bike / rower / ski)
 - Jumps move to Receive-Create 2: Land & Go
 - +1 set on Flat DB Bench Press (Friday): 3 → 4 sets
 
 **Athletic work this week:** 99 jump contacts · 58 ankle-hop contacts · 81 throws · 87 direction changes · 360 m of sprints · 10 Olympic-lift sets · Plyo share 46% · Receive-Create 2: Land & Go
 
 ### Monday · A1 - squat + pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 110-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Step Hops (quick, side to side over a low step) + Medball Sit-Up to Chest Pass (about 4.5 min saved)_
-_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Strict Pull-Up (Knees to Chest / tuck) + Side (Lateral) Lunge (about 5.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Strict Pull-Up (Knees to Chest / tuck) + Side (Lateral) Lunge (about 4 min saved)_
 _Superset to save time: Dumbbell Concentration Curl - palms facing each other (hammer grip) + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 15 cal (bike / rower / ski) · extra jump / throw stations: Dig / Out Route, Medball Sit-Up to Chest Pass, Two-Foot Lateral Step Hops (quick, side to side over a low step) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) · 1 more_
 
@@ -1969,13 +1973,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -2003,22 +2008,22 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean%20%26%20Jerk) · Name to copy into YouTube: `Power Clean & Jerk`
 
 **Strength**
-1. **Seal Row - Barbell (Supinated Grip)** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Seal Row - Barbell (Supinated Grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Strict Pull-Up (Knees to Chest / tuck)** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Strict Pull-Up (Knees to Chest / tuck)** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Chin-Up (supinated) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / L-Sit Pull-Up (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Strict%20Pull-Up%20(Knees%20to%20Chest%20%2F%20tuck)) · Name to copy into YouTube: `Strict Pull-Up (Knees to Chest / tuck)`
-4. **Side (Lateral) Lunge** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Side (Lateral) Lunge** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -2049,7 +2054,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -2067,10 +2072,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2145,10 +2150,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
@@ -2158,7 +2163,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: V-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Jump (side to side over a line or a low hurdle) + Medball Rotational Downward Slam (about 4.5 min saved)_
 _Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) (about 4 min saved)_
@@ -2172,13 +2177,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
-2. **Copenhagen Plank** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -2246,7 +2251,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Friday · B2 - deadlift + push
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Crunch + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Crunch + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
 _Superset to save time: Alternating DB Overhead Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Lying Leg Curl (machine) (about 3.5 min saved)_
@@ -2261,11 +2266,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 
 **Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
-2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
+2. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2343,10 +2348,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 15 min · 40 s run / 20 s walk, repeat
@@ -2363,12 +2368,12 @@ _Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 102 jump contacts · 60 ankle-hop contacts · 87 throws · 90 direction changes · 360 m of sprints · 10 Olympic-lift sets · Plyo share 46% · Receive-Create 2: Land & Go
 
 ### Monday · A1 - squat + pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 110-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Step Hops (quick, side to side over a low step) + Medball Sit-Up to Chest Pass (about 4.5 min saved)_
-_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Strict Pull-Up (Knees to Chest / tuck) + Side (Lateral) Lunge (about 5.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Strict Pull-Up (Knees to Chest / tuck) + Side (Lateral) Lunge (about 4 min saved)_
 _Superset to save time: Dumbbell Concentration Curl - palms facing each other (hammer grip) + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 15 cal (bike / rower / ski) · extra jump / throw stations: Dig / Out Route, Medball Sit-Up to Chest Pass, Two-Foot Lateral Step Hops (quick, side to side over a low step) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) · 1 more_
 
@@ -2379,13 +2384,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -2413,22 +2419,22 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean%20%26%20Jerk) · Name to copy into YouTube: `Power Clean & Jerk`
 
 **Strength**
-1. **Seal Row - Barbell (Supinated Grip)** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Seal Row - Barbell (Supinated Grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Strict Pull-Up (Knees to Chest / tuck)** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Strict Pull-Up (Knees to Chest / tuck)** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Chin-Up (supinated) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / L-Sit Pull-Up (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Strict%20Pull-Up%20(Knees%20to%20Chest%20%2F%20tuck)) · Name to copy into YouTube: `Strict Pull-Up (Knees to Chest / tuck)`
-4. **Side (Lateral) Lunge** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Side (Lateral) Lunge** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -2459,7 +2465,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -2477,10 +2483,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2555,10 +2561,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
@@ -2568,7 +2574,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: V-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Jump (side to side over a line or a low hurdle) + Medball Rotational Downward Slam (about 4.5 min saved)_
 _Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) (about 4 min saved)_
@@ -2582,13 +2588,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
-2. **Copenhagen Plank** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -2656,7 +2662,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Friday · B2 - deadlift + push
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Crunch + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Crunch + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
 _Superset to save time: Alternating DB Overhead Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Lying Leg Curl (machine) (about 3.5 min saved)_
@@ -2671,11 +2677,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 
 **Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
-2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
+2. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2753,10 +2759,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 17 min · 40 s run / 20 s walk, repeat
@@ -2768,18 +2774,18 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Front-Foot-Elevated Split Squat / Lunge (FFE) (Thursday): 2 → 3 sets
+- +1 set on Leg Press (machine) (Thursday): 3 → 4 sets
 - +1 set on Seated DB Lateral Raise (Tuesday): 2 → 3 sets
 
 **Athletic work this week:** 105 jump contacts · 66 ankle-hop contacts · 90 throws · 90 direction changes · 360 m of sprints · 10 Olympic-lift sets · Plyo share 47% · Receive-Create 2: Land & Go
 
 ### Monday · A1 - squat + pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 110-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Step Hops (quick, side to side over a low step) + Medball Sit-Up to Chest Pass (about 4.5 min saved)_
-_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Strict Pull-Up (Knees to Chest / tuck) + Side (Lateral) Lunge (about 5.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Strict Pull-Up (Knees to Chest / tuck) + Side (Lateral) Lunge (about 4 min saved)_
 _Superset to save time: Dumbbell Concentration Curl - palms facing each other (hammer grip) + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 15 cal (bike / rower / ski) · extra jump / throw stations: Dig / Out Route, Medball Sit-Up to Chest Pass, Two-Foot Lateral Step Hops (quick, side to side over a low step) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) · 1 more_
 
@@ -2790,13 +2796,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -2824,22 +2831,22 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean%20%26%20Jerk) · Name to copy into YouTube: `Power Clean & Jerk`
 
 **Strength**
-1. **Seal Row - Barbell (Supinated Grip)** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Seal Row - Barbell (Supinated Grip)** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Strict Pull-Up (Knees to Chest / tuck)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+3. **Strict Pull-Up (Knees to Chest / tuck)** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Chin-Up (supinated) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / L-Sit Pull-Up (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Strict%20Pull-Up%20(Knees%20to%20Chest%20%2F%20tuck)) · Name to copy into YouTube: `Strict Pull-Up (Knees to Chest / tuck)`
-4. **Side (Lateral) Lunge** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Side (Lateral) Lunge** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -2870,7 +2877,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -2888,10 +2895,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -2966,10 +2973,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
@@ -2979,7 +2986,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: V-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Jump (side to side over a line or a low hurdle) + Medball Rotational Downward Slam (about 4.5 min saved)_
 _Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
 _Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) (about 4 min saved)_
@@ -2993,13 +3000,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
-2. **Copenhagen Plank** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -3027,7 +3034,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the constant cable tension) / TRX Row (suspension row) (keeps the horizontal pull; loses the constant cable tension) / Inverted Row (keeps the horizontal pull; loses the constant cable tension) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the chest support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Cable%20Row%20(bilateral)) · Name to copy into YouTube: `Seated Cable Row (bilateral)`
-2. **Leg Press (machine)** — 3 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Leg Press (machine)** — 4 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
@@ -3038,7 +3045,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - per side = 1 set
    - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Front-Foot-Elevated Split Squat / Lunge (FFE)** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Front-Foot-Elevated Split Squat / Lunge (FFE)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Step-Up (forward and lateral) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
@@ -3067,7 +3074,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Friday · B2 - deadlift + push
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Crunch + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Crunch + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
 _Superset to save time: Alternating DB Overhead Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Lying Leg Curl (machine) (about 3.5 min saved)_
@@ -3082,11 +3089,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 
 **Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
-2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
+2. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -3164,10 +3171,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 18 min · 40 s run / 20 s walk, repeat
@@ -3179,17 +3186,17 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Single-Arm Lat Pulldown (Thursday): 2 → 3 sets
+- +1 set on Seated Cable Row (bilateral) (Thursday): 3 → 4 sets
 
 **Athletic work this week:** 108 jump contacts · 72 ankle-hop contacts · 90 throws · 93 direction changes · 405 m of sprints · 11 Olympic-lift sets · Plyo share 49% · Receive-Create 2: Land & Go
 
 ### Monday · A1 - squat + pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 110-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Step Hops (quick, side to side over a low step) + Medball Sit-Up to Chest Pass (about 4.5 min saved)_
-_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Strict Pull-Up (Knees to Chest / tuck) + Side (Lateral) Lunge (about 5.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Strict Pull-Up (Knees to Chest / tuck) + Side (Lateral) Lunge (about 4 min saved)_
 _Superset to save time: Dumbbell Concentration Curl - palms facing each other (hammer grip) + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 15 cal (bike / rower / ski) · extra jump / throw stations: Dig / Out Route, Medball Sit-Up to Chest Pass, Two-Foot Lateral Step Hops (quick, side to side over a low step) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) · 1 more_
 
@@ -3200,13 +3207,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 5 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -3234,22 +3242,22 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean%20%26%20Jerk) · Name to copy into YouTube: `Power Clean & Jerk`
 
 **Strength**
-1. **Seal Row - Barbell (Supinated Grip)** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Seal Row - Barbell (Supinated Grip)** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Strict Pull-Up (Knees to Chest / tuck)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+3. **Strict Pull-Up (Knees to Chest / tuck)** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Chin-Up (supinated) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / L-Sit Pull-Up (keeps the vertical pull; loses little - same movement, another grip or position) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Strict%20Pull-Up%20(Knees%20to%20Chest%20%2F%20tuck)) · Name to copy into YouTube: `Strict Pull-Up (Knees to Chest / tuck)`
-4. **Side (Lateral) Lunge** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Side (Lateral) Lunge** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -3280,7 +3288,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -3298,10 +3306,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)** — 3 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -3376,10 +3384,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
@@ -3387,12 +3395,12 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ### Thursday · A2 - leg press / belt squat + pull
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: V-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Two-Foot Lateral Jump (side to side over a line or a low hurdle) + Medball Rotational Downward Slam (about 4.5 min saved)_
-_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) (about 5.5 min saved)_
+_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) (about 4 min saved)_
 _Superset to save time: Zottman Curl (supinated up, pronated down) + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 15 cal (bike / rower / ski) · extra jump / throw stations: Medball Rotational Downward Slam, Two-Foot Lateral Jump (side to side over a line or a low hurdle) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Leg Extension (machine) - one leg at a time, Zottman Curl (supinated up, pronated down)_
 
@@ -3403,13 +3411,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
-2. **Copenhagen Plank** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 25-45 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 4 x 15 m · max intent; stop when quality drops · full recovery between sets
@@ -3433,22 +3441,22 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean) · Name to copy into YouTube: `Power Clean`
 
 **Strength**
-1. **Seated Cable Row (bilateral)** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Seated Cable Row (bilateral)** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the constant cable tension) / TRX Row (suspension row) (keeps the horizontal pull; loses the constant cable tension) / Inverted Row (keeps the horizontal pull; loses the constant cable tension) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the chest support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Cable%20Row%20(bilateral)) · Name to copy into YouTube: `Seated Cable Row (bilateral)`
-2. **Leg Press (machine)** — 3 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Leg Press (machine)** — 4 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
    - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Front-Foot-Elevated Split Squat / Lunge (FFE)** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Front-Foot-Elevated Split Squat / Lunge (FFE)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Step-Up (forward and lateral) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Rear-Foot-Against-Wall Split Squat (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
@@ -3477,7 +3485,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Friday · B2 - deadlift + push
 _Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Crunch + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Crunch + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
 _Superset to save time: Alternating DB Overhead Press + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Lying Leg Curl (machine) (about 3.5 min saved)_
@@ -3492,11 +3500,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 
 **Core (optional: you may switch it off or change it)**
 1. **Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Crunch) · Name to copy into YouTube: `Crunch`
-2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
+2. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -3574,10 +3582,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 20 min · 40 s run / 20 s walk, repeat
@@ -3589,10 +3597,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- New exercise block: 23 exercises change a little (another version or one new detail); the rest stay
+- New exercise block: 22 exercises change a little (another version or one new detail); the rest stay
 - Monday: Two-Foot Lateral Step Hops (quick, side to side over a low step) → Bulgarian (Rear-Foot-Elevated) Split Jumps; Medball Sit-Up to Chest Pass → Step-Forward Medball Chest Pass (R & L leg); Dig / Out Route → Comeback / Curl Route; Strict Pull-Up (Knees to Chest / tuck) → Wide-Grip Pull-Up; Leg Extension (machine) → Leg Extension (machine) - 1-second squeeze at the top; Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski)
 - Tuesday: Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) → Bilateral Lateral Hurdle Hops; Bilateral Backward Ankle Hops → Single-Leg Forward/Backward Ankle Hops; Post / Corner Route → 5-10-5 Pro-Agility Shuttle; Alternating Incline DB Bench Press (one up / one down) → Alternating Incline DB Bench Press (one up / one down) - 1-second pause at the bottom; Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom)
-- Thursday: V-Up → Weighted Sit-Up; Two-Foot Lateral Jump (side to side over a line or a low hurdle) → Single-Leg Broad Jump; Medball Rotational Downward Slam → Medball Rotational Side-to-Side Floor Slams; Front-Foot-Elevated Split Squat / Lunge (FFE) → Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom; Zottman Curl (supinated up, pronated down) → Dumbbell Curl; Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski)
+- Thursday: Two-Foot Lateral Jump (side to side over a line or a low hurdle) → Single-Leg Broad Jump; Medball Rotational Downward Slam → Medball Rotational Side-to-Side Floor Slams; Front-Foot-Elevated Split Squat / Lunge (FFE) → Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom; Zottman Curl (supinated up, pronated down) → Dumbbell Curl; Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski)
 - Friday: Crunch → Sit-Up; Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) → Two-Foot Lateral Jump (side to side over a line or a low hurdle); Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) → Bilateral Zig-Zag Ankle Hops; Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down); Lying Leg Curl (machine) → Seated Leg Curl (machine); Calorie Effort: 15 cal (bike / rower / ski) → Calorie Effort: 10 cal (bike / rower / ski)
 - Jumps move to Receive-Create 3: Repeat
 - +1 set on Alternating Incline DB Bench Press (one up / one down) (Tuesday): 3 → 4 sets
@@ -3600,12 +3608,12 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 **Athletic work this week:** 114 jump contacts · 78 ankle-hop contacts · 102 throws · 96 direction changes · 420 m of sprints · 11 Olympic-lift sets · Plyo share 47% · Receive-Create 3: Repeat
 
 ### Monday · A1 - squat + pull
-_Average time: about 120-145 min (an estimate, for information only)_
+_Average time: about 125-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Bulgarian (Rear-Foot-Elevated) Split Jumps + Step-Forward Medball Chest Pass (R & L leg) (about 4.5 min saved)_
-_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Wide-Grip Pull-Up + Side (Lateral) Lunge (about 5.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Wide-Grip Pull-Up + Side (Lateral) Lunge (about 4 min saved)_
 _Superset to save time: Dumbbell Concentration Curl - palms facing each other (hammer grip) + Leg Extension (machine) - 1-second squeeze at the top (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 10 cal (bike / rower / ski) · extra jump / throw stations: Comeback / Curl Route, Step-Forward Medball Chest Pass (R & L leg), Bulgarian (Rear-Foot-Elevated) Split Jumps · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) - 1-second squeeze at the top · 1 more_
 
@@ -3616,13 +3624,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 4 x 20 m · max intent; stop when quality drops · full recovery between sets
@@ -3651,21 +3660,21 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean%20%26%20Jerk) · Name to copy into YouTube: `Power Clean & Jerk`
 
 **Strength**
-1. **Seal Row - Barbell (Supinated Grip)** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Seal Row - Barbell (Supinated Grip)** — 4 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Wide-Grip Pull-Up** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
+3. **Wide-Grip Pull-Up** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 2-3 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Strict Pull-Up (Knees to Chest / tuck) (keeps the vertical pull; loses little - same movement, another grip or position) / Chin-Up (supinated) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Wide-Grip%20Pull-Up) · Name to copy into YouTube: `Wide-Grip Pull-Up`
-4. **Side (Lateral) Lunge** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Side (Lateral) Lunge** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -3697,7 +3706,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 125-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -3715,10 +3724,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Bilateral Lateral Hurdle Hops** — 3 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -3796,10 +3805,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 20 min · 3 min hard / 3 min easy, repeat
@@ -3809,10 +3818,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Weighted Sit-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Single-Leg Broad Jump + Medball Rotational Side-to-Side Floor Slams (about 4.5 min saved)_
-_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom (about 5.5 min saved)_
+_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 10 cal (bike / rower / ski) · extra jump / throw stations: Medball Rotational Side-to-Side Floor Slams, Single-Leg Broad Jump · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Leg Extension (machine) - one leg at a time, Dumbbell Curl_
 
@@ -3823,13 +3832,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses the added load) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
-2. **Copenhagen Plank** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 3 x 20 m · max intent; stop when quality drops · full recovery between sets
@@ -3854,24 +3863,24 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean) · Name to copy into YouTube: `Power Clean`
 
 **Strength**
-1. **Seated Cable Row (bilateral)** — 3 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Seated Cable Row (bilateral)** — 4 × 8-10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the constant cable tension) / TRX Row (suspension row) (keeps the horizontal pull; loses the constant cable tension) / Inverted Row (keeps the horizontal pull; loses the constant cable tension) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the chest support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Cable%20Row%20(bilateral)) · Name to copy into YouTube: `Seated Cable Row (bilateral)`
-2. **Leg Press (machine)** — 3 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Leg Press (machine)** — 4 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
    - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
    - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -3901,7 +3910,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Friday · B2 - deadlift + push
 _Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Sit-Up + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Sit-Up + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
 _Superset to save time: Seesaw DB Press (alternating, one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -3916,11 +3925,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 
 **Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
-2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
+2. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -3998,10 +4007,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 15 min · 40 s run / 20 s walk, repeat
@@ -4013,18 +4022,17 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Monday): 2 → 3 sets
-- +1 set on Seesaw DB Press (alternating, one up / one down) (Friday): 2 → 3 sets
+- +1 set on Side (Lateral) Lunge (Monday): 2 → 3 sets
 
 **Athletic work this week:** 117 jump contacts · 84 ankle-hop contacts · 108 throws · 99 direction changes · 420 m of sprints · 12 Olympic-lift sets · Plyo share 48% · Receive-Create 3: Repeat
 
 ### Monday · A1 - squat + pull
-_Average time: about 120-150 min (an estimate, for information only)_
+_Average time: about 125-155 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Bulgarian (Rear-Foot-Elevated) Split Jumps + Step-Forward Medball Chest Pass (R & L leg) (about 4.5 min saved)_
-_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Wide-Grip Pull-Up + Side (Lateral) Lunge (about 5.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Wide-Grip Pull-Up + Side (Lateral) Lunge (about 4 min saved)_
 _Superset to save time: Dumbbell Concentration Curl - palms facing each other (hammer grip) + Leg Extension (machine) - 1-second squeeze at the top (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 10 cal (bike / rower / ski) · extra jump / throw stations: Comeback / Curl Route, Step-Forward Medball Chest Pass (R & L leg), Bulgarian (Rear-Foot-Elevated) Split Jumps · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) - 1-second squeeze at the top · 1 more_
 
@@ -4035,13 +4043,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 4 x 20 m · max intent; stop when quality drops · full recovery between sets
@@ -4070,16 +4079,16 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean%20%26%20Jerk) · Name to copy into YouTube: `Power Clean & Jerk`
 
 **Strength**
-1. **Seal Row - Barbell (Supinated Grip)** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+1. **Seal Row - Barbell (Supinated Grip)** — 4 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Wide-Grip Pull-Up** — 3 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 2-3 min rest
+3. **Wide-Grip Pull-Up** — 2 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 2-3 min rest
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Strict Pull-Up (Knees to Chest / tuck) (keeps the vertical pull; loses little - same movement, another grip or position) / Chin-Up (supinated) (keeps the vertical pull; loses little - same movement, another grip or position) / Pull-up (keeps the vertical pull; loses some difficulty - this one is easier) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement)
@@ -4098,7 +4107,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-2. **Leg Extension (machine) - 1-second squeeze at the top** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 2 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -4116,7 +4125,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 125-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -4134,10 +4143,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Bilateral Lateral Hurdle Hops** — 3 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -4215,10 +4224,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 23 min · 3 min hard / 3 min easy, repeat
@@ -4228,10 +4237,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Thursday · A2 - leg press / belt squat + pull
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Weighted Sit-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Single-Leg Broad Jump + Medball Rotational Side-to-Side Floor Slams (about 4.5 min saved)_
-_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom (about 5.5 min saved)_
+_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 10 cal (bike / rower / ski) · extra jump / throw stations: Medball Rotational Side-to-Side Floor Slams, Single-Leg Broad Jump · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Leg Extension (machine) - one leg at a time, Dumbbell Curl_
 
@@ -4242,13 +4251,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses the added load) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
-2. **Copenhagen Plank** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 3 x 20 m · max intent; stop when quality drops · full recovery between sets
@@ -4273,24 +4282,24 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean) · Name to copy into YouTube: `Power Clean`
 
 **Strength**
-1. **Seated Cable Row (bilateral)** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+1. **Seated Cable Row (bilateral)** — 4 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the constant cable tension) / TRX Row (suspension row) (keeps the horizontal pull; loses the constant cable tension) / Inverted Row (keeps the horizontal pull; loses the constant cable tension) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the chest support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Cable%20Row%20(bilateral)) · Name to copy into YouTube: `Seated Cable Row (bilateral)`
-2. **Leg Press (machine)** — 3 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+2. **Leg Press (machine)** — 4 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
    - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
    - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -4318,9 +4327,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Calorie%20Effort%3A%2010%20cal%20(bike%20%2F%20rower%20%2F%20ski)) · Name to copy into YouTube: `Calorie Effort: 10 cal (bike / rower / ski)`
 
 ### Friday · B2 - deadlift + push
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 110-135 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Sit-Up + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Sit-Up + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
 _Superset to save time: Seesaw DB Press (alternating, one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -4335,11 +4344,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 
 **Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
-2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
+2. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -4371,7 +4380,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Barbell Deadlift (conventional) (keeps the two-leg hinge; loses each hand moving on its own) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Snatch-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL) · Name to copy into YouTube: `Stiff-Leg Deadlift / RDL`
-3. **Seesaw DB Press (alternating, one up / one down)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Seesaw DB Press (alternating, one up / one down)** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -4417,10 +4426,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 17 min · 40 s run / 20 s walk, repeat
@@ -4432,19 +4441,20 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Thursday): 2 → 3 sets
+- +1 set on Front-Foot-Elevated Split Squat / Lunge (FFE) (Thursday): 2 → 3 sets
 - +1 set on 45-Degree Hyperextension (back/hip extension) (Tuesday): 2 → 3 sets
-- +1 set on Seal Row - Barbell (Supinated Grip) (Monday): 3 → 4 sets
+- +1 set on Wide-Grip Pull-Up (Monday): 2 → 3 sets
 - +1 set on Barbell Bench Press (Tuesday): 4 → 5 sets
+- +1 set on Seesaw DB Press (alternating, one up / one down) (Friday): 2 → 3 sets
 
 **Athletic work this week:** 120 jump contacts · 92 ankle-hop contacts · 108 throws · 99 direction changes · 420 m of sprints · 12 Olympic-lift sets · Plyo share 49% · Receive-Create 3: Repeat
 
 ### Monday · A1 - squat + pull
-_Average time: about 125-155 min (an estimate, for information only)_
+_Average time: about 130-155 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Bulgarian (Rear-Foot-Elevated) Split Jumps + Step-Forward Medball Chest Pass (R & L leg) (about 4.5 min saved)_
-_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
+_Superset to save time: Seal Row - Barbell (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
 _Superset to save time: Wide-Grip Pull-Up + Side (Lateral) Lunge (about 5.5 min saved)_
 _Superset to save time: Dumbbell Concentration Curl - palms facing each other (hammer grip) + Leg Extension (machine) - 1-second squeeze at the top (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 10 cal (bike / rower / ski) · extra jump / throw stations: Comeback / Curl Route, Step-Forward Medball Chest Pass (R & L leg), Bulgarian (Rear-Foot-Elevated) Split Jumps · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine) - 1-second squeeze at the top · 1 more_
@@ -4456,13 +4466,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 3 × 4 x 20 m · max intent; stop when quality drops · full recovery between sets
@@ -4496,7 +4507,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seal Row - DB (Supinated Grip) (keeps the horizontal pull; loses the heavier barbell load) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20Barbell%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - Barbell (Supinated Grip)`
-2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
+2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
@@ -4519,7 +4530,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-2. **Leg Extension (machine) - 1-second squeeze at the top** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 2 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -4537,7 +4548,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 130-160 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
@@ -4555,10 +4566,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Bilateral Lateral Hurdle Hops** — 3 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -4636,10 +4647,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 27 min · 3 min hard / 3 min easy, repeat
@@ -4647,12 +4658,12 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ### Thursday · A2 - leg press / belt squat + pull
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Weighted Sit-Up + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Single-Leg Broad Jump + Medball Rotational Side-to-Side Floor Slams (about 4.5 min saved)_
-_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom (about 5.5 min saved)_
+_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 10 cal (bike / rower / ski) · extra jump / throw stations: Medball Rotational Side-to-Side Floor Slams, Single-Leg Broad Jump · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Leg Extension (machine) - one leg at a time, Dumbbell Curl_
 
@@ -4663,13 +4674,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses the added load) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
-2. **Copenhagen Plank** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
 1. **Falling-Start Accelerations** — 3 × 3 x 20 m · max intent; stop when quality drops · full recovery between sets
@@ -4694,18 +4705,18 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean) · Name to copy into YouTube: `Power Clean`
 
 **Strength**
-1. **Seated Cable Row (bilateral)** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+1. **Seated Cable Row (bilateral)** — 4 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the constant cable tension) / TRX Row (suspension row) (keeps the horizontal pull; loses the constant cable tension) / Inverted Row (keeps the horizontal pull; loses the constant cable tension) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the chest support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Cable%20Row%20(bilateral)) · Name to copy into YouTube: `Seated Cable Row (bilateral)`
-2. **Leg Press (machine)** — 3 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+2. **Leg Press (machine)** — 4 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
    - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -4723,7 +4734,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    - Swap for: Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses each hand moving on its own) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Barbell Curl (keeps the biceps work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
-2. **Leg Extension (machine) - one leg at a time** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+2. **Leg Extension (machine) - one leg at a time** — 2 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -4741,7 +4752,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Friday · B2 - deadlift + push
 _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Sit-Up + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Sit-Up + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
 _Superset to save time: Seesaw DB Press (alternating, one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -4756,11 +4767,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 
 **Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
-2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
+2. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -4838,10 +4849,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 18 min · 40 s run / 20 s walk, repeat
@@ -4859,12 +4870,12 @@ _Last week: one intensifier on Friday: a MYO set on the day's last small-muscle 
 **What changes this week**
 - Same sets: on a tested lift the test takes the place of the top set; on the other lifts add a little load or reps
 
-**Athletic work this week:** 54 jump contacts · 76 ankle-hop contacts · 56 throws · 78 direction changes · 120 m of sprints · 9 Olympic-lift sets · Plyo share 57% · Receive-Create 3: Repeat
+**Athletic work this week:** 54 jump contacts · 76 ankle-hop contacts · 56 throws · 78 direction changes · 120 m of sprints · 9 Olympic-lift sets · Plyo share 57% · Receive-Create 3: Repeat Test week: jumps, throws and sprints are lighter so you test fresh.
 
 ### Monday · A1 - squat + pull
-_Average time: about 125-155 min (an estimate, for information only)_
+_Average time: about 130-155 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
+_Superset to save time: Cable Oblique Rotation (cable rotational twist) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Bulgarian (Rear-Foot-Elevated) Split Jumps + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Wide-Grip Pull-Up + Side (Lateral) Lunge (about 5.5 min saved)_
 _Superset to save time: Dumbbell Concentration Curl - palms facing each other (hammer grip) + Leg Extension (machine) - 1-second squeeze at the top (about 3.5 min saved)_
@@ -4877,13 +4888,14 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
-2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
+   - Swap for: Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+2. **Copenhagen Plank** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
 1. **Acceleration Starts** — 2 × 3 x 20 m · max intent; stop when quality drops · full recovery between sets
@@ -4916,9 +4928,9 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - **Test week:** 3 rep max or work up to a 1 rep max
    - Test first: warm up and work up to one top set (3 rep max or work up to a 1 rep max). It replaces this lift's top set this week.
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-2. **Front Squat (barbell)** — 2 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
-   - These 2 sets are your back-off sets after the test: about 2 reps in the tank.
+   - These 3 sets are your back-off sets after the test: about 2 reps in the tank.
    - Swap for: Low-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High-Bar Back Squat (keeps the two-leg squat; loses the easier set-up - this one is harder) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
 3. **Seal Row - Barbell (Supinated Grip)** — 4 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
@@ -4945,7 +4957,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - per side = 1 set
    - Swap for: Cross-Body Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Single-Arm DB Preacher Curl (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Concentration%20Curl) · Name to copy into YouTube: `Dumbbell Concentration Curl`
-2. **Leg Extension (machine) - 1-second squeeze at the top** — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+2. **Leg Extension (machine) - 1-second squeeze at the top** — 2 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -4963,7 +4975,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Tuesday · B1 - hip hinge + push
 _Average time: about 135-165 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
-_Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Seated DB Lateral Raise + Machine Calf Raise - from a step (full stretch at the bottom) (about 5 min saved)_
@@ -4980,10 +4992,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
-2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+2. **Bird Dogs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
-   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
+   - Swap for: Dead Bugs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / Plank Supermans (held) (keeps the core work; loses the moving reps)
+   - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
 1. **Bilateral Lateral Hurdle Hops** — 3 × 6 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -5066,10 +5078,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Oblique Rotation (cable rotational twist)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Oblique%20Rotation%20(cable%20rotational%20twist)) · Name to copy into YouTube: `Cable Oblique Rotation (cable rotational twist)`
+   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Kettlebell Windmills - kneeling or standing (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 
 **Aerobic**
 1. **Green (B): moderate · bike** — 30 min · 3 min hard / 3 min easy, repeat
@@ -5077,11 +5089,11 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
    - This cardio session is part of the plan even if you skip the optional lifting.
 
 ### Thursday · A2 - leg press / belt squat + pull
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Weighted Sit-Up + Copenhagen Plank (about 2.5 min saved)_
-_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 5.5 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom (about 5.5 min saved)_
+_Superset to save time: Plank (forearm / low plank) + Dead Bugs (about 2.5 min saved)_
+_Superset to save time: Seated Cable Row (bilateral) + Leg Press (machine) (about 7 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Front-Foot-Elevated Split Squat / Lunge (FFE) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Effort: 10 cal (bike / rower / ski) · small-muscle accessories: Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top, Leg Extension (machine) - one leg at a time, Dumbbell Curl_
 
@@ -5092,13 +5104,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=A-Runs%20(high-knee%20running%20drill)) · Name to copy into YouTube: `A-Runs (high-knee running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Weighted Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: V-Up (keeps the core work; loses the added load) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses the added load) / Sit-Up (keeps the core work; loses the added load)
-   - [Watch how](https://www.youtube.com/results?search_query=Weighted%20Sit-Up) · Name to copy into YouTube: `Weighted Sit-Up`
-2. **Copenhagen Plank** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+1. **Plank (forearm / low plank)** — 2 × 30-50 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Press (keeps the core work; loses the easier set-up - this one is harder) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
-   - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
+   - Swap for: Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Cross Connect (rolls / rocking / hold) (keeps the core work; loses the moving reps) / Plank with Alternating Feet Raises (keeps the core work; loses the moving reps) / March (anti-rotation marching) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Test**
 1. **Test: 10-30 m sprint** — max intent; stop when quality drops · full recovery between sets
@@ -5124,18 +5136,18 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Power%20Clean) · Name to copy into YouTube: `Power Clean`
 
 **Strength**
-1. **Seated Cable Row (bilateral)** — 3 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+1. **Seated Cable Row (bilateral)** — 4 × 8-10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the constant cable tension) / TRX Row (suspension row) (keeps the horizontal pull; loses the constant cable tension) / Inverted Row (keeps the horizontal pull; loses the constant cable tension) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the chest support)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20Cable%20Row%20(bilateral)) · Name to copy into YouTube: `Seated Cable Row (bilateral)`
-2. **Leg Press (machine)** — 3 × 10 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+2. **Leg Press (machine)** — 4 × 10 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    > Constrained, no axial (spinal) load: a good second squat-pattern lift of the week.
    - Swap for: Pendulum Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Hack Squat (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Double-KB Front-Rack Squat (keeps the two-leg squat; loses the machine's support) / Goblet Squat (KB/DB) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Press%20(machine)) · Name to copy into YouTube: `Leg Press (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 2 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -5153,7 +5165,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
    - Swap for: Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position) / Reverse-Grip (Pronated) EZ-Bar Curl (keeps the biceps work; loses each hand moving on its own) / Seated Dumbbell Curl (keeps the biceps work; loses little - same movement, another grip or position) / Barbell Curl (keeps the biceps work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
-2. **Leg Extension (machine) - one leg at a time** — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+2. **Leg Extension (machine) - one leg at a time** — 2 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -5171,7 +5183,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 ### Friday · B2 - deadlift + push
 _Average time: about 125-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
-_Superset to save time: Sit-Up + Leg Raise (lying / supine) (about 2.5 min saved)_
+_Superset to save time: Sit-Up + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
 _Superset to save time: Seesaw DB Press (alternating, one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -5186,11 +5198,11 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
 
 **Core (optional: you may switch it off or change it)**
 1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Crunch (keeps the core work; loses little - same movement, another grip or position) / Single-Arm / Single-Leg Turkish Sit-up (keeps the core work; loses little - same movement, another grip or position) / Butterfly Sit-up (keeps the core work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
-2. **Leg Raise (lying / supine)** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
-   - [Watch how](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Name to copy into YouTube: `Leg Raise (lying / supine)`
+2. **V-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Reverse Crunch (keeps the core work; loses little - same movement, another grip or position) / Leg Raise (lying / supine) (keeps the core work; loses little - same movement, another grip or position) / Medball V-Up Switches (pass the ball hands <-> feet) (keeps the core work; loses the easier set-up - this one is harder) / Medball V-Ups (keeps the core work; loses the easier set-up - this one is harder)
+   - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Jumps, throws and speed**
 1. **Two-Foot Lateral Jump (side to side over a line or a low hurdle)** — 3 × 8 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
@@ -5268,10 +5280,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+1. **Russian Twist** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
-   - Swap for: Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Russian Twist (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
+   - Swap for: Cable Woodchopper (cable chop) (keeps the core work; loses little - same movement, another grip or position) / Cable Oblique Rotation (cable rotational twist) (keeps the core work; loses little - same movement, another grip or position) / Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / Turkish Get-Ups (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Russian%20Twist) · Name to copy into YouTube: `Russian Twist`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 20 min · 40 s run / 20 s walk, repeat

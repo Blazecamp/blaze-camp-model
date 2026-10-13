@@ -15,9 +15,10 @@ _Your Blaze Camp plan_
 ## Before you start
 
 - Your season is close: the last 2 weeks of this plan are pre-season (more speed and power, fewer sets).
+- Week 6 jumps more than usual (16 % more sets for Hips (glutes + hamstrings)): adjust if needed.
 - Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.
 - This template holds about 80% of your sport's weekly jump contacts (box, squat, broad and reactive jumps): the work still climbs every week. Add a station or a day if you want the full dose.
-- Two-leg lifts are about 51 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
+- Two-leg lifts are about 50 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 - This plan does not count your 2 team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).
 - Shoulders: 3 of its 11 final sets sit on a bonus exercise, done last in its day (Seated DB Lateral Raise, Wednesday), because your template's lifts for it are at their top sets. Skip it and the shoulders total ends at about 8.
 
@@ -46,6 +47,7 @@ Core supersets are optional anywhere: you can pair a core exercise with any exer
 
 - Reps and weight follow a rule you apply yourself, not a number this plan promises. Every lift shows a rep range. Example from your plan: Front Squat (barbell), 3 sets of 6-8. When you hit 8 on every set with the planned reps left in the tank and good form, add weight next time and start again at 6. Not there yet? Keep the weight and add a rep where you can.
 - Sets follow the stairway: the plan adds sets week by week until each muscle group reaches its final sets in the last week (see the week-by-week table). In a week with the same sets as the week before, you progress with reps or weight.
+- Week 6 adds more than usual (over about 15 % more sets for a muscle group, or in total). It is marked ↑: adjust if needed.
 - Your next block starts a little above where this one started (about 5 % more sets, in whole sets), never above the top number for your level. At the top, the sets stay and you progress with weight and reps.
 - This plan is a template you can edit: change the sets of any exercise on any day or week, add or remove exercises, and switch blocks off.
 
@@ -88,7 +90,9 @@ Your plan climbs like a stairway: small steps up to week 3, a bit bigger from we
 | 3 | 4.6 ▮▮▮▮▮ | 3 in the tank | 63 |
 | 4 | 6.7 ▮▮▮▮▮▮▮ | 2 in the tank | 67 |
 | 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 71 |
-| 6 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank | 76 |
+| 6 ↑ · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank | 76 |
+
+_↑ = a week that adds more than usual: adjust if needed._
 
 weeks 1-2: Getting used to it (small steps) · weeks 3-4: Driving it · weeks 5-6: Hardest weeks
 
@@ -161,19 +165,19 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Plank (forearm / low plank) | 2 2 2 2 2 2 | 20-40 s |
+| Cable Woodchopper (cable chop) | 2 2 2 2 2 2 | 10 to 15 per side |
 | Copenhagen Plank | 2 2 2 2 2 2 | 10-30 s |
 | Two-Foot Lateral Step Hops (quick, side to side over a low step) | 3 3 3 3 3 3 | 5 contacts |
 | Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) | 3 3 3 3 3 3 | 5 contacts |
 | Ankle Hops (bilateral, in place) | 2 2 2 2 2 2 | 10 contacts |
 | L-Test / L-Drill (3-Cone) | – 3 3 3 3 – | 3 Reps |
 | Hang Power Clean - from the High Hang (hip crease) | 2 2 2 3 3 2 | 3 to 5 Reps |
-| Seal Row - DB (Supinated Grip) | 3 3 3 3 4 4 | 8 to 12 Reps |
-| Front Squat (barbell) | 3 3 3 4 4 4 | 6 to 8 Reps |
-| Pull-up | 2 2 3 3 3 3 | 6 to 8 Reps |
-| Step-Up (forward and lateral) | 2 3 3 3 4 4 | 8 to 12 per side |
+| Seal Row - DB (Supinated Grip) | 3 3 3 3 3 4 | 8 to 12 Reps |
+| Front Squat (barbell) | 3 3 3 3 4 4 | 6 to 8 Reps |
+| Pull-up | 2 2 2 3 3 3 | 6 to 8 Reps |
+| Step-Up (forward and lateral) | 2 2 3 3 3 4 | 8 to 12 per side |
 | Dumbbell Curl | 2 2 2 2 2 2 | 10 to 12 Reps |
-| Leg Extension (machine) | 2 2 3 3 3 4 | 10 to 12 Reps |
+| Leg Extension (machine) | 2 2 2 3 3 3 | 10 to 12 Reps |
 | Standing DB Calf Raise (deficit optional) | 3 3 3 4 4 4 | 12 to 15 Reps |
 
 ### Wednesday · S2 - medball + hip + push
@@ -209,17 +213,17 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Single-Arm DB Snatch | 2 2 2 2 3 2 | 8/8 |
 | Barbell Bench Press | 4 4 4 4 4 4 | 6 to 8 Reps |
 | Hex (Trap) Bar Deadlift | 3 4 4 4 4 4 | 6 to 8 Reps |
-| Single-Arm DB/KB Row | 3 3 3 3 3 4 | 8 to 12 per side |
-| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | 2 2 2 2 2 2 | 8 to 12 per side |
+| Single-Arm DB/KB Row | 3 3 4 4 4 4 | 8 to 12 per side |
+| Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | 2 3 3 3 3 3 | 8 to 12 per side |
 | Side (Lateral) Lunge | 2 2 2 2 2 2 | 8 to 12 per side |
-| Single-Arm Lat Pulldown | 2 2 2 3 3 3 | 8 to 12 per side |
+| Single-Arm Lat Pulldown | 2 2 2 2 3 3 | 8 to 12 per side |
 | Barbell Calf Raise | 3 3 3 3 3 3 | 12 to 15 Reps |
 
 ### Saturday · Optional day
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Sit-Up | 2 2 2 2 2 2 | 10 to 15 Reps |
+| Plank (forearm / low plank) | 2 2 2 2 2 2 | 20-40 s |
 
 ## Pre-season block, week by week · Week 7-8
 
@@ -243,7 +247,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Plank (forearm / low plank) | 2 2 | 20-40 s |
+| Bicycle Crunch | 2 2 | 10 to 15 Reps |
 | Copenhagen Plank | 2 2 | 10-30 s |
 | Bilateral Lateral Hurdle Hops | 3 3 | 8 contacts |
 | Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral) | 3 3 | 8 contacts |
@@ -300,7 +304,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Sit-Up | 2 2 | 10 to 15 Reps |
+| Plank (forearm / low plank) | 2 2 | 20-40 s |
 
 ## Week 1 — Getting used to it (small steps)
 
@@ -313,7 +317,7 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 ### Monday · S1 - jump + knee + pull
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
@@ -326,12 +330,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Medball Rotational Throw - initiated from the hands (thorax-led) (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Test**
@@ -615,9 +620,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 15 min · 20 s run / 40 s walk, repeat
@@ -629,15 +634,15 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 3.3 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Step-Up (forward and lateral) (Monday): 2 → 3 sets
+- +1 set on Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (Friday): 2 → 3 sets
 - +1 set on Hex (Trap) Bar Deadlift (Friday): 3 → 4 sets
 
 **Athletic work this week:** 81 jump contacts · 46 ankle-hop contacts · 20 throws · 87 direction changes · 330 m of sprints · 4 Olympic-lift sets · Plyo share 54% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
@@ -650,12 +655,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Medball Rotational Throw - initiated from the hands (thorax-led) (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
@@ -701,7 +707,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Wide Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Close-Grip Pull-up (keeps the vertical pull; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Step-Up (forward and lateral)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -827,11 +833,11 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -890,7 +896,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -922,9 +928,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 16 min · 20 s run / 40 s walk, repeat
@@ -936,17 +942,17 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 4.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Leg Extension (machine) (Monday): 2 → 3 sets
-- +1 set on Pull-up (Monday): 2 → 3 sets
+- +1 set on Step-Up (forward and lateral) (Monday): 2 → 3 sets
+- +1 set on Single-Arm DB/KB Row (Friday): 3 → 4 sets
 
 **Athletic work this week:** 87 jump contacts · 58 ankle-hop contacts · 24 throws · 96 direction changes · 390 m of sprints · 4 Olympic-lift sets · Plyo share 57% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 85-105 min (an estimate, for information only)_
+_Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
-_Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
+_Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
 
@@ -957,12 +963,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Medball Rotational Throw - initiated from the hands (thorax-led) (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
@@ -1002,7 +1009,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
-3. **Pull-up** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Pull-up** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
@@ -1020,7 +1027,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
-2. **Leg Extension (machine)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
+2. **Leg Extension (machine)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -1134,11 +1141,11 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 105-125 min (an estimate, for information only)_
+_Average time: about 110-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -1192,12 +1199,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
-3. **Single-Arm DB/KB Row** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm DB/KB Row** — 4 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1229,9 +1236,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 17 min · 20 s run / 40 s walk, repeat
@@ -1243,17 +1250,17 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 6.7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Front Squat (barbell) (Monday): 3 → 4 sets
+- +1 set on Leg Extension (machine) (Monday): 2 → 3 sets
 - +1 set on 45-Degree Hyperextension (back/hip extension) (Wednesday): 2 → 3 sets
-- +1 set on Single-Arm Lat Pulldown (Friday): 2 → 3 sets
+- +1 set on Pull-up (Monday): 2 → 3 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Monday): 3 → 4 sets
 
 **Athletic work this week:** 93 jump contacts · 68 ankle-hop contacts · 28 throws · 102 direction changes · 400 m of sprints · 5 Olympic-lift sets · Plyo share 60% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 105-130 min (an estimate, for information only)_
+_Average time: about 100-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
@@ -1266,12 +1273,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Medball Rotational Throw - initiated from the hands (thorax-led) (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
@@ -1307,7 +1315,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Name to copy into YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Front Squat (barbell)** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Front Squat (barbell)** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Hex (Trap) Bar Squat (keeps the two-leg squat; loses the feel of the original implement) / Flipped Hex Bar Squat (low handles, longer range) (keeps the two-leg squat; loses the feel of the original implement) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Name to copy into YouTube: `Front Squat (barbell)`
@@ -1445,11 +1453,11 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -1501,13 +1509,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
-3. **Single-Arm DB/KB Row** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Single-Arm DB/KB Row** — 4 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1520,7 +1528,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
    - Swap for: Stationary Lunge (Split Squat) (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Forward Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Walking Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position) / Reverse Lunge (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20(Lateral)%20Lunge) · Name to copy into YouTube: `Side (Lateral) Lunge`
-6. **Single-Arm Lat Pulldown** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+6. **Single-Arm Lat Pulldown** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1541,9 +1549,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 18 min · 30 s run / 30 s walk, repeat
@@ -1555,18 +1563,18 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 8.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Step-Up (forward and lateral) (Monday): 3 → 4 sets
-- +1 set on Seal Row - DB (Supinated Grip) (Monday): 3 → 4 sets
+- +1 set on Front Squat (barbell) (Monday): 3 → 4 sets
+- +1 set on Single-Arm Lat Pulldown (Friday): 2 → 3 sets
 - +1 set on Flat DB Bench Press (Wednesday): 3 → 4 sets
 - +1 set on Bent-Over DB Reverse Fly (Wednesday): 3 → 4 sets
 
 **Athletic work this week:** 96 jump contacts · 72 ankle-hop contacts · 32 throws · 108 direction changes · 440 m of sprints · 6 Olympic-lift sets · Plyo share 60% · Receive-Create 2: Land & Go
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
-_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 5.5 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: L-Test / L-Drill (3-Cone), Ankle Hops (bilateral, in place), Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat) · small-muscle accessories: Standing DB Calf Raise (deficit optional), Leg Extension (machine), Dumbbell Curl_
@@ -1578,12 +1586,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Medball Rotational Throw - initiated from the hands (thorax-led) (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Jumps, throws and speed**
@@ -1614,7 +1623,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Hang%20Power%20Clean%20-%20from%20the%20High%20Hang%20(hip%20crease)) · Name to copy into YouTube: `Hang Power Clean - from the High Hang (hip crease)`
 
 **Strength**
-1. **Seal Row - DB (Supinated Grip)** — 4 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+1. **Seal Row - DB (Supinated Grip)** — 3 × 8-10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - Swap for: Seal Row - DB (Pronated Grip) (keeps the horizontal pull; loses little - same movement, another grip or position) / Seated Cable Row (bilateral) (keeps the horizontal pull; loses the free-weight balance work) / Seal Row - Barbell (Pronated Grip) (keeps the horizontal pull; loses each hand moving on its own) / 45-Degree Cable Row (high pulley) (keeps the horizontal pull; loses the free-weight balance work)
@@ -1628,7 +1637,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Body-weight lift: if you cannot reach the reps, use the assisted machine or a band-free regression (feet on the floor, ring or TRX row).
    - Swap for: Lat Pulldown (Wide Grip) (keeps the vertical pull; loses the feel of the original implement) / Lat Pulldown (Wide MAG Grip) (keeps the vertical pull; loses the feel of the original implement) / Seated Ring/TRX Pull-Up (feet-supported) (keeps the vertical pull; loses little - same movement, another grip or position) / Close-Grip Pull-up (keeps the vertical pull; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Pull-up) · Name to copy into YouTube: `Pull-up`
-4. **Step-Up (forward and lateral)** — 4 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Step-Up (forward and lateral)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1757,11 +1766,11 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 120-145 min (an estimate, for information only)_
+_Average time: about 125-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -1813,13 +1822,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
-3. **Single-Arm DB/KB Row** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Single-Arm DB/KB Row** — 4 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1853,9 +1862,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 19 min · 30 s run / 30 s walk, repeat
@@ -1868,19 +1877,21 @@ _Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **End test this week: each test takes the place of that day's sprint, change-of-direction or jump station** (Speed / agility, Jumps)
 
+_This week jumps more than usual (16 % more sets for Hips (glutes + hamstrings)): adjust if needed._
+
 **What changes this week**
-- +1 set on Leg Extension (machine) (Monday): 3 → 4 sets
+- +1 set on Step-Up (forward and lateral) (Monday): 3 → 4 sets
 - +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Wednesday): 2 → 3 sets
 - +1 set on Nordic Hamstring Curl (Wednesday): 2 → 3 sets
-- +1 set on Single-Arm DB/KB Row (Friday): 3 → 4 sets
+- +1 set on Seal Row - DB (Supinated Grip) (Monday): 3 → 4 sets
 - +1 set on Machine Calf Raise (Wednesday): 3 → 4 sets
 
-**Athletic work this week:** 54 jump contacts · 38 ankle-hop contacts · 20 throws · 51 direction changes · 120 m of sprints · 4 Olympic-lift sets · Plyo share 61% · Receive-Create 2: Land & Go
+**Athletic work this week:** 54 jump contacts · 38 ankle-hop contacts · 20 throws · 51 direction changes · 120 m of sprints · 4 Olympic-lift sets · Plyo share 61% · Receive-Create 2: Land & Go Test week: jumps, throws and sprints are lighter so you test fresh.
 
 ### Monday · S1 - jump + knee + pull
-_Average time: about 110-130 min (an estimate, for information only)_
+_Average time: about 105-130 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Cable Woodchopper (cable chop) + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 7 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 5.5 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) (about 3.5 min saved)_
@@ -1893,12 +1904,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Name to copy into YouTube: `A-March (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Cable Woodchopper (cable chop)** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Weighted Russian Twist (keeps the core work; loses some difficulty - this one is easier) / KB Book Opener (keeps the core work; loses some difficulty - this one is easier) / Medball Rotational Throw - initiated from the hands (thorax-led) (keeps the core work; loses some difficulty - this one is easier) / Cross-Body Mountain Climber (keeps the core work; loses some difficulty - this one is easier)
+   - [Watch how](https://www.youtube.com/results?search_query=Cable%20Woodchopper%20(cable%20chop)) · Name to copy into YouTube: `Cable Woodchopper (cable chop)`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Name to copy into YouTube: `Copenhagen Plank`
 
 **Test**
@@ -1957,7 +1969,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 15 on every set with 1 left in the tank, add weight next time and start again at 10.
    - Swap for: Spider Curl (chest on incline bench) (keeps the biceps work; loses little - same movement, another grip or position) / Incline Dumbbell Curl ('pinky facing up' supinated variation) (keeps the biceps work; loses little - same movement, another grip or position) / Dumbbell Hammer Curl (keeps the biceps work; loses little - same movement, another grip or position) / Zottman Curl (supinated up, pronated down) (keeps the biceps work; loses little - same movement, another grip or position)
    - [Watch how](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Name to copy into YouTube: `Dumbbell Curl`
-2. **Leg Extension (machine)** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+2. **Leg Extension (machine)** — 3 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
@@ -2074,11 +2086,11 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
-_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
+_Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 5.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles · small-muscle accessories: Barbell Calf Raise_
 
 **Warm-up**
@@ -2135,7 +2147,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - per side = 1 set
    - Swap for: Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work) / Bent-Over Seesaw DB Row (alternating) (keeps the horizontal pull; loses little - same movement, another grip or position) / Bird Dog Row (DB) (keeps the horizontal pull; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Cable Row (keeps the horizontal pull; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row) · Name to copy into YouTube: `Single-Arm DB/KB Row`
-4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 2 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+4. **Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat)** — 3 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -2169,9 +2181,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Toes to Bar (hanging) (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Blue (A): short / high intensity · run** — 20 min · 30 s run / 30 s walk, repeat
@@ -2185,7 +2197,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Monday · S1 - jump + knee + pull
 _Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 4 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
@@ -2198,9 +2210,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses the easier set-up - this one is harder) / Weighted Russian Twist (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
@@ -2460,9 +2472,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · run** — 30-40 min · steady pace: you can still talk
@@ -2476,7 +2488,7 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 ### Monday · S1 - jump + knee + pull
 _Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
-_Superset to save time: Plank (forearm / low plank) + Copenhagen Plank (about 2.5 min saved)_
+_Superset to save time: Bicycle Crunch + Copenhagen Plank (about 2.5 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Front Squat (barbell) (about 4 min saved)_
 _Superset to save time: Pull-up + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Dumbbell Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
@@ -2489,9 +2501,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Name to copy into YouTube: `A-Skip (running drill)`
 
 **Core (optional: you may switch it off or change it)**
-1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Bicycle Crunch** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - Swap for: Rotational Crunch Chop Midline (horizontal) - Supine, Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Tall-Kneeling Cable Crunch Chop Midline (horizontal) - Object Squeezed Between Knees (keeps the core work; loses the easier set-up - this one is harder) / Star V-Ups (cross-body / diagonal V-ups) (keeps the core work; loses the easier set-up - this one is harder) / Weighted Russian Twist (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Bicycle%20Crunch) · Name to copy into YouTube: `Bicycle Crunch`
 2. **Copenhagen Plank** — 2 × 10-30 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
    - Swap for: High (Straight-Arm) Side Plank (keeps the core work; loses little - same movement, another grip or position) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Copenhagen Raise (dynamic) (keeps the core work; loses the held position)
@@ -2751,9 +2763,9 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core (optional: you may switch it off or change it)**
-1. **Sit-Up** — 2 × 10 to 15 Reps · easy and controlled: stop well before it gets hard · 30-60 s rest
-   - Swap for: Weighted Sit-Up (keeps the core work; loses little - same movement, another grip or position) / Crunch (keeps the core work; loses little - same movement, another grip or position) / Weighted Decline Sit-Up (keeps the core work; loses little - same movement, another grip or position) / V-Up (keeps the core work; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Sit-Up) · Name to copy into YouTube: `Sit-Up`
+1. **Plank (forearm / low plank)** — 2 × 20-40 s · hold with good form, stop before it breaks · 30-60 s rest
+   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Streamline Hold (hollow body, arms locked overhead) (keeps the core work; loses the same trunk action - this one trains the core another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
 
 **Aerobic**
 1. **Orange (C): long / easy · run** — 30-40 min · steady pace: you can still talk

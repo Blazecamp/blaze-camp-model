@@ -82,7 +82,9 @@ describe('v0.5 fix round 2 - sample 01 (swimming)', () => {
       const e = ex(x.it.exercise_id);
       assert.ok(!e.tags.includes('carry_sled'), `${n} w${x.w.n} ${x.d.weekday}: ${e.id} is a carry`);
       assert.notEqual(e.status, 'optional_addon', `${n} ${e.id}`);
-      assert.ok(!so.includes(e.status) || CP.low_back_allow_ids.includes(e.id), `${n} w${x.w.n} ${x.d.weekday}: ${e.id} is a ${e.status} record`);
+      // (engine 0.7 fix round, converted - DECISIONS G-295: the weekly rotational drill of R5-ATH-08 may be the bicycle crunch from his
+      // own programs, rules.selection.v7.core_rotation.ids)
+      assert.ok(!so.includes(e.status) || CP.low_back_allow_ids.includes(e.id) || (R.selection.v7.core_rotation.ids || []).includes(e.id), `${n} w${x.w.n} ${x.d.weekday}: ${e.id} is a ${e.status} record`);
     }
   });
   it('04 LOW_BACK_* / R2-SES-03 (01 / 02 / 04 / 08): a low-back client\'s core is anti-movement work every day - a plank runs twice a week, two or more days apart, before a crunch, a leg raise or a hanging raise takes the slot', () => {
@@ -91,7 +93,9 @@ describe('v0.5 fix round 2 - sample 01 (swimming)', () => {
     let repeats = 0;
     // (engine 0.6 selection, converted - DECISIONS G-131: the low-back list is for a client who reports low-back pain, or a 50+ client
     // with the hot spot; the swimmer and the linebacker are read with the pain entered, 04 and 08 as they are)
-    const lbPlan = (n) => { if (['01', '02'].includes(n)) { const i = loadSample(NAMES[n]); i.pain = [{ area: 'lower_back', side: 'both', severity: 'mild', worse_with: [] }]; return generate(i, model); } return planOf(n); };
+    // (engine 0.7 fix round, converted - COACH-R5 R5-ATH-08 / DECISIONS G-295: 08 reports no low-back pain, so she is read with the pain
+    // entered too, like 01 and 02 - without it her core is normal core with a rotational drill a week)
+    const lbPlan = (n) => { if (['01', '02', '08'].includes(n)) { const i = loadSample(NAMES[n]); i.pain = [{ area: 'lower_back', side: 'both', severity: 'mild', worse_with: [] }]; return generate(i, model); } return planOf(n); };
     const lbPlans = new Map(['01', '02', '04', '08'].map(n => [n, lbPlan(n)]));
     for (const n of ['01', '02', '08']) for (const w of lbPlans.get(n).weeks) {
       const seen = new Map();

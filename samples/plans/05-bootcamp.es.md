@@ -148,7 +148,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s |
+| Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 2 2 · 2 2 2 2 | 10-30 s |
 | Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) → Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat) | 3 3 3 4 · 4 4 5 5 | 3 rondas x 35 s → 5 series x 50 s |
 | Remo con pecho apoyado (Chest-Supported Row) | 3 3 3 4 · 4 4 5 5 | 3 rondas x 35 s → 5 series x 50 s |
@@ -162,7 +162,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
+| Abdominal corto (Crunch) → Abdominal completo (Sit-Up) | 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
 | Elevación de piernas acostado boca arriba (Lying Leg Raise) | 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
 | Peso muerto con una kettlebell (KB Deadlift) → Peso muerto con mancuernas (DB Deadlift) | 3 3 3 4 · 4 4 5 5 | 3 series x 35 s → 5 rondas x 50 s |
 | Press en el piso con mancuernas (DB Floor Press) | 3 3 3 4 · 4 4 5 5 | 3 series x 35 s → 5 rondas x 50 s |
@@ -195,7 +195,7 @@ _Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 35-40 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -204,12 +204,13 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Circuito 1**
@@ -259,7 +260,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 35-40 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal corto (Crunch) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -268,10 +269,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
+1. **Abdominal corto (Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal completo (Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal mariposa (Butterfly Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Crunch) · Nombre para copiar en YouTube: `Crunch`
 2. **Elevación de piernas acostado boca arriba (Lying Leg Raise)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V pasando el balón medicinal de manos a pies (V-Up Switches) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal turco a un brazo / una pierna (Turkish Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
@@ -393,7 +393,7 @@ _Nivel de la semana: 2.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 35-40 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -402,12 +402,13 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Circuito 1**
@@ -452,7 +453,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 35-40 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal corto (Crunch) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -461,10 +462,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
+1. **Abdominal corto (Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal completo (Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal mariposa (Butterfly Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Crunch) · Nombre para copiar en YouTube: `Crunch`
 2. **Elevación de piernas acostado boca arriba (Lying Leg Raise)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V pasando el balón medicinal de manos a pies (V-Up Switches) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal turco a un brazo / una pierna (Turkish Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
@@ -578,7 +578,7 @@ _Nivel de la semana: 3.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 35-40 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -587,12 +587,13 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Circuito 1**
@@ -637,7 +638,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 35-40 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal corto (Crunch) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -646,10 +647,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
+1. **Abdominal corto (Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal completo (Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal mariposa (Butterfly Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Crunch) · Nombre para copiar en YouTube: `Crunch`
 2. **Elevación de piernas acostado boca arriba (Lying Leg Raise)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V pasando el balón medicinal de manos a pies (V-Up Switches) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal turco a un brazo / una pierna (Turkish Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
@@ -765,7 +765,7 @@ _Esta semana sube más de lo habitual (33 % más series para todos los grupos mu
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -774,12 +774,13 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Circuito 1**
@@ -824,7 +825,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 40-50 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal corto (Crunch) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -833,10 +834,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-March%20(running%20drill)) · Nombre para copiar en YouTube: `A-March (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
+1. **Abdominal corto (Crunch)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal completo (Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal mariposa (Butterfly Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Crunch) · Nombre para copiar en YouTube: `Crunch`
 2. **Elevación de piernas acostado boca arriba (Lying Leg Raise)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V pasando el balón medicinal de manos a pies (V-Up Switches) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal turco a un brazo / una pierna (Turkish Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
@@ -944,9 +944,9 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 _Nivel de la semana: 6.3 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- Nuevo bloque de ejercicios: 6 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
+- Nuevo bloque de ejercicios: 7 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
 - Lunes: Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) → Sentadilla Zercher alta con mancuerna abrazada al pecho (High-Zercher DB Squat); Curl martillo (Hammer Curl) → Curl Zottman: sube supino, baja prono (Zottman Curl)
-- Miércoles: Peso muerto con una kettlebell (KB Deadlift) → Peso muerto con mancuernas (DB Deadlift); Press de hombro alterno con mancuernas (Alternating DB Overhead Press) → Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
+- Miércoles: Abdominal corto (Crunch) → Abdominal completo (Sit-Up); Peso muerto con una kettlebell (KB Deadlift) → Peso muerto con mancuernas (DB Deadlift); Press de hombro alterno con mancuernas (Alternating DB Overhead Press) → Press alterno tipo balancín con mancuernas, una arriba / una abajo (Seesaw Press)
 - Viernes: Remo con pecho apoyado (Chest-Supported Row) → Remo con pecho apoyado (Chest-Supported Row) - agarre supino (palmas hacia arriba); Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) → Remo inclinado a dos brazos con mancuernas o kettlebells (Bent-Over Row) - agarre supino (palmas hacia arriba)
 - El trabajo del circuito sube a 45 s
 - Mantén tus pesos esta semana (las estaciones duran más); agrega peso solo donde termines una estación con más de 2 repeticiones en reserva
@@ -954,7 +954,7 @@ _Nivel de la semana: 6.3 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -963,12 +963,13 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Circuito 1**
@@ -1013,7 +1014,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal completo (Sit-Up) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1022,10 +1023,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
+1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal mariposa (Butterfly Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 2. **Elevación de piernas acostado boca arriba (Lying Leg Raise)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V pasando el balón medicinal de manos a pies (V-Up Switches) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal turco a un brazo / una pierna (Turkish Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
@@ -1138,7 +1138,7 @@ _Nivel de la semana: 7.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1147,12 +1147,13 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Circuito 1**
@@ -1197,7 +1198,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 45-55 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal completo (Sit-Up) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1206,10 +1207,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
+1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal mariposa (Butterfly Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 2. **Elevación de piernas acostado boca arriba (Lying Leg Raise)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V pasando el balón medicinal de manos a pies (V-Up Switches) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal turco a un brazo / una pierna (Turkish Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
@@ -1326,7 +1326,7 @@ _Esta semana sube más de lo habitual (25 % más series para todos los grupos mu
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1335,12 +1335,13 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Circuito 1**
@@ -1385,7 +1386,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal completo (Sit-Up) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1394,10 +1395,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
+1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal mariposa (Butterfly Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 2. **Elevación de piernas acostado boca arriba (Lying Leg Raise)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V pasando el balón medicinal de manos a pies (V-Up Switches) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal turco a un brazo / una pierna (Turkish Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`
@@ -1514,7 +1514,7 @@ _Última semana: un intensificador en cada uno de estos días (lunes, miércoles
 ### Lunes · Bootcamp 1 - sentadilla + remo + bisagra a una pierna
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Saltar la cuerda (Jump Rope) (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1523,12 +1523,13 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Posición de flecha en hollow (Streamline Hold) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Toques de pies en estrella (Star Toe Touches) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
 2. **Plancha Copenhague (Copenhagen Plank)** — 2 × 10-30 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
+   - Cambiar por: Plancha lateral alta con brazo extendido (High Side Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Elevación Copenhague dinámica (Copenhagen Raise) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Circuito 1**
@@ -1573,7 +1574,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 ### Miércoles · Bootcamp 2 - bisagra + empujes (press)
 _Tiempo promedio: aprox. 55-65 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), Burpees (estación de acondicionamiento). También puedes agregar o quitar ejercicios._
-_Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
+_Superserie para ahorrar tiempo: Abdominal completo (Sit-Up) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1582,10 +1583,9 @@ _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + E
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=A-Skip%20(running%20drill)) · Nombre para copiar en YouTube: `A-Skip (running drill)`
 
 **Core / abdomen (opcional: puedes desactivarlo o cambiarlo)**
-1. **Giro ruso con peso (Weighted Russian Twist)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
-   - por lado = 1 serie
-   - Cambiar por: Apertura de libro con kettlebell (KB Book Opener) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Conexión cruzada en estrella boca arriba (Star Cross Connect) (mantiene el trabajo de core; pierde la carga extra) / Caminata de oso (Bear Crawl) (mantiene el trabajo de core; pierde la carga extra) / Escalador cruzado (Cross-Body Mountain Climber) (mantiene el trabajo de core; pierde la carga extra)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Weighted%20Russian%20Twist) · Nombre para copiar en YouTube: `Weighted Russian Twist`
+1. **Abdominal completo (Sit-Up)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - Cambiar por: Abdominal corto (Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal completo con peso (Weighted Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal mariposa (Butterfly Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Sit-Up) · Nombre para copiar en YouTube: `Sit-Up`
 2. **Elevación de piernas acostado boca arriba (Lying Leg Raise)** — 2 × 10 a 15 reps · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - Cambiar por: Abdominal inverso (Reverse Crunch) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V (V-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal en V pasando el balón medicinal de manos a pies (V-Up Switches) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Abdominal turco a un brazo / una pierna (Turkish Sit-Up) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Raise%20(lying%20%2F%20supine)) · Nombre para copiar en YouTube: `Leg Raise (lying / supine)`

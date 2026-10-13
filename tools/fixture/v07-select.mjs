@@ -294,8 +294,10 @@ export function amendRulesV07(rules) {
     // gives the transverse plane at least min_transverse_pct of its core (core_rules.plane_pct; E-184) holds one moving rotational core
     // drill a week. The rotational picks: his live library's chop and Russian twist, and the bicycle crunch from his own programs (a
     // program record, picked only here); a light chop is for every level (in-level exempt).
-    core_rotation: { enabled: true, min_transverse_pct: 30, per_week: 1, bonus: 6,
-      ids: ['bicycle-crunch', 'cable-woodchopper-cable-chop', 'russian-twist'], level_exempt_ids: ['cable-woodchopper-cable-chop'],
+    core_rotation: { enabled: true, min_transverse_pct: 30, per_week: 1, bonus: 12,
+      ids: ['bicycle-crunch', 'cable-woodchopper-cable-chop'], level_exempt_ids: ['cable-woodchopper-cable-chop'], cable_only_ids: ['cable-woodchopper-cable-chop'],
+      // (a client with a profile low-back hot spot takes no loaded rotation - the hot-spot lean of G-131 stays)
+      loaded_re: 'weighted',
       refs: ['R5-ATH-08', 'R5-LIB-02', 'E-184', 'CAT-08'],
       status: 'approved (COACH-R5 R5-ATH-08 "normal core, including rotation"); PROPOSED: one rotational drill a week from a 30 % transverse share, the picks and the weight' },
     refs: ['R5-GEN-01', 'R5-ATH-04', 'R5-GRD-03', 'R5-GRD-08', 'R5-ATH-10', 'R5-ATH-08'],
@@ -323,18 +325,13 @@ export function amendRulesV07(rules) {
   // R5-ATH-08 ('only when they report low-back pain. Otherwise normal core, including rotation'): the 50+ hot-spot list is retired
   const S6C = R0.selection.s6 && R0.selection.s6.core;
   if (S6C) { S6C.hotspot_list_from_age = null; S6C.hotspot_status = 'COACH-R5 R5-ATH-08: the low-back list only with reported low-back pain, at any age (the 50+ reading of G-131 is retired)'; }
-  // G-295 (R5-ATH-08 'Otherwise normal core, including rotation'; review r9 08 M1 / 02 m14: the hot-spot lean of G-131 - holds +2, the
-  // reference floor drills allowed - still dealt a 52-year-old pickleball player and a linebacker the low-back list for 12 weeks): a
-  // profile's low-back hot spot without reported low-back pain leans nowhere - no hold bonus, no reference floor drills; only loaded
-  // trunk flexion keeps its small minus. The profile's core planes (core_rules.plane_pct, E-184) then deal the week's rotation.
+  // G-295 / G-296 (R5-ATH-08 'Otherwise normal core, including rotation'; review r9 08 M1 / 02 m14): the hot-spot lean of G-131 stays
+  // (holds a little up, loaded flexion a little down); the week's rotational drill is rules.selection.v7.core_rotation, and the core
+  // changes at a block boundary (below)
   if (S6C) {
-    S6C.hotspot_anti_bonus = 0;
-    S6C.hotspot_flexion_re = 'weighted';
-    S6C.hotspot_reference_drills = true;
     // G-296 (PER-02 'one or two small changes a block'; G-131 one core exercise a day changes at a block boundary): with no exercise of
     // the same plane and kind left, the change keeps the plane and the anti-movement / moving kind, then the plane alone (PROPOSED)
     S6C.block_change_relax = true;
-    S6C.hotspot_lean_status = 'COACH-R5 R5-ATH-08 (G-295): no lean for a hot spot without pain; loaded flexion -2 PROPOSED';
     S6C.refs = uniqSorted([...(S6C.refs || []), 'R5-ATH-08']);
   }
   // R5-CLS-04 (wall balls and sled pushes in the class workout, with a switch): approved
@@ -350,9 +347,6 @@ export function amendRulesV07(rules) {
   confirm(R0.selection.s6 && R0.selection.s6.olympic_safe, 'R5-ATH-09', 'KB swing or DB / KB high pull instead of snatches and barbell cleans with pain, 3 or more play days a week, or a 50+ racket player');
   // R5-ATH-10 (a single-leg or lateral jump every training day for cutting sports; a two-foot lateral jump in the first stage)
   confirm(R0.selection.s6 && R0.selection.s6.jumps, 'R5-ATH-10', 'a cutting sport holds a single-leg or lateral jump every training day, a two-foot lateral jump in the first stage; the stages are R2-ATH-03');
-  // G-298 (R5-ATH-10; review r9 02 m1: Tuesday's and Friday's first-block jump stations took a low box jump and a low depth drop - the +8
-  // lost to the first block's level lean and the return / stay-low terms): the day's lateral or single-leg jump weighs 12 (PROPOSED)
-  if (R0.selection.s6 && R0.selection.s6.jumps && R0.selection.s6.jumps.cutting) R0.selection.s6.jumps.cutting.bonus = 12;
   // R5-ATH-11 (no hard cardio the day before top-speed sprints or the week's heavy deadlift)
   confirm(R0.conditioning.s6 && R0.conditioning.s6.hard_eve, 'R5-ATH-11', 'the hard interval colour is never the day before top-speed sprints or the week\'s heavy hinge');
   // R5-CLS-06 (the bootcamp cardio station is plain cardio by default; a swing or slam is a swap)
