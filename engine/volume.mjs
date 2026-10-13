@@ -566,7 +566,9 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const allSlots = () => { const out = []; days.forEach((d, di) => { for (const s of daySlotsOf(di)) out.push([s, di]); }); return out; };
   const kindOf = (slot) => model.bucket(slot.bucket).kind;
   const isCircuitSlot = (slot) => circuitPlan && slot.circuit !== null && slot.circuit !== undefined;
-  const isResistance = (slot) => RESISTANCE_KINDS.includes(kindOf(slot)) || ADDED_ORIGINS.includes(slot.origin);
+  // (engine 0.7, G-252: a joint-care slot that holds a lifting pattern - the shoulder-health overhead press - is joint care, not a
+  // resistance set, like every other joint-care slot)
+  const isResistance = (slot) => slot.role !== 'prehab' && (RESISTANCE_KINDS.includes(kindOf(slot)) || ADDED_ORIGINS.includes(slot.origin));
   const active = (slot) => isNum(sets[slot.slot_id]) && sets[slot.slot_id] > 0;
   const crOf = (slot) => creditsOf(model, slot, fills[slot.slot_id]);
   const gcOf = (slot) => groupCredits(model, crOf(slot) || {});

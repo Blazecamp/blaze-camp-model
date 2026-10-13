@@ -105,6 +105,8 @@
 //   * push_pull_ratio     COACH-R5 R5-CLS-02 ('a hip thrust or bridge (hips get more work; pressing then leads pulling by one
 //                         station)'): a bootcamp circuit's free pull-up station that takes a hip lift counts with the pulls, as V29 reads
 //                         it. Without the reading every no-bar bootcamp plan (sample 05, bench 78) scores a 0.75 week the coach chose.
+//   * rest_out_of_class   COACH-R5 R5-ATH-04 (G-252): a joint-care item (role 'prehab') rests as joint care, also when its slot holds a
+//                         lifting pattern - the weekly shoulder-health overhead press of an incline-first athlete.
 export const SCORER_VERSION = '2.6';
 export const SCORE_SCHEMA = 'bench-score/2';
 
@@ -1761,6 +1763,8 @@ function checkEffortRest(S, X, ctx) {
     const r = I.raw.rest;
     if (!r || typeof r.min !== 'number' || typeof r.max !== 'number' || r.type === 'work_rest') continue;
     let ok;
+    // (scorer 2.6: a joint-care item - role 'prehab', the shoulder-health overhead press of R5-ATH-04 / G-252 included - rests as joint care)
+    if (I.role === 'prehab' || I.bk === 'prehab') continue;
     if (I.bk === 'core' || I.block === 'core') ok = [RR.core_s];
     else if (I.bk === 'power') ok = [RR.olympic_s];
     else if (I.bk === 'resistance' || I.bk === 'focus') ok = [RR.hypertrophy_s, RR.strength_s, [RR.hypertrophy_s ? RR.hypertrophy_s[0] : 60, RR.hypertrophy_max_s || 180], RR.isolation_s];

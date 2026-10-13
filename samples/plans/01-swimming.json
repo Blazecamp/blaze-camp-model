@@ -1792,7 +1792,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 66,
+      "total_main_sets": 64,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -1816,7 +1816,7 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 66,
+      "total_resistance_sets": 64,
       "rise_vs_prev": null,
       "athletic_budget": {
         "plyo_share": 0.1,
@@ -8818,7 +8818,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 67,
+      "total_main_sets": 65,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -8842,8 +8842,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 67,
-      "rise_vs_prev": 0.0152,
+      "total_resistance_sets": 65,
+      "rise_vs_prev": 0.0156,
       "athletic_budget": {
         "plyo_share": 0.115,
         "stage": "RC1",
@@ -15385,7 +15385,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 69,
+      "total_main_sets": 67,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -15409,8 +15409,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 69,
-      "rise_vs_prev": 0.0299,
+      "total_resistance_sets": 67,
+      "rise_vs_prev": 0.0308,
       "athletic_budget": {
         "plyo_share": 0.13,
         "stage": "RC1",
@@ -21960,7 +21960,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 70,
+      "total_main_sets": 68,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -21984,8 +21984,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 70,
-      "rise_vs_prev": 0.0145,
+      "total_resistance_sets": 68,
+      "rise_vs_prev": 0.0149,
       "athletic_budget": {
         "plyo_share": 0.145,
         "stage": "RC1",
@@ -28527,7 +28527,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 71,
+      "total_main_sets": 69,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -28551,8 +28551,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 71,
-      "rise_vs_prev": 0.0143,
+      "total_resistance_sets": 69,
+      "rise_vs_prev": 0.0147,
       "athletic_budget": {
         "plyo_share": 0.16,
         "stage": "RC2",
@@ -35326,7 +35326,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 73,
+      "total_main_sets": 71,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -35350,8 +35350,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 73,
-      "rise_vs_prev": 0.0282,
+      "total_resistance_sets": 71,
+      "rise_vs_prev": 0.029,
       "athletic_budget": {
         "plyo_share": 0.175,
         "stage": "RC2",
@@ -42113,7 +42113,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 74,
+      "total_main_sets": 72,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -42137,8 +42137,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 74,
-      "rise_vs_prev": 0.0137,
+      "total_resistance_sets": 72,
+      "rise_vs_prev": 0.0141,
       "athletic_budget": {
         "plyo_share": 0.19,
         "stage": "RC2",
@@ -48893,7 +48893,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 76,
+      "total_main_sets": 74,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -48917,8 +48917,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 76,
-      "rise_vs_prev": 0.027,
+      "total_resistance_sets": 74,
+      "rise_vs_prev": 0.0278,
       "athletic_budget": {
         "plyo_share": 0.205,
         "stage": "RC2",
@@ -55688,7 +55688,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 80,
+      "total_main_sets": 78,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -55712,8 +55712,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 80,
-      "rise_vs_prev": 0.0526,
+      "total_resistance_sets": 78,
+      "rise_vs_prev": 0.0541,
       "athletic_budget": {
         "plyo_share": 0.22,
         "stage": "RC3",
@@ -62712,7 +62712,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 81,
+      "total_main_sets": 79,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -62736,8 +62736,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 81,
-      "rise_vs_prev": 0.0125,
+      "total_resistance_sets": 79,
+      "rise_vs_prev": 0.0128,
       "athletic_budget": {
         "plyo_share": 0.235,
         "stage": "RC3",
@@ -69703,7 +69703,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 87,
+      "total_main_sets": 85,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -69727,8 +69727,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 87,
-      "rise_vs_prev": 0.0741,
+      "total_resistance_sets": 85,
+      "rise_vs_prev": 0.0759,
       "athletic_budget": {
         "plyo_share": 0.25,
         "stage": "RC3",
@@ -76741,7 +76741,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 87,
+      "total_main_sets": 85,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -76765,7 +76765,7 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 87,
+      "total_resistance_sets": 85,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": 0.25,
@@ -83969,20 +83969,20 @@
   ],
   "summary": {
     "total_resistance_sets_by_week": [
-      66,
+      64,
+      65,
       67,
+      68,
       69,
-      70,
       71,
-      73,
+      72,
       74,
-      76,
-      80,
-      81,
-      87,
-      87
+      78,
+      79,
+      85,
+      85
     ],
-    "max_weekly_rise": 0.0741,
+    "max_weekly_rise": 0.0759,
     "planned_steps_max": 0.1818,
     "stair_levels": [
       2,

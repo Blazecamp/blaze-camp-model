@@ -87,18 +87,18 @@ Your plan climbs like a stairway: small steps up to week 6, a bit bigger from we
 
 | Week | Level | Effort | Sets |
 |---|---|---|---|
-| 1 · test | 2.0 ▮▮ | 3 in the tank | 66 |
-| 2 | 2.6 ▮▮▮ | 3 in the tank | 67 |
-| 3 | 3.2 ▮▮▮ | 3 in the tank | 69 |
-| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 70 |
-| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 71 |
-| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 73 |
-| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 74 |
-| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 76 |
-| 9 ↑ | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 80 |
-| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 81 |
-| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 87 |
-| 12 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank | 87 |
+| 1 · test | 2.0 ▮▮ | 3 in the tank | 64 |
+| 2 | 2.6 ▮▮▮ | 3 in the tank | 65 |
+| 3 | 3.2 ▮▮▮ | 3 in the tank | 67 |
+| 4 | 3.8 ▮▮▮▮ | 3 in the tank | 68 |
+| 5 | 4.4 ▮▮▮▮ | 3 in the tank | 69 |
+| 6 | 5.0 ▮▮▮▮▮ | 3 in the tank | 71 |
+| 7 | 6.0 ▮▮▮▮▮▮ | 2 in the tank | 72 |
+| 8 | 7.0 ▮▮▮▮▮▮▮ | 2 in the tank | 74 |
+| 9 ↑ | 8.0 ▮▮▮▮▮▮▮▮ | 2 in the tank | 78 |
+| 10 | 9.0 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 79 |
+| 11 | 10.0 ▮▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 85 |
+| 12 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank | 85 |
 
 _↑ = a week that adds more than usual: adjust if needed._
 
@@ -127,7 +127,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Biceps | 6 (2 direct) | 6 (2 direct) | 7 (2 direct) |
 | Triceps | 5 (2 direct) | 5 (2 direct) | 5 (2 direct) |
 | Calves | 9 | 9 | 11 |
-| **Total** | **66** | **73** | **87** |
+| **Total** | **64** | **71** | **85** |
 
 ### Week 1 at a glance
 
@@ -156,7 +156,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Biceps | 6 6 6 6 · 6 6 7 7 · 7 7 7 7 | held: 2 direct sets a week |
 | Triceps | 5 5 5 5 · 5 5 5 5 · 5 5 5 5 | held: 2 direct sets a week |
 | Calves | 9 9 9 9 · 9 9 9 9 · 10 10 11 11 | 11 |
-| **Total** | 66 67 69 70 · 71 73 74 76 · 80 81 87 87 | 87 |
+| **Total** | 64 65 67 68 · 69 71 72 74 · 78 79 85 85 | 85 |
 
 ### Monday · S1 - jump + knee + pull
 
