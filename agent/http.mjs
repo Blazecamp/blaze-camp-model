@@ -34,7 +34,7 @@ async function readBody(req) {
   for await (const c of req) {
     size += c.length;
     if (size > MAX_BODY) throw Object.assign(new Error('body too large'), { status: 413 });
-    chunks.push(c);
+    chunks.push(Buffer.isBuffer(c) ? c : Buffer.from(c));
   }
   const s = Buffer.concat(chunks).toString('utf8');
   return s ? JSON.parse(s) : {};
