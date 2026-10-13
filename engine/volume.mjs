@@ -1922,8 +1922,12 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         const sc = sched[g];
         for (let i = 0; i < N; i++) sc[i] = Math.min(sc[i], gCap[g][i]);
         for (let i = N - 2; i >= 0; i--) sc[i] = Math.min(sc[i], sc[i + 1]);
+        // (v0.7 G-301, H21: a week the bonus raises is never raised above what any later week can hold - a raise set when the final
+        // sets still allowed it is not kept once a later round lowers the later weeks' caps; the stairway never steps down)
+        const capFrom = Array(N).fill(Infinity);
+        for (let i = N - 1; i >= 0; i--) capFrom[i] = Math.min(capAt(g, i), i < N - 1 ? capFrom[i + 1] : Infinity);
         let m = 0;
-        for (let i = 0; i < N; i++) { m = Math.max(m, weekMin[g][i]); if (sc[i] < m) sc[i] = Math.min(m, capAt(g, i)); }
+        for (let i = 0; i < N; i++) { m = Math.max(m, weekMin[g][i]); if (sc[i] < m) sc[i] = Math.max(sc[i], Math.min(m, capFrom[i])); }
       }
     };
     const keyG = (k) => (gb.find(x => x.key === k) || {}).g;
@@ -2508,7 +2512,8 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
         const r = bw[i] ? (bw[i].weekly_sets_by_group[g] || 0) : sc[i];
         if (r < sc[i] - EPS) { sc[i] = Math.max(0, Math.floor(r + EPS)); reconciled = true; lowered = true; }
       }
-      for (let i = sc.length - 2; i >= 0; i--) sc[i] = Math.min(sc[i], sc[i + 1]);
+      // (v0.7 G-302, H21 / H22: a step this levelling takes back is a change to the schedule too - the weeks' targets are written again)
+      for (let i = sc.length - 2; i >= 0; i--) if (sc[i] > sc[i + 1]) { sc[i] = sc[i + 1]; reconciled = true; }
       // a start or a top the weeks could not hold (a bonus exercise that opens with a later exercise block, an exercise that
       // changes): the schedule is fitted again between what the first and the last week hold, so it still arrives in the last
       // week (R4-PRG-01) - every week held at least the higher curve, so it holds this one

@@ -1141,7 +1141,12 @@ export function planAthletic(model, derived, shape, budget, weeksItems) {
       const HV = R.athletic.v7 && R.athletic.v7.hold;
       if (HV) {
         const maxRun = (HV.max_hold_weeks || 2) + 1;
-        const inBand = (d) => { const sv = SH ? shareTarget(d) : null; if (sv === null) return true; const sh = shareOf(d); return sh === null || (sh <= shareTop(sv) + EPS && sh >= sv - SH.tolerance - EPS); };
+        // (v0.7 G-303, R2-ATH-01 / V27 share_over: how far the week's plyo share sits outside its band - 0 inside it. A hold step never
+        // takes a week further outside its band, and a week over its share takes no reactive or ankle step up at all - even where the
+        // share cannot move, as in a stage-3 week whose stations are all repeated-contact drills: over the share, the plyometric work
+        // stays at its minimum dose)
+        const bandOff = (d) => { const sv = SH ? shareTarget(d) : null; if (sv === null) return 0; const sh = shareOf(d); if (sh === null) return 0; return Math.max(0, sh - shareTop(sv), sv - SH.tolerance - sh); };
+        const overTop = (d) => { const sv = SH ? shareTarget(d) : null; if (sv === null) return false; const sh = shareOf(d); return sh !== null && sh > shareTop(sv) + EPS; };
         for (const keys of Object.values(HV.families || {})) {
           const seqI = data.map((d, i) => i).filter((i) => !data[i].hold && famItems(data[i], keys).length > 0);
           if (seqI.length <= maxRun) continue;
@@ -1165,11 +1170,14 @@ export function planAthletic(model, derived, shape, budget, weeksItems) {
               // (never more than one dose step over the week's own sport target: a hold is better than an overdose)
               const T0 = (budget[d.ws.n - 1] && budget[d.ws.n - 1].targets) || {};
               const Tw = keys.reduce((acc, k) => acc + (isNum(T0[k]) ? T0[k] : 0), 0);
-              const ups = famItems(d, keys).filter((it) => !it.replaced && canUp(d, it) && v[p] + it.sets * it.b.step <= nextV + EPS && v[p] + it.sets * it.b.step <= Tw + it.sets * it.b.step + EPS && v[p] < Tw + EPS).sort((x1, x2) => x1.per / x1.b.hi - x2.per / x2.b.hi);
+              // (v0.7 G-304, R5-ATH-02 / V27 early_peak: a step that meets the week after it joins that week's run - never into a run longer
+              // than the hold allows: splitting one plateau must not lengthen the next one, the block's peak above all)
+              const joined = (to) => { if (Math.abs(to - nextV) >= EPS) return 1; let n = 1; for (let q = p + 1; q < v.length && Math.abs(v[q] - nextV) < EPS; q++) n++; return n; };
+              const ups = famItems(d, keys).filter((it) => !it.replaced && canUp(d, it) && v[p] + it.sets * it.b.step <= nextV + EPS && v[p] + it.sets * it.b.step <= Tw + it.sets * it.b.step + EPS && v[p] < Tw + EPS && joined(v[p] + it.sets * it.b.step) <= maxRun).sort((x1, x2) => x1.per / x1.b.hi - x2.per / x2.b.hi);
               for (const it of ups) {
-                const sh0 = inBand(d);
+                const off0 = bandOff(d);
                 it.per += it.b.step;
-                if (sh0 && !inBand(d)) { it.per -= it.b.step; continue; }
+                if (bandOff(d) > off0 + EPS || (PLY.includes(it.key) && overTop(d))) { it.per -= it.b.step; continue; }
                 moved = true; break;
               }
             }
@@ -1179,9 +1187,9 @@ export function planAthletic(model, derived, shape, budget, weeksItems) {
               const prevV = a > 0 ? v[a - 1] : -Infinity;
               const downs = famItems(d, keys).filter((it) => !it.replaced && canDown(it) && v[a] - it.sets * it.b.step > prevV + EPS && a < v.length - 1).sort((x1, x2) => x2.per / x2.b.hi - x1.per / x1.b.hi);
               for (const it of downs) {
-                const sh0 = inBand(d);
+                const off0 = bandOff(d);
                 it.per -= it.b.step;
-                if (sh0 && !inBand(d)) { it.per += it.b.step; continue; }
+                if (bandOff(d) > off0 + EPS) { it.per += it.b.step; continue; }
                 d.lowered = d.lowered || new Set(); for (const k of keys) d.lowered.add(k);
                 moved = true; break;
               }
