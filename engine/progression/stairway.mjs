@@ -404,7 +404,7 @@ function progressVector(progress, grows) {
     if (index > 0 && p < progress[index - 1]) throw new RangeError('progress must not decrease');
   }
   if (progress[0] !== 0) throw new RangeError('progress must start at 0');
-  if (grows && progress.length > 1 && progress.at(-1) !== 1) {
+  if (grows && progress.length > 1 && progress[progress.length - 1] !== 1) {
     throw new RangeError('growing progress must end at 1');
   }
 }
@@ -500,7 +500,8 @@ export function scheduleEpochs(input) {
     code: 'epoch_failed', epoch: failed, cause: scheduled[failed],
   });
   for (let index = 1; index < scheduled.length; index += 1) {
-    const previous = scheduled[index - 1].weeks.at(-1);
+    const prevWeeks = scheduled[index - 1].weeks;
+    const previous = prevWeeks[prevWeeks.length - 1]; // (no Array.prototype.at: Safari < 15.4, G-311)
     const next = scheduled[index].weeks[0];
     if (previous.length !== next.length || previous.some((sets, coordinate) => sets !== next[coordinate])) {
       return freeze({ status: 'unsupported', scope: 'epoch_construction',

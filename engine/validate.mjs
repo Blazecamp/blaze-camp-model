@@ -56,6 +56,11 @@ const BODYWEIGHT_EXTRA_TOKENS = ['pullup_bar', 'dip_bars', 'rings', 'trx'];
  * @returns {{ok:boolean, checks:Array<{id:string, key:string, severity:'error'|'warn', pass:boolean,
  *            violations:Array<{where:{week?:number, weekday?:string, slot_id?:string}, key:string, args?:Object}>}>}}
  */
+// (G-311: the forbidden-key paths of the plan under check, read once per check run - V26 and H13 both read them; nothing writes the plan
+// while it is checked)
+const FORBIDDEN_OF = new WeakMap();
+const forbiddenOf = (c) => { let v = FORBIDDEN_OF.get(c); if (!v) { v = forbiddenKeys(c.plan); FORBIDDEN_OF.set(c, v); } return v; };
+
 export function validatePlan(plan, model) {
   const c = context(plan, model);
   const out = {};
@@ -1283,7 +1288,7 @@ function v26Inputs(c) {
     if (!ia) out.push(viol({}, k, { rule: 'input_audit_missing' }));
     else if ((ia.forbidden_found || []).length) out.push(viol({}, k, { rule: 'forbidden_input', keys: ia.forbidden_found.join(',') }));
   }
-  for (const p of forbiddenKeys(c.plan)) out.push(viol({}, k, { rule: 'forbidden_key_in_plan', path: p }));
+  for (const p of forbiddenOf(c)) out.push(viol({}, k, { rule: 'forbidden_key_in_plan', path: p }));
   return out;
 }
 
@@ -1466,13 +1471,16 @@ function v33Video(c) {
   for (const a of Array.isArray(c.meta.addons) ? c.meta.addons : []) if (a && bad(a.video)) out.push(viol({}, k, { rule: 'addon_video_not_a_search_link', exercise: String(a.exercise_id) }));
   if (V && V.forbidden_re) {
     const re = new RegExp(V.forbidden_re, 'i');
-    const walk = (o, path, depth) => {
-      if (typeof o === 'string') { if (re.test(o)) out.push(viol({}, k, { rule: 'third_party_link', path })); return; }
+    // (G-311: the path is written out only for a string that matches - the same paths in the same order)
+    const segs = [];
+    const pathOf = () => { let p0 = ''; for (const sg of segs) p0 = typeof sg === 'number' ? p0 + '[' + sg + ']' : (p0 ? p0 + '.' + sg : sg); return p0; };
+    const walk = (o, depth) => {
+      if (typeof o === 'string') { if (re.test(o)) out.push(viol({}, k, { rule: 'third_party_link', path: pathOf() })); return; }
       if (!o || typeof o !== 'object' || depth > 12) return;
-      if (Array.isArray(o)) o.forEach((x, i) => walk(x, path + '[' + i + ']', depth + 1));
-      else for (const key of Object.keys(o)) { if (key !== 'validation') walk(o[key], path ? path + '.' + key : key, depth + 1); }
+      if (Array.isArray(o)) o.forEach((x, i) => { segs.push(i); walk(x, depth + 1); segs.pop(); });
+      else for (const key of Object.keys(o)) { if (key !== 'validation') { segs.push(key); walk(o[key], depth + 1); segs.pop(); } }
     };
-    walk(c.plan, '', 0);
+    walk(c.plan, 0);
   }
   return out;
 }
@@ -1596,7 +1604,7 @@ function v37CarryDose(c) {
 // ---------------------------------------------------------------------------------------------------------------- H-only checks
 
 function h13NoSex(c) {
-  return forbiddenKeys(c.plan).filter(p => /(^|\.)(sex|gender)$/i.test(p.replace(/\[\d+\]/g, ''))).map(p => viol({}, K.h13, { path: p }));
+  return forbiddenOf(c).filter(p => /(^|\.)(sex|gender)$/i.test(p.replace(/\[\d+\]/g, ''))).map(p => viol({}, K.h13, { path: p }));
 }
 
 function h14I18n(c) {

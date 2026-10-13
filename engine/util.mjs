@@ -187,8 +187,17 @@ export function makeSeed(intakeForHash, modelVersion) {
 
 /** @param {string} seed @param {...(string|number)} parts @returns {number} uint32 */
 export function tieBreak(seed, ...parts) {
-  return parseInt(hash53(seed + '|' + parts.join('|')).slice(0, 8), 16) >>> 0;
+  const key = seed + '|' + parts.join('|');
+  let v = TIE_CACHE.get(key);
+  if (v === undefined) {
+    v = parseInt(hash53(key).slice(0, 8), 16) >>> 0;
+    if (TIE_CACHE.size >= 100000) TIE_CACHE.clear();
+    TIE_CACHE.set(key, v);
+  }
+  return v;
 }
+// (G-311, performance only: a pure function of its input string, kept in a bounded cache)
+const TIE_CACHE = new Map();
 
 /** half away from zero, 2 decimals @param {number} x @returns {number} */
 export function round2(x) {
@@ -281,13 +290,23 @@ const FORBIDDEN = /^(sex|gender|sleep|stress|recovery|job|hard_job_or_other_spor
 /** dotted paths of keys that must never appear (H13, H16) @param {*} obj @returns {string[]} */
 export function forbiddenKeys(obj, prefix = '') {
   const out = [];
+  forbiddenWalk(obj, prefix, [], out);
+  return out;
+}
+// (G-311, performance only: one accumulator and the path built only for a key that matches - the same paths in the same order)
+function forbiddenPath(prefix, segs) {
+  let p = prefix;
+  for (const sg of segs) p = typeof sg === 'number' ? `${p}[${sg}]` : (p ? `${p}.${sg}` : sg);
+  return p;
+}
+function forbiddenWalk(obj, prefix, segs, out) {
   if (obj && typeof obj === 'object') {
-    if (Array.isArray(obj)) obj.forEach((v, i) => out.push(...forbiddenKeys(v, `${prefix}[${i}]`)));
+    if (Array.isArray(obj)) obj.forEach((v, i) => { segs.push(i); forbiddenWalk(v, prefix, segs, out); segs.pop(); });
     else for (const k of Object.keys(obj)) {
-      const p = prefix ? `${prefix}.${k}` : k;
-      if (FORBIDDEN.test(k)) out.push(p);
-      out.push(...forbiddenKeys(obj[k], p));
+      segs.push(k);
+      if (FORBIDDEN.test(k)) out.push(forbiddenPath(prefix, segs));
+      forbiddenWalk(obj[k], prefix, segs, out);
+      segs.pop();
     }
   }
-  return out;
 }
