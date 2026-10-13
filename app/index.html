@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blaze Camp - Plan Builder</title>
+<meta name="description" content="Build a complete training plan from Coach Lalo's Blaze Camp model, in English or Spanish. Nothing you enter is saved.">
+<meta name="theme-color" content="#0e0e10">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e0e10'/%3E%3Cpath d='M17 4c1 5 6 7 6 14a7 7 0 0 1-14 0c0-4 2-6 4-8 0 3 1 4 2 5 1-4 1-7 2-11z' fill='%23ff6a2b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="./" aria-label="Blaze Camp">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#1d1d22"/><path d="M17 4c1 5 6 7 6 14a7 7 0 0 1-14 0c0-4 2-6 4-8 0 3 1 4 2 5 1-4 1-7 2-11z" fill="#ff6a2b"/><path d="M16 15c.6 3 3 4 3 7a3 3 0 0 1-6 0c0-2 1-3 2-4 0 1 .5 1.6 1 2 .3-1.6 0-3.2 0-5z" fill="#ffd2b8"/></svg>
+    <span><span class="brand-word">BLAZE CAMP</span><span class="brand-sub" id="brand-sub">Plan Builder</span></span>
+  </a>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-action="lang" data-value="en" aria-pressed="true">EN</button>
+    <button type="button" data-action="lang" data-value="es" aria-pressed="false">ES</button>
+  </div>
+</header>
+<main id="app"><div class="loading"><div class="spinner"></div><p>Loading...</p></div></main>
+<div id="print-root" aria-hidden="true"></div>
+<noscript><p style="padding:16px">This plan builder needs JavaScript. / Este creador de planes necesita JavaScript.</p></noscript>
+</body>
+</html>

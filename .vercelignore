@@ -1,0 +1,17 @@
+# Vercel serves only what the Plan Builder needs: app/, engine/ (no fixtures), model/, the disclaimers and the license.
+# Everything else in this repository (the coach's sources, research, tests, samples) stays on GitHub only.
+/*
+!/index.html
+!/app
+!/engine
+!/model
+!/DISCLAIMER.md
+!/DISCLAIMER.es.md
+!/LICENSE
+!/vercel.json
+/app/screenshots
+/app/README.md
+/engine/fixtures
+/engine/*.md
+/model/*.md
+/model/COMPILE_REPORT.json
