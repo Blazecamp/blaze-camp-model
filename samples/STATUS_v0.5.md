@@ -437,8 +437,8 @@ Decisions G-291 ... G-300 (`engine/DECISIONS.md`); tests `tests/v07-fix-r9.test.
 
 | Check | After this round |
 |---|---|
-| Benchmark (102 plans) against `results_v06.json` | see `design/bench/V07.md` (scorer 2.7, G-300) |
-| Tests (`node --test tests/`) | see the commit message |
-| Sweep, 1,578 plans on each model | see the commit message |
+| Benchmark (102 plans, scorer 2.7) against `results_v06.json` | mean 98.04 (v06 98.02), lowest 89.35, hard violations 2 in 1 plan (as v06), 60 plans pass every acceptance row (v06 57); 13 higher, 12 lower by 0.1-1.05: bench 34 / 05 (upper laterality, already lower at the 0.7.0 merge - the R5-VOL-01 credit, G-240), seven physique / combat plans by 0.2-0.6 (exposure imbalance: the first lift's first step lands on one exposure a week before the other), 07 by 0.14 (Monday's dip at 5 next to the bench at 4 in weeks 11-12, G-292), 38 / 02 / 63 by 0.1-0.3 (athletic share) |
+| Tests (`node --test tests/`) | 1,668: 1,663 pass, 0 fail, 3 to-do, 2 skipped (25 new in `tests/v07-fix-r9.test.mjs`; 6 converted, each with a line in DECISIONS) |
+| Sweep, 1,578 plans on each model | 0 throws, 0 render problems; 5 plans fail an error check on each model (V27 random-451 / 878 / 940, H21 + H22 random-1332) - every one fails the same way on the engine 0.7.0 merge (`9d888ba`), none is new in this round (random-941 of that commit now passes) |
 | Scorer self-test | 51 pass |
 
