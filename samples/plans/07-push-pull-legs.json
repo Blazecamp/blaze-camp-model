@@ -29120,8 +29120,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23,
         "lats_upper_back": 23,
         "side_delts": 9,
@@ -29138,8 +29138,8 @@
       },
       "direct_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15,
-        "glutes": 3,
+        "hamstrings": 14,
+        "glutes": 4,
         "chest": 20,
         "lats_upper_back": 23,
         "side_delts": 9,
@@ -29156,8 +29156,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23,
         "lats_upper_back": 23,
         "shoulders": 21.25,
@@ -29167,8 +29167,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23,
         "lats_upper_back": 23,
         "shoulders": 21.25,
@@ -29275,9 +29275,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "barbell-deadlift-conventional",
-            "day": "Sat",
-            "slot_id": "Sat.Legs 2.s05"
+            "exercise": "barbell-hip-thrust",
+            "day": "Wed",
+            "slot_id": "Wed.Legs 1.s06"
           }
         },
         {
@@ -32442,7 +32442,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 1",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 91,
+          "est_minutes": 93,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -32987,7 +32987,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust",
                     "copy_name": "Barbell Hip Thrust"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -36715,7 +36715,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 2",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 86,
+          "est_minutes": 81,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -37115,7 +37115,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)",
                     "copy_name": "Barbell Deadlift (conventional)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 4,
@@ -38146,8 +38146,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23.5,
         "lats_upper_back": 23,
         "side_delts": 9,
@@ -38164,8 +38164,8 @@
       },
       "direct_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15,
-        "glutes": 3,
+        "hamstrings": 14,
+        "glutes": 4,
         "chest": 20,
         "lats_upper_back": 23,
         "side_delts": 9,
@@ -38182,8 +38182,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23.5,
         "lats_upper_back": 23,
         "shoulders": 21.25,
@@ -38193,8 +38193,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23.5,
         "lats_upper_back": 23,
         "shoulders": 21.25,
@@ -41605,7 +41605,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 1",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 93,
+          "est_minutes": 95,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -42162,7 +42162,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust",
                     "copy_name": "Barbell Hip Thrust"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -46015,7 +46015,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 2",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 86,
+          "est_minutes": 81,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -46419,7 +46419,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)",
                     "copy_name": "Barbell Deadlift (conventional)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 4,
@@ -47464,8 +47464,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23.5,
         "lats_upper_back": 24,
         "side_delts": 9,
@@ -47482,8 +47482,8 @@
       },
       "direct_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15,
-        "glutes": 3,
+        "hamstrings": 14,
+        "glutes": 4,
         "chest": 20,
         "lats_upper_back": 24,
         "side_delts": 9,
@@ -47500,8 +47500,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23.5,
         "lats_upper_back": 24,
         "shoulders": 21.5,
@@ -47511,8 +47511,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 21,
-        "hamstrings": 15.75,
-        "glutes": 9.25,
+        "hamstrings": 15,
+        "glutes": 10,
         "chest": 23.5,
         "lats_upper_back": 24,
         "shoulders": 21.5,
@@ -50911,7 +50911,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 1",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 93,
+          "est_minutes": 95,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -51468,7 +51468,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust",
                     "copy_name": "Barbell Hip Thrust"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -55321,7 +55321,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 2",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 86,
+          "est_minutes": 81,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -55725,7 +55725,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)",
                     "copy_name": "Barbell Deadlift (conventional)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 4,
@@ -56770,8 +56770,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 22,
-        "hamstrings": 15.75,
-        "glutes": 9.5,
+        "hamstrings": 15,
+        "glutes": 10.25,
         "chest": 24.5,
         "lats_upper_back": 24,
         "side_delts": 10,
@@ -56788,8 +56788,8 @@
       },
       "direct_sets_by_muscle": {
         "quads": 22,
-        "hamstrings": 15,
-        "glutes": 3,
+        "hamstrings": 14,
+        "glutes": 4,
         "chest": 21,
         "lats_upper_back": 24,
         "side_delts": 10,
@@ -56806,8 +56806,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 22,
-        "hamstrings": 15.75,
-        "glutes": 9.5,
+        "hamstrings": 15,
+        "glutes": 10.25,
         "chest": 24.5,
         "lats_upper_back": 24,
         "shoulders": 22.75,
@@ -56817,8 +56817,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 22,
-        "hamstrings": 15.75,
-        "glutes": 9.5,
+        "hamstrings": 15,
+        "glutes": 10.25,
         "chest": 24.5,
         "lats_upper_back": 24,
         "shoulders": 22.75,
@@ -60250,7 +60250,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 1",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 93,
+          "est_minutes": 95,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -60807,7 +60807,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust",
                     "copy_name": "Barbell Hip Thrust"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -64660,7 +64660,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 2",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 88,
+          "est_minutes": 83,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -65064,7 +65064,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)",
                     "copy_name": "Barbell Deadlift (conventional)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 4,
@@ -66109,8 +66109,8 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 23,
-        "hamstrings": 15.75,
-        "glutes": 9.75,
+        "hamstrings": 15,
+        "glutes": 10.5,
         "chest": 25.5,
         "lats_upper_back": 25,
         "side_delts": 10,
@@ -66127,8 +66127,8 @@
       },
       "direct_sets_by_muscle": {
         "quads": 23,
-        "hamstrings": 15,
-        "glutes": 3,
+        "hamstrings": 14,
+        "glutes": 4,
         "chest": 22,
         "lats_upper_back": 25,
         "side_delts": 10,
@@ -66145,8 +66145,8 @@
       },
       "main_sets_by_muscle": {
         "quads": 23,
-        "hamstrings": 15.75,
-        "glutes": 9.75,
+        "hamstrings": 15,
+        "glutes": 10.5,
         "chest": 25.5,
         "lats_upper_back": 25,
         "shoulders": 23,
@@ -66156,8 +66156,8 @@
       },
       "weekly_sets_by_line": {
         "quads": 23,
-        "hamstrings": 15.75,
-        "glutes": 9.75,
+        "hamstrings": 15,
+        "glutes": 10.5,
         "chest": 25.5,
         "lats_upper_back": 25,
         "shoulders": 23,
@@ -69589,7 +69589,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 1",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 96,
+          "est_minutes": 98,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -70146,7 +70146,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust",
                     "copy_name": "Barbell Hip Thrust"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -73999,7 +73999,7 @@
           "label_key": "day.aesthetics.6.ppl_x2.Legs 2",
           "full_body": false,
           "format": "straight",
-          "est_minutes": 90,
+          "est_minutes": 85,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": "ppl_legs",
@@ -74403,7 +74403,7 @@
                     "url": "https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)",
                     "copy_name": "Barbell Deadlift (conventional)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 4,
@@ -75623,9 +75623,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "barbell-hip-thrust",
-            "day": "Wed",
-            "slot_id": "Wed.Legs 1.s06"
+            "exercise": "barbell-deadlift-conventional",
+            "day": "Sat",
+            "slot_id": "Sat.Legs 2.s05"
           }
         },
         {
@@ -113949,11 +113949,11 @@
         14.75,
         14.75,
         14.75,
-        15.75,
-        15.75,
-        15.75,
-        15.75,
-        15.75,
+        15,
+        15,
+        15,
+        15,
+        15,
         16,
         17,
         18,
@@ -113963,11 +113963,11 @@
         8.75,
         8.75,
         9,
-        9.25,
-        9.25,
-        9.25,
-        9.5,
-        9.75,
+        10,
+        10,
+        10,
+        10.25,
+        10.5,
         11,
         11,
         11,
@@ -114175,11 +114175,11 @@
         14.75,
         14.75,
         14.75,
-        15.75,
-        15.75,
-        15.75,
-        15.75,
-        15.75,
+        15,
+        15,
+        15,
+        15,
+        15,
         16,
         17,
         18,
@@ -114189,11 +114189,11 @@
         8.75,
         8.75,
         9,
-        9.25,
-        9.25,
-        9.25,
-        9.5,
-        9.75,
+        10,
+        10,
+        10,
+        10.25,
+        10.5,
         11,
         11,
         11,

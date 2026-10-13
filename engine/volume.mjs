@@ -1001,7 +1001,10 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
       // group's first added set on that day in the training block (not in a week that tests it)
       // (R3-VOL-03 'alternate between the two exposures': the lead of a day that holds more of the group's sets than its twin waits)
       const daySum = (di) => daySlotsOf(di).reduce((a, s2) => a + (owner[s2.slot_id] === g && active(s2) && !isGroupBonus(s2) ? sets[s2.slot_id] : 0), 0);
-      const notAhead = (c) => days.every((d, dj) => !twinDays(c.di, dj) || !isMainDi(dj) || daySum(c.di) <= daySum(dj));
+      // (read on a day type's two exposures whose first lift of the group is the same template station - A1 / A2, 'Legs 1' / 'Legs 2' -
+      // not on days of one stem that lead the group with different lifts, a swimmer's S1 / S2)
+      const sameLead = (a, b) => { const la = leadSlotOf(a, g), lb = leadSlotOf(b, g); return !!la && !!lb && stationPos(la) === stationPos(lb); };
+      const notAhead = (c) => days.every((d, dj) => !twinDays(c.di, dj) || !isMainDi(dj) || !sameLead(c.di, dj) || daySum(c.di) <= daySum(dj));
       const kFirst = (c) => (LFS && stepWeek && leadBase && !testedSlots.has(c.s.slot_id) && leadSlotOf(c.di, g) === c.s && c.n <= (leadBase[c.s.slot_id] || 0) && notAhead(c) ? 0 : 1);
       // (two leads in line on the two exposures of one day type: the first exposure first - R3-VOL-03 'Monday's first ..., then Thursday's')
       const kFirstExp = (a, b) => (kFirst(a) === 0 && kFirst(b) === 0 && twinDays(a.di, b.di) ? exposureOf(a.di) - exposureOf(b.di) : 0);

@@ -413,3 +413,32 @@ some words (the table legend, the glance counts, the test-day intensifier).
 | Tests (`node --test tests/`) | 1,510: 1,504 pass, 0 fail, 4 to-do, 2 skipped (20 new in `tests/v06-fix3.test.mjs`; 7 converted, each with a line in DECISIONS) |
 | Sweep, 1,578 plans on each model | 0 failing error checks, 0 render problems, 0 throws |
 | Scorer self-test | 51 pass |
+
+# Engine 0.7.0 (round 5): fix round on the round-9 coach-eye reviews (2026-10-13)
+
+Decisions G-291 ... G-300 (`engine/DECISIONS.md`); tests `tests/v07-fix-r9.test.mjs` (named by coach id). Every sample changes.
+
+- **07 (VOL-07; r9 M1, regression).** The day's first lift of a group takes the group's first added set of the block (G-291), and the
+  dip waits behind the day's bench (G-292). Monday bench 3 -> 4 in week 7 (3 + test in week 12), Thursday flat DB bench 3 -> 4 in week 3;
+  the dips hold 3 until the benches have stepped (Thursday 4 from week 5, Monday 4 from week 9, 5 in weeks 11-12 next to the bench's 4:
+  the triceps' last set, every other triceps lift at its top). Every group reaches its final sets (no cap). R5-VOL-01 credits unchanged.
+  The rule is general: 02's counted front squat 3 -> 4 (r9 02 m3), 06's front squat / hip thrust / leg press step earlier.
+- **04 (R5-GRD-04 'keep it varied', R5-CLS-05; r9 M1, M2, m1).** The class's own WODs move one format step a week and change two
+  stations a week from the day's pool (no WOD slot repeats two weeks running); the weekly Girl and Murph sit on training days, the
+  benchmarks on Saturday (G-293). Every isolation item runs 10-12 reps (was 15-20; G-294).
+- **08, 01, 02, 03 (R5-ATH-08; r9 08 M1, 02 m14).** No reported low-back pain: one moving rotational drill a week (08 Monday: bicycle
+  crunch -> cable chop), next to the plank / side plank / bird dogs / dead bugs; a core exercise changes at each block boundary on both
+  of 08's days (G-295, G-296). With low-back pain entered the low-back list holds, no rotation.
+- **02 (r9 m2).** Week 12's athletic line says why it is lighter: "Test week: jumps, throws and sprints are lighter so you test fresh."
+  (EN + ES; G-297). **r9 m1 not fixed:** the library has two two-foot ballistic lateral jumps, each used once a week, so block 1 holds a
+  lateral jump on Monday and Thursday only (G-298, open).
+- **06, 07, 08 (R5-ATH-04, PROPOSED general reading).** One light overhead press a week as joint care (tall-kneeling DB press, 2 x 12-15,
+  no muscle-set credit, no load rule, no superset partner); the incline presses keep their slots (G-299).
+
+| Check | After this round |
+|---|---|
+| Benchmark (102 plans) against `results_v06.json` | see `design/bench/V07.md` (scorer 2.7, G-300) |
+| Tests (`node --test tests/`) | see the commit message |
+| Sweep, 1,578 plans on each model | see the commit message |
+| Scorer self-test | 51 pass |
+

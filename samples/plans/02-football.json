@@ -56680,14 +56680,14 @@
         "glutes": 5.5,
         "chest": 11,
         "lats_upper_back": 11,
-        "side_delts": 3.5,
+        "side_delts": 2.75,
         "rear_delts": 3.75,
         "biceps": 6.75,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 4.75,
+        "front_delts": 5.75,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -56698,14 +56698,14 @@
         "glutes": 0,
         "chest": 11,
         "lats_upper_back": 11,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 0,
-        "front_delts": 2,
+        "front_delts": 3,
         "traps": 0,
         "adductors": 0,
         "neck": 0
@@ -56718,7 +56718,7 @@
         "lats_upper_back": 11,
         "shoulders": 11.5,
         "biceps": 6.75,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -56729,7 +56729,7 @@
         "lats_upper_back": 11,
         "shoulders": 11.5,
         "biceps": 6.75,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -56739,7 +56739,7 @@
         "chest": 11,
         "shoulders": 11.5,
         "biceps": 6.75,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -56749,7 +56749,7 @@
         "chest": 11,
         "shoulders": 11.5,
         "biceps": 6.75,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12
       },
       "target_by_group": {
@@ -56854,9 +56854,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "seated-db-lateral-raise",
-            "day": "Tue",
-            "slot_id": "Tue.B1.s13"
+            "exercise": "alternating-db-overhead-press",
+            "day": "Fri",
+            "slot_id": "Fri.B2.s10"
           }
         }
       ],
@@ -59004,7 +59004,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 128,
+          "est_minutes": 126,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -59078,7 +59078,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -60820,7 +60820,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise",
                     "copy_name": "Seated DB Lateral Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -63453,7 +63453,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 105,
+          "est_minutes": 108,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -64699,7 +64699,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press",
                     "copy_name": "Alternating DB Overhead Press"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -65948,14 +65948,14 @@
         "glutes": 5.5,
         "chest": 11,
         "lats_upper_back": 12,
-        "side_delts": 3.5,
+        "side_delts": 2.75,
         "rear_delts": 4,
         "biceps": 7,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 4.75,
+        "front_delts": 5.75,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -65966,14 +65966,14 @@
         "glutes": 0,
         "chest": 11,
         "lats_upper_back": 12,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 0,
-        "front_delts": 2,
+        "front_delts": 3,
         "traps": 0,
         "adductors": 0,
         "neck": 0
@@ -65986,7 +65986,7 @@
         "lats_upper_back": 12,
         "shoulders": 11.75,
         "biceps": 7,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -65997,7 +65997,7 @@
         "lats_upper_back": 12,
         "shoulders": 11.75,
         "biceps": 7,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -66007,7 +66007,7 @@
         "chest": 11,
         "shoulders": 11.75,
         "biceps": 7,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -66017,7 +66017,7 @@
         "chest": 11,
         "shoulders": 11.75,
         "biceps": 7,
-        "triceps": 7.25,
+        "triceps": 7.5,
         "calves": 12
       },
       "target_by_group": {
@@ -68264,7 +68264,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 128,
+          "est_minutes": 126,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -68338,7 +68338,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -70080,7 +70080,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise",
                     "copy_name": "Seated DB Lateral Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -72713,7 +72713,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 105,
+          "est_minutes": 108,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -73959,7 +73959,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press",
                     "copy_name": "Alternating DB Overhead Press"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -75208,14 +75208,14 @@
         "glutes": 5.5,
         "chest": 12,
         "lats_upper_back": 12,
-        "side_delts": 3.5,
+        "side_delts": 2.75,
         "rear_delts": 4,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5,
+        "front_delts": 6,
         "traps": 0,
         "adductors": 3,
         "neck": 0
@@ -75226,14 +75226,14 @@
         "glutes": 0,
         "chest": 12,
         "lats_upper_back": 12,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 0,
-        "front_delts": 2,
+        "front_delts": 3,
         "traps": 0,
         "adductors": 0,
         "neck": 0
@@ -75246,7 +75246,7 @@
         "lats_upper_back": 12,
         "shoulders": 12,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -75257,7 +75257,7 @@
         "lats_upper_back": 12,
         "shoulders": 12,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -75267,7 +75267,7 @@
         "chest": 12,
         "shoulders": 12,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -75277,7 +75277,7 @@
         "chest": 12,
         "shoulders": 12,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "target_by_group": {
@@ -77549,7 +77549,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 137,
+          "est_minutes": 135,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -77623,7 +77623,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -79386,7 +79386,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise",
                     "copy_name": "Seated DB Lateral Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -82070,7 +82070,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 121,
+          "est_minutes": 124,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -83307,7 +83307,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)",
                     "copy_name": "Seesaw DB Press (alternating, one up / one down)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -84571,14 +84571,14 @@
         "glutes": 5.75,
         "chest": 12,
         "lats_upper_back": 12,
-        "side_delts": 3.5,
+        "side_delts": 2.75,
         "rear_delts": 4,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 1,
-        "front_delts": 5,
+        "front_delts": 6,
         "traps": 0,
         "adductors": 3.25,
         "neck": 0
@@ -84589,14 +84589,14 @@
         "glutes": 0,
         "chest": 12,
         "lats_upper_back": 12,
-        "side_delts": 3,
+        "side_delts": 2,
         "rear_delts": 2,
         "biceps": 4,
         "triceps": 4,
         "calves": 12,
         "abs_obliques": 20,
         "forearms": 0,
-        "front_delts": 2,
+        "front_delts": 3,
         "traps": 0,
         "adductors": 0,
         "neck": 0
@@ -84609,7 +84609,7 @@
         "lats_upper_back": 12,
         "shoulders": 12,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_line": {
@@ -84620,7 +84620,7 @@
         "lats_upper_back": 12,
         "shoulders": 12,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "weekly_sets_by_group": {
@@ -84630,7 +84630,7 @@
         "chest": 12,
         "shoulders": 12,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "main_sets_by_group": {
@@ -84640,7 +84640,7 @@
         "chest": 12,
         "shoulders": 12,
         "biceps": 7,
-        "triceps": 7.5,
+        "triceps": 7.75,
         "calves": 12
       },
       "target_by_group": {
@@ -86895,7 +86895,7 @@
           "label_key": "day.athletic.4.B1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 137,
+          "est_minutes": 135,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -86969,7 +86969,7 @@
                 "Tue.B1.s13",
                 "Tue.B1.s14"
               ],
-              "minutes_saved": 5,
+              "minutes_saved": 3.5,
               "on": false
             }
           ],
@@ -88732,7 +88732,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise",
                     "copy_name": "Seated DB Lateral Raise"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -91416,7 +91416,7 @@
           "label_key": "day.athletic.4.B2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 124,
+          "est_minutes": 127,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -92653,7 +92653,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seesaw%20DB%20Press%20(alternating%2C%20one%20up%20%2F%20one%20down)",
                     "copy_name": "Seesaw DB Press (alternating, one up / one down)"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -94115,9 +94115,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "seesaw-db-press-alternating-one-up-one-down",
-            "day": "Fri",
-            "slot_id": "Fri.B2.s10"
+            "exercise": "seated-db-lateral-raise",
+            "day": "Tue",
+            "slot_id": "Tue.B1.s13"
           }
         }
       ],
@@ -112936,10 +112936,10 @@
         2.5,
         2.5,
         2.5,
-        3.5,
-        3.5,
-        3.5,
-        3.5,
+        2.75,
+        2.75,
+        2.75,
+        2.75,
         3.75,
         3.75
       ],
@@ -112978,10 +112978,10 @@
         7,
         7.25,
         7.25,
-        7.25,
-        7.25,
         7.5,
         7.5,
+        7.75,
+        7.75,
         8,
         8
       ],
@@ -113034,10 +113034,10 @@
         4.5,
         4.75,
         4.75,
-        4.75,
-        4.75,
-        5,
-        5,
+        5.75,
+        5.75,
+        6,
+        6,
         6.25,
         6.25
       ],
@@ -113190,10 +113190,10 @@
         7,
         7.25,
         7.25,
-        7.25,
-        7.25,
         7.5,
         7.5,
+        7.75,
+        7.75,
         8,
         8
       ],
@@ -113304,10 +113304,10 @@
         7,
         7.25,
         7.25,
-        7.25,
-        7.25,
         7.5,
         7.5,
+        7.75,
+        7.75,
         8,
         8
       ],

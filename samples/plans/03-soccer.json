@@ -15680,17 +15680,17 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "step-up-forward-and-lateral",
+            "exercise": "front-squat-barbell",
             "day": "Mon",
-            "slot_id": "Mon.S1.s12"
+            "slot_id": "Mon.S1.s10"
           }
         },
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "single-arm-db-kb-row",
-            "day": "Fri",
-            "slot_id": "Fri.S3.s08"
+            "exercise": "seal-row-db-supinated-grip",
+            "day": "Mon",
+            "slot_id": "Mon.S1.s09"
           }
         }
       ],
@@ -15721,7 +15721,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 93,
+          "est_minutes": 95,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_A",
@@ -15768,7 +15768,7 @@
                 "Mon.S1.s09",
                 "Mon.S1.s10"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -16741,7 +16741,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)",
                     "copy_name": "Seal Row - DB (Supinated Grip)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -16867,7 +16867,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -17171,7 +17171,7 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -20146,7 +20146,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 120,
+          "est_minutes": 117,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -21457,7 +21457,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20DB%2FKB%20Row",
                     "copy_name": "Single-Arm DB/KB Row"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -22475,12 +22475,12 @@
       },
       "weekly_sets_by_muscle": {
         "quads": 14,
-        "hamstrings": 11,
+        "hamstrings": 10,
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 12,
         "side_delts": 3,
-        "rear_delts": 4.75,
+        "rear_delts": 5,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10,
@@ -22488,12 +22488,12 @@
         "forearms": 0.5,
         "front_delts": 2.5,
         "traps": 0,
-        "adductors": 2.75,
+        "adductors": 3,
         "neck": 0
       },
       "direct_sets_by_muscle": {
         "quads": 14,
-        "hamstrings": 11,
+        "hamstrings": 10,
         "glutes": 0,
         "chest": 10,
         "lats_upper_back": 12,
@@ -22511,42 +22511,42 @@
       },
       "main_sets_by_muscle": {
         "quads": 14,
-        "hamstrings": 11,
+        "hamstrings": 10,
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 12,
-        "shoulders": 10.25,
+        "shoulders": 10.5,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10
       },
       "weekly_sets_by_line": {
         "quads": 14,
-        "hamstrings": 11,
+        "hamstrings": 10,
         "glutes": 5,
         "chest": 10,
         "lats_upper_back": 12,
-        "shoulders": 10.25,
+        "shoulders": 10.5,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10
       },
       "weekly_sets_by_group": {
         "quads": 14,
-        "hips": 13.75,
+        "hips": 13,
         "back": 12,
         "chest": 10,
-        "shoulders": 10.25,
+        "shoulders": 10.5,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10
       },
       "main_sets_by_group": {
         "quads": 14,
-        "hips": 13.75,
+        "hips": 13,
         "back": 12,
         "chest": 10,
-        "shoulders": 10.25,
+        "shoulders": 10.5,
         "biceps": 5,
         "triceps": 4.5,
         "calves": 10
@@ -22566,7 +22566,7 @@
         "biceps",
         "triceps"
       ],
-      "total_main_sets": 67,
+      "total_main_sets": 66,
       "group_counts_by_day": {
         "Mon": {
           "quads": 3,
@@ -22589,8 +22589,8 @@
           "calves": 1
         }
       },
-      "total_resistance_sets": 67,
-      "rise_vs_prev": 0.0635,
+      "total_resistance_sets": 66,
+      "rise_vs_prev": 0.0476,
       "athletic_budget": {
         "plyo_share": 0.5625,
         "stage": "RC2",
@@ -22643,25 +22643,17 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "leg-extension-machine",
+            "exercise": "step-up-forward-and-lateral",
             "day": "Mon",
-            "slot_id": "Mon.S1.s13"
+            "slot_id": "Mon.S1.s12"
           }
         },
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "45-degree-hyperextension-back-hip-extension",
-            "day": "Wed",
-            "slot_id": "Wed.S2.s10"
-          }
-        },
-        {
-          "key": "changes.set_added",
-          "args": {
-            "exercise": "pull-up-grip-not-stated",
-            "day": "Mon",
-            "slot_id": "Mon.S1.s11"
+            "exercise": "single-arm-db-kb-row",
+            "day": "Fri",
+            "slot_id": "Fri.S3.s08"
           }
         },
         {
@@ -22700,7 +22692,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 111,
+          "est_minutes": 115,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_A",
@@ -22747,7 +22739,7 @@
                 "Mon.S1.s09",
                 "Mon.S1.s10"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -22756,7 +22748,7 @@
                 "Mon.S1.s11",
                 "Mon.S1.s12"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -23720,7 +23712,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)",
                     "copy_name": "Seal Row - DB (Supinated Grip)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -23857,7 +23849,7 @@
                     "url": "https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)",
                     "copy_name": "Front Squat (barbell)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -24007,7 +23999,7 @@
                     "url": "https://www.youtube.com/results?search_query=Pull-up",
                     "copy_name": "Pull-up"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -24440,7 +24432,7 @@
                     "url": "https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)",
                     "copy_name": "Leg Extension (machine)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -24784,7 +24776,7 @@
           "label_key": "day.athletic.3.S2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 140,
+          "est_minutes": 135,
           "aerobic_minutes": 30,
           "exercise_count": 12,
           "skeleton": "athletic_B",
@@ -24848,7 +24840,7 @@
                 "Wed.S2.s09",
                 "Wed.S2.s10"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -25834,7 +25826,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -29514,7 +29506,7 @@
         "chest": 11,
         "lats_upper_back": 13,
         "side_delts": 3,
-        "rear_delts": 5.75,
+        "rear_delts": 6,
         "biceps": 5.25,
         "triceps": 4.75,
         "calves": 10,
@@ -29549,7 +29541,7 @@
         "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 13,
-        "shoulders": 11.5,
+        "shoulders": 11.75,
         "biceps": 5.25,
         "triceps": 4.75,
         "calves": 10
@@ -29560,7 +29552,7 @@
         "glutes": 5.25,
         "chest": 11,
         "lats_upper_back": 13,
-        "shoulders": 11.5,
+        "shoulders": 11.75,
         "biceps": 5.25,
         "triceps": 4.75,
         "calves": 10
@@ -29570,7 +29562,7 @@
         "hips": 14,
         "back": 13,
         "chest": 11,
-        "shoulders": 11.5,
+        "shoulders": 11.75,
         "biceps": 5.25,
         "triceps": 4.75,
         "calves": 10
@@ -29580,7 +29572,7 @@
         "hips": 14,
         "back": 13,
         "chest": 11,
-        "shoulders": 11.5,
+        "shoulders": 11.75,
         "biceps": 5.25,
         "triceps": 4.75,
         "calves": 10
@@ -29624,7 +29616,7 @@
         }
       },
       "total_resistance_sets": 71,
-      "rise_vs_prev": 0.0597,
+      "rise_vs_prev": 0.0758,
       "athletic_budget": {
         "plyo_share": 0.6,
         "stage": "RC2",
@@ -29677,17 +29669,25 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "front-squat-barbell",
+            "exercise": "leg-extension-machine",
             "day": "Mon",
-            "slot_id": "Mon.S1.s10"
+            "slot_id": "Mon.S1.s13"
           }
         },
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "single-arm-lat-pulldown",
-            "day": "Fri",
-            "slot_id": "Fri.S3.s10"
+            "exercise": "45-degree-hyperextension-back-hip-extension",
+            "day": "Wed",
+            "slot_id": "Wed.S2.s10"
+          }
+        },
+        {
+          "key": "changes.set_added",
+          "args": {
+            "exercise": "pull-up-grip-not-stated",
+            "day": "Mon",
+            "slot_id": "Mon.S1.s11"
           }
         },
         {
@@ -29734,7 +29734,7 @@
           "label_key": "day.athletic.3.S1",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 117,
+          "est_minutes": 119,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_A",
@@ -29781,7 +29781,7 @@
                 "Mon.S1.s09",
                 "Mon.S1.s10"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -30754,7 +30754,7 @@
                     "url": "https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)",
                     "copy_name": "Seal Row - DB (Supinated Grip)"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 8,
@@ -34190,7 +34190,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 138,
+          "est_minutes": 135,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -35957,7 +35957,7 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown",
                     "copy_name": "Single-Arm Lat Pulldown"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -36755,9 +36755,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "seal-row-db-supinated-grip",
-            "day": "Mon",
-            "slot_id": "Mon.S1.s09"
+            "exercise": "single-arm-lat-pulldown",
+            "day": "Fri",
+            "slot_id": "Fri.S3.s10"
           }
         },
         {
@@ -57105,13 +57105,13 @@
       59,
       61,
       63,
-      67,
+      66,
       71,
       76,
       44,
       44
     ],
-    "max_weekly_rise": 0.0704,
+    "max_weekly_rise": 0.0758,
     "planned_steps_max": 0.1429,
     "stair_levels": [
       2,
@@ -57138,7 +57138,7 @@
         9,
         10,
         10,
-        11,
+        10,
         11,
         13,
         8,
@@ -57188,8 +57188,8 @@
         4.5,
         4.5,
         4.75,
-        4.75,
-        5.75,
+        5,
+        6,
         6,
         3,
         3
@@ -57268,7 +57268,7 @@
         2.25,
         2.5,
         2.75,
-        2.75,
+        3,
         3,
         3.25,
         2,
@@ -57300,7 +57300,7 @@
         9,
         10,
         10,
-        11,
+        10,
         11,
         13,
         8,
@@ -57340,8 +57340,8 @@
         10,
         10,
         10.25,
-        10.25,
-        11.5,
+        10.5,
+        11.75,
         11.75,
         4.5,
         4.5
@@ -57392,7 +57392,7 @@
         11.25,
         12.5,
         12.75,
-        13.75,
+        13,
         14,
         16.25,
         10,
@@ -57422,8 +57422,8 @@
         10,
         10,
         10.25,
-        10.25,
-        11.5,
+        10.5,
+        11.75,
         11.75,
         4.5,
         4.5

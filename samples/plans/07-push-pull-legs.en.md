@@ -173,7 +173,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Sit-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Hanging Rotational Knee/Leg Raise | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | High-Bar Back Squat | 3 4 5 5 · 5 5 5 5 · 5 5 5 4 | 4 to 6 Reps |
-| Barbell Hip Thrust → Barbell Hip Thrust - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 4 4 4 4 | 8 to 12 Reps |
+| Barbell Hip Thrust → Barbell Hip Thrust - 1-second squeeze at the top | 3 3 3 4 · 4 4 4 4 · 4 4 4 4 | 8 to 12 Reps |
 | Forward Lunge | 3 3 3 3 · 3 3 3 4 · 4 4 4 4 | 8 to 12 per side |
 | Leg Extension (machine) → Leg Extension (machine) - one leg at a time | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
 | Lying Leg Curl (machine) → Lying Leg Curl (machine) - one leg at a time | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
@@ -215,7 +215,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 |---|---|---|
 | Russian Twist | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | V-Up | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
-| Barbell Deadlift (conventional) | 2 3 3 4 · 4 4 4 4 · 4 4 4 3 | 4 to 6 Reps |
+| Barbell Deadlift (conventional) | 2 3 3 3 · 3 3 3 3 · 4 4 4 3 | 4 to 6 Reps |
 | Leg Press (machine) | 4 4 4 4 · 4 4 5 5 · 5 5 5 5 | 10 to 15 Reps |
 | Front- and Rear-Foot-Elevated Split Squat (FFE & RFE) → Rear-Foot-Against-Wall Split Squat | 3 3 3 3 · 3 3 3 3 · 4 4 4 4 | 8 to 10 per side → 8 to 12 per side |
 | Leg Extension (machine) - one leg at a time → Leg Extension (machine) - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 15 to 20 Reps |
@@ -1445,7 +1445,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 _Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Barbell Deadlift (conventional) (Saturday): 3 → 4 sets
+- +1 set on Barbell Hip Thrust (Wednesday): 3 → 4 sets
 - +1 set on Cable Curl (Zone 1 / Zone 2 / Zone 3 set-ups) (Friday): 2 → 3 sets
 
 ### Monday · Push
@@ -1586,7 +1586,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Legs 1 - squat-led
-_Average time: about 80-100 min (an estimate, for information only)_
+_Average time: about 85-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) + Lying Leg Curl (machine) (about 5 min saved)_
@@ -1612,7 +1612,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time and start again at 4.
    - Swap for: Front Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=High-Bar%20Back%20Squat) · Name to copy into YouTube: `High-Bar Back Squat`
-2. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
@@ -1772,7 +1772,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Legs 2 - hinge-led (leg press)
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - one leg at a time + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -1794,7 +1794,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Strength**
-1. **Barbell Deadlift (conventional)** — 4 × 4 to 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+1. **Barbell Deadlift (conventional)** — 3 × 4 to 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time and start again at 4.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)) · Name to copy into YouTube: `Barbell Deadlift (conventional)`
@@ -1987,7 +1987,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Legs 1 - squat-led
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - one leg at a time + Lying Leg Curl (machine) - one leg at a time (about 5 min saved)_
@@ -2013,7 +2013,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time and start again at 4.
    - Swap for: Front Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=High-Bar%20Back%20Squat) · Name to copy into YouTube: `High-Bar Back Squat`
-2. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
@@ -2173,7 +2173,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Legs 2 - hinge-led (leg press)
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -2195,7 +2195,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Strength**
-1. **Barbell Deadlift (conventional)** — 4 × 4 to 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+1. **Barbell Deadlift (conventional)** — 3 × 4 to 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time and start again at 4.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)) · Name to copy into YouTube: `Barbell Deadlift (conventional)`
@@ -2380,7 +2380,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Legs 1 - squat-led
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - one leg at a time + Lying Leg Curl (machine) - one leg at a time (about 5 min saved)_
@@ -2406,7 +2406,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time and start again at 4.
    - Swap for: Front Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=High-Bar%20Back%20Squat) · Name to copy into YouTube: `High-Bar Back Squat`
-2. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
@@ -2566,7 +2566,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Legs 2 - hinge-led (leg press)
-_Average time: about 75-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -2588,7 +2588,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Strength**
-1. **Barbell Deadlift (conventional)** — 4 × 4 to 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+1. **Barbell Deadlift (conventional)** — 3 × 4 to 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time and start again at 4.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)) · Name to copy into YouTube: `Barbell Deadlift (conventional)`
@@ -2777,7 +2777,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Legs 1 - squat-led
-_Average time: about 85-100 min (an estimate, for information only)_
+_Average time: about 85-105 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - one leg at a time + Lying Leg Curl (machine) - one leg at a time (about 5 min saved)_
@@ -2803,7 +2803,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 6 on every set with 2 left in the tank, add weight next time and start again at 4.
    - Swap for: Front Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=High-Bar%20Back%20Squat) · Name to copy into YouTube: `High-Bar Back Squat`
-2. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
@@ -2963,7 +2963,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Legs 2 - hinge-led (leg press)
-_Average time: about 80-95 min (an estimate, for information only)_
+_Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -2985,7 +2985,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Strength**
-1. **Barbell Deadlift (conventional)** — 4 × 4 to 6 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+1. **Barbell Deadlift (conventional)** — 3 × 4 to 6 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 6 on every set with 2 left in the tank, add weight next time and start again at 4.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)) · Name to copy into YouTube: `Barbell Deadlift (conventional)`
@@ -3174,7 +3174,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Wednesday · Legs 1 - squat-led
-_Average time: about 85-105 min (an estimate, for information only)_
+_Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Hanging Rotational Knee/Leg Raise (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - one leg at a time + Lying Leg Curl (machine) - one leg at a time (about 5 min saved)_
@@ -3200,7 +3200,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - Progress: when you hit 6 on every set with 2 left in the tank, add weight next time and start again at 4.
    - Swap for: Front Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier) / High Zercher Barbell Squat (keeps the two-leg squat; loses the top-end load) / Zercher Squat (barbell) (keeps the two-leg squat; loses some difficulty - this one is easier)
    - [Watch how](https://www.youtube.com/results?search_query=High-Bar%20Back%20Squat) · Name to copy into YouTube: `High-Bar Back Squat`
-2. **Barbell Hip Thrust** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Barbell Hip Thrust** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
    - Swap for: Hip Thrust (machine) (keeps the glute work; loses the free-weight balance work) / Reverse Hyperextension (keeps the glute work; loses the feel of the original implement) / Dumbbell Hip Thrust (keeps the glute work; loses the heavier barbell load) / Cable Pull-Through (keeps the glute work; loses the free-weight balance work)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Hip%20Thrust) · Name to copy into YouTube: `Barbell Hip Thrust`
@@ -3360,7 +3360,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
 1. Long walk after your workout: 20-30 min easy
 
 ### Saturday · Legs 2 - hinge-led (leg press)
-_Average time: about 80-100 min (an estimate, for information only)_
+_Average time: about 75-95 min (an estimate, for information only)_
 _You can switch off these blocks today: core, accessories, walk after the workout. You can also add or remove exercises._
 _Superset to save time: Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Leg Extension (machine) - 1-second squeeze at the top + Seated Leg Curl (machine) (about 3.5 min saved)_
@@ -3382,7 +3382,7 @@ _Easiest to remove if you want a shorter day (your choice): small-muscle accesso
    - [Watch how](https://www.youtube.com/results?search_query=V-Up) · Name to copy into YouTube: `V-Up`
 
 **Strength**
-1. **Barbell Deadlift (conventional)** — 4 × 4 to 6 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+1. **Barbell Deadlift (conventional)** — 3 × 4 to 6 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 6 on every set with 2 left in the tank, add weight next time and start again at 4.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Sumo Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder) / Stiff-Leg Deadlift / RDL (keeps the two-leg hinge; loses the heavier barbell load) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses the easier set-up - this one is harder)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Deadlift%20(conventional)) · Name to copy into YouTube: `Barbell Deadlift (conventional)`
@@ -3435,7 +3435,7 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 - Saturday: Seated Leg Curl (machine) → Seated Leg Curl (machine) - 1-second squeeze at the top; Standing DB Calf Raise (deficit optional) → Standing DB Calf Raise (deficit optional) - 1-second squeeze at the top
 - New bonus exercise: Barbell Curl (Friday)
 - +1 set on Rear-Foot-Against-Wall Split Squat (Saturday): 3 → 4 sets
-- +1 set on Barbell Hip Thrust (Wednesday): 3 → 4 sets
+- +1 set on Barbell Deadlift (conventional) (Saturday): 3 → 4 sets
 - +1 set on Single-Arm Lat Pulldown (Friday): 3 → 4 sets
 - +1 set on Weighted Dip (Monday): 3 → 4 sets
 - +1 set on Cable Triceps Push-down (Thursday): 3 → 4 sets

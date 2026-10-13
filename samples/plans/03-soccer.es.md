@@ -88,7 +88,7 @@ Tu plan sube como una escalera: pasos pequeños hasta la semana 3, un poco más 
 | 1 · prueba | 2.0 ▮▮ | 3 en reserva | 59 |
 | 2 | 3.3 ▮▮▮ | 3 en reserva | 61 |
 | 3 | 4.6 ▮▮▮▮▮ | 3 en reserva | 63 |
-| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 en reserva | 67 |
+| 4 | 6.7 ▮▮▮▮▮▮▮ | 2 en reserva | 66 |
 | 5 | 8.9 ▮▮▮▮▮▮▮▮▮ | 1-2 en reserva | 71 |
 | 6 ↑ · prueba | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 en reserva | 76 |
 
@@ -152,14 +152,14 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Grupo muscular | Series por semana (semanas 1-6) | Series finales |
 |---|---|---|
 | Cuádriceps | 11 12 13 14 15 16 | 16 |
-| Cadera (glúteos + isquiotibiales) | 11 13 13 14 14 16 | 16 |
+| Cadera (glúteos + isquiotibiales) | 11 13 13 13 14 16 | 16 |
 | Espalda | 10 10 11 12 13 14 | 14 |
 | Pecho | 10 10 10 10 11 11 | 11 |
 | Hombros | 10 10 10 10 11 11 | 11 |
 | Bíceps | 5 5 5 5 5 6 | fijas: 2 series directas por semana |
 | Tríceps | 5 5 5 5 5 5 | fijas: 2 series directas por semana |
 | Pantorrillas | 9 9 9 10 10 11 | 11 |
-| **Total** | 59 61 63 67 71 76 | 76 |
+| **Total** | 59 61 63 66 71 76 | 76 |
 
 ### Lunes · S1 - salto + rodilla + tirón
 
@@ -172,12 +172,12 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Saltos de tobillo en el lugar (Ankle Hops) | 2 2 2 2 2 2 | 10 contactos |
 | Prueba L de tres conos (L-Drill) | – 3 3 3 3 – | 3 reps |
 | Cargada de potencia desde colgado alto (Hang Power Clean) | 2 2 2 3 3 2 | 3 a 5 reps |
-| Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) | 3 3 3 3 3 4 | 8 a 12 reps |
-| Sentadilla frontal con barra (Front Squat) | 3 3 3 3 4 4 | 6 a 8 reps |
-| Dominadas (Pull-Up) | 2 2 2 3 3 3 | 6 a 8 reps |
-| Subida al cajón frontal y lateral (Step-Up) | 2 2 3 3 3 4 | 8 a 12 por lado |
+| Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) | 3 3 4 4 4 4 | 8 a 12 reps |
+| Sentadilla frontal con barra (Front Squat) | 3 3 4 4 4 4 | 6 a 8 reps |
+| Dominadas (Pull-Up) | 2 2 2 2 3 3 | 6 a 8 reps |
+| Subida al cajón frontal y lateral (Step-Up) | 2 2 2 3 3 4 | 8 a 12 por lado |
 | Curl de bíceps con mancuernas (DB Curl) | 2 2 2 2 2 2 | 10 a 12 reps |
-| Extensión de piernas en máquina (Leg Extension) | 2 2 2 3 3 3 | 10 a 12 reps |
+| Extensión de piernas en máquina (Leg Extension) | 2 2 2 2 3 3 | 10 a 12 reps |
 | Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) | 3 3 3 4 4 4 | 12 a 15 reps |
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
@@ -191,7 +191,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) | 2 2 2 2 2 2 | 9 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) | 2 2 2 2 2 2 | 5 por lado |
 | Press de banca con mancuernas (DB Bench Press) | 3 3 3 3 4 4 | 8 a 12 reps |
-| Hiperextensión a 45° (Back Extension) | 2 2 2 3 3 3 | 10 a 12 reps |
+| Hiperextensión a 45° (Back Extension) | 2 2 2 2 3 3 | 10 a 12 reps |
 | Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) | 3 3 3 3 3 3 | 8 a 12 por lado |
 | Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) | 2 2 2 2 2 3 | 8 a 12 por lado |
 | Press Tate (Tate Press) | 2 2 2 2 2 2 | 10 a 12 reps |
@@ -213,10 +213,10 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 2 2 2 2 3 2 | 8/8 |
 | Press de banca con barra (Bench Press) | 4 4 4 4 4 4 | 6 a 8 reps |
 | Peso muerto con barra hexagonal (Trap Bar Deadlift) | 3 4 4 4 4 4 | 6 a 8 reps |
-| Remo a un brazo con mancuerna (1-Arm DB Row) | 3 3 4 4 4 4 | 8 a 12 por lado |
+| Remo a un brazo con mancuerna (1-Arm DB Row) | 3 3 3 4 4 4 | 8 a 12 por lado |
 | Sentadilla búlgara (Bulgarian Split Squat) | 2 3 3 3 3 3 | 8 a 12 por lado |
 | Zancada lateral (Lateral Lunge) | 2 2 2 2 2 2 | 8 a 12 por lado |
-| Jalón al pecho a un brazo (Single-Arm Pulldown) | 2 2 2 2 3 3 | 8 a 12 por lado |
+| Jalón al pecho a un brazo (Single-Arm Pulldown) | 2 2 2 2 2 3 | 8 a 12 por lado |
 | Elevación de pantorrillas con barra (Barbell Calf Raise) | 3 3 3 3 3 3 | 12 a 15 reps |
 
 ### Sábado · Día opcional
@@ -942,16 +942,16 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 4.6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 2 → 3 series
-- +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes): 3 → 4 series
+- +1 serie en Sentadilla frontal con barra (Front Squat) (lunes): 3 → 4 series
+- +1 serie en Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) (lunes): 3 → 4 series
 
 **Trabajo atlético esta semana:** 87 contactos de salto · 58 contactos de saltos de tobillo · 24 lanzamientos · 96 cambios de dirección · 390 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 57% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 85-105 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
@@ -1000,11 +1000,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hang%20Power%20Clean%20-%20from%20the%20High%20Hang%20(hip%20crease)) · Nombre para copiar en YouTube: `Hang Power Clean - from the High Hang (hip crease)`
 
 **Fuerza**
-1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo sentado en polea (Seated Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo con pecho apoyado con barra, agarre prono (Seal Row) (mantiene el tirón horizontal; pierde el movimiento libre de cada mano) / Remo en polea a 45 grados (45-Degree Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Sentadilla frontal con barra (Front Squat)** — 3 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 3-6 min de descanso
+2. **Sentadilla frontal con barra (Front Squat)** — 4 × 6 a 8 reps · deja 3 en reserva (3 RIR, RPE 7) · 3-6 min de descanso
    - Progresión: cuando llegues a 8 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Sentadilla Zercher alta con barra (High Zercher Squat) (mantiene la sentadilla a dos piernas; pierde la carga máxima) / Sentadilla con barra hexagonal (Trap Bar Squat) (mantiene la sentadilla a dos piernas; pierde la sensación del implemento original) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) (mantiene la sentadilla a dos piernas; pierde la sensación del implemento original) / Sentadilla Zercher con barra (Zercher Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil)
@@ -1015,7 +1015,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin bandas elásticas (pies en el piso, anillas o TRX).
    - Cambiar por: Jalón al pecho agarre abierto (Lat Pulldown) (mantiene el tirón vertical; pierde la sensación del implemento original) / Jalón al pecho con agarre MAG abierto (MAG Grip Pulldown) (mantiene el tirón vertical; pierde la sensación del implemento original) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up) (mantiene el tirón vertical; pierde poco: mismo movimiento, otro agarre o posición) / Dominada con agarre cerrado (Close-Grip Pull-Up) (mantiene el tirón vertical; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pull-up) · Nombre para copiar en YouTube: `Pull-up`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
@@ -1141,7 +1141,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 110-130 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
@@ -1199,7 +1199,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Mantén este ejercicio en 6-8 repeticiones.
    - Cambiar por: Peso muerto convencional (Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la carga más pesada de la barra)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Nombre para copiar en YouTube: `Hex (Trap) Bar Deadlift`
-3. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 4 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Remo a un brazo con mancuerna (1-Arm DB Row)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
    - Cambiar por: Remo a un brazo en polea (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo inclinado alterno tipo balancín con mancuernas (Seesaw Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo perro de caza con mancuerna (Bird Dog Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo a un brazo en polea medio arrodillado (Single-Arm Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
@@ -1250,19 +1250,18 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 6.7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 2 → 3 series
-- +1 serie en Hiperextensión a 45° (Back Extension) (miércoles): 2 → 3 series
-- +1 serie en Dominadas (Pull-Up) (lunes): 2 → 3 series
+- +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 2 → 3 series
+- +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes): 3 → 4 series
 - +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (lunes): 3 → 4 series
 
 **Trabajo atlético esta semana:** 93 contactos de salto · 68 contactos de saltos de tobillo · 28 lanzamientos · 102 cambios de dirección · 400 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
-_Tiempo promedio: aprox. 100-120 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 105-125 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
+_Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
@@ -1310,16 +1309,16 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hang%20Power%20Clean%20-%20from%20the%20High%20Hang%20(hip%20crease)) · Nombre para copiar en YouTube: `Hang Power Clean - from the High Hang (hip crease)`
 
 **Fuerza**
-1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 3 × 8-10 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8-10 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - Cambiar por: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo sentado en polea (Seated Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo con pecho apoyado con barra, agarre prono (Seal Row) (mantiene el tirón horizontal; pierde el movimiento libre de cada mano) / Remo en polea a 45 grados (45-Degree Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Seal%20Row%20-%20DB%20(Supinated%20Grip)) · Nombre para copiar en YouTube: `Seal Row - DB (Supinated Grip)`
-2. **Sentadilla frontal con barra (Front Squat)** — 3 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 3-6 min de descanso
+2. **Sentadilla frontal con barra (Front Squat)** — 4 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 3-6 min de descanso
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Sentadilla Zercher alta con barra (High Zercher Squat) (mantiene la sentadilla a dos piernas; pierde la carga máxima) / Sentadilla con barra hexagonal (Trap Bar Squat) (mantiene la sentadilla a dos piernas; pierde la sensación del implemento original) / Sentadilla con barra hexagonal invertida, agarres bajos y más rango (Hex Bar Squat) (mantiene la sentadilla a dos piernas; pierde la sensación del implemento original) / Sentadilla Zercher con barra (Zercher Squat) (mantiene la sentadilla a dos piernas; pierde algo de dificultad: este es más fácil)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Front%20Squat%20(barbell)) · Nombre para copiar en YouTube: `Front Squat (barbell)`
-3. **Dominadas (Pull-Up)** — 3 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 2-3 min de descanso
+3. **Dominadas (Pull-Up)** — 2 × 6 a 8 reps · deja 2 en reserva (2 RIR, RPE 8) · 2-3 min de descanso
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Ejercicio con peso corporal: si no llegas a las repeticiones, usa la máquina asistida o una regresión sin bandas elásticas (pies en el piso, anillas o TRX).
    - Cambiar por: Jalón al pecho agarre abierto (Lat Pulldown) (mantiene el tirón vertical; pierde la sensación del implemento original) / Jalón al pecho con agarre MAG abierto (MAG Grip Pulldown) (mantiene el tirón vertical; pierde la sensación del implemento original) / Dominada sentado en anillas / TRX con pies apoyados (Seated Ring Pull-Up) (mantiene el tirón vertical; pierde poco: mismo movimiento, otro agarre o posición) / Dominada con agarre cerrado (Close-Grip Pull-Up) (mantiene el tirón vertical; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1337,7 +1336,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 15 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Cambiar por: Curl araña con el pecho en banco inclinado (Spider Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl inclinado con mancuernas, meñique arriba (Incline DB Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl martillo (Hammer Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición) / Curl Zottman: sube supino, baja prono (Zottman Curl) (mantiene el trabajo de bíceps; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dumbbell%20Curl) · Nombre para copiar en YouTube: `Dumbbell Curl`
-2. **Extensión de piernas en máquina (Leg Extension)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+2. **Extensión de piernas en máquina (Leg Extension)** — 2 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
@@ -1352,11 +1351,11 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 125-155 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 120-150 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
-_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
@@ -1400,7 +1399,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Progresión: cuando llegues a 8 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 6.
    - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press inclinado con barra (Incline Bench Press) (mantiene el empuje horizontal; pierde el ángulo plano del press) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
-2. **Hiperextensión a 45° (Back Extension)** — 3 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / GHD: extensión de cadera / elevación glúteo-femoral (Glute-Ham Raise) (mantiene la bisagra de cadera a dos piernas; pierde poco: mismo movimiento, otro agarre o posición)
@@ -1563,8 +1562,9 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 8.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Sentadilla frontal con barra (Front Squat) (lunes): 3 → 4 series
-- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (viernes): 2 → 3 series
+- +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 2 → 3 series
+- +1 serie en Hiperextensión a 45° (Back Extension) (miércoles): 2 → 3 series
+- +1 serie en Dominadas (Pull-Up) (lunes): 2 → 3 series
 - +1 serie en Press de banca con mancuernas (DB Bench Press) (miércoles): 3 → 4 series
 - +1 serie en Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (miércoles): 3 → 4 series
 
@@ -1574,7 +1574,7 @@ _Nivel de la semana: 8.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 _Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Leñador en polea (Cable Woodchopper) + Plancha Copenhague (Copenhagen Plank) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
+_Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
@@ -1623,7 +1623,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hang%20Power%20Clean%20-%20from%20the%20High%20Hang%20(hip%20crease)) · Nombre para copiar en YouTube: `Hang Power Clean - from the High Hang (hip crease)`
 
 **Fuerza**
-1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 3 × 8-10 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+1. **Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row)** — 4 × 8-10 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - Cambiar por: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) (mantiene el tirón horizontal; pierde poco: mismo movimiento, otro agarre o posición) / Remo sentado en polea (Seated Cable Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre) / Remo con pecho apoyado con barra, agarre prono (Seal Row) (mantiene el tirón horizontal; pierde el movimiento libre de cada mano) / Remo en polea a 45 grados (45-Degree Row) (mantiene el tirón horizontal; pierde el trabajo de equilibrio del peso libre)
@@ -1766,7 +1766,7 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: bicicleta (bike). Guíate por el tiempo, no por la distancia.
 
 ### Viernes · S3 - olímpicos + fuerza
-_Tiempo promedio: aprox. 125-150 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 120-150 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 7 min)_
@@ -1841,7 +1841,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Sostén mancuernas a los lados (o una barra en la espalda) cuando tu peso corporal resulte fácil a este esfuerzo
    - Cambiar por: Sentadilla dividida estática (Split Squat) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada al frente (Forward Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancadas caminando (Walking Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Zancada hacia atrás (Reverse Lunge) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20(Lateral)%20Lunge) · Nombre para copiar en YouTube: `Side (Lateral) Lunge`
-6. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+6. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 2 × 8 a 10 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 10 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - Mantén este ejercicio en 8-10 repeticiones.
    - por lado = 1 serie
@@ -1883,7 +1883,7 @@ _Esta semana sube más de lo habitual (16 % más series para cadera (glúteos + 
 - +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 3 → 4 series
 - +1 serie en Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (miércoles): 2 → 3 series
 - +1 serie en Curl nórdico (Nordic Curl) (miércoles): 2 → 3 series
-- +1 serie en Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) (lunes): 3 → 4 series
+- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (viernes): 2 → 3 series
 - +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (miércoles): 3 → 4 series
 
 **Trabajo atlético esta semana:** 54 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 51 cambios de dirección · 120 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 61% · Recibir-Crear 2: Aterrizar y salir Semana de pruebas: los saltos, lanzamientos y sprints son más ligeros para que hagas las pruebas descansado.

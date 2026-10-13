@@ -143,7 +143,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Chest | 10 10 10 10 · 11 11 11 11 · 12 12 13 13 | 13 |
 | Shoulders | 10 10 10 10 · 11 11 12 12 · 12 12 13 13 | 13 |
 | Biceps | 7 7 7 7 · 7 7 7 7 · 7 7 7 7 | held: 4 direct sets a week |
-| Triceps | 7 7 7 7 · 7 7 7 7 · 8 8 8 8 | held: 4 direct sets a week |
+| Triceps | 7 7 7 7 · 7 7 8 8 · 8 8 8 8 | held: 4 direct sets a week |
 | Calves | 12 12 12 12 · 12 12 12 12 · 12 12 12 12 | 12 |
 | **Total** | 73 74 75 76 · 77 77 79 80 · 81 82 87 87 | 87 |
 
@@ -183,7 +183,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Staggered-Stance (Kickstand) DB Deadlift → Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
 | Overhead Dumbbell Triceps Extension | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 10 to 15 Reps |
 | Nordic Hamstring Curl | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 6 to 8 Reps |
-| DB Lateral (Side) Raise → Seated DB Lateral Raise | 2 2 2 2 · 2 2 3 3 · 3 3 3 3 | 12 to 15 Reps → 10 to 12 Reps → 10 to 15 Reps |
+| DB Lateral (Side) Raise → Seated DB Lateral Raise | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 to 15 Reps → 10 to 12 Reps → 10 to 15 Reps |
 | Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 12 to 15 Reps |
 
 ### Wednesday · Optional day
@@ -223,7 +223,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Low-Hang Snatch Pull | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 8 Reps → 6 Reps |
 | Flat DB Bench Press | 3 3 3 3 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps → 6 to 8 Reps |
 | Stiff-Leg Deadlift / RDL | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 8-10 Reps → 6 to 8 Reps |
-| Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
+| Alternating DB Overhead Press → Seesaw DB Press (alternating, one up / one down) | 2 2 2 2 · 2 2 3 3 · 3 3 3 3 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
 | Alternating Staggered-Stance Single-Leg Deadlift (DB) → Alternating Staggered-Stance Single-Leg Deadlift (DB) - 1-second pause just below the knee | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side → 8 to 10 per side |
 | Floor Dumbbell Skullcrusher | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 10 to 15 Reps |
 | Lying Leg Curl (machine) → Seated Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 10 to 12 Reps → 8 to 12 Reps |
@@ -2775,7 +2775,7 @@ _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on Leg Press (machine) (Thursday): 3 → 4 sets
-- +1 set on Seated DB Lateral Raise (Tuesday): 2 → 3 sets
+- +1 set on Alternating DB Overhead Press (Friday): 2 → 3 sets
 
 **Athletic work this week:** 105 jump contacts · 66 ankle-hop contacts · 90 throws · 90 direction changes · 360 m of sprints · 10 Olympic-lift sets · Plyo share 47% · Receive-Create 2: Land & Go
 
@@ -2881,7 +2881,7 @@ _Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
-_Superset to save time: Seated DB Lateral Raise + Machine Calf Raise (about 5 min saved)_
+_Superset to save time: Seated DB Lateral Raise + Machine Calf Raise (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Post / Corner Route, Bilateral Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Seated DB Lateral Raise, Nordic Hamstring Curl, Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
@@ -2952,7 +2952,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the feel of the original implement) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-3. **Seated DB Lateral Raise** — 3 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Seated DB Lateral Raise** — 2 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
@@ -3072,7 +3072,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Calorie%20Effort%3A%2015%20cal%20(bike%20%2F%20rower%20%2F%20ski)) · Name to copy into YouTube: `Calorie Effort: 15 cal (bike / rower / ski)`
 
 ### Friday · B2 - deadlift + push
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Crunch + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
@@ -3127,7 +3127,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Keep this lift at 6-8 reps.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Barbell Deadlift (conventional) (keeps the two-leg hinge; loses each hand moving on its own) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Snatch-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL) · Name to copy into YouTube: `Stiff-Leg Deadlift / RDL`
-3. **Alternating DB Overhead Press** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Alternating DB Overhead Press** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Seesaw DB Press (alternating, one up / one down) (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses each hand moving on its own) / Seesaw DB Push Press (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Push Press (keeps the vertical press; loses little - same movement, another grip or position)
@@ -3292,7 +3292,7 @@ _Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
-_Superset to save time: Seated DB Lateral Raise + Machine Calf Raise (about 5 min saved)_
+_Superset to save time: Seated DB Lateral Raise + Machine Calf Raise (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Post / Corner Route, Bilateral Backward Ankle Hops · small-muscle accessories: Machine Calf Raise, Seated DB Lateral Raise, Nordic Hamstring Curl, Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
@@ -3363,7 +3363,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the feel of the original implement) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-3. **Seated DB Lateral Raise** — 3 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Seated DB Lateral Raise** — 2 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
@@ -3483,7 +3483,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Calorie%20Effort%3A%2015%20cal%20(bike%20%2F%20rower%20%2F%20ski)) · Name to copy into YouTube: `Calorie Effort: 15 cal (bike / rower / ski)`
 
 ### Friday · B2 - deadlift + push
-_Average time: about 95-115 min (an estimate, for information only)_
+_Average time: about 95-120 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Crunch + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
@@ -3538,7 +3538,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Keep this lift at 6-8 reps.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Barbell Deadlift (conventional) (keeps the two-leg hinge; loses each hand moving on its own) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Snatch-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL) · Name to copy into YouTube: `Stiff-Leg Deadlift / RDL`
-3. **Alternating DB Overhead Press** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Alternating DB Overhead Press** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
    - Swap for: Seesaw DB Press (alternating, one up / one down) (keeps the vertical press; loses little - same movement, another grip or position) / Half-Kneeling Single-Arm Landmine Press (keeps the vertical press; loses each hand moving on its own) / Seesaw DB Push Press (keeps the vertical press; loses little - same movement, another grip or position) / Single-Arm DB Push Press (keeps the vertical press; loses little - same movement, another grip or position)
@@ -3704,13 +3704,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Calorie%20Effort%3A%2010%20cal%20(bike%20%2F%20rower%20%2F%20ski)) · Name to copy into YouTube: `Calorie Effort: 10 cal (bike / rower / ski)`
 
 ### Tuesday · B1 - hip hinge + push
-_Average time: about 125-150 min (an estimate, for information only)_
+_Average time: about 120-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
-_Superset to save time: Seated DB Lateral Raise + Machine Calf Raise - from a step (full stretch at the bottom) (about 5 min saved)_
+_Superset to save time: Seated DB Lateral Raise + Machine Calf Raise - from a step (full stretch at the bottom) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Single-Leg Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Seated DB Lateral Raise, Nordic Hamstring Curl, Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
@@ -3784,7 +3784,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the feel of the original implement) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-3. **Seated DB Lateral Raise** — 3 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Seated DB Lateral Raise** — 2 × 10 to 15 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 15 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
@@ -3961,7 +3961,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Barbell Deadlift (conventional) (keeps the two-leg hinge; loses each hand moving on its own) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Snatch-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL) · Name to copy into YouTube: `Stiff-Leg Deadlift / RDL`
-3. **Seesaw DB Press (alternating, one up / one down)** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Seesaw DB Press (alternating, one up / one down)** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -4123,13 +4123,13 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Calorie%20Effort%3A%2010%20cal%20(bike%20%2F%20rower%20%2F%20ski)) · Name to copy into YouTube: `Calorie Effort: 10 cal (bike / rower / ski)`
 
 ### Tuesday · B1 - hip hinge + push
-_Average time: about 125-150 min (an estimate, for information only)_
+_Average time: about 120-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Bird Dogs (about 2.5 min saved)_
 _Superset to save time: Barbell Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift - 1-second pause just below the knee (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Nordic Hamstring Curl (about 3.5 min saved)_
-_Superset to save time: Seated DB Lateral Raise + Machine Calf Raise - from a step (full stretch at the bottom) (about 5 min saved)_
+_Superset to save time: Seated DB Lateral Raise + Machine Calf Raise - from a step (full stretch at the bottom) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Single-Leg Forward/Backward Ankle Hops · small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Seated DB Lateral Raise, Nordic Hamstring Curl, Overhead Dumbbell Triceps Extension_
 
 **Warm-up**
@@ -4203,7 +4203,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Prone Dumbbell Hamstring Curl (DB between feet) (keeps the hamstring curl; loses the feel of the original implement) / Ball Hamstring Curl (medball or stability ball) (keeps the hamstring curl; loses some difficulty - this one is easier) / Supine Slider Hamstring Curl (keeps the hamstring curl; loses some difficulty - this one is easier) / Seated Leg Curl (machine) (keeps the hamstring curl; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Nordic%20Hamstring%20Curl) · Name to copy into YouTube: `Nordic Hamstring Curl`
-3. **Seated DB Lateral Raise** — 3 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **Seated DB Lateral Raise** — 2 × 10 to 15 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 15 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    - Swap for: DB Lateral (Side) Raise (keeps the side-delt work; loses little - same movement, another grip or position) / DB Upright Row (keeps the side-delt work; loses little - same movement, another grip or position) / DB Lateral Raise (Supinated / palms-up grip) (keeps the side-delt work; loses little - same movement, another grip or position) / Barbell Upright Row (keeps the side-delt work; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Seated%20DB%20Lateral%20Raise) · Name to copy into YouTube: `Seated DB Lateral Raise`
@@ -4327,7 +4327,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - [Watch how](https://www.youtube.com/results?search_query=Calorie%20Effort%3A%2010%20cal%20(bike%20%2F%20rower%20%2F%20ski)) · Name to copy into YouTube: `Calorie Effort: 10 cal (bike / rower / ski)`
 
 ### Friday · B2 - deadlift + push
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Sit-Up + V-Up (about 2.5 min saved)_
 _Superset to save time: Flat DB Bench Press + Stiff-Leg Deadlift / RDL (about 7 min saved)_
@@ -4380,7 +4380,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: Calorie Ef
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: Hex (Trap) Bar Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Barbell Deadlift (conventional) (keeps the two-leg hinge; loses each hand moving on its own) / Wide-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own) / Snatch-Grip Barbell Deadlift (keeps the two-leg hinge; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Stiff-Leg%20Deadlift%20%2F%20RDL) · Name to copy into YouTube: `Stiff-Leg Deadlift / RDL`
-3. **Seesaw DB Press (alternating, one up / one down)** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Seesaw DB Press (alternating, one up / one down)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -4445,7 +4445,7 @@ _Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 - +1 set on 45-Degree Hyperextension (back/hip extension) (Tuesday): 2 → 3 sets
 - +1 set on Wide-Grip Pull-Up (Monday): 2 → 3 sets
 - +1 set on Barbell Bench Press (Tuesday): 4 → 5 sets
-- +1 set on Seesaw DB Press (alternating, one up / one down) (Friday): 2 → 3 sets
+- +1 set on Seated DB Lateral Raise (Tuesday): 2 → 3 sets
 
 **Athletic work this week:** 120 jump contacts · 92 ankle-hop contacts · 108 throws · 99 direction changes · 420 m of sprints · 12 Olympic-lift sets · Plyo share 49% · Receive-Create 3: Repeat
 
