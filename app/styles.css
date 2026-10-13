@@ -549,7 +549,12 @@ details.sec .md { padding: 0 14px 12px; font-size: 15px; }
 
 /* a question not answered yet pulses softly until the person answers it (coach, 2026-10-13) */
 .field.needs, .cards.needs, .detail.needs, .check.needs { border-radius: 14px; animation: needs 1.8s ease-in-out infinite; }
-.field.needs, .cards.needs, .detail.needs { padding: 8px; margin-left: -8px; margin-right: -8px; }
+/* every question on the wizard sits in the same box, answered or not, so nothing moves or overlaps when the pulse stops */
+.wiz-body .field, .wiz-body > .cards, .wiz-body > .detail { padding: 10px; border-radius: 14px; margin: 0 0 14px; }
+.wiz-body .row2 { gap: 14px; margin: 0 0 14px; }
+.wiz-body .row2 > .field { margin: 0; min-width: 0; }
+.wiz-body .detail .field, .wiz-body details .field { padding: 0; margin: 12px 0 0; }
+.wiz-body .detail .field.needs, .wiz-body details .field.needs { padding: 8px; }
 @keyframes needs {
   0%, 100% { box-shadow: 0 0 0 2px rgba(var(--heat-rgb), .18); background-color: rgba(var(--heat-rgb), .03); }
   50% { box-shadow: 0 0 0 3px rgba(var(--heat-rgb), .55); background-color: rgba(var(--heat-rgb), .09); }
