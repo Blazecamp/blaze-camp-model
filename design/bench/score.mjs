@@ -95,7 +95,17 @@
 //                         group's template lifts are at their tops, so it sits at its fewest sets next to them - it is left out of the
 //                         day's staircase and read on its own rule instead: a week it takes a set while a template lift of its group,
 //                         on any day, still has room under its top is a staircase deviation. Without the rule the scorer reads as 2.4.1.
-export const SCORER_VERSION = '2.5';
+// Scorer 2.6 (engine 0.7 volume package, COACH-R5; DECISIONS G-240): four readings follow model rules the package added:
+//   * optional day        a light chest exercise (why.light_chest_optional; R5-VOL-07, G-231) may take one more place on a physique
+//                         week's optional day (rules.placement.x7.light_chest_optional.optional_day_max) - not a focus_slot_violation.
+//   * circuit floor       a circuit group under the floor only in the first third's rounds (R5-CLS-03, G-234) is named by
+//                         warning.circuit_rounds_floor with the week the rounds take it there - not an unsaid_cap.
+//   * heavy deadlift      the week's heavy hinge of an athletic B day starts at 3 and takes its group's next set first (R5-ATH-12,
+//                         G-236): that lead is not a staircase deviation nor an exposure imbalance.
+//   * session size        a day whose stated reason is in rules.validation.v05.size_plus_whys (R5-VOL-10, G-233: the racket player's
+//                         calf raise on both days) may hold rules.session.x7.racket_calf_both_days.size_plus exercises more.
+//                         Without the four keys the scorer reads as 2.5.
+export const SCORER_VERSION = '2.6';
 export const SCORE_SCHEMA = 'bench-score/2';
 
 const EPS = 1e-9;
@@ -297,6 +307,14 @@ function resolveParams(R, overrides = {}) {
   put('set_bounds_skip_formats', ['circuit'], 'scorer (rounds x stations are the circuit format\'s own dose)');
   rule('optional_focus', 'placement.optional_focus', { slots: 2, sets: [2, 3] });
   rule('bonus_per_optional_day', 'placement.bonus.max_added_per_optional_day', 2);
+  // (scorer 2.6: engine 0.7 G-231, COACH-R5 R5-VOL-07 - a light chest exercise (why.light_chest_optional) may take one more place on an
+  // optional day of a physique week)
+  rule('light_chest_optional', 'placement.x7.light_chest_optional', null);
+  // (scorer 2.6: engine 0.7 G-233, R5-VOL-10 - the stated day that holds one more exercise)
+  rule('size_plus_whys', 'validation.v05.size_plus_whys', []);
+  // (scorer 2.6: engine 0.7 G-236, R5-ATH-12 - the week's heavy deadlift starts at 3 and takes its group's next set first)
+  rule('heavy_hinge', 'placement.x7.heavy_hinge_lead', null);
+  rule('racket_calf', 'session.x7.racket_calf_both_days', null);
   rule('progression', 'stairway.progression', { arrival_weeks_early_max: 1, note_above: 0.15, note_min_whole_sets: 2 });
   rule('absolute_cap', 'volume.priority.absolute_cap', 30);
   rule('focus', 'volume.focus', { max: 2, add_range: [1, 3] });
@@ -1038,6 +1056,14 @@ function floorOf(g, X, ctx) {
 /** a big muscle group (rules.volume.two_day.big_classes on its lines) */
 const isBigGroup = (g, ctx) => (ctx.linesOfGroup[g] || []).some(l => (ctx.P.two_day.big_classes || ['big']).includes((ctx.lineDefs[l] || {}).class));
 /** does a notice of the plan name this group? (warning codes capped_by_template, below_floor_template, credit_only_groups) */
+/** scorer 2.6 (rules.placement.x7.heavy_hinge_lead, DECISIONS G-236 / R5-ATH-12): the week's counted heavy hinge of an athletic B day */
+const heavyHingeUnit = (U, X, P) => {
+  const HH = P.heavy_hinge;
+  if (!HH || !HH.enabled || !(HH.families || []).includes(X.family) || U.origin === 'bonus') return false;
+  const raw = (U.lead && U.lead.raw) || {};
+  return (U.bucket || raw.bucket) === HH.bucket && (U.role || raw.role) === HH.role && (raw.flags || []).includes(HH.flag);
+};
+const heavyHingeLead = (P) => (P.heavy_hinge ? P.heavy_hinge.start_sets + (P.heavy_hinge.steps_ahead || 1) : 0);
 const saysGroup = (X, code, g) => X.warnings.some(w => w && w.code === code && w.args && [].concat(w.args.group || []).map(x => String(x).replace(/^group\./, '')).includes(g));
 
 /**
@@ -1084,7 +1110,9 @@ function checkFloorsAndGroups(S, X, ctx) {
       if (typeof top === 'number' && typeof planned === 'number' && planned > top + EPS && !cap && !said.has(g)) S.hit('unsaid_cap', { ...where0, group: g }, g + ' ends at ' + top + ' of the planned ' + planned + ' and is not listed as capped');
       else if (cap && cap.notice === false && P.placement_x1.capped_notice) { /* named by the week-by-week table (CX-04) */ }
       else if (cap && !saysGroup(X, 'capped_by_template', g) && !saysGroup(X, 'below_floor_template', g)) S.hit('unsaid_cap', { ...where0, group: g }, g + ' is capped (' + cap.held + ' of ' + cap.planned + ') and no notice names it');
-      else if (said.has(g) && !saysGroup(X, 'below_floor_template', g)) S.hit('unsaid_cap', { ...where0, group: g }, g + ' is held under the floor and no notice names it');
+      // (scorer 2.6: engine 0.7 G-234, COACH-R5 R5-CLS-03 - a circuit group under the floor only in the first third's rounds is named
+      // by warning.circuit_rounds_floor, with the week the rounds take it there)
+      else if (said.has(g) && !saysGroup(X, 'below_floor_template', g) && !saysGroup(X, 'circuit_rounds_floor', g)) S.hit('unsaid_cap', { ...where0, group: g }, g + ' is held under the floor and no notice names it');
     }
     const bf = { n: B.n, N: B.N, format: B.format, trained: B.trained.slice(), credit_only: B.creditOnly.slice(), said_below_floor: B.saidBelow.slice(), capped: B.capped.map(x => x.group), groups: {} };
     for (const W of B.weeks) {
@@ -1437,7 +1465,10 @@ function checkCounts(S, X, ctx) {
         const counted = countedExercises(D, ctx);
         maxCounted = Math.max(maxCounted, counted);
         S.n('session_size_over');
-        if (counted > size.range[1]) S.hit('session_size_over', where, counted + ' counted exercises (' + size.type + ': ' + size.range[0] + '-' + size.range[1] + ')', { value: counted, limit: size.range[1] });
+        // (scorer 2.6: engine 0.7 G-233, COACH-R5 R5-VOL-10 'let the day hold one more exercise' - a day whose stated reason is in
+        // rules.validation.v05.size_plus_whys may hold rules.session.x7.racket_calf_both_days.size_plus more)
+        const plus = (P.size_plus_whys || []).length && ((D.raw && D.raw.why) || []).some(w => w && P.size_plus_whys.includes(w.key)) ? ((P.racket_calf && typeof P.racket_calf.size_plus === 'number') ? P.racket_calf.size_plus : 1) : 0;
+        if (counted > size.range[1] + plus) S.hit('session_size_over', where, counted + ' counted exercises (' + size.type + ': ' + size.range[0] + '-' + size.range[1] + ')', { value: counted, limit: size.range[1] });
         if (typeof D.raw.exercise_count === 'number' && D.raw.exercise_count !== counted) S.hit('credit_tally_mismatch', where, 'the day says ' + D.raw.exercise_count + ' exercises, the recount gives ' + counted);
         if (D.main && W.stairway && !W.raw.test) {
           const dt = ctx.templateDay(X.meta.template, D.raw.day_type);
@@ -1520,7 +1551,10 @@ function checkCounts(S, X, ctx) {
           const below = us.filter(U => U.sets < capOf(U));
           // (scorer 2.3: the spread is read with a compound lift counted at no more than the 3 sets it takes before the group's
           // isolation exercises step - the same model rule)
-          const hi = (U) => (cmpMin && U.ex && U.ex.exercise_class === 'compound' && below.some(V => V.ex && V.ex.exercise_class === 'isolation' && V.sets < cmpMin) ? Math.min(U.sets, Math.max(cmpMin - 1, Math.min(...below.map(V => V.sets)) + 1)) : U.sets);
+          const hi0 = (U) => (cmpMin && U.ex && U.ex.exercise_class === 'compound' && below.some(V => V.ex && V.ex.exercise_class === 'isolation' && V.sets < cmpMin) ? Math.min(U.sets, Math.max(cmpMin - 1, Math.min(...below.map(V => V.sets)) + 1)) : U.sets);
+          // (scorer 2.6, G-236 / R5-ATH-12 'even if that breaks the even 3/3/3 pattern of that day': the heavy deadlift's lead - its
+          // start and its first added set - is not a hole in the staircase)
+          const hi = (U) => (heavyHingeUnit(U, X, P) && below.length && U.sets <= heavyHingeLead(P) ? Math.min(U.sets, Math.min(...below.map(V => V.sets)) + 1) : hi0(U));
           if (below.length) dev += Math.max(0, Math.max(...us.map(hi)) - Math.min(...below.map(U => U.sets)) - 1);
           for (let k = 0; k < dev; k++) S.hit('staircase_deviation', { ...where, group: g }, g + ' sets ' + us.map(U => U.sets).join('/'));
         }
@@ -1533,13 +1567,16 @@ function checkCounts(S, X, ctx) {
         // T6-CNT-05 Focus slots on optional days (recovery weeks run at about half the sets)
         // (v0.5: a group its template cannot take to the target gets a bonus exercise on the optional day - rules.placement.bonus)
         const fs = D.units.filter(U => (U.role === 'focus' || U.bucket === 'FOCUS') && U.origin !== 'bonus');
+        // (scorer 2.6: the light chest exercise of R5-VOL-07 may be one more, rules.placement.x7.light_chest_optional.optional_day_max)
+        const LCO = P.light_chest_optional;
+        const bonusMaxOf = (bs) => (LCO && typeof LCO.optional_day_max === 'number' && bs.some(U => ((U.lead && U.lead.raw && U.lead.raw.why) || []).some(w => w && w.key === 'why.light_chest_optional')) ? Math.max(P.bonus_per_optional_day, LCO.optional_day_max) : P.bonus_per_optional_day);
         const bonus = D.units.filter(U => U.origin === 'bonus');
         if (fs.length || bonus.length) {
           S.n('focus_slot_violation');
           const lim = P.optional_focus;
           const range = Array.isArray(lim.sets) ? lim.sets : [2, lim.sets_max || 3];
           if (fs.length > (lim.slots || 2)) S.hit('focus_slot_violation', where, fs.length + ' Focus slots on the optional day');
-          else if (bonus.length > P.bonus_per_optional_day) S.hit('focus_slot_violation', where, bonus.length + ' bonus exercises on the optional day');
+          else if (bonus.length > bonusMaxOf(bonus)) S.hit('focus_slot_violation', where, bonus.length + ' bonus exercises on the optional day');
           else { const bad = fs.find(U => U.sets < range[0] || U.sets > range[1]); if (bad && !X.edited) S.hit('focus_slot_violation', { ...where, slot_id: bad.slot }, 'Focus slot at ' + bad.sets + ' sets'); }
         }
       }
@@ -1584,7 +1621,9 @@ function checkPlacementPairs(S, X, ctx) {
         if (stepsFirst(g, X, ctx)) continue;
         // (scorer 2.4.1, COACH-CH5 CH5-03 / DECISIONS G-199: the exposures are the day type's own lifts - a bonus exercise the engine adds
         // on one training day for a group the template cannot take to its final sets is not part of the A / B pairing)
-        const own = (W, wd) => { const D = W.days.find(d => d.weekday === wd); return D ? sum(D.units.filter(U => U.prime.includes(g) && U.origin !== 'bonus').map(U => U.sets)) : 0; };
+        // (scorer 2.6, G-236 / R5-ATH-12: the heavy deadlift's lead set - the group's next set taken ahead of the other hip lifts - is
+        // not an exposure imbalance: it is read at its start)
+        const own = (W, wd) => { const D = W.days.find(d => d.weekday === wd); return D ? sum(D.units.filter(U => U.prime.includes(g) && U.origin !== 'bonus').map(U => (heavyHingeUnit(U, X, ctx.P) && U.sets <= heavyHingeLead(ctx.P) ? Math.min(U.sets, ctx.P.heavy_hinge.start_sets) : U.sets))) : 0; };
         const a0 = own(w1, da), b0 = own(w1, db);
         if (!a0 && !b0) continue;
         for (const W of B.weeks.slice(1)) {

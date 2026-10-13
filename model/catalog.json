@@ -22057,11 +22057,11 @@
    "counting": "hypertrophy_sets",
    "credit_class": "MRPUSH",
    "credits": {
-    "front_delts": 1,
-    "chest": 0.5,
+    "chest": 1,
+    "front_delts": 0.25,
     "triceps": 0.25
    },
-   "primary_muscle": "front_delts",
+   "primary_muscle": "chest",
    "equipment": {
     "any_of": [
      [
@@ -22107,7 +22107,8 @@
    "sport_use": [],
    "rule_refs": [
     "R4-LIB-03",
-    "R4-SES-05"
+    "R4-SES-05",
+    "R5-VOL-01"
    ]
   },
   {
@@ -22136,11 +22137,11 @@
    "counting": "hypertrophy_sets",
    "credit_class": "MRPUSH",
    "credits": {
-    "front_delts": 1,
-    "chest": 0.5,
+    "chest": 1,
+    "front_delts": 0.25,
     "triceps": 0.25
    },
-   "primary_muscle": "front_delts",
+   "primary_muscle": "chest",
    "equipment": {
     "any_of": [
      [
@@ -22190,7 +22191,8 @@
    "sport_use": [],
    "rule_refs": [
     "R4-LIB-03",
-    "R4-SES-05"
+    "R4-SES-05",
+    "R5-VOL-01"
    ]
   },
   {
@@ -22219,11 +22221,11 @@
    "counting": "hypertrophy_sets",
    "credit_class": "MRPUSH",
    "credits": {
-    "front_delts": 1,
-    "chest": 0.5,
+    "chest": 1,
+    "front_delts": 0.25,
     "triceps": 0.25
    },
-   "primary_muscle": "front_delts",
+   "primary_muscle": "chest",
    "equipment": {
     "any_of": [
      [
@@ -22271,7 +22273,8 @@
    "sport_use": [],
    "rule_refs": [
     "R4-LIB-03",
-    "R4-SES-05"
+    "R4-SES-05",
+    "R5-VOL-01"
    ]
   },
   {

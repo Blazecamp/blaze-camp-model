@@ -16,7 +16,7 @@ _Your Blaze Camp plan_
 
 - Your season is close: the last 2 weeks of this plan are pre-season (more speed and power, fewer sets).
 - Biceps, Triceps: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.
-- Two-leg lifts are about 50 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
+- Two-leg lifts are about 51 % of your lower-body lifting sets (your sport's guide is about 20 %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.
 - This plan does not count your 2 team practices a week: take them into account and adjust the load yourself (lighter on a hard practice day, a little more in a light week).
 - Shoulders: 3 of its 11 final sets sit on a bonus exercise, done last in its day (Seated DB Lateral Raise, Wednesday), because your template's lifts for it are at their top sets. Skip it and the shoulders total ends at about 8.
 
@@ -133,7 +133,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Tuesday | Aerobic day | about 20 min | – |
 | Wednesday | S2 - medball + hip + push | about 115-140 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 2, Triceps 1, Calves 1 |
 | Thursday | Aerobic day | about 25-35 min | – |
-| Friday | S3 - Olympic + strength | about 100-120 min | Quads 2, Hips (glutes + hamstrings) 1, Back 2, Chest 1, Calves 1 |
+| Friday | S3 - Olympic + strength | about 100-125 min | Quads 2, Hips (glutes + hamstrings) 1, Back 2, Chest 1, Calves 1 |
 | Saturday | Optional day | about 25-30 min | – |
 
 ## Training block, week by week · Week 1-6
@@ -186,9 +186,9 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Bilateral Forward/Backward Ankle Hops | 2 2 2 2 2 2 | 9 contacts |
 | Medball Alternating Back-to-Wall Rotational Scoops | 2 2 2 2 2 2 | 5 per side |
 | Flat DB Bench Press | 3 3 3 3 4 4 | 8 to 12 Reps |
-| 45-Degree Hyperextension (back/hip extension) | 3 3 3 3 3 3 | 10 to 12 Reps |
+| 45-Degree Hyperextension (back/hip extension) | 2 2 2 3 3 3 | 10 to 12 Reps |
 | Alternating Incline DB Bench Press (one up / one down) | 3 3 3 3 3 3 | 8 to 12 per side |
-| Alternating Staggered-Stance Single-Leg Deadlift (DB) | 2 2 2 3 3 3 | 8 to 12 per side |
+| Alternating Staggered-Stance Single-Leg Deadlift (DB) | 2 2 2 2 2 3 | 8 to 12 per side |
 | Tate Press | 2 2 2 2 2 2 | 10 to 12 Reps |
 | Nordic Hamstring Curl | 2 2 2 2 2 3 | 6 to 8 Reps |
 | Bent-Over DB Reverse Fly | 3 3 3 3 4 4 | 15 to 20 Reps |
@@ -207,7 +207,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | 5-10-5 Pro-Agility Shuttle | 3 3 3 3 3 3 | 5 Reps |
 | Single-Arm DB Snatch | 2 2 2 2 3 2 | 8/8 |
 | Barbell Bench Press | 4 4 4 4 4 4 | 6 to 8 Reps |
-| Hex (Trap) Bar Deadlift | 2 3 3 3 3 4 | 6 to 8 Reps |
+| Hex (Trap) Bar Deadlift | 3 4 4 4 4 4 | 6 to 8 Reps |
 | Single-Arm DB/KB Row | 3 3 3 3 3 4 | 8 to 12 per side |
 | Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) | 2 2 2 2 2 2 | 8 to 12 per side |
 | Side (Lateral) Lunge | 2 2 2 2 2 2 | 8 to 12 per side |
@@ -412,7 +412,7 @@ _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
-_Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
+_Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
@@ -460,7 +460,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / DB Floor Press (keeps the horizontal press; loses the bottom of the range)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
-2. **45-Degree Hyperextension (back/hip extension)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
@@ -470,7 +470,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same main muscle; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same main muscle; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
@@ -514,10 +514,10 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 100-120 min (an estimate, for information only)_
+_Average time: about 100-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
-_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 4 min saved)_
+_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles · small-muscle accessories: Barbell Calf Raise_
 
@@ -568,7 +568,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
-2. **Hex (Trap) Bar Deadlift** — 2 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+2. **Hex (Trap) Bar Deadlift** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
@@ -630,7 +630,7 @@ _Week level: 3.3 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on Step-Up (forward and lateral) (Monday): 2 → 3 sets
-- +1 set on Hex (Trap) Bar Deadlift (Friday): 2 → 3 sets
+- +1 set on Hex (Trap) Bar Deadlift (Friday): 3 → 4 sets
 
 **Athletic work this week:** 95 jump contacts · 46 ankle-hop contacts · 20 throws · 87 direction changes · 330 m of sprints · 4 Olympic-lift sets · Plyo share 53% · Receive-Create 2: Land & Go
 
@@ -732,7 +732,7 @@ _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
-_Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
+_Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
@@ -777,7 +777,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / DB Floor Press (keeps the horizontal press; loses the bottom of the range)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
-2. **45-Degree Hyperextension (back/hip extension)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) (keeps the two-leg hinge; loses little - same movement, another grip or position)
@@ -785,7 +785,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 3. **Alternating Incline DB Bench Press (one up / one down)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same main muscle; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same main muscle; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
@@ -828,10 +828,10 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 100-125 min (an estimate, for information only)_
+_Average time: about 105-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
-_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
@@ -882,7 +882,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
-2. **Hex (Trap) Bar Deadlift** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+2. **Hex (Trap) Bar Deadlift** — 4 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
@@ -1041,7 +1041,7 @@ _Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
-_Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
+_Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
 _Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
@@ -1086,7 +1086,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
    - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / DB Floor Press (keeps the horizontal press; loses the bottom of the range)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
-2. **45-Degree Hyperextension (back/hip extension)** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / GHD - Glute-Ham Developer (hip extension / glute-ham raise) (keeps the two-leg hinge; loses little - same movement, another grip or position)
@@ -1094,7 +1094,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 3. **Alternating Incline DB Bench Press (one up / one down)** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same main muscle; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same main muscle; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
@@ -1137,10 +1137,10 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 100-125 min (an estimate, for information only)_
+_Average time: about 105-125 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
-_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
@@ -1191,7 +1191,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Keep this lift at 6-8 reps.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
-2. **Hex (Trap) Bar Deadlift** — 3 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
+2. **Hex (Trap) Bar Deadlift** — 4 × 6 to 8 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 8 on every set with 3 left in the tank, add weight next time and start again at 6.
    - Keep this lift at 6-8 reps.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
@@ -1248,7 +1248,7 @@ _Week level: 6.7 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on Front Squat (barbell) (Monday): 3 → 4 sets
-- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Wednesday): 2 → 3 sets
+- +1 set on 45-Degree Hyperextension (back/hip extension) (Wednesday): 2 → 3 sets
 - +1 set on Single-Arm Lat Pulldown (Friday): 2 → 3 sets
 - +1 set on Standing DB Calf Raise (deficit optional) (Monday): 3 → 4 sets
 
@@ -1348,12 +1348,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 125-155 min (an estimate, for information only)_
+_Average time: about 125-150 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
-_Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Single-Leg Broad Jump · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
@@ -1406,9 +1406,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
-   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same main muscle; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same main muscle; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1450,10 +1450,10 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 110-135 min (an estimate, for information only)_
+_Average time: about 115-140 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
-_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
@@ -1503,7 +1503,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
-2. **Hex (Trap) Bar Deadlift** — 3 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
+2. **Hex (Trap) Bar Deadlift** — 4 × 6 to 8 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 8 on every set with 2 left in the tank, add weight next time and start again at 6.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
@@ -1662,12 +1662,12 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: run. Go by time, not distance.
 
 ### Wednesday · S2 - medball + hip + push
-_Average time: about 130-160 min (an estimate, for information only)_
+_Average time: about 130-155 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, accessories, cardio. You can also add or remove exercises._
 _Superset to save time: Weighted Russian Twist + V-Up (about 2.5 min saved)_
 _Superset to save time: Bilateral Forward/Backward Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
-_Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 5.5 min saved)_
+_Superset to save time: Alternating Incline DB Bench Press (one up / one down) + Alternating Staggered-Stance Single-Leg Deadlift (DB) (about 4 min saved)_
 _Superset to save time: Tate Press + Nordic Hamstring Curl (about 3.5 min saved)_
 _Superset to save time: Bent-Over DB Reverse Fly + Machine Calf Raise (about 5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops, Bilateral Forward/Backward Ankle Hops, Single-Leg Broad Jump · small-muscle accessories: Machine Calf Raise, Bent-Over DB Reverse Fly, Nordic Hamstring Curl · 2 more_
@@ -1720,9 +1720,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
-   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same main muscle; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same main muscle; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
-4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 2 × 8 to 10 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
@@ -1764,10 +1764,10 @@ _Optional: you can switch off this cardio session, or move it to another day._
   - Or use another of your cardio tools: bike. Go by time, not distance.
 
 ### Friday · S3 - Olympic + strength
-_Average time: about 115-140 min (an estimate, for information only)_
+_Average time: about 120-145 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Leg Raise (lying / supine) (about 2.5 min saved)_
-_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 5.5 min saved)_
+_Superset to save time: Barbell Bench Press + Hex (Trap) Bar Deadlift (about 7 min saved)_
 _Superset to save time: Single-Arm DB/KB Row + Rear-Foot-Elevated Lunge (RFE / Bulgarian split squat) (about 4 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: 5-10-5 Pro-Agility Shuttle, Lateral Shuffles, Lateral Box Step-up Jump · small-muscle accessories: Barbell Calf Raise_
 
@@ -1817,7 +1817,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses the flat pressing angle) / Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / Incline DB Bench Press - Feet on Wall (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Barbell%20Bench%20Press) · Name to copy into YouTube: `Barbell Bench Press`
-2. **Hex (Trap) Bar Deadlift** — 3 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
+2. **Hex (Trap) Bar Deadlift** — 4 × 6 to 8 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
    - Progress: when you hit 8 on every set with 1-2 left in the tank, add weight next time and start again at 6.
    - Swap for: Barbell Deadlift (conventional) (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift) · Name to copy into YouTube: `Hex (Trap) Bar Deadlift`
@@ -1878,8 +1878,8 @@ _Week level: 11 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on Leg Extension (machine) (Monday): 3 → 4 sets
+- +1 set on Alternating Staggered-Stance Single-Leg Deadlift (DB) (Wednesday): 2 → 3 sets
 - +1 set on Nordic Hamstring Curl (Wednesday): 2 → 3 sets
-- +1 set on Hex (Trap) Bar Deadlift (Friday): 3 → 4 sets
 - +1 set on Single-Arm DB/KB Row (Friday): 3 → 4 sets
 - +1 set on Machine Calf Raise (Wednesday): 3 → 4 sets
 
@@ -2039,7 +2039,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 10 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
-   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same main muscle; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same main muscle; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Alternating Staggered-Stance Single-Leg Deadlift (DB)** — 3 × 8 to 10 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 1 left in the tank, add weight next time and start again at 8.
@@ -2346,7 +2346,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
-   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same main muscle; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same main muscle; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
@@ -2641,7 +2641,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - Keep this lift at 8-10 reps.
    - per side = 1 set
-   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same job in the session; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same job in the session; loses each hand moving on its own)
+   - Swap for: Incline Barbell Bench Press (keeps the horizontal press; loses each hand moving on its own) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline DB Press (keeps the same main muscle; loses the one-side-at-a-time work) / High-Incline Seated Barbell Press (keeps the same main muscle; loses each hand moving on its own)
    - [Watch how](https://www.youtube.com/results?search_query=Alternating%20Incline%20DB%20Bench%20Press%20(one%20up%20%2F%20one%20down)) · Name to copy into YouTube: `Alternating Incline DB Bench Press (one up / one down)`
 4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 10 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time and start again at 8.

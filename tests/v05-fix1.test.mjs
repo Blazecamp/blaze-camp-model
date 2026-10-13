@@ -24,6 +24,7 @@ import { groupCredits } from '../engine/lines.mjs';
 import { stairwayProgress, staggerStairways } from '../engine/progression/stairway.mjs';
 import { amendRulesX1, amendTemplatesX1, amendExerciseX1, PINNED_SKELETON_PREFIXES_X1, UI_X1 } from '../tools/fixture/v05-fix1.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2 } from '../tools/fixture/v05-fix2.mjs';
+import { amendRulesV07, amendExerciseV07 } from '../tools/fixture/v07-volume.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BENCH_DIR = path.join(ROOT, 'design', 'bench', 'intakes');
@@ -94,9 +95,11 @@ describe('v0.5 fix round 1 / the amendment layer is pure and marks what is PROPO
     // v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): the built model carries the round-2 layer on top
     // of this one (tools/fixture/v05-fix2.mjs rewrites some of the same sections - the pull classes, the pinned skeletons), so the
     // layer is idempotent on the built model once the later layer is applied after it, as the build does
-    assert.deepEqual(amendRulesX2(r1), fx.rules, 'the fixture already carries both layers'); assert.deepEqual(amendTemplatesX1(t1), t1);
+    // (engine 0.7, G-230: the v0.7 volume layer rewrites the high-incline press credits this layer set - COACH-R5 R5-VOL-01 - so the
+    // later layer is applied after it, as the build does)
+    assert.deepEqual(amendRulesV07(amendRulesX2(r1)), fx.rules, 'the fixture already carries both layers'); assert.deepEqual(amendTemplatesX1(t1), t1);
     assert.deepEqual(amendTemplatesX2(t1), fx.templates);
-    for (const e of fx.catalog.exercises.slice(0, 200)) assert.deepEqual(amendExerciseX2(amendExerciseX1(e)), e, e.id);
+    for (const e of fx.catalog.exercises.slice(0, 200)) assert.deepEqual(amendExerciseV07(amendExerciseX2(amendExerciseX1(e))), e, e.id);
     assert.deepEqual(PINNED_SKELETON_PREFIXES_X1, ['gym_', 'ppl_', 'athletic_']);
   });
   it('every new rule section names its coach answers; the engine\'s own numbers say PROPOSED', () => {
@@ -160,9 +163,11 @@ describe('v0.5 fix round 1 / the 8 samples and the benchmark plans (compiled mod
     }
   });
 
-  it('R4-SES-05 / R4-LIB-03 (06 / 08): the week\'s "Chest / Shoulders" slot holds a 30-45 degree incline press that counts for chest; a high-incline press counts 1 front delts + half a set chest', () => {
+  it('R4-SES-05 / R4-LIB-03 (06 / 08): the week\'s "Chest / Shoulders" slot holds a 30-45 degree incline press that counts for chest; a high-incline press counts 1 chest + 0.25 front delts + 0.25 triceps (R5-VOL-01)', () => {
     const CS = R.selection.x1.chest_shoulders;
-    assert.deepEqual(R.credit.classes.MRPUSH, { front_delts: 1, chest: 0.5, triceps: 0.25 });
+    // (converted in engine 0.7, G-230: COACH-R5 R5-VOL-01 'like a 1 for chest and a .25 front delts .25 tricep' replaces the PROPOSED
+    // 1 front delts + 0.5 chest)
+    assert.deepEqual(R.credit.classes.MRPUSH, { chest: 1, front_delts: 0.25, triceps: 0.25 });
     for (const n of ['06', '08']) for (const w of planOf(n).weeks) {
       const inc = w.days.flatMap(d => itemsOf(d)).filter(it => it.bucket === CS.bucket && new RegExp(CS.incline_re).test(it.exercise_id || ''));
       // v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): a physique plan whose chest exercises at their most sets

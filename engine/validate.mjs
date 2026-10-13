@@ -524,7 +524,12 @@ function v13Caps(c) {
     const ABk = c.R.athletic.f2 && c.R.athletic.f2.ankle_block;
     const ankleRows = ABk && ABk.outside_athlete_cap ? rows.filter(r => r.it.bucket === 'AP_JUMP_LIMITED_KNEE' && ((r.it.flags || []).includes('ankle_block') || (r.it.athletic && r.it.athletic.key === 'low_contacts'))).length : 0;
     const count = rows.length - ankleRows;
-    if (count > size.range[1]) out.push(viol(whereDay(w, d), k, { rule: 'session_size', count, max: size.range[1], type: size.type }));
+    // v0.7 G-233 (COACH-R5 R5-VOL-10 'let the day hold one more exercise'): a day whose stated reason rules.validation.v05.size_plus_whys
+    // names holds rules.session.x7.racket_calf_both_days.size_plus exercises more
+    const SPW = (c.R.validation && c.R.validation.v05 && c.R.validation.v05.size_plus_whys) || [];
+    const RCv = S.x7 && S.x7.racket_calf_both_days;
+    const plus = SPW.length && (d.why || []).some(x => x && SPW.includes(x.key)) ? ((RCv && typeof RCv.size_plus === 'number') ? RCv.size_plus : 1) : 0;
+    if (count > size.range[1] + plus) out.push(viol(whereDay(w, d), k, { rule: 'session_size', count, max: size.range[1], type: size.type }));
   }
   const ABS = c.R.volume.priority && c.R.volume.priority.absolute_cap;
   if (typeof ABS === 'number') for (const tb of c.tbs) {

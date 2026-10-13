@@ -35,6 +35,23 @@ the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` an
 >   `health_warn_without_reasons`, `health_answer_in_plan`, `severe_pain_reason_missing`, `severe_pain_not_built_as`); V21 adds `health_warning_words` /
 >   `health_reason_words` (EN + ES); H20 unchanged. `validation.checks[V1|V21].v07` describe them. `ENGINE_VERSION` is `0.7.0`.
 
+> **Engine 0.7 volume package (coach answers round 5; 2026-10-13) - binding, on top of the 0.6.0 box below.** Authority:
+> `coach_answers_round5.md` (COACH-R5) with CH5. Model layer `tools/fixture/v07-volume.mjs` (both builds, after the v0.6 layers);
+> decisions `engine/DECISIONS.md` G-230 ... G-239; request `engine/CONTRACT_REQUESTS.md` 'Engine 0.7 volume package'. Additive only,
+> every key read with a guard; plan schema stays `plan/2`.
+> * **Rules.** `credit.classes.MRPUSH` = {chest 1, front_delts 0.25, triceps 0.25} (R5-VOL-01); `placement.x7` {`light_chest_optional`,
+>   `athlete_press_focus`, `one_set_shortfall`, `heavy_hinge_lead`, `bonus_open_week`}; `volume.x7.start_below_top`;
+>   `session.x7.racket_calf_both_days`; `supersets.bootcamp.x7.rounds_by_third` {rounds [3, 4, 5], warning_key, floor_key,
+>   over_top_key} (replaces the level's rounds + `x2.rounds_late` when present); `validation.v05.size_plus_whys` (a day whose why
+>   names one may hold `session.x7.racket_calf_both_days.size_plus` exercises above its size range - V13).
+> * **Plan fields.** `meta.stairway[].one_set_shortfall` [{group, slot_id, exercise_block, sets}]; `meta.stairway[].main_bonus[].week`
+>   (the plan week a training day's bonus comes in).
+> * **Warnings.** `racket_calf_both_days` {days}; `circuit_rounds_thirds` {from, to}; `circuit_rounds_floor` {group[], floor, rounds,
+>   week, last}; `circuit_over_top` may use key `warning.circuit_over_top_rounds` with {group, held, top, rounds}.
+> * **Functions.** `buildShape(derived, model, opts)` also reads `opts.roundsCap` (the most rounds a circuit week may run; generate
+>   builds a circuit plan again with one round fewer at the top while a week passes the absolute weekly cap); `roundsByThird(rounds,
+>   N, w, hold?)` is exported from `engine/shape.mjs`.
+>
 > **Engine 0.6.0 (2026-10-11) - binding, on top of every box below.** `ENGINE_VERSION` is `0.6.0`: the volume package (box below;
 > `tools/fixture/v06-volume.mjs`, DECISIONS G-100 ... G-119), the selection package (`tools/fixture/v06-select.mjs`:
 > `rules.selection.s6`, `rules.conditioning.s6`, `rules.athletic.s6`, the athletic A / B arm station; G-130 ... G-139) and the words

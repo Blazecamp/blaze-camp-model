@@ -364,9 +364,12 @@ for (const [mname, model] of MODELS) {
       // (v0.5 fix round 1: the incline press of the 'Chest / Shoulders' slot and the half set of a high-incline press now count for
       // chest - R4-SES-05 / R4-LIB-03, sample 06 major 'chest holds 13 weekly sets in every one of the 12 weeks' - so the number moved;
       // the table still prints 'held of planned' for a group its template caps)
-      { const p6 = planOf('06'), c6 = p6.meta.stairway[0].capped.find(x => x.group === 'chest');
-        assert.ok(c6 && c6.held > 13 && c6.held < c6.planned, JSON.stringify(c6));
-        assert.match(unesc(renderPlan(p6, model, { view: 'block' })), new RegExp('\\| Chest \\| [\\d. ·]+ \\| ' + c6.held + ' of ' + c6.planned + ' \\|')); }
+      // (converted in engine 0.7, G-231: COACH-R5 R5-VOL-07's light chest exercise on the optional day takes 06's chest to its 25, so the
+      // capped row is read on the group the template still holds - the biceps)
+      { const p6 = planOf('06'), c6 = p6.meta.stairway[0].capped.find(x => x.group === 'biceps');
+        assert.ok(!p6.meta.stairway[0].capped.some(x => x.group === 'chest'));
+        assert.ok(c6 && c6.held < c6.planned, JSON.stringify(c6));
+        assert.match(unesc(renderPlan(p6, model, { view: 'block' })), new RegExp('\\| Biceps \\| [\\d. ·]+ \\| ' + c6.held + ' of ' + c6.planned + ' \\|')); }
       // a timed circuit has no stairway of sets: two columns, no 'final sets' to promise
       const circ = unesc(renderPlan(planOf('05'), model, { lang: 'en', view: 'block' }));
       assert.ok(circ.includes('| ' + [t('en', 'ui.plan.col.group'), t('en', 'ui.plan.col.sets_by_week', { from: 1, to: planOf('05').weeks.length })].join(' | ') + ' |\n|---|---|\n'));

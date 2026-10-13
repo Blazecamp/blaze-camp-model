@@ -202,6 +202,23 @@ function circuitRounds(level, model) {
 }
 
 /**
+ * v0.7 G-234 (COACH-R5 R5-CLS-03): the rounds of stairway week w of an N-week block, the block cut in thirds (12 weeks: 4 / 4 / 4;
+ * a length that does not divide gives its extra weeks to the earlier thirds: 8 weeks 3 / 3 / 2). `hold` keeps the last third at the
+ * middle third's rounds.
+ * @param {number[]} rounds e.g. [3, 4, 5] @param {number} N @param {number} w 1-based @param {boolean} hold @returns {number}
+ */
+export function roundsByThird(rounds, N, w, hold = false) {
+  const k = rounds.length;
+  const base = Math.floor(N / k), extra = N - base * k;
+  let end = 0;
+  for (let i = 0; i < k; i++) {
+    end += base + (i < extra ? 1 : 0);
+    if (w <= end) return hold && i === k - 1 && k > 1 ? rounds[k - 2] : rounds[i];
+  }
+  return hold && k > 1 ? rounds[k - 2] : rounds[k - 1];
+}
+
+/**
  * The plan shape (CONTRACTS §4.4).
  * @param {import('./util.mjs').Derived} derived
  * @param {object} model
@@ -341,7 +358,16 @@ export function buildShape(derived, model, opts = {}) {
             // (opts.noLateRounds: generate builds the plan again without the extra round when it would take a muscle past the
             // absolute weekly cap - a 5-day circuit week)
             const late = RL && !opts.noLateRounds && stair_N >= 4 && w > stair_N - RL.last_weeks ? RL.add : 0;
-            const roundsW = Math.min(R.supersets.bootcamp.rounds[1], rounds + late);
+            // v0.7 G-234 (COACH-R5 R5-CLS-03 'say it's a 12-week program: 3 rounds the first 4 weeks ... 4 rounds the next 4 weeks, then 5
+            // rounds the next 4 weeks, and then people can adjust'): the rounds climb with the stairway in thirds
+            // (rules.supersets.bootcamp.x7.rounds_by_third; replaces the level's rounds + one late round); a plan built again without
+            // the late rounds (a muscle past the absolute weekly cap) takes the top rounds down one at a time (opts.roundsCap, set by
+            // generate; never under the first third's rounds)
+            const RT = R.supersets.bootcamp.x7 && R.supersets.bootcamp.x7.rounds_by_third;
+            const capR = typeof opts.roundsCap === 'number' && RT && Array.isArray(RT.rounds) && RT.rounds.length ? Math.max(RT.rounds[0], opts.roundsCap) : Infinity;
+            const roundsW = RT && Array.isArray(RT.rounds) && RT.rounds.length
+              ? Math.min(capR, roundsByThird(RT.rounds, stair_N, w, !!opts.noLateRounds && capR === Infinity))
+              : Math.min(R.supersets.bootcamp.rounds[1], rounds + late);
             circ = { rounds: roundsW, work_s: cws[w - 1], from_s: cws[0], to_s: cws[stair_N - 1] };
             if (w === 1) whys.push(why('why.circuit_stairway', 'D-19', { from: cws[0], to: cws[stair_N - 1] }));
           } else {

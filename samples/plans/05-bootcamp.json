@@ -271,11 +271,75 @@
         "realized_arrival_week": {},
         "realized_top": {},
         "capped": [],
-        "below_floor": [],
+        "below_floor": [
+          "quads",
+          "hips",
+          "chest",
+          "back",
+          "biceps",
+          "triceps"
+        ],
         "bonus": [],
         "main_bonus": [],
+        "one_set_shortfall": [],
         "focus_closed": [],
         "acceleration": [
+          {
+            "week": 4,
+            "group": "quads",
+            "from": 9,
+            "to": 12,
+            "pct": 33
+          },
+          {
+            "week": 4,
+            "group": "hips",
+            "from": 8.25,
+            "to": 11,
+            "pct": 33
+          },
+          {
+            "week": 4,
+            "group": "back",
+            "from": 9,
+            "to": 12,
+            "pct": 33
+          },
+          {
+            "week": 4,
+            "group": "chest",
+            "from": 9,
+            "to": 12,
+            "pct": 33
+          },
+          {
+            "week": 4,
+            "group": "shoulders",
+            "from": 13.5,
+            "to": 18,
+            "pct": 33
+          },
+          {
+            "week": 4,
+            "group": "biceps",
+            "from": 8.25,
+            "to": 11,
+            "pct": 33
+          },
+          {
+            "week": 4,
+            "group": "triceps",
+            "from": 9,
+            "to": 12,
+            "pct": 33
+          },
+          {
+            "week": 4,
+            "total": true,
+            "from": 54,
+            "to": 72,
+            "pct": 33
+          },
           {
             "week": 7,
             "group": "quads",
@@ -590,17 +654,52 @@
         "code": "acceleration",
         "key": "warning.acceleration_total",
         "args": {
+          "week": 4,
+          "pct": 33
+        }
+      },
+      {
+        "code": "acceleration",
+        "key": "warning.acceleration_total",
+        "args": {
           "week": 7,
           "pct": 25
         }
       },
       {
+        "code": "circuit_rounds_floor",
+        "key": "warning.circuit_rounds_floor",
+        "args": {
+          "group": [
+            "quads",
+            "hips",
+            "chest",
+            "back",
+            "biceps",
+            "triceps"
+          ],
+          "floor": 10,
+          "rounds": 3,
+          "week": 4,
+          "last": 3
+        }
+      },
+      {
+        "code": "circuit_rounds_thirds",
+        "key": "warning.circuit_rounds_thirds",
+        "args": {
+          "from": 3,
+          "to": 5
+        }
+      },
+      {
         "code": "circuit_over_top",
-        "key": "warning.circuit_over_top",
+        "key": "warning.circuit_over_top_rounds",
         "args": {
           "group": "shoulders",
           "held": 22.5,
-          "top": 18
+          "top": 18,
+          "rounds": 4
         }
       },
       {
@@ -1183,7 +1282,7 @@
         "from_zero": false
       },
       "circuit": {
-        "rounds": 4,
+        "rounds": 3,
         "work_s": 35,
         "from_s": 35,
         "to_s": 50
@@ -1210,81 +1309,81 @@
         "calves": null
       },
       "weekly_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "side_delts": 5,
-        "rear_delts": 7,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "side_delts": 3.75,
+        "rear_delts": 5.25,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0,
         "abs_obliques": 12,
-        "forearms": 2,
-        "front_delts": 7,
+        "forearms": 1.5,
+        "front_delts": 5.25,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 2.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
+        "quads": 9,
+        "hamstrings": 6,
         "glutes": 0,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "side_delts": 4,
-        "rear_delts": 4,
-        "biceps": 8,
-        "triceps": 8,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "side_delts": 3,
+        "rear_delts": 3,
+        "biceps": 6,
+        "triceps": 6,
         "calves": 0,
         "abs_obliques": 12,
         "forearms": 0,
-        "front_delts": 4,
+        "front_delts": 3,
         "traps": 0,
         "adductors": 0,
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "weekly_sets_by_line": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "weekly_sets_by_group": {
-        "quads": 12,
-        "hips": 11,
-        "back": 12,
-        "chest": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hips": 8.25,
+        "back": 9,
+        "chest": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "main_sets_by_group": {
-        "quads": 12,
-        "hips": 11,
-        "back": 12,
-        "chest": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hips": 8.25,
+        "back": 9,
+        "chest": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "target_by_group": {
@@ -1299,7 +1398,7 @@
       },
       "acceleration": [],
       "credit_only_groups": [],
-      "total_main_sets": 72,
+      "total_main_sets": 54,
       "group_counts_by_day": {
         "Mon": {
           "quads": 2,
@@ -1323,7 +1422,7 @@
           "triceps": 1
         }
       },
-      "total_resistance_sets": 72,
+      "total_resistance_sets": 54,
       "rise_vs_prev": null,
       "athletic_budget": {
         "plyo_share": null,
@@ -1383,7 +1482,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC1",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 44,
+          "est_minutes": 37,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -1784,10 +1883,10 @@
                     "url": "https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)",
                     "copy_name": "Box Goblet Squat (touch-and-go)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -1820,7 +1919,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -1831,7 +1930,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -1923,10 +2022,10 @@
                     "url": "https://www.youtube.com/results?search_query=Chest-Supported%20Row",
                     "copy_name": "Chest-Supported Row"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -1959,7 +2058,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -1970,7 +2069,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -2052,10 +2151,10 @@
                     "url": "https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)",
                     "copy_name": "Rear-Foot-on-Wall DB Deadlift (RDL)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -2087,7 +2186,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -2098,7 +2197,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -2183,10 +2282,10 @@
                     "url": "https://www.youtube.com/results?search_query=Jump%20Rope",
                     "copy_name": "Jump Rope"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -2208,7 +2307,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -2219,7 +2318,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -2285,10 +2384,10 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -2321,7 +2420,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -2332,7 +2431,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -2424,10 +2523,10 @@
                     "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
                     "copy_name": "Bent-Over DB Reverse Fly"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -2458,7 +2557,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -2469,7 +2568,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -2564,10 +2663,10 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl",
                     "copy_name": "Dumbbell Hammer Curl"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -2599,7 +2698,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -2610,7 +2709,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -2868,7 +2967,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC2",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 44,
+          "est_minutes": 37,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -3270,10 +3369,10 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift",
                     "copy_name": "Single-Kettlebell Deadlift"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -3305,7 +3404,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -3316,7 +3415,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -3396,10 +3495,10 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Floor%20Press",
                     "copy_name": "DB Floor Press"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -3432,7 +3531,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -3443,7 +3542,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -3525,10 +3624,10 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Curl",
                     "copy_name": "Dumbbell Curl"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -3560,7 +3659,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -3571,7 +3670,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -3663,10 +3762,10 @@
                     "url": "https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)",
                     "copy_name": "Offset Push-Up (one hand elevated)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -3699,7 +3798,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -3710,7 +3809,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -3808,10 +3907,10 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press",
                     "copy_name": "Alternating DB Overhead Press"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -3844,7 +3943,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -3855,7 +3954,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -3940,10 +4039,10 @@
                     "url": "https://www.youtube.com/results?search_query=Burpees",
                     "copy_name": "Burpees"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -3965,7 +4064,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -3976,7 +4075,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -4046,10 +4145,10 @@
                     "url": "https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher",
                     "copy_name": "Floor Dumbbell Skullcrusher"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -4080,7 +4179,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -4091,7 +4190,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -4337,7 +4436,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC3",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 44,
+          "est_minutes": 37,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -4739,10 +4838,10 @@
                     "url": "https://www.youtube.com/results?search_query=Chest-Supported%20Row",
                     "copy_name": "Chest-Supported Row"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -4775,7 +4874,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -4786,7 +4885,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -4894,10 +4993,10 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -4930,7 +5029,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -4941,7 +5040,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -5037,10 +5136,10 @@
                     "url": "https://www.youtube.com/results?search_query=Jumping%20Jacks",
                     "copy_name": "Jumping Jacks"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -5062,7 +5161,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -5073,7 +5172,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -5143,10 +5242,10 @@
                     "url": "https://www.youtube.com/results?search_query=Push-Up",
                     "copy_name": "Push-Up"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -5179,7 +5278,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -5190,7 +5289,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -5283,10 +5382,10 @@
                     "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)",
                     "copy_name": "Bent-Over DB or KB Row (two-arm)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -5319,7 +5418,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -5330,7 +5429,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -5410,10 +5509,10 @@
                     "url": "https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension",
                     "copy_name": "Overhead Dumbbell Triceps Extension"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -5444,7 +5543,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -5455,7 +5554,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -5535,10 +5634,10 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)",
                     "copy_name": "DB Lateral Raise (Supinated / palms-up grip)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -5569,7 +5668,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -5580,7 +5679,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -5851,7 +5950,7 @@
       "plyo_stage": null,
       "test": null,
       "circuit": {
-        "rounds": 4,
+        "rounds": 3,
         "work_s": 35,
         "from_s": 35,
         "to_s": 50
@@ -5878,81 +5977,81 @@
         "calves": null
       },
       "weekly_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "side_delts": 5,
-        "rear_delts": 7,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "side_delts": 3.75,
+        "rear_delts": 5.25,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0,
         "abs_obliques": 12,
-        "forearms": 2,
-        "front_delts": 7,
+        "forearms": 1.5,
+        "front_delts": 5.25,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 2.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
+        "quads": 9,
+        "hamstrings": 6,
         "glutes": 0,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "side_delts": 4,
-        "rear_delts": 4,
-        "biceps": 8,
-        "triceps": 8,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "side_delts": 3,
+        "rear_delts": 3,
+        "biceps": 6,
+        "triceps": 6,
         "calves": 0,
         "abs_obliques": 12,
         "forearms": 0,
-        "front_delts": 4,
+        "front_delts": 3,
         "traps": 0,
         "adductors": 0,
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "weekly_sets_by_line": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "weekly_sets_by_group": {
-        "quads": 12,
-        "hips": 11,
-        "back": 12,
-        "chest": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hips": 8.25,
+        "back": 9,
+        "chest": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "main_sets_by_group": {
-        "quads": 12,
-        "hips": 11,
-        "back": 12,
-        "chest": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hips": 8.25,
+        "back": 9,
+        "chest": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "target_by_group": {
@@ -5967,7 +6066,7 @@
       },
       "acceleration": [],
       "credit_only_groups": [],
-      "total_main_sets": 72,
+      "total_main_sets": 54,
       "group_counts_by_day": {
         "Mon": {
           "quads": 2,
@@ -5991,7 +6090,7 @@
           "triceps": 1
         }
       },
-      "total_resistance_sets": 72,
+      "total_resistance_sets": 54,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": null,
@@ -6052,7 +6151,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC1",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 44,
+          "est_minutes": 37,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -6449,10 +6548,10 @@
                     "url": "https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)",
                     "copy_name": "Box Goblet Squat (touch-and-go)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -6485,7 +6584,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -6496,7 +6595,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -6585,10 +6684,10 @@
                     "url": "https://www.youtube.com/results?search_query=Chest-Supported%20Row",
                     "copy_name": "Chest-Supported Row"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -6621,7 +6720,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -6632,7 +6731,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -6711,10 +6810,10 @@
                     "url": "https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)",
                     "copy_name": "Rear-Foot-on-Wall DB Deadlift (RDL)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -6746,7 +6845,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -6757,7 +6856,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -6839,10 +6938,10 @@
                     "url": "https://www.youtube.com/results?search_query=Jump%20Rope",
                     "copy_name": "Jump Rope"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -6864,7 +6963,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -6875,7 +6974,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -6941,10 +7040,10 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -6977,7 +7076,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -6988,7 +7087,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -7080,10 +7179,10 @@
                     "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
                     "copy_name": "Bent-Over DB Reverse Fly"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -7114,7 +7213,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -7125,7 +7224,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -7217,10 +7316,10 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl",
                     "copy_name": "Dumbbell Hammer Curl"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -7252,7 +7351,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -7263,7 +7362,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -7518,7 +7617,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC2",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 44,
+          "est_minutes": 37,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -7920,10 +8019,10 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift",
                     "copy_name": "Single-Kettlebell Deadlift"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -7955,7 +8054,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -7966,7 +8065,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -8043,10 +8142,10 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Floor%20Press",
                     "copy_name": "DB Floor Press"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -8079,7 +8178,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -8090,7 +8189,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -8169,10 +8268,10 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Curl",
                     "copy_name": "Dumbbell Curl"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -8204,7 +8303,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -8215,7 +8314,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -8304,10 +8403,10 @@
                     "url": "https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)",
                     "copy_name": "Offset Push-Up (one hand elevated)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -8340,7 +8439,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -8351,7 +8450,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -8449,10 +8548,10 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press",
                     "copy_name": "Alternating DB Overhead Press"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -8485,7 +8584,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -8496,7 +8595,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -8578,10 +8677,10 @@
                     "url": "https://www.youtube.com/results?search_query=Burpees",
                     "copy_name": "Burpees"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -8603,7 +8702,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -8614,7 +8713,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -8684,10 +8783,10 @@
                     "url": "https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher",
                     "copy_name": "Floor Dumbbell Skullcrusher"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -8718,7 +8817,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -8729,7 +8828,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -8972,7 +9071,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC3",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 44,
+          "est_minutes": 37,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -9374,10 +9473,10 @@
                     "url": "https://www.youtube.com/results?search_query=Chest-Supported%20Row",
                     "copy_name": "Chest-Supported Row"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -9410,7 +9509,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -9421,7 +9520,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -9526,10 +9625,10 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -9562,7 +9661,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -9573,7 +9672,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -9669,10 +9768,10 @@
                     "url": "https://www.youtube.com/results?search_query=Jumping%20Jacks",
                     "copy_name": "Jumping Jacks"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -9694,7 +9793,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -9705,7 +9804,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -9775,10 +9874,10 @@
                     "url": "https://www.youtube.com/results?search_query=Push-Up",
                     "copy_name": "Push-Up"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -9811,7 +9910,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -9822,7 +9921,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -9915,10 +10014,10 @@
                     "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)",
                     "copy_name": "Bent-Over DB or KB Row (two-arm)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -9951,7 +10050,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -9962,7 +10061,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -10039,10 +10138,10 @@
                     "url": "https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension",
                     "copy_name": "Overhead Dumbbell Triceps Extension"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -10073,7 +10172,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -10084,7 +10183,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -10161,10 +10260,10 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)",
                     "copy_name": "DB Lateral Raise (Supinated / palms-up grip)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35
                   },
                   "set_reps": null,
@@ -10195,7 +10294,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 35,
                     "transition_s": 15
                   },
@@ -10206,7 +10305,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 35,
                         "transition_s": 15,
                         "between_s": 90
@@ -10474,7 +10573,7 @@
       "plyo_stage": null,
       "test": null,
       "circuit": {
-        "rounds": 4,
+        "rounds": 3,
         "work_s": 40,
         "from_s": 35,
         "to_s": 50
@@ -10501,81 +10600,81 @@
         "calves": null
       },
       "weekly_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "side_delts": 5,
-        "rear_delts": 7,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "side_delts": 3.75,
+        "rear_delts": 5.25,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0,
         "abs_obliques": 12,
-        "forearms": 2,
-        "front_delts": 7,
+        "forearms": 1.5,
+        "front_delts": 5.25,
         "traps": 0,
-        "adductors": 3,
+        "adductors": 2.25,
         "neck": 0
       },
       "direct_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
+        "quads": 9,
+        "hamstrings": 6,
         "glutes": 0,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "side_delts": 4,
-        "rear_delts": 4,
-        "biceps": 8,
-        "triceps": 8,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "side_delts": 3,
+        "rear_delts": 3,
+        "biceps": 6,
+        "triceps": 6,
         "calves": 0,
         "abs_obliques": 12,
         "forearms": 0,
-        "front_delts": 4,
+        "front_delts": 3,
         "traps": 0,
         "adductors": 0,
         "neck": 0
       },
       "main_sets_by_muscle": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "weekly_sets_by_line": {
-        "quads": 12,
-        "hamstrings": 8,
-        "glutes": 5,
-        "chest": 12,
-        "lats_upper_back": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hamstrings": 6,
+        "glutes": 3.75,
+        "chest": 9,
+        "lats_upper_back": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "weekly_sets_by_group": {
-        "quads": 12,
-        "hips": 11,
-        "back": 12,
-        "chest": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hips": 8.25,
+        "back": 9,
+        "chest": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "main_sets_by_group": {
-        "quads": 12,
-        "hips": 11,
-        "back": 12,
-        "chest": 12,
-        "shoulders": 18,
-        "biceps": 11,
-        "triceps": 12,
+        "quads": 9,
+        "hips": 8.25,
+        "back": 9,
+        "chest": 9,
+        "shoulders": 13.5,
+        "biceps": 8.25,
+        "triceps": 9,
         "calves": 0
       },
       "target_by_group": {
@@ -10590,7 +10689,7 @@
       },
       "acceleration": [],
       "credit_only_groups": [],
-      "total_main_sets": 72,
+      "total_main_sets": 54,
       "group_counts_by_day": {
         "Mon": {
           "quads": 2,
@@ -10614,7 +10713,7 @@
           "triceps": 1
         }
       },
-      "total_resistance_sets": 72,
+      "total_resistance_sets": 54,
       "rise_vs_prev": 0,
       "athletic_budget": {
         "plyo_share": null,
@@ -10681,7 +10780,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC1",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 46,
+          "est_minutes": 38,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -11078,10 +11177,10 @@
                     "url": "https://www.youtube.com/results?search_query=Box%20Goblet%20Squat%20(touch-and-go)",
                     "copy_name": "Box Goblet Squat (touch-and-go)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -11114,7 +11213,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -11125,7 +11224,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -11214,10 +11313,10 @@
                     "url": "https://www.youtube.com/results?search_query=Chest-Supported%20Row",
                     "copy_name": "Chest-Supported Row"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -11250,7 +11349,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -11261,7 +11360,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -11340,10 +11439,10 @@
                     "url": "https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)",
                     "copy_name": "Rear-Foot-on-Wall DB Deadlift (RDL)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -11375,7 +11474,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -11386,7 +11485,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -11468,10 +11567,10 @@
                     "url": "https://www.youtube.com/results?search_query=Jump%20Rope",
                     "copy_name": "Jump Rope"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -11493,7 +11592,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -11504,7 +11603,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -11570,10 +11669,10 @@
                     "url": "https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)",
                     "copy_name": "Step-Up (forward and lateral)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -11606,7 +11705,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -11617,7 +11716,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -11709,10 +11808,10 @@
                     "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20Reverse%20Fly",
                     "copy_name": "Bent-Over DB Reverse Fly"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -11743,7 +11842,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -11754,7 +11853,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -11846,10 +11945,10 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Hammer%20Curl",
                     "copy_name": "Dumbbell Hammer Curl"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -11881,7 +11980,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -11892,7 +11991,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -12147,7 +12246,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC2",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 46,
+          "est_minutes": 38,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -12549,10 +12648,10 @@
                     "url": "https://www.youtube.com/results?search_query=Single-Kettlebell%20Deadlift",
                     "copy_name": "Single-Kettlebell Deadlift"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -12584,7 +12683,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -12595,7 +12694,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -12672,10 +12771,10 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Floor%20Press",
                     "copy_name": "DB Floor Press"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -12708,7 +12807,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -12719,7 +12818,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -12798,10 +12897,10 @@
                     "url": "https://www.youtube.com/results?search_query=Dumbbell%20Curl",
                     "copy_name": "Dumbbell Curl"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -12833,7 +12932,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -12844,7 +12943,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -12933,10 +13032,10 @@
                     "url": "https://www.youtube.com/results?search_query=Offset%20Push-Up%20(one%20hand%20elevated)",
                     "copy_name": "Offset Push-Up (one hand elevated)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -12969,7 +13068,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -12980,7 +13079,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -13078,10 +13177,10 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20DB%20Overhead%20Press",
                     "copy_name": "Alternating DB Overhead Press"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -13114,7 +13213,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -13125,7 +13224,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -13207,10 +13306,10 @@
                     "url": "https://www.youtube.com/results?search_query=Burpees",
                     "copy_name": "Burpees"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -13232,7 +13331,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -13243,7 +13342,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -13313,10 +13412,10 @@
                     "url": "https://www.youtube.com/results?search_query=Floor%20Dumbbell%20Skullcrusher",
                     "copy_name": "Floor Dumbbell Skullcrusher"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -13347,7 +13446,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -13358,7 +13457,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -13601,7 +13700,7 @@
           "label_key": "day.fat_loss_bootcamp.3.BC3",
           "full_body": true,
           "format": "circuit",
-          "est_minutes": 46,
+          "est_minutes": 38,
           "aerobic_minutes": 0,
           "exercise_count": 7,
           "skeleton": null,
@@ -14003,10 +14102,10 @@
                     "url": "https://www.youtube.com/results?search_query=Chest-Supported%20Row",
                     "copy_name": "Chest-Supported Row"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -14039,7 +14138,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -14050,7 +14149,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -14155,10 +14254,10 @@
                     "url": "https://www.youtube.com/results?search_query=Stationary%20Lunge%20(Split%20Squat)",
                     "copy_name": "Stationary Lunge (Split Squat)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -14191,7 +14290,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -14202,7 +14301,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -14298,10 +14397,10 @@
                     "url": "https://www.youtube.com/results?search_query=Jumping%20Jacks",
                     "copy_name": "Jumping Jacks"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -14323,7 +14422,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -14334,7 +14433,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -14404,10 +14503,10 @@
                     "url": "https://www.youtube.com/results?search_query=Push-Up",
                     "copy_name": "Push-Up"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -14440,7 +14539,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -14451,7 +14550,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -14544,10 +14643,10 @@
                     "url": "https://www.youtube.com/results?search_query=Bent-Over%20DB%20or%20KB%20Row%20(two-arm)",
                     "copy_name": "Bent-Over DB or KB Row (two-arm)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -14580,7 +14679,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -14591,7 +14690,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -14668,10 +14767,10 @@
                     "url": "https://www.youtube.com/results?search_query=Overhead%20Dumbbell%20Triceps%20Extension",
                     "copy_name": "Overhead Dumbbell Triceps Extension"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -14702,7 +14801,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -14713,7 +14812,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -14790,10 +14889,10 @@
                     "url": "https://www.youtube.com/results?search_query=DB%20Lateral%20Raise%20(Supinated%20%2F%20palms-up%20grip)",
                     "copy_name": "DB Lateral Raise (Supinated / palms-up grip)"
                   },
-                  "sets": 4,
+                  "sets": 3,
                   "reps": {
                     "type": "rounds_work",
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40
                   },
                   "set_reps": null,
@@ -14824,7 +14923,7 @@
                   "athletic": null,
                   "aerobic": null,
                   "circuit": {
-                    "rounds": 4,
+                    "rounds": 3,
                     "work_s": 40,
                     "transition_s": 15
                   },
@@ -14835,7 +14934,7 @@
                     {
                       "key": "note.circuit",
                       "args": {
-                        "rounds": 4,
+                        "rounds": 3,
                         "work_s": 40,
                         "transition_s": 15,
                         "between_s": 90
@@ -15217,7 +15316,56 @@
         "triceps": null,
         "calves": null
       },
-      "acceleration": [],
+      "acceleration": [
+        {
+          "group": "quads",
+          "from": 9,
+          "to": 12,
+          "pct": 33
+        },
+        {
+          "group": "hips",
+          "from": 8.25,
+          "to": 11,
+          "pct": 33
+        },
+        {
+          "group": "back",
+          "from": 9,
+          "to": 12,
+          "pct": 33
+        },
+        {
+          "group": "chest",
+          "from": 9,
+          "to": 12,
+          "pct": 33
+        },
+        {
+          "group": "shoulders",
+          "from": 13.5,
+          "to": 18,
+          "pct": 33
+        },
+        {
+          "group": "biceps",
+          "from": 8.25,
+          "to": 11,
+          "pct": 33
+        },
+        {
+          "group": "triceps",
+          "from": 9,
+          "to": 12,
+          "pct": 33
+        },
+        {
+          "total": true,
+          "from": 54,
+          "to": 72,
+          "pct": 33
+        }
+      ],
       "credit_only_groups": [],
       "total_main_sets": 72,
       "group_counts_by_day": {
@@ -15244,7 +15392,7 @@
         }
       },
       "total_resistance_sets": 72,
-      "rise_vs_prev": 0,
+      "rise_vs_prev": 0.3333,
       "athletic_budget": {
         "plyo_share": null,
         "stage": null,
@@ -38777,16 +38925,16 @@
   ],
   "summary": {
     "total_resistance_sets_by_week": [
-      72,
-      72,
-      72,
+      54,
+      54,
+      54,
       72,
       72,
       72,
       90,
       90
     ],
-    "max_weekly_rise": 0.25,
+    "max_weekly_rise": 0.3333,
     "planned_steps_max": 0,
     "stair_levels": [
       2,
@@ -38800,9 +38948,9 @@
     ],
     "sets_by_muscle_by_week": {
       "quads": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -38810,9 +38958,9 @@
         15
       ],
       "hamstrings": [
-        8,
-        8,
-        8,
+        6,
+        6,
+        6,
         8,
         8,
         8,
@@ -38820,9 +38968,9 @@
         10
       ],
       "glutes": [
-        5,
-        5,
-        5,
+        3.75,
+        3.75,
+        3.75,
         5,
         5,
         5,
@@ -38830,9 +38978,9 @@
         6.25
       ],
       "chest": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -38840,9 +38988,9 @@
         15
       ],
       "lats_upper_back": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -38850,9 +38998,9 @@
         15
       ],
       "side_delts": [
-        5,
-        5,
-        5,
+        3.75,
+        3.75,
+        3.75,
         5,
         5,
         5,
@@ -38860,9 +39008,9 @@
         6.25
       ],
       "rear_delts": [
-        7,
-        7,
-        7,
+        5.25,
+        5.25,
+        5.25,
         7,
         7,
         7,
@@ -38870,9 +39018,9 @@
         8.75
       ],
       "biceps": [
-        11,
-        11,
-        11,
+        8.25,
+        8.25,
+        8.25,
         11,
         11,
         11,
@@ -38880,9 +39028,9 @@
         13.75
       ],
       "triceps": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -38910,9 +39058,9 @@
         12
       ],
       "forearms": [
-        2,
-        2,
-        2,
+        1.5,
+        1.5,
+        1.5,
         2,
         2,
         2,
@@ -38920,9 +39068,9 @@
         2.5
       ],
       "front_delts": [
-        7,
-        7,
-        7,
+        5.25,
+        5.25,
+        5.25,
         7,
         7,
         7,
@@ -38940,9 +39088,9 @@
         0
       ],
       "adductors": [
-        3,
-        3,
-        3,
+        2.25,
+        2.25,
+        2.25,
         3,
         3,
         3,
@@ -38962,9 +39110,9 @@
     },
     "sets_by_line_by_week": {
       "quads": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -38972,9 +39120,9 @@
         15
       ],
       "hamstrings": [
-        8,
-        8,
-        8,
+        6,
+        6,
+        6,
         8,
         8,
         8,
@@ -38982,9 +39130,9 @@
         10
       ],
       "glutes": [
-        5,
-        5,
-        5,
+        3.75,
+        3.75,
+        3.75,
         5,
         5,
         5,
@@ -38992,9 +39140,9 @@
         6.25
       ],
       "chest": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -39002,9 +39150,9 @@
         15
       ],
       "lats_upper_back": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -39012,9 +39160,9 @@
         15
       ],
       "shoulders": [
-        18,
-        18,
-        18,
+        13.5,
+        13.5,
+        13.5,
         18,
         18,
         18,
@@ -39022,9 +39170,9 @@
         22.5
       ],
       "biceps": [
-        11,
-        11,
-        11,
+        8.25,
+        8.25,
+        8.25,
         11,
         11,
         11,
@@ -39032,9 +39180,9 @@
         13.75
       ],
       "triceps": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -39054,9 +39202,9 @@
     },
     "sets_by_group_by_week": {
       "quads": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -39064,9 +39212,9 @@
         15
       ],
       "hips": [
-        11,
-        11,
-        11,
+        8.25,
+        8.25,
+        8.25,
         11,
         11,
         11,
@@ -39074,9 +39222,9 @@
         13.75
       ],
       "back": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -39084,9 +39232,9 @@
         15
       ],
       "chest": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -39094,9 +39242,9 @@
         15
       ],
       "shoulders": [
-        18,
-        18,
-        18,
+        13.5,
+        13.5,
+        13.5,
         18,
         18,
         18,
@@ -39104,9 +39252,9 @@
         22.5
       ],
       "biceps": [
-        11,
-        11,
-        11,
+        8.25,
+        8.25,
+        8.25,
         11,
         11,
         11,
@@ -39114,9 +39262,9 @@
         13.75
       ],
       "triceps": [
-        12,
-        12,
-        12,
+        9,
+        9,
+        9,
         12,
         12,
         12,
@@ -39137,6 +39285,62 @@
     "target_by_muscle_by_week": {},
     "target_by_group_by_week": {},
     "acceleration": [
+      {
+        "week": 4,
+        "group": "quads",
+        "from": 9,
+        "to": 12,
+        "pct": 33
+      },
+      {
+        "week": 4,
+        "group": "hips",
+        "from": 8.25,
+        "to": 11,
+        "pct": 33
+      },
+      {
+        "week": 4,
+        "group": "back",
+        "from": 9,
+        "to": 12,
+        "pct": 33
+      },
+      {
+        "week": 4,
+        "group": "chest",
+        "from": 9,
+        "to": 12,
+        "pct": 33
+      },
+      {
+        "week": 4,
+        "group": "shoulders",
+        "from": 13.5,
+        "to": 18,
+        "pct": 33
+      },
+      {
+        "week": 4,
+        "group": "biceps",
+        "from": 8.25,
+        "to": 11,
+        "pct": 33
+      },
+      {
+        "week": 4,
+        "group": "triceps",
+        "from": 9,
+        "to": 12,
+        "pct": 33
+      },
+      {
+        "week": 4,
+        "total": true,
+        "from": 54,
+        "to": 72,
+        "pct": 33
+      },
       {
         "week": 7,
         "group": "quads",

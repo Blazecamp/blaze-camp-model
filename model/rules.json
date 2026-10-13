@@ -542,8 +542,8 @@
    "ATHLETIC": {},
    "NONE": {},
    "MRPUSH": {
-    "front_delts": 1,
-    "chest": 0.5,
+    "chest": 1,
+    "front_delts": 0.25,
     "triceps": 0.25
    }
   },
@@ -555,7 +555,7 @@
    "DIPS": "R2-VOL-05 / LIB-16: 0.5 triceps + 0.5 chest",
    "THRUSTER": "R2-VOL-05: 1.0 quads + 0.5 shoulders + 0.25 glutes",
    "FACEPULL": "R2-LIB-04, LIB-10 (split PROPOSED)",
-   "MRPUSH": "fix round 1: a high-incline (mid-range) press 1.0 front delts + 0.5 chest - a shoulder press that also trains the upper chest, like the thruster's 1.0 + 0.5 (PROPOSED; OBSERVED BYOP slot label 'Chest/Shoulders'; open question for the coach)"
+   "MRPUSH": "R5-VOL-01 (coach, 2026-10-12): a high-incline (mid-range) press counts 1.0 chest + 0.25 front delts + 0.25 triceps - mostly upper chest; it stays the vertical / mid-range push slot's press (R4-SES-05, R4-LIB-03)"
   },
   "refs": [
    "VOL-09",
@@ -1698,6 +1698,27 @@
     "CH5-03"
    ],
    "status": "engine 0.6 volume package; PROPOSED numbers; group_max approved (CH5-03)"
+  },
+  "x7": {
+   "start_below_top": {
+    "enabled": true,
+    "min_climb": 1,
+    "exempt_groups": [
+     "calves"
+    ],
+    "exempt_pain": true,
+    "refs": [
+     "R5-CLS-07",
+     "R3-SES-01",
+     "R2-PER-03",
+     "R4-PRG-04"
+    ],
+    "status": "approved (COACH-R5 R5-CLS-07); min_climb 1 PROPOSED"
+   },
+   "refs": [
+    "R5-CLS-07"
+   ],
+   "status": "engine 0.7 volume package"
   }
  },
  "stairway": {
@@ -3572,6 +3593,90 @@
     "VOL-01"
    ],
    "status": "engine 0.6 volume package (round-4 coach-eye reviews); readings of approved answers, the numbers PROPOSED"
+  },
+  "x7": {
+   "light_chest_optional": {
+    "enabled": true,
+    "groups": [
+     "chest"
+    ],
+    "credit_classes": [
+     "ISO_CHEST"
+    ],
+    "machine_press": {
+     "credit_classes": [
+      "HPUSH"
+     ],
+     "tags": [
+      "machine"
+     ]
+    },
+    "bucket": "ISO_CHEST",
+    "optional_day_max": 3,
+    "optional_day_max_families": [
+     "aesthetics"
+    ],
+    "refs": [
+     "R5-VOL-07",
+     "R3-VOL-03",
+     "CH5-03"
+    ],
+    "status": "approved (COACH-R5 R5-VOL-07); the third optional-day place for it PROPOSED"
+   },
+   "athlete_press_focus": {
+    "enabled": true,
+    "refs": [
+     "R5-VOL-09",
+     "R3-SES-01"
+    ],
+    "status": "approved (COACH-R5 R5-VOL-09); \"goals\" other than a Focus pick is not an intake field (no new input)"
+   },
+   "one_set_shortfall": {
+    "enabled": true,
+    "sets": 1,
+    "refs": [
+     "R5-VOL-11",
+     "VOL-07",
+     "CH5-03",
+     "R4-PRG-04"
+    ],
+    "status": "approved (COACH-R5 R5-VOL-11)"
+   },
+   "heavy_hinge_lead": {
+    "enabled": true,
+    "families": [
+     "athletic"
+    ],
+    "bucket": "RP_BHD",
+    "role": "work",
+    "flag": "axial_counted",
+    "start_sets": 3,
+    "steps_ahead": 1,
+    "refs": [
+     "R5-ATH-12",
+     "PER-04",
+     "VOL-07",
+     "R4-SES-05"
+    ],
+    "status": "approved (COACH-R5 R5-ATH-12); steps_ahead 1 reads \"the next added set\""
+   },
+   "bonus_open_week": {
+    "enabled": true,
+    "refs": [
+     "VOL-07",
+     "CH5-03",
+     "R3-VOL-03",
+     "R4-PRG-01"
+    ],
+    "status": "PROPOSED reading (round-8 coach-eye minor 01 m2 / 06 m1)"
+   },
+   "refs": [
+    "R5-VOL-07",
+    "R5-VOL-09",
+    "R5-VOL-11",
+    "R5-ATH-12"
+   ],
+   "status": "engine 0.7 volume package (coach answers round 5); approved answers, the readings named per key"
   }
  },
  "session": {
@@ -3858,6 +3963,33 @@
     "OT06"
    ],
    "status": "PROPOSED (fix round 2)"
+  },
+  "x7": {
+   "racket_calf_both_days": {
+    "enabled": true,
+    "from_age": 50,
+    "racket_profiles": [
+     "rec_pickleball",
+     "pickleball_competitive",
+     "rec_padel",
+     "rec_tennis",
+     "tennis"
+    ],
+    "bucket": "ISO_CALF",
+    "size_plus": 1,
+    "why_key": "why.racket_calf_both_days",
+    "warning_key": "warning.racket_calf_both_days",
+    "refs": [
+     "R5-VOL-10",
+     "R3-ATH-02",
+     "R4-SES-02"
+    ],
+    "status": "approved (COACH-R5 R5-VOL-10)"
+   },
+   "refs": [
+    "R5-VOL-10"
+   ],
+   "status": "engine 0.7 volume package"
   }
  },
  "time_model": {
@@ -10414,6 +10546,24 @@
      "R4-PRG-01"
     ],
     "status": "PROPOSED (fix round 2): the order weights and the two-week round step"
+   },
+   "x7": {
+    "rounds_by_third": {
+     "rounds": [
+      3,
+      4,
+      5
+     ],
+     "warning_key": "warning.circuit_rounds_thirds",
+     "floor_key": "warning.circuit_rounds_floor",
+     "over_top_key": "warning.circuit_over_top_rounds",
+     "refs": [
+      "R5-CLS-03",
+      "PRG-03",
+      "CX-04"
+     ],
+     "status": "approved (COACH-R5 R5-CLS-03)"
+    }
    }
   },
   "refs": [
@@ -11540,6 +11690,9 @@
     "R4-SCP-01",
     "R4-SCP-02",
     "CX-01"
+   ],
+   "size_plus_whys": [
+    "why.racket_calf_both_days"
    ]
   }
  },

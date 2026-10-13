@@ -75,8 +75,8 @@ Your plan climbs like a stairway: small steps up to week 4, a bit bigger from we
 | 1 · test | 2.0 ▮▮ | 3 in the tank | 74 |
 | 2 | 2.9 ▮▮▮ | 3 in the tank | 76 |
 | 3 | 3.9 ▮▮▮▮ | 3 in the tank | 78 |
-| 4 | 4.8 ▮▮▮▮▮ | 3 in the tank | 80 |
-| 5 | 6.3 ▮▮▮▮▮▮ | 2 in the tank | 84 |
+| 4 | 4.8 ▮▮▮▮▮ | 3 in the tank | 81 |
+| 5 | 6.3 ▮▮▮▮▮▮ | 2 in the tank | 85 |
 | 6 | 7.9 ▮▮▮▮▮▮▮▮ | 2 in the tank | 87 |
 | 7 | 9.4 ▮▮▮▮▮▮▮▮▮ | 1-2 in the tank | 94 |
 | 8 · test | 11.0 ▮▮▮▮▮▮▮▮▮▮▮ | 1 in the tank + intensifier | 94 |
@@ -97,7 +97,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 
 |  | Week 1 | Week 4 | Week 8 |
 |---|---|---|---|
-| Quads | 12 | 14 | 18 |
+| Quads | 12 | 15 | 18 |
 | Hips (glutes + hamstrings) | 12 | 15 | 18 |
 | Back | 12 | 13 | 15 |
 | Chest | 11 | 12 | 14 |
@@ -105,7 +105,7 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 | Biceps | 10 | 10 | 11 |
 | Triceps | 10 | 11 | 11 |
 | Calves | 6 | 6 | 8 |
-| **Total** | **74** | **80** | **94** |
+| **Total** | **74** | **81** | **94** |
 
 ### Week 1 at a glance
 
@@ -128,7 +128,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Muscle group | Sets each week (weeks 1-8) | Final sets |
 |---|---|---|
-| Quads | 12 13 14 14 · 16 17 18 18 | 18 |
+| Quads | 12 13 14 15 · 17 17 18 18 | 18 |
 | Hips (glutes + hamstrings) | 12 13 15 15 · 15 16 18 18 | 18 |
 | Back | 12 12 12 13 · 14 14 15 15 | 15 |
 | Chest | 11 11 11 12 · 12 13 14 14 | 14 |
@@ -136,7 +136,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Biceps | 10 10 10 10 · 10 10 11 11 | 11 |
 | Triceps | 10 10 10 11 · 11 11 11 11 | 11 |
 | Calves | 6 6 6 6 · 7 7 8 8 | 8 |
-| **Total** | 74 76 78 80 · 84 87 94 94 | 94 |
+| **Total** | 74 76 78 81 · 85 87 94 94 | 94 |
 
 ### Monday · Squat day
 
@@ -191,7 +191,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Dead Bugs | 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 | Hang Power Clean - from the High Hang (hip crease) → Power Clean | 3 3 3 3 · 3 3 3 – | 4 Reps → 2 Reps |
 | Inverted Row - 1-second squeeze at the top | 3 3 3 4 · 4 4 5 5 | 10 Reps |
-| Stationary Lunge (Split Squat) | 3 3 4 4 · 4 5 5 5 | 10/10 |
+| Stationary Lunge (Split Squat) | 3 3 4 5 · 5 5 5 5 | 10/10 |
 | Chin-Up (supinated) | 3 3 3 3 · 4 4 4 4 | 10 Reps |
 | Seated Dumbbell Curl → Dumbbell Curl | 3 3 3 3 · 3 3 4 4 | 15 to 20 Reps |
 | Seated (Chest-to-Thighs) DB Reverse Fly | 2 2 2 2 · 2 2 2 2 | 15 to 20 Reps |
@@ -326,7 +326,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 7 on every set with 3 left in the tank, add weight next time.
    - These 2 sets are your back-off sets after the test: about 3 reps in the tank.
-   - Swap for: High-Incline Seated Barbell Press (keeps the same main muscle; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same main muscle; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
+   - Swap for: High-Incline Seated Barbell Press (keeps the same job in the session; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)) · Name to copy into YouTube: `Standing Barbell Overhead Press (strict)`
 3. **Flat DB Bench Press** — 4 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
@@ -642,7 +642,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 **Strength**
 1. **Standing Barbell Overhead Press (strict)** — 3 × 7 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 7 on every set with 3 left in the tank, add weight next time.
-   - Swap for: High-Incline Seated Barbell Press (keeps the same main muscle; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same main muscle; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
+   - Swap for: High-Incline Seated Barbell Press (keeps the same job in the session; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)) · Name to copy into YouTube: `Standing Barbell Overhead Press (strict)`
 2. **Flat DB Bench Press** — 4 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
@@ -946,7 +946,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 **Strength**
 1. **Standing Barbell Overhead Press (strict)** — 3 × 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time.
-   - Swap for: High-Incline Seated Barbell Press (keeps the same main muscle; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same main muscle; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
+   - Swap for: High-Incline Seated Barbell Press (keeps the same job in the session; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)) · Name to copy into YouTube: `Standing Barbell Overhead Press (strict)`
 2. **Flat DB Bench Press** — 4 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
@@ -1147,6 +1147,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 4.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
+- +1 set on Stationary Lunge (Split Squat) (Friday): 4 → 5 sets
 - +1 set on Inverted Row (Friday): 3 → 4 sets
 - +1 set on Incline Barbell Bench Press (Thursday): 4 → 5 sets
 
@@ -1250,7 +1251,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 **Strength**
 1. **Standing Barbell Overhead Press (strict)** — 3 × 6 Reps · leave 3 in the tank (3 RIR, RPE 7) · 3-6 min rest
    - Progress: when you hit 6 on every set with 3 left in the tank, add weight next time.
-   - Swap for: High-Incline Seated Barbell Press (keeps the same main muscle; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same main muscle; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
+   - Swap for: High-Incline Seated Barbell Press (keeps the same job in the session; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)) · Name to copy into YouTube: `Standing Barbell Overhead Press (strict)`
 2. **Flat DB Bench Press** — 4 × 10 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
@@ -1381,7 +1382,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 3 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-2. **Stationary Lunge (Split Squat)** — 4 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+2. **Stationary Lunge (Split Squat)** — 5 × 10/10 · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 3 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1566,7 +1567,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 **Strength**
 1. **Standing Barbell Overhead Press (strict)** — 3 × 5 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 5 on every set with 2 left in the tank, add weight next time.
-   - Swap for: High-Incline Seated Barbell Press (keeps the same main muscle; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same main muscle; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
+   - Swap for: High-Incline Seated Barbell Press (keeps the same job in the session; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)) · Name to copy into YouTube: `Standing Barbell Overhead Press (strict)`
 2. **Flat DB Bench Press** — 4 × 10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
@@ -1667,7 +1668,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - 10 Reps Burpees · 15 Reps Medball Rotational Downward Slam · 15 cal on the bike, rower or SkiErg · 12 Reps Barbell Thruster (45-65 lb on the bar)
 
 ### Friday · Clean + pull day
-_Average time: about 90-110 min (an estimate, for information only)_
+_Average time: about 95-115 min (an estimate, for information only)_
 _You can switch off these blocks today: core, power / Olympic lifts, accessories, conditioning. You can also add or remove exercises._
 _Superset to save time: Sit-Up + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Dumbbell Curl + Seated (Chest-to-Thighs) DB Reverse Fly (about 3.5 min saved)_
@@ -1699,7 +1700,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
    - Swap for: Chest-Supported Row (keeps the horizontal pull; loses the feel of the original implement) / Bent-Over DB or KB Row (two-arm) (keeps the horizontal pull; loses the feel of the original implement) / Table Row (inverted row under a sturdy table) (keeps the horizontal pull; loses little - same movement, another grip or position) / Kong Row (double-KB row from the floor) (keeps the horizontal pull; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=Inverted%20Row) · Name to copy into YouTube: `Inverted Row`
-2. **Stationary Lunge (Split Squat)** — 4 × 10/10 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+2. **Stationary Lunge (Split Squat)** — 5 × 10/10 · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 per side on every set with 2 left in the tank, add weight next time.
    - per side = 1 set
    - Hold dumbbells at your sides (or a barbell on your back) once your body weight is easy at this effort
@@ -1767,7 +1768,6 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 _Week level: 7.9 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Stationary Lunge (Split Squat) (Friday): 4 → 5 sets
 - +1 set on Ball Hamstring Curl (medball or stability ball) (Thursday): 3 → 4 sets
 - +1 set on Flat DB Fly (Tuesday): 3 → 4 sets
 
@@ -1876,7 +1876,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 **Strength**
 1. **Standing Barbell Overhead Press (strict)** — 3 × 5 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 5 on every set with 2 left in the tank, add weight next time.
-   - Swap for: High-Incline Seated Barbell Press (keeps the same main muscle; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same main muscle; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
+   - Swap for: High-Incline Seated Barbell Press (keeps the same job in the session; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)) · Name to copy into YouTube: `Standing Barbell Overhead Press (strict)`
 2. **Flat DB Bench Press** — 4 × 10 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 10 on every set with 2 left in the tank, add weight next time.
@@ -2190,7 +2190,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 **Strength**
 1. **Standing Barbell Overhead Press (strict)** — 3 × 4 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 3-6 min rest
    - Progress: when you hit 4 on every set with 1-2 left in the tank, add weight next time.
-   - Swap for: High-Incline Seated Barbell Press (keeps the same main muscle; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same main muscle; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
+   - Swap for: High-Incline Seated Barbell Press (keeps the same job in the session; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)) · Name to copy into YouTube: `Standing Barbell Overhead Press (strict)`
 2. **Flat DB Bench Press** — 5 × 10 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1-2 left in the tank, add weight next time.
@@ -2502,7 +2502,7 @@ _Easiest to remove if you want a shorter day (your choice): finisher: WOD (worko
 2. **Standing Barbell Overhead Press (strict)** — 2 × 4 Reps · leave 2 in the tank (2 RIR, RPE 8) · 3-6 min rest
    - Progress: when you hit 4 on every set with 2 left in the tank, add weight next time.
    - These 2 sets are your back-off sets after the test: about 2 reps in the tank.
-   - Swap for: High-Incline Seated Barbell Press (keeps the same main muscle; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same main muscle; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
+   - Swap for: High-Incline Seated Barbell Press (keeps the same job in the session; loses the exact movement pattern) / High-Incline Seated DB Press (keeps the same job in the session; loses the heavier barbell load) / Barbell Push Press (keeps the vertical press; loses some difficulty - this one is easier) / DB Push Press (keeps the vertical press; loses the heavier barbell load)
    - [Watch how](https://www.youtube.com/results?search_query=Standing%20Barbell%20Overhead%20Press%20(strict)) · Name to copy into YouTube: `Standing Barbell Overhead Press (strict)`
 3. **Flat DB Bench Press** — 5 × 10 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 10 on every set with 1 left in the tank, add weight next time.

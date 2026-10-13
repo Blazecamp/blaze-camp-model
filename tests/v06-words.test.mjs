@@ -56,7 +56,8 @@ describe('05 M2 (R4-PRG-03, R4-PRG-02, CX-02): circuit progression from the real
       const cs = circuitStory(p, model, lang);
       assert.ok(out.includes(cs.rounds) && out.includes(cs.when), `${lang}: ${cs.rounds} / ${cs.when}`);
     }
-    assert.equal(circuitStory(p, model, 'en').rounds, '4 rounds, then 5 from week 7');
+    // (converted in engine 0.7, G-234: COACH-R5 R5-CLS-03 - the rounds climb in thirds, 3 / 4 / 5)
+    assert.equal(circuitStory(p, model, 'en').rounds, '3 rounds, then 4 from week 4 and 5 from week 7');
     assert.equal(circuitStory(p, model, 'en').when, 'a step every 2 weeks');
     // a plan whose rounds do not change says so
     const q = clone(p);

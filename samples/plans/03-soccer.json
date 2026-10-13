@@ -435,9 +435,11 @@
           {
             "group": "shoulders",
             "slot_id": "Wed.S2.x01",
-            "exercise_block": 1
+            "exercise_block": 1,
+            "week": 1
           }
         ],
+        "one_set_shortfall": [],
         "focus_closed": [],
         "acceleration": [],
         "circuit": false,
@@ -870,7 +872,7 @@
         "code": "laterality_capped",
         "key": "warning.laterality_capped",
         "args": {
-          "share": 50,
+          "share": 51,
           "target": 20
         }
       }
@@ -3879,7 +3881,7 @@
           "label_key": "day.athletic.3.S2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 127,
+          "est_minutes": 125,
           "aerobic_minutes": 30,
           "exercise_count": 11,
           "skeleton": "athletic_B",
@@ -3939,7 +3941,7 @@
                 "Wed.S2.s09",
                 "Wed.S2.s10"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -4901,7 +4903,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -5135,12 +5137,12 @@
                     },
                     {
                       "id": "high-incline-db-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.split_grip"
                     }
                   ],
@@ -6213,7 +6215,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 109,
+          "est_minutes": 112,
           "aerobic_minutes": 0,
           "exercise_count": 11,
           "skeleton": "athletic_C",
@@ -6248,7 +6250,7 @@
                 "Fri.S3.s06",
                 "Fri.S3.s07"
               ],
-              "minutes_saved": 4,
+              "minutes_saved": 5.5,
               "on": false
             },
             {
@@ -7318,7 +7320,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 2,
+                  "sets": 3,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -10824,7 +10826,7 @@
           "label_key": "day.athletic.3.S2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 129,
+          "est_minutes": 127,
           "aerobic_minutes": 30,
           "exercise_count": 12,
           "skeleton": "athletic_B",
@@ -10888,7 +10890,7 @@
                 "Wed.S2.s09",
                 "Wed.S2.s10"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -11876,7 +11878,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -12098,12 +12100,12 @@
                     },
                     {
                       "id": "high-incline-db-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.split_grip"
                     }
                   ],
@@ -13170,7 +13172,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 112,
+          "est_minutes": 114,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -13209,7 +13211,7 @@
                 "Fri.S3.s06",
                 "Fri.S3.s07"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -14320,7 +14322,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -17796,7 +17798,7 @@
           "label_key": "day.athletic.3.S2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 129,
+          "est_minutes": 127,
           "aerobic_minutes": 30,
           "exercise_count": 12,
           "skeleton": "athletic_B",
@@ -17860,7 +17862,7 @@
                 "Wed.S2.s09",
                 "Wed.S2.s10"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -18848,7 +18850,7 @@
                     "url": "https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)",
                     "copy_name": "45-Degree Hyperextension (back/hip extension)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "range",
                     "min": 10,
@@ -19070,12 +19072,12 @@
                     },
                     {
                       "id": "high-incline-db-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.split_grip"
                     }
                   ],
@@ -20142,7 +20144,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 112,
+          "est_minutes": 114,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -20181,7 +20183,7 @@
                 "Fri.S3.s06",
                 "Fri.S3.s07"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -21292,7 +21294,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -22650,9 +22652,9 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer",
+            "exercise": "45-degree-hyperextension-back-hip-extension",
             "day": "Wed",
-            "slot_id": "Wed.S2.s12"
+            "slot_id": "Wed.S2.s10"
           }
         },
         {
@@ -24789,7 +24791,7 @@
           "label_key": "day.athletic.3.S2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 141,
+          "est_minutes": 138,
           "aerobic_minutes": 30,
           "exercise_count": 12,
           "skeleton": "athletic_B",
@@ -24862,7 +24864,7 @@
                 "Wed.S2.s11",
                 "Wed.S2.s12"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -26071,12 +26073,12 @@
                     },
                     {
                       "id": "high-incline-db-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.split_grip"
                     }
                   ],
@@ -26140,7 +26142,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)",
                     "copy_name": "Alternating Staggered-Stance Single-Leg Deadlift (DB)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -27164,7 +27166,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 124,
+          "est_minutes": 129,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -27203,7 +27205,7 @@
                 "Fri.S3.s06",
                 "Fri.S3.s07"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -28304,7 +28306,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -31835,7 +31837,7 @@
           "label_key": "day.athletic.3.S2",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 145,
+          "est_minutes": 142,
           "aerobic_minutes": 30,
           "exercise_count": 12,
           "skeleton": "athletic_B",
@@ -31908,7 +31910,7 @@
                 "Wed.S2.s11",
                 "Wed.S2.s12"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 4,
               "on": false
             },
             {
@@ -33117,12 +33119,12 @@
                     },
                     {
                       "id": "high-incline-db-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.split_grip"
                     }
                   ],
@@ -33186,7 +33188,7 @@
                     "url": "https://www.youtube.com/results?search_query=Alternating%20Staggered-Stance%20Single-Leg%20Deadlift%20(DB)",
                     "copy_name": "Alternating Staggered-Stance Single-Leg Deadlift (DB)"
                   },
-                  "sets": 3,
+                  "sets": 2,
                   "reps": {
                     "type": "per_side",
                     "min": 8,
@@ -34210,7 +34212,7 @@
           "label_key": "day.athletic.3.S3",
           "full_body": true,
           "format": "straight",
-          "est_minutes": 127,
+          "est_minutes": 132,
           "aerobic_minutes": 0,
           "exercise_count": 12,
           "skeleton": "athletic_C",
@@ -34249,7 +34251,7 @@
                 "Fri.S3.s06",
                 "Fri.S3.s07"
               ],
-              "minutes_saved": 5.5,
+              "minutes_saved": 7,
               "on": false
             },
             {
@@ -35350,7 +35352,7 @@
                     "url": "https://www.youtube.com/results?search_query=Hex%20(Trap)%20Bar%20Deadlift",
                     "copy_name": "Hex (Trap) Bar Deadlift"
                   },
-                  "sets": 3,
+                  "sets": 4,
                   "reps": {
                     "type": "range",
                     "min": 6,
@@ -36755,17 +36757,17 @@
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "nordic-hamstring-curl",
+            "exercise": "alternating-db-deadlift-alternate-lead-leg-staggered-side-each-rep-meaning-infer",
             "day": "Wed",
-            "slot_id": "Wed.S2.s13"
+            "slot_id": "Wed.S2.s12"
           }
         },
         {
           "key": "changes.set_added",
           "args": {
-            "exercise": "hex-trap-bar-deadlift",
-            "day": "Fri",
-            "slot_id": "Fri.S3.s07"
+            "exercise": "nordic-hamstring-curl",
+            "day": "Wed",
+            "slot_id": "Wed.S2.s13"
           }
         },
         {
@@ -40113,12 +40115,12 @@
                     },
                     {
                       "id": "high-incline-db-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.split_grip"
                     }
                   ],
@@ -47181,12 +47183,12 @@
                     },
                     {
                       "id": "high-incline-db-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.split_grip"
                     }
                   ],
@@ -54023,12 +54025,12 @@
                     },
                     {
                       "id": "high-incline-db-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "high-incline-seated-barbell-press",
-                      "keeps": "swap.keeps.same_job",
+                      "keeps": "swap.keeps.same_muscle",
                       "loses": "swap.loses.split_grip"
                     }
                   ],

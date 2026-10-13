@@ -216,8 +216,15 @@ describe('v0.4 fix round 1 / F1: time, volume and structure (coach-eye reviews o
     // fix round 2 / F1 (E-149 / E-150; RECHECK v0.4 05 major 'chest held at 9 below the floor'): Friday's circuit trains chest with a
     // press of its own and the side raises give their group-credit room, so the chest reaches its floor without trading the hinge
     // (v0.5: no time-check list; a group the circuit cannot hold at the floor is said in meta.stairway[].below_floor)
-    assert.ok(!(p.meta.stairway[0].below_floor || []).includes('chest'), JSON.stringify(p.meta.stairway[0].below_floor));
-    for (const w of stairWeeks(p)) assert.ok((w.weekly_sets_by_group.chest || 0) >= R.volume.floor.value - EPS, `w${w.n} chest ${w.weekly_sets_by_group.chest}`);
+    // (converted in engine 0.7, G-234: COACH-R5 R5-CLS-03 sets 3 rounds for the first third of the block, so the chest (3 stations x 3
+    // rounds = 9) sits under the floor in weeks 1-3 and the plan says so - warning.circuit_rounds_floor (H17 'named, never hidden'); from
+    // the week the rounds go up it holds the floor)
+    const fl = p.meta.warnings.find(x => x.code === 'circuit_rounds_floor');
+    for (const w of stairWeeks(p)) {
+      const c = w.weekly_sets_by_group.chest || 0;
+      if (c < R.volume.floor.value - EPS) assert.ok(fl && fl.args.group.includes('chest') && w.n < fl.args.week, `w${w.n} chest ${c}`);
+    }
+    assert.ok((p.weeks[p.weeks.length - 1].weekly_sets_by_group.chest || 0) >= R.volume.floor.value - EPS);
   });
   test('R05-side-raise-kept: the template\'s side raise stays (no forced rear-delt swap); the rows count toward the rear delts (rules.volume.rear_from_rows_min, R3-VOL-01) and V18 passes (E-93)', () => {
     const p = plan('05');

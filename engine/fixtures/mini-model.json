@@ -18,7 +18,7 @@
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2777,
+   "en_keys": 2773,
    "es_missing": 805
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -22065,11 +22065,11 @@
     "counting": "hypertrophy_sets",
     "credit_class": "MRPUSH",
     "credits": {
-     "front_delts": 1,
-     "chest": 0.5,
+     "chest": 1,
+     "front_delts": 0.25,
      "triceps": 0.25
     },
-    "primary_muscle": "front_delts",
+    "primary_muscle": "chest",
     "equipment": {
      "any_of": [
       [
@@ -22115,7 +22115,8 @@
     "sport_use": [],
     "rule_refs": [
      "R4-LIB-03",
-     "R4-SES-05"
+     "R4-SES-05",
+     "R5-VOL-01"
     ]
    },
    {
@@ -22144,11 +22145,11 @@
     "counting": "hypertrophy_sets",
     "credit_class": "MRPUSH",
     "credits": {
-     "front_delts": 1,
-     "chest": 0.5,
+     "chest": 1,
+     "front_delts": 0.25,
      "triceps": 0.25
     },
-    "primary_muscle": "front_delts",
+    "primary_muscle": "chest",
     "equipment": {
      "any_of": [
       [
@@ -22198,7 +22199,8 @@
     "sport_use": [],
     "rule_refs": [
      "R4-LIB-03",
-     "R4-SES-05"
+     "R4-SES-05",
+     "R5-VOL-01"
     ]
    },
    {
@@ -22227,11 +22229,11 @@
     "counting": "hypertrophy_sets",
     "credit_class": "MRPUSH",
     "credits": {
-     "front_delts": 1,
-     "chest": 0.5,
+     "chest": 1,
+     "front_delts": 0.25,
      "triceps": 0.25
     },
-    "primary_muscle": "front_delts",
+    "primary_muscle": "chest",
     "equipment": {
      "any_of": [
       [
@@ -22279,7 +22281,8 @@
     "sport_use": [],
     "rule_refs": [
      "R4-LIB-03",
-     "R4-SES-05"
+     "R4-SES-05",
+     "R5-VOL-01"
     ]
    },
    {
@@ -57224,8 +57227,8 @@
     "ATHLETIC": {},
     "NONE": {},
     "MRPUSH": {
-     "front_delts": 1,
-     "chest": 0.5,
+     "chest": 1,
+     "front_delts": 0.25,
      "triceps": 0.25
     }
    },
@@ -57237,7 +57240,7 @@
     "DIPS": "R2-VOL-05 / LIB-16: 0.5 triceps + 0.5 chest",
     "THRUSTER": "R2-VOL-05: 1.0 quads + 0.5 shoulders + 0.25 glutes",
     "FACEPULL": "R2-LIB-04, LIB-10 (split PROPOSED)",
-    "MRPUSH": "fix round 1: a high-incline (mid-range) press 1.0 front delts + 0.5 chest - a shoulder press that also trains the upper chest, like the thruster's 1.0 + 0.5 (PROPOSED; OBSERVED BYOP slot label 'Chest/Shoulders'; open question for the coach)"
+    "MRPUSH": "R5-VOL-01 (coach, 2026-10-12): a high-incline (mid-range) press counts 1.0 chest + 0.25 front delts + 0.25 triceps - mostly upper chest; it stays the vertical / mid-range push slot's press (R4-SES-05, R4-LIB-03)"
    },
    "refs": [
     "VOL-09",
@@ -58380,6 +58383,27 @@
      "CH5-03"
     ],
     "status": "engine 0.6 volume package; PROPOSED numbers; group_max approved (CH5-03)"
+   },
+   "x7": {
+    "start_below_top": {
+     "enabled": true,
+     "min_climb": 1,
+     "exempt_groups": [
+      "calves"
+     ],
+     "exempt_pain": true,
+     "refs": [
+      "R5-CLS-07",
+      "R3-SES-01",
+      "R2-PER-03",
+      "R4-PRG-04"
+     ],
+     "status": "approved (COACH-R5 R5-CLS-07); min_climb 1 PROPOSED"
+    },
+    "refs": [
+     "R5-CLS-07"
+    ],
+    "status": "engine 0.7 volume package"
    }
   },
   "stairway": {
@@ -60254,6 +60278,90 @@
      "VOL-01"
     ],
     "status": "engine 0.6 volume package (round-4 coach-eye reviews); readings of approved answers, the numbers PROPOSED"
+   },
+   "x7": {
+    "light_chest_optional": {
+     "enabled": true,
+     "groups": [
+      "chest"
+     ],
+     "credit_classes": [
+      "ISO_CHEST"
+     ],
+     "machine_press": {
+      "credit_classes": [
+       "HPUSH"
+      ],
+      "tags": [
+       "machine"
+      ]
+     },
+     "bucket": "ISO_CHEST",
+     "optional_day_max": 3,
+     "optional_day_max_families": [
+      "aesthetics"
+     ],
+     "refs": [
+      "R5-VOL-07",
+      "R3-VOL-03",
+      "CH5-03"
+     ],
+     "status": "approved (COACH-R5 R5-VOL-07); the third optional-day place for it PROPOSED"
+    },
+    "athlete_press_focus": {
+     "enabled": true,
+     "refs": [
+      "R5-VOL-09",
+      "R3-SES-01"
+     ],
+     "status": "approved (COACH-R5 R5-VOL-09); \"goals\" other than a Focus pick is not an intake field (no new input)"
+    },
+    "one_set_shortfall": {
+     "enabled": true,
+     "sets": 1,
+     "refs": [
+      "R5-VOL-11",
+      "VOL-07",
+      "CH5-03",
+      "R4-PRG-04"
+     ],
+     "status": "approved (COACH-R5 R5-VOL-11)"
+    },
+    "heavy_hinge_lead": {
+     "enabled": true,
+     "families": [
+      "athletic"
+     ],
+     "bucket": "RP_BHD",
+     "role": "work",
+     "flag": "axial_counted",
+     "start_sets": 3,
+     "steps_ahead": 1,
+     "refs": [
+      "R5-ATH-12",
+      "PER-04",
+      "VOL-07",
+      "R4-SES-05"
+     ],
+     "status": "approved (COACH-R5 R5-ATH-12); steps_ahead 1 reads \"the next added set\""
+    },
+    "bonus_open_week": {
+     "enabled": true,
+     "refs": [
+      "VOL-07",
+      "CH5-03",
+      "R3-VOL-03",
+      "R4-PRG-01"
+     ],
+     "status": "PROPOSED reading (round-8 coach-eye minor 01 m2 / 06 m1)"
+    },
+    "refs": [
+     "R5-VOL-07",
+     "R5-VOL-09",
+     "R5-VOL-11",
+     "R5-ATH-12"
+    ],
+    "status": "engine 0.7 volume package (coach answers round 5); approved answers, the readings named per key"
    }
   },
   "session": {
@@ -60540,6 +60648,33 @@
      "OT06"
     ],
     "status": "PROPOSED (fix round 2)"
+   },
+   "x7": {
+    "racket_calf_both_days": {
+     "enabled": true,
+     "from_age": 50,
+     "racket_profiles": [
+      "rec_pickleball",
+      "pickleball_competitive",
+      "rec_padel",
+      "rec_tennis",
+      "tennis"
+     ],
+     "bucket": "ISO_CALF",
+     "size_plus": 1,
+     "why_key": "why.racket_calf_both_days",
+     "warning_key": "warning.racket_calf_both_days",
+     "refs": [
+      "R5-VOL-10",
+      "R3-ATH-02",
+      "R4-SES-02"
+     ],
+     "status": "approved (COACH-R5 R5-VOL-10)"
+    },
+    "refs": [
+     "R5-VOL-10"
+    ],
+    "status": "engine 0.7 volume package"
    }
   },
   "time_model": {
@@ -67096,6 +67231,24 @@
       "R4-PRG-01"
      ],
      "status": "PROPOSED (fix round 2): the order weights and the two-week round step"
+    },
+    "x7": {
+     "rounds_by_third": {
+      "rounds": [
+       3,
+       4,
+       5
+      ],
+      "warning_key": "warning.circuit_rounds_thirds",
+      "floor_key": "warning.circuit_rounds_floor",
+      "over_top_key": "warning.circuit_over_top_rounds",
+      "refs": [
+       "R5-CLS-03",
+       "PRG-03",
+       "CX-04"
+      ],
+      "status": "approved (COACH-R5 R5-CLS-03)"
+     }
     }
    },
    "refs": [
@@ -67747,8 +67900,7 @@
     {
      "id": "V1",
      "key": "check.v1_safety",
-     "severity": "error",
-     "v07": "the health check warns, it does not stop (R5-GEN-02): a flag (or severe pain) builds an ok plan that carries meta.health.warn and warning.health_flag; severe pain is built with the moderate pain rules (PROPOSED, G-271); status refer is a violation while rules.legal.health_flag.on_flag is warn"
+     "severity": "error"
     },
     {
      "id": "V2",
@@ -67852,8 +68004,7 @@
      "id": "V21",
      "key": "check.v21_release",
      "severity": "error",
-     "v05": "the liability gate: an ok plan carries a release stamp that says the terms and the release were accepted, of the version its role and age ask for, and the release line can be printed in English and Spanish with its link (R4-SCP-01, R4-SCP-02)",
-     "v07": "a plan built with a health flag can print the health warning in English and Spanish, with what raised it, never naming a health answer (R5-GEN-02, G-274)"
+     "v05": "the liability gate: an ok plan carries a release stamp that says the terms and the release were accepted, of the version its role and age ask for, and the release line can be printed in English and Spanish with its link (R4-SCP-01, R4-SCP-02)"
     },
     {
      "id": "V22",
@@ -68222,6 +68373,9 @@
      "R4-SCP-01",
      "R4-SCP-02",
      "CX-01"
+    ],
+    "size_plus_whys": [
+     "why.racket_calf_both_days"
     ]
    }
   },
@@ -68235,8 +68389,7 @@
    "refs": [
     "R3-GEN-01",
     "R4-SCP-01",
-    "R4-SCP-02",
-    "R5-GEN-02"
+    "R4-SCP-02"
    ],
    "status": "COACH-R3 R3-GEN-01 and COACH-R4 R4-SCP-01 / R4-SCP-02 approved; release text DRAFT for attorney review",
    "parq_url": "https://eparmedx.com/",
@@ -68298,37 +68451,6 @@
      "R4-SCP-02"
     ],
     "status": "approved rule (R4-SCP-02 \"outputted in their program somewhere at the bottom or at the top: you've released liability\"); PROPOSED wording, a draft for attorney review like DISCLAIMER.md"
-   },
-   "health_flag": {
-    "on_flag": "warn",
-    "warning_code": "health_flag",
-    "warning_key": "warning.health_flag",
-    "label_key": "ui.plan.health_warning_label",
-    "line_key": "ui.plan.health_warning",
-    "reasons_key": "ui.plan.health_warning_reasons",
-    "short_key": "ui.plan.health_warning_short",
-    "stamp_key": "ui.plan.health_check_flagged",
-    "reason_prefix": "refer.reason.",
-    "answer_reason_key": "refer.reason.health_check",
-    "severe_pain": {
-     "build_as": "moderate",
-     "warn": true,
-     "status": "PROPOSED (G-271: read from R5-GEN-02; the coach has not ruled on severe pain itself)"
-    },
-    "coach_routes": {
-     "coach_screen": "the client answers the health check; a yes builds the plan with the warning",
-     "coach_own_sop": "the health check is not read; warning.coach_bypass prints; severe pain still gives the warning"
-    },
-    "gate_unchanged": true,
-    "legal_review": true,
-    "refs": [
-     "R5-GEN-02",
-     "R4-SCP-01",
-     "R4-SCP-02",
-     "R3-GEN-01",
-     "R2-GEN-03"
-    ],
-    "status": "approved rule (COACH-R5 R5-GEN-02); the warning wording is a draft for attorney review [LEGAL REVIEW]; severe pain PROPOSED"
    }
   },
   "r3_approved": [
@@ -68373,9 +68495,7 @@
     "R4-SCP-02",
     "R4-SCP-03",
     "R4-SES-01",
-    "R4-SES-04",
-    "R5-GEN-02",
-    "R5-GRD-06"
+    "R4-SES-04"
    ],
    "status": "PROPOSED (fix round 2 / F3): wording of the new lines",
    "video": {
@@ -68570,28 +68690,6 @@
      "R2-GEN-08"
     ],
     "status": "approved rules (the coach ids above); PROPOSED: the wording of every new line (machine-written Spanish listed in es_review.priority_review)"
-   },
-   "v7": {
-    "core_optional": {
-     "kinds": [
-      "core"
-     ],
-     "heading_suffix_key": "block.optional_suffix",
-     "guide_key": "guide.adjust.core_optional",
-     "refs": [
-      "R5-GRD-06",
-      "R3-SES-02",
-      "CX-04"
-     ]
-    },
-    "health_warning_up_front": true,
-    "refs": [
-     "R5-GRD-06",
-     "R5-GEN-02",
-     "R3-SES-02",
-     "CX-04"
-    ],
-    "status": "approved rules (the coach ids above); PROPOSED: the wording of the core line; [LEGAL REVIEW]: the health warning"
    }
   }
  },
@@ -155079,7 +155177,6 @@
    "block.conditioning": "Conditioning",
    "block.cooldown": "Cool-down",
    "block.core": "Core",
-   "block.optional_suffix": "(optional: you may switch it off or change it)",
    "block.power": "Power / Olympic lifts",
    "block.prehab": "Joint care",
    "block.short.accessories": "accessories",
@@ -156332,7 +156429,6 @@
    "group.shoulders": "Shoulders",
    "group.triceps": "Triceps",
    "guide.adjust.accessories": "Switching off the accessories block takes away every direct set for {groups}.",
-   "guide.adjust.core_optional": "The core block is optional: you may switch it off or change its exercises on any day. Everything in this plan is adjustable.",
    "guide.adjust.easy": "Everything feels easy? Add a little weight or a rep first; never jump ahead more than one week.",
    "guide.adjust.edit": "You (or your coach) can switch off a day's jumps, core or joint care, add or remove exercises (more rear-delt work, for example) and use the suggested supersets to save time.",
    "guide.adjust.edit_blocks": "You (or your coach) can switch off these blocks on any day: {blocks}. You can also add or remove exercises (more rear-delt work, for example).",
@@ -156940,7 +157036,6 @@
    "program.OTNOEQ.name": "No-Equipment Full Body",
    "refer.reason.doctor_said_no": "A doctor told you not to train",
    "refer.reason.fainting": "Fainting",
-   "refer.reason.health_check": "A yes on the health check",
    "refer.reason.heart": "Chest pain, fainting or a heart condition",
    "refer.reason.injury_in_treatment": "An injury currently under treatment",
    "refer.reason.pregnant_postpartum_6mo": "Pregnant, or gave birth in the last 6 months",
@@ -157279,7 +157374,7 @@
    "swap.keeps.ISO_TRICEPS": "the triceps work",
    "swap.keeps.LEG_EXTENSION": "the quad isolation",
    "swap.keeps.LEG_FLEXION": "the hamstring curl",
-   "swap.keeps.MRPUSH": "the shoulder press with some chest",
+   "swap.keeps.MRPUSH": "the upper-chest press",
    "swap.keeps.PULLOVER": "the lat work",
    "swap.keeps.THRUSTER": "the squat-to-press",
    "swap.keeps.UHD": "the single-leg hinge",
@@ -157424,12 +157519,7 @@
    "ui.plan.focus_row": "↳ {muscle} (Focus)",
    "ui.plan.focus_tag": "(Focus)",
    "ui.plan.group_count": "{group}: {n} exercises",
-   "ui.plan.health_check_flagged": "Health check: answered; you said yes to at least one question. Read the health warning at the top of this plan.",
    "ui.plan.health_check_ok": "Health check: answered; nothing in it asked for a doctor first.",
-   "ui.plan.health_warning": "This plan is general fitness information, built from general good training practice. It is not a plan from a doctor, and no medical professional has tailored it to you. See a medical professional to make sure it is safe and healthy for you before you start. [LEGAL REVIEW]",
-   "ui.plan.health_warning_label": "Health warning.",
-   "ui.plan.health_warning_reasons": "Why you see this: {reasons}.",
-   "ui.plan.health_warning_short": "Health warning: not a plan from a doctor. See a medical professional to make sure it is safe for you. [LEGAL REVIEW]",
    "ui.plan.heavy_play_plan": "You play 3 or more times a week: every week has half the jumps and no extra agility drills.",
    "ui.plan.holiday_weeks": "Weeks {weeks} include Christmas / New Year: move a session (or a test day) by a day or two if you need to; plan longer holidays between blocks.",
    "ui.plan.holiday_weeks_no_test": "Weeks {weeks} include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.",
@@ -157595,11 +157685,13 @@
    "warning.capped_by_template": "{group}: this template holds {held} weekly sets, below the planned {planned}. Add an exercise if you want more.",
    "warning.checkin_retired": "Weekly check-ins are retired: your whole plan is built once, with its stairway, and you adjust it yourself.",
    "warning.circuit_over_top": "{group}: every station runs the same rounds, so this group reaches {held} weekly sets, above its usual top of {top}. If you want to stay at the top, skip one {group} station in the extra round.",
+   "warning.circuit_over_top_rounds": "{group}: every station runs the same rounds, so this group reaches {held} weekly sets, above its usual top of {top}. If you want to stay at the top, keep its stations at {rounds} rounds when the others do more.",
+   "warning.circuit_rounds_floor": "{group}: weeks 1-{last} run {rounds} rounds a station, so these groups sit under {floor} weekly sets until week {week}, when the rounds go up. Add a round if you want more sooner.",
+   "warning.circuit_rounds_thirds": "Circuit rounds climb with the plan, one more round each third of the block ({from} to {to} rounds). These are a guide: add or take away a round as you need.",
    "warning.coach_bypass": "Health check skipped by a fitness professional",
    "warning.credit_only_groups": "Trained through your sport work and compound lifts (no extra sets): {group}.",
    "warning.credit_only_groups_lifts": "Trained through your compound lifts (no extra sets of their own): {group}.",
    "warning.floor_needs_optional_day": "{group}: your training days hold {held} weekly sets; the optional day takes it to {floor} or more. Do the optional day, or add a set to a training day.",
-   "warning.health_flag": "Health check: you answered yes to at least one question. This plan was built anyway; read the warning at the top of the plan. [LEGAL REVIEW]",
    "warning.heavy_play": "{n} play sessions a week: we halved the jumps and dropped the extra agility drills",
    "warning.l3_rule": "Level L3 comes from a PROPOSED rule (3+ years and 4+ days a week)",
    "warning.laterality_capped": "Two-leg lifts are about {share} % of your lower-body lifting sets (your sport's guide is about {target} %): the coach's A and B days keep a two-leg squat and a two-leg hinge. If you want more single-leg work, use the single-leg swap of one of them.",
@@ -157613,6 +157705,7 @@
    "warning.pain_plan_plain_no_lift": "You told us about pain in your {area}. What this plan does about it: it leaves out the lifts that load it hardest, and it holds {groups} at the same sets instead of adding more (progress with reps and load). If the pain grows, stop and see a professional.",
    "warning.plan_edited": "This plan was edited after it was generated. The totals were recomputed; the original checks no longer apply.",
    "warning.play_48h": "Your hardest gym day is less than 48 h before {day}: consider moving it",
+   "warning.racket_calf_both_days": "Calf raises stay on both training days for Achilles care (racket players 50+), so {days} holds one exercise more than usual. Remove it if you need a shorter session.",
    "warning.release_missing": "Read and accept the terms and the release of liability first. No plan is built without it.",
    "warning.session_minutes_retired": "Session length is no longer asked: the plan is sized by exercises, and how long a session takes is up to you. The time shown on each day is only an estimate.",
    "warning.slot_held_groups": "{group}: one exercise of their own on the training days (the template's arm slot), held at its sets. They are not stepped up like the other groups: progress them with weight and reps.",
@@ -157681,7 +157774,6 @@
    "why.group_one_target": "Counted as one {group} group: one weekly target for the whole group",
    "why.h_before_v": "Horizontal before vertical",
    "why.hard_eve": "The hard intervals moved off the day before your top-speed sprints or heavy hinge",
-   "why.health_flag": "Built with a health warning: a health-check answer no longer stops the plan",
    "why.heavy_play": "Lots of play this week: half the jumps, no extra agility",
    "why.hotspot": "Chosen around the sport's injury hot spot",
    "why.hyrox_station": "HYROX station circuit: race stations as a finisher, not muscle sets",
@@ -157698,6 +157790,7 @@
    "why.level": "Level {level}: {reason}",
    "why.level_reason_l3": "L3: 3+ years and training 4+ days a week (PROPOSED rule)",
    "why.level_soft": "Exercise level matched to you (you can still swap)",
+   "why.light_chest_optional": "A light chest exercise (a fly or a machine press) on the optional day: easy on recovery, so it may follow a press day",
    "why.loaded_jump": "Loaded jump: 10-20% of body weight",
    "why.machine_iso_swap": "No machine: coach's swap",
    "why.maintenance": "Maintenance at {pct}% of your usual volume",
@@ -157742,6 +157835,7 @@
    "why.profile": "Profile: {profile}",
    "why.pyramid": "Pyramid 12/10/8 then a light 20",
    "why.r3_pending": "Default pending coach confirmation ({id})",
+   "why.racket_calf_both_days": "Calf raise on both training days (racket player 50+, Achilles care): this day holds one exercise more than usual",
    "why.rep_cap": "This exercise has its own rep ceiling",
    "why.rep_floor": "This exercise stays at {min} reps or more",
    "why.reps_matrix": "Rep range for this kind of exercise and your goal",
@@ -157863,7 +157957,6 @@
    "block.conditioning": "Acondicionamiento",
    "block.cooldown": "Vuelta a la calma",
    "block.core": "Core / abdomen",
-   "block.optional_suffix": "(opcional: puedes desactivarlo o cambiarlo)",
    "block.power": "Potencia / levantamientos olímpicos",
    "block.prehab": "Cuidado articular",
    "block.short.accessories": "accesorios",
@@ -158363,7 +158456,6 @@
    "group.shoulders": "Hombros",
    "group.triceps": "Tríceps",
    "guide.adjust.accessories": "Desactivar el bloque de accesorios quita todas las series directas de {groups}.",
-   "guide.adjust.core_optional": "El bloque de core es opcional: puedes desactivarlo o cambiar sus ejercicios cualquier día. Todo en este plan se puede ajustar.",
    "guide.adjust.easy": "¿Todo se siente fácil? Primero agrega un poco de peso o una repetición; nunca te adelantes más de una semana.",
    "guide.adjust.edit": "Tú (o tu entrenador) puedes desactivar los saltos, el core o el cuidado articular de un día, agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior) y usar las superseries sugeridas para ahorrar tiempo.",
    "guide.adjust.edit_blocks": "Tú (o tu entrenador) puedes desactivar estos bloques cualquier día: {blocks}. También puedes agregar o quitar ejercicios (por ejemplo, más trabajo de deltoides posterior).",
@@ -158919,7 +159011,6 @@
    "program.OTNOEQ.name": "Cuerpo completo sin equipo",
    "refer.reason.doctor_said_no": "Un médico te indicó no entrenar",
    "refer.reason.fainting": "Desmayos",
-   "refer.reason.health_check": "Un sí en la revisión de salud",
    "refer.reason.heart": "Dolor en el pecho, desmayos o una condición cardíaca",
    "refer.reason.injury_in_treatment": "Una lesión en tratamiento actualmente",
    "refer.reason.pregnant_postpartum_6mo": "Embarazo, o parto en los últimos 6 meses",
@@ -159258,7 +159349,7 @@
    "swap.keeps.ISO_TRICEPS": "el trabajo de tríceps",
    "swap.keeps.LEG_EXTENSION": "el aislamiento de cuádriceps",
    "swap.keeps.LEG_FLEXION": "el curl de isquiotibiales",
-   "swap.keeps.MRPUSH": "el empuje de hombros con algo de pecho",
+   "swap.keeps.MRPUSH": "el press de pecho superior",
    "swap.keeps.PULLOVER": "el trabajo de dorsales",
    "swap.keeps.THRUSTER": "la sentadilla con empuje",
    "swap.keeps.UHD": "la bisagra de cadera a una pierna",
@@ -159403,12 +159494,7 @@
    "ui.plan.focus_row": "↳ {muscle} (Enfoque)",
    "ui.plan.focus_tag": "(Enfoque)",
    "ui.plan.group_count": "{group}: {n} ejercicios",
-   "ui.plan.health_check_flagged": "Revisión de salud: respondida; respondiste que sí a al menos una pregunta. Lee la advertencia de salud al inicio de este plan.",
    "ui.plan.health_check_ok": "Revisión de salud: respondida; nada indicó consultar primero a un médico.",
-   "ui.plan.health_warning": "Este plan es información general de acondicionamiento físico, basada en buenas prácticas generales de entrenamiento. No es un plan de un médico y ningún profesional de la salud lo adaptó a ti. Consulta a un profesional de la salud para asegurarte de que es seguro y saludable para ti antes de empezar. [REVISIÓN LEGAL]",
-   "ui.plan.health_warning_label": "Advertencia de salud.",
-   "ui.plan.health_warning_reasons": "Por qué ves esto: {reasons}.",
-   "ui.plan.health_warning_short": "Advertencia de salud: no es un plan de un médico. Consulta a un profesional de la salud para asegurarte de que es seguro para ti. [REVISIÓN LEGAL]",
    "ui.plan.heavy_play_plan": "Juegas 3 o más veces por semana: cada semana tiene la mitad de los saltos y ningún ejercicio extra de agilidad.",
    "ui.plan.holiday_weeks": "Las semanas {weeks} incluyen Navidad / Año Nuevo: mueve una sesión (o un día de prueba) uno o dos días si lo necesitas; planifica las vacaciones largas entre bloques.",
    "ui.plan.holiday_weeks_no_test": "Las semanas {weeks} incluyen Navidad / Año Nuevo: mueve una sesión uno o dos días si lo necesitas; planifica las vacaciones largas entre bloques.",
@@ -159574,11 +159660,13 @@
    "warning.capped_by_template": "{group}: esta plantilla alcanza {held} series semanales, menos que las {planned} planeadas. Agrega un ejercicio si quieres más.",
    "warning.checkin_retired": "Los seguimientos semanales se retiraron: tu plan completo se arma una vez, con su escalera, y tú lo ajustas.",
    "warning.circuit_over_top": "{group}: todas las estaciones hacen las mismas rondas, así que este grupo llega a {held} series por semana, por encima de su tope habitual de {top}. Si quieres quedarte en el tope, salta una estación de {group} en la ronda extra.",
+   "warning.circuit_over_top_rounds": "{group}: todas las estaciones hacen las mismas rondas, así que este grupo llega a {held} series por semana, por encima de su tope habitual de {top}. Si quieres quedarte en el tope, deja sus estaciones en {rounds} rondas cuando las demás hagan más.",
+   "warning.circuit_rounds_floor": "{group}: las semanas 1-{last} llevan {rounds} rondas por estación, así que estos grupos quedan por debajo de {floor} series semanales hasta la semana {week}, cuando suben las rondas. Agrega una ronda si quieres más antes.",
+   "warning.circuit_rounds_thirds": "Las rondas del circuito suben con el plan, una ronda más en cada tercio del bloque (de {from} a {to} rondas). Son una guía: agrega o quita una ronda según lo necesites.",
    "warning.coach_bypass": "Revisión de salud omitida por un profesional del fitness",
    "warning.credit_only_groups": "Se entrenan con el trabajo de tu deporte y los ejercicios compuestos (sin series extra): {group}.",
    "warning.credit_only_groups_lifts": "Se entrenan con tus ejercicios compuestos (sin series extra propias): {group}.",
    "warning.floor_needs_optional_day": "{group}: tus días de entrenamiento alcanzan {held} series semanales; el día opcional las lleva a {floor} o más. Haz el día opcional o agrega una serie en un día de entrenamiento.",
-   "warning.health_flag": "Revisión de salud: respondiste que sí a al menos una pregunta. Este plan se creó de todos modos; lee la advertencia al inicio del plan. [REVISIÓN LEGAL]",
    "warning.heavy_play": "{n} sesiones de juego por semana: redujimos los saltos a la mitad y quitamos la agilidad extra",
    "warning.l3_rule": "El nivel L3 viene de una regla PROPUESTA (3+ años y 4+ días por semana)",
    "warning.laterality_capped": "Los ejercicios a dos piernas son cerca del {share} % de tus series de tren inferior (la guía de tu deporte es cerca del {target} %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.",
@@ -159592,6 +159680,7 @@
    "warning.pain_plan_plain_no_lift": "Nos dijiste que tienes dolor en {area}. Lo que hace este plan: deja fuera los ejercicios que más cargan esa zona y mantiene {groups} en las mismas series en lugar de sumar más (progresa con repeticiones y carga). Si el dolor aumenta, detente y consulta a un profesional.",
    "warning.plan_edited": "Este plan se editó después de generarse. Los totales se recalcularon; las revisiones originales ya no aplican.",
    "warning.play_48h": "Tu día más duro de gimnasio está a menos de 48 h del {day}: considera moverlo",
+   "warning.racket_calf_both_days": "La elevación de talones se queda en los dos días de entrenamiento para cuidar el tendón de Aquiles (jugadores de raqueta de 50+), así que {days} lleva un ejercicio más de lo habitual. Quítala si necesitas una sesión más corta.",
    "warning.release_missing": "Primero lee y acepta los términos y la liberación de responsabilidad. Sin eso no se crea ningún plan.",
    "warning.session_minutes_retired": "Ya no se pregunta la duración de la sesión: el plan se arma por número de ejercicios, y cuánto dura cada sesión depende de ti. El tiempo que aparece en cada día es solo un estimado.",
    "warning.slot_held_groups": "{group}: un ejercicio propio en los días de entrenamiento (el espacio de brazos de la plantilla), con sus series fijas. No suben de series como los demás grupos: progrésalos con peso y repeticiones.",
@@ -159660,7 +159749,6 @@
    "why.group_one_target": "Contado como un solo grupo de {group}: una meta semanal para todo el grupo",
    "why.h_before_v": "Horizontal antes que vertical",
    "why.hard_eve": "Los intervalos intensos se movieron fuera del día anterior a tus sprints a máxima velocidad o tu bisagra pesada",
-   "why.health_flag": "Creado con una advertencia de salud: una respuesta de la revisión de salud ya no detiene el plan",
    "why.heavy_play": "Mucho juego esta semana: la mitad de los saltos, sin agilidad extra",
    "why.hotspot": "Elegido por el punto de riesgo de lesión del deporte",
    "why.hyrox_station": "Circuito de estaciones HYROX: estaciones de carrera como cierre, no son series musculares",
@@ -159677,6 +159765,7 @@
    "why.level": "Nivel {level}: {reason}",
    "why.level_reason_l3": "L3: 3+ años y entrenando 4+ días por semana (regla PROPUESTA)",
    "why.level_soft": "Nivel del ejercicio ajustado a ti (aún puedes cambiarlo)",
+   "why.light_chest_optional": "Un ejercicio ligero de pecho (aperturas o press en máquina) en el día opcional: se recupera fácil, así que puede ir después de un día de press",
    "why.loaded_jump": "Salto con carga: 10-20% del peso corporal",
    "why.machine_iso_swap": "Sin máquina: cambio del coach",
    "why.maintenance": "Mantenimiento al {pct}% de tu volumen habitual",
@@ -159721,6 +159810,7 @@
    "why.profile": "Perfil: {profile}",
    "why.pyramid": "Pirámide 12/10/8 y luego 20 ligeras",
    "why.r3_pending": "Valor por defecto pendiente de confirmación del coach ({id})",
+   "why.racket_calf_both_days": "Elevación de talones en los dos días de entrenamiento (jugador de raqueta de 50+, cuidado del tendón de Aquiles): este día lleva un ejercicio más de lo habitual",
    "why.rep_cap": "Este ejercicio tiene su propio límite de repeticiones",
    "why.rep_floor": "Este ejercicio se mantiene en {min} repeticiones o más",
    "why.reps_matrix": "Rango de reps para este tipo de ejercicio y tu objetivo",

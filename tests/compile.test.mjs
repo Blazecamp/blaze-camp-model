@@ -117,8 +117,9 @@ test('H08: credits equal the class map; helpers 0.25, dips 0.5 / 0.5, thruster 1
   for (const e of exs) assert.deepEqual(e.credits, C[e.credit_class], e.id);
   assert.deepEqual(C.DIPS, { triceps: 0.5, chest: 0.5 });
   assert.deepEqual(C.THRUSTER, { quads: 1, front_delts: 0.5, glutes: 0.25 });
-  // v0.5 fix round 1 (R4-SES-05 'Chest / Shoulders', R4-LIB-03): the high-incline press of that slot - 1 front delts, half a set chest
-  assert.deepEqual(C.MRPUSH, { front_delts: 1, chest: 0.5, triceps: 0.25 });
+  // v0.5 fix round 1 (R4-SES-05 'Chest / Shoulders', R4-LIB-03): the high-incline press of that slot; v0.7 G-230 (COACH-R5 R5-VOL-01
+  // 'like a 1 for chest and a .25 front delts .25 tricep'): 1 chest, 0.25 front delts, 0.25 triceps (was 1 front delts + 0.5 chest)
+  assert.deepEqual(C.MRPUSH, { chest: 1, front_delts: 0.25, triceps: 0.25 });
   for (const id of ['high-incline-db-press', 'high-incline-seated-barbell-press', 'high-incline-seated-db-press']) assert.equal(byId.get(id).credit_class, 'MRPUSH');
   for (const [cls, map] of Object.entries(C)) if (!['DIPS', 'THRUSTER', 'MRPUSH'].includes(cls)) for (const v of Object.values(map)) assert.ok(v === 1 || v === 0.25, `${cls} ${v}`);
   for (const id of ['barbell-thruster', 'db-thruster-front-squat-into-overhead-press']) assert.equal(byId.get(id).credit_class, 'THRUSTER');
