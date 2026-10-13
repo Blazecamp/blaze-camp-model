@@ -34,7 +34,7 @@ export function amendExerciseV07(ex0) {
 }
 
 /** the assisted-jump records (COACH-R5 R5-GRD-08: 'you can start them assisted plyos'), the WOD run station (R5-GRD-04) */
-export const ADDED_V07 = ['assisted-lateral-hops-holding-a-support', 'assisted-pogo-hops-holding-a-support', 'assisted-squat-jump-holding-a-support',
+export const ADDED_V07 = ['assisted-lateral-hops-holding-a-support', 'assisted-lateral-jump-holding-a-support', 'assisted-pogo-hops-holding-a-support', 'assisted-squat-jump-holding-a-support',
   'run-wod-station', 'suspension-trainer-assisted-jump-squat', 'two-foot-lateral-box-jump', 'two-foot-lateral-jump'];
 
 /**
@@ -65,15 +65,21 @@ export function addedExercisesV07(exercises) {
   });
   // two-leg low pogo hops holding a support (the ankle block's assisted start)
   make('assisted-pogo-hops-holding-a-support', 'ankle-hops-bilateral-in-place', {
-    slots: ['AP_JUMP_LIMITED_KNEE', 'AP_PLYO'], equipment: { any_of: [[]], machine: null }, impact: 'low', skill: 'low',
+    slots: ['AP_JUMP_LIMITED_KNEE'], equipment: { any_of: [[]], machine: null }, impact: 'low', skill: 'low',
     tags: ['ankle_hop', 'assisted', 'pain_friendly', 'plyo_repeated'], variation_axes: ['range'], rep_hint: { text: '10-20 contacts', unit: 'contacts' },
     athletic: { quality: 'plyometric', contact_class: 'plyometric', rc_stage_default: 'RC1', response: 'repeat', low_amplitude: true, upper: false }
   });
   // two-leg low side-to-side hops holding a support (a lateral sport's first jumps, R5-ATH-10 two-foot lateral)
   make('assisted-lateral-hops-holding-a-support', 'ankle-hops-bilateral-in-place', {
-    slots: ['AP_JUMP_LIMITED_KNEE', 'AP_PLYO'], plane: 'frontal', equipment: { any_of: [[]], machine: null }, impact: 'low', skill: 'low',
+    slots: ['AP_JUMP_LIMITED_KNEE'], plane: 'frontal', equipment: { any_of: [[]], machine: null }, impact: 'low', skill: 'low',
     tags: ['ankle_hop', 'assisted', 'pain_friendly', 'plyo_repeated'], variation_axes: ['range'], rep_hint: { text: '10-20 contacts', unit: 'contacts' },
     athletic: { quality: 'plyometric', contact_class: 'plyometric', rc_stage_default: 'RC1', response: 'repeat', low_amplitude: true, upper: false }
+  });
+  // a two-foot jump to the side and back holding a support (the jump slot's lateral assisted start - a cutting sport's third day, G-255)
+  make('assisted-lateral-jump-holding-a-support', 'squat-jump-high-bodyweight-or-lightly-loaded', {
+    slots: ['AP_PLYO'], plane: 'frontal', equipment: { any_of: [[]], machine: null }, impact: 'low', skill: 'low', older_ok: false, older_opt_in_ok: true, youth_ok: true,
+    tags: ['assisted', 'pain_friendly'], variation_axes: ['range'], rep_hint: { text: '4-8 jumps', unit: 'contacts' },
+    athletic: { quality: 'ballistic', contact_class: 'ballistic', rc_stage_default: 'RC1', response: 'single', low_amplitude: false, upper: false }
   });
   // a jump squat holding the handles of a suspension trainer
   make('suspension-trainer-assisted-jump-squat', 'squat-jump-high-bodyweight-or-lightly-loaded', {
@@ -247,6 +253,8 @@ export function amendRulesV07(rules) {
       // inside the cap, a level above the block's own number (block 1: level 1) leans back a little, so the low two-leg jumps lead
       // the first block and the higher ones come in as the plan goes on (G-253)
       lean_penalty: -2,
+      // a jump station never returns to an earlier exercise block's pick (A, B, A; R2-LIB-01)
+      return_penalty: -12,
       // 'single-leg hurdle hops are never a first-block pick' (hard rule)
       never_first_block_re: 'hurdle', never_first_block_tags: ['hurdle_hop'],
       refs: ['R5-GRD-03', 'R5-ATH-10', 'CAT-10', 'R2-ATH-03'],
@@ -257,6 +265,8 @@ export function amendRulesV07(rules) {
       pain_areas: ['knee'], tag: 'assisted', only_with_pain: true,
       // the first exercise block takes assisted jumps; the progression above then starts one block later (level 1 in block 2)
       assisted_blocks: 1, level_shift: 1, bonus: 30, other_penalty: -30,
+      // a second assisted jump on a day that already holds one scores this instead of the bonus (one a day first; G-255)
+      second_same_day: -32,
       refs: ['R5-GRD-08', 'EQ-01', 'VOL-03'],
       status: 'approved (COACH-R5 R5-GRD-08 "when knee pain, don\'t start with bodyweight plyos, you can start them assisted plyos"); PROPOSED: one exercise block assisted, the records'
     },
@@ -422,6 +432,7 @@ export const UI_V07 = {
   'exercise.assisted-squat-jump-holding-a-support.name': ['Assisted Squat Jump (holding a rack, rail or counter)', 'Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump)'],
   'exercise.assisted-pogo-hops-holding-a-support.name': ['Assisted Pogo Hops (holding a rack, rail or counter)', 'Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)'],
   'exercise.assisted-lateral-hops-holding-a-support.name': ['Assisted Side-to-Side Hops (holding a rack, rail or counter)', 'Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops)'],
+  'exercise.assisted-lateral-jump-holding-a-support.name': ['Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)', 'Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)'],
   'exercise.suspension-trainer-assisted-jump-squat.name': ['Suspension Trainer Assisted Jump Squat', 'Salto en sentadilla asistido con suspensión (TRX Assisted Jump Squat)'],
   'exercise.two-foot-lateral-box-jump.name': ['Two-Foot Lateral Box Jump (sideways onto a low box)', 'Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)'],
   'exercise.run-wod-station.name': ['Run', 'Carrera (Run)'],

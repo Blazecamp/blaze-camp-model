@@ -16,6 +16,7 @@ _Tu plan Blaze Camp_
 
 - Tu temporada está cerca: las últimas 2 semanas de este plan son de pretemporada (más velocidad y potencia, menos series).
 - Bíceps y tríceps: un ejercicio propio en los días de entrenamiento (el espacio de brazos de la plantilla), con sus series fijas. No suben de series como los demás grupos: progrésalos con peso y repeticiones.
+- Esta plantilla cubre cerca del 80% del volumen semanal de tu deporte en contactos de salto (cajón, sentadilla, salto largo y reactivos): igual sube cada semana. Agrega una estación o un día si quieres la dosis completa.
 - Los ejercicios a dos piernas son cerca del 50 % de tus series de tren inferior (la guía de tu deporte es cerca del 20 %): los días A y B del entrenador mantienen una sentadilla y una bisagra a dos piernas. Si quieres más trabajo a una pierna, usa el cambio a una pierna de uno de ellos.
 - Este plan no cuenta tus 2 prácticas de equipo por semana: tómalas en cuenta y ajusta tú la carga (más ligero en un día de práctica dura, un poco más en una semana ligera).
 - Hombros: 3 de sus 11 series finales están en un ejercicio extra, al final de su día (Elevación lateral sentado con mancuernas (Seated Lateral Raise), miércoles), porque los ejercicios de tu plantilla para este grupo ya están en su máximo de series. Si lo omites, el total de hombros queda en unas 8.
@@ -161,9 +162,9 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 2 2 | 20-40 s |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 2 2 2 2 | 10-30 s |
-| Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) | 3 3 3 3 3 3 | 3 contactos por pierna |
-| Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) | 3 3 3 3 3 3 | 5 contactos |
-| Saltos de tobillo en el lugar (Ankle Hops) | 2 2 2 2 2 2 | 10 contactos |
+| Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) | 3 3 3 3 3 3 | 5 contactos |
+| Saltos de tobillo en el lugar (Ankle Hops) | 3 3 3 3 3 3 | 5 contactos |
+| Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) | 2 2 2 2 2 2 | 10 contactos |
 | Prueba L de tres conos (L-Drill) | – 3 3 3 3 – | 3 reps |
 | Cargada de potencia desde colgado alto (Hang Power Clean) | 2 2 2 3 3 2 | 3 a 5 reps |
 | Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) | 3 3 3 3 4 4 | 8 a 12 reps |
@@ -181,8 +182,8 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Giro ruso con peso (Weighted Russian Twist) | 2 2 2 2 2 2 | 10 a 15 por lado |
 | Abdominal en V (V-Up) | 2 2 2 2 2 2 | 10 a 15 reps |
 | Aceleraciones con salida en caída (Falling Starts) | – 2 2 2 2 – | 4 x 15 m |
-| Salto largo a una pierna (Single-Leg Broad Jump) | 2 2 2 2 2 2 | 5 contactos por pierna |
-| Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) | 2 2 2 2 2 2 | 9 contactos |
+| Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) | 3 3 3 3 3 3 | 8 contactos |
+| Saltos de tobillo en el lugar (Ankle Hops) | 2 2 2 2 2 2 | 9 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) | 2 2 2 2 2 2 | 5 por lado |
 | Press de banca con mancuernas (DB Bench Press) | 3 3 3 3 4 4 | 8 a 12 reps |
 | Hiperextensión a 45° (Back Extension) | 3 3 3 3 3 3 | 10 a 12 reps |
@@ -201,7 +202,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Plancha lateral (Side Plank) | 2 2 2 2 2 2 | 20-40 s |
 | Elevación de piernas acostado boca arriba (Lying Leg Raise) | 2 2 2 2 2 2 | 10 a 15 reps |
 | Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 2 2 2 1 | 3 x 30 m |
-| Salto lateral desde subida al cajón (Lateral Step-Up Jump) | – 3 3 3 3 – | 6 contactos por pierna |
+| Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) | – 3 3 3 3 – | 8 contactos |
 | Desplazamientos laterales (Lateral Shuffles) | 3 3 3 3 3 3 | 8 cortes |
 | Agilidad 5-10-5 (Pro Agility) | 3 3 3 3 3 3 | 5 reps |
 | Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 2 2 2 2 3 2 | 8/8 |
@@ -243,8 +244,8 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 | 20-40 s |
 | Plancha Copenhague (Copenhagen Plank) | 2 2 | 10-30 s |
-| Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) | 3 3 | 5 contactos por pierna |
-| Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) | 3 3 | 4 contactos por pierna |
+| Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) | 3 3 | 8 contactos |
+| Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) | 3 3 | 8 contactos |
 | Saltos de tobillo en el lugar (Ankle Hops) | 2 2 | 16 contactos |
 | Prueba L de tres conos (L-Drill) | 3 3 | 4 reps |
 | Tirón de cargada desde colgado bajo (Low-Hang Clean Pull) | 3 3 | 4 reps |
@@ -263,8 +264,8 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Giro ruso con peso (Weighted Russian Twist) | 2 2 | 10 a 15 por lado |
 | Rodillas al pecho colgado (Hanging Knees to Chest) | 2 2 | 10 a 15 reps |
 | Aceleraciones con salida en caída (Falling Starts) | 2 2 | 5 x 20 m |
-| Salto largo a una pierna (Single-Leg Broad Jump) | 2 2 | 5 contactos por pierna |
-| Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) | 2 2 | 16 contactos |
+| Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) | 3 3 | 8 contactos |
+| Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) | 2 2 | 16 contactos |
 | Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) | 2 2 | 6 por lado |
 | Press de banca con mancuernas (DB Bench Press) - palmas enfrentadas (agarre neutro) | 2 2 | 6 a 8 reps |
 | Hiperextensión a 45° (Back Extension) | 2 2 | 10 a 12 reps |
@@ -282,7 +283,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Plancha lateral (Side Plank) | 2 2 | 20-40 s |
 | Abdominal inverso (Reverse Crunch) | 2 2 | 10 a 15 reps |
 | Sprint a velocidad máxima (Max-Velocity Sprint) | 2 2 | 3 x 40 m |
-| Salto lateral desde subida al cajón (Lateral Step-Up Jump) | 3 3 | 6 contactos por pierna |
+| Salto largo a una pierna (Single-Leg Broad Jump) | 3 3 | 4 contactos por pierna |
 | Desplazamientos laterales (Lateral Shuffles) | 3 3 | 12 cortes |
 | Agilidad 5-10-5 (Pro Agility) | 3 3 | 6 reps |
 | Arranque con mancuerna a una mano (Single-Arm DB Snatch) | 3 3 | 4/4 |
@@ -306,7 +307,7 @@ _Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Prueba inicial esta semana (antes de cargar)** (Velocidad / agilidad, Saltos)
 
-**Trabajo atlético esta semana:** 53 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 54 cambios de dirección · 180 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 64% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 54 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 54 cambios de dirección · 180 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 61% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
@@ -315,7 +316,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops), Saltos de tobillo en el lugar (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -339,19 +340,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 3 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el rebote rápido) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Nombre para copiar en YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Doble rebote con dos pies: dos rebotes rápidos al aterrizar y salir (Double Bounce) (mantiene el salto; pierde el rebote rápido) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+3. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 
 **Potencia / levantamientos olímpicos**
 1. **Cargada de potencia desde colgado alto (Hang Power Clean)** — 2 × 3 a 5 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
@@ -410,12 +410,12 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 _Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl), Press Tate (Tate Press) · 1 más_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo en el lugar (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl), Press Tate (Tate Press) · 1 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -438,15 +438,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Prueba inicial esta semana: marca tus números de partida.
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
-   - por lado = 1 serie
-   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Nombre para copiar en YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 3. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -631,7 +630,7 @@ _Nivel de la semana: 3.3 de 11 (2 = el inicio, 11 = tu semana más dura)_
 - +1 serie en Subida al cajón frontal y lateral (Step-Up) (lunes): 2 → 3 series
 - +1 serie en Peso muerto con barra hexagonal (Trap Bar Deadlift) (viernes): 2 → 3 series
 
-**Trabajo atlético esta semana:** 95 contactos de salto · 46 contactos de saltos de tobillo · 20 lanzamientos · 87 cambios de dirección · 330 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 53% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 81 contactos de salto · 46 contactos de saltos de tobillo · 20 lanzamientos · 87 cambios de dirección · 330 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 54% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
@@ -640,7 +639,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo laterales con dos pies (Lateral Ankle Hops), Saltos de tobillo en el lugar (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -658,19 +657,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 3 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 7 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el rebote rápido) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Nombre para copiar en YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 6 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Doble rebote con dos pies: dos rebotes rápidos al aterrizar y salir (Double Bounce) (mantiene el salto; pierde el rebote rápido) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+3. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 4. **Prueba L de tres conos (L-Drill)** — 3 × 3 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -727,15 +725,15 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 120-145 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo en el lugar (Ankle Hops), Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -756,15 +754,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 4 x 15 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
-   - por lado = 1 serie
-   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 11 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Nombre para copiar en YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 11 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 4. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -832,7 +829,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzami
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -853,12 +850,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 35 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
@@ -940,7 +936,7 @@ _Nivel de la semana: 4.6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 - +1 serie en Extensión de piernas en máquina (Leg Extension) (lunes): 2 → 3 series
 - +1 serie en Dominadas (Pull-Up) (lunes): 2 → 3 series
 
-**Trabajo atlético esta semana:** 104 contactos de salto · 58 contactos de saltos de tobillo · 24 lanzamientos · 96 cambios de dirección · 390 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 57% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 87 contactos de salto · 58 contactos de saltos de tobillo · 24 lanzamientos · 96 cambios de dirección · 390 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 57% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 85-105 min (un estimado, solo como información)_
@@ -949,7 +945,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo laterales con dos pies (Lateral Ankle Hops), Saltos de tobillo en el lugar (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -967,19 +963,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)** — 3 × 6 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el rebote rápido) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Nombre para copiar en YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 7 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 15 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Doble rebote con dos pies: dos rebotes rápidos al aterrizar y salir (Double Bounce) (mantiene el salto; pierde el rebote rápido) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+3. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 15 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -1036,15 +1031,15 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 115-140 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 120-145 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo en el lugar (Ankle Hops), Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1065,15 +1060,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 6 x 15 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
-   - por lado = 1 serie
-   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 14 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Nombre para copiar en YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 14 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 4. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1141,7 +1135,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzami
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1162,12 +1156,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 35 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
@@ -1251,7 +1244,7 @@ _Nivel de la semana: 6.7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 - +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (viernes): 2 → 3 series
 - +1 serie en Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (lunes): 3 → 4 series
 
-**Trabajo atlético esta semana:** 110 contactos de salto · 70 contactos de saltos de tobillo · 28 lanzamientos · 102 cambios de dirección · 400 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 93 contactos de salto · 68 contactos de saltos de tobillo · 28 lanzamientos · 102 cambios de dirección · 400 m de sprints · 5 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 105-130 min (un estimado, solo como información)_
@@ -1260,7 +1253,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo laterales con dos pies (Lateral Ankle Hops), Saltos de tobillo en el lugar (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1278,19 +1271,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)** — 3 × 7 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el rebote rápido) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Nombre para copiar en YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Doble rebote con dos pies: dos rebotes rápidos al aterrizar y salir (Double Bounce) (mantiene el salto; pierde el rebote rápido) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+3. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 17 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -1347,15 +1339,15 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 125-155 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 130-155 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo en el lugar (Ankle Hops), Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1376,15 +1368,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 4 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
-   - por lado = 1 serie
-   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 17 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Nombre para copiar en YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 17 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 4. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1454,7 +1445,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzami
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1475,12 +1466,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 10 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
@@ -1565,7 +1555,7 @@ _Nivel de la semana: 8.9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 - +1 serie en Press de banca con mancuernas (DB Bench Press) (miércoles): 3 → 4 series
 - +1 serie en Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) (miércoles): 3 → 4 series
 
-**Trabajo atlético esta semana:** 110 contactos de salto · 78 contactos de saltos de tobillo · 32 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 96 contactos de salto · 72 contactos de saltos de tobillo · 32 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 110-135 min (un estimado, solo como información)_
@@ -1574,7 +1564,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo laterales con dos pies (Lateral Ankle Hops), Saltos de tobillo en el lugar (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1592,19 +1582,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el rebote rápido) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Nombre para copiar en YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Doble rebote con dos pies: dos rebotes rápidos al aterrizar y salir (Double Bounce) (mantiene el salto; pierde el rebote rápido) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+3. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
    - Cambiar por: Desplazamientos laterales (Lateral Shuffles) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltitos en el lugar, pies rápidos y reactivos (Hops in Place) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -1664,12 +1653,12 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
 _Tiempo promedio: aprox. 130-160 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo en el lugar (Ankle Hops), Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 2 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1690,15 +1679,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
-   - por lado = 1 serie
-   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 21 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Nombre para copiar en YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
+3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 4. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 8 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1768,7 +1756,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzami
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Elevación de piernas acostado boca arriba (Lying Leg Raise) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1789,12 +1777,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Skip A (A Skip) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
@@ -1882,7 +1869,7 @@ _Nivel de la semana: 11 de 11 (2 = el inicio, 11 = tu semana más dura)_
 - +1 serie en Remo a un brazo con mancuerna (1-Arm DB Row) (viernes): 3 → 4 series
 - +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (miércoles): 3 → 4 series
 
-**Trabajo atlético esta semana:** 53 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 51 cambios de dirección · 120 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 64% · Recibir-Crear 2: Aterrizar y salir
+**Trabajo atlético esta semana:** 54 contactos de salto · 38 contactos de saltos de tobillo · 20 lanzamientos · 51 cambios de dirección · 120 m de sprints · 4 series de levantamiento olímpico · Proporción pliométrica 61% · Recibir-Crear 2: Aterrizar y salir
 
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 110-130 min (un estimado, solo como información)_
@@ -1891,7 +1878,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 7 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops), Saltos de tobillo en el lugar (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1914,19 +1901,18 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=5-10-5%20Pro-Agility%20Shuttle)
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 3 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - por lado = 1 serie
-   - Cambiar por: Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
-2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el rebote rápido) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Plate%20Hops%20(Forward%20On%20%2F%20Sideways%20Off-and-On%20%2F%20Forward%20Down%2C%20Repeat)) · Nombre para copiar en YouTube: `Bilateral Lateral Plate Hops (Forward On / Sideways Off-and-On / Forward Down, Repeat)`
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 5 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
-3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Doble rebote con dos pies: dos rebotes rápidos al aterrizar y salir (Double Bounce) (mantiene el salto; pierde el rebote rápido) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+3. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 2 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Contactos rápidos y continuos: rebota sobre la punta de los pies
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 
 **Potencia / levantamientos olímpicos**
 1. **Cargada de potencia desde colgado alto (Hang Power Clean)** — 2 × 3 a 5 reps · muévela rápido: si la barra se frena o se rompe la técnica, está demasiado pesada · 2-3 min de descanso
@@ -1979,15 +1965,15 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 130-160 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 135-165 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios, cardio. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Abdominal en V (V-Up) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (ahorras unos 5.5 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 6 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl), Press Tate (Tate Press) · 1 más_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops), Saltos de tobillo en el lugar (Ankle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl), Press Tate (Tate Press) · 1 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2009,15 +1995,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Prueba: 2-3 carreras cronometradas con descanso completo, anota la mejor.
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Cae y sal: aterriza firme y salta de nuevo enseguida; reinicia entre repeticiones
-   - por lado = 1 serie
-   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-2. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto largo (Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Nombre para copiar en YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
+2. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 3. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8-10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -2188,7 +2173,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 
 ## Semana 7 — Pretemporada: más velocidad y potencia
 
-**Trabajo atlético esta semana:** 110 contactos de salto · 64 contactos de saltos de tobillo · 24 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 96 contactos de salto · 64 contactos de saltos de tobillo · 24 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 61% · Recibir-Crear 3: Repetir
 
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
@@ -2197,7 +2182,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl de bíceps con mancuernas (DB Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2215,19 +2200,17 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales de vallas con dos pies (Lateral Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Lateral%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Lateral Hurdle Hops`
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Hurdle Hops`
+2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
+   - Cambiar por: Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
 3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
@@ -2286,15 +2269,15 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 80-95 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Rodillas al pecho colgado (Hanging Knees to Chest) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) + Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) - palmas enfrentadas (agarre neutro) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam), Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2315,15 +2298,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
-   - por lado = 1 serie
-   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-3. **Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la carga más pesada a dos lados) / Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la carga más pesada a dos lados) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la carga más pesada a dos lados) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Nombre para copiar en YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
+3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Backward Ankle Hops`
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
 4. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -2379,7 +2361,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzami
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) - aprieta 1 segundo arriba + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2400,12 +2382,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
    - por lado = 1 serie
-   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
 3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`
@@ -2483,7 +2464,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 
 ## Semana 8 — Pretemporada: más velocidad y potencia
 
-**Trabajo atlético esta semana:** 110 contactos de salto · 64 contactos de saltos de tobillo · 24 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 60% · Recibir-Crear 3: Repetir
+**Trabajo atlético esta semana:** 96 contactos de salto · 64 contactos de saltos de tobillo · 24 lanzamientos · 108 cambios de dirección · 440 m de sprints · 6 series de levantamiento olímpico · Proporción pliométrica 61% · Recibir-Crear 3: Repetir
 
 ### Lunes · S1 - salto + rodilla + tirón
 _Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
@@ -2492,7 +2473,7 @@ _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Plancha Copenha
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla frontal con barra (Front Squat) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Dominadas (Pull-Up) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl de bíceps con mancuernas (DB Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl de bíceps con mancuernas (DB Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Prueba L de tres conos (L-Drill), Saltos de tobillo en el lugar (Ankle Hops), Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops) · accesorios de músculos pequeños: Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) - aprieta 1 segundo arriba, Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl de bíceps con mancuernas (DB Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2510,19 +2491,17 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Copenhagen%20Plank) · Nombre para copiar en YouTube: `Copenhagen Plank`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos laterales de vallas a una pierna (Single-Leg Lateral Hurdle Hops)** — 3 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos laterales de vallas con dos pies (Lateral Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde la misma dirección de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Lateral%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Lateral Hurdle Hops`
-2. **Saltos de vallas hacia adelante a una pierna (Single-Leg Hurdle Hops)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Saltos en zigzag hacia adelante a una pierna (Zig-Zag Jumps) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos laterales sobre disco a una pierna, pierna interna / externa (Lateral Plate Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Hurdle Hops`
+2. **Saltos de vallas en ángulo recto con dos pies: adelante-lateral-adelante-lateral (Right-Angle Hurdle Hops)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: contactos rápidos y continuos
-   - por lado = 1 serie
-   - Cambiar por: Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos laterales de vallas con dos pies (Lateral Hurdle Hops) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops) · Nombre para copiar en YouTube: `Single-Leg Forward Hurdle Hops`
+   - Cambiar por: Saltos de vallas hacia adelante (Hurdle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos sobre disco a una pierna (Single-Leg Plate Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos laterales sobre disco con dos pies: arriba de frente / lateral fuera y dentro / abajo de frente, repetir (Lateral Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos hacia adelante sobre disco con dos pies (Plate Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)) · Nombre para copiar en YouTube: `Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)`
 3. **Saltos de tobillo en el lugar (Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - Cambiar por: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
 4. **Prueba L de tres conos (L-Drill)** — 3 × 4 reps · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - 3 cambios de dirección por repetición
@@ -2581,15 +2560,15 @@ _Opcional: puedes desactivar esta sesión de cardio o pasarla a otro día._
   - O usa otra de tus opciones de cardio: carrera. Guíate por el tiempo, no por la distancia.
 
 ### Miércoles · S2 - balón medicinal + cadera + empuje
-_Tiempo promedio: aprox. 80-95 min (un estimado, solo como información)_
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Giro ruso con peso (Weighted Russian Twist) + Rodillas al pecho colgado (Hanging Knees to Chest) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) + Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo adelante / atrás con dos pies (Ankle Hops) + Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) - palmas enfrentadas (agarre neutro) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press inclinado alterno con mancuernas, una arriba / una abajo (Alternating Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Press Tate (Tate Press) + Curl nórdico (Nordic Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly) + Elevación de pantorrillas en máquina (Calf Raise) (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam), Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam), Saltos de tobillo adelante / atrás con dos pies (Ankle Hops), Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Aperturas posteriores inclinado con mancuernas (Bent-Over Reverse Fly), Curl nórdico (Nordic Curl) · 1 más_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2610,15 +2589,14 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Aceleraciones con salida en caída (Falling Starts)** — 2 × 5 x 20 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Carrera A con rodillas altas (A-Runs) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Falling-Start%20Accelerations) · Nombre para copiar en YouTube: `Falling-Start Accelerations`
-2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 2 × 5 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+2. **Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump)** — 3 × 8 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
-   - por lado = 1 serie
-   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
-3. **Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Cambiar por: Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la carga más pesada a dos lados) / Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la carga más pesada a dos lados) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la carga más pesada a dos lados) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)) · Nombre para copiar en YouTube: `Two-Foot Lateral Jump (side to side over a line or a low hurdle)`
+3. **Saltos de tobillo adelante / atrás con dos pies (Ankle Hops)** — 2 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Backward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Backward Ankle Hops`
+   - Cambiar por: Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo hacia atrás con dos pies (Backward Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Forward%2FBackward%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Forward/Backward Ankle Hops`
 4. **Azote rotacional hacia abajo con balón medicinal (Rotational Downward Slam)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 10 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -2674,7 +2652,7 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzami
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Abdominal inverso (Reverse Crunch) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Press de banca con barra (Bench Press) + Peso muerto con barra hexagonal (Trap Bar Deadlift) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Remo a un brazo con mancuerna (1-Arm DB Row) - aprieta 1 segundo arriba + Sentadilla búlgara (Bulgarian Split Squat) (ahorras unos 4 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto lateral desde subida al cajón (Lateral Step-Up Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Agilidad 5-10-5 (Pro Agility), Desplazamientos laterales (Lateral Shuffles), Salto largo a una pierna (Single-Leg Broad Jump) · accesorios de músculos pequeños: Elevación de pantorrillas con barra (Barbell Calf Raise)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2695,12 +2673,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Sprint a velocidad máxima (Max-Velocity Sprint)** — 2 × 3 x 40 m · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Aceleraciones con salida en caída (Falling Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salidas de aceleración (Acceleration Starts) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Marcha A (A March) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Ejercicios técnicos de sprint Mach: marcha A / skip A / carrera A (Mach Drills) (mantiene el trabajo de velocidad; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Max-Velocity%20Sprint%20(Top%20Speed)) · Nombre para copiar en YouTube: `Max-Velocity Sprint (Top Speed)`
-2. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 3 × 6 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
+2. **Salto largo a una pierna (Single-Leg Broad Jump)** — 3 × 4 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Repite: haz la serie en tandas de 2-3 saltos grandes seguidos (para 7 saltos: 3 + 2 + 2), reiniciando los brazos entre tandas; esfuerzo total en cada salto
    - por lado = 1 serie
-   - Cambiar por: Salto largo a una pierna (Single-Leg Broad Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto en sentadilla alto, con peso corporal o carga ligera (Squat Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón a una pierna (Single-Leg Box Jump) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto corto a una pierna hacia un disco o cajón bajo (Single-Leg Hop On To) (mantiene el salto; pierde la versión más fácil: este es más difícil) / Salto lateral desde subida al cajón (Lateral Step-Up Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump) · Nombre para copiar en YouTube: `Single-Leg Broad Jump`
 3. **Desplazamientos laterales (Lateral Shuffles)** — 3 × 12 cortes · máxima intención; detente cuando baje la calidad · recuperación completa entre series
    - Cambiar por: Prueba L de tres conos (L-Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Split step con reacción (Split-Step Reaction Drill) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación pliométrica de ocho cuadros (8-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Formación de cuatro cuadros (4-Square Hop Grid) (mantiene el cambio de dirección; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Shuffles) · Nombre para copiar en YouTube: `Lateral Shuffles`

@@ -11831,6 +11831,7 @@
     "max_level": 4,
     "over_penalty": -10,
     "lean_penalty": -2,
+    "return_penalty": -12,
     "never_first_block_re": "hurdle",
     "never_first_block_tags": [
      "hurdle_hop"
@@ -11853,6 +11854,7 @@
     "level_shift": 1,
     "bonus": 30,
     "other_penalty": -30,
+    "second_same_day": -32,
     "refs": [
      "R5-GRD-08",
      "EQ-01",

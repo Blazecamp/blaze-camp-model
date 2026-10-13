@@ -46,8 +46,17 @@ function eligibleWods(NW, model, derived, lvl) {
   const kit = derived.D8_kit || { tokens: [], machines: [] };
   const kitObj = { tokens: new Set(kit.tokens || []), machines: kit.machines || [] };
   const age = derived.age || 0;
-  const older = age >= R.population.older.from_age && !(derived.prefs && derived.prefs.older_athletic_opt_in);
+  // (the age and injury rules exactly as V4 / V5 / H12 read them: a 60+ client never takes the never-tags, opt-in or not; without the
+  // opt-in only older-ok movements; with it only opt-in-ok ones; an injured / high-volume client never the never-tags; a youth stays on
+  // the youth ladder and never lifts from the floor)
+  const P = R.population.older;
+  const olderAge = age >= P.from_age;
+  const optIn = !!(derived.prefs && derived.prefs.older_athletic_opt_in);
+  const injured = !!(derived.D7_constraint_band && derived.D7_constraint_band.client_family === 'older_or_pain');
+  const neverTags = [...(P.never_tags || []), ...(P.never_tags_phase0_even_with_opt_in || [])];
   const youth = age < R.levels.youth_age;
+  const order = R.levels.ladder_order || [], youthMax = order.indexOf(R.levels.youth_max_ladder);
+  const yx = R.selection.x2 && R.selection.x2.youth_level_exempt_re ? new RegExp(R.selection.x2.youth_level_exempt_re) : null;
   const A = R.selection.addons || {};
   const never = A.never_pick_statuses || [];
   const exceptionOk = (e) => (A.primary_exceptions || []).some((x) => x.enabled !== false && x.bucket === 'COND_WOD' && x.ids.includes(e.id) && (!x.families || x.families.includes(derived.D1_family)));
@@ -58,8 +67,12 @@ function eligibleWods(NW, model, derived, lvl) {
     const e = model.ex(id);
     if (!model.kitAvailable(e, kitObj)) return false;
     if (never.includes(e.status) && !exceptionOk(e)) return false;
-    if (older && e.older_ok === false) return false;
-    if (youth && (e.youth_ok === false || (e.tags || []).includes('olympic_from_floor'))) return false;
+    const tags = e.tags || [];
+    if ((olderAge || injured) && neverTags.some((t) => tags.includes(t))) return false;
+    if (olderAge && !optIn && !e.older_ok && !(e.athletic && e.athletic.quality === 'landing')) return false;
+    if (olderAge && optIn && !e.older_opt_in_ok) return false;
+    if (youth && (e.youth_ok === false || tags.includes('olympic_from_floor'))) return false;
+    if (youth && youthMax >= 0 && order.indexOf(e.level) > youthMax && !(yx && yx.test(e.id))) return false;
     if ((e.tags || []).some((t) => avoid.has(t))) return false;
     if ((e.tags || []).includes('olympic_from_floor') && !kitObj.tokens.has('barbell_bumpers_platform')) return false;
     if (e.medball && typeof e.medball.max_lb === 'number' && e.medball.max_lb > R.medball.max_lb) return false;
@@ -98,10 +111,19 @@ function namedItem(it, e, lvl, model, derived) {
     return { type: 'metres', value: m.metres[lvl] };
   });
   let ballLoad = null;
-  const station_loads = picks.map(({ m, rx }) => {
+  const station_loads = picks.map(({ m, rx, id }) => {
     const L = !rx && m.load_scaled ? m.load_scaled : m.load;
     if (!L || !L[lvl]) return null;
-    if (L.unit === 'medball') { ballLoad = { type: 'medball_lb', min: Math.min(L[lvl][0], R.medball.max_lb), max: Math.min(L[lvl][1], R.medball.max_lb) }; return null; }
+    if (L.unit === 'medball') {
+      // (H11: never above 20 lb; a youth or a 60+ client takes the ball's own top less `youth_older_minus_lb`, as V4 reads it)
+      const age = derived.age || 0;
+      const mb = model.ex(id).medball;
+      const kind = mb && R.medball.loads_lb[mb.kind] ? mb.kind : 'wall_ball';
+      const top = (age < R.levels.youth_age || age >= R.population.older.from_age) && R.medball.loads_lb[kind] ? R.medball.loads_lb[kind][1] - (R.medball.youth_older_minus_lb || 0) : R.medball.max_lb;
+      const cap = Math.min(top, R.medball.max_lb);
+      ballLoad = { type: 'medball_lb', min: Math.min(L[lvl][0], cap), max: Math.min(L[lvl][1], cap) };
+      return null;
+    }
     return { type: 'lb_range', unit: L.unit, min: L[lvl][0], max: L[lvl][1] };
   });
   const scaled = picks.some((p) => !p.rx) || lvl !== 'L3';

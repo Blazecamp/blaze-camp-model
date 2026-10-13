@@ -12,13 +12,13 @@
    "synthesis/12_volume_algorithm_v1.json v1.1"
   ],
   "counts": {
-   "exercises": 740,
+   "exercises": 741,
    "dropped": 208,
    "templates": 30,
    "profiles": 127,
    "sports_in_picker": 52,
    "activities": 26,
-   "en_keys": 2811,
+   "en_keys": 2812,
    "es_missing": 795
   },
   "do_not_edit_by_hand": "edit tools/fixture/*.mjs and rebuild; update engine/CONTRACTS.md with any shape change"
@@ -45,7 +45,7 @@
   ],
   "default_lang": "en",
   "counts": {
-   "exercises": 740,
+   "exercises": 741,
    "templates": 30,
    "profiles": 127,
    "sports_in_picker": 52,
@@ -2683,8 +2683,7 @@
     "pattern": "PLYO",
     "node": "AP.JMP.LK",
     "slots": [
-     "AP_JUMP_LIMITED_KNEE",
-     "AP_PLYO"
+     "AP_JUMP_LIMITED_KNEE"
     ],
     "default_in_slots": [],
     "laterality": "bilateral",
@@ -2762,6 +2761,91 @@
     ]
    },
    {
+    "id": "assisted-lateral-jump-holding-a-support",
+    "source_id": "assisted-lateral-jump-holding-a-support",
+    "name_key": "exercise.assisted-lateral-jump-holding-a-support.name",
+    "cue_key": null,
+    "kind": "exercise",
+    "family": "ATHLETIC",
+    "pattern": "PLYO",
+    "node": "AP.JMP.FULL",
+    "slots": [
+     "AP_PLYO"
+    ],
+    "default_in_slots": [],
+    "laterality": "bilateral",
+    "plane": "frontal",
+    "level": "foundational",
+    "zone": null,
+    "rotation_bias": null,
+    "size_class": "mixed",
+    "exercise_class": "athletic",
+    "counting": "contacts",
+    "credit_class": "ATHLETIC",
+    "credits": {},
+    "primary_muscle": null,
+    "equipment": {
+     "any_of": [
+      []
+     ],
+     "machine": null
+    },
+    "constraint": 1,
+    "axial_class": "none",
+    "axial": false,
+    "spine_class": "not_counted",
+    "axial_pattern": null,
+    "skill": "low",
+    "impact": "low",
+    "load_ceiling": "low",
+    "is_athletic": true,
+    "athletic": {
+     "quality": "ballistic",
+     "contact_class": "ballistic",
+     "olympic_family": null,
+     "day_pattern": null,
+     "olympic_tier": null,
+     "full_catch": false,
+     "from_floor": false,
+     "plyo_method_default": "create_then_land",
+     "rc_stage_default": "RC1",
+     "unilateral_harder": false,
+     "loaded_jump": false,
+     "count_unit": "contacts",
+     "response": "single",
+     "upper": false,
+     "low_amplitude": false,
+     "sport_only": null,
+     "no_cuts": false,
+     "sprint_kind": null
+    },
+    "conditioning": null,
+    "medball": null,
+    "older_ok": false,
+    "older_opt_in_ok": true,
+    "youth_ok": true,
+    "tags": [
+     "assisted",
+     "pain_friendly"
+    ],
+    "variation_axes": [
+     "range"
+    ],
+    "rep_hint": {
+     "text": "4-8 jumps",
+     "unit": "contacts"
+    },
+    "video": {
+     "url": "https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)",
+     "kind": "search"
+    },
+    "status": "live_library_selectable",
+    "sport_use": [],
+    "rule_refs": [
+     "R5-GRD-08"
+    ]
+   },
+   {
     "id": "assisted-pogo-hops-holding-a-support",
     "source_id": "assisted-pogo-hops-holding-a-support",
     "name_key": "exercise.assisted-pogo-hops-holding-a-support.name",
@@ -2771,8 +2855,7 @@
     "pattern": "PLYO",
     "node": "AP.JMP.LK",
     "slots": [
-     "AP_JUMP_LIMITED_KNEE",
-     "AP_PLYO"
+     "AP_JUMP_LIMITED_KNEE"
     ],
     "default_in_slots": [],
     "laterality": "bilateral",
@@ -69097,6 +69180,7 @@
      "max_level": 4,
      "over_penalty": -10,
      "lean_penalty": -2,
+     "return_penalty": -12,
      "never_first_block_re": "hurdle",
      "never_first_block_tags": [
       "hurdle_hop"
@@ -69119,6 +69203,7 @@
      "level_shift": 1,
      "bonus": 30,
      "other_penalty": -30,
+     "second_same_day": -32,
      "refs": [
       "R5-GRD-08",
       "EQ-01",
@@ -157809,6 +157894,7 @@
    "exercise.assisted-dips-machine.cue": "Works your chest and your triceps about equally ('more tricep than chest but still .5 and .5').",
    "exercise.assisted-dips-machine.name": "Assisted Dips (machine)",
    "exercise.assisted-lateral-hops-holding-a-support.name": "Assisted Side-to-Side Hops (holding a rack, rail or counter)",
+   "exercise.assisted-lateral-jump-holding-a-support.name": "Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)",
    "exercise.assisted-pogo-hops-holding-a-support.name": "Assisted Pogo Hops (holding a rack, rail or counter)",
    "exercise.assisted-pull-up-machine-close-grip.name": "Assisted Pull-Up Machine (Close Grip)",
    "exercise.assisted-pull-up-machine-pronated-grip.name": "Assisted Pull-Up Machine (Pronated Grip)",
@@ -160477,6 +160563,7 @@
    "exercise.ankle-hops-bilateral-in-place.name": "Saltos de tobillo en el lugar (Ankle Hops)",
    "exercise.assisted-dips-machine.cue": "Trabaja el pecho y los tríceps más o menos por igual ('más tríceps que pecho, pero igual .5 y .5').",
    "exercise.assisted-lateral-hops-holding-a-support.name": "Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops)",
+   "exercise.assisted-lateral-jump-holding-a-support.name": "Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)",
    "exercise.assisted-pogo-hops-holding-a-support.name": "Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)",
    "exercise.assisted-pull-up-machine-pronated-grip.name": "Dominadas asistidas en máquina (Assisted Pull-Up)",
    "exercise.assisted-squat-jump-holding-a-support.name": "Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump)",

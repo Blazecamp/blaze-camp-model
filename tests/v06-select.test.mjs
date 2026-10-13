@@ -324,7 +324,9 @@ describe('v0.6 selection - the benchmark scorer reads the package\'s rules (scor
   it('EQ-03 / G-133: the 52-year-old\'s KB swing on his knee day is not counted as a day-pattern miss; R2-LIB-01 / G-134: the push / pull / legs plan\'s kept laterality is not a dial error', () => {
     // (engine 0.6.0 integration: 2.4.1 reads the model's stated-reason list, G-198; round-7 fix round: 2.5 reads a group's bonus exercise
     // on its own rule, rules.placement.x3.bonus_last, G-217 - the two readings tested here are unchanged)
-    assert.equal(SCORER_VERSION, '2.5');
+    // (engine 0.7 selection package: 2.6 reads the 2-day full-body skeletons and R5-CLS-02's free-station hip lift, G-263 - the two
+    // readings tested here are unchanged)
+    assert.equal(SCORER_VERSION, '2.6');
     const ctx = makeContext({ rules: raw.rules, catalog: raw.catalog, templates: raw.templates, profiles: raw.profiles });
     const s08 = scorePlan(planOf('08'), ctx);
     assert.equal((s08.metrics.olympic_day_pattern || {}).value || 0, 0, JSON.stringify(s08.metrics.olympic_day_pattern));

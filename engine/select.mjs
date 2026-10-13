@@ -1285,7 +1285,7 @@ function scoreOf(ex, slot, eb, E, st, day) {
   if (E.S2) s += r2Score(ex, slot, eb, E, st, day, bk, wd, reasons);
   if (R.selection.x1) s += x1Score(ex, slot, eb, E, st, day, bk, wd, over);
   if (R.selection.x2) s += x2Score(ex, slot, eb, E, st, day, bk, wd, reasons);
-  if (E.V7) s += v7Score(ex, slot, eb, E, reasons);
+  if (E.V7) s += v7Score(ex, slot, eb, E, reasons, st);
   return { score: Math.round(s * 1000) / 1000, reasons };
 }
 
@@ -1300,15 +1300,26 @@ const profileClass = (cc) => (cc === 'MRPUSH' ? 'VPUSH' : cc);
  *  - R5-GRD-08 with knee pain the first exercise block's jumps are assisted (holding a support): the assisted records lead, the
  *    others wait; without knee pain the assisted records are not picked (they stay for the knee-pain start).
  */
-function v7Score(ex, slot, eb, E, reasons) {
+function v7Score(ex, slot, eb, E, reasons, st) {
   let s = 0;
   const J = E.V7.jumps, AJ = E.V7.assisted_jumps;
   const jump = J && (J.buckets || []).includes(eb) && slot.variant !== 'upper' && !!ex.athletic && !ex.athletic.upper && ex.is_athletic;
   if (!jump) return 0;
   const assisted = !!AJ && (ex.tags || []).includes(AJ.tag);
   if (AJ && E.assistedNow) {
-    if (assisted) { s += AJ.bonus; reasons.push(why('why.assisted_jump', 'R5-GRD-08')); } else s += AJ.other_penalty;
+    // (one assisted jump a day first: a day that already holds one leaves the next assisted record to the week's other days - the
+    // library holds a few of them, each used once a week, G-255)
+    const dayHas = !!st && !!st.dayPicks && (st.dayPicks.get(weekdayOfSlot(slot)) || []).some((x) => x.ex && (x.ex.tags || []).includes(AJ.tag) && x.ex.slots.includes(eb));
+    if (assisted) { s += dayHas && typeof AJ.second_same_day === 'number' ? AJ.second_same_day : AJ.bonus; reasons.push(why('why.assisted_jump', 'R5-GRD-08')); } else s += AJ.other_penalty;
     return s;
+  }
+  // (after the assisted start the body-weight jumps take over: an assisted record waits)
+  if (AJ && assisted && E.kneeJump) s += AJ.other_penalty;
+  // (a jump station never goes back to an earlier exercise block's pick - A, B, A - the progression moves on; R2-LIB-01, G-253)
+  if (typeof J.return_penalty === 'number') {
+    const prevF = E.prev && E.prev.fills ? E.prev.fills[slot.slot_id] : null;
+    const hist = (E.history && E.history[slot.slot_id]) || [];
+    if (hist.includes(ex.id) && !(prevF && prevF.exercise_id === ex.id)) s += J.return_penalty;
   }
   if (typeof E.jumpCap === 'number') {
     const lv = jumpLevel(ex, J);

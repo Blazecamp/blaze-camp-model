@@ -16,6 +16,7 @@ _Your Blaze Camp plan_
 
 - With 2 training days a week every big muscle group is trained with about 6-8 weekly sets instead of 10 or more. A third training day would let every group reach 10.
 - You told us about pain in your knee (worse with deep knee bends). What this plan does about it: it leaves out the lifts that load it hardest and says so on the lift, it holds Quads at the same sets instead of adding more (progress with reps and load), and it tells you where to stop on the lifts that bend it. If the pain grows, stop and see a professional.
+- Jumps and pain: skip the jumps on any day your pain is above 6 on a scale of 1 to 10 (10 = you need a hospital), and see a professional if it stays there.
 - Weeks 11 and 12 include Christmas / New Year: move a session by a day or two if you need to; plan longer holidays between blocks.
 - You play 3 or more times a week: every week has half the jumps and no extra agility drills.
 
@@ -125,8 +126,8 @@ _Counted the coach's way: a set counts once for its group (hips = glutes + hamst
 
 | Day | Session | Time | Muscle groups (exercises) |
 |---|---|---|---|
-| Monday | A - squat + pull | about 70-90 min | Quads 3, Back 2, Biceps 1, Calves 1 |
-| Thursday | B - deadlift + push | about 75-90 min | Hips (glutes + hamstrings) 3, Chest 2, Shoulders 1, Triceps 1 |
+| Monday | Full body 1 - squat + pull, single-leg hinge + press | about 70-85 min | Quads 2, Hips (glutes + hamstrings) 1, Back 1, Chest 1, Biceps 1, Calves 1 |
+| Thursday | Full body 2 - hinge + push, lunge + pull | about 75-90 min | Quads 1, Hips (glutes + hamstrings) 2, Back 1, Chest 1, Shoulders 1, Triceps 1 |
 | Friday | Optional day | about 40-45 min | – |
 
 ## Training block, week by week · Week 1-12
@@ -149,36 +150,36 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 | Calves | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 4 |
 | **Total** | 36 36 37 37 · 37 38 38 39 · 39 40 43 43 | 43 |
 
-### Monday · A - squat + pull
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
 
 | Exercise | Sets | Reps |
 |---|---|---|
 | Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Bird Dogs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contacts → 2 contacts per leg |
+| Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) → Two-Foot Lateral Box Jump (sideways onto a low box) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contacts → 4 contacts |
 | Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 per side → 6 per side |
 | Kettlebell Swing (Russian) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 Reps |
 | Seal Row - DB (Supinated Grip) → Seal Row - DB (Pronated Grip) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | Hack Squat (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 to 15 Reps → 8 to 12 Reps |
-| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 to 15 per side → 8 to 12 per side |
-| Step-Up (forward and lateral) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
+| Incline DB Bench Press → Incline DB Bench Press - palms facing each other (neutral grip) → Incline DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
+| Rear-Foot-on-Wall DB Deadlift (RDL) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
 | Dumbbell Hammer Curl | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 15 to 20 Reps |
 | Leg Extension (machine) → Leg Extension (machine) - one leg at a time | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
-| Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
+| Machine Calf Raise | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 
 | Exercise | Sets | Reps |
 |---|---|---|
 | Side Plank (elbow) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Dead Bugs | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contacts → 12 contacts → 15 contacts |
+| Assisted Pogo Hops (holding a rack, rail or counter) → Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contacts → 12 contacts → 15 contacts |
 | Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 Reps → 5 per side → 6 per side |
 | Split-Stance Contralateral Single-Arm KB Swing | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
-| Flat DB Bench Press | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 to 12 Reps → 8 to 12 Reps |
+| Flat DB Bench Press | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 10 to 12 Reps → 8 to 12 Reps |
 | 45-Degree Hyperextension (back/hip extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 to 15 Reps → 10 to 12 Reps |
-| Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 10 to 12 Reps → 8 to 12 Reps |
-| Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
+| Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 to 15 per side → 8 to 12 per side |
+| Step-Up (forward and lateral) → Step-Up (forward and lateral) - 1-second pause at the bottom | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 12 per side → 8 to 12 per side |
 | Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 to 20 Reps |
 | Seated Leg Curl (machine) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 Reps |
 | KB Face Pull → KB Face Pull - 1-second squeeze at the top | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 to 20 Reps |
@@ -188,7 +189,7 @@ _Counted from this plan's exercises, one number per week (a dot separates the ex
 
 | Exercise | Sets | Reps |
 |---|---|---|
-| Plank (forearm / low plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
+| Pallof Press | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 to 15 per side |
 
 ## Week 1 — Getting used to it (small steps)
 
@@ -196,13 +197,13 @@ _Week level: 2 of 11 (2 = the start, 11 = your hardest week)_
 
 **Athletic work this week:** 6 jump contacts · 27 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
-_Average time: about 70-90 min (an estimate, for information only)_
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Dumbbell Hammer Curl_
 
@@ -220,11 +221,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Stick the Landing - Bilateral (jump/drop and freeze the landing)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - low box (6-12 in)
-   - Land and stick it: hold 3 s
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Stick%20the%20Landing%20-%20Bilateral%20(jump%2Fdrop%20and%20freeze%20the%20landing)) · Name to copy into YouTube: `Stick the Landing - Bilateral (jump/drop and freeze the landing)`
+1. **Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
+   - Swap for: Assisted Squat Jump (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Stick the Landing - Bilateral (jump/drop and freeze the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -253,19 +253,19 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
-   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
-   - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -288,13 +288,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
+_Superset to save time: Assisted Pogo Hops (holding a rack, rail or counter) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
@@ -306,7 +306,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -314,10 +314,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Ankle Hops (bilateral, in place)** — 3 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Assisted Pogo Hops (holding a rack, rail or counter)** — 3 × 9 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Assisted Side-to-Side Hops (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
 2. **Medball Chest Pass** — 2 × 10 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -337,26 +337,26 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Week 1: pick a weight you could lift about 3 more times
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
-   - Keep this lift at 10-12 reps.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Week 1: pick a weight you could lift about 3 more times
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -388,9 +388,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -411,13 +412,13 @@ _Week level: 2.6 of 11 (2 = the start, 11 = your hardest week)_
 
 **Athletic work this week:** 6 jump contacts · 30 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
-_Average time: about 70-90 min (an estimate, for information only)_
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
+_Average time: about 70-85 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Dumbbell Hammer Curl_
 
@@ -435,11 +436,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Stick the Landing - Bilateral (jump/drop and freeze the landing)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - low box (6-12 in)
-   - Land and stick it: hold 3 s
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Stick%20the%20Landing%20-%20Bilateral%20(jump%2Fdrop%20and%20freeze%20the%20landing)) · Name to copy into YouTube: `Stick the Landing - Bilateral (jump/drop and freeze the landing)`
+1. **Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
+   - Swap for: Assisted Squat Jump (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Stick the Landing - Bilateral (jump/drop and freeze the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -466,18 +466,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
-   - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -500,13 +499,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
+_Superset to save time: Assisted Pogo Hops (holding a rack, rail or counter) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
@@ -518,7 +517,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -526,10 +525,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Ankle Hops (bilateral, in place)** — 3 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Assisted Pogo Hops (holding a rack, rail or counter)** — 3 × 10 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Assisted Side-to-Side Hops (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
 2. **Medball Chest Pass** — 2 × 10 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -548,23 +547,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Flat DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
-   - Keep this lift at 10-12 reps.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -596,9 +596,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -619,13 +620,13 @@ _Week level: 3.2 of 11 (2 = the start, 11 = your hardest week)_
 
 **Athletic work this week:** 6 jump contacts · 33 ankle-hop contacts · 40 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
+_Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Dumbbell Hammer Curl_
 
@@ -643,11 +644,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Stick the Landing - Bilateral (jump/drop and freeze the landing)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - low box (6-12 in)
-   - Land and stick it: hold 3 s
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Stick%20the%20Landing%20-%20Bilateral%20(jump%2Fdrop%20and%20freeze%20the%20landing)) · Name to copy into YouTube: `Stick the Landing - Bilateral (jump/drop and freeze the landing)`
+1. **Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
+   - Swap for: Assisted Squat Jump (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Stick the Landing - Bilateral (jump/drop and freeze the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -674,18 +674,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
-   - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -708,13 +707,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
+_Superset to save time: Assisted Pogo Hops (holding a rack, rail or counter) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
@@ -726,7 +725,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -734,10 +733,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Ankle Hops (bilateral, in place)** — 3 × 11 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Assisted Pogo Hops (holding a rack, rail or counter)** — 3 × 11 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Assisted Side-to-Side Hops (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
 2. **Medball Chest Pass** — 2 × 10 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -756,23 +755,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Flat DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
-   - Keep this lift at 10-12 reps.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -804,9 +804,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -827,13 +828,13 @@ _Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 
 **Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
+_Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Stick the Landing - Bilateral (jump/drop and freeze the landing) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
+_Superset to save time: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: Machine Calf Raise, Leg Extension (machine), Dumbbell Hammer Curl_
 
@@ -851,11 +852,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Stick the Landing - Bilateral (jump/drop and freeze the landing)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
-   - low box (6-12 in)
-   - Land and stick it: hold 3 s
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Stick%20the%20Landing%20-%20Bilateral%20(jump%2Fdrop%20and%20freeze%20the%20landing)) · Name to copy into YouTube: `Stick the Landing - Bilateral (jump/drop and freeze the landing)`
+1. **Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+   - Jump, then land and stick it: hold the landing 2-3 s, reset, go again
+   - Swap for: Assisted Squat Jump (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Stick the Landing - Bilateral (jump/drop and freeze the landing) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Box Jump (sideways onto a low box) (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -882,18 +882,17 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
-   - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
+   - Keep this lift at 10-12 reps.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -916,13 +915,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
-_Superset to save time: Ankle Hops (bilateral, in place) + Medball Chest Pass (about 3 min saved)_
+_Superset to save time: Assisted Pogo Hops (holding a rack, rail or counter) + Medball Chest Pass (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Chest Pass · small-muscle accessories: KB Face Pull, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
@@ -934,7 +933,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -942,10 +941,10 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Dead%20Bugs) · Name to copy into YouTube: `Dead Bugs`
 
 **Jumps, throws and speed**
-1. **Ankle Hops (bilateral, in place)** — 3 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Assisted Pogo Hops (holding a rack, rail or counter)** — 3 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
-   - [Watch how](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Name to copy into YouTube: `Ankle Hops (bilateral, in place)`
+   - Swap for: Assisted Side-to-Side Hops (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
+   - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
 2. **Medball Chest Pass** — 2 × 10 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -964,23 +963,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 1. **Flat DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 12 to 15 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 15 on every set with 3 left in the tank, add weight next time and start again at 12.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
-   - Keep this lift at 10-12 reps.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm Lat Pulldown** — 3 × 12 to 15 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 15 per side on every set with 3 left in the tank, add weight next time and start again at 12.
+   - per side = 1 set
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral)** — 2 × 10 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - per side = 1 set
-   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -1012,9 +1012,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 20-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
@@ -1032,20 +1033,20 @@ _Week level: 4.4 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 8 exercises change a little (another version or one new detail); the rest stay
-- Monday: Stick the Landing - Bilateral (jump/drop and freeze the landing) → Lateral Box Step-up Jump; Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Leg Extension (machine) → Leg Extension (machine) - one leg at a time
-- Thursday: Ankle Hops (bilateral, in place) → Bilateral Lateral Ankle Hops; Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops; Rear-Foot-on-Wall DB Deadlift (RDL) → Staggered-Stance (Kickstand) DB Deadlift; KB Face Pull → KB Face Pull - 1-second squeeze at the top
+- Monday: Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter) → Two-Foot Lateral Box Jump (sideways onto a low box); Medball Alternating Back-to-Wall Rotational Scoops → Rotational Medball Chest Pass (R & L); Incline DB Bench Press → Incline DB Bench Press - palms facing each other (neutral grip); Leg Extension (machine) → Leg Extension (machine) - one leg at a time
+- Thursday: Assisted Pogo Hops (holding a rack, rail or counter) → Bilateral Lateral Ankle Hops; Medball Chest Pass → Medball Alternating Back-to-Wall Rotational Scoops; Step-Up (forward and lateral) → Step-Up (forward and lateral) - 1-second pause at the bottom; KB Face Pull → KB Face Pull - 1-second squeeze at the top
 - Jumps move to Receive-Create 2: Land & Go
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
+**Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
-_Average time: about 75-90 min (an estimate, for information only)_
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
+_Average time: about 70-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
+_Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box) + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press - palms facing each other (neutral grip) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
 
@@ -1063,12 +1064,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Staggered-Stance Box Jump (keeps the jump; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Rotational Medball Chest Pass (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -1094,17 +1094,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Incline DB Bench Press - palms facing each other (neutral grip)** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -1127,13 +1125,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
@@ -1145,7 +1143,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -1155,7 +1153,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Lateral Ankle Hops** — 3 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Jump Rope (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
@@ -1174,22 +1172,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Strength**
 1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm Lat Pulldown** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral) - 1-second pause at the bottom** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -1221,9 +1221,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -1240,17 +1241,17 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 _Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
-- +1 set on Flat DB Bench Press (Thursday): 3 → 4 sets
+- +1 set on Incline DB Bench Press (Monday): 3 → 4 sets
 
 **Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
+_Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box) + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press - palms facing each other (neutral grip) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
 
@@ -1268,12 +1269,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Staggered-Stance Box Jump (keeps the jump; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Rotational Medball Chest Pass (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -1299,17 +1299,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Incline DB Bench Press - palms facing each other (neutral grip)** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -1332,13 +1330,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
@@ -1350,7 +1348,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -1360,7 +1358,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Lateral Ankle Hops** — 3 × 12 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Jump Rope (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
@@ -1377,24 +1375,26 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 3 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+3. **Single-Arm Lat Pulldown** — 3 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral) - 1-second pause at the bottom** — 2 × 8 to 12 per side · leave 3 in the tank (3 RIR, RPE 7) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 3 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 3 in the tank (3 RIR, RPE 7) · 60-90 s rest
@@ -1426,9 +1426,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -1447,15 +1448,15 @@ _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
+**Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
+_Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box) + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press - palms facing each other (neutral grip) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
 
@@ -1473,12 +1474,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Staggered-Stance Box Jump (keeps the jump; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Rotational Medball Chest Pass (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -1504,17 +1504,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Incline DB Bench Press - palms facing each other (neutral grip)** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
@@ -1537,13 +1535,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
@@ -1555,7 +1553,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -1565,9 +1563,9 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Lateral Ankle Hops** — 3 × 13 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Jump Rope (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
-2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
+2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Overhead Throw (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way)
@@ -1582,24 +1580,26 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Single-Arm Lat Pulldown** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral) - 1-second pause at the bottom** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
@@ -1631,9 +1631,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -1654,13 +1655,13 @@ _Week level: 7 of 11 (2 = the start, 11 = your hardest week)_
 
 **Athletic work this week:** 8 jump contacts · 42 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
+_Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box) + Rotational Medball Chest Pass (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Supinated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press - palms facing each other (neutral grip) + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Chest Pass (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
 
@@ -1678,12 +1679,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Staggered-Stance Box Jump (keeps the jump; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Rotational Medball Chest Pass (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -1709,17 +1709,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Incline DB Bench Press - palms facing each other (neutral grip)** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
@@ -1742,13 +1740,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 75-90 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Lateral Ankle Hops + Medball Alternating Back-to-Wall Rotational Scoops (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Overhead Dumbbell Triceps Extension + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Medball Alternating Back-to-Wall Rotational Scoops · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Overhead Dumbbell Triceps Extension_
@@ -1760,7 +1758,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -1770,7 +1768,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Lateral Ankle Hops** — 3 × 14 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Jump Rope (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
 2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
@@ -1787,24 +1785,26 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Single-Arm Lat Pulldown** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral) - 1-second pause at the bottom** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Overhead Dumbbell Triceps Extension** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
@@ -1836,9 +1836,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 25-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk
@@ -1856,22 +1857,22 @@ _Week level: 8 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - New exercise block: 7 exercises change a little (another version or one new detail); the rest stay
-- Monday: Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L); Seal Row - DB (Supinated Grip) → Seal Row - DB (Pronated Grip); Machine Calf Raise → Machine Calf Raise - from a step (full stretch at the bottom)
-- Thursday: Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops; Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg); Incline DB Bench Press → Incline DB Bench Press - 1-second pause at the bottom; Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher
+- Monday: Rotational Medball Chest Pass (R & L) → Rotational Medball Scoop Toss (R & L); Seal Row - DB (Supinated Grip) → Seal Row - DB (Pronated Grip); Incline DB Bench Press - palms facing each other (neutral grip) → Incline DB Bench Press - 1-second pause at the bottom
+- Thursday: Bilateral Lateral Ankle Hops → Bilateral Zig-Zag Ankle Hops; Medball Alternating Back-to-Wall Rotational Scoops → Step-Forward Medball Chest Pass (R & L leg); Single-Arm Lat Pulldown → Single-Arm Lat Pulldown - 1-second squeeze at the top; Overhead Dumbbell Triceps Extension → Floor Dumbbell Skullcrusher
 - Jumps move to Receive-Create 3: Repeat
 - Same sets: add a little load or reps this week
 
 **Athletic work this week:** 8 jump contacts · 45 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
+_Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box) + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Pronated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Scoop Toss (R & L) · small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Scoop Toss (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -1887,12 +1888,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Rotational Medball Scoop Toss (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -1918,17 +1918,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
@@ -1942,7 +1940,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
+3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
    - Progress: when you hit 20 on every set with 2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -1951,13 +1949,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
@@ -1969,7 +1967,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -1979,7 +1977,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Zig-Zag Ankle Hops** — 3 × 15 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load) / Single-Leg Right-Angle Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Jump Rope (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Step-Forward Medball Chest Pass (R & L leg)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
@@ -1996,24 +1994,26 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press - 1-second pause at the bottom** — 3 × 8 to 12 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral) - 1-second pause at the bottom** — 2 × 8 to 12 per side · leave 2 in the tank (2 RIR, RPE 8) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Floor Dumbbell Skullcrusher** — 2 × 15 to 20 Reps · leave 2 in the tank (2 RIR, RPE 8) · 60-90 s rest
@@ -2045,9 +2045,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 30 min · steady pace: you can still talk
@@ -2066,17 +2067,17 @@ _Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - +1 set on Floor Dumbbell Skullcrusher (Thursday): 2 → 3 sets
 
-**Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
+**Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 52 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
+_Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box) + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Pronated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Scoop Toss (R & L) · small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Scoop Toss (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2092,13 +2093,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-2. **Rotational Medball Scoop Toss (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+2. **Rotational Medball Scoop Toss (R & L)** — 2 × 7 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Alternating Back-to-Wall Rotational Scoops (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)
@@ -2123,17 +2123,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
@@ -2147,7 +2145,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2156,13 +2154,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 4 min saved)_
-_Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
@@ -2174,7 +2172,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -2184,7 +2182,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Zig-Zag Ankle Hops** — 3 × 16 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load) / Single-Leg Right-Angle Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Jump Rope (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Step-Forward Medball Chest Pass (R & L leg)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
@@ -2201,24 +2199,26 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Name to copy into YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Strength**
-1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+1. **Flat DB Bench Press** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 2 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press - 1-second pause at the bottom** — 3 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 3 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral) - 1-second pause at the bottom** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
@@ -2250,9 +2250,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 33 min · steady pace: you can still talk
@@ -2270,20 +2271,20 @@ _Week level: 10 of 11 (2 = the start, 11 = your hardest week)_
 
 **What changes this week**
 - +1 set on 45-Degree Hyperextension (back/hip extension) (Thursday): 2 → 3 sets
-- +1 set on Single-Arm Lat Pulldown (Monday): 3 → 4 sets
-- +1 set on Incline DB Bench Press (Thursday): 3 → 4 sets
+- +1 set on Single-Arm Lat Pulldown (Thursday): 3 → 4 sets
+- +1 set on Flat DB Bench Press (Thursday): 3 → 4 sets
 
-**Athletic work this week:** 8 jump contacts · 54 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
+**Athletic work this week:** 8 jump contacts · 54 ankle-hop contacts · 52 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
-_Average time: about 85-100 min (an estimate, for information only)_
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
+_Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
+_Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box) + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Pronated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Scoop Toss (R & L) · small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Scoop Toss (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2299,13 +2300,12 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
-2. **Rotational Medball Scoop Toss (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+2. **Rotational Medball Scoop Toss (R & L)** — 2 × 7 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Alternating Back-to-Wall Rotational Scoops (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)
@@ -2330,17 +2330,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 4 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
@@ -2354,7 +2352,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
+3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1-2 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2363,13 +2361,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
-_Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
@@ -2381,7 +2379,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -2391,7 +2389,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Zig-Zag Ankle Hops** — 3 × 18 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load) / Single-Leg Right-Angle Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Jump Rope (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Step-Forward Medball Chest Pass (R & L leg)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
@@ -2410,22 +2408,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Strength**
 1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 3 × 10 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 4 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral) - 1-second pause at the bottom** — 2 × 8 to 12 per side · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1-2 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1-2 in the tank (1-2 RIR, RPE 8-9) · 60-90 s rest
@@ -2457,9 +2457,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 37 min · steady pace: you can still talk
@@ -2482,15 +2483,15 @@ _Last week: one intensifier on each of these days (Monday and Thursday): a MYO s
 
 **Athletic work this week:** 8 jump contacts · 57 ankle-hop contacts · 52 throws · 4 Olympic-lift sets
 
-### Monday · A - squat + pull
-_Average time: about 85-100 min (an estimate, for information only)_
+### Monday · Full body 1 - squat + pull, single-leg hinge + press
+_Average time: about 80-100 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories. You can also add or remove exercises._
 _Superset to save time: Plank (forearm / low plank) + Bird Dogs (about 2.5 min saved)_
-_Superset to save time: Lateral Box Step-up Jump + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
+_Superset to save time: Two-Foot Lateral Box Jump (sideways onto a low box) + Rotational Medball Scoop Toss (R & L) (about 3 min saved)_
 _Superset to save time: Seal Row - DB (Pronated Grip) + Hack Squat (machine) (about 4 min saved)_
-_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) (about 4 min saved)_
+_Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Rear-Foot-on-Wall DB Deadlift (RDL) (about 4 min saved)_
 _Superset to save time: Dumbbell Hammer Curl + Leg Extension (machine) - one leg at a time (about 3.5 min saved)_
-_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Scoop Toss (R & L) · small-muscle accessories: Machine Calf Raise - from a step (full stretch at the bottom), Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
+_Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Rotational Medball Scoop Toss (R & L) · small-muscle accessories: Machine Calf Raise, Leg Extension (machine) - one leg at a time, Dumbbell Hammer Curl_
 
 **Warm-up**
 1. 5 min any cardio
@@ -2506,12 +2507,11 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Bird%20Dogs) · Name to copy into YouTube: `Bird Dogs`
 
 **Jumps, throws and speed**
-1. **Lateral Box Step-up Jump** — 2 × 2 contacts per leg · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
-   - per side = 1 set
-   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the one-side-at-a-time work) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the one-side-at-a-time work) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the one-side-at-a-time work) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Name to copy into YouTube: `Lateral Box Step-up Jump`
+   - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
+   - [Watch how](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Name to copy into YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Rotational Medball Scoop Toss (R & L)** — 2 × 7 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
@@ -2537,17 +2537,15 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    > 'If the hack squat that you have in your gym works and you feel it is good, then that's great.' More constrained than a Smith machine.
    - Swap for: Leg Press (machine) (keeps the two-leg squat; loses little - same movement, another grip or position) / Box Goblet Squat (touch-and-go) (keeps the two-leg squat; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Name to copy into YouTube: `Hack Squat (machine)`
-3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 4 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
+   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
+   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
+4. **Rear-Foot-on-Wall DB Deadlift (RDL)** — 2 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
-   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
-4. **Step-Up (forward and lateral)** — 2 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
-   - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
-   - per side = 1 set
-   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
-   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
+   - Swap for: Staggered-Stance (Kickstand) DB Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Name to copy into YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accessories**
 1. **Dumbbell Hammer Curl** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · MYO set on the last set: about 15 reps, then 5 mini-sets of 5 reps with a short pause (about 5 breaths) between, same weight · 60-90 s rest
@@ -2561,7 +2559,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
    - Swap for: DB Leg Extension (seated on box) (keeps the quad isolation; loses the machine's support)
    - [Watch how](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Name to copy into YouTube: `Leg Extension (machine)`
-3. **Machine Calf Raise - from a step (full stretch at the bottom)** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
+3. **Machine Calf Raise** — 4 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
    - Progress: when you hit 20 on every set with 1 left in the tank, add weight next time and start again at 15.
    - Joint care for the Achilles and calves
    - This lift is also your joint care: lower slowly and stay in a pain-free range.
@@ -2570,13 +2568,13 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 
 ### Wednesday · Play day (Pickleball)
 
-### Thursday · B - deadlift + push
+### Thursday · Full body 2 - hinge + push, lunge + pull
 _Average time: about 90-110 min (an estimate, for information only)_
 _You can switch off these blocks today: core, jumps, throws and speed, power / Olympic lifts, accessories, joint care. You can also add or remove exercises._
 _Superset to save time: Side Plank (elbow) + Dead Bugs (about 2.5 min saved)_
 _Superset to save time: Bilateral Zig-Zag Ankle Hops + Step-Forward Medball Chest Pass (R & L leg) (about 3 min saved)_
 _Superset to save time: Flat DB Bench Press + 45-Degree Hyperextension (back/hip extension) (about 5.5 min saved)_
-_Superset to save time: Incline DB Bench Press - 1-second pause at the bottom + Staggered-Stance (Kickstand) DB Deadlift (about 4 min saved)_
+_Superset to save time: Single-Arm Lat Pulldown - 1-second squeeze at the top + Step-Up (forward and lateral) - 1-second pause at the bottom (about 4 min saved)_
 _Superset to save time: Floor Dumbbell Skullcrusher + Seated Leg Curl (machine) (about 3.5 min saved)_
 _Superset to save time: KB Face Pull - 1-second squeeze at the top + Standing DB Calf Raise (deficit optional) (about 2.5 min saved)_
 _Easiest to remove if you want a shorter day (your choice): extra jump / throw stations: Step-Forward Medball Chest Pass (R & L leg) · small-muscle accessories: KB Face Pull - 1-second squeeze at the top, Seated Leg Curl (machine), Floor Dumbbell Skullcrusher_
@@ -2588,7 +2586,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Core**
 1. **Side Plank (elbow)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
    - per side = 1 set
-   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position)
+   - Swap for: Side Plank Knee-to-Elbow (keeps the core work; loses some difficulty - this one is easier) / Side Plank Hip Lifts (slow) (keeps the core work; loses some difficulty - this one is easier) / Elbow Oblique Sit (side-lying oblique hold on the elbow) (keeps the core work; loses little - same movement, another grip or position) / Lateral Crunch (keeps the core work; loses the held position)
    - [Watch how](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Name to copy into YouTube: `Side Plank (elbow)`
 2. **Dead Bugs** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
    - per side = 1 set
@@ -2598,7 +2596,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Jumps, throws and speed**
 1. **Bilateral Zig-Zag Ankle Hops** — 3 × 19 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - Quick, continuous contacts: stay springy on the balls of your feet
-   - Swap for: Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Single-Leg Lateral Ankle Hops (keeps the jump; loses the heavier two-sided load) / Single-Leg Right-Angle Ankle Hops (keeps the jump; loses the heavier two-sided load)
+   - Swap for: Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Jump Rope (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Step-Forward Medball Chest Pass (R & L leg)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
@@ -2617,22 +2615,24 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
 **Strength**
 1. **Flat DB Bench Press** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
-   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Kneeling Push-Up (keeps the horizontal press; loses the added load)
+   - Swap for: Machine Bench Press (keeps the horizontal press; loses the free-weight balance work) / Standing Cable Chest Press (keeps the horizontal press; loses the free-weight balance work) / DB Floor Press (keeps the horizontal press; loses the bottom of the range) / Incline Cable Press (on bench) (keeps the horizontal press; loses the flat pressing angle)
    - [Watch how](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Name to copy into YouTube: `Flat DB Bench Press`
 2. **45-Degree Hyperextension (back/hip extension)** — 3 × 10 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 10.
    - Keep this lift at 10-12 reps.
    - Swap for: Double-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Single-Kettlebell Deadlift (keeps the two-leg hinge; loses the feel of the original implement) / Dumbbell Deadlift (keeps the two-leg hinge; loses the feel of the original implement)
    - [Watch how](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Name to copy into YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Incline DB Bench Press - 1-second pause at the bottom** — 4 × 8 to 12 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
-   - Progress: when you hit 12 on every set with 1 left in the tank, add weight next time and start again at 8.
-   - Swap for: High-Incline DB Press (keeps the same job in the session; loses the exact movement pattern) / Seated Machine Shoulder Press (keeps the same job in the session; loses the incline angle) / High-Incline Seated DB Press (keeps the same job in the session; loses the exact movement pattern)
-   - [Watch how](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Name to copy into YouTube: `Incline DB Bench Press`
-4. **Staggered-Stance (Kickstand) DB Deadlift** — 2 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+3. **Single-Arm Lat Pulldown - 1-second squeeze at the top** — 4 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
    - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
    - per side = 1 set
-   - Swap for: Rear-Foot-on-Wall DB Deadlift (RDL) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Alternating Staggered-Stance Single-Leg Deadlift (DB) (keeps the single-leg hinge; loses little - same movement, another grip or position) / Single-Leg RDL / Single-Leg Deadlift (keeps the single-leg hinge; loses little - same movement, another grip or position)
-   - [Watch how](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Name to copy into YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Swap for: Lat Pulldown (Close Grip) (keeps the vertical pull; loses the one-side-at-a-time work) / Lat Pulldown (Pronated / Overhand Grip) (keeps the vertical pull; loses the one-side-at-a-time work)
+   - [Watch how](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Name to copy into YouTube: `Single-Arm Lat Pulldown`
+4. **Step-Up (forward and lateral) - 1-second pause at the bottom** — 2 × 8 to 12 per side · leave 1 in the tank (1 RIR, RPE 9) · 60-120 s rest
+   - Progress: when you hit 12 per side on every set with 1 left in the tank, add weight next time and start again at 8.
+   - per side = 1 set
+   - Use a low step, about 6-12 in (15-30 cm); go higher only if it stays pain-free, and lower yourself slowly.
+   - Swap for: Step-up to Knee Drive (keeps the single-leg squat pattern; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Name to copy into YouTube: `Step-Up (forward and lateral)`
 
 **Accessories**
 1. **Floor Dumbbell Skullcrusher** — 3 × 15 to 20 Reps · leave 1 in the tank (1 RIR, RPE 9) · 60-90 s rest
@@ -2664,9 +2664,10 @@ _You can switch off these blocks today: core, cardio. You can also add or remove
 1. 5 min any cardio
 
 **Core**
-1. **Plank (forearm / low plank)** — 2 × 30-60 s · hold with good form, stop before it breaks · 30-60 s rest
-   - Swap for: High Plank (straight-arm plank) (keeps the core work; loses little - same movement, another grip or position) / Medball Plank Rockers (keeps the core work; loses the easier set-up - this one is harder) / L-Sit Hold (keeps the core work; loses the easier set-up - this one is harder) / Hollow Rocks (keeps the core work; loses the same trunk action - this one trains the core another way)
-   - [Watch how](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Name to copy into YouTube: `Plank (forearm / low plank)`
+1. **Pallof Press** — 2 × 10 to 15 per side · easy and controlled: stop well before it gets hard · 30-60 s rest
+   - per side = 1 set
+   - Swap for: Supine Floor Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Tall-Kneeling Pallof Hold (cable) - Object Squeezed Between Knees (keeps the core work; loses the moving reps) / Bird Dogs (keeps the core work; loses little - same movement, another grip or position) / Dead Bugs (keeps the core work; loses little - same movement, another grip or position)
+   - [Watch how](https://www.youtube.com/results?search_query=Pallof%20Press) · Name to copy into YouTube: `Pallof Press`
 
 **Aerobic**
 1. **Orange (C): long / easy · bike** — 40 min · steady pace: you can still talk

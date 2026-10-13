@@ -830,6 +830,15 @@
         }
       },
       {
+        "code": "athletic_capacity",
+        "key": "warning.athletic_capacity_block",
+        "args": {
+          "key": "athletic.key.jumps",
+          "pct": 83,
+          "training_block": 1
+        }
+      },
+      {
         "code": "laterality_capped",
         "key": "warning.laterality_capped",
         "args": {
@@ -1666,24 +1675,24 @@
         },
         "planned": {
           "plyo_contacts": 0,
-          "jump_contacts": 66,
-          "low_contacts": 66,
+          "jump_contacts": 51,
+          "low_contacts": 58,
           "throws": 63,
           "cod_cuts": 81,
           "sprint_m": 150,
           "olympic_sets": 8,
           "upper_contacts": 0
         },
-        "planned_share": 0.3385,
+        "planned_share": 0.3372,
         "goals": {
-          "jump_contacts": 66,
-          "low_contacts": 60,
+          "jump_contacts": 51,
+          "low_contacts": 58,
           "throws": 64,
           "cod_cuts": 80,
           "sprint_m": 150
         },
         "scale": {
-          "jump_contacts": 0.8205,
+          "jump_contacts": 0.812,
           "low_contacts": 1,
           "throws": 0.9184,
           "cod_cuts": 1,
@@ -1696,6 +1705,7 @@
           "jump_contacts": 21
         },
         "share_moved": [
+          "jump_contacts",
           "low_contacts"
         ]
       },
@@ -2284,20 +2294,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "low-box-jump-half-shin-height",
-                  "name_key": "exercise.low-box-jump-half-shin-height.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
-                    "copy_name": "Low Box Jump (Half-Shin Height)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 5
                   },
                   "set_reps": null,
                   "effort": {
@@ -2320,8 +2330,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 5,
+                    "total": 15,
                     "stage": "RC1",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -2338,16 +2348,21 @@
                     }
                   ],
                   "swaps": [
-                    "mid-box-jump-knee-height",
+                    "two-foot-lateral-jump",
+                    "low-box-jump-half-shin-height",
                     "low-depth-drop",
-                    "medium-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "mid-box-jump-knee-height",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "low-box-jump-half-shin-height",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
@@ -2355,23 +2370,14 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "medium-depth-drop",
+                      "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_stage",
                       "ref": "R2-ATH-03",
@@ -4384,20 +4390,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-box-jump-knee-height",
-                  "name_key": "exercise.mid-box-jump-knee-height.name",
+                  "exercise_id": "low-box-jump-half-shin-height",
+                  "name_key": "exercise.low-box-jump-half-shin-height.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid%20Box%20Jump%20(Knee%20Height)",
-                    "copy_name": "Mid Box Jump (Knee Height)"
+                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
+                    "copy_name": "Low Box Jump (Half-Shin Height)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -4411,7 +4417,7 @@
                   },
                   "load": {
                     "type": "height",
-                    "value": "medium"
+                    "value": "low"
                   },
                   "tempo_key": null,
                   "superset": null,
@@ -4420,8 +4426,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -4438,21 +4444,21 @@
                     }
                   ],
                   "swaps": [
-                    "low-box-jump-half-shin-height",
-                    "medium-depth-drop",
+                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump",
                     "low-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "low-box-jump-half-shin-height",
+                      "id": "two-foot-lateral-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "medium-depth-drop",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
@@ -4460,7 +4466,7 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "high-depth-drop-above-hip-height",
+                      "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -4510,7 +4516,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 17
+                    "value": 14
                   },
                   "set_reps": null,
                   "effort": {
@@ -4530,8 +4536,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 17,
-                    "total": 34,
+                    "per_set": 14,
+                    "total": 28,
                     "stage": "RC1",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -8888,7 +8894,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -8911,8 +8917,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "landing",
                     "key": "jump_contacts",
@@ -8929,12 +8935,22 @@
                     }
                   ],
                   "swaps": [
+                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump",
                     "low-box-jump-half-shin-height",
-                    "mid-box-jump-knee-height",
-                    "medium-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
                     {
                       "id": "low-box-jump-half-shin-height",
                       "keeps": "swap.keeps.jump",
@@ -8944,16 +8960,6 @@
                       "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "medium-depth-drop",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
@@ -9001,7 +9007,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 16
+                    "value": 15
                   },
                   "set_reps": null,
                   "effort": {
@@ -9021,8 +9027,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 16,
-                    "total": 32,
+                    "per_set": 15,
+                    "total": 30,
                     "stage": "RC1",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -11061,24 +11067,24 @@
         },
         "planned": {
           "plyo_contacts": 0,
-          "jump_contacts": 87,
-          "low_contacts": 70,
+          "jump_contacts": 72,
+          "low_contacts": 58,
           "throws": 63,
           "cod_cuts": 81,
           "sprint_m": 300,
           "olympic_sets": 8,
           "upper_contacts": 0
         },
-        "planned_share": 0.3182,
+        "planned_share": 0.3005,
         "goals": {
-          "jump_contacts": 87,
-          "low_contacts": 62,
+          "jump_contacts": 72,
+          "low_contacts": 58,
           "throws": 64,
           "cod_cuts": 80,
           "sprint_m": 300
         },
         "scale": {
-          "jump_contacts": 0.8205,
+          "jump_contacts": 0.812,
           "low_contacts": 1,
           "throws": 0.9184,
           "cod_cuts": 1,
@@ -11679,20 +11685,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "low-box-jump-half-shin-height",
-                  "name_key": "exercise.low-box-jump-half-shin-height.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
-                    "copy_name": "Low Box Jump (Half-Shin Height)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -11715,8 +11721,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -11733,16 +11739,21 @@
                     }
                   ],
                   "swaps": [
-                    "mid-box-jump-knee-height",
+                    "two-foot-lateral-jump",
+                    "low-box-jump-half-shin-height",
                     "low-depth-drop",
-                    "medium-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "mid-box-jump-knee-height",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "low-box-jump-half-shin-height",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
@@ -11750,23 +11761,14 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "medium-depth-drop",
+                      "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_stage",
                       "ref": "R2-ATH-03",
@@ -13626,20 +13628,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-box-jump-knee-height",
-                  "name_key": "exercise.mid-box-jump-knee-height.name",
+                  "exercise_id": "low-box-jump-half-shin-height",
+                  "name_key": "exercise.low-box-jump-half-shin-height.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid%20Box%20Jump%20(Knee%20Height)",
-                    "copy_name": "Mid Box Jump (Knee Height)"
+                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
+                    "copy_name": "Low Box Jump (Half-Shin Height)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -13653,7 +13655,7 @@
                   },
                   "load": {
                     "type": "height",
-                    "value": "medium"
+                    "value": "low"
                   },
                   "tempo_key": null,
                   "superset": null,
@@ -13662,8 +13664,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -13680,21 +13682,21 @@
                     }
                   ],
                   "swaps": [
-                    "low-box-jump-half-shin-height",
-                    "medium-depth-drop",
+                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump",
                     "low-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "low-box-jump-half-shin-height",
+                      "id": "two-foot-lateral-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "medium-depth-drop",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
@@ -13702,7 +13704,7 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "high-depth-drop-above-hip-height",
+                      "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -13752,7 +13754,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 17
+                    "value": 14
                   },
                   "set_reps": null,
                   "effort": {
@@ -13772,8 +13774,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 17,
-                    "total": 34,
+                    "per_set": 14,
+                    "total": 28,
                     "stage": "RC1",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -16119,20 +16121,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "medium-depth-drop",
-                  "name_key": "exercise.medium-depth-drop.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.medium-depth-drop.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Medium%20Depth%20Drop",
-                    "copy_name": "Medium Depth Drop"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -16144,10 +16146,7 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": {
-                    "type": "height",
-                    "value": "medium"
-                  },
+                  "load": null,
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "bilateral",
@@ -16155,12 +16154,12 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
-                    "quality": "landing",
+                    "quality": "ballistic",
                     "key": "jump_contacts",
-                    "response": "landing"
+                    "response": "single"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -16169,44 +16168,40 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.rc1"
+                      "key": "note.ballistic_stick"
                     }
                   ],
                   "swaps": [
-                    "mid-box-jump-knee-height",
+                    "two-foot-lateral-box-jump",
                     "low-box-jump-half-shin-height",
                     "low-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "mid-box-jump-knee-height",
+                      "id": "two-foot-lateral-box-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "low-box-jump-half-shin-height",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
-                      "keeps": "swap.keeps.landing",
+                      "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.simplicity"
+                      "id": "mid-box-jump-knee-height",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.second_exposure",
                       "ref": "PER-04"
@@ -17995,7 +17990,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -18018,8 +18013,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "landing",
                     "key": "jump_contacts",
@@ -18036,12 +18031,22 @@
                     }
                   ],
                   "swaps": [
+                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump",
                     "low-box-jump-half-shin-height",
-                    "mid-box-jump-knee-height",
-                    "medium-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
                     {
                       "id": "low-box-jump-half-shin-height",
                       "keeps": "swap.keeps.jump",
@@ -18051,16 +18056,6 @@
                       "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "medium-depth-drop",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
@@ -18108,7 +18103,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 18
+                    "value": 15
                   },
                   "set_reps": null,
                   "effort": {
@@ -18128,8 +18123,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 18,
-                    "total": 36,
+                    "per_set": 15,
+                    "total": 30,
                     "stage": "RC1",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -20144,24 +20139,24 @@
         },
         "planned": {
           "plyo_contacts": 0,
-          "jump_contacts": 90,
-          "low_contacts": 70,
+          "jump_contacts": 75,
+          "low_contacts": 58,
           "throws": 69,
           "cod_cuts": 84,
           "sprint_m": 300,
           "olympic_sets": 9,
           "upper_contacts": 0
         },
-        "planned_share": 0.3057,
+        "planned_share": 0.2871,
         "goals": {
-          "jump_contacts": 90,
-          "low_contacts": 66,
+          "jump_contacts": 75,
+          "low_contacts": 58,
           "throws": 70,
           "cod_cuts": 83,
           "sprint_m": 300
         },
         "scale": {
-          "jump_contacts": 0.8205,
+          "jump_contacts": 0.812,
           "low_contacts": 1,
           "throws": 0.9184,
           "cod_cuts": 1,
@@ -20762,20 +20757,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "low-box-jump-half-shin-height",
-                  "name_key": "exercise.low-box-jump-half-shin-height.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
-                    "copy_name": "Low Box Jump (Half-Shin Height)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -20798,8 +20793,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -20816,16 +20811,21 @@
                     }
                   ],
                   "swaps": [
-                    "mid-box-jump-knee-height",
+                    "two-foot-lateral-jump",
+                    "low-box-jump-half-shin-height",
                     "low-depth-drop",
-                    "medium-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "mid-box-jump-knee-height",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "low-box-jump-half-shin-height",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
@@ -20833,23 +20833,14 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "medium-depth-drop",
+                      "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_stage",
                       "ref": "R2-ATH-03",
@@ -22709,20 +22700,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-box-jump-knee-height",
-                  "name_key": "exercise.mid-box-jump-knee-height.name",
+                  "exercise_id": "low-box-jump-half-shin-height",
+                  "name_key": "exercise.low-box-jump-half-shin-height.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid%20Box%20Jump%20(Knee%20Height)",
-                    "copy_name": "Mid Box Jump (Knee Height)"
+                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
+                    "copy_name": "Low Box Jump (Half-Shin Height)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -22736,7 +22727,7 @@
                   },
                   "load": {
                     "type": "height",
-                    "value": "medium"
+                    "value": "low"
                   },
                   "tempo_key": null,
                   "superset": null,
@@ -22745,8 +22736,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -22763,21 +22754,21 @@
                     }
                   ],
                   "swaps": [
-                    "low-box-jump-half-shin-height",
-                    "medium-depth-drop",
+                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump",
                     "low-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "low-box-jump-half-shin-height",
+                      "id": "two-foot-lateral-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "medium-depth-drop",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
@@ -22785,7 +22776,7 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "high-depth-drop-above-hip-height",
+                      "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -22835,7 +22826,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 17
+                    "value": 14
                   },
                   "set_reps": null,
                   "effort": {
@@ -22855,8 +22846,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 17,
-                    "total": 34,
+                    "per_set": 14,
+                    "total": 28,
                     "stage": "RC1",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -25202,20 +25193,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "medium-depth-drop",
-                  "name_key": "exercise.medium-depth-drop.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.medium-depth-drop.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Medium%20Depth%20Drop",
-                    "copy_name": "Medium Depth Drop"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 7
                   },
                   "set_reps": null,
                   "effort": {
@@ -25227,10 +25218,7 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": {
-                    "type": "height",
-                    "value": "medium"
-                  },
+                  "load": null,
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "bilateral",
@@ -25238,12 +25226,12 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 7,
+                    "total": 21,
                     "stage": "RC1",
-                    "quality": "landing",
+                    "quality": "ballistic",
                     "key": "jump_contacts",
-                    "response": "landing"
+                    "response": "single"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -25252,44 +25240,40 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.rc1"
+                      "key": "note.ballistic_stick"
                     }
                   ],
                   "swaps": [
-                    "mid-box-jump-knee-height",
+                    "two-foot-lateral-box-jump",
                     "low-box-jump-half-shin-height",
                     "low-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "mid-box-jump-knee-height",
+                      "id": "two-foot-lateral-box-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "low-box-jump-half-shin-height",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
-                      "keeps": "swap.keeps.landing",
+                      "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.simplicity"
+                      "id": "mid-box-jump-knee-height",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.second_exposure",
                       "ref": "PER-04"
@@ -27078,7 +27062,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -27101,8 +27085,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "landing",
                     "key": "jump_contacts",
@@ -27119,12 +27103,22 @@
                     }
                   ],
                   "swaps": [
+                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump",
                     "low-box-jump-half-shin-height",
-                    "mid-box-jump-knee-height",
-                    "medium-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
                     {
                       "id": "low-box-jump-half-shin-height",
                       "keeps": "swap.keeps.jump",
@@ -27134,16 +27128,6 @@
                       "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "medium-depth-drop",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
@@ -27191,7 +27175,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 18
+                    "value": 15
                   },
                   "set_reps": null,
                   "effort": {
@@ -27211,8 +27195,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 18,
-                    "total": 36,
+                    "per_set": 15,
+                    "total": 30,
                     "stage": "RC1",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -29227,24 +29211,24 @@
         },
         "planned": {
           "plyo_contacts": 0,
-          "jump_contacts": 93,
-          "low_contacts": 70,
+          "jump_contacts": 78,
+          "low_contacts": 58,
           "throws": 75,
           "cod_cuts": 87,
           "sprint_m": 315,
           "olympic_sets": 9,
           "upper_contacts": 0
         },
-        "planned_share": 0.2941,
+        "planned_share": 0.2749,
         "goals": {
-          "jump_contacts": 93,
-          "low_contacts": 70,
+          "jump_contacts": 78,
+          "low_contacts": 58,
           "throws": 76,
           "cod_cuts": 86,
           "sprint_m": 300
         },
         "scale": {
-          "jump_contacts": 0.8205,
+          "jump_contacts": 0.812,
           "low_contacts": 1,
           "throws": 0.9184,
           "cod_cuts": 1,
@@ -29845,20 +29829,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "low-box-jump-half-shin-height",
-                  "name_key": "exercise.low-box-jump-half-shin-height.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
-                    "copy_name": "Low Box Jump (Half-Shin Height)"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -29881,8 +29865,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -29899,16 +29883,21 @@
                     }
                   ],
                   "swaps": [
-                    "mid-box-jump-knee-height",
+                    "two-foot-lateral-jump",
+                    "low-box-jump-half-shin-height",
                     "low-depth-drop",
-                    "medium-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "mid-box-jump-knee-height",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "low-box-jump-half-shin-height",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
@@ -29916,23 +29905,14 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "medium-depth-drop",
+                      "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_stage",
                       "ref": "R2-ATH-03",
@@ -31792,20 +31772,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "mid-box-jump-knee-height",
-                  "name_key": "exercise.mid-box-jump-knee-height.name",
+                  "exercise_id": "low-box-jump-half-shin-height",
+                  "name_key": "exercise.low-box-jump-half-shin-height.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Mid%20Box%20Jump%20(Knee%20Height)",
-                    "copy_name": "Mid Box Jump (Knee Height)"
+                    "url": "https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)",
+                    "copy_name": "Low Box Jump (Half-Shin Height)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -31819,7 +31799,7 @@
                   },
                   "load": {
                     "type": "height",
-                    "value": "medium"
+                    "value": "low"
                   },
                   "tempo_key": null,
                   "superset": null,
@@ -31828,8 +31808,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 6,
+                    "total": 18,
                     "stage": "RC1",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -31846,21 +31826,21 @@
                     }
                   ],
                   "swaps": [
-                    "low-box-jump-half-shin-height",
-                    "medium-depth-drop",
+                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump",
                     "low-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "low-box-jump-half-shin-height",
+                      "id": "two-foot-lateral-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "medium-depth-drop",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
@@ -31868,7 +31848,7 @@
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "high-depth-drop-above-hip-height",
+                      "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     }
@@ -31918,7 +31898,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 17
+                    "value": 14
                   },
                   "set_reps": null,
                   "effort": {
@@ -31938,8 +31918,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 17,
-                    "total": 34,
+                    "per_set": 14,
+                    "total": 28,
                     "stage": "RC1",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -34285,20 +34265,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "medium-depth-drop",
-                  "name_key": "exercise.medium-depth-drop.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
-                  "cue_key": "exercise.medium-depth-drop.cue",
+                  "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Medium%20Depth%20Drop",
-                    "copy_name": "Medium Depth Drop"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 7
                   },
                   "set_reps": null,
                   "effort": {
@@ -34310,10 +34290,7 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": {
-                    "type": "height",
-                    "value": "medium"
-                  },
+                  "load": null,
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "bilateral",
@@ -34321,12 +34298,12 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 7,
+                    "total": 21,
                     "stage": "RC1",
-                    "quality": "landing",
+                    "quality": "ballistic",
                     "key": "jump_contacts",
-                    "response": "landing"
+                    "response": "single"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -34335,44 +34312,40 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.rc1"
+                      "key": "note.ballistic_stick"
                     }
                   ],
                   "swaps": [
-                    "mid-box-jump-knee-height",
+                    "two-foot-lateral-box-jump",
                     "low-box-jump-half-shin-height",
                     "low-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
                     {
-                      "id": "mid-box-jump-knee-height",
+                      "id": "two-foot-lateral-box-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "low-box-jump-half-shin-height",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     },
                     {
                       "id": "low-depth-drop",
-                      "keeps": "swap.keeps.landing",
+                      "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
                     },
                     {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.simplicity"
+                      "id": "mid-box-jump-knee-height",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.second_exposure",
                       "ref": "PER-04"
@@ -36161,7 +36134,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 7
                   },
                   "set_reps": null,
                   "effort": {
@@ -36184,8 +36157,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 7,
+                    "total": 21,
                     "stage": "RC1",
                     "quality": "landing",
                     "key": "jump_contacts",
@@ -36202,12 +36175,22 @@
                     }
                   ],
                   "swaps": [
+                    "two-foot-lateral-box-jump",
+                    "two-foot-lateral-jump",
                     "low-box-jump-half-shin-height",
-                    "mid-box-jump-knee-height",
-                    "medium-depth-drop",
-                    "high-depth-drop-above-hip-height"
+                    "mid-box-jump-knee-height"
                   ],
                   "swap_notes": [
+                    {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
+                      "id": "two-foot-lateral-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
                     {
                       "id": "low-box-jump-half-shin-height",
                       "keeps": "swap.keeps.jump",
@@ -36217,16 +36200,6 @@
                       "id": "mid-box-jump-knee-height",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "medium-depth-drop",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "high-depth-drop-above-hip-height",
-                      "keeps": "swap.keeps.landing",
-                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
@@ -36274,7 +36247,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 18
+                    "value": 15
                   },
                   "set_reps": null,
                   "effort": {
@@ -36294,8 +36267,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 18,
-                    "total": 36,
+                    "per_set": 15,
+                    "total": 30,
                     "stage": "RC1",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -38309,27 +38282,27 @@
           "olympic_sets": 10
         },
         "planned": {
-          "plyo_contacts": 45,
-          "jump_contacts": 54,
-          "low_contacts": 70,
+          "plyo_contacts": 51,
+          "jump_contacts": 48,
+          "low_contacts": 58,
           "throws": 81,
           "cod_cuts": 87,
           "sprint_m": 360,
           "olympic_sets": 10,
           "upper_contacts": 0
         },
-        "planned_share": 0.46,
+        "planned_share": 0.458,
         "goals": {
-          "plyo_contacts": 44,
-          "jump_contacts": 58,
+          "plyo_contacts": 52,
+          "jump_contacts": 48,
           "low_contacts": 55,
           "throws": 81,
           "cod_cuts": 88,
           "sprint_m": 340
         },
         "scale": {
-          "plyo_contacts": 0.869,
-          "jump_contacts": 0.869,
+          "plyo_contacts": 0.812,
+          "jump_contacts": 0.812,
           "low_contacts": 1,
           "throws": 0.9184,
           "cod_cuts": 1,
@@ -38968,7 +38941,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 9
                   },
                   "set_reps": null,
                   "effort": {
@@ -38988,8 +38961,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 9,
+                    "total": 27,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -40958,7 +40931,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 7
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -40978,8 +40951,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 7,
-                    "total": 21,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -41075,7 +41048,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 20
+                    "value": 14
                   },
                   "set_reps": null,
                   "effort": {
@@ -41095,8 +41068,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 20,
-                    "total": 40,
+                    "per_set": 14,
+                    "total": 28,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -43496,20 +43469,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-broad-jump",
-                  "name_key": "exercise.single-leg-broad-jump.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
-                    "copy_name": "Single-Leg Broad Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -43524,13 +43497,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC2",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -43544,42 +43517,43 @@
                   "notes": [
                     {
                       "key": "note.ballistic_land_go"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "two-foot-lateral-box-jump",
                     "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                    "lateral-box-step-up-jump",
-                    "db-staggered-stance-switch-jump"
+                    "broad-jump",
+                    "squat-jump-high-bodyweight-or-lightly-loaded"
                   ],
                   "swap_notes": [
                     {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "lateral-box-step-up-jump",
+                      "id": "broad-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "db-staggered-stance-switch-jump",
+                      "id": "squat-jump-high-bodyweight-or-lightly-loaded",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -45410,20 +45384,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "lateral-box-step-up-jump",
-                  "name_key": "exercise.lateral-box-step-up-jump.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump",
-                    "copy_name": "Lateral Box Step-up Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 4
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -45441,7 +45415,7 @@
                   },
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
@@ -45461,35 +45435,32 @@
                   "notes": [
                     {
                       "key": "note.ballistic_single"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "single-leg-broad-jump",
+                    "two-foot-lateral-jump",
                     "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                    "db-staggered-stance-switch-jump"
+                    "squat-jump-high-bodyweight-or-lightly-loaded",
+                    "broad-jump"
                   ],
                   "swap_notes": [
                     {
-                      "id": "single-leg-broad-jump",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
+                      "id": "squat-jump-high-bodyweight-or-lightly-loaded",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "db-staggered-stance-switch-jump",
+                      "id": "broad-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     }
@@ -47588,27 +47559,27 @@
           "olympic_sets": 10
         },
         "planned": {
-          "plyo_contacts": 48,
-          "jump_contacts": 60,
-          "low_contacts": 72,
+          "plyo_contacts": 54,
+          "jump_contacts": 48,
+          "low_contacts": 60,
           "throws": 87,
           "cod_cuts": 90,
           "sprint_m": 360,
           "olympic_sets": 10,
           "upper_contacts": 0
         },
-        "planned_share": 0.4494,
+        "planned_share": 0.4578,
         "goals": {
-          "plyo_contacts": 49,
-          "jump_contacts": 59,
+          "plyo_contacts": 55,
+          "jump_contacts": 48,
           "low_contacts": 60,
           "throws": 87,
           "cod_cuts": 90,
           "sprint_m": 350
         },
         "scale": {
-          "plyo_contacts": 0.869,
-          "jump_contacts": 0.869,
+          "plyo_contacts": 0.812,
+          "jump_contacts": 0.812,
           "low_contacts": 1,
           "throws": 0.9184,
           "cod_cuts": 1,
@@ -48230,7 +48201,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 9
                   },
                   "set_reps": null,
                   "effort": {
@@ -48250,8 +48221,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 9,
+                    "total": 27,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -50220,7 +50191,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 9
                   },
                   "set_reps": null,
                   "effort": {
@@ -50240,8 +50211,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 9,
+                    "total": 27,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -50337,7 +50308,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 16
+                    "value": 15
                   },
                   "set_reps": null,
                   "effort": {
@@ -50357,8 +50328,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 16,
-                    "total": 32,
+                    "per_set": 15,
+                    "total": 30,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -52758,20 +52729,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-broad-jump",
-                  "name_key": "exercise.single-leg-broad-jump.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
-                    "copy_name": "Single-Leg Broad Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -52786,13 +52757,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC2",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -52806,42 +52777,43 @@
                   "notes": [
                     {
                       "key": "note.ballistic_land_go"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "two-foot-lateral-box-jump",
                     "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                    "lateral-box-step-up-jump",
-                    "db-staggered-stance-switch-jump"
+                    "broad-jump",
+                    "squat-jump-high-bodyweight-or-lightly-loaded"
                   ],
                   "swap_notes": [
                     {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "lateral-box-step-up-jump",
+                      "id": "broad-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "db-staggered-stance-switch-jump",
+                      "id": "squat-jump-high-bodyweight-or-lightly-loaded",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -54672,20 +54644,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "lateral-box-step-up-jump",
-                  "name_key": "exercise.lateral-box-step-up-jump.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump",
-                    "copy_name": "Lateral Box Step-up Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -54703,13 +54675,13 @@
                   },
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC2",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -54723,35 +54695,32 @@
                   "notes": [
                     {
                       "key": "note.ballistic_single"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "single-leg-broad-jump",
+                    "two-foot-lateral-jump",
                     "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                    "db-staggered-stance-switch-jump"
+                    "squat-jump-high-bodyweight-or-lightly-loaded",
+                    "broad-jump"
                   ],
                   "swap_notes": [
                     {
-                      "id": "single-leg-broad-jump",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
+                      "id": "squat-jump-high-bodyweight-or-lightly-loaded",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "db-staggered-stance-switch-jump",
+                      "id": "broad-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     }
@@ -54804,7 +54773,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 20
+                    "value": 15
                   },
                   "set_reps": null,
                   "effort": {
@@ -54824,8 +54793,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 20,
-                    "total": 40,
+                    "per_set": 15,
+                    "total": 30,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -56850,27 +56819,27 @@
           "olympic_sets": 10
         },
         "planned": {
-          "plyo_contacts": 51,
-          "jump_contacts": 60,
-          "low_contacts": 76,
+          "plyo_contacts": 57,
+          "jump_contacts": 48,
+          "low_contacts": 66,
           "throws": 90,
           "cod_cuts": 90,
           "sprint_m": 360,
           "olympic_sets": 10,
           "upper_contacts": 0
         },
-        "planned_share": 0.4585,
+        "planned_share": 0.4713,
         "goals": {
-          "plyo_contacts": 52,
-          "jump_contacts": 58,
+          "plyo_contacts": 58,
+          "jump_contacts": 48,
           "low_contacts": 66,
           "throws": 93,
           "cod_cuts": 91,
           "sprint_m": 350
         },
         "scale": {
-          "plyo_contacts": 0.869,
-          "jump_contacts": 0.869,
+          "plyo_contacts": 0.812,
+          "jump_contacts": 0.812,
           "low_contacts": 1,
           "throws": 0.9184,
           "cod_cuts": 1,
@@ -57492,7 +57461,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 9
+                    "value": 10
                   },
                   "set_reps": null,
                   "effort": {
@@ -57512,8 +57481,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 9,
-                    "total": 27,
+                    "per_set": 10,
+                    "total": 30,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -59483,7 +59452,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 9
                   },
                   "set_reps": null,
                   "effort": {
@@ -59503,8 +59472,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 9,
+                    "total": 27,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -62022,20 +61991,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-broad-jump",
-                  "name_key": "exercise.single-leg-broad-jump.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
-                    "copy_name": "Single-Leg Broad Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -62050,13 +62019,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC2",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -62070,42 +62039,43 @@
                   "notes": [
                     {
                       "key": "note.ballistic_land_go"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "two-foot-lateral-box-jump",
                     "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                    "lateral-box-step-up-jump",
-                    "db-staggered-stance-switch-jump"
+                    "broad-jump",
+                    "squat-jump-high-bodyweight-or-lightly-loaded"
                   ],
                   "swap_notes": [
                     {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "lateral-box-step-up-jump",
+                      "id": "broad-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "db-staggered-stance-switch-jump",
+                      "id": "squat-jump-high-bodyweight-or-lightly-loaded",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -63936,20 +63906,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "lateral-box-step-up-jump",
-                  "name_key": "exercise.lateral-box-step-up-jump.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump",
-                    "copy_name": "Lateral Box Step-up Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -63967,13 +63937,13 @@
                   },
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC2",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -63987,35 +63957,32 @@
                   "notes": [
                     {
                       "key": "note.ballistic_single"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "single-leg-broad-jump",
+                    "two-foot-lateral-jump",
                     "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                    "db-staggered-stance-switch-jump"
+                    "squat-jump-high-bodyweight-or-lightly-loaded",
+                    "broad-jump"
                   ],
                   "swap_notes": [
                     {
-                      "id": "single-leg-broad-jump",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
+                      "id": "squat-jump-high-bodyweight-or-lightly-loaded",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "db-staggered-stance-switch-jump",
+                      "id": "broad-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     }
@@ -64068,7 +64035,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 20
+                    "value": 15
                   },
                   "set_reps": null,
                   "effort": {
@@ -64088,8 +64055,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 20,
-                    "total": 40,
+                    "per_set": 15,
+                    "total": 30,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -66114,27 +66081,27 @@
           "olympic_sets": 11
         },
         "planned": {
-          "plyo_contacts": 57,
-          "jump_contacts": 54,
-          "low_contacts": 76,
+          "plyo_contacts": 60,
+          "jump_contacts": 48,
+          "low_contacts": 72,
           "throws": 90,
           "cod_cuts": 93,
-          "sprint_m": 360,
+          "sprint_m": 405,
           "olympic_sets": 11,
           "upper_contacts": 0
         },
-        "planned_share": 0.4801,
+        "planned_share": 0.4889,
         "goals": {
-          "plyo_contacts": 56,
-          "jump_contacts": 57,
+          "plyo_contacts": 60,
+          "jump_contacts": 48,
           "low_contacts": 72,
           "throws": 98,
           "cod_cuts": 94,
           "sprint_m": 370
         },
         "scale": {
-          "plyo_contacts": 0.869,
-          "jump_contacts": 0.869,
+          "plyo_contacts": 0.812,
+          "jump_contacts": 0.812,
           "low_contacts": 1,
           "throws": 0.9184,
           "cod_cuts": 1,
@@ -66647,7 +66614,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "sprint_reps",
-                    "reps": 4,
+                    "reps": 5,
                     "metres": 15
                   },
                   "set_reps": null,
@@ -66666,8 +66633,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "metres",
-                    "per_set": 60,
-                    "total": 180,
+                    "per_set": 75,
+                    "total": 225,
                     "stage": null,
                     "quality": "sprint",
                     "key": "sprint_m",
@@ -68747,7 +68714,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 9
+                    "value": 10
                   },
                   "set_reps": null,
                   "effort": {
@@ -68767,8 +68734,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 9,
-                    "total": 27,
+                    "per_set": 10,
+                    "total": 30,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -68864,7 +68831,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 18
+                    "value": 16
                   },
                   "set_reps": null,
                   "effort": {
@@ -68884,8 +68851,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 18,
-                    "total": 36,
+                    "per_set": 16,
+                    "total": 32,
                     "stage": "RC2",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -71286,20 +71253,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-broad-jump",
-                  "name_key": "exercise.single-leg-broad-jump.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
-                    "copy_name": "Single-Leg Broad Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -71314,13 +71281,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC2",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -71334,42 +71301,43 @@
                   "notes": [
                     {
                       "key": "note.ballistic_land_go"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "two-foot-lateral-box-jump",
                     "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                    "lateral-box-step-up-jump",
-                    "db-staggered-stance-switch-jump"
+                    "broad-jump",
+                    "squat-jump-high-bodyweight-or-lightly-loaded"
                   ],
                   "swap_notes": [
                     {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "lateral-box-step-up-jump",
+                      "id": "broad-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "db-staggered-stance-switch-jump",
+                      "id": "squat-jump-high-bodyweight-or-lightly-loaded",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
+                    {
+                      "key": "why.continuity",
+                      "ref": "PER-02"
+                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -73200,20 +73168,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "lateral-box-step-up-jump",
-                  "name_key": "exercise.lateral-box-step-up-jump.name",
+                  "exercise_id": "two-foot-lateral-box-jump",
+                  "name_key": "exercise.two-foot-lateral-box-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump",
-                    "copy_name": "Lateral Box Step-up Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)",
+                    "copy_name": "Two-Foot Lateral Box Jump (sideways onto a low box)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 4
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -73231,7 +73199,7 @@
                   },
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
@@ -73251,35 +73219,32 @@
                   "notes": [
                     {
                       "key": "note.ballistic_single"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "single-leg-broad-jump",
+                    "two-foot-lateral-jump",
                     "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                    "db-staggered-stance-switch-jump"
+                    "squat-jump-high-bodyweight-or-lightly-loaded",
+                    "broad-jump"
                   ],
                   "swap_notes": [
                     {
-                      "id": "single-leg-broad-jump",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
+                      "id": "squat-jump-high-bodyweight-or-lightly-loaded",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     },
                     {
-                      "id": "db-staggered-stance-switch-jump",
+                      "id": "broad-jump",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.plane"
                     }
@@ -75378,18 +75343,18 @@
           "olympic_sets": 11
         },
         "planned": {
-          "plyo_contacts": 66,
+          "plyo_contacts": 60,
           "jump_contacts": 54,
           "low_contacts": 78,
           "throws": 102,
           "cod_cuts": 96,
-          "sprint_m": 360,
+          "sprint_m": 420,
           "olympic_sets": 11,
           "upper_contacts": 0
         },
-        "planned_share": 0.48,
+        "planned_share": 0.4694,
         "goals": {
-          "plyo_contacts": 66,
+          "plyo_contacts": 60,
           "jump_contacts": 54,
           "low_contacts": 78,
           "throws": 102,
@@ -75397,8 +75362,8 @@
           "sprint_m": 380
         },
         "scale": {
-          "plyo_contacts": 0.869,
-          "jump_contacts": 0.869,
+          "plyo_contacts": 0.8276,
+          "jump_contacts": 0.8276,
           "low_contacts": 1,
           "throws": 1,
           "cod_cuts": 1,
@@ -75928,7 +75893,7 @@
                   "sets": 3,
                   "reps": {
                     "type": "sprint_reps",
-                    "reps": 3,
+                    "reps": 4,
                     "metres": 20
                   },
                   "set_reps": null,
@@ -75947,8 +75912,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "metres",
-                    "per_set": 60,
-                    "total": 180,
+                    "per_set": 80,
+                    "total": 240,
                     "stage": null,
                     "quality": "sprint",
                     "key": "sprint_m",
@@ -76024,20 +75989,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-forward-hurdle-hops",
-                  "name_key": "exercise.single-leg-forward-hurdle-hops.name",
+                  "exercise_id": "bulgarian-rear-foot-elevated-split-jumps",
+                  "name_key": "exercise.bulgarian-rear-foot-elevated-split-jumps.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops",
-                    "copy_name": "Single-Leg Forward Hurdle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bulgarian%20(Rear-Foot-Elevated)%20Split%20Jumps",
+                    "copy_name": "Bulgarian (Rear-Foot-Elevated) Split Jumps"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 6
+                    "value": 5
                   },
                   "set_reps": null,
                   "effort": {
@@ -76049,7 +76014,10 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": null,
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "unilateral",
@@ -76057,8 +76025,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 12,
-                    "total": 36,
+                    "per_set": 10,
+                    "total": 30,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -76078,31 +76046,31 @@
                     }
                   ],
                   "swaps": [
-                    "bulgarian-rear-foot-elevated-split-jumps",
-                    "single-leg-squirrel-jumps",
-                    "bounding",
-                    "single-leg-plate-hops"
+                    "single-leg-plate-hops",
+                    "single-leg-lateral-plate-hops-inner-outer-leg",
+                    "single-leg-backward-zig-zag-jumps",
+                    "single-leg-forward-zig-zag-jumps"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bulgarian-rear-foot-elevated-split-jumps",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "single-leg-squirrel-jumps",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "bounding",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
                       "id": "single-leg-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "single-leg-lateral-plate-hops-inner-outer-leg",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "single-leg-backward-zig-zag-jumps",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "single-leg-forward-zig-zag-jumps",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
@@ -78019,20 +77987,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-plate-hops",
-                  "name_key": "exercise.single-leg-plate-hops.name",
+                  "exercise_id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                  "name_key": "exercise.bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Plate%20Hops",
-                    "copy_name": "Single-Leg Plate Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)",
+                    "copy_name": "Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 10
                   },
                   "set_reps": null,
                   "effort": {
@@ -78047,7 +78015,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
@@ -78067,37 +78035,34 @@
                   "notes": [
                     {
                       "key": "note.rc3"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "single-leg-plate-hops",
                     "bulgarian-rear-foot-elevated-split-jumps",
-                    "single-leg-squirrel-jumps",
-                    "single-leg-forward-hurdle-hops",
-                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral"
+                    "single-leg-lateral-plate-hops-inner-leg-alternating",
+                    "single-leg-lateral-plate-hops-outer-leg-alternating"
                   ],
                   "swap_notes": [
                     {
+                      "id": "single-leg-plate-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
                       "id": "bulgarian-rear-foot-elevated-split-jumps",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "single-leg-squirrel-jumps",
+                      "id": "single-leg-lateral-plate-hops-inner-leg-alternating",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "single-leg-forward-hurdle-hops",
+                      "id": "single-leg-lateral-plate-hops-outer-leg-alternating",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.one_side_work"
+                      "loses": "swap.loses.two_side_load"
                     }
                   ],
                   "instead_of": null,
@@ -78139,20 +78104,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "single-leg-forward-backward-ankle-hops",
+                  "name_key": "exercise.single-leg-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Single-Leg Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 20
+                    "value": 10
                   },
                   "set_reps": null,
                   "effort": {
@@ -78167,7 +78132,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
@@ -78187,34 +78152,37 @@
                   "notes": [
                     {
                       "key": "note.repeat_low"
+                    },
+                    {
+                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
+                    "single-leg-right-angle-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-zig-zag-ankle-hops",
-                    "bilateral-forward-backward-ankle-hops",
-                    "bilateral-backward-ankle-hops"
+                    "single-leg-ankle-hops"
                   ],
                   "swap_notes": [
                     {
+                      "id": "bilateral-lateral-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.one_side_work"
+                    },
+                    {
+                      "id": "single-leg-right-angle-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
-                      "id": "bilateral-zig-zag-ankle-hops",
+                      "id": "single-leg-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-forward-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -78229,10 +78197,6 @@
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     },
                     {
                       "key": "why.plyo_stage",
@@ -80611,20 +80575,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-broad-jump",
-                  "name_key": "exercise.single-leg-broad-jump.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
-                    "copy_name": "Single-Leg Broad Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -80639,13 +80603,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC3",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -80659,37 +80623,34 @@
                   "notes": [
                     {
                       "key": "note.ballistic_repeat"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "single-leg-broad-jump",
                     "db-staggered-stance-switch-jump",
                     "rfe-lunge-jumps-suitcase-db",
-                    "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box"
+                    "two-foot-lateral-box-jump"
                   ],
                   "swap_notes": [
                     {
+                      "id": "single-leg-broad-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
                       "id": "db-staggered-stance-switch-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
                       "id": "rfe-lunge-jumps-suitcase-db",
                       "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "single-leg-box-jump",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
@@ -82566,20 +82527,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "db-repeated-squat-jumps",
-                  "name_key": "exercise.db-repeated-squat-jumps.name",
+                  "exercise_id": "single-leg-broad-jump",
+                  "name_key": "exercise.single-leg-broad-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=DB%20Repeated%20Squat%20Jumps",
-                    "copy_name": "DB Repeated Squat Jumps"
+                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
+                    "copy_name": "Single-Leg Broad Jump"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 5
                   },
                   "set_reps": null,
                   "effort": {
@@ -82591,24 +82552,20 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": {
-                    "type": "bw_pct",
-                    "min": 10,
-                    "max": 20
-                  },
+                  "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 10,
+                    "total": 30,
                     "stage": "RC3",
                     "quality": "ballistic",
                     "key": "jump_contacts",
-                    "response": "repeat"
+                    "response": "single"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -82617,44 +82574,43 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.rc3"
+                      "key": "note.ballistic_repeat"
+                    },
+                    {
+                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "single-leg-broad-jump",
+                    "two-foot-lateral-jump",
                     "db-staggered-stance-switch-jump",
                     "rfe-lunge-jumps-suitcase-db",
                     "single-leg-box-jump"
                   ],
                   "swap_notes": [
                     {
-                      "id": "single-leg-broad-jump",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-staggered-stance-switch-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "rfe-lunge-jumps-suitcase-db",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -82676,10 +82632,6 @@
                     {
                       "key": "why.athletic_reconcile",
                       "ref": "D-63"
-                    },
-                    {
-                      "key": "why.loaded_jump",
-                      "ref": "EQ-15"
                     }
                   ],
                   "superset_suggested": null
@@ -84759,7 +84711,7 @@
           "olympic_sets": 12
         },
         "planned": {
-          "plyo_contacts": 66,
+          "plyo_contacts": 63,
           "jump_contacts": 54,
           "low_contacts": 84,
           "throws": 108,
@@ -84768,9 +84720,9 @@
           "olympic_sets": 12,
           "upper_contacts": 0
         },
-        "planned_share": 0.4808,
+        "planned_share": 0.4757,
         "goals": {
-          "plyo_contacts": 69,
+          "plyo_contacts": 63,
           "jump_contacts": 54,
           "low_contacts": 84,
           "throws": 106,
@@ -84778,8 +84730,8 @@
           "sprint_m": 390
         },
         "scale": {
-          "plyo_contacts": 0.869,
-          "jump_contacts": 0.869,
+          "plyo_contacts": 0.8276,
+          "jump_contacts": 0.8276,
           "low_contacts": 1,
           "throws": 1,
           "cod_cuts": 1,
@@ -85396,15 +85348,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-forward-hurdle-hops",
-                  "name_key": "exercise.single-leg-forward-hurdle-hops.name",
+                  "exercise_id": "bulgarian-rear-foot-elevated-split-jumps",
+                  "name_key": "exercise.bulgarian-rear-foot-elevated-split-jumps.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops",
-                    "copy_name": "Single-Leg Forward Hurdle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bulgarian%20(Rear-Foot-Elevated)%20Split%20Jumps",
+                    "copy_name": "Bulgarian (Rear-Foot-Elevated) Split Jumps"
                   },
                   "sets": 3,
                   "reps": {
@@ -85421,7 +85373,10 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": null,
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "unilateral",
@@ -85450,31 +85405,31 @@
                     }
                   ],
                   "swaps": [
-                    "bulgarian-rear-foot-elevated-split-jumps",
-                    "single-leg-squirrel-jumps",
-                    "bounding",
-                    "single-leg-plate-hops"
+                    "single-leg-plate-hops",
+                    "single-leg-lateral-plate-hops-inner-outer-leg",
+                    "single-leg-backward-zig-zag-jumps",
+                    "single-leg-forward-zig-zag-jumps"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bulgarian-rear-foot-elevated-split-jumps",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "single-leg-squirrel-jumps",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "bounding",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
                       "id": "single-leg-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "single-leg-lateral-plate-hops-inner-outer-leg",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "single-leg-backward-zig-zag-jumps",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "single-leg-forward-zig-zag-jumps",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
@@ -87391,20 +87346,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-plate-hops",
-                  "name_key": "exercise.single-leg-plate-hops.name",
+                  "exercise_id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                  "name_key": "exercise.bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Plate%20Hops",
-                    "copy_name": "Single-Leg Plate Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)",
+                    "copy_name": "Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 9
                   },
                   "set_reps": null,
                   "effort": {
@@ -87419,13 +87374,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 9,
+                    "total": 27,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -87439,37 +87394,34 @@
                   "notes": [
                     {
                       "key": "note.rc3"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "single-leg-plate-hops",
                     "bulgarian-rear-foot-elevated-split-jumps",
-                    "single-leg-squirrel-jumps",
-                    "single-leg-forward-hurdle-hops",
-                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral"
+                    "single-leg-lateral-plate-hops-inner-leg-alternating",
+                    "single-leg-lateral-plate-hops-outer-leg-alternating"
                   ],
                   "swap_notes": [
                     {
+                      "id": "single-leg-plate-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
                       "id": "bulgarian-rear-foot-elevated-split-jumps",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "single-leg-squirrel-jumps",
+                      "id": "single-leg-lateral-plate-hops-inner-leg-alternating",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "single-leg-forward-hurdle-hops",
+                      "id": "single-leg-lateral-plate-hops-outer-leg-alternating",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.one_side_work"
+                      "loses": "swap.loses.two_side_load"
                     }
                   ],
                   "instead_of": null,
@@ -87511,20 +87463,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "single-leg-forward-backward-ankle-hops",
+                  "name_key": "exercise.single-leg-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Single-Leg Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 21
+                    "value": 11
                   },
                   "set_reps": null,
                   "effort": {
@@ -87539,13 +87491,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 21,
-                    "total": 42,
+                    "per_set": 22,
+                    "total": 44,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -87559,34 +87511,37 @@
                   "notes": [
                     {
                       "key": "note.repeat_low"
+                    },
+                    {
+                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
+                    "single-leg-right-angle-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-zig-zag-ankle-hops",
-                    "bilateral-forward-backward-ankle-hops",
-                    "bilateral-backward-ankle-hops"
+                    "single-leg-ankle-hops"
                   ],
                   "swap_notes": [
                     {
+                      "id": "bilateral-lateral-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.one_side_work"
+                    },
+                    {
+                      "id": "single-leg-right-angle-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
-                      "id": "bilateral-zig-zag-ankle-hops",
+                      "id": "single-leg-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-forward-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -87601,10 +87556,6 @@
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     },
                     {
                       "key": "why.plyo_stage",
@@ -89983,20 +89934,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-broad-jump",
-                  "name_key": "exercise.single-leg-broad-jump.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
-                    "copy_name": "Single-Leg Broad Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -90011,13 +89962,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC3",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -90031,37 +89982,34 @@
                   "notes": [
                     {
                       "key": "note.ballistic_repeat"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "single-leg-broad-jump",
                     "db-staggered-stance-switch-jump",
                     "rfe-lunge-jumps-suitcase-db",
-                    "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box"
+                    "two-foot-lateral-box-jump"
                   ],
                   "swap_notes": [
                     {
+                      "id": "single-leg-broad-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
                       "id": "db-staggered-stance-switch-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
                       "id": "rfe-lunge-jumps-suitcase-db",
                       "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "single-leg-box-jump",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
@@ -91938,20 +91886,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "db-repeated-squat-jumps",
-                  "name_key": "exercise.db-repeated-squat-jumps.name",
+                  "exercise_id": "single-leg-broad-jump",
+                  "name_key": "exercise.single-leg-broad-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=DB%20Repeated%20Squat%20Jumps",
-                    "copy_name": "DB Repeated Squat Jumps"
+                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
+                    "copy_name": "Single-Leg Broad Jump"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 5
                   },
                   "set_reps": null,
                   "effort": {
@@ -91963,24 +91911,20 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": {
-                    "type": "bw_pct",
-                    "min": 10,
-                    "max": 20
-                  },
+                  "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 10,
+                    "total": 30,
                     "stage": "RC3",
                     "quality": "ballistic",
                     "key": "jump_contacts",
-                    "response": "repeat"
+                    "response": "single"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -91989,44 +91933,43 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.rc3"
+                      "key": "note.ballistic_repeat"
+                    },
+                    {
+                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "single-leg-broad-jump",
+                    "two-foot-lateral-jump",
                     "db-staggered-stance-switch-jump",
                     "rfe-lunge-jumps-suitcase-db",
                     "single-leg-box-jump"
                   ],
                   "swap_notes": [
                     {
-                      "id": "single-leg-broad-jump",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-staggered-stance-switch-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "rfe-lunge-jumps-suitcase-db",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -92048,10 +91991,6 @@
                     {
                       "key": "why.athletic_reconcile",
                       "ref": "D-63"
-                    },
-                    {
-                      "key": "why.loaded_jump",
-                      "ref": "EQ-15"
                     }
                   ],
                   "superset_suggested": null
@@ -92076,7 +92015,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 21
+                    "value": 20
                   },
                   "set_reps": null,
                   "effort": {
@@ -92096,8 +92035,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 21,
-                    "total": 42,
+                    "per_set": 20,
+                    "total": 40,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -94131,37 +94070,34 @@
           "olympic_sets": 12
         },
         "planned": {
-          "plyo_contacts": 72,
+          "plyo_contacts": 66,
           "jump_contacts": 54,
-          "low_contacts": 90,
+          "low_contacts": 92,
           "throws": 108,
           "cod_cuts": 99,
           "sprint_m": 420,
           "olympic_sets": 12,
           "upper_contacts": 0
         },
-        "planned_share": 0.5,
+        "planned_share": 0.4938,
         "goals": {
-          "plyo_contacts": 72,
+          "plyo_contacts": 66,
           "jump_contacts": 54,
-          "low_contacts": 90,
+          "low_contacts": 91,
           "throws": 110,
           "cod_cuts": 100,
           "sprint_m": 400
         },
         "scale": {
-          "plyo_contacts": 0.869,
-          "jump_contacts": 0.869,
+          "plyo_contacts": 0.8276,
+          "jump_contacts": 0.8276,
           "low_contacts": 1,
           "throws": 1,
           "cod_cuts": 1,
           "sprint_m": 1
         },
         "hold": false,
-        "contacts_session_max": 120,
-        "share_moved": [
-          "low_contacts"
-        ]
+        "contacts_session_max": 120
       },
       "aerobic_sessions": 3,
       "changes": [
@@ -94795,15 +94731,15 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-forward-hurdle-hops",
-                  "name_key": "exercise.single-leg-forward-hurdle-hops.name",
+                  "exercise_id": "bulgarian-rear-foot-elevated-split-jumps",
+                  "name_key": "exercise.bulgarian-rear-foot-elevated-split-jumps.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops",
-                    "copy_name": "Single-Leg Forward Hurdle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bulgarian%20(Rear-Foot-Elevated)%20Split%20Jumps",
+                    "copy_name": "Bulgarian (Rear-Foot-Elevated) Split Jumps"
                   },
                   "sets": 3,
                   "reps": {
@@ -94820,7 +94756,10 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": null,
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "unilateral",
@@ -94849,31 +94788,31 @@
                     }
                   ],
                   "swaps": [
-                    "bulgarian-rear-foot-elevated-split-jumps",
-                    "single-leg-squirrel-jumps",
-                    "bounding",
-                    "single-leg-plate-hops"
+                    "single-leg-plate-hops",
+                    "single-leg-lateral-plate-hops-inner-outer-leg",
+                    "single-leg-backward-zig-zag-jumps",
+                    "single-leg-forward-zig-zag-jumps"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bulgarian-rear-foot-elevated-split-jumps",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "single-leg-squirrel-jumps",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "bounding",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
                       "id": "single-leg-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "single-leg-lateral-plate-hops-inner-outer-leg",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "single-leg-backward-zig-zag-jumps",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "single-leg-forward-zig-zag-jumps",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
@@ -96790,20 +96729,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-plate-hops",
-                  "name_key": "exercise.single-leg-plate-hops.name",
+                  "exercise_id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                  "name_key": "exercise.bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Plate%20Hops",
-                    "copy_name": "Single-Leg Plate Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)",
+                    "copy_name": "Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 6
+                    "value": 10
                   },
                   "set_reps": null,
                   "effort": {
@@ -96818,13 +96757,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 12,
-                    "total": 36,
+                    "per_set": 10,
+                    "total": 30,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -96838,37 +96777,34 @@
                   "notes": [
                     {
                       "key": "note.rc3"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "single-leg-plate-hops",
                     "bulgarian-rear-foot-elevated-split-jumps",
-                    "single-leg-squirrel-jumps",
-                    "single-leg-forward-hurdle-hops",
-                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral"
+                    "single-leg-lateral-plate-hops-inner-leg-alternating",
+                    "single-leg-lateral-plate-hops-outer-leg-alternating"
                   ],
                   "swap_notes": [
                     {
+                      "id": "single-leg-plate-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
                       "id": "bulgarian-rear-foot-elevated-split-jumps",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "single-leg-squirrel-jumps",
+                      "id": "single-leg-lateral-plate-hops-inner-leg-alternating",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "single-leg-forward-hurdle-hops",
+                      "id": "single-leg-lateral-plate-hops-outer-leg-alternating",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.one_side_work"
+                      "loses": "swap.loses.two_side_load"
                     }
                   ],
                   "instead_of": null,
@@ -96910,20 +96846,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "single-leg-forward-backward-ankle-hops",
+                  "name_key": "exercise.single-leg-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Single-Leg Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 22
+                    "value": 11
                   },
                   "set_reps": null,
                   "effort": {
@@ -96938,7 +96874,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
@@ -96958,34 +96894,37 @@
                   "notes": [
                     {
                       "key": "note.repeat_low"
+                    },
+                    {
+                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
+                    "single-leg-right-angle-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-zig-zag-ankle-hops",
-                    "bilateral-forward-backward-ankle-hops",
-                    "bilateral-backward-ankle-hops"
+                    "single-leg-ankle-hops"
                   ],
                   "swap_notes": [
                     {
+                      "id": "bilateral-lateral-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.one_side_work"
+                    },
+                    {
+                      "id": "single-leg-right-angle-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
-                      "id": "bilateral-zig-zag-ankle-hops",
+                      "id": "single-leg-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-forward-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -97000,10 +96939,6 @@
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     },
                     {
                       "key": "why.plyo_stage",
@@ -99382,20 +99317,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-broad-jump",
-                  "name_key": "exercise.single-leg-broad-jump.name",
+                  "exercise_id": "two-foot-lateral-jump",
+                  "name_key": "exercise.two-foot-lateral-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
-                    "copy_name": "Single-Leg Broad Jump"
+                    "url": "https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Jump%20(side%20to%20side%20over%20a%20line%20or%20a%20low%20hurdle)",
+                    "copy_name": "Two-Foot Lateral Jump (side to side over a line or a low hurdle)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 5
+                    "value": 8
                   },
                   "set_reps": null,
                   "effort": {
@@ -99410,13 +99345,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 10,
-                    "total": 30,
+                    "per_set": 8,
+                    "total": 24,
                     "stage": "RC3",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -99430,37 +99365,34 @@
                   "notes": [
                     {
                       "key": "note.ballistic_repeat"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "single-leg-broad-jump",
                     "db-staggered-stance-switch-jump",
                     "rfe-lunge-jumps-suitcase-db",
-                    "single-leg-box-jump",
-                    "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box"
+                    "two-foot-lateral-box-jump"
                   ],
                   "swap_notes": [
                     {
+                      "id": "single-leg-broad-jump",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
                       "id": "db-staggered-stance-switch-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
                       "id": "rfe-lunge-jumps-suitcase-db",
                       "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
+                      "id": "two-foot-lateral-box-jump",
+                      "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "single-leg-box-jump",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "unilateral-hop-on-to-single-leg-hop-onto-a-plate-low-box",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
@@ -101337,20 +101269,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "db-repeated-squat-jumps",
-                  "name_key": "exercise.db-repeated-squat-jumps.name",
+                  "exercise_id": "single-leg-broad-jump",
+                  "name_key": "exercise.single-leg-broad-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=DB%20Repeated%20Squat%20Jumps",
-                    "copy_name": "DB Repeated Squat Jumps"
+                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
+                    "copy_name": "Single-Leg Broad Jump"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 5
                   },
                   "set_reps": null,
                   "effort": {
@@ -101362,24 +101294,20 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": {
-                    "type": "bw_pct",
-                    "min": 10,
-                    "max": 20
-                  },
+                  "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 10,
+                    "total": 30,
                     "stage": "RC3",
                     "quality": "ballistic",
                     "key": "jump_contacts",
-                    "response": "repeat"
+                    "response": "single"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -101388,44 +101316,43 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.rc3"
+                      "key": "note.ballistic_repeat"
+                    },
+                    {
+                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "single-leg-broad-jump",
+                    "two-foot-lateral-jump",
                     "db-staggered-stance-switch-jump",
                     "rfe-lunge-jumps-suitcase-db",
                     "single-leg-box-jump"
                   ],
                   "swap_notes": [
                     {
-                      "id": "single-leg-broad-jump",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-staggered-stance-switch-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "rfe-lunge-jumps-suitcase-db",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -101447,10 +101374,6 @@
                     {
                       "key": "why.athletic_reconcile",
                       "ref": "D-63"
-                    },
-                    {
-                      "key": "why.loaded_jump",
-                      "ref": "EQ-15"
                     }
                   ],
                   "superset_suggested": null
@@ -101475,7 +101398,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 23
+                    "value": 24
                   },
                   "set_reps": null,
                   "effort": {
@@ -101495,8 +101418,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 23,
-                    "total": 46,
+                    "per_set": 24,
+                    "total": 48,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -103538,27 +103461,27 @@
           "olympic_sets": 12
         },
         "planned": {
-          "plyo_contacts": 42,
-          "jump_contacts": 24,
-          "low_contacts": 80,
+          "plyo_contacts": 30,
+          "jump_contacts": 30,
+          "low_contacts": 76,
           "throws": 56,
           "cod_cuts": 78,
           "sprint_m": 120,
           "olympic_sets": 9,
           "upper_contacts": 0
         },
-        "planned_share": 0.604,
+        "planned_share": 0.5521,
         "goals": {
-          "plyo_contacts": 42,
-          "jump_contacts": 24,
-          "low_contacts": 80,
+          "plyo_contacts": 30,
+          "jump_contacts": 30,
+          "low_contacts": 76,
           "throws": 56,
           "cod_cuts": 78,
           "sprint_m": 120
         },
         "scale": {
-          "plyo_contacts": 0.869,
-          "jump_contacts": 0.869,
+          "plyo_contacts": 0.8276,
+          "jump_contacts": 0.8276,
           "low_contacts": 1,
           "throws": 1,
           "cod_cuts": 1,
@@ -103568,12 +103491,9 @@
         "contacts_session_max": 120,
         "test_replaced": {
           "sprint_m": 180,
-          "jump_contacts": 30
+          "jump_contacts": 24
         },
-        "test_dose": "baseline",
-        "share_moved": [
-          "low_contacts"
-        ]
+        "test_dose": "baseline"
       },
       "aerobic_sessions": 3,
       "changes": [
@@ -104170,20 +104090,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-forward-hurdle-hops",
-                  "name_key": "exercise.single-leg-forward-hurdle-hops.name",
+                  "exercise_id": "bulgarian-rear-foot-elevated-split-jumps",
+                  "name_key": "exercise.bulgarian-rear-foot-elevated-split-jumps.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Forward%20Hurdle%20Hops",
-                    "copy_name": "Single-Leg Forward Hurdle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bulgarian%20(Rear-Foot-Elevated)%20Split%20Jumps",
+                    "copy_name": "Bulgarian (Rear-Foot-Elevated) Split Jumps"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 4
+                    "value": 2
                   },
                   "set_reps": null,
                   "effort": {
@@ -104195,7 +104115,10 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": null,
+                  "load": {
+                    "type": "height",
+                    "value": "low"
+                  },
                   "tempo_key": null,
                   "superset": null,
                   "laterality": "unilateral",
@@ -104203,8 +104126,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 4,
+                    "total": 12,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "plyo_contacts",
@@ -104224,31 +104147,31 @@
                     }
                   ],
                   "swaps": [
-                    "bulgarian-rear-foot-elevated-split-jumps",
-                    "single-leg-squirrel-jumps",
-                    "bounding",
-                    "single-leg-plate-hops"
+                    "single-leg-plate-hops",
+                    "single-leg-lateral-plate-hops-inner-outer-leg",
+                    "single-leg-backward-zig-zag-jumps",
+                    "single-leg-forward-zig-zag-jumps"
                   ],
                   "swap_notes": [
                     {
-                      "id": "bulgarian-rear-foot-elevated-split-jumps",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "single-leg-squirrel-jumps",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
-                      "id": "bounding",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
-                    },
-                    {
                       "id": "single-leg-plate-hops",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "single-leg-lateral-plate-hops-inner-outer-leg",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.plane"
+                    },
+                    {
+                      "id": "single-leg-backward-zig-zag-jumps",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
+                    },
+                    {
+                      "id": "single-leg-forward-zig-zag-jumps",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.difficulty"
                     }
                   ],
                   "instead_of": null,
@@ -106305,20 +106228,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "single-leg-plate-hops",
-                  "name_key": "exercise.single-leg-plate-hops.name",
+                  "exercise_id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
+                  "name_key": "exercise.bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Plate%20Hops",
-                    "copy_name": "Single-Leg Plate Hops"
+                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Right-Angle%20Hurdle%20Hops%20(Forward-Lateral-Forward-Lateral)",
+                    "copy_name": "Bilateral Right-Angle Hurdle Hops (Forward-Lateral-Forward-Lateral)"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 3
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -106333,7 +106256,7 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "unilateral",
+                  "laterality": "bilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
@@ -106353,37 +106276,34 @@
                   "notes": [
                     {
                       "key": "note.rc3"
-                    },
-                    {
-                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "single-leg-plate-hops",
                     "bulgarian-rear-foot-elevated-split-jumps",
-                    "single-leg-squirrel-jumps",
-                    "single-leg-forward-hurdle-hops",
-                    "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral"
+                    "single-leg-lateral-plate-hops-inner-leg-alternating",
+                    "single-leg-lateral-plate-hops-outer-leg-alternating"
                   ],
                   "swap_notes": [
                     {
+                      "id": "single-leg-plate-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.two_side_load"
+                    },
+                    {
                       "id": "bulgarian-rear-foot-elevated-split-jumps",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "single-leg-squirrel-jumps",
+                      "id": "single-leg-lateral-plate-hops-inner-leg-alternating",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.simplicity"
+                      "loses": "swap.loses.two_side_load"
                     },
                     {
-                      "id": "single-leg-forward-hurdle-hops",
+                      "id": "single-leg-lateral-plate-hops-outer-leg-alternating",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-right-angle-hurdle-hops-forward-lateral-forward-lateral",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.one_side_work"
+                      "loses": "swap.loses.two_side_load"
                     }
                   ],
                   "instead_of": null,
@@ -106425,20 +106345,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "bilateral-lateral-ankle-hops",
-                  "name_key": "exercise.bilateral-lateral-ankle-hops.name",
+                  "exercise_id": "single-leg-forward-backward-ankle-hops",
+                  "name_key": "exercise.single-leg-forward-backward-ankle-hops.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops",
-                    "copy_name": "Bilateral Lateral Ankle Hops"
+                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Forward%2FBackward%20Ankle%20Hops",
+                    "copy_name": "Single-Leg Forward/Backward Ankle Hops"
                   },
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 17
+                    "value": 7
                   },
                   "set_reps": null,
                   "effort": {
@@ -106453,13 +106373,13 @@
                   "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 17,
-                    "total": 34,
+                    "per_set": 14,
+                    "total": 28,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "low_contacts",
@@ -106473,34 +106393,37 @@
                   "notes": [
                     {
                       "key": "note.repeat_low"
+                    },
+                    {
+                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
+                    "bilateral-lateral-ankle-hops",
+                    "single-leg-right-angle-ankle-hops",
                     "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
-                    "bilateral-zig-zag-ankle-hops",
-                    "bilateral-forward-backward-ankle-hops",
-                    "bilateral-backward-ankle-hops"
+                    "single-leg-ankle-hops"
                   ],
                   "swap_notes": [
                     {
+                      "id": "bilateral-lateral-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.one_side_work"
+                    },
+                    {
+                      "id": "single-leg-right-angle-ankle-hops",
+                      "keeps": "swap.keeps.jump",
+                      "loses": "swap.loses.same_drill"
+                    },
+                    {
                       "id": "bilateral-right-angle-ankle-hops-forward-right-forward-left-forward",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.same_drill"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
-                      "id": "bilateral-zig-zag-ankle-hops",
+                      "id": "single-leg-ankle-hops",
                       "keeps": "swap.keeps.jump",
                       "loses": "swap.loses.same_drill"
-                    },
-                    {
-                      "id": "bilateral-forward-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
-                    },
-                    {
-                      "id": "bilateral-backward-ankle-hops",
-                      "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.plane"
                     }
                   ],
                   "instead_of": null,
@@ -106515,10 +106438,6 @@
                     {
                       "key": "why.default_pick",
                       "ref": "CAT-07"
-                    },
-                    {
-                      "key": "why.second_exposure",
-                      "ref": "PER-04"
                     },
                     {
                       "key": "why.plyo_stage",
@@ -110921,20 +110840,20 @@
                   "role": "athletic",
                   "origin": "template",
                   "group": null,
-                  "exercise_id": "db-repeated-squat-jumps",
-                  "name_key": "exercise.db-repeated-squat-jumps.name",
+                  "exercise_id": "single-leg-broad-jump",
+                  "name_key": "exercise.single-leg-broad-jump.name",
                   "detail": null,
                   "text_key": null,
                   "cue_key": null,
                   "video": {
                     "kind": "search",
-                    "url": "https://www.youtube.com/results?search_query=DB%20Repeated%20Squat%20Jumps",
-                    "copy_name": "DB Repeated Squat Jumps"
+                    "url": "https://www.youtube.com/results?search_query=Single-Leg%20Broad%20Jump",
+                    "copy_name": "Single-Leg Broad Jump"
                   },
                   "sets": 3,
                   "reps": {
                     "type": "contacts",
-                    "value": 8
+                    "value": 5
                   },
                   "set_reps": null,
                   "effort": {
@@ -110946,24 +110865,20 @@
                     "min": 5,
                     "max": 10
                   },
-                  "load": {
-                    "type": "bw_pct",
-                    "min": 10,
-                    "max": 20
-                  },
+                  "load": null,
                   "tempo_key": null,
                   "superset": null,
-                  "laterality": "bilateral",
+                  "laterality": "unilateral",
                   "loading": null,
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 8,
-                    "total": 24,
+                    "per_set": 10,
+                    "total": 30,
                     "stage": "RC3",
                     "quality": "ballistic",
                     "key": "jump_contacts",
-                    "response": "repeat"
+                    "response": "single"
                   },
                   "aerobic": null,
                   "circuit": null,
@@ -110972,44 +110887,43 @@
                   "progression": null,
                   "notes": [
                     {
-                      "key": "note.rc3"
+                      "key": "note.ballistic_repeat"
+                    },
+                    {
+                      "key": "note.per_side"
                     }
                   ],
                   "swaps": [
-                    "single-leg-broad-jump",
+                    "two-foot-lateral-jump",
                     "db-staggered-stance-switch-jump",
                     "rfe-lunge-jumps-suitcase-db",
                     "single-leg-box-jump"
                   ],
                   "swap_notes": [
                     {
-                      "id": "single-leg-broad-jump",
+                      "id": "two-foot-lateral-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
+                      "loses": "swap.loses.one_side_work"
                     },
                     {
                       "id": "db-staggered-stance-switch-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "rfe-lunge-jumps-suitcase-db",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.two_side_load"
+                      "loses": "swap.loses.same_drill"
                     },
                     {
                       "id": "single-leg-box-jump",
                       "keeps": "swap.keeps.jump",
-                      "loses": "swap.loses.rebound"
+                      "loses": "swap.loses.simplicity"
                     }
                   ],
                   "instead_of": null,
                   "flags": [],
                   "why": [
-                    {
-                      "key": "why.default_pick",
-                      "ref": "CAT-07"
-                    },
                     {
                       "key": "why.plyo_share",
                       "ref": "R2-ATH-01",
@@ -111031,10 +110945,6 @@
                     {
                       "key": "why.athletic_reconcile",
                       "ref": "D-63"
-                    },
-                    {
-                      "key": "why.loaded_jump",
-                      "ref": "EQ-15"
                     }
                   ],
                   "superset_suggested": null
@@ -111059,7 +110969,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 23
+                    "value": 24
                   },
                   "set_reps": null,
                   "effort": {
@@ -111079,8 +110989,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 23,
-                    "total": 46,
+                    "per_set": 24,
+                    "total": 48,
                     "stage": "RC3",
                     "quality": "plyometric",
                     "key": "low_contacts",

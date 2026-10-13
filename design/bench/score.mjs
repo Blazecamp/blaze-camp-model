@@ -102,6 +102,9 @@
 //                         The skeleton ids gym_FB1 / gym_FB2 / athletic_FB1 / athletic_FB2 are read like gym_A / gym_B: their compound
 //                         slots, their small slots on the gym days, and each day's patterns (pull + knee + push + hip). Without the
 //                         reading every 2-day plan would score its template days as 'not the coach's'.
+//   * push_pull_ratio     COACH-R5 R5-CLS-02 ('a hip thrust or bridge (hips get more work; pressing then leads pulling by one
+//                         station)'): a bootcamp circuit's free pull-up station that takes a hip lift counts with the pulls, as V29 reads
+//                         it. Without the reading every no-bar bootcamp plan (sample 05, bench 78) scores a 0.75 week the coach chose.
 export const SCORER_VERSION = '2.6';
 export const SCORE_SCHEMA = 'bench-score/2';
 
@@ -1874,7 +1877,16 @@ function checkBalance(S, X, ctx) {
       const cc = U.ex && U.ex.credit_class;
       return (PPc.push_classes || []).includes(cc) ? 'push' : (PPc.pull_classes || []).includes(cc) ? 'pull' : null;
     };
-    for (const D of W.days) for (const U of D.units) { const d = dirOf(U); if (d === 'push') push += U.sets; else if (d === 'pull') pull += U.sets; }
+    // (scorer 2.6: COACH-R5 R5-CLS-02 'a hip thrust or bridge (hips get more work; pressing then leads pulling by one station)' - the
+    // sets of a circuit's free pull-up station that takes a hip lift are the pressing lead the coach accepted, as the engine's V29 reads
+    // them; the station is read on its why `why.circuit_free_station_hips`)
+    let lead = 0;
+    for (const D of W.days) for (const U of D.units) {
+      const d = dirOf(U);
+      if (d === 'push') push += U.sets; else if (d === 'pull') pull += U.sets;
+      else if (((U.lead.raw && U.lead.raw.why) || []).some(y => y && y.key === 'why.circuit_free_station_hips')) lead += U.sets;
+    }
+    pull += lead;
     if (push <= 0 || pushFocus) continue;
     S.n('push_pull_ratio');
     if (pull < 0.8 * push - EPS) S.hit('push_pull_ratio', { week: W.n }, 'pull ' + pull + ' against push ' + push + ' (' + r2(pull / push) + ')');

@@ -16,6 +16,7 @@ _Tu plan Blaze Camp_
 
 - Con 2 días de entrenamiento a la semana, cada grupo muscular grande se entrena con unas 6-8 series semanales en lugar de 10 o más. Un tercer día de entrenamiento permitiría que cada grupo llegue a 10.
 - Nos dijiste que tienes dolor en la rodilla (peor con flexiones profundas de rodilla). Lo que hace este plan: deja fuera los ejercicios que más cargan esa zona y lo dice en el ejercicio, mantiene cuádriceps en las mismas series en lugar de sumar más (progresa con repeticiones y carga) y te dice dónde parar en los ejercicios que la doblan. Si el dolor aumenta, detente y consulta a un profesional.
+- Saltos y dolor: no hagas los saltos ningún día en que tu dolor esté por encima de 6 en una escala del 1 al 10 (10 = necesitas ir al hospital), y consulta a un profesional si se mantiene así.
 - Las semanas 11 y 12 incluyen Navidad / Año Nuevo: mueve una sesión uno o dos días si lo necesitas; planifica las vacaciones largas entre bloques.
 - Juegas 3 o más veces por semana: cada semana tiene la mitad de los saltos y ningún ejercicio extra de agilidad.
 
@@ -125,8 +126,8 @@ _Contado a la manera del coach: una serie cuenta una vez para su grupo (cadera =
 
 | Día | Sesión | Tiempo | Grupos musculares (ejercicios) |
 |---|---|---|---|
-| Lunes | A - sentadilla + tirón | aprox. 70-90 min | Cuádriceps 3, Espalda 2, Bíceps 1, Pantorrillas 1 |
-| Jueves | B - peso muerto + empuje | aprox. 75-90 min | Cadera (glúteos + isquiotibiales) 3, Pecho 2, Hombros 1, Tríceps 1 |
+| Lunes | Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press | aprox. 70-85 min | Cuádriceps 2, Cadera (glúteos + isquiotibiales) 1, Espalda 1, Pecho 1, Bíceps 1, Pantorrillas 1 |
+| Jueves | Cuerpo completo 2 - bisagra + empuje, zancada + tirón | aprox. 75-90 min | Cuádriceps 1, Cadera (glúteos + isquiotibiales) 2, Espalda 1, Pecho 1, Hombros 1, Tríceps 1 |
 | Viernes | Día opcional | aprox. 40-45 min | – |
 
 ## Bloque de entrenamiento, semana a semana · Semana 1-12
@@ -149,36 +150,36 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 | Pantorrillas | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 4 |
 | **Total** | 36 36 37 37 · 37 38 38 39 · 39 40 43 43 | 43 |
 
-### Lunes · A - sentadilla + tirón
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 
 | Ejercicio | Series | Reps |
 |---|---|---|
 | Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Perro de caza (Bird Dog) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
-| Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) → Salto lateral desde subida al cajón (Lateral Step-Up Jump) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contactos → 2 contactos por pierna |
+| Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 3 contactos → 4 contactos |
 | Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 5 por lado → 6 por lado |
 | Swing ruso con kettlebell (KB Swing) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 reps |
 | Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) → Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) | 3 3 4 4 · 4 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
 | Sentadilla hack en máquina (Hack Squat) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 12 a 15 reps → 8 a 12 reps |
-| Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 a 15 por lado → 8 a 12 por lado |
-| Subida al cajón frontal y lateral (Step-Up) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 12 por lado → 8 a 12 por lado |
+| Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
+| Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 12 por lado → 8 a 12 por lado |
 | Curl martillo (Hammer Curl) | 2 2 2 2 · 2 2 2 3 · 3 3 3 3 | 15 a 20 reps |
 | Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 reps |
-| Elevación de pantorrillas en máquina (Calf Raise) → Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 a 20 reps |
+| Elevación de pantorrillas en máquina (Calf Raise) | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 a 20 reps |
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 
 | Ejercicio | Series | Reps |
 |---|---|---|
 | Plancha lateral (Side Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
 | Bicho muerto (Dead Bug) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
-| Saltos de tobillo en el lugar (Ankle Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contactos → 12 contactos → 15 contactos |
+| Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) | 3 3 3 3 · 3 3 3 3 · 3 3 3 3 | 9 contactos → 12 contactos → 15 contactos |
 | Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 reps → 5 por lado → 6 por lado |
 | Swing a un brazo con kettlebell en postura dividida, mano contraria (Split-Stance KB Swing) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
-| Press de banca con mancuernas (DB Bench Press) | 3 3 3 3 · 3 4 4 4 · 4 4 4 4 | 10 a 12 reps → 8 a 12 reps |
+| Press de banca con mancuernas (DB Bench Press) | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 10 a 12 reps → 8 a 12 reps |
 | Hiperextensión a 45° (Back Extension) | 2 2 2 2 · 2 2 2 2 · 2 2 3 3 | 12 a 15 reps → 10 a 12 reps |
-| Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 10 a 12 reps → 8 a 12 reps |
-| Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) → Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 12 por lado → 8 a 12 por lado |
+| Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba | 3 3 3 3 · 3 3 3 3 · 3 3 4 4 | 12 a 15 por lado → 8 a 12 por lado |
+| Subida al cajón frontal y lateral (Step-Up) → Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 12 por lado → 8 a 12 por lado |
 | Extensión de tríceps sobre la cabeza (Overhead Extension) → Rompecráneos con mancuernas en el piso (Floor Skullcrusher) | 2 2 2 2 · 2 2 2 2 · 2 3 3 3 | 15 a 20 reps |
 | Curl femoral sentado (Seated Leg Curl) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 15 reps |
 | Face pull con kettlebell (KB Face Pull) → Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba | 4 4 4 4 · 4 4 4 4 · 4 4 4 4 | 15 a 20 reps |
@@ -188,7 +189,7 @@ _Contado con los ejercicios de este plan, un número por semana (un punto separa
 
 | Ejercicio | Series | Reps |
 |---|---|---|
-| Plancha en antebrazos (Plank) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 20-60 s → 25-60 s → 30-60 s |
+| Press Pallof (Pallof Press) | 2 2 2 2 · 2 2 2 2 · 2 2 2 2 | 10 a 15 por lado |
 
 ## Semana 1 — Adaptación (pasos pequeños)
 
@@ -196,13 +197,13 @@ _Nivel de la semana: 2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Trabajo atlético esta semana:** 6 contactos de salto · 27 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
-_Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
+_Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl martillo (Hammer Curl)_
 
@@ -220,11 +221,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y quédate firme: sostén 3 s
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stick%20the%20Landing%20-%20Bilateral%20(jump%2Fdrop%20and%20freeze%20the%20landing)) · Nombre para copiar en YouTube: `Stick the Landing - Bilateral (jump/drop and freeze the landing)`
+1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Salta, aterriza y quédate firme 2-3 s; reinicia y vuelve a saltar
+   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -253,19 +253,19 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
-   - Progresión: cuando llegues a 15 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
-   - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Mantén este ejercicio en 10-12 repeticiones.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Semana 1: elige un peso que podrías levantar unas 3 veces más
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -288,13 +288,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal (Medball Chest Pass) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
@@ -306,7 +306,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -314,10 +314,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)** — 3 × 9 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+   - Cambiar por: Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
 2. **Pase de pecho con balón medicinal (Medball Chest Pass)** — 2 × 10 reps · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -337,26 +337,26 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Semana 1: elige un peso que podrías levantar unas 3 veces más
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Semana 1: elige un peso que podrías levantar unas 3 veces más
+   - Progresión: cuando llegues a 15 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
+   - por lado = 1 serie
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -388,9 +388,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -411,13 +412,13 @@ _Nivel de la semana: 2.6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Trabajo atlético esta semana:** 6 contactos de salto · 30 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
-_Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
+_Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl martillo (Hammer Curl)_
 
@@ -435,11 +436,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y quédate firme: sostén 3 s
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stick%20the%20Landing%20-%20Bilateral%20(jump%2Fdrop%20and%20freeze%20the%20landing)) · Nombre para copiar en YouTube: `Stick the Landing - Bilateral (jump/drop and freeze the landing)`
+1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Salta, aterriza y quédate firme 2-3 s; reinicia y vuelve a saltar
+   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -466,18 +466,17 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 15 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
-   - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Mantén este ejercicio en 10-12 repeticiones.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -500,13 +499,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal (Medball Chest Pass) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
@@ -518,7 +517,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -526,10 +525,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)** — 3 × 10 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+   - Cambiar por: Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
 2. **Pase de pecho con balón medicinal (Medball Chest Pass)** — 2 × 10 reps · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -548,23 +547,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 15 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
+   - por lado = 1 serie
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -596,9 +596,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -619,13 +620,13 @@ _Nivel de la semana: 3.2 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Trabajo atlético esta semana:** 6 contactos de salto · 33 contactos de saltos de tobillo · 40 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
-_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
+_Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl martillo (Hammer Curl)_
 
@@ -643,11 +644,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y quédate firme: sostén 3 s
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stick%20the%20Landing%20-%20Bilateral%20(jump%2Fdrop%20and%20freeze%20the%20landing)) · Nombre para copiar en YouTube: `Stick the Landing - Bilateral (jump/drop and freeze the landing)`
+1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Salta, aterriza y quédate firme 2-3 s; reinicia y vuelve a saltar
+   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -674,18 +674,17 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 15 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
-   - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Mantén este ejercicio en 10-12 repeticiones.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -708,13 +707,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal (Medball Chest Pass) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
@@ -726,7 +725,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -734,10 +733,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 11 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)** — 3 × 11 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+   - Cambiar por: Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
 2. **Pase de pecho con balón medicinal (Medball Chest Pass)** — 2 × 10 reps · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -756,23 +755,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 15 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
+   - por lado = 1 serie
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -804,9 +804,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -827,13 +828,13 @@ _Nivel de la semana: 3.8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Trabajo atlético esta semana:** 6 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
-_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
+_Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension), Curl martillo (Hammer Curl)_
 
@@ -851,11 +852,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
-   - cajón bajo (15-30 cm)
-   - Aterriza y quédate firme: sostén 3 s
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Stick%20the%20Landing%20-%20Bilateral%20(jump%2Fdrop%20and%20freeze%20the%20landing)) · Nombre para copiar en YouTube: `Stick the Landing - Bilateral (jump/drop and freeze the landing)`
+1. **Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+   - Salta, aterriza y quédate firme 2-3 s; reinicia y vuelve a saltar
+   - Cambiar por: Salto en sentadilla asistido, sujetándote de un rack, barandal o mueble (Assisted Squat Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Lateral%20Jump%20(two%20feet%2C%20side%20to%20side%2C%20holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Lateral Jump (two feet, side to side, holding a rack, rail or counter)`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -882,18 +882,17 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 15 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
-   - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
+   - Mantén este ejercicio en 10-12 repeticiones.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -916,13 +915,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Saltos de tobillo en el lugar (Ankle Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) + Pase de pecho con balón medicinal (Medball Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal (Medball Chest Pass) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull), Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
@@ -934,7 +933,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -942,10 +941,10 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Dead%20Bugs) · Nombre para copiar en YouTube: `Dead Bugs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Saltos de tobillo en el lugar (Ankle Hops)** — 3 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops)** — 3 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Ankle%20Hops%20(bilateral%2C%20in%20place)) · Nombre para copiar en YouTube: `Ankle Hops (bilateral, in place)`
+   - Cambiar por: Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
 2. **Pase de pecho con balón medicinal (Medball Chest Pass)** — 2 × 10 reps · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -964,23 +963,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 12 a 15 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 15 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
-   - Mantén este ejercicio en 10-12 repeticiones.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 12 a 15 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 15 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 12.
+   - por lado = 1 serie
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 10 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -1012,9 +1012,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 20-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
@@ -1032,20 +1033,20 @@ _Nivel de la semana: 4.4 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Nuevo bloque de ejercicios: 8 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
-- Lunes: Aterrizaje controlado con dos pies: salta o cae y quédate firme (Stick the Landing) → Salto lateral desde subida al cajón (Lateral Step-Up Jump); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass); Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba; Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez
-- Jueves: Saltos de tobillo en el lugar (Ankle Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops); Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops); Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) → Peso muerto escalonado con mancuernas (Kickstand DB Deadlift); Face pull con kettlebell (KB Face Pull) → Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba
+- Lunes: Salto lateral asistido con dos pies, de lado a lado, sujetándote de un rack, barandal o mueble (Assisted Lateral Jump) → Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass); Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro); Extensión de piernas en máquina (Leg Extension) → Extensión de piernas en máquina (Leg Extension) - una pierna a la vez
+- Jueves: Saltos de tobillo asistidos, sujetándote de un rack, barandal o mueble (Assisted Pogo Hops) → Saltos de tobillo laterales con dos pies (Lateral Ankle Hops); Pase de pecho con balón medicinal (Medball Chest Pass) → Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops); Subida al cajón frontal y lateral (Step-Up) → Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo; Face pull con kettlebell (KB Face Pull) → Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba
 - Los saltos pasan a Recibir-Crear 2: Aterrizar y salir
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
+**Trabajo atlético esta semana:** 6 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
-_Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
+_Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
 
@@ -1063,12 +1064,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón en postura escalonada (Staggered-Stance Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1094,17 +1094,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -1127,13 +1125,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
@@ -1145,7 +1143,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -1155,7 +1153,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 3 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -1174,22 +1172,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -1221,9 +1221,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -1240,17 +1241,17 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 _Nivel de la semana: 5 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
-- +1 serie en Press de banca con mancuernas (DB Bench Press) (jueves): 3 → 4 series
+- +1 serie en Press inclinado con mancuernas (Incline DB Press) (lunes): 3 → 4 series
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
 
@@ -1268,12 +1269,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón en postura escalonada (Staggered-Stance Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1299,17 +1299,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -1332,13 +1330,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
@@ -1350,7 +1348,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -1360,7 +1358,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 3 × 12 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -1377,24 +1375,26 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
-1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 8 a 12 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo** — 2 × 8 a 12 por lado · deja 3 en reserva (3 RIR, RPE 7) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 3 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 3 en reserva (3 RIR, RPE 7) · 60-90 s de descanso
@@ -1426,9 +1426,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -1447,15 +1448,15 @@ _Nivel de la semana: 6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Qué cambia esta semana**
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 39 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
+**Trabajo atlético esta semana:** 8 contactos de salto · 39 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
 
@@ -1473,12 +1474,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón en postura escalonada (Staggered-Stance Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1504,17 +1504,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
@@ -1537,13 +1535,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
@@ -1555,7 +1553,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -1565,9 +1563,9 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 3 × 13 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
-2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -1582,24 +1580,26 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
-1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
@@ -1631,9 +1631,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -1654,13 +1655,13 @@ _Nivel de la semana: 7 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 42 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
 
@@ -1678,12 +1679,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón en postura escalonada (Staggered-Stance Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1709,17 +1709,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
@@ -1742,13 +1740,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) + Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Extensión de tríceps sobre la cabeza (Overhead Extension) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Extensión de tríceps sobre la cabeza (Overhead Extension)_
@@ -1760,7 +1758,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -1770,7 +1768,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo laterales con dos pies (Lateral Ankle Hops)** — 3 × 14 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
 2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -1787,24 +1785,26 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
-1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown)** — 3 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Extensión de tríceps sobre la cabeza (Overhead Extension)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
@@ -1836,9 +1836,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 25-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar
@@ -1856,22 +1857,22 @@ _Nivel de la semana: 8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - Nuevo bloque de ejercicios: 7 ejercicios cambian un poco (otra versión o un detalle nuevo); el resto se queda
-- Lunes: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss); Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) → Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row); Elevación de pantorrillas en máquina (Calf Raise) → Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo)
-- Jueves: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass); Press inclinado con mancuernas (Incline DB Press) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo; Extensión de tríceps sobre la cabeza (Overhead Extension) → Rompecráneos con mancuernas en el piso (Floor Skullcrusher)
+- Lunes: Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) → Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss); Remo con pecho apoyado con mancuernas, agarre supino (Seal DB Row) → Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row); Press inclinado con mancuernas (Incline DB Press) - palmas enfrentadas (agarre neutro) → Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo
+- Jueves: Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) → Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops); Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) → Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass); Jalón al pecho a un brazo (Single-Arm Pulldown) → Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba; Extensión de tríceps sobre la cabeza (Overhead Extension) → Rompecráneos con mancuernas en el piso (Floor Skullcrusher)
 - Los saltos pasan a Recibir-Crear 3: Repetir
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 45 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -1887,12 +1888,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -1918,17 +1918,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 3 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
@@ -1942,7 +1940,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-3. **Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo)** — 4 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
+3. **Elevación de pantorrillas en máquina (Calf Raise)** — 4 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -1951,13 +1949,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Rompecráneos con mancuernas en el piso (Floor Skullcrusher)_
@@ -1969,7 +1967,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -1979,7 +1977,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 3 × 15 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de tobillo en ángulo recto a una pierna (Right-Angle Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -1996,24 +1994,26 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
-1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo** — 3 × 8 a 12 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo** — 2 × 8 a 12 por lado · deja 2 en reserva (2 RIR, RPE 8) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 2 × 15 a 20 reps · deja 2 en reserva (2 RIR, RPE 8) · 60-90 s de descanso
@@ -2045,9 +2045,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 30 min · ritmo constante: todavía puedes hablar
@@ -2066,17 +2067,17 @@ _Nivel de la semana: 9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Qué cambia esta semana**
 - +1 serie en Rompecráneos con mancuernas en el piso (Floor Skullcrusher) (jueves): 2 → 3 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 48 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
+**Trabajo atlético esta semana:** 8 contactos de salto · 48 contactos de saltos de tobillo · 52 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2092,13 +2093,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -2123,17 +2123,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
@@ -2147,7 +2145,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-3. **Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo)** — 4 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+3. **Elevación de pantorrillas en máquina (Calf Raise)** — 4 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -2156,13 +2154,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Rompecráneos con mancuernas en el piso (Floor Skullcrusher)_
@@ -2174,7 +2172,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -2184,7 +2182,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 3 × 16 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de tobillo en ángulo recto a una pierna (Right-Angle Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -2201,24 +2199,26 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Split-Stance%20Contralateral%20Single-Arm%20KB%20Swing) · Nombre para copiar en YouTube: `Split-Stance Contralateral Single-Arm KB Swing`
 
 **Fuerza**
-1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+1. **Press de banca con mancuernas (DB Bench Press)** — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 2 × 10 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo** — 3 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 3 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
@@ -2250,9 +2250,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 33 min · ritmo constante: todavía puedes hablar
@@ -2270,20 +2271,20 @@ _Nivel de la semana: 10 de 11 (2 = el inicio, 11 = tu semana más dura)_
 
 **Qué cambia esta semana**
 - +1 serie en Hiperextensión a 45° (Back Extension) (jueves): 2 → 3 series
-- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (lunes): 3 → 4 series
-- +1 serie en Press inclinado con mancuernas (Incline DB Press) (jueves): 3 → 4 series
+- +1 serie en Jalón al pecho a un brazo (Single-Arm Pulldown) (jueves): 3 → 4 series
+- +1 serie en Press de banca con mancuernas (DB Bench Press) (jueves): 3 → 4 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 54 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
+**Trabajo atlético esta semana:** 8 contactos de salto · 54 contactos de saltos de tobillo · 52 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
-_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2299,13 +2300,12 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
-2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
+2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -2330,17 +2330,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 4 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
@@ -2354,7 +2352,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-3. **Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo)** — 4 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
+3. **Elevación de pantorrillas en máquina (Calf Raise)** — 4 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -2363,13 +2361,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Rompecráneos con mancuernas en el piso (Floor Skullcrusher)_
@@ -2381,7 +2379,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -2391,7 +2389,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 3 × 18 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de tobillo en ángulo recto a una pierna (Right-Angle Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -2410,22 +2408,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 3 × 10 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 4 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo** — 2 × 8 a 12 por lado · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 3 × 15 a 20 reps · deja 1-2 en reserva (1-2 RIR, RPE 8-9) · 60-90 s de descanso
@@ -2457,9 +2457,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 37 min · ritmo constante: todavía puedes hablar
@@ -2482,15 +2483,15 @@ _Última semana: un intensificador en cada uno de estos días (lunes y jueves): 
 
 **Trabajo atlético esta semana:** 8 contactos de salto · 57 contactos de saltos de tobillo · 52 lanzamientos · 4 series de levantamiento olímpico
 
-### Lunes · A - sentadilla + tirón
-_Tiempo promedio: aprox. 85-100 min (un estimado, solo como información)_
+### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
+_Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha en antebrazos (Plank) + Perro de caza (Bird Dog) (ahorras unos 2.5 min)_
-_Superserie para ahorrar tiempo: Salto lateral desde subida al cajón (Lateral Step-Up Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
+_Superserie para ahorrar tiempo: Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump) + Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Remo con pecho apoyado con mancuernas, agarre prono (Seal DB Row) + Sentadilla hack en máquina (Hack Squat) (ahorras unos 4 min)_
-_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Curl martillo (Hammer Curl) + Extensión de piernas en máquina (Leg Extension) - una pierna a la vez (ahorras unos 3.5 min)_
-_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
+_Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss) · accesorios de músculos pequeños: Elevación de pantorrillas en máquina (Calf Raise), Extensión de piernas en máquina (Leg Extension) - una pierna a la vez, Curl martillo (Hammer Curl)_
 
 **Calentamiento**
 1. 5 min de cualquier cardio
@@ -2506,12 +2507,11 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bird%20Dogs) · Nombre para copiar en YouTube: `Bird Dogs`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral desde subida al cajón (Lateral Step-Up Jump)** — 2 × 2 contactos por pierna · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
-   - por lado = 1 serie
-   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el trabajo de un lado a la vez) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Lateral%20Box%20Step-up%20Jump) · Nombre para copiar en YouTube: `Lateral Box Step-up Jump`
+   - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Two-Foot%20Lateral%20Box%20Jump%20(sideways%20onto%20a%20low%20box)) · Nombre para copiar en YouTube: `Two-Foot Lateral Box Jump (sideways onto a low box)`
 2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
@@ -2537,17 +2537,15 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    > 'Si la sentadilla hack de tu gimnasio funciona y la sientes bien, perfecto.' Más guiada que una máquina Smith.
    - Cambiar por: Prensa de piernas (Leg Press) (mantiene la sentadilla a dos piernas; pierde poco: mismo movimiento, otro agarre o posición) / Sentadilla goblet al cajón, tocar y subir (Box Goblet Squat) (mantiene la sentadilla a dos piernas; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Hack%20Squat%20(machine)) · Nombre para copiar en YouTube: `Hack Squat (machine)`
-3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 4 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
+3. **Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
+4. **Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL)** — 2 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
-4. **Subida al cajón frontal y lateral (Step-Up)** — 2 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 por lado en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - por lado = 1 serie
-   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
-   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
+   - Cambiar por: Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Rear-Foot-on-Wall%20DB%20Deadlift%20(RDL)) · Nombre para copiar en YouTube: `Rear-Foot-on-Wall DB Deadlift (RDL)`
 
 **Accesorios**
 1. **Curl martillo (Hammer Curl)** — 3 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · Serie MYO en la última serie: unas 15 repeticiones, luego 5 miniseries de 5 repeticiones con una pausa corta (unas 5 respiraciones) entre ellas, mismo peso · 60-90 s de descanso
@@ -2561,7 +2559,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
    - Cambiar por: Extensión de pierna con mancuerna (DB Leg Extension) (mantiene el aislamiento de cuádriceps; pierde el apoyo de la máquina)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Leg%20Extension%20(machine)) · Nombre para copiar en YouTube: `Leg Extension (machine)`
-3. **Elevación de pantorrillas en máquina (Calf Raise) - desde un escalón (estiramiento completo abajo)** — 4 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
+3. **Elevación de pantorrillas en máquina (Calf Raise)** — 4 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
    - Progresión: cuando llegues a 20 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 15.
    - Cuidado articular del tendón de Aquiles y pantorrillas
    - Este ejercicio también es tu cuidado articular: baja lento y quédate en un rango sin dolor.
@@ -2570,13 +2568,13 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 
 ### Miércoles · Día de juego (Pickleball)
 
-### Jueves · B - peso muerto + empuje
+### Jueves · Cuerpo completo 2 - bisagra + empuje, zancada + tirón
 _Tiempo promedio: aprox. 90-110 min (un estimado, solo como información)_
 _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), saltos, lanzamientos y velocidad, potencia / olímpicos, accesorios, cuidado articular. También puedes agregar o quitar ejercicios._
 _Superserie para ahorrar tiempo: Plancha lateral (Side Plank) + Bicho muerto (Dead Bug) (ahorras unos 2.5 min)_
 _Superserie para ahorrar tiempo: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) + Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (ahorras unos 3 min)_
 _Superserie para ahorrar tiempo: Press de banca con mancuernas (DB Bench Press) + Hiperextensión a 45° (Back Extension) (ahorras unos 5.5 min)_
-_Superserie para ahorrar tiempo: Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo + Peso muerto escalonado con mancuernas (Kickstand DB Deadlift) (ahorras unos 4 min)_
+_Superserie para ahorrar tiempo: Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba + Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo (ahorras unos 4 min)_
 _Superserie para ahorrar tiempo: Rompecráneos con mancuernas en el piso (Floor Skullcrusher) + Curl femoral sentado (Seated Leg Curl) (ahorras unos 3.5 min)_
 _Superserie para ahorrar tiempo: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba + Elevación de pantorrillas de pie con mancuernas (DB Calf Raise) (ahorras unos 2.5 min)_
 _Lo más fácil de quitar si quieres un día más corto (tú decides): estaciones extra de saltos / lanzamientos: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) · accesorios de músculos pequeños: Face pull con kettlebell (KB Face Pull) - aprieta 1 segundo arriba, Curl femoral sentado (Seated Leg Curl), Rompecráneos con mancuernas en el piso (Floor Skullcrusher)_
@@ -2588,7 +2586,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Core / abdomen**
 1. **Plancha lateral (Side Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
    - por lado = 1 serie
-   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - Cambiar por: Plancha lateral con rodilla al codo (Side Plank Knee-to-Elbow) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Plancha lateral con elevaciones de cadera lentas (Side Plank Hip Lifts) (mantiene el trabajo de core; pierde algo de dificultad: este es más fácil) / Sostén de oblicuos de lado sobre el codo (Elbow Oblique Sit) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Abdominal lateral (Lateral Crunch) (mantiene el trabajo de core; pierde la posición sostenida)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Side%20Plank%20(elbow)) · Nombre para copiar en YouTube: `Side Plank (elbow)`
 2. **Bicho muerto (Dead Bug)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
    - por lado = 1 serie
@@ -2598,7 +2596,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Saltos, lanzamientos y velocidad**
 1. **Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops)** — 3 × 19 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
-   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales a una pierna (Single-Leg Lateral Hops) (mantiene el salto; pierde la carga más pesada a dos lados) / Saltos de tobillo en ángulo recto a una pierna (Right-Angle Hops) (mantiene el salto; pierde la carga más pesada a dos lados)
+   - Cambiar por: Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Zig-Zag%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Zig-Zag Ankle Hops`
 2. **Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
@@ -2617,22 +2615,24 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
 **Fuerza**
 1. **Press de banca con mancuernas (DB Bench Press)** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Flexión de brazos con rodillas apoyadas (Kneeling Push-Up) (mantiene el empuje horizontal; pierde la carga extra)
+   - Cambiar por: Press de pecho en máquina (Chest Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press de pecho de pie en polea (Standing Cable Press) (mantiene el empuje horizontal; pierde el trabajo de equilibrio del peso libre) / Press en el piso con mancuernas (DB Floor Press) (mantiene el empuje horizontal; pierde la parte baja del recorrido) / Press inclinado en polea sobre banco (Incline Cable Press) (mantiene el empuje horizontal; pierde el ángulo plano del press)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Flat%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Flat DB Bench Press`
 2. **Hiperextensión a 45° (Back Extension)** — 3 × 10 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 10.
    - Mantén este ejercicio en 10-12 repeticiones.
    - Cambiar por: Peso muerto con dos kettlebells (Double-KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con una kettlebell (KB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original) / Peso muerto con mancuernas (DB Deadlift) (mantiene la bisagra de cadera a dos piernas; pierde la sensación del implemento original)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=45-Degree%20Hyperextension%20(back%2Fhip%20extension)) · Nombre para copiar en YouTube: `45-Degree Hyperextension (back/hip extension)`
-3. **Press inclinado con mancuernas (Incline DB Press) - pausa de 1 segundo abajo** — 4 × 8 a 12 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
-   - Progresión: cuando llegues a 12 en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
-   - Cambiar por: Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento) / Press de hombro sentado en máquina (Machine Shoulder Press) (mantiene la misma función en la sesión; pierde el ángulo inclinado) / Press inclinado alto con mancuernas (High-Incline DB Press) (mantiene la misma función en la sesión; pierde el patrón exacto de movimiento)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Incline%20DB%20Bench%20Press) · Nombre para copiar en YouTube: `Incline DB Bench Press`
-4. **Peso muerto escalonado con mancuernas (Kickstand DB Deadlift)** — 2 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
+3. **Jalón al pecho a un brazo (Single-Arm Pulldown) - aprieta 1 segundo arriba** — 4 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
    - Progresión: cuando llegues a 12 por lado en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
    - por lado = 1 serie
-   - Cambiar por: Peso muerto rumano con mancuernas y pie trasero en la pared (Rear-Foot-on-Wall RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto a una pierna en postura escalonada alterna con mancuernas (Alternating Staggered-Stance DB Deadlift) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición) / Peso muerto rumano a una pierna (Single-Leg RDL) (mantiene la bisagra de cadera a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Staggered-Stance%20(Kickstand)%20DB%20Deadlift) · Nombre para copiar en YouTube: `Staggered-Stance (Kickstand) DB Deadlift`
+   - Cambiar por: Jalón al pecho agarre cerrado (Close-Grip Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez) / Jalón al pecho, agarre prono (Lat Pulldown) (mantiene el tirón vertical; pierde el trabajo de un lado a la vez)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Single-Arm%20Lat%20Pulldown) · Nombre para copiar en YouTube: `Single-Arm Lat Pulldown`
+4. **Subida al cajón frontal y lateral (Step-Up) - pausa de 1 segundo abajo** — 2 × 8 a 12 por lado · deja 1 en reserva (1 RIR, RPE 9) · 60-120 s de descanso
+   - Progresión: cuando llegues a 12 por lado en todas las series con 1 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.
+   - por lado = 1 serie
+   - Usa un escalón bajo, de unos 15-30 cm (6-12 in); súbelo solo si no duele y baja despacio.
+   - Cambiar por: Subida al cajón con rodilla arriba (Step-Up to Knee Drive) (mantiene el patrón de sentadilla a una pierna; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Step-Up%20(forward%20and%20lateral)) · Nombre para copiar en YouTube: `Step-Up (forward and lateral)`
 
 **Accesorios**
 1. **Rompecráneos con mancuernas en el piso (Floor Skullcrusher)** — 3 × 15 a 20 reps · deja 1 en reserva (1 RIR, RPE 9) · 60-90 s de descanso
@@ -2664,9 +2664,10 @@ _Hoy puedes desactivar (o quitar) estos bloques: core (abdomen), cardio. Tambié
 1. 5 min de cualquier cardio
 
 **Core / abdomen**
-1. **Plancha en antebrazos (Plank)** — 2 × 30-60 s · mantén con buena técnica, detente antes de perderla · 30-60 s de descanso
-   - Cambiar por: Plancha alta con brazos extendidos (High Plank) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Balanceo en plancha sobre balón medicinal (Medball Plank Rockers) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Sostén en L (L-Sit) (mantiene el trabajo de core; pierde la versión más fácil: este es más difícil) / Balanceo en posición hueca (Hollow Rocks) (mantiene el trabajo de core; pierde la misma acción del tronco: este trabaja el core de otra forma)
-   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Plank%20(forearm%20%2F%20low%20plank)) · Nombre para copiar en YouTube: `Plank (forearm / low plank)`
+1. **Press Pallof (Pallof Press)** — 2 × 10 a 15 por lado · fácil y controlado: detente mucho antes de que se ponga difícil · 30-60 s de descanso
+   - por lado = 1 serie
+   - Cambiar por: Sostén Pallof boca arriba en el piso con polea, objeto apretado entre las rodillas (Supine Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Sostén Pallof arrodillado en polea, objeto apretado entre las rodillas (Tall-Kneeling Pallof Hold) (mantiene el trabajo de core; pierde las repeticiones con movimiento) / Perro de caza (Bird Dog) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición) / Bicho muerto (Dead Bug) (mantiene el trabajo de core; pierde poco: mismo movimiento, otro agarre o posición)
+   - [Ver cómo se hace](https://www.youtube.com/results?search_query=Pallof%20Press) · Nombre para copiar en YouTube: `Pallof Press`
 
 **Aeróbico**
 1. **Naranja (C): largo / suave · bicicleta (bike)** — 40 min · ritmo constante: todavía puedes hablar

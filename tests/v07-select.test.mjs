@@ -16,6 +16,8 @@ import { loadFixtureModel, loadCompiledModel, loadSample, readModelDir, readFixt
 import { generate } from '../engine/generate.mjs';
 import { renderPlan } from '../engine/render.mjs';
 import { jumpLevel } from '../engine/select.mjs';
+import { randomIntake } from './helpers/random-intake.mjs';
+import { makeContext, scorePlan } from '../design/bench/score.mjs';
 import { amendRulesV07, amendTemplatesV07, amendExerciseV07, addedExercisesV07, UI_V07, ADDED_V07 } from '../tools/fixture/v07-select.mjs';
 
 const clone = (x) => JSON.parse(JSON.stringify(x));
@@ -214,8 +216,15 @@ describe('v0.7 selection - R5-GRD-08 knee pain: assisted jumps and the pain scal
   it('R5-GRD-08: a soccer player with knee pain starts assisted too (rack, rail or suspension trainer; never a band)', () => {
     const p = generate(athlete('soccer', 'midfielder', 3, { pain: [{ area: 'knee', side: 'left', severity: 'moderate', worse_with: [] }] }), model);
     assert.equal(p.status, 'ok');
+    // (the library holds four assisted records, one a week each: a day with more jump stations than that takes the lowest two-leg
+    // jumps - level 1, a low box - for the rest; open question G-255)
     const first = allItems(p).filter(x => x.w.exercise_block === 1 && lowerJump(x));
-    assert.ok(first.length > 0 && first.every(x => ex(x.it.exercise_id).tags.includes('assisted')), first.map(x => x.it.exercise_id).join(' '));
+    assert.ok(first.length > 0);
+    for (const w of p.weeks.filter(w => w.exercise_block === 1)) for (const d of w.days) {
+      const js = itemsOf(w).filter(x => x.d === d && lowerJump(x));
+      if (js.length) assert.ok(js.some(x => ex(x.it.exercise_id).tags.includes('assisted')), `w${w.n} ${d.weekday}`);
+    }
+    for (const x of first) assert.ok(ex(x.it.exercise_id).tags.includes('assisted') || jumpLevel(ex(x.it.exercise_id), V7.jumps) === 1, x.it.exercise_id);
   });
 });
 
@@ -273,6 +282,13 @@ describe('v0.7 selection - R5-GRD-04 named benchmark workouts', () => {
     assert.match(en, /Today's WOD is "[A-Z][A-Za-z ]+", a "Girl" benchmark workout/);
     assert.match(en, /a "Hero" workout from the CrossFit community/);
   });
+  it('R5-GRD-04 / H12 / V4: a 60+ or a youth class member\'s named workouts keep the age rules (sweep random 6, 118: an Isabel DB snatch at 66, a Diane pike push-up at 15)', () => {
+    for (const i of [6, 20, 34, 118, 132, 146]) {
+      const p = generate(randomIntake(i, model), model);
+      assert.equal(p.status, 'ok', 'random-' + i);
+      for (const id of ['V4', 'V5', 'H12']) assert.ok(p.validation.checks.find(c => c.id === id).pass, `random-${i} ${id}`);
+    }
+  });
   it('R5-GRD-04: the library holds Girl, Hero and other benchmark workouts with their standard prescriptions and names; HYROX is not a class workout', () => {
     const NW = R.conditioning.v7.named_wods;
     for (const k of ['girl', 'hero', 'benchmark']) assert.ok(NW.library.filter(w => w.kind === k).length >= 3, k);
@@ -294,6 +310,29 @@ describe('v0.7 selection - R5-GRD-05 the bootcamp\'s two formats', () => {
     assert.ok(en.includes('In rounds: go through every station once') && en.includes('Station by station: do all'), 'EN');
     assert.ok(es.includes('En rondas:') && es.includes('Estación por estación:'), 'ES');
     assert.match(en, /\d sets x \d+ s/, 'a station day reads sets');
+  });
+});
+
+describe('v0.7 selection - the benchmark scorer reads the package\'s rules (scorer 2.6, G-263)', () => {
+  const ctx = makeContext({ rules: raw.rules, catalog: raw.catalog, templates: raw.templates, profiles: raw.profiles });
+  it('R5-GEN-01: the 2-day full-body days are the coach\'s template days (08: no skeleton miss)', () => {
+    const s = scorePlan(planOf('08'), ctx);
+    for (const k of Object.keys(s.metrics).filter(k => /skeleton/.test(k))) assert.equal(s.metrics[k].value || 0, 0, k + ' ' + JSON.stringify(s.metrics[k]).slice(0, 300));
+  });
+  it('R5-CLS-02: the no-bar bootcamp\'s free-station hip lift is the accepted pressing lead (05: no push / pull week)', () => {
+    const s = scorePlan(planOf('05'), ctx);
+    assert.equal(s.metrics.push_pull_ratio.value, 0, JSON.stringify(s.metrics.push_pull_ratio).slice(0, 300));
+  });
+  it('R2-LIB-01 / G-264: no jump station returns to an earlier block\'s pick (01, 02, 03, 08)', () => {
+    for (const n of ['01', '02', '03', '08']) {
+      const by = new Map();
+      for (const w of planOf(n).weeks.filter(w => w.block_type === 'stairway')) for (const x of itemsOf(w).filter(lowerJump)) {
+        const a = by.get(x.it.slot_id) || [];
+        if (a[a.length - 1] !== x.it.exercise_id) a.push(x.it.exercise_id);
+        by.set(x.it.slot_id, a);
+      }
+      for (const [sid, a] of by) assert.equal(new Set(a).size, a.length, `${n} ${sid}: ${a.join(' -> ')}`);
+    }
   });
 });
 
