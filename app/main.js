@@ -1,7 +1,11 @@
-// app/main.js - the Blaze Camp Plan Builder page: the intake wizard, the build (in a Web Worker), the plan view (week and day
+// app/main.js - the Plan Builder page: the intake wizard, the build (in a Web Worker), the plan view (week and day
 // switcher, the day card, the progress tab), save image, download PDF and print. All state lives in memory; the only thing kept in the browser
 // is the language choice (R3-GEN-01: no data kept). Every plan word comes from the engine and the model (model.t).
-import { ui, initialLang, LANGS } from './i18n.js';
+// One codebase, two brands: the active brand (./brand.js, written by tools/build-site.mjs) gives the name, words, look and legal
+// party wording (app/brands/<id>.js, applied by app/brand-apply.js).
+import { ui, LANGS } from './i18n.js';
+import { BRAND } from './brand.js';
+import { brandUi, brandLang, brandRaw, hasBrandWord } from './brand-apply.js';
 import * as B from './intake-builder.js';
 import * as V from './plan-view.js';
 import { markdown, inline, escapeHtml as h, stripMarkers, plain } from './md.js';
@@ -15,11 +19,12 @@ import { renderPlan } from '../engine/render.mjs';
 const $app = document.getElementById('app');
 const $print = document.getElementById('print-root');
 
-function savedLang() { try { return localStorage.getItem('bc.lang'); } catch { return null; } }
-function saveLang(l) { try { localStorage.setItem('bc.lang', l); } catch { /* private mode: fine */ } }
+function savedLang() { try { return localStorage.getItem(BRAND.storage_key); } catch { return null; } }
+function saveLang(l) { try { localStorage.setItem(BRAND.storage_key, l); } catch { /* private mode: fine */ } }
+const UI = brandUi(BRAND, ui);
 
 const S = {
-  lang: initialLang(savedLang(), navigator.language),
+  lang: brandLang(BRAND, savedLang(), navigator.language),
   model: null,
   screen: 'loading',           // loading | error | wizard | building | invalid | plan
   answers: null,
@@ -28,7 +33,7 @@ const S = {
   plan: null, ms: null, week: 1, day: null, tab: 'day', open: new Set(), cache: {},
   errors: [], buildId: 0, buildTimer: null, buildStarted: 0
 };
-const t = (k, a) => ui(S.lang, k, a);
+const t = (k, a) => UI(S.lang, k, a);
 const mt = (k, a) => (S.model && S.model.has('en', k) ? stripMarkers(S.model.t(S.lang, k, a)) : k);
 const cap = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
 const today = () => B.isoOf(new Date());
@@ -90,6 +95,9 @@ function setLang(l) {
 function applyChrome() {
   document.documentElement.lang = S.lang;
   document.title = t('app.title');
+  const meta = BRAND.meta && BRAND.meta[S.lang];
+  const desc = document.querySelector('meta[name="description"]');
+  if (meta && desc) desc.setAttribute('content', meta.description);
   const sub = document.getElementById('brand-sub');
   if (sub) sub.textContent = t('app.sub');
   document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.value === S.lang)));
@@ -142,6 +150,7 @@ function renderWizard() {
   const why = blockerWords(blocker);
   return `<div class="wiz-head"><div class="dots" aria-hidden="true">${dots}</div>
     <div class="wiz-title"><h1 class="step-title">${h(t('screen.' + id))}</h1><span class="step-count" aria-label="${h(t('nav.step', { n: S.step + 1, total: SCREENS.length }))}">${h(t('screen.count', { n: S.step + 1, total: SCREENS.length }))}</span></div></div>
+    ${S.step === 0 && hasBrandWord(BRAND, S.lang, 'app.welcome') ? `<div class="welcome">${hasBrandWord(BRAND, S.lang, 'app.eyebrow') ? `<p class="eyebrow">${h(t('app.eyebrow'))}</p>` : ''}<p class="lead">${h(t('app.welcome'))}</p></div>` : ''}
     <section class="wiz-body" data-step="${id}" data-screen="${id}">${body}</section>
     ${footer()}
     <nav class="wiz-nav"><div class="wiz-nav-inner">
@@ -579,7 +588,7 @@ function dayCardHtml(n, weekday, forPrint) {
       body += '</div>';
     });
   }
-  const foot = `<div class="dc-foot"><span class="dc-brand">BLAZE CAMP</span> ${lg.health && lg.health.short ? `<span class="hw">${h(lg.health.short)}</span>` : ''}${h(lg.short)} ${lg.url ? `<a href="${h(lg.url)}" target="_blank" rel="noopener noreferrer">${h(lg.link_text)}</a>` : ''}</div>`;
+  const foot = `<div class="dc-foot"><span class="dc-brand">${h(t('app.brand'))}</span> ${lg.health && lg.health.short ? `<span class="hw">${h(lg.health.short)}</span>` : ''}${h(lg.short)} ${lg.url ? `<a href="${h(lg.url)}" target="_blank" rel="noopener noreferrer">${h(lg.link_text)}</a>` : ''}</div>`;
   return `<article class="daycard" id="${forPrint ? '' : 'daycard'}" aria-label="${h(card.weekday_name)}">${head}${body}${foot}</article>`;
 }
 
@@ -674,14 +683,30 @@ async function downloadPdf(btn) {
     const JsPDF = await loadJsPdf();
     // let the button repaint before the (short) synchronous build
     await new Promise(r => setTimeout(r, 0));
-    const blob = planPdfBlob(S.plan, S.model, S.lang, t, JsPDF);
-    await deliver(blob, { name: pdfFileName(S.plan), type: 'pdf', title: V.summary(S.plan, S.model, S.lang).program + ' - Blaze Camp', startedAt, words: t });
+    const logo = await pdfLogo();
+    const blob = planPdfBlob(S.plan, S.model, S.lang, t, JsPDF, logo ? { ...BRAND, logo_data: logo } : BRAND);
+    await deliver(blob, { name: pdfFileName(S.plan, BRAND.pdf.file_prefix), type: 'pdf', title: V.summary(S.plan, S.model, S.lang).program + ' - ' + BRAND.name, startedAt, words: t });
   } catch (e) {
     console.warn('pdf', e);
     toast(t('pdf.failed'), 'error');
   } finally {
     delete btn.dataset.busy; btn.disabled = false; btn.innerHTML = old;
   }
+}
+
+/** the brand's logo for the PDF cover as a data URL (fetched once, same origin); null without one or when it cannot be read */
+let logoPromise = null;
+function pdfLogo() {
+  const L = BRAND.pdf && BRAND.pdf.logo;
+  if (!L) return Promise.resolve(null);
+  if (!logoPromise) {
+    logoPromise = fetch(L.src, { credentials: 'same-origin' })
+      .then(r => (r.ok ? r.blob() : null))
+      .then(b => (b ? new Promise(res => { const fr = new FileReader(); fr.onload = () => res(String(fr.result)); fr.onerror = () => res(null); fr.readAsDataURL(b); }) : null))
+      .then(data => (data ? { data, w: L.w, h: L.h } : null))
+      .catch(() => null);
+  }
+  return logoPromise;
 }
 
 async function saveImage(btn) {
@@ -693,7 +718,7 @@ async function saveImage(btn) {
   try {
     const bg = getComputedStyle(node).backgroundColor || '#fff';
     const blob = await nodeToPng(node, { background: bg });
-    const name = `blaze-camp-week${S.week}-${S.day}.png`;
+    const name = `${BRAND.image_prefix}-week${S.week}-${S.day}.png`;
     await deliver(blob, { name, type: 'png', title: t('plan.share_title', { day: mt('weekday.' + S.day) }), startedAt, words: t });
   } catch {
     toast(t('plan.save_failed'), 'error');
@@ -881,7 +906,7 @@ async function boot() {
   render();
   startWorker();
   try {
-    S.model = await fetchModel();
+    S.model = await fetchModel(undefined, (raw) => brandRaw(raw, BRAND, location.href));
   } catch (e) {
     // the real reason in small text (e.g. 'catalog.json: HTTP 401'), so a screenshot is enough to diagnose
     S.loadError = String((e && e.message) || e || '');

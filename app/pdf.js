@@ -12,6 +12,8 @@
 import * as V from './plan-view.js';
 import { plain, stripMarkers } from './md.js';
 import { renderPlan } from '../engine/render.mjs';
+import { BRAND } from './brand.js';
+import { brandUi } from './brand-apply.js';
 
 // ------------------------------------------------------------------------------------------------- text the PDF can hold
 
@@ -38,12 +40,12 @@ export function pdfText(s) {
 }
 const txt = (s) => pdfText(plain(stripMarkers(String(s == null ? '' : s))));
 
-/** 'Blaze-Camp-plan-muscle-2026-10-12.pdf' */
-export function pdfFileName(plan) {
+/** '<brand prefix>-muscle-2026-10-12.pdf' (app/brands/<id>.js > pdf.file_prefix) */
+export function pdfFileName(plan, prefix = BRAND.pdf.file_prefix) {
   const m = (plan && plan.meta) || {};
   const goal = String(m.goal || 'plan').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'plan';
   const start = /^\d{4}-\d{2}-\d{2}$/.test(m.start_date || '') ? m.start_date : '';
-  return `Blaze-Camp-plan-${goal}${start ? '-' + start : ''}.pdf`;
+  return `${prefix}-${goal}${start ? '-' + start : ''}.pdf`;
 }
 
 // ------------------------------------------------------------------------------------------------- what the PDF says
@@ -74,8 +76,11 @@ export function mdLines(md) {
  * @param {object} model the loaded model
  * @param {'en'|'es'} lang
  * @param {(key: string, args?: object) => string} ui  the app's words (i18n.js ui bound to lang)
+ * @param {object} [brand] the brand (app/brands/<id>.js; default: the active one) plus, in the page, `logo_data`: {data, w, h}
  */
-export function pdfDoc(plan, model, lang, ui) {
+export function pdfDoc(plan, model, lang, ui0, brand = BRAND) {
+  const BP = brand.pdf || {};
+  const ui = (k, a) => brandUi(brand, (l, kk, aa) => ui0(kk, aa))(lang, k, a);   // the brand's own words win
   const mt = (k, a) => (model.has('en', k) ? stripMarkers(model.t(lang, k, a)) : k);
   const sm = V.summary(plan, model, lang);
   const lg = V.legal(plan, model, lang);
@@ -102,7 +107,10 @@ export function pdfDoc(plan, model, lang, ui) {
     url: lg.url || '',
     credit: txt(ui('app.credit')),
     generated: txt(ui('print.generated') + ' · ' + mt('ui.plan.model_version', { model: plan.model_version, engine: plan.engine_version })),
-    brand: 'BLAZE CAMP',
+    brand: txt(brand.short),
+    meta: { name: brand.name, author: BP.author || brand.name, creator: BP.creator || brand.name },
+    colors: BP.colors || null,
+    logo: brand.logo_data || null,   // {data: 'data:image/png;base64,...', w, h}: the page fetches brand.pdf.logo
     cols: { exercise: txt(mt('ui.plan.col.exercise')), dose: txt(mt('ui.plan.col.dose')), effort: txt(mt('ui.plan.col.effort')), week: txt(mt('ui.plan.col.week')) },
     page: (n, total) => pdfText(ui('pdf.page', { n, total })),
     weeks: [],
@@ -181,7 +189,7 @@ const PT = { w: 612, h: 792 };                 // US Letter, in points
 const M = { l: 36, r: 36, t: 44, b: 54 };      // margins; the footer sits in the bottom margin
 const CW = PT.w - M.l - M.r;                   // content width
 const COL = { name: 0.5, dose: 0.19 };        // the day table: exercise | sets x reps | effort and rest
-const INK = [20, 20, 22], MUTED = [95, 95, 100], ACCENT = [217, 67, 11], LINE = [205, 205, 210], SHADE = [244, 244, 246];
+const INK0 = [20, 20, 22], MUTED = [95, 95, 100], ACCENT0 = [217, 67, 11], LINE = [205, 205, 210], SHADE = [244, 244, 246];
 
 /**
  * Draw the document with a jsPDF constructor (window.jspdf.jsPDF in the page, the same file in Node for the tests).
@@ -189,7 +197,10 @@ const INK = [20, 20, 22], MUTED = [95, 95, 100], ACCENT = [217, 67, 11], LINE = 
  */
 export function drawPdf(doc, JsPDF) {
   const pdf = new JsPDF({ unit: 'pt', format: 'letter', orientation: 'portrait', compress: true });
-  pdf.setProperties({ title: doc.title + ' - Blaze Camp', subject: doc.subtitle, author: 'Blaze Camp', creator: 'Blaze Camp Plan Builder' });
+  const C = doc.colors || {};
+  const ACCENT = C.accent || ACCENT0, INK = C.ink || INK0, BRANDC = C.brand || ACCENT;   // a brand's colours (app/brands/<id>.js > pdf.colors)
+  const B = doc.meta || {};
+  pdf.setProperties({ title: doc.title + (B.name ? ' - ' + B.name : ''), subject: doc.subtitle, author: B.author || '', creator: B.creator || '' });
   pdf.setLineHeightFactor(1.18);
   let y = M.t;
   const bottom = PT.h - M.b;
@@ -199,7 +210,7 @@ export function drawPdf(doc, JsPDF) {
   const newPage = () => { pdf.addPage(); y = M.t; runningHead(); };
   const need = (h) => { if (y + h > bottom) newPage(); };
   const runningHead = () => {
-    font(7.5, 'bold', ACCENT); pdf.text(doc.brand, M.l, 28);
+    font(7.5, 'bold', BRANDC); pdf.text(doc.brand, M.l, 28);
     font(7.5, 'normal', MUTED); pdf.text(pdf.splitTextToSize(doc.title, CW - 80)[0] || '', PT.w - M.r, 28, { align: 'right' });
     pdf.setDrawColor(...LINE); pdf.setLineWidth(0.5); pdf.line(M.l, 33, PT.w - M.r, 33);
   };
@@ -230,7 +241,10 @@ export function drawPdf(doc, JsPDF) {
   };
 
   // ---- cover
-  font(9, 'bold', ACCENT); pdf.text(doc.brand, M.l, y + 9); y += 22;
+  if (doc.logo && doc.logo.data) {
+    const lw = 74, lhgt = Math.round(lw * doc.logo.h / doc.logo.w);
+    try { pdf.addImage(doc.logo.data, 'PNG', M.l, y, lw, lhgt); y += lhgt + 12; } catch { font(9, 'bold', BRANDC); pdf.text(doc.brand, M.l, y + 9); y += 22; }
+  } else { font(9, 'bold', BRANDC); pdf.text(doc.brand, M.l, y + 9); y += 22; }
   para(doc.title, 22, 'bold', INK, 0, 2);
   para(doc.subtitle, 11.5, 'normal', MUTED, 0, 10);
   pdf.setDrawColor(...ACCENT); pdf.setLineWidth(2); pdf.line(M.l, y, M.l + 60, y); y += 12;
@@ -414,7 +428,7 @@ export function loadJsPdf(src = 'vendor/jspdf.umd.min.js') {
 }
 
 /** the whole plan as a PDF Blob */
-export function planPdfBlob(plan, model, lang, ui, JsPDF) {
-  const pdf = drawPdf(pdfDoc(plan, model, lang, ui), JsPDF);
+export function planPdfBlob(plan, model, lang, ui, JsPDF, brand = BRAND) {
+  const pdf = drawPdf(pdfDoc(plan, model, lang, ui, brand), JsPDF);
   return pdf.output('blob');
 }

@@ -1,14 +1,15 @@
 // app/i18n.js - every word the app itself shows (the plan's own words come from the model: model.t(lang, key, args)).
+// The brand's own words (its name, title, credit ...) are in app/brands/<id>.js > words and win over these (app/brand-apply.js).
 // Pure module: no DOM, no storage. English and Spanish must hold the same keys (tests/app.test.mjs checks it).
 
 export const LANGS = ['en', 'es'];
 
 export const STRINGS = {
   en: {
-    'app.title': 'Blaze Camp - Plan Builder',
-    'app.brand': 'BLAZE CAMP',
+    'app.title': 'Plan Builder',
+    'app.brand': 'PLAN BUILDER',
     'app.sub': 'Plan Builder',
-    'app.credit': 'Model by Coach Lalo (Gerardo Vera), Master NASM coach',
+    'app.credit': 'Plan Builder',
     'app.no_data': 'Nothing you enter is saved or sent anywhere. Your plan is built on this device.',
     'app.loading': 'Loading the coach\'s model...',
     'app.load_failed': 'The training model could not be loaded. Check your connection and reload the page.',
@@ -216,7 +217,7 @@ export const STRINGS = {
     'sheet.pdf_hint': 'Tap Open PDF, then use the Share button to save it to Files or send it.',
     'sheet.close': 'Close',
     'sheet.share_failed': 'Sharing did not open. Use the options below instead.',
-    'plan.share_title': 'Blaze Camp - {day}',
+    'plan.share_title': '{day}',
     'plan.swipe_hint': 'Swipe left or right to change day.',
     'plan.footer_disclaimer': 'Disclaimer and release',
 
@@ -233,7 +234,7 @@ export const STRINGS = {
     'err.generic': 'Please check your answers.',
 
     'print.title': 'Your full plan',
-    'print.generated': 'Built with the Blaze Camp Plan Builder',
+    'print.generated': 'Built with the Plan Builder',
 
     'weekday.short.Mon': 'Mon',
     'weekday.short.Tue': 'Tue',
@@ -244,10 +245,10 @@ export const STRINGS = {
     'weekday.short.Sun': 'Sun'
   },
   es: {
-    'app.title': 'Blaze Camp - Creador de planes',
-    'app.brand': 'BLAZE CAMP',
+    'app.title': 'Creador de planes',
+    'app.brand': 'CREADOR DE PLANES',
     'app.sub': 'Creador de planes',
-    'app.credit': 'Modelo del Coach Lalo (Gerardo Vera), Master NASM coach',
+    'app.credit': 'Creador de planes',
     'app.no_data': 'Nada de lo que escribes se guarda ni se envía. Tu plan se crea en este dispositivo.',
     'app.loading': 'Cargando el modelo del coach...',
     'app.load_failed': 'No se pudo cargar el modelo de entrenamiento. Revisa tu conexión y vuelve a cargar la página.',
@@ -455,7 +456,7 @@ export const STRINGS = {
     'sheet.pdf_hint': 'Toca Abrir PDF y luego usa el botón Compartir para guardarlo en Archivos o enviarlo.',
     'sheet.close': 'Cerrar',
     'sheet.share_failed': 'No se abrió la opción de compartir. Usa las opciones de abajo.',
-    'plan.share_title': 'Blaze Camp - {day}',
+    'plan.share_title': '{day}',
     'plan.swipe_hint': 'Desliza a la izquierda o a la derecha para cambiar de día.',
     'plan.footer_disclaimer': 'Aviso legal y liberación',
 
@@ -472,7 +473,7 @@ export const STRINGS = {
     'err.generic': 'Revisa tus respuestas.',
 
     'print.title': 'Tu plan completo',
-    'print.generated': 'Creado con el Creador de planes de Blaze Camp',
+    'print.generated': 'Creado con el Creador de planes',
 
     'weekday.short.Mon': 'Lun',
     'weekday.short.Tue': 'Mar',

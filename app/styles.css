@@ -1,4 +1,4 @@
-/* Blaze Camp - Plan Builder. Phone first; light and dark; one fire-orange accent. No external fonts. */
+/* Plan Builder. Phone first; light and dark; one accent (the default look; a brand may add its own stylesheet, app/brands/<id>/brand.css). No external fonts. */
 :root {
   --bg: #f4f3ef;
   --card: #ffffff;

@@ -5,8 +5,11 @@ import { loadModel } from '../engine/model.mjs';
 const FILES = { manifest: 'manifest.json', catalog: 'catalog.json', rules: 'rules.json', templates: 'templates.json', profiles: 'profiles.json' };
 const I18N = { en: 'i18n/en.json', es: 'i18n/es.json', es_review: 'i18n/es_review.json' };
 
-/** @param {string|URL} [base] the model folder (default: ../model/ next to this file) */
-export async function fetchModel(base) {
+/**
+ * @param {string|URL} [base] the model folder (default: ../model/ next to this file)
+ * @param {(raw: object) => object} [transform] changes the raw model before loading (the page: the brand's words, app/brand-apply.js)
+ */
+export async function fetchModel(base, transform) {
   const root = base ? new URL(base, import.meta.url) : new URL('../model/', import.meta.url);
   const get = async (f, v, cache) => {
     const u = new URL(f, root);
@@ -25,5 +28,5 @@ export async function fetchModel(base) {
   const raw = { manifest, i18n: {} };
   names.forEach((k, i) => { raw[k] = parts[i]; });
   Object.keys(I18N).forEach((k, i) => { raw.i18n[k] = parts[names.length + i]; });
-  return loadModel(raw);
+  return loadModel(transform ? transform(raw) : raw);
 }

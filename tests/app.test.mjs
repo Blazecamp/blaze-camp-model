@@ -218,7 +218,8 @@ test('app: the page keeps no data - no storage but the language choice, no netwo
   for (const [f, s] of src) {
     assert.ok(!/sessionStorage|indexedDB|document\.cookie|sendBeacon|XMLHttpRequest/.test(s), f);
     const ls = s.match(/localStorage\.(\w+)\(([^)]*)\)/g) || [];
-    for (const call of ls) assert.ok(/'bc\.lang'/.test(call), `${f}: ${call}`);
+    // the language choice only: its key is the brand's storage_key ('bc.lang' / 'sh.lang', tests/app-brand.test.mjs)
+    for (const call of ls) assert.ok(/'bc\.lang'|BRAND\.storage_key/.test(call), `${f}: ${call}`);
     for (const m of s.matchAll(/fetch\(([^,)]+)/g)) assert.ok(!/https?:/.test(m[1]), `${f}: ${m[0]}`);
   }
   // pure modules: no DOM

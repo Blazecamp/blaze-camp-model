@@ -5,6 +5,10 @@
 //   iPhone, no share -> the fallback sheet: "Open PDF" (a blob: link, opened in a new tab) / the image to press and hold
 // Each PDF is checked: starts with %PDF, page count, size, and (with pypdf, when installed) its text: accents, release line.
 // Playwright is not a dependency of this repo: install it in a scratch folder and point BC_PLAYWRIGHT at it (see app/README.md).
+// Another brand's build (tools/build-site.mjs --brand sonhabitos): BC_PDF_PREFIX=Son-Habitos-plan BC_FORBID_NAMES=1 (the PDF text
+// must not name Blaze Camp, Gerardo or Coach Lalo; "Lalo Vera" only inside the legal parties).
+const PREFIX = process.env.BC_PDF_PREFIX || 'Blaze-Camp-plan';
+const FORBID = !!process.env.BC_FORBID_NAMES;
 const { chromium, devices } = await import(process.env.BC_PLAYWRIGHT || 'playwright');
 import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -30,7 +34,7 @@ function checkPdf(file, c, label) {
   const pages = (b.toString('latin1').match(/\/Type \/Page\b/g) || []).length;
   let info = { pages };
   try {
-    const py = `import sys, json, pypdf\nr = pypdf.PdfReader(sys.argv[1])\nt = '\\n'.join(p.extract_text() or '' for p in r.pages)\nprint(json.dumps({'pages': len(r.pages), 'word': sys.argv[2] in t, 'accents': sum(t.count(x) for x in 'áéíóúñ¿¡'), 'page1': ('Page 1 of' in t) or ('Página 1 de' in t), 'release_pages': sum(1 for p in r.pages if ('own risk' in (p.extract_text() or '')) or ('propio riesgo' in (p.extract_text() or '')))}))`;
+    const py = `import sys, json, re, pypdf\nr = pypdf.PdfReader(sys.argv[1])\nt = '\\n'.join(p.extract_text() or '' for p in r.pages)\nprint(json.dumps({'pages': len(r.pages), 'word': sys.argv[2] in t, 'accents': sum(t.count(x) for x in 'áéíóúñ¿¡'), 'page1': ('Page 1 of' in t) or ('Página 1 de' in t), 'release_pages': sum(1 for p in r.pages if ('own risk' in (p.extract_text() or '')) or ('propio riesgo' in (p.extract_text() or ''))), 'names': re.findall(r'.{0,30}(?:Blaze|BLAZE|Gerardo|Lalo(?! Vera (?:and|y) BFit)).{0,30}', re.sub(r'\\s+', ' ', t))}))`;
     info = JSON.parse(execFileSync('python3', ['-I', '-c', py, file, c.word], { encoding: 'utf8' }));
   } catch (e) { info.pypdf = 'not available: ' + String(e.message).split('\n')[0]; }
   console.log(`  ${label}: ${file.split('/').pop()} ${(b.length / 1024).toFixed(0)} KB ${JSON.stringify(info)}`);
@@ -40,6 +44,7 @@ function checkPdf(file, c, label) {
   if (info.word === false) fail(`${label}: "${c.word}" missing`);
   if (c.lang === 'es' && info.accents === 0) fail(`${label}: no accents`);
   if (info.page1 === false) fail(`${label}: no page numbers`);
+  if (FORBID && info.names && info.names.length) fail(`${label}: names ${JSON.stringify(info.names.slice(0, 3))}`);
   if (typeof info.release_pages === 'number' && info.release_pages !== info.pages) fail(`${label}: release line on ${info.release_pages} of ${info.pages} pages`);
 }
 
@@ -116,7 +121,7 @@ for (const c of CASES) {
     const file = OUT + `desktop-${c.lang}-` + dl.suggestedFilename();
     await dl.saveAs(file);
     console.log(`  desktop: download "${dl.suggestedFilename()}" in ${Date.now() - t0} ms; toast: ${await page.textContent('#bc-toast')}`);
-    if (!/^Blaze-Camp-plan-[a-z-]+-\d{4}-\d{2}-\d{2}\.pdf$/.test(dl.suggestedFilename())) fail('desktop: file name ' + dl.suggestedFilename());
+    if (!new RegExp('^' + PREFIX + '-[a-z-]+-\\d{4}-\\d{2}-\\d{2}\\.pdf$').test(dl.suggestedFilename())) fail('desktop: file name ' + dl.suggestedFilename());
     checkPdf(file, c, 'desktop');
     // a second press (jsPDF already loaded) is quicker
     const t1 = Date.now();
