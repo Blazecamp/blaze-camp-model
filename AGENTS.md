@@ -63,7 +63,7 @@ When two sources disagree, the higher one wins:
 | 1 (newest) | `coach_answers_round5.md` | `COACH-R5 <id>` | `R5-GRD-01..08`, `R5-VOL-01..05, 07..11`, `R5-ATH-01..05, 07..12`, `R5-CLS-01..07`, `R5-LIB-01..02`, `R5-GEN-01..03`, `R5-PUB-01..02` (43) |
 | 1 (newest; scoped) | `coach_answers_chat_2026-10-11.md` | `COACH-CH5 <id>` | `CH5-01..03`; only team practices, the athletic arm slot, big groups above the template's slots |
 | 1 (newest; scoped) | `coach_answers_chat_2026-10-13.md` | `COACH-CH6 <id>` | `CH6-01..02`; only a dip above the bench, and exercises people add themselves |
-| 1 (newest; scoped) | `coach_answers_chat_2026-10-13b.md` | `COACH-CH7 <id>` | `CH7-01..08`; only the web tool: brands and the legal party, the public plan API, release acceptance by agents, the "More supersets" option (G-313), library-only edits in version 1 |
+| 1 (newest; scoped) | `coach_answers_chat_2026-10-13b.md` | `COACH-CH7 <id>` | `CH7-01..09`; only the web tool: brands and the legal party, the public plan API, release acceptance by agents, the "More supersets" option (G-313), library-only edits in version 1, and plain words: every explanation at an elementary school reading level (CH7-09, G-315) |
 | 2 | `coach_answers_round4.md` | `COACH-R4 <id>` | `R4-SES-01..05`, `R4-PRG-01..04`, `R4-LIB-01..05`, `R4-SCP-01..03`, `R4-REL-01..03` (20) |
 | 2 (scoped) | `coach_answers_time_2026-10-10.md` | `COACH-CT CT-01` | `CT-01`; only the subject of fitting plans to session time |
 | 3 (scoped) | `coach_answers_codex_2026-10-10.md` | `COACH-CX <id>` | `CX-01..04`; only progression and editing |
@@ -239,7 +239,7 @@ team work ─────┘          │
 ```
 
 * `tools/fixture/rules.mjs` (the architect's normative reading) and `tools/compile/rules.mjs` (the compiler's port) both build `rules`. `model/rules.json` must deep-equal the fixture's `rules` (`tests/compile.test.mjs`).
-* The **amendment layers** in `tools/fixture/` are shared by both builders and applied in order: `review-v12.mjs`, `round3.mjs`, `athletic-b2.mjs`, `render-b3.mjs`, `integrate-b4.mjs`, `fix-r1-f*.mjs`, `fix-r2-f*.mjs` (engine 0.4), then `v05-structure.mjs`, `v05-words.mjs`, `v05-library.mjs`, `v05-integrate.mjs`, `v05-fix1.mjs`, `v05-fix2.mjs` (engine 0.5), `v06-volume.mjs`, `v06-select.mjs`, `v06-words.mjs` (engine 0.6), `v07-volume.mjs`, `v07-select.mjs`, `v07-words.mjs` (engine 0.7; `v07-words.mjs` also holds the model version 1.4.0). A rule change made in a layer reaches both builds.
+* The **amendment layers** in `tools/fixture/` are shared by both builders and applied in order: `review-v12.mjs`, `round3.mjs`, `athletic-b2.mjs`, `render-b3.mjs`, `integrate-b4.mjs`, `fix-r1-f*.mjs`, `fix-r2-f*.mjs` (engine 0.4), then `v05-structure.mjs`, `v05-words.mjs`, `v05-library.mjs`, `v05-integrate.mjs`, `v05-fix1.mjs`, `v05-fix2.mjs` (engine 0.5), `v06-volume.mjs`, `v06-select.mjs`, `v06-words.mjs` (engine 0.6), `v07-volume.mjs`, `v07-select.mjs`, `v07-words.mjs` (engine 0.7; `v07-words.mjs` also holds the model version 1.4.0), and last `v07-plain.mjs` (plain words, values only, CH7-09). A rule change made in a layer reaches both builds.
 * The compiler does not read `BLAZE_CAMP_BRAIN.md` or the round-3, round-4, round-5 and chat answer files. Such a number reaches the engine only through the spec / synthesis JSON plus the rule builders or an amendment layer. So the documents and the layers must be kept in step by hand.
 * The compiler cross-checks key numbers against the sources (`tools/compile/crosscheck.mjs`, results in `model/COMPILE_REPORT.json`) and records every coach-correction patch and every layer in `model/CHANGELOG.md`.
 
@@ -428,6 +428,7 @@ Product rules that are just as hard:
 * Engine and plan use keys only (`exercise.<id>.name`, `note.*`, `warning.*`, `why.*` …; namespaces in CONTRACTS §1.6). No hard-coded words in `engine/`.
 * Every key needs EN and ES. Machine-translated ES lines are listed in `model/i18n/es_review.json > machine_translated` until the coach approves them.
 * `[LEGAL REVIEW]` copy (health check, release, coach bypass warning, the release line) is used verbatim and never edited by the engine or by you.
+* **Plain words (COACH-CH7 CH7-09):** "all explanations should be elementary school reading comprehension". Write every explanation (EN and ES) at about a 3rd-5th grade level: short sentences, common words, one idea per sentence, jargon replaced or explained ("reps left in the tank", "effort 8 out of 10"). Model words go in `tools/fixture/v07-plain.mjs` (values of existing keys, applied last by both builds); web tool words in `app/i18n.js`. Score with `node tools/readability.mjs [--lang es]`; `tests/v07-plain-words.test.mjs` holds the limits (EN mean <= 5, max 8; ES mean <= 5.5, max 9), the jargon list and every placeholder (G-315).
 
 ### 11.5 Engine code
 

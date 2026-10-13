@@ -76,6 +76,10 @@ Applied after the v0.6 layers by both builds (engine/DECISIONS.md G-250 ...; coa
 
 Applied after the v0.6 layers by both builds (engine/DECISIONS.md G-270 ...): `legal.health_flag` (COACH-R5 R5-GEN-02: a health-check flag no longer stops the plan; the plan is built and prints a health warning in EN and ES, [LEGAL REVIEW]; severe pain builds with the moderate pain rules and the same warning, PROPOSED) and `render.v7` (R5-GRD-06: the core block printed as optional and adjustable); new EN / ES lines listed in `i18n/es_review.json > priority_review`.
 
+### Plain words layer (tools/fixture/v07-plain.mjs)
+
+Applied last by both builds (COACH-CH7 CH7-09, coach_answers_chat_2026-10-13b.md: "all explanations should be elementary school reading comprehension"; engine/DECISIONS.md G-315): the values of existing explanation keys rewritten in plain English and plain Spanish (short sentences, common words, jargon explained), with the same meaning and the same placeholders. Words only: no key, rule, number or exercise name changes; [LEGAL REVIEW] copy, the coach's own lines and his warning sentence are kept verbatim. Grades: reviews/plain-words-2026-10-13.md (tools/readability.mjs); new ES lines listed in `i18n/es_review.json > priority_review`.
+
 ### Sources (sha256)
 
 - `generator_spec_v1.json` 5dadc04bc53b3eb01dc9bd30d65017900479e7ef1315c9d55daea5efee64d913
@@ -181,8 +185,8 @@ Applied after the v0.6 layers by both builds (engine/DECISIONS.md G-270 ...): `l
 
 Neutral Latin American Spanish, English gym term in brackets (R2-GEN-08). Every line is PROPOSED until the coach (or a coach he trusts) approves it; lines machine-translated by the compiler are listed in `i18n/es_review.json > machine_translated`. [LEGAL REVIEW] copy (health check, release, coach bypass) is taken verbatim from the spec.
 
-- architect_wordlist: 1469 lines
+- architect_wordlist: 1499 lines
 - b1_machine_translation: 795 lines
 - profiles_04: 383 lines
-- spec: 146 lines
-- v3_spanish_review: 41 lines
+- spec: 136 lines
+- v3_spanish_review: 21 lines

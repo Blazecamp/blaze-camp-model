@@ -26,6 +26,7 @@ import { renderPlan, renderWeek, renderDay, renderBlockView } from '../engine/re
 import { groupCredits } from '../engine/lines.mjs';
 import { UI_V3, REMOVED_V3, ES_REVIEW_V3, CHECKS_V3 } from '../tools/fixture/v05-words.mjs';
 import { makeContext, scorePlan, METRICS, SCORER_VERSION } from '../design/bench/score.mjs';
+import { UI_P7 } from '../tools/fixture/v07-plain.mjs'; // plain words win over every earlier layer (CH7-09, G-315)
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const MODELS = [['fixture', loadFixtureModel()]];
@@ -174,7 +175,7 @@ for (const [mname, model] of MODELS) {
       }
       const en = t('en', 'ui.plan.progress.double', { low: 8, high: 12, rir: '1-2' });
       assert.equal(en, 'Progress: when you hit 12 on every set with 1-2 left in the tank, add weight next time and start again at 8.');
-      assert.equal(t('es', 'ui.plan.progress.double', { low: 8, high: 12, rir: '1-2' }), 'Progresión: cuando llegues a 12 en todas las series con 1-2 en reserva, sube el peso la próxima vez y vuelve a empezar en 8.');
+      assert.equal(t('es', 'ui.plan.progress.double', { low: 8, high: 12, rir: '1-2' }), 'Para avanzar: cuando llegues a 12 en todas las series con 1-2 de sobra, sube el peso la próxima vez y vuelve a empezar en 8.'); // plain words (CH7-09, G-315): wording converted
     });
 
     it('R4-PRG-03: "How you progress" says the rule with an example from the plan, and no line promises a number for a week', () => {
@@ -269,7 +270,7 @@ for (const [mname, model] of MODELS) {
         const p = planOf(n);
         for (const d of p.weeks[0].days.filter(x => ['main', 'optional'].includes(x.kind) && typeof x.est_minutes === 'number')) {
           const card = unesc(renderDay(p, 1, d.weekday, model, { lang }));
-          const m = (lang === 'en' ? /Average time: about (\d+)-(\d+) min \(an estimate, for information only\)/ : /Tiempo promedio: aprox\. (\d+)-(\d+) min \(un estimado, solo como información\)/).exec(card);
+          const m = (lang === 'en' ? /Average time: about (\d+)-(\d+) min \(an estimate, just so you know\)/ : /Tiempo promedio: unos (\d+)-(\d+) min \(un cálculo, solo para que sepas\)/).exec(card); // plain words (CH7-09, G-315): wording converted, still an estimate for information only
           assert.ok(m, `${n} ${lang} ${d.weekday}: ${card.split('\n')[1]}`);
           const [lo, hi] = [Number(m[1]), Number(m[2])];
           assert.ok(lo < hi && lo % E.round_to_min === 0 && hi % E.round_to_min === 0 && lo <= d.est_minutes && d.est_minutes <= hi, `${n} ${d.weekday}: ${lo}-${hi} around ${d.est_minutes}`);
@@ -279,8 +280,8 @@ for (const [mname, model] of MODELS) {
         // nothing reads like a limit
         assert.ok(!/over your minutes|minutes over|longer than your|session length|más de tus minutos|duración de la sesión/i.test(out), `${n} ${lang}`);
       }
-      assert.match(t('en', 'guide.adjust.time'), /nothing in this plan is cut or changed because of time/);
-      assert.match(t('es', 'guide.adjust.time'), /nada de este plan se recorta ni se cambia por tiempo/);
+      assert.match(t('en', 'guide.adjust.time'), /nothing in this plan is cut or changed because of time/i); // plain words (CH7-09, G-315): wording converted
+      assert.match(t('es', 'guide.adjust.time'), /nada de este plan se corta ni cambia por el tiempo/i);
     });
 
     it('CT-01: no check of the validator and no metric of the scorer is about minutes; a long estimate changes nothing', () => {
@@ -539,12 +540,13 @@ for (const [mname, model] of MODELS) {
       const ph = (s) => [...new Set([...String(s).matchAll(/\{([a-z_]+)\}/g)].map(m => m[1]))].sort().join(',');
       // (G-211: the counting note's '-' sentence became its own legend line, printed only with a '-' cell - read in UI_W6)
       for (const [k, [en, es]] of Object.entries(UI_V3)) {
+        if (k in UI_P7) continue; // (plain words, CH7-09 / G-315: a line the last words layer rewrote is checked in tests/v07-plain-words.test.mjs)
         if (k === 'ui.plan.weekly_sets_groups_note') { assert.ok(en.startsWith(model.i18n.en[k]) && model.i18n.en['ui.plan.sets_legend_dash'] && en.endsWith(model.i18n.en['ui.plan.sets_legend_dash'])); continue; }
         assert.equal(model.i18n.en[k], en, k); assert.equal(model.i18n.es[k], ES_REVIEW_V3[k] || es, k + ' (es)');
         assert.equal(ph(model.i18n.es[k]), ph(en), 'placeholders of ' + k);
         assert.ok(!/\b(vosotros|vuestr[oa]s?|coged|haced|ordenador|vale)\b/i.test(model.i18n.es[k]), k + ': not neutral Latin American');
       }
-      for (const [k, es] of Object.entries(ES_REVIEW_V3)) if (model.has('en', k)) { assert.equal(model.i18n.es[k], es, k); assert.equal(ph(es), ph(model.i18n.en[k]), 'placeholders of ' + k); }
+      for (const [k, es] of Object.entries(ES_REVIEW_V3)) if (model.has('en', k) && !(k in UI_P7)) { assert.equal(model.i18n.es[k], es, k); assert.equal(ph(es), ph(model.i18n.en[k]), 'placeholders of ' + k); }
       // one word per idea on the plan: the release is a 'liberación de responsabilidad', never a 'descargo'
       for (const [k, v] of Object.entries(model.i18n.es)) if (/^(ui\.plan\.|warning\.|release\.(short|who|label|own_risk|full_text_link))/.test(k)) assert.ok(!/descargo/i.test(v), k + ': ' + v);
       assert.match(model.i18n.es['ui.plan.easy_kind.conditioning_finisher'], /\(finisher\)/);

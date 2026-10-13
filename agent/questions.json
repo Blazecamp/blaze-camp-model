@@ -10,7 +10,8 @@
   "Ask all 5 health questions (or \"none of these apply\"). A yes does not stop the plan: it is built with a health warning (see a medical professional first). Never say which answer caused it.",
   "Before building, show the release text (release.<version> below, in the plan language) and get an explicit \"I accept\" from the person in this conversation (for role client: from the coach; under 18: from a parent or legal guardian, then guardian: true). Never assume or pre-tick acceptance. Only then send accepted: true.",
   "When the person building the plan is not the one talking to you (for example the coach sends it to a client), or they prefer to accept on the web page, give them the prefilled link instead: it opens the web tool with every answer filled in, and they answer the health check, accept the release and tap Build themselves.",
-  "Nothing is stored: do not keep the answers after the plan is delivered."
+  "Nothing is stored: do not keep the answers after the plan is delivered.",
+  "Talk in plain words (the coach's rule): short sentences, common words, one idea at a time, no jargon without a plain explanation (\"reps left in the tank\", not \"RIR\"). Keep exercise names as given, and show the release and the health warning exactly as given."
  ],
  "never_ask": [
   "sex",
@@ -158,8 +159,8 @@
    "default": 30,
    "required": true,
    "notes": {
-    "en": "Under 18: a parent or legal guardian accepts the release at the last step.",
-    "es": "Menores de 18: un padre, madre o tutor legal acepta la liberación en el último paso."
+    "en": "Under 18: a parent or guardian accepts the release at the last step.",
+    "es": "Menores de 18: un padre, madre o tutor acepta la liberación en el último paso."
    }
   },
   {
@@ -2525,8 +2526,8 @@
     {
      "value": "v_taper",
      "label": {
-      "en": "V-taper (back + shoulders; uses both slots)",
-      "es": "Forma en V (espalda + hombros; usa ambos espacios)"
+      "en": "V shape (back and shoulders; uses both picks)",
+      "es": "Forma en V (espalda y hombros; usa las dos opciones)"
      }
     },
     {
@@ -2582,8 +2583,8 @@
    "default": [],
    "required": false,
    "notes": {
-    "en": "Pick up to 2 muscles to grow a little faster (optional). The plan adds about 2 weekly sets to each.",
-    "es": "Elige hasta 2 músculos para que crezcan un poco más rápido (opcional). El plan les suma unas 2 series por semana a cada uno.",
+    "en": "Pick up to 2 muscles to grow a bit faster (optional). The plan adds about 2 sets a week to each.",
+    "es": "Elige hasta 2 músculos para que crezcan un poco más rápido (opcional). El plan les suma unas 2 series por semana.",
     "rule": "At most 2 slots; v_taper takes both."
    }
   },
@@ -2671,8 +2672,8 @@
    "default": 3,
    "required": true,
    "notes": {
-    "en": "2 days works: every big muscle is still trained. A third day lets every muscle reach 10 sets.",
-    "es": "Con 2 días se puede: cada músculo grande se sigue entrenando. Un tercer día permite llegar a 10 series por músculo."
+    "en": "2 days works. Every big muscle still gets trained. A third day lets each muscle reach 10 sets.",
+    "es": "Con 2 días se puede. Cada músculo grande se sigue entrenando. Un tercer día deja que cada músculo llegue a 10 series."
    }
   },
   {
@@ -2844,8 +2845,8 @@
    "screen": "week",
    "when": "goal == \"muscle\" and days in [4, 6]",
    "prompt": {
-    "en": "Split",
-    "es": "División"
+    "en": "How the week is split",
+    "es": "Cómo se divide la semana"
    },
    "type": "choice",
    "choices": [

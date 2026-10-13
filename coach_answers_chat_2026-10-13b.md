@@ -61,3 +61,9 @@ Coach Lalo (Gerardo Vera), in the build conversation about the web tool. Quoted 
 **Answer (verbatim):** "I think right now, editing uses library exercises only should be fine this is the mvp. We can learn from this and maybe add it in the next round when we do V2."
 
 **Reading.** Version 1 (the MVP) edits with library exercises only. The person's own exercise (CH6-02) moves to version 2.
+
+## CH7-09 Plain words
+
+**Answer (verbatim, 2026-10-13):** "all explanations should be elementary school reading comprehension"
+
+**Reading.** Every explanation a person reads, in the web tool, the printed plan (Markdown, day cards, PDF) and what an agent says, reads at about a 3rd-5th grade level, in English and in neutral Latin American Spanish: short sentences (about 12-15 words at most), common words, active voice, one idea per sentence, and no jargon without a plain explanation ("RIR" is "reps left in the tank", "RPE 8" is "effort 8 out of 10", the stairway is "the plan adds sets week by week", a back-off set is "a lighter set"). Words only: the meaning, the numbers and the rules stay exactly the same. Exercise names, labels and the [LEGAL REVIEW] copy (release, health warning, disclaimers) are not rewritten; the legal copy waits for the attorney. Built in `tools/fixture/v07-plain.mjs` (model words) and `app/i18n.js` (web tool words); grades in `reviews/plain-words-2026-10-13.md`; checked by `tests/v07-plain-words.test.mjs` (DECISIONS G-315).

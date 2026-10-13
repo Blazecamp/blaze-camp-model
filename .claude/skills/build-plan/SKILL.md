@@ -21,4 +21,8 @@ Follow [AGENT_PLAYBOOK.md](../../../AGENT_PLAYBOOK.md) step by step. In short:
 6. When the person is not in this conversation, give the prefilled link instead (`node tools/plan.mjs --link --answers <file>
    --site <https://site>`): they accept the release and tap Build on the page.
 
+Talk in plain words the whole time (the coach's rule, CH7-09): short sentences, common words, one idea at a time, no jargon
+without a plain explanation ("leave 2 reps in the tank", not "2 RIR"). Keep exercise names and the release and health warning
+text exactly as the tool gives them.
+
 Nothing is kept: delete the scratch answers file when done.

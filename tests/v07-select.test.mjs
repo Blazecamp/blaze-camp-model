@@ -19,6 +19,7 @@ import { jumpLevel } from '../engine/select.mjs';
 import { randomIntake } from './helpers/random-intake.mjs';
 import { makeContext, scorePlan } from '../design/bench/score.mjs';
 import { amendRulesV07, amendTemplatesV07, amendExerciseV07, addedExercisesV07, UI_V07, ADDED_V07 } from '../tools/fixture/v07-select.mjs';
+import { UI_P7 } from '../tools/fixture/v07-plain.mjs'; // plain words win over every earlier layer (CH7-09, G-315)
 
 const clone = (x) => JSON.parse(JSON.stringify(x));
 const EPS = 1e-9;
@@ -69,7 +70,7 @@ describe('v0.7 selection - the amendment layer', () => {
       assert.ok(sec && Array.isArray(sec.refs) && sec.refs.some(r => /^R5-/.test(r)), name + ': refs');
       assert.ok(typeof sec.status === 'string' && sec.status.length > 0, name + ': status');
     }
-    for (const [k, v] of Object.entries(UI_V07)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k); assert.equal(model.t('en', k), v[0], k); assert.equal(model.t('es', k), v[1], k); }
+    for (const [k, v] of Object.entries(UI_V07)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k); if (k in UI_P7) continue; assert.equal(model.t('en', k), v[0], k); assert.equal(model.t('es', k), v[1], k); } // (plain words, CH7-09 / G-315: a line the last words layer rewrote is checked in tests/v07-plain-words.test.mjs)
   });
   it('the new records: never a band, chain or releaser (H01), a YouTube search link built from the name (R4-LIB-05), an English and a Spanish name', () => {
     for (const id of ADDED_V07) {
@@ -216,8 +217,9 @@ describe('v0.7 selection - R5-GRD-08 knee pain: assisted jumps and the pain scal
     assert.ok(w);
     assert.deepEqual(w.args, { above: 6, max: 10 });
     const en = renderPlan(p, model, { lang: 'en' }), es = renderPlan(p, model, { lang: 'es' });
-    assert.ok(en.includes('above 6 on a scale of 1 to 10 (10 = you need a hospital)'), 'EN');
-    assert.ok(es.includes('por encima de 6 en una escala del 1 al 10 (10 = necesitas ir al hospital)'), 'ES');
+    // plain words (CH7-09, DECISIONS G-315): wording converted, same numbers
+    assert.ok(en.includes('on a scale of 1 to 10, 10 means you need a hospital. Skip the jumps on any day your pain is above 6.'), 'EN');
+    assert.ok(es.includes('en una escala del 1 al 10, 10 quiere decir que necesitas un hospital. No hagas los saltos el día que tu dolor pase de 6.'), 'ES');
     for (const n of ['01', '02', '03']) assert.ok(!planOf(n).meta.warnings.some(x => x.code === 'jump_pain_scale'), n);
   });
   it('R5-GRD-08: a soccer player with knee pain starts assisted too (rack, rail or suspension trainer; never a band)', () => {
@@ -286,8 +288,8 @@ describe('v0.7 selection - R5-GRD-04 named benchmark workouts', () => {
       assert.ok((x.it.notes || []).some(n => n.key === 'note.wod_named_' + W.named.kind));
     }
     const en = renderPlan(p, model, { lang: 'en' });
-    assert.match(en, /Today's WOD is "[A-Z][A-Za-z ]+", a "Girl" benchmark workout/);
-    assert.match(en, /a "Hero" workout from the CrossFit community/);
+    assert.match(en, /Today's WOD is "[A-Z][A-Za-z ]+"\. It is a "Girl" test workout/); // plain words (CH7-09, DECISIONS G-315): wording converted, same rule
+    assert.match(en, /a "Hero" workout from the CrossFit world/);
   });
   it('R5-GRD-04 / H12 / V4: a 60+ or a youth class member\'s named workouts keep the age rules (sweep random 6, 118: an Isabel DB snatch at 66, a Diane pike push-up at 15)', () => {
     for (const i of [6, 20, 34, 118, 132, 146]) {
@@ -314,7 +316,7 @@ describe('v0.7 selection - R5-GRD-05 the bootcamp\'s two formats', () => {
     if (ebs.length > 1) assert.notDeepEqual(fmtOf(p.weeks.find(w => w.exercise_block === ebs[0])), fmtOf(p.weeks.find(w => w.exercise_block === ebs[1])));
     assert.ok(p.meta.warnings.some(w => w.code === 'bootcamp_format'));
     const en = renderPlan(p, model, { lang: 'en', view: 'week', weeks: [1] }), es = renderPlan(p, model, { lang: 'es', view: 'week', weeks: [1] });
-    assert.ok(en.includes('In rounds: go through every station once') && en.includes('Station by station: do all'), 'EN');
+    assert.ok(en.includes('In rounds: do every station once') && en.includes('Station by station: do all'), 'EN'); // plain words (CH7-09, DECISIONS G-315): wording converted, same rule
     assert.ok(es.includes('En rondas:') && es.includes('Estación por estación:'), 'ES');
     assert.match(en, /\d sets x \d+ s/, 'a station day reads sets');
   });

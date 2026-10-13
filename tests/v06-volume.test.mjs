@@ -19,6 +19,7 @@ import { loadFixtureModel, loadCompiledModel, loadSample, readModelDir, readFixt
 import { generate } from '../engine/generate.mjs';
 import { renderPlan } from '../engine/render.mjs';
 import { amendRulesV06, amendSportV06, UI_V06 } from '../tools/fixture/v06-volume.mjs';
+import { UI_P7 } from '../tools/fixture/v07-plain.mjs'; // plain words win over every earlier layer (CH7-09, G-315)
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BENCH_DIR = path.join(ROOT, 'design', 'bench', 'intakes');
@@ -59,7 +60,7 @@ describe('v0.6 volume - the amendment layer', () => {
   it('every new rule section names its coach answers; the words are in English and Spanish', () => {
     for (const [k, sec] of Object.entries(PX3)) if (sec && typeof sec === 'object' && !Array.isArray(sec)) assert.ok(Array.isArray(sec.refs) && sec.refs.length, 'placement.x3.' + k + ': refs');
     for (const [k, sec] of Object.entries(VX3)) if (sec && typeof sec === 'object' && !Array.isArray(sec)) assert.ok(Array.isArray(sec.refs) && sec.refs.length, 'volume.x3.' + k + ': refs');
-    for (const [k, v] of Object.entries(UI_V06)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k); assert.equal(model.t('en', k), v[0], k); assert.equal(model.t('es', k), v[1], k); }
+    for (const [k, v] of Object.entries(UI_V06)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k); if (k in UI_P7) continue; assert.equal(model.t('en', k), v[0], k); assert.equal(model.t('es', k), v[1], k); } // (plain words, CH7-09 / G-315: a line the last words layer rewrote is checked in tests/v07-plain-words.test.mjs)
   });
   it('UNI-02 (G-112): the profiles that keep the upper body at maintenance carry the flag (soccer, sprinters), the others do not', () => {
     const sp = model.rules && raw.profiles.sports;

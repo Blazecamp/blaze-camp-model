@@ -15,6 +15,7 @@ import { validatePlan } from '../engine/validate.mjs';
 import { applyPlanEdits } from '../engine/edit.mjs';
 import { safetyScreen } from '../engine/intake.mjs';
 import { amendRulesW7, UI_W7, ES_PRIORITY_W7 } from '../tools/fixture/v07-words.mjs';
+import { UI_P7 } from '../tools/fixture/v07-plain.mjs'; // plain words win over every earlier layer (CH7-09, G-315)
 
 const clone = (x) => JSON.parse(JSON.stringify(x));
 const NAMES = { '01': '01-swimming', '02': '02-football', '03': '03-soccer', '04': '04-crossfit-style-bootcamp', '05': '05-bootcamp', '06': '06-full-body-aesthetics', '07': '07-push-pull-legs', '08': '08-pickleball-genpop' };
@@ -47,7 +48,7 @@ describe('v0.7 words - the amendment layer', () => {
   it('R2-GEN-08 / H14: every new line has EN and ES with the same placeholders; the machine-written Spanish waits in es_review.priority_review', () => {
     const PH = (s) => [...String(s).matchAll(/\{([a-z_]+)\}/g)].map(m => m[1]).sort().join(',');
     for (const [k, [en, es]] of Object.entries(UI_W7)) {
-      assert.equal(raw.i18n.en[k], en, k); assert.equal(raw.i18n.es[k], es, k);
+      if (!(k in UI_P7)) { assert.equal(raw.i18n.en[k], en, k); assert.equal(raw.i18n.es[k], es, k); } // (plain words, CH7-09 / G-315: a line the last words layer rewrote is checked in tests/v07-plain-words.test.mjs)
       assert.equal(PH(en), PH(es), `placeholders ${k}`);
     }
     if (compiled) for (const k of ES_PRIORITY_W7) assert.ok(raw.i18n.es_review.priority_review.includes(k), k);

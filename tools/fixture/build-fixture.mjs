@@ -33,6 +33,7 @@ import { amendRulesW6, UI_W6 } from './v06-words.mjs';
 import { amendRulesS6, amendTemplatesS6, amendExerciseS6, amendSportS6, UI_S6 } from './v06-select.mjs';
 import { amendRulesV07, amendExerciseV07, UI_V07 } from './v07-volume.mjs';
 import { amendRulesW7, UI_W7, V07_MODEL_VERSION } from './v07-words.mjs';
+import { UI_P7 } from './v07-plain.mjs';
 import { amendRulesV07 as amendRulesS7, amendTemplatesV07, amendExerciseV07 as amendExerciseS7, addedExercisesV07, amendSportV07, UI_V07 as UI_S7 } from './v07-select.mjs';
 
 const spec = readJSON(path.join(BASE, 'generator_spec_v1.json'));
@@ -198,6 +199,7 @@ for (const [k, [e, s]] of Object.entries(UI_W6)) { en[k] = e; if (s !== undefine
 for (const [k, [e, s]] of Object.entries(UI_V07)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.7 volume words (v07-volume.mjs)
 for (const [k, [e, s]] of Object.entries(UI_S7)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.7 / selection words win over every earlier layer (v07-select.mjs)
 for (const [k, [e, s]] of Object.entries(UI_W7)) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // engine 0.7 words: the health warning, the optional core block (v07-words.mjs)
+for (const [k, [e, s]] of Object.entries(UI_P7)) if (k in en) { en[k] = e; if (s !== undefined && s !== null) es[k] = s; } // plain words (COACH-CH7 CH7-09, v07-plain.mjs): values only, last of all
 attachVideoSearchV2(exercises, en); // R4-LIB-05: a YouTube search link built from the final English name (v05-library.mjs)
 const sortObj = (o) => Object.fromEntries(Object.entries(o).sort(([a], [b]) => (a === '_meta' ? -1 : b === '_meta' ? 1 : a < b ? -1 : a > b ? 1 : 0)));
 const esMissing = Object.keys(en).filter(k => k !== '_meta' && !(k in es)).sort();

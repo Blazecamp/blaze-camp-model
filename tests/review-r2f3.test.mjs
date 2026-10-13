@@ -425,7 +425,7 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
     for (const w of p.weeks) {
       const lines = changesText(p, w.n, model, 'en');
       assert.ok(!lines.includes(model.t('en', 'changes.load_up')), `w${w.n}: ${lines.join(' | ')}`);
-      if (lines.some(l => /^Keep your weights this week \(the stations got longer\); add load only where you finish a station with more than [\d-]+ reps left$/.test(l))) seen++;
+      if (lines.some(l => /^Keep your weights this week\. The stations got longer\. Add weight only if you end a station with more than [\d-]+ reps left$/.test(l))) seen++; // plain words (CH7-09, DECISIONS G-315): wording converted, same rule
     }
     // (v0.5 fix round 2 (converted; DECISIONS G 'Tests converted in fix round 2'): the seconds grow in 3 of the 8 weeks now - 35 35 40 40 45 45 50 50)
     assert.ok(seen >= 3, String(seen));
@@ -524,7 +524,7 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
     const s6 = md('06'), s8 = md('08'), s7 = md('07');
     assert.ok(!/or a test day/.test(s6) && !/or a test day/.test(s8));
     assert.ok(/or a test day/.test(md('01')));
-    const adj = (s) => s.split('\n').find(l => l.startsWith('- You (or your coach) can switch off these blocks'));
+    const adj = (s) => s.split('\n').find(l => l.startsWith('- ' + model.t('en', 'guide.adjust.edit_blocks', { blocks: '\u0000' }).split('\u0000')[0])); // plain words (CH7-09, DECISIONS G-315): wording converted, same rule
     // (engine 0.7 fix round, converted - DECISIONS G-299: 06 now holds the weekly light overhead press as joint care, R5-ATH-04, so its
     // adjust line names the joint-care block it can switch off)
     const has6 = plan('06').weeks.some(w => w.days.some(d => d.blocks.some(b => b.kind === 'prehab' && b.items.length)));
@@ -533,7 +533,7 @@ describe('v0.4 fix round 2 / F3: selection, dosing and the printed plan (coach-e
     // joint-care block to switch off; a plan that holds one still names it)
     const has8 = plan('08').weeks.some(w => w.days.some(d => d.blocks.some(b => b.kind === 'prehab' && b.items.length)));
     assert.ok(adj(s8) && /joint care/.test(adj(s8)) === has8 && /jumps, throws and speed/.test(adj(s8)), adj(s8));
-    assert.ok(/Switching off the accessories block takes away every direct set for .*Biceps/.test(s7), 'the accessories note');
+    assert.ok(/Switching off the accessories block takes away every set just for .*Biceps/.test(s7), 'the accessories note'); // plain words (CH7-09, G-315): wording converted
     assert.ok(s7.includes(model.t('en', 'instruction.2_bridge')), 'the cardio bridge line');
     // (engine 0.6 selection, converted - DECISIONS G-136: the soccer player's practices took his aerobic days, so his sessions do sit
     // on training days now; the bootcamp client keeps aerobic days of her own)

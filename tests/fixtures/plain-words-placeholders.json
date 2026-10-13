@@ -1,0 +1,2537 @@
+{
+ "_meta": {
+  "what": "placeholders of every word value the plain-words pass rewrote (COACH-CH7 CH7-09, DECISIONS G-315), recorded from the values before the rewrite (origin/main 2026-10-13); tests/v07-plain-words.test.mjs checks they survive",
+  "source": "model/i18n/{en,es}.json and app/i18n.js before the rewrite"
+ },
+ "model": {
+  "addon.purpose.carry": {
+   "en": [],
+   "es": []
+  },
+  "addon.purpose.sport": {
+   "en": [],
+   "es": []
+  },
+  "aerobic.pattern.sprints_machine": {
+   "en": [
+    "n",
+    "s"
+   ],
+   "es": [
+    "n",
+    "s"
+   ]
+  },
+  "athletic.key.contacts": {
+   "en": [],
+   "es": []
+  },
+  "athletic.key.jumps": {
+   "en": [],
+   "es": []
+  },
+  "athletic.key.plyo_contacts": {
+   "en": [],
+   "es": []
+  },
+  "changes.load_up": {
+   "en": [],
+   "es": []
+  },
+  "changes.load_up_at_cap": {
+   "en": [],
+   "es": []
+  },
+  "changes.load_up_circuit": {
+   "en": [
+    "rir"
+   ],
+   "es": [
+    "rir"
+   ]
+  },
+  "changes.load_up_circuit_one": {
+   "en": [],
+   "es": []
+  },
+  "changes.load_up_circuit_same": {
+   "en": [
+    "rir"
+   ],
+   "es": [
+    "rir"
+   ]
+  },
+  "changes.load_up_circuit_same_one": {
+   "en": [],
+   "es": []
+  },
+  "changes.load_up_test": {
+   "en": [],
+   "es": []
+  },
+  "changes.new_exercise_block": {
+   "en": [],
+   "es": []
+  },
+  "changes.new_exercise_block_n": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "changes.new_exercise_block_one": {
+   "en": [],
+   "es": []
+  },
+  "changes.new_exercise_block_same": {
+   "en": [],
+   "es": []
+  },
+  "changes.sets_hold": {
+   "en": [],
+   "es": []
+  },
+  "check.failed.V28": {
+   "en": [
+    "share",
+    "target"
+   ],
+   "es": [
+    "share",
+    "target"
+   ]
+  },
+  "check.failed.V28_more_single": {
+   "en": [
+    "share",
+    "target"
+   ],
+   "es": [
+    "share",
+    "target"
+   ]
+  },
+  "check.failed.V28_more_two": {
+   "en": [
+    "share",
+    "target"
+   ],
+   "es": [
+    "share",
+    "target"
+   ]
+  },
+  "check.failed.V29": {
+   "en": [],
+   "es": []
+  },
+  "check.failed.V32": {
+   "en": [],
+   "es": []
+  },
+  "check.h02_no_failure_heavy": {
+   "en": [],
+   "es": []
+  },
+  "check.h07_axial_once": {
+   "en": [],
+   "es": []
+  },
+  "check.h10_step_cap": {
+   "es": []
+  },
+  "check.h11_medball": {
+   "en": [],
+   "es": []
+  },
+  "check.h15_no_deload_inside": {
+   "en": [],
+   "es": []
+  },
+  "check.h17_floor_10": {
+   "en": [],
+   "es": []
+  },
+  "check.h20_release": {
+   "en": [],
+   "es": []
+  },
+  "check.h21_stairway": {
+   "en": [],
+   "es": []
+  },
+  "check.h22_no_checkin_no_change": {
+   "en": [],
+   "es": []
+  },
+  "check.v10_axial": {
+   "en": [],
+   "es": []
+  },
+  "check.v10_spine": {
+   "en": [],
+   "es": []
+  },
+  "check.v13_caps": {
+   "en": [],
+   "es": []
+  },
+  "check.v15_step": {
+   "en": [],
+   "es": []
+  },
+  "check.v16_aesthetics_medball": {
+   "en": [],
+   "es": []
+  },
+  "check.v21_release": {
+   "en": [],
+   "es": []
+  },
+  "check.v22_floor": {
+   "en": [],
+   "es": []
+  },
+  "check.v24_block_structure": {
+   "en": [],
+   "es": []
+  },
+  "check.v27_athletic_budget": {
+   "en": [],
+   "es": []
+  },
+  "check.v29_push_pull": {
+   "en": [],
+   "es": []
+  },
+  "check.v31_addons_optional": {
+   "en": [],
+   "es": []
+  },
+  "check.v32_incline_first": {
+   "en": [],
+   "es": []
+  },
+  "check.v33_video_search": {
+   "en": [],
+   "es": []
+  },
+  "check.v34_progression_rule": {
+   "en": [],
+   "es": []
+  },
+  "check.v35_acceleration_note": {
+   "en": [],
+   "es": []
+  },
+  "check.v36_easy_to_remove": {
+   "en": [],
+   "es": []
+  },
+  "check.v37_carry_dose": {
+   "en": [],
+   "es": []
+  },
+  "check.v3_short_athletes": {
+   "en": [],
+   "es": []
+  },
+  "detail.v.front_foot_raised": {
+   "en": [],
+   "es": []
+  },
+  "detail.v.pause_knee": {
+   "es": []
+  },
+  "edit.hint": {
+   "en": [],
+   "es": []
+  },
+  "edit.superset_suggested": {
+   "en": [
+    "minutes"
+   ],
+   "es": [
+    "minutes"
+   ]
+  },
+  "effort.carry": {
+   "en": [],
+   "es": []
+  },
+  "effort.circuit": {
+   "en": [],
+   "es": []
+  },
+  "effort.circuit_resistance": {
+   "en": [],
+   "es": []
+  },
+  "effort.circuit_rir": {
+   "en": [
+    "rir"
+   ],
+   "es": [
+    "rir"
+   ]
+  },
+  "effort.circuit_rir_bw": {
+   "en": [
+    "rir"
+   ],
+   "es": [
+    "rir"
+   ]
+  },
+  "effort.circuit_rir_bw_one": {
+   "en": [],
+   "es": []
+  },
+  "effort.circuit_rir_one": {
+   "en": [],
+   "es": []
+  },
+  "effort.core_opener": {
+   "en": [],
+   "es": []
+  },
+  "effort.drift": {
+   "en": [
+    "list"
+   ],
+   "es": [
+    "list"
+   ]
+  },
+  "effort.drift_intensifier": {
+   "en": [
+    "week"
+   ],
+   "es": [
+    "week"
+   ]
+  },
+  "effort.drift_intensifier_days": {
+   "en": [
+    "days",
+    "week"
+   ],
+   "es": [
+    "days",
+    "week"
+   ]
+  },
+  "effort.drift_intensifier_days_circuit": {
+   "en": [
+    "days",
+    "week"
+   ],
+   "es": [
+    "days",
+    "week"
+   ]
+  },
+  "effort.drift_intensifier_days_one": {
+   "en": [
+    "days",
+    "week"
+   ],
+   "es": [
+    "days",
+    "week"
+   ]
+  },
+  "effort.hold_quality": {
+   "en": [],
+   "es": []
+  },
+  "effort.how_hard": {
+   "en": [
+    "rir"
+   ],
+   "es": [
+    "rir"
+   ]
+  },
+  "effort.how_hard_no_int": {
+   "en": [
+    "rir"
+   ],
+   "es": [
+    "rir"
+   ]
+  },
+  "effort.intensifier": {
+   "en": [],
+   "es": []
+  },
+  "effort.intensifier_days": {
+   "en": [
+    "days"
+   ],
+   "es": [
+    "days"
+   ]
+  },
+  "effort.intensifier_days_circuit": {
+   "en": [
+    "days"
+   ],
+   "es": [
+    "days"
+   ]
+  },
+  "effort.intensifier_days_one": {
+   "en": [
+    "days"
+   ],
+   "es": [
+    "days"
+   ]
+  },
+  "effort.max_last_set": {
+   "en": [],
+   "es": []
+  },
+  "effort.myo": {
+   "en": [],
+   "es": []
+  },
+  "effort.olympic": {
+   "en": [],
+   "es": []
+  },
+  "effort.olympic_power": {
+   "en": [],
+   "es": []
+  },
+  "effort.olympic_power_db": {
+   "en": [],
+   "es": []
+  },
+  "effort.olympic_power_kb": {
+   "en": [],
+   "es": []
+  },
+  "effort.rir": {
+   "en": [
+    "max",
+    "min",
+    "rpe_high",
+    "rpe_low"
+   ],
+   "es": [
+    "max",
+    "min",
+    "rpe_high",
+    "rpe_low"
+   ]
+  },
+  "effort.rir_single": {
+   "en": [
+    "n",
+    "rpe"
+   ],
+   "es": [
+    "n",
+    "rpe"
+   ]
+  },
+  "focus.help": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.accessories": {
+   "en": [
+    "groups"
+   ],
+   "es": [
+    "groups"
+   ]
+  },
+  "guide.adjust.core_optional": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.easy": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.edit": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.edit_blocks": {
+   "en": [
+    "blocks"
+   ],
+   "es": [
+    "blocks"
+   ]
+  },
+  "guide.adjust.edit_none": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.edit_stations": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.life": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.max": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.missed": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.sets": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.swim": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.time": {
+   "en": [],
+   "es": []
+  },
+  "guide.adjust.time_no_list": {
+   "en": [],
+   "es": []
+  },
+  "instruction.1_bridge": {
+   "en": [
+    "end",
+    "start"
+   ],
+   "es": [
+    "end",
+    "start"
+   ]
+  },
+  "instruction.2_bridge": {
+   "en": [],
+   "es": []
+  },
+  "instruction.2_bridge_optional": {
+   "en": [
+    "days"
+   ],
+   "es": [
+    "days"
+   ]
+  },
+  "instruction.cf.3_class": {
+   "en": [],
+   "es": []
+  },
+  "intake.error.forbidden_key": {
+   "en": [
+    "field"
+   ],
+   "es": [
+    "field"
+   ]
+  },
+  "intake.error.year_not_for_competitive": {
+   "en": [
+    "field"
+   ],
+   "es": [
+    "field"
+   ]
+  },
+  "intake.focus.opt.v_taper": {
+   "en": [],
+   "es": []
+  },
+  "intake.goal.opt.active": {
+   "en": [],
+   "es": []
+  },
+  "intake.plan_mode.opt.week_by_week": {
+   "en": [],
+   "es": []
+  },
+  "intake.plan_mode.opt.year": {
+   "en": [],
+   "es": []
+  },
+  "intake.previous_cycles.label": {
+   "en": [],
+   "es": []
+  },
+  "level.reason.former_pro": {
+   "en": [],
+   "es": []
+  },
+  "level.reason.layoff": {
+   "en": [
+    "months"
+   ],
+   "es": [
+    "months"
+   ]
+  },
+  "locked.athletic_never_counts": {
+   "es": []
+  },
+  "locked.horizontal_before_vertical": {
+   "en": [],
+   "es": []
+  },
+  "locked.medball_max_20lb": {
+   "en": []
+  },
+  "locked.no_checkin_no_change": {
+   "en": [],
+   "es": []
+  },
+  "locked.no_deload_inside_block": {
+   "en": [],
+   "es": []
+  },
+  "locked.no_failure_heavy_compounds": {
+   "en": [],
+   "es": []
+  },
+  "locked.no_lifestyle_inputs": {
+   "en": [],
+   "es": []
+  },
+  "locked.no_max_test_from_zero": {
+   "en": [],
+   "es": []
+  },
+  "locked.no_variable_resistance": {
+   "es": []
+  },
+  "locked.older_injured_never_list": {
+   "en": [],
+   "es": []
+  },
+  "locked.older_power_opt_in": {
+   "en": [],
+   "es": []
+  },
+  "locked.release_every_build": {
+   "en": [],
+   "es": []
+  },
+  "locked.two_spine_days": {
+   "es": []
+  },
+  "note.aerobic_required": {
+   "en": [],
+   "es": []
+  },
+  "note.any_erg": {
+   "en": [],
+   "es": []
+  },
+  "note.ballistic_land_go": {
+   "en": [],
+   "es": []
+  },
+  "note.ballistic_repeat": {
+   "en": [],
+   "es": []
+  },
+  "note.ballistic_single": {
+   "en": [],
+   "es": []
+  },
+  "note.ballistic_stick": {
+   "en": [],
+   "es": []
+  },
+  "note.bodyweight_regress": {
+   "en": [],
+   "es": []
+  },
+  "note.bodyweight_regress_no_machine": {
+   "en": [],
+   "es": []
+  },
+  "note.bonus_final": {
+   "en": [],
+   "es": []
+  },
+  "note.carry_dose": {
+   "en": [],
+   "es": []
+  },
+  "note.circuit_alternating": {
+   "en": [],
+   "es": []
+  },
+  "note.circuit_ballistic_ball": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "note.circuit_ballistic_ball_rest": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "note.circuit_stations": {
+   "en": [
+    "rounds",
+    "transition_s",
+    "work_s"
+   ],
+   "es": [
+    "rounds",
+    "transition_s",
+    "work_s"
+   ]
+  },
+  "note.core_supersets_optional": {
+   "en": [],
+   "es": []
+  },
+  "note.fighter_aerobic_open": {
+   "en": [],
+   "es": []
+  },
+  "note.first_reactive": {
+   "en": [],
+   "es": []
+  },
+  "note.heavy_play_week": {
+   "en": [],
+   "es": []
+  },
+  "note.hold_weights": {
+   "en": [],
+   "es": []
+  },
+  "note.hyrox_station": {
+   "en": [],
+   "es": []
+  },
+  "note.joint_care_slot": {
+   "en": [],
+   "es": []
+  },
+  "note.kb_swing_power": {
+   "en": [],
+   "es": []
+  },
+  "note.older_opt_in": {
+   "en": [],
+   "es": []
+  },
+  "note.olympic_full_catch": {
+   "en": [],
+   "es": []
+  },
+  "note.olympic_power": {
+   "en": [],
+   "es": []
+  },
+  "note.olympic_power_db": {
+   "en": [],
+   "es": []
+  },
+  "note.olympic_power_kb": {
+   "en": [],
+   "es": []
+  },
+  "note.pain_free_depth_lunge": {
+   "en": [],
+   "es": []
+  },
+  "note.pain_free_depth_machine": {
+   "en": [],
+   "es": []
+  },
+  "note.pain_free_depth_squat": {
+   "en": [],
+   "es": []
+  },
+  "note.pain_free_depth_step": {
+   "en": [],
+   "es": []
+  },
+  "note.pattern_kept": {
+   "en": [],
+   "es": []
+  },
+  "note.play_counts_aerobic": {
+   "en": [
+    "activity"
+   ],
+   "es": [
+    "activity"
+   ]
+  },
+  "note.pre_season": {
+   "en": [],
+   "es": []
+  },
+  "note.pyramid_backoff": {
+   "en": [],
+   "es": []
+  },
+  "note.rc2": {
+   "en": [],
+   "es": []
+  },
+  "note.recovery": {
+   "es": []
+  },
+  "note.repeat_low": {
+   "en": [],
+   "es": []
+  },
+  "note.second_calf": {
+   "en": [],
+   "es": []
+  },
+  "note.second_calf_sets": {
+   "en": [
+    "n",
+    "total"
+   ],
+   "es": [
+    "n",
+    "total"
+   ]
+  },
+  "note.see_pro": {
+   "en": [],
+   "es": []
+  },
+  "note.split_grip": {
+   "en": [],
+   "es": []
+  },
+  "note.taper": {
+   "en": [],
+   "es": []
+  },
+  "note.test_back_off": {
+   "en": [
+    "n",
+    "rir"
+   ],
+   "es": [
+    "n",
+    "rir"
+   ]
+  },
+  "note.test_back_off_one": {
+   "en": [
+    "rir"
+   ],
+   "es": [
+    "rir"
+   ]
+  },
+  "note.test_baseline": {
+   "en": [],
+   "es": []
+  },
+  "note.test_day": {
+   "en": [],
+   "es": []
+  },
+  "note.test_rep_max_work_up": {
+   "en": [
+    "test"
+   ],
+   "es": [
+    "test"
+   ]
+  },
+  "note.test_sprint": {
+   "en": [],
+   "es": []
+  },
+  "note.test_top_set": {
+   "en": [
+    "test"
+   ],
+   "es": [
+    "test"
+   ]
+  },
+  "note.test_top_set_replaces": {
+   "en": [
+    "test"
+   ],
+   "es": [
+    "test"
+   ]
+  },
+  "note.test_top_set_replaces_later": {
+   "en": [
+    "test"
+   ],
+   "es": [
+    "test"
+   ]
+  },
+  "note.walk_after": {
+   "en": [],
+   "es": []
+  },
+  "note.wod": {
+   "en": [],
+   "es": []
+  },
+  "note.wod_amrap_density": {
+   "en": [],
+   "es": []
+  },
+  "note.wod_named_benchmark": {
+   "en": [
+    "name"
+   ],
+   "es": [
+    "name"
+   ]
+  },
+  "note.wod_named_girl": {
+   "en": [
+    "name"
+   ],
+   "es": [
+    "name"
+   ]
+  },
+  "note.wod_named_hero": {
+   "en": [
+    "name"
+   ],
+   "es": [
+    "name"
+   ]
+  },
+  "note.wod_named_scaled": {
+   "en": [],
+   "es": []
+  },
+  "plan.block_type.taper": {
+   "en": [],
+   "es": []
+  },
+  "plan.next.block_choice": {
+   "en": [],
+   "es": []
+  },
+  "plan.next.pre_season": {
+   "en": [
+    "date",
+    "weeks"
+   ],
+   "es": [
+    "date",
+    "weeks"
+   ]
+  },
+  "plan.next.pre_season_rest": {
+   "en": [
+    "date",
+    "weeks"
+   ],
+   "es": [
+    "date",
+    "weeks"
+   ]
+  },
+  "plan.next_steps": {
+   "en": [],
+   "es": []
+  },
+  "plan.phase.ACCLIMATION": {
+   "en": [],
+   "es": []
+  },
+  "plan.phase.DRIVE": {
+   "en": [],
+   "es": []
+  },
+  "plan.phase.TAPER": {
+   "en": [],
+   "es": []
+  },
+  "plan.stairway_intro": {
+   "en": [],
+   "es": []
+  },
+  "plan.stairway_intro_half": {
+   "en": [
+    "half",
+    "next"
+   ],
+   "es": [
+    "half",
+    "next"
+   ]
+  },
+  "plan.stairway_intro_plain": {
+   "en": [],
+   "es": []
+  },
+  "plyo.stage.RC1": {
+   "en": [],
+   "es": []
+  },
+  "plyo.stage.RC2": {
+   "en": [],
+   "es": []
+  },
+  "plyo.stage.RC3": {
+   "en": [],
+   "es": []
+  },
+  "prehab.code.AGE_50_RACKET": {
+   "en": [],
+   "es": []
+  },
+  "prehab.code.OVERHEAD_HEALTH": {
+   "en": [],
+   "es": []
+  },
+  "prehab.code.SHOULDER_THROWER": {
+   "en": [],
+   "es": []
+  },
+  "prehab.label.ACHILLES_CALF": {
+   "es": []
+  },
+  "prehab.label.OVERHEAD_HEALTH": {
+   "en": [],
+   "es": []
+  },
+  "prehab.label.SHOULDER_THROWER": {
+   "en": [],
+   "es": []
+  },
+  "reps.myo": {
+   "en": [],
+   "es": []
+  },
+  "reps.pyramid_sets": {
+   "en": [
+    "last",
+    "list",
+    "sets"
+   ],
+   "es": [
+    "last",
+    "list",
+    "sets"
+   ]
+  },
+  "rest.work_rest": {
+   "en": [
+    "max",
+    "min"
+   ],
+   "es": [
+    "max",
+    "min"
+   ]
+  },
+  "swap.loses.isolation": {
+   "en": [],
+   "es": []
+  },
+  "swap.loses.same_drill": {
+   "en": [],
+   "es": []
+  },
+  "swap.loses.vertical_pull": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.accel_week_all_round": {
+   "en": [
+    "pct"
+   ],
+   "es": [
+    "pct"
+   ]
+  },
+  "ui.plan.athletic_test_lighter": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.bonus_line_main": {
+   "en": [
+    "exercises",
+    "group",
+    "group_lc",
+    "main",
+    "n",
+    "top"
+   ],
+   "es": [
+    "exercises",
+    "group",
+    "group_lc",
+    "main",
+    "n",
+    "top"
+   ]
+  },
+  "ui.plan.bonus_line_main_n": {
+   "en": [
+    "exercises",
+    "group",
+    "group_lc",
+    "main",
+    "n",
+    "top"
+   ],
+   "es": [
+    "exercises",
+    "group",
+    "group_lc",
+    "main",
+    "n",
+    "top"
+   ]
+  },
+  "ui.plan.circuit_climb_note": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.circuit_dose_rounds": {
+   "en": [
+    "rounds",
+    "transition_s",
+    "work_s"
+   ],
+   "es": [
+    "rounds",
+    "transition_s",
+    "work_s"
+   ]
+  },
+  "ui.plan.circuit_dose_stations": {
+   "en": [
+    "rounds",
+    "transition_s",
+    "work_s"
+   ],
+   "es": [
+    "rounds",
+    "transition_s",
+    "work_s"
+   ]
+  },
+  "ui.plan.core_supersets_line": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.edit_aerobic_day": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.edit_day": {
+   "en": [
+    "blocks"
+   ],
+   "es": [
+    "blocks"
+   ]
+  },
+  "ui.plan.est_line": {
+   "en": [
+    "high",
+    "low"
+   ],
+   "es": [
+    "high",
+    "low"
+   ]
+  },
+  "ui.plan.est_line_one": {
+   "en": [
+    "min"
+   ],
+   "es": [
+    "min"
+   ]
+  },
+  "ui.plan.focus_add": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "ui.plan.heavy_play_plan": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.holiday_weeks": {
+   "en": [
+    "weeks"
+   ],
+   "es": [
+    "weeks"
+   ]
+  },
+  "ui.plan.holiday_weeks_no_test": {
+   "en": [
+    "weeks"
+   ],
+   "es": [
+    "weeks"
+   ]
+  },
+  "ui.plan.label_part.single_leg_hinge": {
+   "es": []
+  },
+  "ui.plan.plus_intensifier": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.plyo_share": {
+   "en": [
+    "pct"
+   ],
+   "es": [
+    "pct"
+   ]
+  },
+  "ui.plan.plyo_share_planned": {
+   "en": [
+    "pct",
+    "target"
+   ],
+   "es": [
+    "pct",
+    "target"
+   ]
+  },
+  "ui.plan.progress.double": {
+   "es": [
+    "high",
+    "low",
+    "rir"
+   ]
+  },
+  "ui.plan.progress.double_side": {
+   "es": [
+    "high",
+    "low",
+    "rir"
+   ]
+  },
+  "ui.plan.progress.fixed": {
+   "es": [
+    "high",
+    "rir"
+   ]
+  },
+  "ui.plan.progress.fixed_side": {
+   "es": [
+    "high",
+    "rir"
+   ]
+  },
+  "ui.plan.progress.written": {
+   "es": [
+    "rir"
+   ]
+  },
+  "ui.plan.progress_circuit": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.progress_circuit_v6": {
+   "en": [
+    "from",
+    "rounds",
+    "to",
+    "when"
+   ],
+   "es": [
+    "from",
+    "rounds",
+    "to",
+    "when"
+   ]
+  },
+  "ui.plan.progress_circuit_v6_flat": {
+   "en": [
+    "rounds",
+    "s"
+   ],
+   "es": [
+    "rounds",
+    "s"
+   ]
+  },
+  "ui.plan.progress_edit": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.progress_next": {
+   "en": [
+    "pct"
+   ],
+   "es": [
+    "pct"
+   ]
+  },
+  "ui.plan.progress_rule": {
+   "en": [
+    "exercise",
+    "high",
+    "low",
+    "sets"
+   ],
+   "es": [
+    "exercise",
+    "high",
+    "low",
+    "sets"
+   ]
+  },
+  "ui.plan.progress_rule_plain": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.progress_sets": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.progress_sets_flat": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.refer_body": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.reminder": {
+   "es": [
+    "dates"
+   ]
+  },
+  "ui.plan.rir_drift": {
+   "en": [
+    "a"
+   ],
+   "es": [
+    "a"
+   ]
+  },
+  "ui.plan.session_size": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "ui.plan.session_size_range": {
+   "en": [
+    "high",
+    "low"
+   ],
+   "es": [
+    "high",
+    "low"
+   ]
+  },
+  "ui.plan.sets_by_week_note": {
+   "en": [
+    "held",
+    "planned"
+   ],
+   "es": [
+    "held",
+    "planned"
+   ]
+  },
+  "ui.plan.sets_by_week_note_flat": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.sets_by_week_note_plain": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.sets_by_week_title": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.sets_legend_dash": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.sets_legend_direct": {
+   "en": [
+    "cell",
+    "direct",
+    "n"
+   ],
+   "es": [
+    "cell",
+    "direct",
+    "n"
+   ]
+  },
+  "ui.plan.superset_suggest_line": {
+   "en": [
+    "min",
+    "pair"
+   ]
+  },
+  "ui.plan.team_practice": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "ui.plan.team_practice_one": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.test_days": {
+   "es": [
+    "list"
+   ]
+  },
+  "ui.plan.test_end": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.test_end_body": {
+   "en": []
+  },
+  "ui.plan.test_end_stations": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.test_end_strength": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.test_week_body": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.upper_contacts": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "ui.plan.weekly_sets_groups_note": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.weekly_sets_note": {
+   "en": [],
+   "es": []
+  },
+  "ui.plan.wod_format.amrap": {
+   "en": [],
+   "es": []
+  },
+  "video.note": {
+   "en": [],
+   "es": []
+  },
+  "warmup.balance_prep": {
+   "en": [],
+   "es": []
+  },
+  "warmup.drills_or_mobility": {
+   "en": [],
+   "es": []
+  },
+  "warmup.mobility": {
+   "en": [],
+   "es": []
+  },
+  "warmup.mobility_prep": {
+   "en": [],
+   "es": []
+  },
+  "warmup.running_warmup": {
+   "es": []
+  },
+  "warn.older_athletic": {
+   "en": [],
+   "es": []
+  },
+  "warn.racket_50_impact": {
+   "en": [],
+   "es": []
+  },
+  "warning.athletic_capacity": {
+   "en": [
+    "key",
+    "pct"
+   ],
+   "es": [
+    "key",
+    "pct"
+   ]
+  },
+  "warning.athletic_capacity_activity": {
+   "en": [
+    "key",
+    "pct"
+   ],
+   "es": [
+    "key",
+    "pct"
+   ]
+  },
+  "warning.athletic_capacity_block": {
+   "en": [
+    "key",
+    "pct"
+   ],
+   "es": [
+    "key",
+    "pct"
+   ]
+  },
+  "warning.athletic_capacity_block_activity": {
+   "en": [
+    "key",
+    "pct"
+   ],
+   "es": [
+    "key",
+    "pct"
+   ]
+  },
+  "warning.athletic_capacity_list": {
+   "en": [
+    "list"
+   ],
+   "es": [
+    "list"
+   ]
+  },
+  "warning.athletic_capacity_list_activity": {
+   "en": [
+    "list"
+   ],
+   "es": [
+    "list"
+   ]
+  },
+  "warning.below_floor_template": {
+   "en": [
+    "floor",
+    "group",
+    "held"
+   ],
+   "es": [
+    "floor",
+    "group",
+    "held"
+   ]
+  },
+  "warning.bootcamp_format": {
+   "en": [],
+   "es": []
+  },
+  "warning.calves_per_leg_day": {
+   "en": [],
+   "es": []
+  },
+  "warning.capped_by_template": {
+   "en": [
+    "group",
+    "held",
+    "planned"
+   ],
+   "es": [
+    "group",
+    "held",
+    "planned"
+   ]
+  },
+  "warning.checkin_retired": {
+   "en": [],
+   "es": []
+  },
+  "warning.circuit_over_top": {
+   "en": [
+    "group",
+    "held",
+    "top"
+   ],
+   "es": [
+    "group",
+    "held",
+    "top"
+   ]
+  },
+  "warning.circuit_over_top_rounds": {
+   "en": [
+    "group",
+    "held",
+    "rounds",
+    "top"
+   ],
+   "es": [
+    "group",
+    "held",
+    "rounds",
+    "top"
+   ]
+  },
+  "warning.circuit_rounds_floor": {
+   "en": [
+    "floor",
+    "group",
+    "last",
+    "rounds",
+    "week"
+   ],
+   "es": [
+    "floor",
+    "group",
+    "last",
+    "rounds",
+    "week"
+   ]
+  },
+  "warning.credit_only_groups": {
+   "en": [
+    "group"
+   ],
+   "es": [
+    "group"
+   ]
+  },
+  "warning.credit_only_groups_lifts": {
+   "en": [
+    "group"
+   ],
+   "es": [
+    "group"
+   ]
+  },
+  "warning.floor_needs_optional_day": {
+   "en": [
+    "floor",
+    "group",
+    "held"
+   ],
+   "es": [
+    "floor",
+    "group",
+    "held"
+   ]
+  },
+  "warning.heavy_play": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "warning.jump_pain_scale": {
+   "en": [
+    "above",
+    "max"
+   ],
+   "es": [
+    "above",
+    "max"
+   ]
+  },
+  "warning.laterality_capped": {
+   "en": [
+    "share",
+    "target"
+   ],
+   "es": [
+    "share",
+    "target"
+   ]
+  },
+  "warning.no_vertical_pull": {
+   "en": [],
+   "es": []
+  },
+  "warning.older_athletic": {
+   "en": [],
+   "es": []
+  },
+  "warning.older_opt_in_ignored": {
+   "en": [
+    "age"
+   ],
+   "es": [
+    "age"
+   ]
+  },
+  "warning.pain_plan": {
+   "en": [
+    "area",
+    "groups",
+    "trigger"
+   ],
+   "es": [
+    "area",
+    "groups",
+    "trigger"
+   ]
+  },
+  "warning.pain_plan_no_lift": {
+   "en": [
+    "area",
+    "groups",
+    "trigger"
+   ],
+   "es": [
+    "area",
+    "groups",
+    "trigger"
+   ]
+  },
+  "warning.pain_plan_plain": {
+   "en": [
+    "area",
+    "groups"
+   ],
+   "es": [
+    "area",
+    "groups"
+   ]
+  },
+  "warning.pain_plan_plain_no_lift": {
+   "en": [
+    "area",
+    "groups"
+   ],
+   "es": [
+    "area",
+    "groups"
+   ]
+  },
+  "warning.plan_edited": {
+   "en": [],
+   "es": []
+  },
+  "warning.play_48h": {
+   "en": [
+    "day"
+   ],
+   "es": [
+    "day"
+   ]
+  },
+  "warning.racket_calf_both_days": {
+   "en": [
+    "days"
+   ],
+   "es": [
+    "days"
+   ]
+  },
+  "warning.release_missing": {
+   "en": []
+  },
+  "warning.session_minutes_retired": {
+   "en": [],
+   "es": []
+  },
+  "warning.slot_held_groups": {
+   "en": [
+    "group"
+   ],
+   "es": [
+    "group"
+   ]
+  },
+  "warning.split_style_unavailable": {
+   "en": [
+    "days"
+   ],
+   "es": [
+    "days"
+   ]
+  },
+  "warning.two_day_rule": {
+   "en": [
+    "days",
+    "high",
+    "low"
+   ],
+   "es": [
+    "days",
+    "high",
+    "low"
+   ]
+  },
+  "warning.v6_in_season": {
+   "en": [],
+   "es": []
+  },
+  "warning.v6_season": {
+   "en": [
+    "weeks"
+   ],
+   "es": [
+    "weeks"
+   ]
+  },
+  "warning.v7_no_equipment": {
+   "en": [
+    "items"
+   ],
+   "es": [
+    "items"
+   ]
+  },
+  "why.activity_counts": {
+   "en": [
+    "activity",
+    "n"
+   ],
+   "es": [
+    "activity",
+    "n"
+   ]
+  },
+  "why.addon_offered": {
+   "en": []
+  },
+  "why.aerobic_count": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "why.aerobic_fighter_open": {
+   "en": [],
+   "es": []
+  },
+  "why.aerobic_level": {
+   "en": [],
+   "es": []
+  },
+  "why.aerobic_rung": {
+   "en": [],
+   "es": []
+  },
+  "why.age_50_racket": {
+   "en": [],
+   "es": []
+  },
+  "why.arm_slot": {
+   "en": [],
+   "es": []
+  },
+  "why.assisted_jump": {
+   "en": [],
+   "es": []
+  },
+  "why.athletic_capacity": {
+   "en": [
+    "key",
+    "pct"
+   ],
+   "es": [
+    "key",
+    "pct"
+   ]
+  },
+  "why.athletic_climb": {
+   "en": [],
+   "es": []
+  },
+  "why.athletic_reconcile": {
+   "en": [],
+   "es": []
+  },
+  "why.bonus": {
+   "en": [],
+   "es": []
+  },
+  "why.bonus_main_day": {
+   "en": [
+    "group"
+   ],
+   "es": [
+    "group"
+   ]
+  },
+  "why.bonus_optional_day": {
+   "en": [],
+   "es": []
+  },
+  "why.bootcamp_format": {
+   "en": [],
+   "es": []
+  },
+  "why.buyout": {
+   "en": [],
+   "es": []
+  },
+  "why.capped_by_template": {
+   "en": [],
+   "es": []
+  },
+  "why.carry_dose": {
+   "es": []
+  },
+  "why.circuit_free_station_hips": {
+   "en": [],
+   "es": []
+  },
+  "why.circuit_hand_over": {
+   "en": [],
+   "es": []
+  },
+  "why.circuit_stairway": {
+   "en": [
+    "from",
+    "to"
+   ],
+   "es": [
+    "from",
+    "to"
+   ]
+  },
+  "why.circuit_stand_in": {
+   "en": [],
+   "es": []
+  },
+  "why.class_level": {
+   "en": [],
+   "es": []
+  },
+  "why.class_small_reps": {
+   "en": [],
+   "es": []
+  },
+  "why.clean_day": {
+   "en": [],
+   "es": []
+  },
+  "why.constraint_band": {
+   "en": [],
+   "es": []
+  },
+  "why.core_low_back": {
+   "en": [],
+   "es": []
+  },
+  "why.core_rotation": {
+   "en": [],
+   "es": []
+  },
+  "why.delt_variant": {
+   "en": [],
+   "es": []
+  },
+  "why.extra_small_exercise": {
+   "en": [],
+   "es": []
+  },
+  "why.first_reactive": {
+   "en": [],
+   "es": []
+  },
+  "why.focus": {
+   "en": [],
+   "es": []
+  },
+  "why.game_heavy": {
+   "en": [],
+   "es": []
+  },
+  "why.glute_second_hip": {
+   "en": [],
+   "es": []
+  },
+  "why.group_one_target": {
+   "en": [
+    "group"
+   ],
+   "es": [
+    "group"
+   ]
+  },
+  "why.hard_eve": {
+   "en": [],
+   "es": []
+  },
+  "why.heavy_play": {
+   "en": [],
+   "es": []
+  },
+  "why.hyrox_station": {
+   "en": [],
+   "es": []
+  },
+  "why.in_season": {
+   "en": [],
+   "es": []
+  },
+  "why.incline_first": {
+   "en": [],
+   "es": []
+  },
+  "why.intensifier_last_week": {
+   "en": [],
+   "es": []
+  },
+  "why.kb_swing_power": {
+   "en": [],
+   "es": []
+  },
+  "why.laterality_share": {
+   "en": [
+    "pct"
+   ],
+   "es": [
+    "pct"
+   ]
+  },
+  "why.laterality_share_upper": {
+   "en": [
+    "pct"
+   ],
+   "es": [
+    "pct"
+   ]
+  },
+  "why.level_reason_l3": {
+   "en": [],
+   "es": []
+  },
+  "why.level_soft": {
+   "en": [],
+   "es": []
+  },
+  "why.light_chest_optional": {
+   "en": [],
+   "es": []
+  },
+  "why.maintenance": {
+   "en": [
+    "pct"
+   ],
+   "es": [
+    "pct"
+   ]
+  },
+  "why.max_last": {
+   "en": [],
+   "es": []
+  },
+  "why.muscle_direct_exercise": {
+   "en": [
+    "group"
+   ],
+   "es": [
+    "group"
+   ]
+  },
+  "why.myo_last": {
+   "en": [],
+   "es": []
+  },
+  "why.no_checkin_planned": {
+   "en": [],
+   "es": []
+  },
+  "why.non_spinal_hinge": {
+   "en": [],
+   "es": []
+  },
+  "why.older_default": {
+   "en": [],
+   "es": []
+  },
+  "why.older_opt_in": {
+   "en": [],
+   "es": []
+  },
+  "why.olympic_budget": {
+   "en": [
+    "sets"
+   ],
+   "es": [
+    "sets"
+   ]
+  },
+  "why.olympic_ceiling": {
+   "en": [
+    "ceiling"
+   ],
+   "es": [
+    "ceiling"
+   ]
+  },
+  "why.olympic_climb": {
+   "en": [],
+   "es": []
+  },
+  "why.olympic_safe": {
+   "en": [],
+   "es": []
+  },
+  "why.olympic_stay_active": {
+   "en": [],
+   "es": []
+  },
+  "why.opposite_pattern": {
+   "en": [],
+   "es": []
+  },
+  "why.overhead_for_health": {
+   "en": [],
+   "es": []
+  },
+  "why.pain_cut": {
+   "en": [
+    "area",
+    "muscle"
+   ],
+   "es": [
+    "area",
+    "muscle"
+   ]
+  },
+  "why.planned_only": {
+   "en": [],
+   "es": []
+  },
+  "why.planned_rir": {
+   "en": [
+    "rir"
+   ],
+   "es": [
+    "rir"
+   ]
+  },
+  "why.play_spacing": {
+   "en": [],
+   "es": []
+  },
+  "why.plyo_share": {
+   "en": [
+    "pct"
+   ],
+   "es": [
+    "pct"
+   ]
+  },
+  "why.plyo_stage": {
+   "en": [
+    "stage"
+   ],
+   "es": [
+    "stage"
+   ]
+  },
+  "why.practice_counts": {
+   "en": [
+    "n"
+   ],
+   "es": [
+    "n"
+   ]
+  },
+  "why.pre_season": {
+   "en": [],
+   "es": []
+  },
+  "why.prehab_not_calf": {
+   "en": [],
+   "es": []
+  },
+  "why.pro_setting": {
+   "es": []
+  },
+  "why.pyramid": {
+   "en": []
+  },
+  "why.r3_pending": {
+   "en": [
+    "id"
+   ],
+   "es": [
+    "id"
+   ]
+  },
+  "why.racket_calf_both_days": {
+   "en": [],
+   "es": []
+  },
+  "why.rep_cap": {
+   "en": [],
+   "es": []
+  },
+  "why.rep_floor": {
+   "es": [
+    "min"
+   ]
+  },
+  "why.reps_matrix": {
+   "en": [],
+   "es": []
+  },
+  "why.route_sport_only": {
+   "en": [],
+   "es": []
+  },
+  "why.season_plan": {
+   "en": [
+    "weeks"
+   ],
+   "es": [
+    "weeks"
+   ]
+  },
+  "why.second_exposure": {
+   "en": [],
+   "es": []
+  },
+  "why.second_hinge": {
+   "en": []
+  },
+  "why.second_hip_knee_flexion": {
+   "en": [],
+   "es": []
+  },
+  "why.sets_hold": {
+   "en": [],
+   "es": []
+  },
+  "why.sport_is_aerobic": {
+   "en": [],
+   "es": []
+  },
+  "why.stage_block": {
+   "es": [
+    "stage"
+   ]
+  },
+  "why.stairway_lambda": {
+   "en": [
+    "cap",
+    "muscle"
+   ]
+  },
+  "why.stairway_step": {
+   "en": [
+    "part",
+    "pct"
+   ],
+   "es": [
+    "part",
+    "pct"
+   ]
+  },
+  "why.stairway_target": {
+   "en": [],
+   "es": []
+  },
+  "why.station_note": {
+   "en": [],
+   "es": []
+  },
+  "why.striker": {
+   "en": [],
+   "es": []
+  },
+  "why.superset_short": {
+   "en": [],
+   "es": []
+  },
+  "why.taper": {
+   "en": [],
+   "es": []
+  },
+  "why.template_extra_station": {
+   "en": [
+    "group"
+   ],
+   "es": [
+    "group"
+   ]
+  },
+  "why.test_from_zero": {
+   "en": [],
+   "es": []
+  },
+  "why.test_replaces_top_set": {
+   "en": [],
+   "es": []
+  },
+  "why.test_top_set": {
+   "en": [],
+   "es": []
+  },
+  "why.test_week_hold": {
+   "en": [],
+   "es": []
+  },
+  "why.tested_locked": {
+   "en": [],
+   "es": []
+  },
+  "why.two_day_full_body": {
+   "en": [],
+   "es": []
+  },
+  "why.two_day_rule": {
+   "en": [],
+   "es": []
+  },
+  "why.two_spine_days": {
+   "es": []
+  },
+  "why.unilateral_floor": {
+   "en": [
+    "min"
+   ],
+   "es": [
+    "min"
+   ]
+  },
+  "why.unilateral_reps": {
+   "en": [],
+   "es": []
+  },
+  "why.warmup": {
+   "en": [],
+   "es": []
+  },
+  "why.wod": {
+   "en": [],
+   "es": []
+  },
+  "why.wod_density": {
+   "en": [],
+   "es": []
+  },
+  "why.wod_named": {
+   "en": [],
+   "es": []
+  },
+  "why.work_first_vertical": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.annie.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.chelsea.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.cindy.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.death_by_burpees.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.diane.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.dt.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.elizabeth.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.filthy_fifty.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.fran.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.helen.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.isabel.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.jackie.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.jt.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.karen.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.kelly.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.michael.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.murph.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.nancy.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.named.the_chief.std": {
+   "en": [],
+   "es": []
+  },
+  "wod.rotation.amrap": {
+   "en": [],
+   "es": []
+  },
+  "wod.rotation.emom": {
+   "en": [],
+   "es": []
+  }
+ },
+ "app": {
+  "about.minor_note": {
+   "en": [],
+   "es": []
+  },
+  "app.load_failed": {
+   "en": [],
+   "es": []
+  },
+  "app.no_data": {
+   "en": []
+  },
+  "build.calm": {
+   "en": [],
+   "es": []
+  },
+  "build.slow": {
+   "en": [],
+   "es": []
+  },
+  "edit.c.above_max": {
+   "en": [
+    "actual",
+    "limit",
+    "name"
+   ],
+   "es": [
+    "actual",
+    "limit",
+    "name"
+   ]
+  },
+  "edit.c.below_floor": {
+   "en": [
+    "actual",
+    "group",
+    "limit"
+   ]
+  },
+  "edit.done.remove": {
+   "en": [],
+   "es": []
+  },
+  "edit.note": {
+   "en": [],
+   "es": []
+  },
+  "edit.suggested": {
+   "en": [],
+   "es": []
+  },
+  "focus.intro": {
+   "en": [],
+   "es": []
+  },
+  "pdf.failed": {
+   "en": [],
+   "es": []
+  },
+  "pdf.play_hint": {
+   "en": [],
+   "es": []
+  },
+  "plan.save_failed": {
+   "en": [],
+   "es": []
+  },
+  "plan.tap_hint": {
+   "en": [],
+   "es": []
+  },
+  "progress.effort_note": {
+   "es": []
+  },
+  "progress.no_sets": {
+   "en": []
+  },
+  "progress.sets_note": {
+   "en": [],
+   "es": []
+  },
+  "sheet.pdf_hint": {
+   "en": [],
+   "es": []
+  },
+  "week.split": {
+   "en": [],
+   "es": []
+  },
+  "week.supersets.hint": {
+   "en": [],
+   "es": []
+  },
+  "week.two_day_note": {
+   "en": [],
+   "es": []
+  }
+ }
+}
