@@ -20,6 +20,7 @@ import { amendRulesV07, amendTemplatesV07 } from '../tools/fixture/v07-select.mj
 // triceps on day 2)
 const ARM_SLOT = { ...ARM_SLOT_AB, athletic_FB1: 'ISO_BICEP', athletic_FB2: 'ISO_TRICEP' };
 import { makeContext, scorePlan, SCORER_VERSION } from '../design/bench/score.mjs';
+import { UI_P7 } from '../tools/fixture/v07-plain.mjs'; // plain words win over every earlier layer (CH7-09, G-315)
 
 const clone = (x) => JSON.parse(JSON.stringify(x));
 const NAMES = { '01': '01-swimming', '02': '02-football', '03': '03-soccer', '04': '04-crossfit-style-bootcamp', '05': '05-bootcamp', '06': '06-full-body-aesthetics', '07': '07-push-pull-legs', '08': '08-pickleball-genpop' };
@@ -55,7 +56,7 @@ describe('v0.6 selection - the amendment layer', () => {
       assert.ok(sec && Array.isArray(sec.refs) && sec.refs.length > 0, name + ': refs');
       assert.ok(typeof sec.status === 'string' && sec.status.length > 0, name + ': status');
     }
-    for (const [k, v] of Object.entries(UI_S6)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k); assert.equal(model.t('en', k), v[0], k); assert.equal(model.t('es', k), v[1], k); }
+    for (const [k, v] of Object.entries(UI_S6)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k); if (k in UI_P7) continue; assert.equal(model.t('en', k), v[0], k); assert.equal(model.t('es', k), v[1], k); } // (plain words, CH7-09 / G-315: a line the last words layer rewrote is checked in tests/v07-plain-words.test.mjs)
   });
 });
 

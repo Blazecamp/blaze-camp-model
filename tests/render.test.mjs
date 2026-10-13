@@ -83,8 +83,9 @@ describe('full view (markdown)', () => {
     assert.ok(!en.includes('_' + model.t('en', 'ui.plan.est_minutes', { min: 58 }) + '_'));
     const squat = en.split('\n').find(l => l.includes('**' + model.t('en', model.ex('front-squat-barbell').name_key) + '**'));
     assert.ok(squat, 'front squat line');
-    assert.match(squat, /— 2 × 12 to 15 Reps · leave 3 in the tank \(3 RIR, RPE 7\) · rest after the pair · SUPERSET W\//);
-    assert.ok(en.includes('leave 1 in the tank (1 RIR, RPE 9)'), 'last week drifts to 1 RIR');
+    // plain words (COACH-CH7 CH7-09, DECISIONS G-315): 'N RIR, RPE x' reads 'leave N in the tank (effort x out of 10)' - same numbers
+    assert.match(squat, /— 2 × 12 to 15 Reps · leave 3 in the tank \(effort 7 out of 10\) · rest after the pair · SUPERSET W\//);
+    assert.ok(en.includes('leave 1 in the tank (effort 9 out of 10)'), 'last week drifts to 1 RIR');
     assert.ok(en.includes('- ' + model.t('en', 'ui.plan.swaps') + ': '));
     // engine 0.5.0 / V2 (converted; DECISIONS G): no third-party video link (COACH-R4 R4-LIB-05) - every exercise prints the YouTube
     // search built from its name and the exact name to copy; the swaps say what they keep and lose (R4-LIB-04)
@@ -193,9 +194,9 @@ describe('formatters', () => {
     assert.equal(R(null), '');
   });
   test('formatEffort: "leave N in the tank (N RIR)", MAX / MYO, intent, power', () => {
-    assert.equal(formatEffort({ type: 'rir', min: 2, max: 2, rpe_min: 8, rpe_max: 8, last_set: null }, model, 'en'), 'leave 2 in the tank (2 RIR, RPE 8)');
-    assert.equal(formatEffort({ type: 'rir', min: 1, max: 2 }, model, 'en'), 'leave 1-2 in the tank (1-2 RIR, RPE 8-9)');
-    assert.equal(formatEffort({ type: 'rir', min: 1, max: 1, last_set: 'max' }, model, 'en'), 'leave 1 in the tank (1 RIR, RPE 9) · last set MAX (technical failure)');
+    assert.equal(formatEffort({ type: 'rir', min: 2, max: 2, rpe_min: 8, rpe_max: 8, last_set: null }, model, 'en'), 'leave 2 in the tank (effort 8 out of 10)'); // plain words (CH7-09, G-315)
+    assert.equal(formatEffort({ type: 'rir', min: 1, max: 2 }, model, 'en'), 'leave 1-2 in the tank (effort 8-9 out of 10)');
+    assert.equal(formatEffort({ type: 'rir', min: 1, max: 1, last_set: 'max' }, model, 'en'), 'leave 1 in the tank (effort 9 out of 10) · last set MAX: as many reps as you can with good form');
     assert.equal(formatEffort({ type: 'power', key: 'effort.olympic_power' }, model, 'en'), model.t('en', 'effort.olympic_power'));
     assert.equal(formatEffort({ type: 'role', role: 'survival' }, model, 'es'), model.t('es', 'effort.done'));
     assert.equal(formatEffort(null, model, 'en'), '');
@@ -204,7 +205,7 @@ describe('formatters', () => {
     assert.equal(formatRest({ type: 'seconds', min: 60, max: 90 }, model, 'en'), '60-90 s rest');
     assert.equal(formatRest({ type: 'seconds', min: 180, max: 360 }, model, 'en'), '3-6 min rest');
     assert.equal(formatRest({ type: 'after_pair' }, model, 'en'), 'rest after the pair');
-    assert.equal(formatRest({ type: 'work_rest', min: 5, max: 10 }, model, 'en'), 'work:rest 1:5 to 1:10');
+    assert.equal(formatRest({ type: 'work_rest', min: 5, max: 10 }, model, 'en'), 'rest 5 to 10 times as long as you work'); // plain words (CH7-09, G-315): was 'work:rest 1:5 to 1:10'
     assert.equal(formatLoad({ type: 'medball_lb', min: 6, max: 8 }, model, 'en'), '6-8 lb ball');
     assert.equal(formatLoad({ type: 'medball_lb', min: 10, max: 20, wall_ball: true }, model, 'en'), 'wall ball 10-20 lb (never over 20 lb)');
     assert.equal(formatLoad({ type: 'bw_pct', min: 10, max: 20 }, model, 'en'), '10-20% of body weight');

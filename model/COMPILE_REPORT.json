@@ -405,11 +405,11 @@
  ],
  "i18n": {
   "es_by_source": {
-   "architect_wordlist": 1469,
+   "architect_wordlist": 1499,
    "b1_machine_translation": 795,
    "profiles_04": 383,
-   "spec": 146,
-   "v3_spanish_review": 41
+   "spec": 136,
+   "v3_spanish_review": 21
   },
   "machine_translated_by_namespace": {
    "day": 130,

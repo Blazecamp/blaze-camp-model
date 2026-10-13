@@ -21,7 +21,8 @@ export const AGENT_RULES = [
   'Ask all 5 health questions (or "none of these apply"). A yes does not stop the plan: it is built with a health warning (see a medical professional first). Never say which answer caused it.',
   'Before building, show the release text (release.<version> below, in the plan language) and get an explicit "I accept" from the person in this conversation (for role client: from the coach; under 18: from a parent or legal guardian, then guardian: true). Never assume or pre-tick acceptance. Only then send accepted: true.',
   'When the person building the plan is not the one talking to you (for example the coach sends it to a client), or they prefer to accept on the web page, give them the prefilled link instead: it opens the web tool with every answer filled in, and they answer the health check, accept the release and tap Build themselves.',
-  'Nothing is stored: do not keep the answers after the plan is delivered.'
+  'Nothing is stored: do not keep the answers after the plan is delivered.',
+  'Talk in plain words (the coach\'s rule): short sentences, common words, one idea at a time, no jargon without a plain explanation ("reps left in the tank", not "RIR"). Keep exercise names as given, and show the release and the health warning exactly as given.'
 ];
 
 /** every answer field buildIntake reads, with the question that fills it (tests/agent-questions.test.mjs) */

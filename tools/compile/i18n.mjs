@@ -28,6 +28,7 @@ import { UI_X2 } from '../fixture/v05-fix2.mjs';
 import { UI_V06 } from '../fixture/v06-volume.mjs';
 import { UI_W6, ES_PRIORITY_W6 } from '../fixture/v06-words.mjs';
 import { UI_W7, ES_PRIORITY_W7 } from '../fixture/v07-words.mjs';
+import { UI_P7, ES_PRIORITY_P7 } from '../fixture/v07-plain.mjs';
 import { UI_S6 } from '../fixture/v06-select.mjs';
 import { UI_V07 } from '../fixture/v07-volume.mjs';
 import { UI_V07 as UI_S7 } from '../fixture/v07-select.mjs';
@@ -194,6 +195,11 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
     en[k] = e;
     if (s !== undefined && s !== null) { es[k] = s; prov[k] = ES_SOURCE.wordlist; const i = machine.indexOf(k); if (i >= 0) machine.splice(i, 1); }
   }
+  // plain words (COACH-CH7 CH7-09, tools/fixture/v07-plain.mjs): values of existing keys only, written last in both builds
+  for (const [k, [e, s]] of Object.entries(UI_P7)) if (k in en) {
+    en[k] = e;
+    if (s !== undefined && s !== null) { es[k] = s; prov[k] = ES_SOURCE.wordlist; const i = machine.indexOf(k); if (i >= 0) machine.splice(i, 1); }
+  }
   const missing = Object.keys(en).filter(k => k !== '_meta' && !(k in es)).sort();
   // stale table rows (translations whose EN text no longer exists) - reported so the tables stay tidy
   const enValues = new Set(Object.values(en).filter(v => typeof v === 'string'));
@@ -211,7 +217,7 @@ export function buildI18n({ spec, prof, families, exercises, enNames, enCues }) 
     en: sortKeys(en),
     es: sortKeys(es),
     // F3: the ES lines the coach should review first (RECHECK 03 / 05 minors; additive field, CONTRACTS §3.6)
-    es_review: { missing_keys: missing, machine_translated: machine.filter(k => k in en && !reviewed.includes(k)).sort(), priority_review: [...new Set([...ES_PRIORITY_F3, ...ES_PRIORITY_R2F3, ...ES_PRIORITY_V2, ...ES_PRIORITY_V3, ...ES_PRIORITY_W6, ...ES_PRIORITY_W7])].filter(k => k in es).sort() },
+    es_review: { missing_keys: missing, machine_translated: machine.filter(k => k in en && !reviewed.includes(k)).sort(), priority_review: [...new Set([...ES_PRIORITY_F3, ...ES_PRIORITY_R2F3, ...ES_PRIORITY_V2, ...ES_PRIORITY_V3, ...ES_PRIORITY_W6, ...ES_PRIORITY_W7, ...ES_PRIORITY_P7])].filter(k => k in es).sort() },
     provenance: prov,
     cleaned_en: cleaned.sort((a, b) => (a.key < b.key ? -1 : 1)),
     stats: { en_keys: Object.keys(en).length - 1, es_keys: Object.keys(es).length - 1, es_missing: missing.length, es_machine_translated: machine.length, es_by_source: sortKeys(bySource), machine_translated_by_namespace: sortKeys(byNamespace), unused_translation_rows: unused },

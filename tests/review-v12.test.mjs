@@ -266,8 +266,8 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     // (v0.4 fix round 1 / F2: the racket player's Receive weeks now hold the ankle track, so the share is not 0 % - the printed share is
     // still the planned one, week by week)
     // (v0.6 words, converted - DECISIONS G-175: a recreational player's line drops the share; the competitive football plan prints the planned one)
-    for (const w of p.weeks.filter(x => x.athletic_budget && typeof x.athletic_budget.planned_share === 'number')) assert.ok(!md.includes('Plyo share ' + Math.round(100 * w.athletic_budget.planned_share) + '%'), `w${w.n}`);
-    { const f = plan('02'); for (const w of f.p.weeks.filter(x => x.athletic_budget && typeof x.athletic_budget.planned_share === 'number' && x.athletic_budget.planned && (x.athletic_budget.planned.plyo_contacts || x.athletic_budget.planned.jump_contacts))) assert.ok(f.md.includes('Plyo share ' + Math.round(100 * w.athletic_budget.planned_share) + '%'), `02 w${w.n}`); }
+    for (const w of p.weeks.filter(x => x.athletic_budget && typeof x.athletic_budget.planned_share === 'number')) assert.ok(!md.includes(model.t('en', 'ui.plan.plyo_share', { pct: Math.round(100 * w.athletic_budget.planned_share) })), `w${w.n}`); // plain words (CH7-09, DECISIONS G-315): wording converted, same rule
+    { const f = plan('02'); for (const w of f.p.weeks.filter(x => x.athletic_budget && typeof x.athletic_budget.planned_share === 'number' && x.athletic_budget.planned && (x.athletic_budget.planned.plyo_contacts || x.athletic_budget.planned.jump_contacts))) assert.ok(f.md.includes(model.t('en', 'ui.plan.plyo_share', { pct: Math.round(100 * w.athletic_budget.planned_share) })), `02 w${w.n}`); }
   });
   test('R02-19 football: Olympic lifts follow one ramp or the class / budget table and keep 2-4 sets (PER-09, R2-ATH-04)', () => {
     for (const x of items(plan('02').p, x => x.it.bucket === 'AP_TRIPLE_EXT')) assert.ok(x.it.sets >= 2 && x.it.sets <= 4, `${x.it.exercise_id} ${x.it.sets}`);
@@ -359,7 +359,7 @@ describe('v1.2 coach-eye review regressions (compiled model)', { skip: !model &&
     for (const n of Object.keys(NAMES)) {
       const { md } = plan(n);
       assert.ok(!/\[[A-Z][A-Z0-9_\\]{2,}\]/.test(md.replace(/\\_/g, '_')), n);
-      assert.ok(/Planned effort across the stairway/.test(md), n);
+      assert.ok(md.includes(model.t('en', 'effort.drift', { list: '\u0000' }).split('\u0000')[0]), n); // plain words (CH7-09, DECISIONS G-315): wording converted, same rule
     }
   });
 

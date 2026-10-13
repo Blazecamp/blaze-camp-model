@@ -24,6 +24,7 @@ import { isNearDuplicate } from '../engine/select.mjs';
 import { amendRulesX2, amendTemplatesX2, amendExerciseX2, UI_X2, CLASS_SKELETONS } from '../tools/fixture/v05-fix2.mjs';
 import { amendRulesV07, amendTemplatesV07 } from '../tools/fixture/v07-select.mjs';
 import { makeContext, scorePlan, SCORER_VERSION } from '../design/bench/score.mjs';
+import { UI_P7 } from '../tools/fixture/v07-plain.mjs'; // plain words win over every earlier layer (CH7-09, G-315)
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BENCH_DIR = path.join(ROOT, 'design', 'bench', 'intakes');
@@ -66,7 +67,7 @@ describe('v0.5 fix round 2 - the amendment layer', () => {
     for (const [name, sec] of [['selection.x2.core_primary', X2.core_primary], ['athletic.x2', R.athletic.x2], ['placement.x2.order', PX2.order], ['selection.x2.shoulder_press', X2.shoulder_press], ['athletic.x2.loaded_jump', R.athletic.x2.loaded_jump]]) {
       assert.ok(sec && Array.isArray(sec.refs) && sec.refs.length > 0, name + ': refs');
     }
-    for (const [k, v] of Object.entries(UI_X2)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k + ': English and Spanish'); assert.ok(!/\b(RIR|RPE|AMRAP)\b/.test(v[0]), k); assert.equal(model.t('en', k), v[0], k); }
+    for (const [k, v] of Object.entries(UI_X2)) { assert.equal(v.length, 2, k); assert.ok(v[0] && v[1], k + ': English and Spanish'); assert.ok(!/\b(RIR|RPE|AMRAP)\b/.test(v[0]), k); if (!(k in UI_P7)) assert.equal(model.t('en', k), v[0], k); } // (plain words, CH7-09 / G-315: a line the last words layer rewrote is checked in tests/v07-plain-words.test.mjs)
     assert.equal(model.engine_version || '0.5.0', '0.5.0');
   });
 });
