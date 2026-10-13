@@ -263,6 +263,7 @@ details[open].week-notes > summary::after, details[open].sec > summary::after { 
 .row .num { color: var(--accent-ink); font-weight: 900; font-size: 14px; margin-right: 2px; }
 .row .bdg { flex: none; display: flex; gap: 4px; }
 .row .r2 { font-size: 15px; color: var(--ink-2); line-height: 1.35; margin-top: 1px; }
+.row .nb { white-space: nowrap; }
 .row .dose { font-weight: 850; color: var(--ink); }
 .row .ss { color: var(--accent-ink); font-weight: 800; font-size: 13px; }
 .row[aria-expanded="true"] { background: var(--card-2); }
@@ -296,11 +297,12 @@ details[open].week-notes > summary::after, details[open].sec > summary::after { 
 .panel h2 { font-size: 18px; margin: 2px 0 6px; font-weight: 900; }
 .panel .sub { color: var(--muted); font-size: 14px; margin: 0 0 10px; }
 .heat-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -4px; padding: 0 4px; }
-table.heat { border-collapse: separate; border-spacing: 3px; font-size: 13px; min-width: 100%; }
+table.heat { border-collapse: separate; border-spacing: 2px; font-size: 12px; min-width: 100%; }
 table.heat th { font-weight: 800; color: var(--muted); font-size: 12px; padding: 0 2px; text-align: center; }
-table.heat th.g, table.heat td.g { text-align: left; font-weight: 800; color: var(--ink); font-size: 14px; white-space: nowrap; padding-right: 6px; position: sticky; left: 0; background: var(--card); z-index: 1; max-width: 132px; overflow: hidden; text-overflow: ellipsis; }
-table.heat td.c { width: 26px; min-width: 26px; height: 28px; text-align: center; border-radius: 6px; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--ink); }
+table.heat th.g, table.heat td.g { text-align: left; font-weight: 800; color: var(--ink); font-size: 14px; white-space: nowrap; padding-right: 6px; position: sticky; left: 0; background: var(--card); z-index: 1; max-width: 96px; overflow: hidden; text-overflow: ellipsis; }
+table.heat td.c { width: 24px; min-width: 24px; height: 26px; text-align: center; border-radius: 6px; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--ink); }
 table.heat td.c.hi { color: #fff; }
+table.heat td.c.eff { font-weight: 700; color: var(--muted); white-space: nowrap; font-size: 11px; background: transparent; }
 table.heat td.f { font-weight: 900; padding-left: 6px; white-space: nowrap; color: var(--accent-ink); }
 table.heat tr.tot td { border-top: 2px solid var(--line-2); }
 table.heat td.sep, table.heat th.sep { width: 2px; min-width: 2px; padding: 0; background: var(--line-2); }
@@ -323,6 +325,17 @@ details.sec .md { padding: 0 14px 12px; font-size: 15px; }
   .brand-sub { display: none; }
   .chips.grid3 { grid-template-columns: repeat(2, 1fr); }
   .daytab { font-size: 14px; }
+}
+
+@media (min-width: 1000px) {
+  main.plan-main { max-width: 1120px; }
+  .dayview { display: grid; grid-template-columns: 340px 1fr; gap: 24px; align-items: start; }
+  .dv-side { position: sticky; top: 64px; }
+  .dv-side .daytabs { grid-auto-flow: row; grid-template-columns: repeat(4, 1fr); }
+  .dayview .daycard, .dayview .actions { max-width: 680px; margin-left: 0; margin-right: 0; }
+  .dv-side .daytabs, .dv-side .weekbar, .dv-side details.week-notes { max-width: none; margin-left: 0; margin-right: 0; }
+  .dayview .hint-line { text-align: left; }
+  .dayview details.week-notes .body { max-height: 46vh; overflow: auto; }
 }
 
 /* ---------------------------------------------------------------- print: the whole plan, one week per page */

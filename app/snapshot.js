@@ -19,10 +19,19 @@ function inlineStyles(src, dst) {
 
 /** @param {HTMLElement} node @param {{scale?:number, background?:string}} [opts] @returns {Promise<Blob>} */
 export async function nodeToPng(node, opts = {}) {
-  const rect = node.getBoundingClientRect();
-  const width = Math.ceil(rect.width), height = Math.ceil(node.scrollHeight || rect.height);
-  const clone = node.cloneNode(true);
-  inlineStyles(node, clone);
+  // the tips and any open row details are left out of the picture: hide them while measuring and copying the styles
+  const hidden = [...node.querySelectorAll('[data-snap-hide]')];
+  const prev = hidden.map(el => el.style.display);
+  hidden.forEach(el => { el.style.display = 'none'; });
+  let width, height, clone;
+  try {
+    const rect = node.getBoundingClientRect();
+    width = Math.ceil(rect.width); height = Math.ceil(rect.height);
+    clone = node.cloneNode(true);
+    inlineStyles(node, clone);
+  } finally {
+    hidden.forEach((el, i) => { el.style.display = prev[i]; });
+  }
   clone.style.margin = '0';
   clone.querySelectorAll('[data-snap-hide]').forEach(el => el.remove());
   const xml = new XMLSerializer().serializeToString(clone);

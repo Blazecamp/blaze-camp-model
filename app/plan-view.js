@@ -284,6 +284,10 @@ export function dayCard(plan, model, lang, n, weekday) {
       if (full && e && e.type === 'rir' && !e.last_set && typeof e.min === 'number' && has(model, 'ui.plan.rir_short')) {
         const k = row.meta.findIndex(x => plain(x) === full);
         if (k >= 0) { row.meta[k] = t('ui.plan.rir_short', { rir: e.min === e.max ? e.min : e.min + '-' + e.max }); row.effort_full = full; }
+      } else if (full && full.length > 30) {
+        // a long effort sentence ('move it fast: if the kettlebell slows down ...') goes to the row's details, so a row stays two lines
+        const k = row.meta.findIndex(x => plain(x) === full);
+        if (k >= 0) { row.meta.splice(k, 1); row.effort_full = full; }
       }
       row.exercise_id = it.exercise_id || null;
       row.sets = typeof it.sets === 'number' ? it.sets : null;

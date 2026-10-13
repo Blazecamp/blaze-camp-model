@@ -453,9 +453,10 @@ function dayViewHtml() {
   const notes = wi && wi.notes_md ? `<details class="week-notes" ${wi.accel ? 'open' : ''}><summary>${h(t('plan.this_week'))}</summary><div class="body md">${markdown(wi.notes_md)}</div></details>` : '';
   const lg = V.legal(S.plan, S.model, S.lang);
   const hb = lg.health ? `<div class="banner health">${h(lg.health.short || lg.health.line)}</div>` : '';
-  return weekBarHtml() + dayTabsHtml() + hb + notes + dayCardHtml(S.week, S.day, false) +
-    `<div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button><button class="btn" data-action="print">⎙ ${h(t('plan.print'))}</button></div>
-     <p class="hint-line">${h(t('plan.tap_hint'))}<br>${h(t('plan.swipe_hint'))}</p>`;
+  return `<div class="dayview"><div class="dv-side">${weekBarHtml()}${dayTabsHtml()}${hb}${notes}</div>
+    <div class="dv-main">${dayCardHtml(S.week, S.day, false)}
+    <div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button><button class="btn" data-action="print">⎙ ${h(t('plan.print'))}</button></div>
+     <p class="hint-line">${h(t('plan.tap_hint'))}<br>${h(t('plan.swipe_hint'))}</p></div></div>`;
 }
 
 function badgeHtml(b) {
@@ -512,7 +513,7 @@ function dayCardHtml(n, weekday, forPrint) {
         const open = S.open.has(key) && !forPrint;
         const det = rowDetailsHtml(r);
         const tags = [r.superset_tag ? `<span class="badge tag">${h(r.superset_tag)}</span>` : '', ...r.tags.map(x => `<span class="badge tag">${h(x)}</span>`), badgeHtml(r.badge)].join('');
-        const line2 = r.dose || r.meta.length ? `<span class="r2" style="display:block">${r.dose ? `<span class="dose">${inline(r.dose)}</span>` : ''}${r.meta.length ? (r.dose ? ' · ' : '') + r.meta.map(inline).join(' · ') : ''}${r.superset_with ? ` <span class="ss">⇄</span>` : ''}</span>` : '';
+        const line2 = r.dose || r.meta.length ? `<span class="r2" style="display:block">${r.dose ? `<span class="dose">${inline(r.dose)}</span>` : ''}${r.meta.length ? (r.dose ? ' · ' : '') + r.meta.map(x => `<span class="nb">${inline(x)}</span>`).join(' · ') : ''}${r.superset_with ? ` <span class="ss">⇄</span>` : ''}</span>` : '';
         const inner = `<span class="r1"><span class="nm"><span class="num">${i + 1}</span> ${inline(r.name)}</span><span class="bdg">${tags}</span></span>${line2}`;
         if (det && !forPrint) {
           body += `<button type="button" class="row" data-action="row" data-value="${key}" aria-expanded="${open}">${inner}</button>`;
@@ -550,7 +551,7 @@ function heatHtml(highlight) {
     const headCells = weeks.map((w, i) => (breaks.includes(i) && i > 0 ? '<th class="sep"></th>' : '') + `<th class="${highlight && w === S.week ? 'cur' : ''}">${w}</th>`).join('');
     const rows = g.rows.map(r => `<tr><td class="g" title="${h(r.name)}">${h(r.name)}</td>${cells(r)}${g.has_final ? `<td class="f">${h(r.final)}</td>` : ''}</tr>`).join('');
     const tot = g.total ? `<tr class="tot"><td class="g">${h(t('progress.total'))}</td>${cells(g.total)}${g.has_final ? `<td class="f">${h(g.total.final)}</td>` : ''}</tr>` : '';
-    const effRow = `<tr><td class="g">${h(mt('ui.plan.effort'))}</td>${weeks.map((w, i) => { const e = eff.find(x => x.n === w); return (breaks.includes(i) && i > 0 ? '<td class="sep"></td>' : '') + `<td class="c" style="font-weight:700;color:var(--muted)">${h(e ? (e.intensifiers ? e.text + '+' : e.text) : '–')}</td>`; }).join('')}${g.has_final ? '<td></td>' : ''}</tr>`;
+    const effRow = `<tr><td class="g">${h(mt('ui.plan.effort'))}</td>${weeks.map((w, i) => { const e = eff.find(x => x.n === w); return (breaks.includes(i) && i > 0 ? '<td class="sep"></td>' : '') + `<td class="c eff">${h(e ? (e.intensifiers ? e.text + '+' : e.text) : '–')}</td>`; }).join('')}${g.has_final ? '<td></td>' : ''}</tr>`;
     return `<div class="heat-wrap"><table class="heat"><thead><tr><th class="g">${h(mt('ui.plan.col.week'))}</th>${headCells}${g.has_final ? `<th>${h(t('progress.final'))}</th>` : ''}</tr></thead><tbody>${rows}${tot}${effRow}</tbody></table></div>`;
   }).join('');
 }
@@ -561,11 +562,11 @@ function progressHtml() {
   const header = V.headerMd(S.plan, S.model, S.lang, overviewMd());
   let out = '';
   if (lg.health) out += `<div class="banner health"><b>${h(lg.health.label)}</b> ${h(lg.health.why)} ${h(lg.health.line)}</div>`;
-  out += `<div class="banner release"><b>${h(lg.label)}</b> ${h(lg.full)} ${lg.url ? `<a href="${h(lg.url)}" target="_blank" rel="noopener noreferrer">${h(lg.link_text)}</a>` : ''}</div>`;
   out += `<section class="panel"><h2>${h(t('progress.sets_title'))}</h2><p class="sub">${h(t('progress.sets_note'))} ${h(t('progress.effort_note'))}</p>${heatHtml(true)}</section>`;
   if (header) out += `<section class="panel md">${markdown(header)}</section>`;
   const openIds = ['before', 'progress'];
   for (const s of secs) out += `<details class="sec" ${openIds.includes(s.id) ? 'open' : ''}><summary>${h(s.title)}</summary><div class="md">${markdown(s.body)}</div></details>`;
+  out += `<div class="banner release"><b>${h(lg.label)}</b> ${h(lg.full)} ${lg.url ? `<a href="${h(lg.url)}" target="_blank" rel="noopener noreferrer">${h(lg.link_text)}</a>` : ''}</div>`;
   return out;
 }
 

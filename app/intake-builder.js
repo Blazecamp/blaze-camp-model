@@ -175,7 +175,8 @@ export function stepBlocker(step, a) {
 
 /** the wizard's steps for these answers, in order */
 export function stepsFor(a) {
-  const d = detailStepFor(a.goal);
+  // (before a goal is picked the count assumes a detail step - most goals have one - so "Step n of 7" does not jump)
+  const d = a.goal ? detailStepFor(a.goal) : 'sport';
   return ['about', 'goal', ...(d ? [d] : []), 'week', 'kit', 'health', 'accept'];
 }
 

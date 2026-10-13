@@ -1,14 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node tools/build-site.mjs",
+  "outputDirectory": "site",
+  "installCommand": "",
+  "framework": null,
   "cleanUrls": true,
-  "trailingSlash": true,
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/app/",
-      "permanent": false
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -32,7 +28,7 @@
       ]
     },
     {
-      "source": "/app/(.*)",
+      "source": "/((?!engine/|model/).*)",
       "headers": [
         {
           "key": "Cache-Control",
