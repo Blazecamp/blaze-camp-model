@@ -83,10 +83,10 @@ test('cli: incomplete answers and invalid intakes - plain words, exit 1, nothing
     assert.equal(c.code, 1);
     assert.match(c.err, /\(gender\)/);
     assert.match(c.err, /\(stress\)/);
-    // Son Hábitos needs its site address for its own disclaimer pages: its brand file carries it (son-habitos.vercel.app)
+    // Son Hábitos needs its site address for its own disclaimer pages: its brand file carries it (plan.sonhabitos.com)
     const d = run(['--intake', sample('08-pickleball-genpop'), '--brand', 'sonhabitos', '--format', 'md', '--out', out + '-sh']);
     assert.equal(d.code, 0, d.err);
-    assert.match(fs.readFileSync(path.join(out + '-sh', fs.readdirSync(out + '-sh')[0]), 'utf8'), /son-habitos\.vercel\.app\/disclaimer/);
+    assert.match(fs.readFileSync(path.join(out + '-sh', fs.readdirSync(out + '-sh')[0]), 'utf8'), /plan\.sonhabitos\.com\/disclaimer/);
     fs.rmSync(out + '-sh', { recursive: true, force: true });
     assert.equal(run(['--intake', sample('08-pickleball-genpop'), '--brand', 'nope']).code, 1);
     assert.deepEqual(fs.readdirSync(out), []);

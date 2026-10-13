@@ -8,7 +8,7 @@ export const BRAND = {
   id: 'sonhabitos',
   name: 'Son Hábitos',
   short: 'SON HÁBITOS',
-  site_url: 'https://son-habitos.vercel.app',                    // its public site (https://...): agent links and its disclaimer pages; null = pass --site / SITE_URL
+  site_url: 'https://plan.sonhabitos.com',                    // its public site (https://...): agent links and its disclaimer pages; null = pass --site / SITE_URL
   lang_default: 'es',
   // agent/packs.mjs: the agent pack's words for this brand (agent/packs/<id>/); Son Hábitos credit only (CH7-02, CH7-06)
   agent: { credit: { en: 'Son Hábitos · Nati Vera · BFit Studios Corp.', es: 'Son Hábitos · Nati Vera · BFit Studios Corp.' },

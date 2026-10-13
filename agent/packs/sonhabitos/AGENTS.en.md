@@ -4,7 +4,7 @@ Instructions for any agent that gets a request for a **training plan, workout, r
 
 ## The API
 
-- Base: `https://son-habitos.vercel.app` (Son Hábitos only: its logo, colors and legal line are on every plan and PDF)
+- Base: `https://plan.sonhabitos.com` (Son Hábitos only: its logo, colors and legal line are on every plan and PDF)
 - Questions: `GET /api/questions?lang=en` (`es` if the person writes in Spanish)
 - Build the plan: `POST /api/plan`
 - API description: `GET /api/openapi`
@@ -14,8 +14,8 @@ Instructions for any agent that gets a request for a **training plan, workout, r
 
 ## The legal links (ALWAYS sent with the release)
 
-- Spanish: https://son-habitos.vercel.app/disclaimer.es.html (section 5 is the part for coaches, the one that applies when the plan is for a client)
-- English: https://son-habitos.vercel.app/disclaimer.html
+- Spanish: https://plan.sonhabitos.com/disclaimer.es.html (section 5 is the part for coaches, the one that applies when the plan is for a client)
+- English: https://plan.sonhabitos.com/disclaimer.html
 - PAR-Q (the 5 health questions come from here): https://eparmedx.com/
 
 They are sent so the coach can forward them to the client as they are, and the client **confirms by text** that they accept. The agent never accepts for anyone.

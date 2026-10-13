@@ -16,17 +16,17 @@ Un agente que reciba este paquete ya sabe qué hacer cuando alguien pide un plan
 ## La API, de un vistazo
 
 ```
-GET  https://son-habitos.vercel.app/api/questions?lang=es
-POST https://son-habitos.vercel.app/api/plan
-GET  https://son-habitos.vercel.app/api/openapi
+GET  https://plan.sonhabitos.com/api/questions?lang=es
+POST https://plan.sonhabitos.com/api/plan
+GET  https://plan.sonhabitos.com/api/openapi
 ```
 
 `POST` acepta `{"answers": {...}, "lang": "es"|"en", "format": "md"|"json"|"pdf"}`. Sin `accepted: true` (o sin la revisión de salud cuando toca) devuelve **422** con la lista `problems` y el link prellenado.
 
 ## Los links legales (van SIEMPRE con la liberación)
 
-- Español: https://son-habitos.vercel.app/disclaimer.es.html (su §5 es la parte de entrenadores, que es la que aplica cuando el plan es para un cliente)
-- Inglés: https://son-habitos.vercel.app/disclaimer.html
+- Español: https://plan.sonhabitos.com/disclaimer.es.html (su §5 es la parte de entrenadores, que es la que aplica cuando el plan es para un cliente)
+- Inglés: https://plan.sonhabitos.com/disclaimer.html
 - PAR-Q (las 5 preguntas de salud salen de aquí): https://eparmedx.com/
 
 ---

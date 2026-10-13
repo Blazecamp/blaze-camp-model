@@ -18,7 +18,7 @@ test('CH7-10: every brand has its pack, and the committed packs are current (nod
 test('CH7-10: the pack carries the coach\'s flow, the brand\'s own API and legal links', () => {
   const bc = files['agent/packs/blazecamp/AGENTS.md'], sh = files['agent/packs/sonhabitos/AGENTS.md'];
   assert.match(bc, /https:\/\/blaze-camp-model\.vercel\.app/); assert.match(bc, /TWO messages/); assert.match(bc, /DISCLAIMER\.es\.md/); assert.match(bc, /eparmedx/);
-  assert.match(sh, /https:\/\/son-habitos\.vercel\.app\/disclaimer\.es\.html/); assert.match(sh, /DOS mensajes/); assert.match(sh, /«Acepto»/);
+  assert.match(sh, /https:\/\/plan\.sonhabitos\.com\/disclaimer\.es\.html/); assert.match(sh, /DOS mensajes/); assert.match(sh, /«Acepto»/);
   assert.doesNotMatch(sh, /blaze-camp-model\.vercel\.app/);
   for (const t of [bc, sh]) { assert.match(t, /format.*pdf/); assert.doesNotMatch(t, /one or two at a time/); }
   const ex = JSON.parse(files['agent/packs/sonhabitos/answers.example.json']);

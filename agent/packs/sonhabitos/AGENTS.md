@@ -4,7 +4,7 @@ Instrucciones para cualquier agente que reciba un pedido de **plan de entrenamie
 
 ## La API
 
-- Base: `https://son-habitos.vercel.app` (solo Son Hábitos: su logo, sus colores y su línea legal van en el plan y en el PDF)
+- Base: `https://plan.sonhabitos.com` (solo Son Hábitos: su logo, sus colores y su línea legal van en el plan y en el PDF)
 - Preguntas: `GET /api/questions?lang=es` (`en` si la persona escribe en inglés)
 - Armar el plan: `POST /api/plan`
 - Descripción de la API: `GET /api/openapi`
@@ -14,8 +14,8 @@ Instrucciones para cualquier agente que reciba un pedido de **plan de entrenamie
 
 ## Los links legales (van SIEMPRE con la liberación)
 
-- Español: https://son-habitos.vercel.app/disclaimer.es.html (su §5 es la parte de entrenadores, que es la que aplica cuando el plan es para un cliente)
-- Inglés: https://son-habitos.vercel.app/disclaimer.html
+- Español: https://plan.sonhabitos.com/disclaimer.es.html (su §5 es la parte de entrenadores, que es la que aplica cuando el plan es para un cliente)
+- Inglés: https://plan.sonhabitos.com/disclaimer.html
 - PAR-Q (las 5 preguntas de salud salen de aquí): https://eparmedx.com/
 
 Se mandan para que la coach se los reenvíe a la clienta tal cual, y la clienta **confirme por texto** que acepta. El agente no acepta por nadie.
