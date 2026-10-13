@@ -291,3 +291,7 @@ Format, one entry per ask:
 - why: the model label moves to 1.4.0 (round 5, CH5, CH6); the seed of §1.3 hashes `model.version`, so the label alone would reshuffle every tied pick, including the 8 sample plans the coach graded (R5-GRD) and the plans under review.
 - implemented: `rules.determinism.seed_version_map` {'1.4.0': '1.3.0', '1.4.0-fixture': '1.3.0-fixture'} (tools/fixture/v07-words.mjs, both builds); `generate.mjs` seeds from the mapped version. Also `rules.release` {model_version, confirmations, refs}: the round-5 confirmations of rules already built (information only).
 - status: implemented in engine 0.7.0 -> DECISIONS G-305; the CONTRACTS release box lists the shape.
+## Web tool editing (app-edit) · §5 · one edit op, one item field
+- why: the coach could not find edit, swap or tune buttons in the web tool (COACH-CX CX-02 / CX-04; R4-LIB-04). Swapping a line in place is not expressible with the existing ops without moving the line and changing its slot id and dose.
+- implemented: `applyPlanEdits` op `{op: 'swap_exercise', weekday, slot_id, exercise_id, weeks?}`; item field `swapped_from` (the line's first exercise id, only on a swapped line of an edited plan). Additive: generated plans are byte-identical; `plan/2` unchanged.
+- status: implemented -> DECISIONS G-312; `tests/edit-swap.test.mjs`.

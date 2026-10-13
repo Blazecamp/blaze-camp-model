@@ -351,7 +351,8 @@ the closest compliant thing, write the issue to `engine/CONTRACT_REQUESTS.md` an
 >   evaluatePrescription, applySetEdits`), `engine/edit.mjs` (`applyPlanEdits(plan, edits, model) -> {plan, edited:true, applied,
 >   conflicts, priorValidationDiscarded:true}`; edits `{op:'set_sets', weekday, slot_id, sets, weeks?}`, `{op:'remove_exercise',
 >   weekday, slot_id, weeks?}`, `{op:'add_exercise', weekday, block, exercise_id, sets, weeks?}`, `{op:'set_block', weekday, block,
->   on, weeks?}`; conflict codes `sets_above_max, sets_below_min, session_size_above_range, group_below_target, group_below_floor,
+>   on, weeks?}`, `{op:'swap_exercise', weekday, slot_id, exercise_id, weeks?}` (G-312: the line keeps its place and dose; item
+>   field `swapped_from`); conflict codes `sets_above_max, sets_below_min, session_size_above_range, group_below_target, group_below_floor,
 >   group_sets_decreased` with class `bound | plan_shape | info`).
 >   `volume.planWeeklySets(ctx) -> {weeks, athletic, warnings, block_targets}`; `block_targets[] = {training_block, N, start, cap,
 >   groups, credit_only_groups, carrier, group_start, group_top, planned_start, planned_top, schedule, lambda, arrival_week,

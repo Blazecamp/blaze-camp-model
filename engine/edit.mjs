@@ -9,6 +9,10 @@
 //   { op: 'remove_exercise', weekday, slot_id, weeks }                       take an exercise off a day
 //   { op: 'add_exercise',    weekday, exercise_id, sets, weeks, block?, after_slot_id? }   add a catalog exercise to a day
 //   { op: 'set_block',       weekday, block, on, weeks }                     switch a block of a day off or back on (core, athletic ...)
+//   { op: 'swap_exercise',   weekday, slot_id, exercise_id, weeks }          put another catalog exercise in the same line of a day
+//      (G-312; COACH-CX CX-02 / CX-04, COACH-R4 R4-LIB-04): the line keeps its slot id, block, position, sets, reps, effort, rest and
+//      progression rule; the exercise's own fields (name, cue, video, laterality, credits, group) and its swap list with the
+//      keeps / loses notes are those of the new exercise, and the exercise it replaced is offered back first (`swapped_from`).
 //
 // After the edits (reviews/claude-codex-audit.md MEDIUM-1 / L3 / L4, coach_answers_codex engineering requirement 3):
 //   * every touched week's totals are RECOMPUTED from its items: weekly sets per muscle / line / group (helpers 0.25, a set counts
@@ -25,9 +29,9 @@ import { EngineError, EPS, WEEKDAYS, round2, roundHalfUp } from './util.mjs';
 import { linesOf, lineCredits, groupCredits } from './lines.mjs';
 import { setCost } from './estimate.mjs';
 import { validatePlan } from './validate.mjs';
-import { videoOf, isCarry, carryReps } from './library.mjs';
+import { videoOf, isCarry, carryReps, swapNotes } from './library.mjs';
 
-const OPS = ['set_sets', 'remove_exercise', 'add_exercise', 'set_block'];
+const OPS = ['set_sets', 'remove_exercise', 'add_exercise', 'set_block', 'swap_exercise'];
 const RES_KINDS = ['resistance', 'isolation', 'focus'];
 const clone = (o) => JSON.parse(JSON.stringify(o));
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
@@ -148,6 +152,37 @@ export function applyPlanEdits(plan, edits, model) {
         if (offered && next.meta && Array.isArray(next.meta.addons)) next.meta.addons = next.meta.addons.filter(a => a.exercise_id !== ex.id);
         touch(n, e.weekday, e.sets * itemMinutes(item, model, derived, w) + changeover);
         hits++;
+      } else if (e.op === 'swap_exercise') {
+        if (!model.hasEx(e.exercise_id)) bad('exercise', `edit ${k}: unknown exercise ${e.exercise_id}`, { edit: k });
+        const f = findItem(day, e.slot_id);
+        if (!f || !f.it.exercise_id) continue;
+        hits++;
+        if (f.it.exercise_id === e.exercise_id) continue;
+        const it = f.it, was = it.exercise_id, ex = model.ex(e.exercise_id);
+        const before = countsNow(it) ? it.sets * itemMinutes(it, model, derived, w) : 0;
+        const carry = isCarry(ex, R);
+        // the credits of the new exercise in the line's own bucket (H08); a line that counted no sets (athletic work, H09) still
+        // counts none, and a carry or a never-credit exercise counts none either (R4-LIB-02)
+        const counted = isResItem(model, it) && Object.keys(it.credits || {}).length > 0;
+        it.credits = counted && !carry && !ex.tags.some(tg => R.credit.never_credit_tags.includes(tg)) ? model.credits(ex, it.bucket) : {};
+        it.exercise_id = ex.id;
+        it.name_key = ex.name_key;
+        it.cue_key = ex.cue_key || null;
+        it.video = videoOf(model, ex);
+        it.laterality = ex.laterality || it.laterality || null;
+        if (ex.primary_muscle) it.group = model.groupOf(ex.primary_muscle);
+        if (carry) { it.reps = carryReps(ex, R); it.effort = { type: 'intent', key: R.conditioning.carry.effort_key }; it.progression = null; }
+        // a note that names the old pick (an equipment or pain stand-in) no longer applies; the other notes stay with the line
+        const insteadKeys = [R.selection && R.selection.swap_notes && R.selection.swap_notes.instead_of_note, 'note.pain_instead_of'].filter(Boolean);
+        it.notes = (it.notes || []).filter(x => !(x && insteadKeys.includes(x.key)));
+        it.instead_of = null;
+        // the swap list: the line's first exercise first, then the one just replaced, then the rest (each once, never the new one)
+        const first = it.swapped_from || was;
+        it.swaps = [first, was, ...(it.swaps || [])].filter((id, i, a) => id !== ex.id && a.indexOf(id) === i && model.hasEx(id));
+        if (first === ex.id) delete it.swapped_from; else it.swapped_from = first;
+        it.swap_notes = swapNotes(model, ex.id, it.swaps);
+        it.edited = true;
+        touch(n, e.weekday, (countsNow(it) ? it.sets * itemMinutes(it, model, derived, w) : 0) - before);
       } else if (e.op === 'set_block') {
         if (typeof e.on !== 'boolean') bad('on', `edit ${k}: set_block needs on true or false`, { edit: k });
         const blocks = (day.blocks || []).filter(b => b.kind === e.block || b.id === e.block);

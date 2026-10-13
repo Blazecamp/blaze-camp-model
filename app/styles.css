@@ -355,6 +355,91 @@ details.week-notes.main { margin-top: 10px; }
 .linkbtn { background: none; border: 0; color: var(--muted); font: inherit; font-size: 14px; text-decoration: underline; padding: 6px 8px; cursor: pointer; }
 .dayview .print-line { text-align: left; }
 
+/* Things to do today, each lightly boxed: a straight exercise is one card; a superset / triset / giant set / circuit / WOD is one card
+   with a coloured rail, a plain-words header and lighter inner boxes A1 -> A2 ... (brand colours through the CSS variables) */
+.things { display: grid; grid-template-columns: minmax(0, 1fr); gap: 5px; padding: 2px 8px 6px; }
+.grp-b { grid-template-columns: minmax(0, 1fr); }
+.grp, .thing { min-width: 0; }
+.thing { border: 1px solid var(--line); border-radius: 10px; background: var(--card); overflow: hidden; }
+.thing > .row-wrap > .row, .thing > .row { padding-left: 8px; }
+.thing .row .r2 { padding-left: 16px; }
+.grp { border: 1px solid var(--line-2); border-left: 4px solid var(--accent); border-radius: 10px; background: var(--accent-soft); padding: 4px 5px 5px 5px; }
+.grp-h { padding: 1px 4px 4px; font-size: 13px; line-height: 1.3; color: var(--ink); }
+.grp-k { font-weight: 900; letter-spacing: .04em; color: var(--accent-ink); font-size: 12px; }
+.grp-l { font-weight: 700; }
+.grp-n { display: block; font-size: 12px; color: var(--ink-2); }
+.grp-b { display: grid; gap: 0; }
+.thing.in { border-color: var(--line); border-radius: 8px; position: relative; overflow: visible; }
+.thing.in + .thing.in { margin-top: 11px; }
+.thing.in + .thing.in::before { content: "↓"; position: absolute; top: -12px; left: 14px; font-size: 11px; line-height: 12px; font-weight: 900; color: var(--accent-ink); }
+.thing.wod-row .r2 { white-space: normal; }
+.thing.in .num { min-width: 20px; }
+.thing.wod-row { margin-bottom: 6px; }
+.thing.wod-row .num { display: none; }
+.thing .det { border-bottom: 0; border-top: 1px solid var(--line); }
+.blk + .blk { border-top: 0; }
+.blk { padding: 2px 0 0; }
+
+/* ▶ beside each exercise: the YouTube search for its name (R4-LIB-05); a 44px tap target that looks small */
+.row-wrap { display: flex; align-items: center; }
+.row-wrap > .row { flex: 1; min-width: 0; padding-right: 2px; }
+.row-wrap.open { background: var(--card-2); }
+.play { flex: none; width: 44px; height: 44px; margin-right: 6px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; border-radius: 50%; }
+.play span { width: 30px; height: 30px; border-radius: 50%; border: 1.5px solid var(--line-2); background: var(--card); color: var(--accent-ink); font-size: 12px; display: inline-flex; align-items: center; justify-content: center; padding-left: 2px; }
+.play:hover span, .play:focus-visible span { border-color: var(--accent); background: var(--accent-soft); }
+
+/* Editing (app/edit-ui.js): the row's edit bar, block switches, Add exercise, the Edited strip. Never in the saved image or print. */
+.badge.edited { background: var(--accent-soft); color: var(--accent-ink); border: 1px solid var(--accent); font-size: 12px; vertical-align: middle; }
+.row .bdg .badge.ed { color: var(--accent-ink); border: 1px solid var(--line-2); padding: 0 5px; }
+.edit-bar { margin: 8px 0 6px; padding: 8px 10px; background: var(--card); border: 1px solid var(--line-2); border-radius: var(--radius-sm); }
+.eb-sets { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.eb-sets .k { font-weight: 850; color: var(--ink); min-width: 44px; }
+.eb-step { width: 44px; height: 44px; border-radius: 12px; border: 2px solid var(--line-2); background: var(--card); font-size: 24px; font-weight: 800; line-height: 1; color: var(--ink); }
+.eb-step:disabled { opacity: .4; }
+.eb-n { min-width: 26px; text-align: center; font-size: 20px; font-weight: 900; color: var(--ink); }
+.eb-sets small { color: var(--muted); font-size: 13px; }
+.eb-btns { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.eb-btns .btn { flex: 1; min-width: 120px; }
+.eb-rm { color: var(--ink-2); }
+.eb-swaps { margin-top: 8px; display: grid; gap: 6px; }
+.eb-swaps .k { margin: 0; }
+.swap-opt { text-align: left; border: 2px solid var(--line-2); background: var(--card-2); border-radius: 12px; padding: 8px 12px; min-height: 48px; font: inherit; color: var(--ink); }
+.swap-opt b { display: block; font-weight: 850; font-size: 15px; }
+.swap-opt .swap-k { color: var(--muted); font-size: 13.5px; display: block; }
+.swap-opt:hover, .add-opt:hover { border-color: var(--accent); }
+.blk-h .blk-t { flex: 1 1 0; min-width: 0; display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+.blk-h .blk-sw { margin-left: auto; flex: none; align-self: center; }
+.blk-sw { display: inline-flex; align-items: center; gap: 5px; border: 1.5px solid var(--line-2); background: var(--card); border-radius: 999px; padding: 2px 9px 2px 3px; min-height: 28px; position: relative; font: inherit; font-size: 12px; font-weight: 800; color: var(--ink-2); text-transform: none; letter-spacing: 0; cursor: pointer; }
+.blk-sw::before { content: ""; position: absolute; inset: -8px -4px; }   /* a bigger tap area than it looks */
+.blk-sw .knob { width: 20px; height: 20px; border-radius: 50%; background: var(--line-2); transition: background .15s; }
+.blk-sw[aria-checked="true"] .knob { background: var(--accent); }
+.blk-sw[aria-checked="true"] { border-color: var(--accent); color: var(--accent-ink); }
+.blk-off .row { opacity: .5; }
+.add-line { margin: 10px 0 0; }
+.add-line .add-btn { width: 100%; border-style: dashed; }
+.add-panel { margin: 10px 0 0; padding: 12px; background: var(--card); border: 2px solid var(--accent); border-radius: var(--radius); }
+.ap-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.ap-l { display: block; font-weight: 800; font-size: 14px; color: var(--ink-2); margin-bottom: 4px; }
+.ap-opts { margin: 4px 0 10px; display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; }
+.ap-blk { display: flex; align-items: center; gap: 8px; flex: 1 1 180px; }
+.ap-blk .k, .ap-opts .k { font-weight: 850; font-size: 14px; color: var(--ink); }
+.ap-blk select { flex: 1; min-width: 0; height: 44px; border-radius: 12px; border: 2px solid var(--line-2); background: var(--card); color: var(--ink); font: inherit; font-size: 15px; padding: 0 8px; }
+.ap-opts .eb-sets .k { min-width: 0; }
+.ap-sub { color: var(--muted); font-size: 14px; margin: 8px 0 4px; }
+.add-list { display: grid; gap: 6px; margin-top: 6px; }
+.add-opt { display: flex; align-items: center; gap: 8px; text-align: left; border: 2px solid var(--line-2); background: var(--card-2); border-radius: 12px; padding: 8px 12px; min-height: 48px; font: inherit; font-weight: 750; color: var(--ink); }
+.add-opt .an { flex: 1; min-width: 0; }
+.add-opt .plus { color: var(--accent-ink); font-weight: 900; font-size: 18px; }
+.edit-strip { margin: 0 0 10px; padding: 8px 12px; background: var(--accent-soft); border: 1px solid var(--accent); border-radius: var(--radius-sm); font-size: 14px; color: var(--ink); }
+.es-r1 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.es-btns { margin-left: auto; display: flex; gap: 6px; }
+.es-btns .btn.small { min-height: 40px; font-size: 14px; padding: 0 10px; }
+.es-busy { color: var(--accent-ink); font-weight: 800; }
+.es-info { margin-top: 6px; }
+.es-info p { margin: 2px 0; font-weight: 700; }
+.es-info ul { margin: 2px 0; padding-left: 18px; }
+.es-note { margin: 6px 0 0; color: var(--ink-2); font-size: 12.5px; }
+
 /* Download PDF / Save image: the toast and the sheet (deliver.js) */
 .toast { position: fixed; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom)); transform: translate(-50%, 20px); opacity: 0; pointer-events: none;
   max-width: min(92vw, 520px); background: var(--ink); color: var(--card); padding: 12px 16px; border-radius: 12px; font-weight: 700; font-size: 15px;
@@ -443,6 +528,8 @@ details.sec .md { padding: 0 14px 12px; font-size: 15px; }
   .pr-day .est { color: #444; font-size: 9pt; }
   .pr-day table { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
   .pr-day td { border-top: 1px solid #ddd; padding: 2pt 3pt; vertical-align: top; }
+  .pr-day tr.pr-g td { background: #fbe6db; border-left: 3pt solid #d9430b; font-size: 9pt; padding-top: 3pt; }
+  .pr-day tr.pr-in td:first-child { border-left: 3pt solid #d9430b; padding-left: 6pt; }
   .pr-day td.b { font-weight: 700; color: #555; font-size: 8.5pt; text-transform: uppercase; padding-top: 5pt; }
   .pr-legal { font-size: 9pt; color: #333; border-top: 1px solid #999; margin-top: 8pt; padding-top: 4pt; }
   .pr-sec { break-inside: auto; font-size: 10pt; }

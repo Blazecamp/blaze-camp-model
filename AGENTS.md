@@ -323,7 +323,7 @@ const { plan: edited, applied, conflicts } = applyPlanEdits(plan, [
 ], model);
 ```
 
-* Operations: `set_sets`, `remove_exercise`, `add_exercise` (`{weekday, block, exercise_id, sets}`; library exercises only), `set_block` (`{weekday, block, on}`). The person's own exercise (CH6-02: one muscle answer, labelled as theirs, not checked by Blaze Camp rules) is a front-end design, not built yet.
+* Operations: `set_sets`, `remove_exercise`, `add_exercise` (`{weekday, block, exercise_id, sets}`; library exercises only), `set_block` (`{weekday, block, on}`), `swap_exercise` (`{weekday, slot_id, exercise_id}`: the line keeps its place and dose, G-312). The web tool's day card uses all five (`app/edit-ui.js`, app/README.md "Editing"). The person's own exercise (CH6-02: one muscle answer, labelled as theirs, not checked by Blaze Camp rules) is a front-end design, not built yet.
 * The result is a new plan with `edited: true`, recomputed weekly totals and a fresh validation. `conflicts[]` tells the person what the edit changed against the plan's shape, for example `{code: 'group_below_target', week: 1, group: 'back', actual: 14, limit: 15}`. Conflicts are information: the edit is still applied (CX-04).
 * An edited plan is not judged by the generated-plan size and schedule rules. Do not tell a user that an arbitrary edit still follows every rule.
 
