@@ -1,12 +1,14 @@
 // app/main.js - the Blaze Camp Plan Builder page: the intake wizard, the build (in a Web Worker), the plan view (week and day
-// switcher, the day card, the progress tab), save image and print. All state lives in memory; the only thing kept in the browser
+// switcher, the day card, the progress tab), save image, download PDF and print. All state lives in memory; the only thing kept in the browser
 // is the language choice (R3-GEN-01: no data kept). Every plan word comes from the engine and the model (model.t).
 import { ui, initialLang, LANGS } from './i18n.js';
 import * as B from './intake-builder.js';
 import * as V from './plan-view.js';
 import { markdown, inline, escapeHtml as h, stripMarkers, plain } from './md.js';
 import { fetchModel } from './model-loader.js';
-import { nodeToPng, saveBlob } from './snapshot.js';
+import { nodeToPng } from './snapshot.js';
+import { deliver, toast, isMobile } from './deliver.js';
+import { loadJsPdf, planPdfBlob, pdfFileName } from './pdf.js';
 import { validateIntake } from '../engine/intake.mjs';
 import { renderPlan } from '../engine/render.mjs';
 
@@ -491,7 +493,7 @@ function dayViewHtml() {
   const hb = lg.health ? `<div class="banner health">${h(lg.health.short || lg.health.line)}</div>` : '';
   return `<div class="dayview"><div class="dv-side">${weekBarHtml()}${dayTabsHtml()}${hb}${notes('side')}</div>
     <div class="dv-main">${dayCardHtml(S.week, S.day, false)}${notes('main')}
-    <div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button><button class="btn" data-action="print">⎙ ${h(t('plan.print'))}</button><button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>
+    <div class="actions"><button class="btn" data-action="save-image">⤓ ${h(t('plan.save_image'))}</button>${pdfBtn()}<button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>${printLink()}
      <p class="hint-line">${h(t('plan.tap_hint'))}<br>${h(t('plan.swipe_hint'))}</p></div></div>`;
 }
 
@@ -621,7 +623,7 @@ function progressHtml() {
   const openIds = ['before', 'progress'];
   for (const s of secs) out += `<details class="sec" ${openIds.includes(s.id) ? 'open' : ''}><summary>${h(s.title)}</summary><div class="md">${markdown(s.body)}</div></details>`;
   out += `<div class="banner release"><b>${h(lg.label)}</b> ${h(lg.full)} ${lg.url ? `<a href="${h(lg.url)}" target="_blank" rel="noopener noreferrer">${h(lg.link_text)}</a>` : ''}</div>`;
-  out += `<div class="actions"><button class="btn" data-action="print">⎙ ${h(t('plan.print'))}</button><button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>`;
+  out += `<div class="actions">${pdfBtn()}<button class="btn" data-action="new">↺ ${h(t('plan.new'))}</button></div>${printLink()}`;
   return out;
 }
 
@@ -657,18 +659,44 @@ function buildPrint() {
   $print.innerHTML = out;
 }
 
+/** Download PDF: the button every device gets (window.print() does nothing in many iPhone in-app browsers) */
+function pdfBtn() { return `<button class="btn" data-action="pdf">⤓ ${h(t('plan.pdf'))}</button>`; }
+/** Print stays as a small link on a desktop browser that can print */
+function printLink() { return canPrint() ? `<p class="print-line"><button type="button" class="linkbtn" data-action="print">⎙ ${h(t('plan.print'))}</button></p>` : ''; }
+function canPrint() { return typeof window.print === 'function' && !isMobile(); }
+
+async function downloadPdf(btn) {
+  if (!S.plan || S.plan.status !== 'ok' || btn.dataset.busy) return;
+  const startedAt = performance.now();
+  const old = btn.innerHTML;
+  btn.dataset.busy = '1'; btn.disabled = true; btn.textContent = t('pdf.making');
+  try {
+    const JsPDF = await loadJsPdf();
+    // let the button repaint before the (short) synchronous build
+    await new Promise(r => setTimeout(r, 0));
+    const blob = planPdfBlob(S.plan, S.model, S.lang, t, JsPDF);
+    await deliver(blob, { name: pdfFileName(S.plan), type: 'pdf', title: V.summary(S.plan, S.model, S.lang).program + ' - Blaze Camp', startedAt, words: t });
+  } catch (e) {
+    console.warn('pdf', e);
+    toast(t('pdf.failed'), 'error');
+  } finally {
+    delete btn.dataset.busy; btn.disabled = false; btn.innerHTML = old;
+  }
+}
+
 async function saveImage(btn) {
   const node = document.getElementById('daycard');
   if (!node) return;
   const old = btn.innerHTML;
+  const startedAt = performance.now();
   btn.disabled = true; btn.textContent = t('plan.saving');
   try {
     const bg = getComputedStyle(node).backgroundColor || '#fff';
     const blob = await nodeToPng(node, { background: bg });
     const name = `blaze-camp-week${S.week}-${S.day}.png`;
-    await saveBlob(blob, name, t('plan.share_title', { day: mt('weekday.' + S.day) }));
+    await deliver(blob, { name, type: 'png', title: t('plan.share_title', { day: mt('weekday.' + S.day) }), startedAt, words: t });
   } catch {
-    alert(t('plan.save_failed'));
+    toast(t('plan.save_failed'), 'error');
   } finally {
     btn.disabled = false; btn.innerHTML = old;
   }
@@ -777,6 +805,7 @@ function act(action, value, el) {
       if (navigator.clipboard) navigator.clipboard.writeText(value).then(() => { el.textContent = t('plan.copied'); }, () => {});
       return;
     case 'save-image': return saveImage(el);
+    case 'pdf': return downloadPdf(el);
     case 'print': buildPrint(); window.print(); return;
     default:
   }

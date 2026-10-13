@@ -30,7 +30,7 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
    worker that fails falls back to the main thread). A calm moving bar (no percentage: the engine gives none), the step it is
    on, and a note when it takes longer.
 3. **Plan**: the plan's name with the *Plan | Progress* tabs in one row. *New plan* (keeps the answers; the release must be
-   accepted again) sits with *Save image* and *Print / PDF* under the card.
+   accepted again) sits with *Save image* and *Download PDF* under the card (a small *Print* link under them on a desktop).
    * **Plan**:
      * ◀ Week n of N ▶ with the phase, plus a *Test week* badge and a *bigger step* badge (the engine's acceleration note).
      * Day tabs (optional, cardio, play and sport days are marked). *This week* (the engine's week notes, including "What
@@ -46,9 +46,21 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
        day card is under one phone screen; an athlete day with its athletic blocks is about 1.5 screens of page.
      * The release line sits in the card footer (plus the health warning when there is one).
      * Swipe left / right on phones, ← / → on desktop (Shift + ← / → changes the week).
-     * *Save image* draws the card to a PNG with no outside library: SVG foreignObject to canvas. On phones it opens the
-       share sheet, on desktop it downloads.
-     * *Print / PDF* prints the whole plan: a summary page, then one week per page, with no day split across pages.
+     * *Save image* draws the card to a PNG with no outside library: SVG foreignObject to canvas.
+     * *Download PDF* builds a real PDF file of the whole plan in the page's language (`pdf.js`, with the vendored jsPDF
+       loaded only when the button is pressed): a cover page (the plan's name, who / goal, days, weeks, the plan at a glance
+       with the start date, the health warning when there is one, the release, the credit line), then every week from a new
+       page with each day as a compact table (exercise, sets x reps, effort and rest, block headings, "+1 set" badges; a day
+       never splits across pages), the weekly sets per muscle group and the plan's own notes. Every page carries the
+       release line (and the health line) and "Page n of N" in its footer. Text, not screenshots: 60-140 KB for a 12-week
+       plan. File name: `Blaze-Camp-plan-<goal>-<start date>.pdf`.
+     * How the file reaches the person (`deliver.js`, both buttons). iPhone in-app browsers ignore `window.print()` and often
+       `<a download>`, so on a phone or tablet: the share sheet (`navigator.share` with the file) straight from the tap; when
+       the file took longer than about 1 s to make (the first PDF on a slow network), or the browser refuses the share, a
+       small sheet opens with its own *Share* button (a fresh tap), and always the fallbacks: the image to press and hold, or
+       *Open PDF* (the file in a new tab), plus *Download*. Without the share sheet at all, that sheet opens directly. On a
+       desktop the file downloads (else it opens in a new tab), with a "PDF saved" toast. Nothing fails silently.
+     * *Print* (desktop only, where `window.print` exists) still prints the whole plan from the print styles.
    * **Progress**:
      * The health warning, when there is one.
      * The weekly sets per muscle group as a heat strip: every week, the exercise-block breaks, the final sets and the effort
@@ -82,7 +94,10 @@ Model by Coach Lalo (Gerardo Vera), Master NASM coach. Use at your own risk: see
 | `main.js` | the page: wizard, build, plan view, save image, print, keys and swipe |
 | `worker.js`, `model-loader.js` | the build off the main thread; fetching and loading `model/*.json` |
 | `intake-builder.js`, `plan-view.js`, `md.js`, `i18n.js` | pure modules (no DOM), tested by `tests/app.test.mjs` |
-| `snapshot.js` | *Save image* |
+| `snapshot.js` | *Save image*: the day card as a PNG |
+| `pdf.js` | *Download PDF*: `pdfDoc` (the PDF's words, pure) and `drawPdf` (the layout, given jsPDF), tested by `tests/app-pdf.test.mjs` |
+| `deliver.js` | hands the PDF / PNG over: share sheet, the fallback sheet, download; the toast |
+| `vendor/` | `jspdf.umd.min.js` (jsPDF 4.2.1 from npm, MIT, its license in `jspdf.LICENSE.txt`; only the source-map comment removed) |
 | `screenshots/` | phone (390×844) and desktop (1280×800) screenshots, EN and ES: the 4 wizard screens, the building screen, day cards and the progress tab |
 
 ## Run it locally
@@ -98,6 +113,8 @@ unbuilt: serve the repo root and open `/app/`.
 ## Tests and checks
 
 ```sh
+node --test tests/app-pdf.test.mjs        # the PDF from 3 sample plans (EN / ES): every week and day, accents, the release on
+                                          # every page, page numbers, size; the iPhone / Android / desktop checks
 node --test tests/app.test.mjs            # wizard answers -> valid intake/2 (700+ combinations, every sport and activity, pain,
                                           # health, coach mode, the release gate), UI words EN = ES, the view model, the build
 node tools/check-model.mjs
@@ -113,6 +130,9 @@ node tools/app-qa/qa.mjs        # 8 samples + a health yes + a coach client, EN 
                                 # no console error, no raw key / undefined / NaN, the release line on every view
 node tools/app-qa/shots.mjs     # screenshots into app/screenshots/
 node tools/app-qa/extra.mjs     # save image, keys, print to PDF, under the production Content-Security-Policy
+node tools/app-qa/pdf.mjs       # Download PDF and Save image on 3 plans (08 ES, 07 EN, 05 ES) under the production CSP: desktop
+                                # download; iPhone with a mocked share sheet (also a slow network and a refused share); iPhone
+                                # without it (the fallback sheet, Open PDF); each PDF checked (%PDF, pages, size, text with pypdf)
 ```
 
 ## Deploy on Vercel
@@ -126,7 +146,9 @@ so the coach's sources, research, tests and samples are never served. There is n
 * `vercel.json` also sets these headers:
   * Cache: no cache for the app files; 10 min for `engine/` and 1 h for `model/`, both with stale-while-revalidate. The model
     files are fetched with `?v=<model version>`.
-  * A strict Content-Security-Policy: only the site's own scripts and files; YouTube and GitHub are plain links.
+  * A strict Content-Security-Policy: only the site's own scripts and files; YouTube and GitHub are plain links. jsPDF is one
+    of the site's own files (no CDN), and the PDF / image blob URLs need nothing more (`img-src` already allows `blob:`; the
+    *Open PDF* tab is a navigation, checked in Chrome under this policy).
 
 ## For the coach (open decisions)
 

@@ -2,6 +2,7 @@
 // tools/build-site.mjs - builds the public Plan Builder into site/ (what Vercel serves; vercel.json > buildCommand / outputDirectory).
 // Dependency-free. Copies exactly what the page needs and nothing else from this repository:
 //   app/*            -> site/            (index.html at the site root; the app's '../engine/' and '../model/' paths become './...')
+//   app/vendor/*     -> site/vendor/     (jsPDF, as published, with its license)
 //   engine/*.mjs     -> site/engine/     (+ engine/progression/*.mjs; never engine/fixtures/ or the engine's docs)
 //   model/*.json     -> site/model/      (manifest, catalog, rules, templates, profiles; + model/i18n/*.json; no CHANGELOG / COMPILE_REPORT)
 //   DISCLAIMER*.md, LICENSE -> site/
@@ -37,6 +38,9 @@ for (const f of APP_FILES) {
   put(f, s);
 }
 
+// 1b. vendored libraries, copied as they are (app/vendor/: jsPDF for Download PDF, with its license; loaded only on demand)
+for (const f of fs.readdirSync(path.join(ROOT, 'app/vendor')).filter(x => /\.(js|txt)$/.test(x))) copy(`app/vendor/${f}`, `vendor/${f}`);
+
 // 2. the engine (pure ES modules; no fixtures, no docs)
 for (const dir of ['engine', 'engine/progression']) {
   for (const f of fs.readdirSync(path.join(ROOT, dir)).filter(x => x.endsWith('.mjs'))) copy(`${dir}/${f}`, `${dir}/${f}`);
@@ -50,7 +54,7 @@ for (const f of ['en.json', 'es.json', 'es_review.json']) copy(`model/i18n/${f}`
 for (const f of ['DISCLAIMER.md', 'DISCLAIMER.es.md', 'LICENSE']) copy(f, f);
 
 // a plain check: every relative import of every built module resolves inside site/
-for (const rel of walk(OUT).filter(f => /\.(m?js)$/.test(f))) {
+for (const rel of walk(OUT).filter(f => /\.(m?js)$/.test(f) && !f.startsWith('vendor' + path.sep))) {
   const s = fs.readFileSync(path.join(OUT, rel), 'utf8');
   for (const m of s.matchAll(/(?:import\s[^'"]*|import\(|from\s*)['"](\.{1,2}\/[^'"]+)['"]/g)) {
     const target = path.resolve(path.dirname(path.join(OUT, rel)), m[1]);

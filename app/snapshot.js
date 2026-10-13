@@ -1,6 +1,7 @@
 // app/snapshot.js - "Save image": the day card as a PNG, with no outside library. The card is cloned with its computed styles
-// inlined, drawn through an SVG <foreignObject> onto a canvas, then shared (phones) or downloaded. Browsers that refuse to draw it
-// (some Safari versions taint the canvas) get a clear "take a screenshot" message instead.
+// inlined, drawn through an SVG <foreignObject> onto a canvas. deliver.js then shares it (phones: the share sheet, else a sheet with
+// the image to press and hold) or downloads it (desktop). Browsers that refuse to draw it (some Safari versions taint the canvas)
+// get a clear "take a screenshot" message instead.
 
 const SKIP = new Set(['transition', 'transition-delay', 'transition-duration', 'transition-property', 'transition-timing-function', 'animation', 'animation-name', 'cursor', 'will-change']);
 
@@ -49,19 +50,4 @@ export async function nodeToPng(node, opts = {}) {
   ctx.scale(scale, scale);
   ctx.drawImage(img, 0, 0);
   return new Promise((resolve, reject) => canvas.toBlob(b => (b ? resolve(b) : reject(new Error('blob'))), 'image/png'));
-}
-
-/** share the image on phones that can, else download it */
-export async function saveBlob(blob, filename, title) {
-  const file = typeof File === 'function' ? new File([blob], filename, { type: 'image/png' }) : null;
-  if (file && navigator.canShare && navigator.canShare({ files: [file] }) && /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
-    try { await navigator.share({ files: [file], title }); return 'shared'; } catch (e) { if (e && e.name === 'AbortError') return 'cancelled'; }
-  }
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
-  return 'downloaded';
 }
