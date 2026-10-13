@@ -442,3 +442,21 @@ Decisions G-291 ... G-300 (`engine/DECISIONS.md`); tests `tests/v07-fix-r9.test.
 | Sweep, 1,578 plans on each model | 0 throws, 0 render problems; 5 plans fail an error check on each model (V27 random-451 / 878 / 940, H21 + H22 random-1332) - every one fails the same way on the engine 0.7.0 merge (`9d888ba`), none is new in this round (random-941 of that commit now passes) |
 | Scorer self-test | 51 pass |
 
+
+# Engine 0.7.0: sweep fix round (2026-10-13)
+
+Decisions G-301 ... G-304 (`engine/DECISIONS.md`); tests `tests/v07-sweep.test.mjs` (named by rule id, both models). The five random
+intakes that failed an error check since the 0.7.0 merge now pass: random-1332 (H21 + H22: a bonus week raised above the later weeks'
+caps, G-301; the levelled schedule written back to the weeks, G-302), random-878 and random-940 (V27 share_over: the R5-ATH-02 hold pass
+no longer raises reactive / ankle work in a week over its plyo share, G-303), random-451 (V27 early_peak: the hold pass no longer
+lengthens the next plateau to split one, G-304).
+
+- **08 (the only sample that changes).** The hold pass no longer pushes the block's peak earlier: jumps 6 x 6 weeks then 8 x 6 (was
+  6 x 5, 8 x 7); throws 40 40 40 42 44 44 44 48 48 48 52 52 (was 40 x 3, 44 x 3, 48 x 3, 52 x 3) - the chest pass 2 x 9 in week 4, the
+  lateral box jump 2 x 3 in week 6, the scoops 2 x 5 / toss 2 x 6 a week later. No lifting set changes. The other seven are byte-identical.
+
+| Check | After this round |
+|---|---|
+| Benchmark (102 plans, scorer 2.7) against `results_v06.json` | mean 98.04, lowest 89.35, hard violations 2 in 1 plan, 60 plans pass every acceptance row (as the previous `results_v07.json`); 15 plans change, 13 at the same score, 2 lower: bench-21 weightlifter 91.61 -> 91.55 (one more week off the share band), bench-63 HYROX 95.10 -> 94.94 (one more athletic-attainment miss); the 12 plans lower than v06 are the ones G-300 lists |
+| Tests (`node --test tests/`) | 1,684: 1,679 pass, 0 fail, 3 to-do, 2 skipped (16 new in `tests/v07-sweep.test.mjs`) |
+| Sweep, 1,578 plans on each model | 0 failing error checks, 0 throws, 0 render problems on both (fixture: warn V28 90 / V29 82; model/: V28 87 / V29 81) |

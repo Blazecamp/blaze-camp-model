@@ -15035,17 +15035,17 @@
           "plyo_contacts": 0,
           "jump_contacts": 6,
           "low_contacts": 36,
-          "throws": 44,
+          "throws": 42,
           "cod_cuts": 0,
           "sprint_m": 0,
           "olympic_sets": 4,
           "upper_contacts": 0
         },
-        "planned_share": 0.4186,
+        "planned_share": 0.4286,
         "goals": {
           "jump_contacts": 5,
           "low_contacts": 35,
-          "throws": 43
+          "throws": 42
         },
         "scale": {
           "jump_contacts": 1,
@@ -17486,7 +17486,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "fixed",
-                    "value": 10
+                    "value": 9
                   },
                   "set_reps": null,
                   "effort": {
@@ -17510,8 +17510,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "throws",
-                    "per_set": 10,
-                    "total": 20,
+                    "per_set": 9,
+                    "total": 18,
                     "stage": null,
                     "quality": "throw",
                     "key": "throws",
@@ -23958,7 +23958,7 @@
         },
         "planned": {
           "plyo_contacts": 0,
-          "jump_contacts": 8,
+          "jump_contacts": 6,
           "low_contacts": 36,
           "throws": 44,
           "cod_cuts": 0,
@@ -23966,7 +23966,7 @@
           "olympic_sets": 4,
           "upper_contacts": 0
         },
-        "planned_share": 0.4091,
+        "planned_share": 0.4186,
         "goals": {
           "jump_contacts": 5,
           "low_contacts": 36,
@@ -24467,7 +24467,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "contacts",
-                    "value": 4
+                    "value": 3
                   },
                   "set_reps": null,
                   "effort": {
@@ -24490,8 +24490,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "contacts",
-                    "per_set": 4,
-                    "total": 8,
+                    "per_set": 3,
+                    "total": 6,
                     "stage": "RC2",
                     "quality": "ballistic",
                     "key": "jump_contacts",
@@ -28462,13 +28462,13 @@
           "plyo_contacts": 0,
           "jump_contacts": 8,
           "low_contacts": 39,
-          "throws": 48,
+          "throws": 44,
           "cod_cuts": 0,
           "sprint_m": 0,
           "olympic_sets": 4,
           "upper_contacts": 0
         },
-        "planned_share": 0.4105,
+        "planned_share": 0.4286,
         "goals": {
           "jump_contacts": 7,
           "low_contacts": 39,
@@ -30967,7 +30967,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "throws_per_side",
-                    "value": 6
+                    "value": 5
                   },
                   "set_reps": null,
                   "effort": {
@@ -30991,8 +30991,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "throws",
-                    "per_set": 12,
-                    "total": 24,
+                    "per_set": 10,
+                    "total": 20,
                     "stage": null,
                     "quality": "throw",
                     "key": "throws",
@@ -41988,13 +41988,13 @@
           "plyo_contacts": 0,
           "jump_contacts": 8,
           "low_contacts": 48,
-          "throws": 52,
+          "throws": 48,
           "cod_cuts": 0,
           "sprint_m": 0,
           "olympic_sets": 4,
           "upper_contacts": 0
         },
-        "planned_share": 0.4444,
+        "planned_share": 0.4615,
         "goals": {
           "jump_contacts": 7,
           "low_contacts": 49,
@@ -42623,7 +42623,7 @@
                   "sets": 2,
                   "reps": {
                     "type": "throws_per_side",
-                    "value": 7
+                    "value": 6
                   },
                   "set_reps": null,
                   "effort": {
@@ -42647,8 +42647,8 @@
                   "credits": {},
                   "athletic": {
                     "unit": "throws",
-                    "per_set": 14,
-                    "total": 28,
+                    "per_set": 12,
+                    "total": 24,
                     "stage": null,
                     "quality": "throw",
                     "key": "throws",

@@ -841,7 +841,7 @@ _Nivel de la semana: 3.8 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Qué cambia esta semana**
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 6 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
+**Trabajo atlético esta semana:** 6 contactos de salto · 36 contactos de saltos de tobillo · 42 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 70-85 min (un estimado, solo como información)_
@@ -959,7 +959,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos laterales asistidos, sujetándote de un rack, barandal o mueble (Assisted Lateral Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo laterales con dos pies (Lateral Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Nombre para copiar en YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
-2. **Pase de pecho con balón medicinal (Medball Chest Pass)** — 2 × 10 reps · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+2. **Pase de pecho con balón medicinal (Medball Chest Pass)** — 2 × 9 reps · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -1267,7 +1267,7 @@ _Nivel de la semana: 5 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Qué cambia esta semana**
 - Mismas series: agrega un poco de peso o repeticiones esta semana
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
+**Trabajo atlético esta semana:** 6 contactos de salto · 36 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 70-90 min (un estimado, solo como información)_
@@ -1293,7 +1293,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Nombre para copiar en YouTube: `Reverse Crunch`
 
 **Saltos, lanzamientos y velocidad**
-1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 4 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
+1. **Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump)** — 2 × 3 contactos · máxima intención; detente cuando baje la calidad · trabajo:descanso 1:5 a 1:10
    - cajón bajo (15-30 cm)
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde la misma dirección de movimiento) / Salto a cajón bajo (Low Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde la misma dirección de movimiento)
@@ -1477,7 +1477,7 @@ _Nivel de la semana: 6 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Qué cambia esta semana**
 - +1 serie en Elevación de pantorrillas en máquina (Calf Raise) (lunes): 3 → 4 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 39 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
+**Trabajo atlético esta semana:** 8 contactos de salto · 39 contactos de saltos de tobillo · 44 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 75-90 min (un estimado, solo como información)_
@@ -1594,7 +1594,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Contactos rápidos y continuos: rebota sobre la punta de los pies
    - Cambiar por: Saltos de tobillo en zigzag con dos pies (Zig-Zag Ankle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en ángulo recto con dos pies: adelante-derecha-adelante-izquierda-adelante (Right-Angle Hops) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Saltos de tobillo en el lugar (Ankle Hops) (mantiene el salto; pierde la misma dirección de movimiento) / Saltar la cuerda (Jump Rope) (mantiene el salto; pierde la misma dirección de movimiento)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Nombre para copiar en YouTube: `Bilateral Lateral Ankle Hops`
-2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+2. **Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops)** — 2 × 5 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento de balón medicinal sobre la cabeza (Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Lanzamiento sobre la cabeza con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Overhead Throw) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
@@ -2111,7 +2111,7 @@ _Nivel de la semana: 9 de 11 (2 = el inicio, 11 = tu semana más dura)_
 **Qué cambia esta semana**
 - +1 serie en Extensión de tríceps sobre la cabeza (Overhead Extension) (jueves): 2 → 3 series
 
-**Trabajo atlético esta semana:** 8 contactos de salto · 48 contactos de saltos de tobillo · 52 lanzamientos · 4 series de levantamiento olímpico
+**Trabajo atlético esta semana:** 8 contactos de salto · 48 contactos de saltos de tobillo · 48 lanzamientos · 4 series de levantamiento olímpico
 
 ### Lunes · Cuerpo completo 1 - sentadilla + tirón, bisagra a una pierna + press
 _Tiempo promedio: aprox. 80-100 min (un estimado, solo como información)_
@@ -2142,7 +2142,7 @@ _Lo más fácil de quitar si quieres un día más corto (tú decides): estacione
    - Un esfuerzo grande por repetición: cae suave, reacomódate y vuelve a saltar
    - Cambiar por: Salto corto con dos pies hacia un disco o cajón bajo (Hop On To) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Salto lateral con dos pies, de lado a lado sobre una línea o una valla baja (Lateral Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto lateral al cajón con dos pies, de lado sobre un cajón bajo, aterrizaje firme (Lateral Box Jump) (mantiene el salto; pierde la misma dirección de movimiento) / Salto al cajón con dos pies, aterrizaje suave (Box Jump) (mantiene el salto; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)
    - [Ver cómo se hace](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Nombre para copiar en YouTube: `Low Box Jump (Half-Shin Height)`
-2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 7 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
+2. **Lanzamiento rotacional con balón medicinal, D e I (Scoop Toss)** — 2 × 6 por lado · máxima intención; detente cuando baje la calidad · 45-90 s de descanso
    - balón de 8 lb
    > Sin niveles: solo hazlos bien (calidad e intención por encima de la carga).
    - Cambiar por: Lanzamientos rotacionales alternos por debajo con balón medicinal, espalda a la pared (Back-to-Wall Scoops) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho con balón medicinal dando un paso al frente, pierna D e I (Step-Forward Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Sentadilla a pase de pecho con balón medicinal (Squat to Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma) / Pase de pecho rotacional con balón medicinal, D e I (Rotational Chest Pass) (mantiene el lanzamiento; pierde el ejercicio exacto: la misma cualidad, trabajada de otra forma)

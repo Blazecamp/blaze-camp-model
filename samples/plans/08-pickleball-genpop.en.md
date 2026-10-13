@@ -841,7 +841,7 @@ _Week level: 3.8 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
+**Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 42 throws · 4 Olympic-lift sets
 
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 70-85 min (an estimate, for information only)_
@@ -959,7 +959,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Assisted Side-to-Side Hops (holding a rack, rail or counter) (keeps the jump; loses the same direction of movement) / Ankle Hops (bilateral, in place) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Lateral Ankle Hops (keeps the jump; loses the same direction of movement) / Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Assisted%20Pogo%20Hops%20(holding%20a%20rack%2C%20rail%20or%20counter)) · Name to copy into YouTube: `Assisted Pogo Hops (holding a rack, rail or counter)`
-2. **Medball Chest Pass** — 2 × 10 Reps · max intent; stop when quality drops · 45-90 s rest
+2. **Medball Chest Pass** — 2 × 9 Reps · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Alternating Back-to-Wall Rotational Scoops (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way)
@@ -1267,7 +1267,7 @@ _Week level: 5 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - Same sets: add a little load or reps this week
 
-**Athletic work this week:** 8 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
+**Athletic work this week:** 6 jump contacts · 36 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 70-90 min (an estimate, for information only)_
@@ -1293,7 +1293,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - [Watch how](https://www.youtube.com/results?search_query=Reverse%20Crunch) · Name to copy into YouTube: `Reverse Crunch`
 
 **Jumps, throws and speed**
-1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 2 × 4 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
+1. **Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing)** — 2 × 3 contacts · max intent; stop when quality drops · work:rest 1:5 to 1:10
    - low box (6-12 in)
    - One big effort each rep: land soft, reset, go again
    - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the same direction of movement) / Low Box Jump (Half-Shin Height) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the same direction of movement)
@@ -1477,7 +1477,7 @@ _Week level: 6 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - +1 set on Machine Calf Raise (Monday): 3 → 4 sets
 
-**Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
+**Athletic work this week:** 8 jump contacts · 39 ankle-hop contacts · 44 throws · 4 Olympic-lift sets
 
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 75-90 min (an estimate, for information only)_
@@ -1594,7 +1594,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - Quick, continuous contacts: stay springy on the balls of your feet
    - Swap for: Bilateral Zig-Zag Ankle Hops (keeps the jump; loses the exact drill - the same quality, trained another way) / Bilateral Right-Angle Ankle Hops (Forward-Right-Forward-Left-Forward) (keeps the jump; loses the exact drill - the same quality, trained another way) / Ankle Hops (bilateral, in place) (keeps the jump; loses the same direction of movement) / Jump Rope (keeps the jump; loses the same direction of movement)
    - [Watch how](https://www.youtube.com/results?search_query=Bilateral%20Lateral%20Ankle%20Hops) · Name to copy into YouTube: `Bilateral Lateral Ankle Hops`
-2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
+2. **Medball Alternating Back-to-Wall Rotational Scoops** — 2 × 5 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Overhead Throw (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Overhead Throw (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way)
@@ -2111,7 +2111,7 @@ _Week level: 9 of 11 (2 = the start, 11 = your hardest week)_
 **What changes this week**
 - +1 set on Overhead Dumbbell Triceps Extension (Thursday): 2 → 3 sets
 
-**Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 52 throws · 4 Olympic-lift sets
+**Athletic work this week:** 8 jump contacts · 48 ankle-hop contacts · 48 throws · 4 Olympic-lift sets
 
 ### Monday · Full body 1 - squat + pull, single-leg hinge + press
 _Average time: about 80-100 min (an estimate, for information only)_
@@ -2142,7 +2142,7 @@ _Easiest to remove if you want a shorter day (your choice): extra jump / throw s
    - One big effort each rep: land soft, reset, go again
    - Swap for: Bilateral Hop On To (small-amplitude hop onto a plate/low box) (keeps the jump; loses the exact drill - the same quality, trained another way) / Two-Foot Lateral Jump (side to side over a line or a low hurdle) (keeps the jump; loses the same direction of movement) / Two-Foot Lateral Box Jump (sideways onto a low box, stick the landing) (keeps the jump; loses the same direction of movement) / Bilateral Jump On To (box jump, land softly on top) (keeps the jump; loses the exact drill - the same quality, trained another way)
    - [Watch how](https://www.youtube.com/results?search_query=Low%20Box%20Jump%20(Half-Shin%20Height)) · Name to copy into YouTube: `Low Box Jump (Half-Shin Height)`
-2. **Rotational Medball Scoop Toss (R & L)** — 2 × 7 per side · max intent; stop when quality drops · 45-90 s rest
+2. **Rotational Medball Scoop Toss (R & L)** — 2 × 6 per side · max intent; stop when quality drops · 45-90 s rest
    - 8 lb ball
    > No levels: just do them right (quality and intent over load).
    - Swap for: Medball Alternating Back-to-Wall Rotational Scoops (keeps the throw; loses the exact drill - the same quality, trained another way) / Step-Forward Medball Chest Pass (R & L leg) (keeps the throw; loses the exact drill - the same quality, trained another way) / Medball Squat to Chest Pass (keeps the throw; loses the exact drill - the same quality, trained another way) / Rotational Medball Chest Pass (R & L) (keeps the throw; loses the exact drill - the same quality, trained another way)

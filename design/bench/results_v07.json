@@ -2,8 +2,8 @@
  "schema": "bench-results/2",
  "label": "v07",
  "run": {
-  "started": "2026-10-13T10:02:59.594Z",
-  "seconds": 1074.9,
+  "started": "2026-10-13T11:47:14.804Z",
+  "seconds": 904.58,
   "node": "v22.22.0",
   "filter": null
  },
@@ -11,14 +11,14 @@
   "version": "0.7.0",
   "model_version": "1.3.0",
   "fingerprint": {
-   "sha256": "baa4c0ee468278e6d6a66b4da8511d4f7e9a6ccd80a7086802b51893ccd66d16",
+   "sha256": "53ebdba939d43a80d4f10057572dccd739e72e967165068c47050baeca259e14",
    "files": 32,
-   "newest_mtime": "2026-10-13T09:54:02.326Z"
+   "newest_mtime": "2026-10-13T11:46:05.040Z"
   },
   "git": {
-   "head": "086aaa50f6be84bbae2fc15e2752c290b26ea2e2",
+   "head": "ecd1efe88d6c281b80856a1d8b9a1ae980ec5a14",
    "branch": "engine-v06",
-   "head_date": "2026-10-13T10:02:55+00:00",
+   "head_date": "2026-10-13T11:45:55+00:00",
    "uncommitted_engine_model_files": 0
   }
  },
@@ -3831,7 +3831,7 @@
    "T2": 0,
    "T3": 0.6,
    "T4": 0,
-   "T5": 0.88,
+   "T5": 0.89,
    "T6": 0,
    "T7": 0.05,
    "T8": 0.13
@@ -3928,7 +3928,7 @@
    "A12": {
     "name": "athletic: athletic_drops, athletic_attainment",
     "rule": "sum == 0",
-    "value": 287,
+    "value": 288,
     "pass": false,
     "plans_failing": 38,
     "measured_on": 59
@@ -4890,11 +4890,11 @@
     "bench": false,
     "report_only": false,
     "measured_on": 51,
-    "total": 84,
-    "mean_per_plan": 1.65,
+    "total": 85,
+    "mean_per_plan": 1.67,
     "checked": 565,
     "plans_failing": 26,
-    "points_lost": 13.21
+    "points_lost": 13.26
    },
    "time_fields": {
     "rule": "CT-01",
@@ -5306,11 +5306,11 @@
     "bench": false,
     "report_only": false,
     "measured_on": 59,
-    "total": 287,
-    "mean_per_plan": 4.86,
+    "total": 288,
+    "mean_per_plan": 4.88,
     "checked": 3095,
     "plans_failing": 38,
-    "points_lost": 86.66
+    "points_lost": 86.82
    },
    "athletic_attainment_ratio": {
     "rule": "T5-ATH-02",
@@ -5640,7 +5640,7 @@
     "T2": 0,
     "T3": 0.59,
     "T4": 0,
-    "T5": 0.86,
+    "T5": 0.87,
     "T6": 0,
     "T7": 0.04,
     "T8": 0.14
@@ -5737,7 +5737,7 @@
     "A12": {
      "name": "athletic: athletic_drops, athletic_attainment",
      "rule": "sum == 0",
-     "value": 271,
+     "value": 272,
      "pass": false,
      "plans_failing": 33,
      "measured_on": 54
@@ -6699,11 +6699,11 @@
      "bench": false,
      "report_only": false,
      "measured_on": 47,
-     "total": 81,
-     "mean_per_plan": 1.72,
+     "total": 82,
+     "mean_per_plan": 1.74,
      "checked": 529,
      "plans_failing": 25,
-     "points_lost": 12.66
+     "points_lost": 12.72
     },
     "time_fields": {
      "rule": "CT-01",
@@ -7115,11 +7115,11 @@
      "bench": false,
      "report_only": false,
      "measured_on": 54,
-     "total": 271,
-     "mean_per_plan": 5.02,
+     "total": 272,
+     "mean_per_plan": 5.04,
      "checked": 2883,
      "plans_failing": 33,
-     "points_lost": 77.67
+     "points_lost": 77.84
     },
     "athletic_attainment_ratio": {
      "rule": "T5-ATH-02",
@@ -7131,8 +7131,8 @@
      "bench": true,
      "report_only": true,
      "measured_on": 54,
-     "total": 0.84,
-     "mean_per_plan": 0.84,
+     "total": 0.83,
+     "mean_per_plan": 0.83,
      "checked": 0,
      "plans_failing": 0,
      "points_lost": 0
@@ -7427,9 +7427,9 @@
     }
    },
    "generate_ms": {
-    "p50": 1844.04,
-    "p99": 30286.66,
-    "max": 31312.27
+    "p50": 1369.47,
+    "p99": 26958.01,
+    "max": 26975.32
    },
    "determinism": {
     "same_in_process": 94,
@@ -7437,7 +7437,7 @@
     "fresh_process_differs": 0
    },
    "engine_validation": {
-    "plans_with_a_failing_error_check": 1
+    "plans_with_a_failing_error_check": 0
    }
   },
   "C1": {
@@ -9167,9 +9167,9 @@
     }
    },
    "generate_ms": {
-    "p50": 1696.9,
-    "p99": 21600.7,
-    "max": 21600.7
+    "p50": 1963.82,
+    "p99": 18050.81,
+    "max": 18050.81
    },
    "determinism": {
     "same_in_process": 8,
@@ -9230,8 +9230,8 @@
    {
     "id": "C2/63-hyrox-fitness-4x60.json",
     "before": 95.24,
-    "after": 95.1,
-    "delta": -0.14
+    "after": 94.94,
+    "delta": -0.3
    },
    {
     "id": "C2/72-combat-fitness-striking-4x60.json",
@@ -9270,12 +9270,6 @@
     "before": 98.09,
     "after": 98.27,
     "delta": 0.18
-   },
-   {
-    "id": "C2/21-weightlifter-5x90.json",
-    "before": 91.55,
-    "after": 91.61,
-    "delta": 0.06
    },
    {
     "id": "C2/27-football-ol-4x105.json",
@@ -9366,8 +9360,8 @@
     "activity": []
    },
    "ms": {
-    "first": 3947.26,
-    "second": 2126.13
+    "first": 2850.17,
+    "second": 2236.45
    },
    "hash": "f5e2ecadf5a17e106984ca522ddd348e91e57dc765c6b4b7e6f3015240a9f50a",
    "bytes": 1340460,
@@ -11293,8 +11287,8 @@
     "activity": []
    },
    "ms": {
-    "first": 6984.14,
-    "second": 5803.84
+    "first": 4284.72,
+    "second": 4126.99
    },
    "hash": "b5844d0c449143ff3404f84fbf1a99cc36ef408f4964586f9955baaaec35e064",
    "bytes": 1179197,
@@ -13201,8 +13195,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1902.01,
-    "second": 2059.67
+    "first": 1373.67,
+    "second": 1283.31
    },
    "hash": "ea5188a58e0edb979b44fb97060abaa372ad278c3faec924aea39216ee73ef23",
    "bytes": 1215170,
@@ -15057,8 +15051,8 @@
     "activity": []
    },
    "ms": {
-    "first": 14006.58,
-    "second": 14408.54
+    "first": 11769.54,
+    "second": 14414.23
    },
    "hash": "b9c511ccf9fae87452f550cbd2511b294235603f9929cff37c94a4e4624486ee",
    "bytes": 1487321,
@@ -17011,8 +17005,8 @@
     "activity": []
    },
    "ms": {
-    "first": 6727.64,
-    "second": 6945.76
+    "first": 6698.18,
+    "second": 7672.86
    },
    "hash": "751186598e5f217ef022983ca451a2d0d39ebe6a9c705b39bdde4ae6bb0ea5a2",
    "bytes": 1714891,
@@ -18948,8 +18942,8 @@
     "activity": []
    },
    "ms": {
-    "first": 27478.28,
-    "second": 25601.51
+    "first": 23420.5,
+    "second": 24834.69
    },
    "hash": "4f736e08ed130a32c9f8b517fa5f982303891fcfc5a2031a4906c4852caf4935",
    "bytes": 1612643,
@@ -20892,8 +20886,8 @@
     "activity": []
    },
    "ms": {
-    "first": 445.22,
-    "second": 403.1
+    "first": 409.94,
+    "second": 343.12
    },
    "hash": "216a55c0ef82104a3932f23ffb7ea7a6f44c4d3e1f7fde630109ef158bf499f5",
    "bytes": 800362,
@@ -22762,8 +22756,8 @@
     "activity": []
    },
    "ms": {
-    "first": 6718.82,
-    "second": 6729.07
+    "first": 5770.06,
+    "second": 7082.77
    },
    "hash": "c1af2d63b03e47ed4c132bd5fc2ae39f23dc970dd0ad7d527c00235f9fefdc04",
    "bytes": 1296740,
@@ -24683,8 +24677,8 @@
     "activity": []
    },
    "ms": {
-    "first": 30286.66,
-    "second": 31312.27
+    "first": 26958.01,
+    "second": 26975.32
    },
    "hash": "2d9928480040d5c81cabc0615dd85714806e0f97fdc9461e964459fb2297f95e",
    "bytes": 1439958,
@@ -26634,8 +26628,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1660.53,
-    "second": 1922.96
+    "first": 1565.6,
+    "second": 1448.99
    },
    "hash": "e481f60d63cac51468fb80df55a5078461f78d7fe06e72e0be3fe791fa56d063",
    "bytes": 1094647,
@@ -28436,8 +28430,8 @@
     "activity": []
    },
    "ms": {
-    "first": 14620.36,
-    "second": 14634.41
+    "first": 13672.64,
+    "second": 13337.96
    },
    "hash": "f7dfca56647aa594caa1a0e4ac93e890b8f6465d1238faa713e6654813c2fdf6",
    "bytes": 1593773,
@@ -30417,8 +30411,8 @@
     "activity": []
    },
    "ms": {
-    "first": 102.56,
-    "second": 95.47
+    "first": 85.79,
+    "second": 80.37
    },
    "hash": "f5fe7900ef4522aea2647c4d5a6f8f87c4666be2981c909c9e5d15e842a6fde8",
    "bytes": 284408,
@@ -31090,8 +31084,8 @@
     "activity": []
    },
    "ms": {
-    "first": 18709.87,
-    "second": 20505.34
+    "first": 18401.47,
+    "second": 18478.38
    },
    "hash": "3eaf68c55f31329878c860fdf9fa268a84dab3d73352626da3e5c6f635338a45",
    "bytes": 6161738,
@@ -34441,8 +34435,8 @@
     "activity": []
    },
    "ms": {
-    "first": 5744.52,
-    "second": 5267.96
+    "first": 5399.32,
+    "second": 4937.05
    },
    "hash": "e0b230f767a9bf5a437b9a04c197b45fdb9f25906038868d69f17d495d277c72",
    "bytes": 961464,
@@ -36194,8 +36188,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1337.85,
-    "second": 1015.7
+    "first": 1284.85,
+    "second": 1187.39
    },
    "hash": "b99a8dbd71b8b7227ae54f3a50dfd6711289c288f4e5e468bd76e595c85826b8",
    "bytes": 868923,
@@ -37999,8 +37993,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2742.54,
-    "second": 2861.83
+    "first": 3120.72,
+    "second": 2833.32
    },
    "hash": "bee16b63cd9f71c696a95f6d4c052011dc51303f5ea71ef2a1aed154efc2cb94",
    "bytes": 940865,
@@ -39936,8 +39930,8 @@
     "activity": []
    },
    "ms": {
-    "first": 785.09,
-    "second": 431.97
+    "first": 567.05,
+    "second": 421.74
    },
    "hash": "43b9eb223d62574d9a905ac6ac23961576ca9fdd8394319f99f0f50611fa77b6",
    "bytes": 622855,
@@ -41751,8 +41745,8 @@
     "activity": []
    },
    "ms": {
-    "first": 6779.92,
-    "second": 8346.05
+    "first": 6751.81,
+    "second": 6173.01
    },
    "hash": "a5557afb6487c117f0e42491d428541bc8e4da032cf38a06e018e0f40a5211af",
    "bytes": 1072930,
@@ -43694,8 +43688,8 @@
     "activity": []
    },
    "ms": {
-    "first": 6098.36,
-    "second": 6824.33
+    "first": 5626.23,
+    "second": 5644.37
    },
    "hash": "dac5bd2bf74adb8dc555b70c7229a58a0bdebe2e6c5a399e335843866f32a920",
    "bytes": 806730,
@@ -45417,8 +45411,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2082.42,
-    "second": 1504.11
+    "first": 1827.18,
+    "second": 1360.17
    },
    "hash": "dac9d04b3d2e765c8a06beee80e016626f3bbdb943c4f54b154cb9b09df5f228",
    "bytes": 1456198,
@@ -47246,11 +47240,11 @@
     "activity": []
    },
    "ms": {
-    "first": 4179.3,
-    "second": 4947.9
+    "first": 3293.39,
+    "second": 3546.41
    },
-   "hash": "ee908dbd784bd3e1dc2825ff7569a31ebc0bfc1fa55a3b8ee46ae1ae86df331c",
-   "bytes": 1473764,
+   "hash": "a242b93876c60434efd97f42437166a2efa26a87f9ca44820295db607015ef51",
+   "bytes": 1473760,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -47277,13 +47271,13 @@
     "id": "bench-21-weightlifter-5x90",
     "status": "ok",
     "scored": true,
-    "score": 91.61,
-    "points_lost": 8.39,
+    "score": 91.55,
+    "points_lost": 8.45,
     "points_lost_by_tier": {
      "T0": 1.2649,
      "T1": 0,
      "T2": 0,
-     "T3": 2.8851,
+     "T3": 2.9378,
      "T4": 0,
      "T5": 4.2426,
      "T6": 0,
@@ -47434,8 +47428,8 @@
      },
      {
       "metric": "share_off",
-      "lost": 0.7638,
-      "value": 7,
+      "lost": 0.8165,
+      "value": 8,
       "checked": 12
      }
     ],
@@ -48342,11 +48336,11 @@
          24,
          24,
          24,
+         24,
+         24,
          26,
          26,
-         26,
-         26,
-         28
+         26
         ],
         "target": [
          20,
@@ -48362,7 +48356,7 @@
          25,
          27
         ],
-        "peak_share": 1.04
+        "peak_share": 0.96
        },
        "olympic": {
         "planned": [
@@ -48941,10 +48935,10 @@
       "tier": 3,
       "kind": "soft",
       "unit": "weeks",
-      "value": 7,
+      "value": 8,
       "checked": 12,
       "pass": false,
-      "lost": 0.7638,
+      "lost": 0.8165,
       "violations": [
        {
         "week": 1,
@@ -48973,6 +48967,10 @@
        {
         "week": 7,
         "msg": "plyometric share 0.25 against 0.1818"
+       },
+       {
+        "week": 8,
+        "msg": "plyometric share 0.25 against 0.1955"
        }
       ]
      },
@@ -49503,8 +49501,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1695.01,
-    "second": 1988.39
+    "first": 1133.88,
+    "second": 1095.92
    },
    "hash": "acb3a823eef97695aa4468226fb88a50dd5b5fcc5f512232093be1996ae187f2",
    "bytes": 1510838,
@@ -51266,8 +51264,8 @@
     "activity": []
    },
    "ms": {
-    "first": 3082.68,
-    "second": 2415.91
+    "first": 2304.9,
+    "second": 2020.36
    },
    "hash": "427abe5eccf685a6ada42ef93734f896182b74aed63224c6082c02b7c31b7da0",
    "bytes": 1588766,
@@ -53283,8 +53281,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1293.69,
-    "second": 1002.5
+    "first": 863.46,
+    "second": 700.07
    },
    "hash": "4b125a36a3fddba1d31af654f1575f31eb10989aa4972126589d759a52b1c7ba",
    "bytes": 904662,
@@ -55145,8 +55143,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2645.49,
-    "second": 2959.12
+    "first": 2061.86,
+    "second": 2535.77
    },
    "hash": "96af5cd6fe43094b4f04ae61e6ad44351659efd099de2db4636afbc1af1cdc27",
    "bytes": 1709402,
@@ -57221,8 +57219,8 @@
     "activity": []
    },
    "ms": {
-    "first": 3139.73,
-    "second": 3071.42
+    "first": 2262.53,
+    "second": 2370.96
    },
    "hash": "254f4a00e10a9ff2fd1d0c6e0f91a36685b73d4917ded10b4d1ccf79cd6c71bc",
    "bytes": 1654050,
@@ -59289,8 +59287,8 @@
     "activity": []
    },
    "ms": {
-    "first": 8004.78,
-    "second": 7486.21
+    "first": 5682.08,
+    "second": 5480.19
    },
    "hash": "0657dd53fbfc47a2980d5664846bca45a47c47e125dfd18d66c7e000b3643f05",
    "bytes": 1757152,
@@ -61542,8 +61540,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2480.37,
-    "second": 1844.04
+    "first": 1809.01,
+    "second": 1680.13
    },
    "hash": "782d3ffbed34570de33b56cc98cdf8aaf64a2edc35360299df9040a99c1adcfc",
    "bytes": 1257801,
@@ -63590,8 +63588,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1343.46,
-    "second": 1083.08
+    "first": 1244.59,
+    "second": 771.67
    },
    "hash": "3bcde46d635c97c4577d7dbcc50c843d7756b5259bff1284d1832289e836edb5",
    "bytes": 1275294,
@@ -65551,8 +65549,8 @@
     "activity": []
    },
    "ms": {
-    "first": 137.48,
-    "second": 172.93
+    "first": 107.98,
+    "second": 113.85
    },
    "hash": "23afa1c6deaa1ba33dc9acf44568b033b71004b954417b06c1d400d1dd1bd71f",
    "bytes": 554052,
@@ -66254,8 +66252,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2892.72,
-    "second": 2332.39
+    "first": 2103.58,
+    "second": 2280.84
    },
    "hash": "3f51fb623bfff8b690f3b7686494f28feadeba6341902fbbbb65ca5f116ca8e9",
    "bytes": 1655417,
@@ -68353,8 +68351,8 @@
     "activity": []
    },
    "ms": {
-    "first": 894.12,
-    "second": 758.04
+    "first": 457.09,
+    "second": 505.3
    },
    "hash": "7a71d1b2f1264da8d60afb1add3e42e17d1a5d1f14fa2df36330f4d2fa28c912",
    "bytes": 982669,
@@ -70418,8 +70416,8 @@
     "activity": []
    },
    "ms": {
-    "first": 225,
-    "second": 213.38
+    "first": 121.32,
+    "second": 150.66
    },
    "hash": "6d12a5328ffc65bc4e5a6284862d16cd816fffca72fffc433a0b856c637a515c",
    "bytes": 801945,
@@ -71120,8 +71118,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1107.99,
-    "second": 1459.74
+    "first": 912.11,
+    "second": 929.27
    },
    "hash": "b213784b79188706eb1a5e28ee7e5386f35e47883a27d1d1ea45b9a3bae5afca",
    "bytes": 1740372,
@@ -73167,11 +73165,11 @@
     "activity": []
    },
    "ms": {
-    "first": 2216.45,
-    "second": 1918.44
+    "first": 1751.57,
+    "second": 1660
    },
-   "hash": "185e94730ac52131bc3a23fc09ba536947b2ac18bec810555a9ac166a25566e7",
-   "bytes": 1197281,
+   "hash": "3cba6ecedd40f684114b37bde21e580113dc8dc4f912cf5d4dc99c7220823652",
+   "bytes": 1197280,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -74166,10 +74164,10 @@
          18,
          18,
          18,
+         18,
          27,
          27,
          27,
-         36,
          36
         ],
         "target": [
@@ -75338,8 +75336,8 @@
     "activity": []
    },
    "ms": {
-    "first": 4431.61,
-    "second": 4489.25
+    "first": 4004.26,
+    "second": 4267.11
    },
    "hash": "f21a5963ec38030b3119d20136ab94137ace456af4c15019dcaef232394d75e3",
    "bytes": 1647758,
@@ -77394,8 +77392,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1807.33,
-    "second": 1513.84
+    "first": 1506.32,
+    "second": 1862.55
    },
    "hash": "62e42333cd99519d703a5b8677ad43e0687014364fa74b8ec18a14692532c221",
    "bytes": 1206306,
@@ -79412,8 +79410,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1759.1,
-    "second": 2563.83
+    "first": 2146.2,
+    "second": 1897.94
    },
    "hash": "8d6ec2d9499f9d3eac5c87b85c889bc0557b96f2d0ec70283e0f98982faf0b84",
    "bytes": 1268823,
@@ -81488,8 +81486,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1713.39,
-    "second": 1332.1
+    "first": 1328.21,
+    "second": 1294.67
    },
    "hash": "c85de402b660b2f368ea7418a97a4c8dc5674d15c397924e82535758d0941291",
    "bytes": 1251447,
@@ -83553,8 +83551,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1254.02,
-    "second": 784.62
+    "first": 718.93,
+    "second": 720.07
    },
    "hash": "3c00bb44a2efbf9968b4d17998f7b2077b47ec907ebb95416a2e698ca22d9837",
    "bytes": 1649219,
@@ -85598,8 +85596,8 @@
     "activity": []
    },
    "ms": {
-    "first": 4676.74,
-    "second": 4106.35
+    "first": 3554.84,
+    "second": 4433.07
    },
    "hash": "87bdfb21aaedb3cd4eaf5ecb1b3c92c575ba88c5d3c4ae4f00ddfa27a954f969",
    "bytes": 876166,
@@ -87586,8 +87584,8 @@
     "activity": []
    },
    "ms": {
-    "first": 4343.25,
-    "second": 4387.37
+    "first": 3280.66,
+    "second": 3366.82
    },
    "hash": "747d2d19f6bc862848b3a41ec434c0c6ef400cab6c49901345757906cda84127",
    "bytes": 1606652,
@@ -89638,8 +89636,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2262.98,
-    "second": 1664.42
+    "first": 1512.87,
+    "second": 1703.53
    },
    "hash": "4b900f181ddf22a3b60d554a04580afc842e7faf0751807d13b5fe5168fc9b4c",
    "bytes": 1119505,
@@ -91693,8 +91691,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2027.41,
-    "second": 1409.57
+    "first": 1293.83,
+    "second": 1369.47
    },
    "hash": "b6aa20e1aef14409128a41c6065d9149e2b2be1503e566a96fc8f75d9626ae5f",
    "bytes": 1617959,
@@ -93728,8 +93726,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1993.73,
-    "second": 1771.6
+    "first": 1567.11,
+    "second": 1396.49
    },
    "hash": "d2f2823e84127a589ae84ab1d4b400061003e00986d4f532a9c5bb018aef16a3",
    "bytes": 1062284,
@@ -95860,8 +95858,8 @@
     "activity": []
    },
    "ms": {
-    "first": 3943.62,
-    "second": 3682.37
+    "first": 3137.41,
+    "second": 3494.91
    },
    "hash": "b75406ff298339da0a275c9fccc902a4edee3a344bdaf4e4ac3e8a106d366517",
    "bytes": 1708536,
@@ -98040,8 +98038,8 @@
     "activity": []
    },
    "ms": {
-    "first": 558.32,
-    "second": 478.55
+    "first": 462.58,
+    "second": 374.08
    },
    "hash": "f5278002de79f93a0d29912442af45079f0a7325dbe03d5e352bf4d121ead644",
    "bytes": 829346,
@@ -99961,8 +99959,8 @@
     "activity": []
    },
    "ms": {
-    "first": 541.06,
-    "second": 1003.96
+    "first": 617.42,
+    "second": 543.42
    },
    "hash": "83ef47eadb358d9bc279671f86b328be32ff8d17e63ca2d9a557156a646c736f",
    "bytes": 975246,
@@ -102044,8 +102042,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1091.3,
-    "second": 985.11
+    "first": 793.92,
+    "second": 782.4
    },
    "hash": "cb4a5f108c973a563462e862ab0ef0944bb0feb4789dc8daa5fdca0e4e024423",
    "bytes": 1411612,
@@ -104080,11 +104078,11 @@
     "activity": []
    },
    "ms": {
-    "first": 1895.8,
-    "second": 3357.98
+    "first": 1478.59,
+    "second": 1845.55
    },
-   "hash": "5b3014c61d5e7fb5d8a19f20d567fa45d8fa3c98af062fa88127e3ce3cc4a159",
-   "bytes": 1309667,
+   "hash": "aaaf3ec9e04aa0e2e6f8bb350bb219b6341040d5bffee85468c91a3f18b29700",
+   "bytes": 1309670,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -105023,14 +105021,14 @@
        },
        "throws": {
         "planned": [
+         42,
          48,
          48,
          48,
          54,
          54,
          54,
-         60,
-         60,
+         54,
          60,
          60,
          60,
@@ -105702,7 +105700,7 @@
        },
        {
         "week": 4,
-        "msg": "plyometric share 0.37 against 0.4909"
+        "msg": "plyometric share 0.38 against 0.4909"
        }
       ]
      },
@@ -106140,8 +106138,8 @@
     "activity": []
    },
    "ms": {
-    "first": 4402.42,
-    "second": 4854.17
+    "first": 3209.53,
+    "second": 3858.75
    },
    "hash": "3e4eab050fc4515cbdccbed5a5e990db2e0b4145d6d835bb860a37a4daff4c74",
    "bytes": 1777826,
@@ -108376,8 +108374,8 @@
     "activity": []
    },
    "ms": {
-    "first": 590.45,
-    "second": 600.2
+    "first": 430.52,
+    "second": 508.06
    },
    "hash": "5eac6e5587ed75bbcb0f25d0c7a83a462d762b0dbac0dd0b0023333c58f6764d",
    "bytes": 892584,
@@ -110371,8 +110369,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2411.89,
-    "second": 2218.33
+    "first": 1894.28,
+    "second": 1714.38
    },
    "hash": "656ca48112e4778411668ccf17c56337c5961b2c0c3b32c257554f95a7c24e9f",
    "bytes": 1091730,
@@ -112374,8 +112372,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2105.78,
-    "second": 2026.49
+    "first": 1740.27,
+    "second": 2502.23
    },
    "hash": "94740e7a2dcbd3f25b5df0fad77f3ef2c5f588c4b664bc8f2bff2689c5613174",
    "bytes": 1108181,
@@ -114350,8 +114348,8 @@
     "activity": []
    },
    "ms": {
-    "first": 704.06,
-    "second": 787.96
+    "first": 800.76,
+    "second": 718.49
    },
    "hash": "52caa79572f7dd9ecfa5387435a884e966e0061bef8f56091d2778f2b992954f",
    "bytes": 829549,
@@ -116240,11 +116238,11 @@
     "activity": []
    },
    "ms": {
-    "first": 2535.01,
-    "second": 2843.93
+    "first": 2570.13,
+    "second": 2453.61
    },
-   "hash": "91f15d23a04451c51ca1811840137fa13ff3daf09890c7b8e24f8109f7daa001",
-   "bytes": 1080291,
+   "hash": "deb83290b2594f3d272912140b37b00c650d0492204f4fcf35a8cb8daf032aa2",
+   "bytes": 1080288,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -117312,10 +117310,10 @@
          16,
          16,
          16,
+         16,
          18,
          18,
          18,
-         20,
          20,
          20,
          20
@@ -117338,15 +117336,15 @@
        },
        "throws": {
         "planned": [
+         14,
+         16,
+         16,
          16,
          16,
          16,
          18,
          18,
          18,
-         20,
-         20,
-         20,
          20,
          20,
          20
@@ -118206,7 +118204,7 @@
       "tier": 5,
       "kind": "objective",
       "unit": "ratio",
-      "value": 0.99,
+      "value": 0.98,
       "checked": 0,
       "pass": null,
       "lost": 0
@@ -118387,8 +118385,8 @@
     "activity": []
    },
    "ms": {
-    "first": 4409.9,
-    "second": 3601.1
+    "first": 3639.8,
+    "second": 4402.63
    },
    "hash": "354f99dac7d60e0dc82a363f9ce4e3da380727cd4ac5ccea2c57280572b39084",
    "bytes": 1479732,
@@ -120348,10 +120346,10 @@
     "activity": []
    },
    "ms": {
-    "first": 1254.19,
-    "second": 1198.45
+    "first": 1319.25,
+    "second": 961.31
    },
-   "hash": "ab372afb9e2ae9fd5788e876afd2cd1a6749c08866c804a2545da3a67c5fcc5c",
+   "hash": "95a840532c58db4c5886d0d70ef38997982b69ed459ad1b22ba42a642cc38cbd",
    "bytes": 1373728,
    "scored": true,
    "status": "ok",
@@ -121306,10 +121304,10 @@
          18,
          18,
          18,
+         18,
          21,
          21,
          21,
-         24,
          24,
          24,
          27,
@@ -122435,8 +122433,8 @@
     "activity": []
    },
    "ms": {
-    "first": 613.94,
-    "second": 675.2
+    "first": 586.1,
+    "second": 707.64
    },
    "hash": "60035a579e51d4edcd7ed322e9a361edb8e010d9f69f5a4b8587ff34fb59e213",
    "bytes": 1215863,
@@ -124497,11 +124495,11 @@
     ]
    },
    "ms": {
-    "first": 5537.95,
-    "second": 6008.29
+    "first": 5849.97,
+    "second": 5474
    },
-   "hash": "b3d238b14199f289b474ab6a056c24af05f59d3e47678312002b4840785b9813",
-   "bytes": 1215705,
+   "hash": "d07a301bd69e79a64a046d0f096ee770673ba87c1eccd4bf93859070bc3f4574",
+   "bytes": 1215701,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -125559,11 +125557,11 @@
        },
        "throws": {
         "planned": [
+         36,
          42,
          42,
          42,
-         48,
-         48,
+         42,
          48,
          48,
          48,
@@ -125590,15 +125588,15 @@
        },
        "cod_cuts": {
         "planned": [
+         18,
          21,
          21,
          21,
+         21,
+         21,
          24,
          24,
          24,
-         24,
-         24,
-         27,
          27,
          27,
          27
@@ -126691,8 +126689,8 @@
     ]
    },
    "ms": {
-    "first": 399.65,
-    "second": 699.15
+    "first": 309.28,
+    "second": 366.63
    },
    "hash": "e114b79bc1767fba2c87dd0ac53863afd5fc766e55a405a0bcd32ae0988dc22c",
    "bytes": 629764,
@@ -128544,10 +128542,10 @@
     ]
    },
    "ms": {
-    "first": 707.67,
-    "second": 876.67
+    "first": 572.79,
+    "second": 450.26
    },
-   "hash": "117ee929fce9cb4160f717ffbe97d8f5670797555ffc4f3a94302354f2ed2642",
+   "hash": "a5735f86311d0263cafdd2fa8b235a09c68a0a250ec6070b7f7c01ad1e7d2369",
    "bytes": 804896,
    "scored": true,
    "status": "ok",
@@ -129635,7 +129633,7 @@
          6,
          6,
          6,
-         8,
+         6,
          8,
          8,
          8,
@@ -130777,10 +130775,10 @@
     ]
    },
    "ms": {
-    "first": 1314,
-    "second": 1280.83
+    "first": 1295.14,
+    "second": 1263.85
    },
-   "hash": "ca38a2a8daa85575cac4bb010ea131a5e4da0e1017b9b9dcdec50f481909a230",
+   "hash": "2bb5861727bd3640cf21a8dec254c03c134995f14d9bdd55cd9d6b8dcafec9ef",
    "bytes": 1390576,
    "scored": true,
    "status": "ok",
@@ -130805,15 +130803,15 @@
     "id": "bench-63-hyrox-fitness-4x60",
     "status": "ok",
     "scored": true,
-    "score": 95.1,
-    "points_lost": 4.9,
+    "score": 94.94,
+    "points_lost": 5.06,
     "points_lost_by_tier": {
      "T0": 1.1094,
      "T1": 0,
      "T2": 0,
      "T3": 1.6303,
      "T4": 0,
-     "T5": 1.7321,
+     "T5": 1.8974,
      "T6": 0,
      "T7": 0.4264,
      "T8": 0
@@ -130919,11 +130917,11 @@
      },
      "A12": {
       "name": "athletic: athletic_drops, athletic_attainment",
-      "value": 5,
+      "value": 6,
       "pass": false,
       "by_metric": {
        "athletic_drops": 0,
-       "athletic_attainment": 5
+       "athletic_attainment": 6
       }
      },
      "A13": {
@@ -130946,8 +130944,8 @@
     "top_deductions": [
      {
       "metric": "athletic_attainment",
-      "lost": 1.7321,
-      "value": 5,
+      "lost": 1.8974,
+      "value": 6,
       "checked": 60
      },
      {
@@ -131680,13 +131678,13 @@
        },
        "cod_cuts": {
         "planned": [
+         10,
          12,
          12,
          12,
-         14,
-         18,
-         18,
-         18,
+         12,
+         12,
+         12,
          18,
          18,
          18,
@@ -132552,11 +132550,19 @@
       "tier": 5,
       "kind": "objective",
       "unit": "count",
-      "value": 5,
+      "value": 6,
       "checked": 60,
       "pass": false,
-      "lost": 1.7321,
+      "lost": 1.8974,
       "violations": [
+       {
+        "week": 7,
+        "family": "cod_cuts",
+        "msg": "cod_cuts planned 12 of 14 (scaled from 14)",
+        "value": 12,
+        "limit": 12.6,
+        "full_target": 14
+       },
        {
         "week": 8,
         "family": "olympic",
@@ -132604,7 +132610,7 @@
       "tier": 5,
       "kind": "objective",
       "unit": "ratio",
-      "value": 0.97,
+      "value": 0.96,
       "checked": 0,
       "pass": null,
       "lost": 0
@@ -132834,8 +132840,8 @@
     ]
    },
    "ms": {
-    "first": 582.02,
-    "second": 415.85
+    "first": 456.31,
+    "second": 435.88
    },
    "hash": "65fee6b12f3a6d53791f896c483d132d992a1ed7daf10a0aaef97149bc957a3b",
    "bytes": 561617,
@@ -134523,8 +134529,8 @@
     ]
    },
    "ms": {
-    "first": 2263.07,
-    "second": 2065.21
+    "first": 1319.71,
+    "second": 1299.69
    },
    "hash": "e63a1ddec4e130e0d3735733b88a09c242ff609aed1813c776379cfddb599f25",
    "bytes": 1259185,
@@ -136440,11 +136446,11 @@
     ]
    },
    "ms": {
-    "first": 425.34,
-    "second": 320.56
+    "first": 771.02,
+    "second": 391.92
    },
-   "hash": "e6ef07c94c4915dcab07dd08021b612ec5539036e095c6092963a23169311d0f",
-   "bytes": 599709,
+   "hash": "6abc4bcb941fbf579bebc807dc7945f154d576170572b97c607546b32c0ab5e9",
+   "bytes": 599704,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -137152,6 +137158,9 @@
       "families": {
        "jumps": {
         "planned": [
+         14,
+         16,
+         16,
          16,
          16,
          16,
@@ -137160,10 +137169,7 @@
          18,
          20,
          20,
-         20,
-         20,
-         22,
-         22
+         20
         ],
         "target": [
          15,
@@ -137179,7 +137185,7 @@
          20,
          20
         ],
-        "peak_share": 1.1
+        "peak_share": 1
        },
        "throws": {
         "planned": [
@@ -138237,11 +138243,11 @@
     ]
    },
    "ms": {
-    "first": 1730.05,
-    "second": 2186.96
+    "first": 1747.5,
+    "second": 1859.89
    },
-   "hash": "5396c1081114d455f121f2b136d19a54d8508bf9de6dd3fafc5ed79f72ec5d52",
-   "bytes": 1166021,
+   "hash": "1ae95b406c6d7e5440d7c1e0fe0c2c7ab597c8bc22874cbed1e12f26a4ba6e2b",
+   "bytes": 1166020,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -139309,14 +139315,14 @@
        },
        "throws": {
         "planned": [
+         21,
          24,
          24,
          24,
          27,
          27,
          27,
-         30,
-         30,
+         27,
          30,
          30,
          30,
@@ -139972,7 +139978,7 @@
        },
        {
         "week": 4,
-        "msg": "plyometric share 0.34 against 0.4909"
+        "msg": "plyometric share 0.35 against 0.4909"
        }
       ]
      },
@@ -140281,7 +140287,7 @@
       "tier": 5,
       "kind": "objective",
       "unit": "ratio",
-      "value": 0.78,
+      "value": 0.77,
       "checked": 0,
       "pass": null,
       "lost": 0
@@ -140473,8 +140479,8 @@
     ]
    },
    "ms": {
-    "first": 1215.55,
-    "second": 1338.5
+    "first": 579.52,
+    "second": 711.59
    },
    "hash": "8c8228db4fc5077bc1a320a3210cb66c4a241f25b8fea81a35ee80fffd0d10e8",
    "bytes": 736287,
@@ -142643,8 +142649,8 @@
     ]
    },
    "ms": {
-    "first": 1296.45,
-    "second": 1331.46
+    "first": 1266.56,
+    "second": 1062.55
    },
    "hash": "496b75759d52b565a9ecf9454a17eb5c8fa9dc281fb92fc1147cb3b954df5b0f",
    "bytes": 711580,
@@ -144488,8 +144494,8 @@
     ]
    },
    "ms": {
-    "first": 1991.41,
-    "second": 1947.4
+    "first": 1135.91,
+    "second": 1298.59
    },
    "hash": "4ee08e42a04d7e5b0503f38e3990a21a5dec7b9037199c7c8ca86b898e774caf",
    "bytes": 988331,
@@ -146541,10 +146547,10 @@
     ]
    },
    "ms": {
-    "first": 433.14,
-    "second": 570.35
+    "first": 349.98,
+    "second": 327.37
    },
-   "hash": "483dde5b6598a49eb62d2dae2bf14cd6c138fc27a7e2c8e84980ecbc26b9c6e9",
+   "hash": "fd0fe97aaba7a1ba3accf8eaf7db833b2ddefe12f7eeb4befa23e81318e5920b",
    "bytes": 536806,
    "scored": true,
    "status": "ok",
@@ -147355,11 +147361,11 @@
          12,
          12,
          12,
+         12,
+         12,
          14,
          14,
          14,
-         14,
-         16,
          16,
          16,
          16
@@ -148441,8 +148447,8 @@
     ]
    },
    "ms": {
-    "first": 3152.35,
-    "second": 3734.3
+    "first": 2558.85,
+    "second": 3034.89
    },
    "hash": "68e9d9bb0b9de44381371a413c7fb61e4d7f37f534f5870f52513abe2affab48",
    "bytes": 1500109,
@@ -150738,10 +150744,10 @@
     ]
    },
    "ms": {
-    "first": 4894.98,
-    "second": 5829.25
+    "first": 4153.32,
+    "second": 4267.96
    },
-   "hash": "c4403371a860bc6f8bf6624188d59a8b4fdd952a28a0fd1883ad7be08ee43d96",
+   "hash": "27cca7a6a3577c1257bd276fb087224e69be3f56521c085784c8db593c3d7318",
    "bytes": 1152438,
    "scored": true,
    "status": "ok",
@@ -151735,10 +151741,10 @@
          18,
          18,
          18,
+         18,
          20,
          20,
          20,
-         22,
          22,
          22,
          24,
@@ -152887,8 +152893,8 @@
     ]
    },
    "ms": {
-    "first": 3714.99,
-    "second": 3329.07
+    "first": 3114.52,
+    "second": 3898.14
    },
    "hash": "561cbd0443809068124d176f48c96f3fa9797eee933b28e0c2729f3820fe4673",
    "bytes": 789781,
@@ -154834,11 +154840,11 @@
     "activity": []
    },
    "ms": {
-    "first": 4090.09,
-    "second": 4236.74
+    "first": 2016.99,
+    "second": 1966.36
    },
-   "hash": "8fdbcf7ceb513d00a304145428e43f8616cb465ca14e44b716fbe3f074026ff0",
-   "bytes": 1201777,
+   "hash": "4282ab52f11f1e19727a2c7a43314dcb43cd7397894f485243927c4825bb3a33",
+   "bytes": 1201624,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -154847,10 +154853,8 @@
     "same_in_fresh_process": true
    },
    "engine_validation": {
-    "ok": false,
-    "failing_error_checks": [
-     "V27"
-    ],
+    "ok": true,
+    "failing_error_checks": [],
     "failing_warn_checks": []
    },
    "notices": [
@@ -155902,10 +155906,10 @@
        },
        "throws": {
         "planned": [
+         18,
          21,
          21,
          21,
-         24,
          30,
          30,
          30,
@@ -155933,12 +155937,12 @@
        },
        "cod_cuts": {
         "planned": [
+         24,
          27,
          27,
          27,
-         30,
-         36,
-         36,
+         27,
+         27,
          36,
          36,
          36,
@@ -156530,7 +156534,7 @@
        },
        {
         "week": 4,
-        "msg": "plyometric share 0.29 against 0.3909"
+        "msg": "plyometric share 0.3 against 0.3909"
        }
       ]
      },
@@ -156829,7 +156833,7 @@
       "tier": 5,
       "kind": "objective",
       "unit": "ratio",
-      "value": 0.61,
+      "value": 0.6,
       "checked": 0,
       "pass": null,
       "lost": 0
@@ -157021,11 +157025,11 @@
     ]
    },
    "ms": {
-    "first": 466.07,
-    "second": 425.2
+    "first": 400.87,
+    "second": 461.04
    },
-   "hash": "2d898d98022a277d06786a4e6ee99d4b3ce413a15b15308cce3ab9733d6ef753",
-   "bytes": 776716,
+   "hash": "7b299fd3b5aa576ec75410e1ed3397425ae21326424ef3eb503e369b95a34a01",
+   "bytes": 776712,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -158163,14 +158167,14 @@
        },
        "throws": {
         "planned": [
+         21,
          24,
          24,
          24,
          27,
          27,
          27,
-         30,
-         30,
+         27,
          30,
          30,
          30,
@@ -158773,7 +158777,7 @@
       "violations": [
        {
         "week": 1,
-        "msg": "plyometric share 0.28 against 0.35"
+        "msg": "plyometric share 0.29 against 0.35"
        },
        {
         "week": 2,
@@ -158785,7 +158789,7 @@
        },
        {
         "week": 4,
-        "msg": "plyometric share 0.23 against 0.3909"
+        "msg": "plyometric share 0.24 against 0.3909"
        }
       ]
      },
@@ -159109,7 +159113,7 @@
       "tier": 5,
       "kind": "objective",
       "unit": "ratio",
-      "value": 0.53,
+      "value": 0.52,
       "checked": 0,
       "pass": null,
       "lost": 0
@@ -159271,8 +159275,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2160.77,
-    "second": 2259.47
+    "first": 2469.13,
+    "second": 2207.79
    },
    "hash": "3848d4d3c30679a8605efa5e3792f41d523705746b96d88ae8b1fe4d3107a0ad",
    "bytes": 1195553,
@@ -161186,8 +161190,8 @@
     "activity": []
    },
    "ms": {
-    "first": 427.11,
-    "second": 523.34
+    "first": 480.5,
+    "second": 662.5
    },
    "hash": "82ecfbc3c89f2b6e5413ed40b446b63beab545236e9ebbb2eaefb3f6a77b4133",
    "bytes": 838908,
@@ -162302,8 +162306,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1392.65,
-    "second": 1974.45
+    "first": 1345.43,
+    "second": 1358.14
    },
    "hash": "33c7be2f1459088d6f454749166cb3ee9c4be7388d172b082fd2560ba0f8ec55",
    "bytes": 1273077,
@@ -163304,8 +163308,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2074.25,
-    "second": 2171.48
+    "first": 1629.26,
+    "second": 1743.39
    },
    "hash": "39fd0d9f59a7b12bc66ca6337b45a782baa7862374cd367d2e848ae4b6483c61",
    "bytes": 1528133,
@@ -164385,8 +164389,8 @@
     "activity": []
    },
    "ms": {
-    "first": 524.4,
-    "second": 381.99
+    "first": 355.07,
+    "second": 345.87
    },
    "hash": "4dad398e2be2186ca954a78122bc1b10aff6bf1dbd026399bf180578e91e178b",
    "bytes": 842849,
@@ -165493,8 +165497,8 @@
     "activity": []
    },
    "ms": {
-    "first": 434.68,
-    "second": 512.5
+    "first": 344.01,
+    "second": 392.79
    },
    "hash": "1ed80acfb17c0fc9a31ab8935ff033bf472b7c1eac852ed88f5322d6ba3abff0",
    "bytes": 720704,
@@ -167372,8 +167376,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1602.32,
-    "second": 1316.12
+    "first": 806.83,
+    "second": 1281.09
    },
    "hash": "276ecc749c39450047ea4954e5fb59b213af09a65150900b7057b5ea2e3ed140",
    "bytes": 1046674,
@@ -168378,8 +168382,8 @@
     "activity": []
    },
    "ms": {
-    "first": 326.61,
-    "second": 242.5
+    "first": 239.08,
+    "second": 183.01
    },
    "hash": "54e777a796fa833891c39590ecb4fdc5688fc1f18df18681c67ff919bb8b568f",
    "bytes": 659675,
@@ -169412,8 +169416,8 @@
     "activity": []
    },
    "ms": {
-    "first": 9443.94,
-    "second": 8720.71
+    "first": 7257.53,
+    "second": 7423.87
    },
    "hash": "a2634c3d858301dc4f089cf6b15e137760402e3083681d50581cdf1cd813bbe2",
    "bytes": 1233516,
@@ -171340,8 +171344,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1499.85,
-    "second": 1333.44
+    "first": 1241.72,
+    "second": 1175.67
    },
    "hash": "63a65f76354a466cfa5b6b4b733ca99af9695477a00c108306999e6afa051e68",
    "bytes": 1284611,
@@ -172355,8 +172359,8 @@
     "activity": []
    },
    "ms": {
-    "first": 534.21,
-    "second": 310.39
+    "first": 289.8,
+    "second": 232
    },
    "hash": "6847d5092d85713d4dd27f35c6b24a736f44b5cb5298fee1e102b3797b071d9c",
    "bytes": 670932,
@@ -174143,8 +174147,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1685.14,
-    "second": 1604.73
+    "first": 1359.21,
+    "second": 1177.54
    },
    "hash": "b5ed5d283c08ab3bf7d69785b28e91c95c7f72edb70dfd2faf61b7399f289300",
    "bytes": 1248165,
@@ -176056,8 +176060,8 @@
     "activity": []
    },
    "ms": {
-    "first": 101.89,
-    "second": 103.51
+    "first": 91.77,
+    "second": 92.35
    },
    "hash": "926b3c80724707ec0c84bf26a326007e6c1028241c1f4f6530be8d0e7b3d9c34",
    "bytes": 423822,
@@ -176605,8 +176609,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2370.3,
-    "second": 2120.3
+    "first": 1891.53,
+    "second": 2267.34
    },
    "hash": "75b76e93309b14c84d85d5f89b94db7c05fa122cd3e83fc4ef7710019e554e73",
    "bytes": 1188876,
@@ -178570,8 +178574,8 @@
     "activity": []
    },
    "ms": {
-    "first": 611.65,
-    "second": 697.51
+    "first": 586.82,
+    "second": 635.52
    },
    "hash": "759037cb4bdc5ad9f6948f65c565f2ff3581bca632401a070acbe9d90afefdf8",
    "bytes": 843124,
@@ -180293,8 +180297,8 @@
     "activity": []
    },
    "ms": {
-    "first": 843.29,
-    "second": 870.94
+    "first": 1038.6,
+    "second": 1054.58
    },
    "hash": "ad66bbfbe5b8fcdb009af25167f5358725fc8dce1dcd3987112fa938f12441c7",
    "bytes": 1312651,
@@ -182049,8 +182053,8 @@
     "activity": []
    },
    "ms": {
-    "first": 207.66,
-    "second": 295.63
+    "first": 211.16,
+    "second": 248.82
    },
    "hash": "298be24619f7318ca92d8e798d640f0332c9821f3a5e2d8364821a1345af2071",
    "bytes": 643628,
@@ -183838,8 +183842,8 @@
     "activity": []
    },
    "ms": {
-    "first": 533.1,
-    "second": 537.13
+    "first": 667.64,
+    "second": 784.99
    },
    "hash": "72e25aaaa12028acd73ddc8377ae43a2b592f6dbd40b9e78239b0e60bb1545de",
    "bytes": 800038,
@@ -185441,8 +185445,8 @@
     "activity": []
    },
    "ms": {
-    "first": 1901.55,
-    "second": 2451.74
+    "first": 1704.66,
+    "second": 2186.07
    },
    "hash": "9b8beab967015a2c371450934c3ffb06e39775380f2a2cdee0dcee37c38fb3ce",
    "bytes": 1224990,
@@ -187442,8 +187446,8 @@
     "activity": []
    },
    "ms": {
-    "first": 2443.98,
-    "second": 2425.16
+    "first": 2225.66,
+    "second": 2892.89
    },
    "hash": "7f8eec36931206ad38ccf4613975f36f7386d16ca14e14eaf48fe8221ccfb543",
    "bytes": 1675933,
@@ -189511,8 +189515,8 @@
     "activity": []
    },
    "ms": {
-    "first": 827.22,
-    "second": 606.22
+    "first": 675.13,
+    "second": 767.4
    },
    "hash": "63de60aec811458b3fb953f9381db3e9ab00cd4af3019809b98cd610ead03483",
    "bytes": 850988,
@@ -191223,8 +191227,8 @@
     ]
    },
    "ms": {
-    "first": 1553.86,
-    "second": 1696.9
+    "first": 2033.7,
+    "second": 1963.82
    },
    "hash": "3e6f9ba25345cd14d10dd0bd33353107f1caf8a48470a3bfe2102ee13daafd26",
    "bytes": 801719,
@@ -193078,8 +193082,8 @@
     "activity": []
    },
    "ms": {
-    "first": 119.99,
-    "second": 186.58
+    "first": 191.07,
+    "second": 243.87
    },
    "hash": "8b5f42551ad23f869a95b29e88bf164b167260c2020ed839b4339a1eba0e21b5",
    "bytes": 566238,
@@ -194093,8 +194097,8 @@
     "activity": []
    },
    "ms": {
-    "first": 14288.13,
-    "second": 17780.98
+    "first": 15280.49,
+    "second": 15204.53
    },
    "hash": "1f79b0ecb19cd53cbe40c6bd3e35df6ff29cdececb11fb707f547bf98fcb9bd7",
    "bytes": 1574215,
@@ -196036,8 +196040,8 @@
     "activity": []
    },
    "ms": {
-    "first": 21600.7,
-    "second": 21340.03
+    "first": 17124.95,
+    "second": 18050.81
    },
    "hash": "cc9d2039ece862433591d2d4c27538488fb1c7a8f6c93409db7c9ffc298ceaa8",
    "bytes": 1701609,
@@ -197958,11 +197962,11 @@
     ]
    },
    "ms": {
-    "first": 595.36,
-    "second": 777.22
+    "first": 501.84,
+    "second": 493.69
    },
-   "hash": "ecd49b189577b8f431ced26d73674d1676923b3588c2f1334022097542a27273",
-   "bytes": 802946,
+   "hash": "d1448cea3f4e1bfdb6197024c47c3909bfe313924e7c6bdedf3e392c3e04d914",
+   "bytes": 802944,
    "scored": true,
    "status": "ok",
    "error": null,
@@ -199042,7 +199046,7 @@
          6,
          6,
          6,
-         8,
+         6,
          8,
          8,
          8,
@@ -199102,13 +199106,13 @@
          40,
          40,
          40,
+         42,
          44,
          44,
          44,
          48,
          48,
          48,
-         52,
          52,
          52
         ],
