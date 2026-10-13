@@ -1413,7 +1413,10 @@ The public web tool calls `generate()` once per plan in the browser, where sampl
 plan, and its rendered text in English and Spanish, is byte-identical to engine 0.7.0 before the pass. Checked with
 `tools/perf/plan-hashes.mjs` (SHA-256 of the plan JSON and of the full EN / ES render, every sample and benchmark intake, generated
 in EN and in ES, on the compiled model and the reference fixture: 408 of 408 identical) and with a same-process A/B against the
-old engine on random sweep intakes (see the commit message for the counts). `ENGINE_VERSION` stays '0.7.0': the plan JSON carries
+old engine on 756 random sweep intakes (300 random + 52 sports + 26 activities, on both models: 756 identical). Same-process times,
+old -> new (busy 4-core machine): sample 06 12.9 s -> 1.6 s, 07 16.0 s -> 1.4 s, bench 09 25.6 s -> 1.5 s, bench 06 23.6 s -> 1.7 s, the
+year plan (bench 13) 17.2 s -> 2.7 s; the 408 hash runs 1,204 s -> 298 s in all. What is left on the slowest plans (year plans, fat-loss
+year plans) is selection (`pickFor` / `hardFilter` / `scoreOf`) and the checks, not the set placement. `ENGINE_VERSION` stays '0.7.0': the plan JSON carries
 `engine_version`, so a bump would change every plan's bytes for no change of behaviour.
 
 | # | Decision | Where |
