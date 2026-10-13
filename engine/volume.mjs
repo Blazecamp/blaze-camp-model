@@ -423,12 +423,48 @@ function exOf(model, fill) {
   if (!fill || !fill.exercise_id || !model.hasEx(fill.exercise_id)) return null;
   return model.ex(fill.exercise_id);
 }
+// engine 0.7.1 (DECISIONS G-311, performance only): the credits of an (exercise, bucket) pair and their group / line sums are read
+// tens of millions of times by the set placement; they depend only on the frozen model, so they are memoised per model object.
+// The derived maps (the empty map, the group and line sums) are frozen; the catalog's own credit map is returned as before. The engine
+// never mutates the model it is given (pure functions), which is what makes the memo safe.
+const CREDIT_CACHE = new WeakMap();
+const EMPTY_CREDITS = Object.freeze({});
+function creditCacheOf(model) {
+  if (!model || typeof model !== 'object') return null;
+  let c = CREDIT_CACHE.get(model);
+  if (!c) { c = { credits: new Map(), known: new WeakSet([EMPTY_CREDITS]), group: new WeakMap(), line: new WeakMap() }; CREDIT_CACHE.set(model, c); }
+  return c;
+}
 function creditsOf(model, slot, fill) {
   if (slot && slot.counts_as_volume === false) return null;
+  if (!fill || !fill.exercise_id) return null;
+  const cache = creditCacheOf(model);
+  const key = fill.exercise_id + '\u0000' + (fill.bucket || (slot ? slot.bucket : undefined));
+  if (cache.credits.has(key)) return cache.credits.get(key);
   const ex = exOf(model, fill);
-  if (!ex) return null;
-  if (ex.tags.some(t => model.rules.credit.never_credit_tags.includes(t))) return {};
-  return model.credits(ex, (fill && fill.bucket) || slot.bucket);
+  let out;
+  if (!ex) out = null;
+  else if (ex.tags.some(t => model.rules.credit.never_credit_tags.includes(t))) out = EMPTY_CREDITS;
+  else { out = model.credits(ex, fill.bucket || slot.bucket); if (out && Object.keys(out).length === 0) out = EMPTY_CREDITS; }
+  cache.credits.set(key, out);
+  if (out) cache.known.add(out);
+  return out;
+}
+/** groupCredits(model, cr), memoised for a credit map creditsOf handed out (G-311) */
+function groupCreditsC(model, cr) {
+  const cache = creditCacheOf(model);
+  if (!cr || !cache.known.has(cr)) return groupCredits(model, cr);
+  let out = cache.group.get(cr);
+  if (!out) { out = Object.freeze(groupCredits(model, cr)); cache.group.set(cr, out); }
+  return out;
+}
+/** lineCredits(model, cr), memoised for a credit map creditsOf handed out (G-311) */
+function lineCreditsC(model, cr) {
+  const cache = creditCacheOf(model);
+  if (!cr || !cache.known.has(cr)) return lineCredits(model, cr);
+  let out = cache.line.get(cr);
+  if (!out) { out = Object.freeze(lineCredits(model, cr)); cache.line.set(cr, out); }
+  return out;
 }
 
 /**
@@ -562,16 +598,44 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   const N = stair ? tb.stair_N : null;
   let sets = {}, fills = {};
   const added = [];
-  const daySlotsOf = (di) => [...days[di].slots, ...days[di].added];
-  const allSlots = () => { const out = []; days.forEach((d, di) => { for (const s of daySlotsOf(di)) out.push([s, di]); }); return out; };
-  const kindOf = (slot) => model.bucket(slot.bucket).kind;
+  // (G-311, performance only: the day lists and the [slot, day] pairs are rebuilt only when a day's slots or added list changes - a
+  // push, or a new array; the lists handed out are frozen snapshots in the same order as before)
+  let dayLists = null, allPairs = null;
+  const listsFresh = () => {
+    if (!dayLists) return false;
+    for (let i = 0; i < days.length; i++) {
+      const c = dayLists[i], d = days[i];
+      if (c.slots !== d.slots || c.slotsLen !== d.slots.length || c.added !== d.added || c.addedLen !== d.added.length) return false;
+    }
+    return true;
+  };
+  const syncLists = () => {
+    if (listsFresh()) return;
+    dayLists = days.map(d => ({ slots: d.slots, slotsLen: d.slots.length, added: d.added, addedLen: d.added.length, list: Object.freeze([...d.slots, ...d.added]) }));
+    const pairs = [];
+    dayLists.forEach((c, di) => { for (const s of c.list) pairs.push(Object.freeze([s, di])); });
+    allPairs = Object.freeze(pairs);
+  };
+  const daySlotsOf = (di) => { syncLists(); return dayLists[di].list; };
+  const allSlots = () => { syncLists(); return allPairs; };
+  const kindCache = new Map();
+  const kindOf = (slot) => { const b = slot.bucket; let k = kindCache.get(b); if (k === undefined && !kindCache.has(b)) { k = model.bucket(b).kind; kindCache.set(b, k); } return k; };
   const isCircuitSlot = (slot) => circuitPlan && slot.circuit !== null && slot.circuit !== undefined;
   // (engine 0.7, G-252: a joint-care slot that holds a lifting pattern - the shoulder-health overhead press - is joint care, not a
   // resistance set, like every other joint-care slot)
   const isResistance = (slot) => slot.role !== 'prehab' && (RESISTANCE_KINDS.includes(kindOf(slot)) || ADDED_ORIGINS.includes(slot.origin));
   const active = (slot) => isNum(sets[slot.slot_id]) && sets[slot.slot_id] > 0;
-  const crOf = (slot) => creditsOf(model, slot, fills[slot.slot_id]);
-  const gcOf = (slot) => groupCredits(model, crOf(slot) || {});
+  // (G-311: the credits of a slot are kept with the fill they were read for and read again only when the fill changes)
+  const crMemo = new WeakMap();
+  const crOf = (slot) => {
+    const f = fills[slot.slot_id];
+    const e = crMemo.get(slot);
+    if (e && e.f === f && e.id === (f ? f.exercise_id : undefined) && e.fb === (f ? f.bucket : undefined) && e.b === slot.bucket && e.cv === slot.counts_as_volume) return e.cr;
+    const cr = creditsOf(model, slot, f);
+    crMemo.set(slot, { f, id: f ? f.exercise_id : undefined, fb: f ? f.bucket : undefined, b: slot.bucket, cv: slot.counts_as_volume, cr });
+    return cr;
+  };
+  const gcOf = (slot) => groupCreditsC(model, crOf(slot) || EMPTY_CREDITS);
   const hasPick = (slot) => !!(fills[slot.slot_id] && fills[slot.slot_id].exercise_id);
 
   // ---- the group a slot's sets belong to: the group its exercise trains as a main mover (the template's group first)
@@ -726,17 +790,20 @@ function runBlock(ctx, tb, layout, cross, hints = null) {
   // ---- credits
   const tally = (mo, kind) => {
     const w = {};
-    days.forEach((d, di) => {
-      if (mo && !isMainDi(di)) return;
-      for (const s of daySlotsOf(di)) {
+    syncLists();
+    for (let di = 0; di < days.length; di++) {
+      if (mo && !isMainDi(di)) continue;
+      const list = dayLists[di].list;
+      for (let i = 0; i < list.length; i++) {
+        const s = list[i];
         const n = sets[s.slot_id];
         if (!isNum(n) || n <= 0) continue;
         const cr = crOf(s);
         if (!cr) continue;
-        const per = kind === 'line' ? lineCredits(model, cr) : kind === 'group' ? groupCredits(model, cr) : cr;
-        for (const [m, c] of Object.entries(per)) w[m] = (w[m] || 0) + n * c;
+        const per = kind === 'line' ? lineCreditsC(model, cr) : kind === 'group' ? groupCreditsC(model, cr) : cr;
+        for (const m in per) w[m] = (w[m] || 0) + n * per[m];
       }
-    });
+    }
     return w;
   };
   const directRaw = () => {
