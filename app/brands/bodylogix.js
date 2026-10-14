@@ -41,7 +41,7 @@ export const BRAND = {
     "theme_color": "#ffffff",
     "icons": "<link rel=\"icon\" type=\"image/png\" sizes=\"64x64\" href=\"brands/bodylogix/favicon-64.png\">\n<link rel=\"apple-touch-icon\" href=\"brands/bodylogix/icon-180.png\">",
     "css": "brands/bodylogix/brand.css",
-    "logo": "\n    <img class=\"brand-logo\" src=\"brands/bodylogix/logo.png\" width=\"183\" height=\"44\" alt=\"BodyLogix Fitness Center &amp; Massage\">\n    <span class=\"brand-sub\" id=\"brand-sub\">Stronger bodies. Brighter lives.</span>\n  "
+    "logo": "\n    <img class=\"brand-logo\" src=\"brands/bodylogix/logo.png\" width=\"144\" height=\"44\" alt=\"BodyLogix Fitness Center &amp; Massage\">\n    <span class=\"brand-sub\" id=\"brand-sub\">Stronger bodies. Brighter lives.</span>\n  "
   },
   "assets": [
     "brand.css",
@@ -57,7 +57,7 @@ export const BRAND = {
     "logo": {
       "src": "brands/bodylogix/logo-flat.png",
       "w": 512,
-      "h": 123
+      "h": 156
     },
     "colors": {
       "brand": [
