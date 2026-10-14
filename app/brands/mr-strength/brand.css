@@ -35,13 +35,15 @@
   --font: Inter, "Manrope", "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Roboto, Arial, sans-serif;
   color-scheme: light;
 }
+/* Light only, always (Coach Lalo, 2026-10-13): the dark theme uses the light colours, whatever the phone is set to.
+   Re-apply this after any new-brand --force rebuild. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #060607; --card: #070708; --card-2: #080809; --ink: #ededed; --ink-2: #cdcdcd; --muted: #a3a3a3; --line: #0a0a0b; --line-2: #0c0c0c; --accent: #5f5f5f; --on-accent: #ffffff; --accent-ink: #7a7a7a; --accent-soft: #0a0a0b; --cta: #69cd3c; --on-cta: #111111; --cta-edge: #448527; --deep: #5f5f5f; --on-deep: #ffffff; --pink-soft: #1c3213; --pink-ink: #a5e18a; --edge: #0c0c0c; --warn-bg: #2d2410; --warn-ink: #f3d590; --warn-line: #5a4716; --heat-0: #080809; --heat-rgb: 95, 95, 95; --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 6px 20px rgba(0, 0, 0, .35); color-scheme: dark;
+    --bg: #ffffff; --card: #ffffff; --card-2: #f4f4f4; --ink: #080a0b; --ink-2: #3e4041; --muted: #575859; --line: #dfdfdf; --line-2: #d1d1d1; --accent: #1a1a1a; --on-accent: #ffffff; --accent-ink: #1a1a1a; --accent-soft: #e8e8e8; --cta: #54a430; --on-cta: #111111; --cta-edge: #3f7b24; --deep: #101112; --on-deep: #ffffff; --pink-soft: #f0faec; --pink-ink: #428026; --edge: #b6b6b6; --ok: #1d7a46; --warn-bg: #fff4d6; --warn-ink: #6b4a00; --warn-line: #f0d48a; --heat-0: #efefef; --heat-rgb: 26, 26, 26; --shadow: 0 1px 2px rgba(10, 10, 10, .05), 0 6px 22px rgba(10, 10, 10, .07); color-scheme: light;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #060607; --card: #070708; --card-2: #080809; --ink: #ededed; --ink-2: #cdcdcd; --muted: #a3a3a3; --line: #0a0a0b; --line-2: #0c0c0c; --accent: #5f5f5f; --on-accent: #ffffff; --accent-ink: #7a7a7a; --accent-soft: #0a0a0b; --cta: #69cd3c; --on-cta: #111111; --cta-edge: #448527; --deep: #5f5f5f; --on-deep: #ffffff; --pink-soft: #1c3213; --pink-ink: #a5e18a; --edge: #0c0c0c; --warn-bg: #2d2410; --warn-ink: #f3d590; --warn-line: #5a4716; --heat-0: #080809; --heat-rgb: 95, 95, 95; --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 6px 20px rgba(0, 0, 0, .35); color-scheme: dark;
+  --bg: #ffffff; --card: #ffffff; --card-2: #f4f4f4; --ink: #080a0b; --ink-2: #3e4041; --muted: #575859; --line: #dfdfdf; --line-2: #d1d1d1; --accent: #1a1a1a; --on-accent: #ffffff; --accent-ink: #1a1a1a; --accent-soft: #e8e8e8; --cta: #54a430; --on-cta: #111111; --cta-edge: #3f7b24; --deep: #101112; --on-deep: #ffffff; --pink-soft: #f0faec; --pink-ink: #428026; --edge: #b6b6b6; --ok: #1d7a46; --warn-bg: #fff4d6; --warn-ink: #6b4a00; --warn-line: #f0d48a; --heat-0: #efefef; --heat-rgb: 26, 26, 26; --shadow: 0 1px 2px rgba(10, 10, 10, .05), 0 6px 22px rgba(10, 10, 10, .07); color-scheme: light;
 }
 body { letter-spacing: -.005em; }
 
