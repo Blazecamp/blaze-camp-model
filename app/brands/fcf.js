@@ -50,6 +50,10 @@ export const BRAND = {
     "favicon-64.png",
     "icon-180.png"
   ],
+  "logo_plate": {
+    "light": null,
+    "dark": null
+  },
   "pdf": {
     "file_prefix": "FCF-Sports-Performance-plan",
     "author": "FCF Sports Performance",

@@ -111,7 +111,7 @@ export function themeVars({ primary, accent, ink }) {
   L['accent-ink'] = ensureAll(S, [card2, mix(P, '#ffffff', 0.9)], 4.5, '#000000');   // also on the pink-soft release banner (its link)
   L['accent-soft'] = mix(A, '#ffffff', 0.9);
   const cta = fillPair(ensureContrast(P, '#ffffff', 3, '#000000')); L.cta = cta.fill; L['on-cta'] = cta.on; L['cta-edge'] = mix(cta.fill, '#000000', 0.25);
-  const deep = fillPair(ensureContrast(mix(S, L.ink, S === A ? 0.55 : 0.25), '#ffffff', 4.5)); L.deep = deep.fill; L['on-deep'] = deep.on;
+  const deep = fillPair(ensureAll(mix(S, L.ink, S === A ? 0.55 : 0.25), ['#ffffff', card2], 4.5, '#000000')); L.deep = deep.fill; L['on-deep'] = deep.on;
   L['pink-soft'] = mix(P, '#ffffff', 0.9); L['pink-ink'] = ensureAll(P, [L['pink-soft'], card, card2], 4.5, '#000000');
   // the darker bottom edge of pills and the border of inputs: a UI part, 3:1 on the page (CH7-15: no box hides on the page)
   L.edge = ensureAll(mix(A, '#ffffff', 0.68), [card, card2], 3, '#000000'); L['ctl-line'] = L.edge;
@@ -134,7 +134,10 @@ export function themeVars({ primary, accent, ink }) {
   D['accent-ink'] = ensureAll(mix(dA, '#ffffff', 0.25), [...dSurf, mix(D.bg, dP, 0.22)], 4.5, '#ffffff');
   D['accent-soft'] = mix(D.bg, dA, 0.22);
   const dCta = fillPair(dP); D.cta = dCta.fill; D['on-cta'] = dCta.on; D['cta-edge'] = mix(dCta.fill, '#000000', 0.35);
-  D.deep = D.accent; D['on-deep'] = D['on-accent'];
+  // the selected pill's fill, and the text colour of outlined buttons (.btn, steppers, arrows): 4.5:1 on the page as text
+  let dDeep = ensureAll(dA, dSurf, 4.5, '#ffffff');
+  for (let i = 0; i < 20 && Math.max(contrast('#ffffff', dDeep), contrast('#000000', dDeep)) < 4.5; i++) dDeep = mix(dDeep, '#ffffff', 0.05);
+  D.deep = dDeep; D['on-deep'] = contrast('#ffffff', dDeep) >= 4.5 ? '#ffffff' : contrast('#111111', dDeep) >= 4.5 ? '#111111' : '#000000';
   D['pink-soft'] = mix(D.bg, dP, 0.22); D['pink-ink'] = ensureAll(mix(dP, '#ffffff', 0.4), [D['pink-soft'], ...dSurf], 4.5, '#ffffff');
   D.edge = ensureAll(mix(D.bg, dA, 0.5), dSurf, 3, '#ffffff'); D['ctl-line'] = D.edge;
   D.err = '#ff8a80'; D['warn-bg'] = '#2d2410'; D['warn-ink'] = '#f3d590'; D['warn-line'] = '#5a4716'; D['heat-0'] = D['card-2']; D['heat-rgb'] = rgb(D.accent).join(', ');
@@ -169,7 +172,7 @@ export const PAIRS = [
   ['ink', 'bg'], ['ink', 'card'], ['ink', 'card-2'], ['ink-2', 'card'], ['ink-2', 'card-2'], ['muted', 'card'], ['muted', 'card-2'],
   ['accent-ink', 'bg'], ['accent-ink', 'card'], ['accent-ink', 'card-2'], ['on-accent', 'accent'], ['on-cta', 'cta'],
   ['on-deep', 'deep'], ['pink-ink', 'pink-soft'], ['pink-ink', 'card'], ['pink-ink', 'bg'], ['ink', 'pink-soft'], ['ink-2', 'pink-soft'], ['ink', 'accent-soft'],
-  ['accent-ink', 'pink-soft'], ['warn-ink', 'warn-bg']
+  ['accent-ink', 'pink-soft'], ['deep', 'card'], ['deep', 'bg'], ['deep', 'card-2'], ['warn-ink', 'warn-bg']
 ];
 /** the UI parts (fills and box edges) that must stand out 3:1 from the page and the cards (WCAG 1.4.11; CH7-15) */
 export const UI_PARTS = [['cta', 'card'], ['cta', 'bg'], ['accent', 'card'], ['accent', 'bg'], ['deep', 'card'], ['edge', 'card'], ['edge', 'bg'], ['edge', 'card-2']];

@@ -50,6 +50,10 @@ export const BRAND = {
     "favicon-64.png",
     "icon-180.png"
   ],
+  "logo_plate": {
+    "light": "#000000",
+    "dark": null
+  },
   "pdf": {
     "file_prefix": "Red-Springs-Fitness-plan",
     "author": "Red Springs Fitness",
@@ -66,9 +70,9 @@ export const BRAND = {
         8
       ],
       "accent": [
-        191,
-        73,
-        35
+        180,
+        68,
+        33
       ],
       "ink": [
         39,

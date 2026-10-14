@@ -50,6 +50,10 @@ export const BRAND = {
     "favicon-64.png",
     "icon-180.png"
   ],
+  "logo_plate": {
+    "light": null,
+    "dark": "#ffffff"
+  },
   "pdf": {
     "file_prefix": "Rotger-Elite-Performance-plan",
     "author": "Rotger Elite Performance",
