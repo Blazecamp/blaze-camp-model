@@ -50,6 +50,10 @@ export const BRAND = {
     "favicon-64.png",
     "icon-180.png"
   ],
+  "logo_plate": {
+    "light": null,
+    "dark": "#ffffff"
+  },
   "pdf": {
     "file_prefix": "Mr-Strength-Conditioning-plan",
     "author": "Mr. Strength & Conditioning",
@@ -61,9 +65,9 @@ export const BRAND = {
     },
     "colors": {
       "brand": [
-        66,
-        128,
-        38
+        63,
+        123,
+        36
       ],
       "accent": [
         26,

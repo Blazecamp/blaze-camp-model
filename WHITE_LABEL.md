@@ -161,6 +161,28 @@ project with one CNAME; then `site_url` in `app/brands/sonhabitos.js` became `ht
 `node agent/packs.mjs` updated its pack and legal links, the brand tests passed, and it was pushed. (Son Hábitos was made
 by hand, so its file is edited directly; never run `new-brand` on it.)
 
+## Update all previews
+
+When the look of the white-label sites changes (for example the light / dark theme, coach CH7-15, 2026-10-14), make every
+white-label brand again with the new look, from its own inputs:
+
+```sh
+node tools/new-brand.mjs --refresh-all
+BC_PLAYWRIGHT=... BC_CHROMIUM=... node tools/app-qa/themes.mjs     # every brand, light and dark (screenshots in reviews/theme-<date>/)
+git add app/brands agent/packs && git commit -m "White-label previews: refreshed" && git push
+```
+
+It remakes, for every brand with `white_label: true` that this tool made: `brand.css` (light and dark), the logo plate
+(`logo_plate`), the icons and the agent pack. It keeps the name, colours, logo (`logo-src.png`), legal name and site exactly as
+they are and reads no website again; a logo or icon whose pixels did not change keeps its bytes. Blaze Camp and Son Hábitos are
+not touched (they are edited by hand).
+
+**Light and dark (CH7-15).** Every site has a sun / moon button next to EN | ES; with no choice it follows the phone. A brand
+colour that would vanish is shown in a shade that stands out (black on the dark page becomes the brand's other colour or a light
+grey; white on the light page a dark grey; any other colour a lighter or darker shade of its own hue). A logo that would not
+show on a page sits on a rounded plate there (`logo_plate: {light, dark}` in the brand file; new-brand chooses it from the
+logo's pixels). Print, the PDF and Save image stay light.
+
 ## One-time setup: the previews project
 
 **Done (2026-10-13).** The Vercel project `white-label-previews` exists (team puestario), built from this repository with

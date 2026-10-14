@@ -8,7 +8,9 @@
 //   DISCLAIMER*.md, LICENSE -> site/
 // One codebase, several brands (app/brands/<id>.js). The brand comes from `--brand <id>`, else the env var BRAND, else blazecamp:
 //   * site/brand.js re-exports that brand; only its brand file and its assets (app/brands/<id>/) are copied;
-//   * index.html's language, <title>, description, theme colour, icons, stylesheet and logo come from the brand;
+//   * index.html's language, <title>, description, theme colour, icons, stylesheet and logo come from the brand; app/theme.js (light /
+//     dark before the first paint, CH7-15) gets the brand's storage key, and a brand's logo_plate (a rounded plate behind a logo that
+//     would vanish on the dark or the light page) becomes a small <style> in the page;
 //   * a brand with a `legal` block (Son Hábitos, every white-label brand) gets the coach's legal party wording
 //     (tools/brand-legal.mjs) in the site's copy of the model's words and rules, its own disclaimer pages (disclaimer.html,
 //     disclaimer.es.html) instead of DISCLAIMER*.md and LICENSE;
@@ -195,7 +197,8 @@ function brandIndex(html, BRAND) {
   sub(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${attr(M.description)}">`);
   sub(/<meta name="theme-color" content="[^"]*">/, `<meta name="theme-color" content="${attr(BRAND.html.theme_color)}">`);
   sub(/<link rel="icon"[^>]*>/, () => BRAND.html.icons);
-  sub(/<link rel="stylesheet" href="styles.css">/, `<link rel="stylesheet" href="styles.css">${BRAND.html.css ? `\n<link rel="stylesheet" href="${attr(BRAND.html.css)}">` : ''}`);
+  sub(/<script src="theme.js" data-key="[^"]*"><\/script>/, `<script src="theme.js" data-key="${attr(BRAND.storage_key)}"></script>`);
+  sub(/<link rel="stylesheet" href="styles.css">/, `<link rel="stylesheet" href="styles.css">${BRAND.html.css ? `\n<link rel="stylesheet" href="${attr(BRAND.html.css)}">` : ''}${plateStyle(BRAND)}`);
   sub(/<a class="brand" href="\.\/" aria-label="[^"]*">[\s\S]*?<\/a>/, () => `<a class="brand" href="./" aria-label="${attr(BRAND.name)}">${BRAND.html.logo}</a>`);
   if (lang !== 'en') {
     sub(/data-value="en" aria-pressed="true"/, 'data-value="en" aria-pressed="false"');
@@ -203,6 +206,18 @@ function brandIndex(html, BRAND) {
     sub(/<p>Loading\.\.\.<\/p>/, '<p>Cargando...</p>');
   }
   return html;
+}
+
+/** the brand's logo_plate ({light, dark}: a #rrggbb plate colour or null; tools/white-label/colors.mjs > logoPlate) as a <style>:
+ *  the header logo sits on a rounded plate in the theme where it would vanish (CH7-15); '' when there is none */
+function plateStyle(BRAND) {
+  const P = BRAND.logo_plate || {};
+  const ok = (c) => { if (c !== null && c !== undefined && !/^#[0-9a-f]{6}$/i.test(c)) throw new Error(`${BRAND.id}: logo_plate colour '${c}' is not #rrggbb`); return c; };
+  const rule = (scope, c) => `${scope} .brand-logo{background:${c};padding:4px 8px;border-radius:10px;box-sizing:border-box}`;
+  let css = '';
+  if (ok(P.dark)) css += `@media screen and (prefers-color-scheme:dark){${rule(':root:not([data-theme="light"])', P.dark)}}@media screen{${rule(':root[data-theme="dark"]', P.dark)}}`;
+  if (ok(P.light)) css += `@media (prefers-color-scheme:light){${rule(':root:not([data-theme="dark"])', P.light)}}${rule(':root[data-theme="light"]', P.light)}`;
+  return css ? `\n<style>/* the logo's plate (logo_plate, CH7-15) */${css}</style>` : '';
 }
 
 /** the brand's disclaimer page: the repository's DISCLAIMER*.md with the brand's legal party wording (and, for a white-label gym,
@@ -225,9 +240,11 @@ function disclaimerPage(file, lang, BRAND) {
 <title>${escapeHtml(title)} - ${escapeHtml(BRAND.name)}</title>
 <meta name="description" content="${attr(title)} - ${attr(BRAND.name)}">
 <meta name="theme-color" content="${attr(BRAND.html.theme_color)}">
+<meta name="color-scheme" content="light dark">
 <meta name="referrer" content="no-referrer">
 ${BRAND.html.icons}
-<link rel="stylesheet" href="styles.css">${BRAND.html.css ? `\n<link rel="stylesheet" href="${attr(BRAND.html.css)}">` : ''}
+<script src="theme.js" data-key="${attr(BRAND.storage_key)}"></script>
+<link rel="stylesheet" href="styles.css">${BRAND.html.css ? `\n<link rel="stylesheet" href="${attr(BRAND.html.css)}">` : ''}${plateStyle(BRAND)}
 </head>
 <body class="legal-page">
 <header class="topbar">

@@ -50,6 +50,10 @@ export const BRAND = {
     "favicon-64.png",
     "icon-180.png"
   ],
+  "logo_plate": {
+    "light": null,
+    "dark": null
+  },
   "pdf": {
     "file_prefix": "D1-Training-Kendall-plan",
     "author": "D1 Training Kendall",
@@ -67,8 +71,8 @@ export const BRAND = {
       ],
       "accent": [
         0,
-        116,
-        198
+        109,
+        185
       ],
       "ink": [
         0,

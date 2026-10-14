@@ -6,8 +6,10 @@
 <title>Blaze Camp - Plan Builder</title>
 <meta name="description" content="Build a complete training plan from Coach Lalo's Blaze Camp model, in English or Spanish. Nothing you enter is saved.">
 <meta name="theme-color" content="#0e0e10">
+<meta name="color-scheme" content="light dark">
 <meta name="referrer" content="no-referrer">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e0e10'/%3E%3Cpath d='M17 4c1 5 6 7 6 14a7 7 0 0 1-14 0c0-4 2-6 4-8 0 3 1 4 2 5 1-4 1-7 2-11z' fill='%23ff6a2b'/%3E%3C/svg%3E">
+<script src="theme.js" data-key="bc.lang"></script>
 <link rel="stylesheet" href="styles.css">
 <script type="module" src="main.js"></script>
 </head>
@@ -17,9 +19,12 @@
     <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#1d1d22"/><path d="M17 4c1 5 6 7 6 14a7 7 0 0 1-14 0c0-4 2-6 4-8 0 3 1 4 2 5 1-4 1-7 2-11z" fill="#ff6a2b"/><path d="M16 15c.6 3 3 4 3 7a3 3 0 0 1-6 0c0-2 1-3 2-4 0 1 .5 1.6 1 2 .3-1.6 0-3.2 0-5z" fill="#ffd2b8"/></svg>
     <span><span class="brand-word">BLAZE CAMP</span><span class="brand-sub" id="brand-sub">Plan Builder</span></span>
   </a>
+  <div class="top-tools">
+  <button type="button" class="theme-btn" data-action="theme" aria-pressed="false" aria-label="Dark mode"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z" fill="currentColor"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.6" fill="currentColor"/><path d="M12 1.8v3M12 19.2v3M1.8 12h3M19.2 12h3M4.8 4.8l2.1 2.1M17.1 17.1l2.1 2.1M4.8 19.2l2.1-2.1M17.1 6.9l2.1-2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
   <div class="lang" role="group" aria-label="Language">
     <button type="button" data-action="lang" data-value="en" aria-pressed="true">EN</button>
     <button type="button" data-action="lang" data-value="es" aria-pressed="false">ES</button>
+  </div>
   </div>
 </header>
 <main id="app"><div class="loading"><div class="spinner"></div><p>Loading...</p></div></main>

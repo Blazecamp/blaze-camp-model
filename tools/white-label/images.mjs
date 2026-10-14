@@ -81,6 +81,34 @@ export function trimImage(img, { tolerance = 24 } = {}) {
   for (let y = 0; y < th; y++) out.set(data.subarray(at(x0, y0 + y), at(x0, y0 + y) + tw * 4), y * tw * 4);
   return { w: tw, h: th, data: out };
 }
+/** what a logo looks like, for choosing a plate behind it (tools/white-label/colors.mjs > logoPlate): its solid background if it has
+ *  one (most of its edge is one opaque colour, a white box say; else null), and its foreground pixels (not transparent, not the
+ *  background colour), sampled, each as [r, g, b, weight] (weight = alpha 0..1) */
+export function logoPixels(img, { tolerance = 24, max = 4000 } = {}) {
+  const { w, h, data } = img;
+  const edge = [];
+  for (let x = 0; x < w; x++) edge.push(x, (h - 1) * w + x);
+  for (let y = 1; y < h - 1; y++) edge.push(y * w, y * w + w - 1);
+  const near = (i, c) => Math.abs(data[i] - c[0]) + Math.abs(data[i + 1] - c[1]) + Math.abs(data[i + 2] - c[2]) <= tolerance;
+  const counts = new Map();
+  for (const p of edge) { const i = p * 4; if (data[i + 3] < 250) continue; const k = [data[i], data[i + 1], data[i + 2]].map(v => v >> 4).join(','); counts.set(k, (counts.get(k) || 0) + 1); }
+  let bg = null;
+  const top = [...counts.entries()].sort((x, y) => y[1] - x[1])[0];
+  if (top) {
+    const c = top[0].split(',').map(v => Number(v) * 16 + 8);
+    const share = edge.filter(p => data[p * 4 + 3] >= 250 && near(p * 4, c)).length / edge.length;
+    if (share >= 0.6) { const ps = edge.filter(p => data[p * 4 + 3] >= 250 && near(p * 4, c)); bg = [0, 1, 2].map(k => Math.round(ps.reduce((n, p) => n + data[p * 4 + k], 0) / ps.length)); }
+  }
+  const step = Math.max(1, Math.floor((w * h) / max));
+  const samples = [];
+  for (let p = 0; p < w * h; p += step) {
+    const i = p * 4, a = data[i + 3] / 255;
+    if (a < 0.1) continue;
+    if (bg && near(i, bg)) continue;
+    samples.push([data[i], data[i + 1], data[i + 2], a]);
+  }
+  return { opaque: !!bg, bg, samples };
+}
 /** the image no wider than maxW (keeping its shape) */
 export function toWidth(img, maxW) {
   if (img.w <= maxW) return img;

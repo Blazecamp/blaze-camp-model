@@ -26,6 +26,7 @@ export const BRAND = {
     logo: '\n    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#1d1d22"/><path d="M17 4c1 5 6 7 6 14a7 7 0 0 1-14 0c0-4 2-6 4-8 0 3 1 4 2 5 1-4 1-7 2-11z" fill="#ff6a2b"/><path d="M16 15c.6 3 3 4 3 7a3 3 0 0 1-6 0c0-2 1-3 2-4 0 1 .5 1.6 1 2 .3-1.6 0-3.2 0-5z" fill="#ffd2b8"/></svg>\n    <span><span class="brand-word">BLAZE CAMP</span><span class="brand-sub" id="brand-sub">Plan Builder</span></span>\n  '
   },
   assets: [],                          // files under app/brands/<id>/ that the build copies
+  logo_plate: { light: null, dark: null },   // a rounded plate behind the header logo where it would vanish (CH7-15): #rrggbb or null per theme
   pdf: {
     file_prefix: 'Blaze-Camp-plan',    // Blaze-Camp-plan-<goal>-<start date>.pdf
     author: 'Blaze Camp',

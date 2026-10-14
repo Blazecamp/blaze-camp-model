@@ -218,8 +218,11 @@ test('app: the page keeps no data - no storage but the language choice, no netwo
   for (const [f, s] of src) {
     assert.ok(!/sessionStorage|indexedDB|document\.cookie|sendBeacon|XMLHttpRequest/.test(s), f);
     const ls = s.match(/localStorage\.(\w+)\(([^)]*)\)/g) || [];
-    // the language choice only: its key is the brand's storage_key ('bc.lang' / 'sh.lang', tests/app-brand.test.mjs)
-    for (const call of ls) assert.ok(/'bc\.lang'|BRAND\.storage_key/.test(call), `${f}: ${call}`);
+    // the language choice and the light / dark choice only (CH7-15): the brand's storage_key ('bc.lang' / 'sh.lang',
+    // tests/app-brand.test.mjs), and `<storage_key>.theme` (main.js; theme.js reads it as `key`, built from its data-key + '.theme')
+    for (const call of ls) assert.ok(/'bc\.lang'|BRAND\.storage_key/.test(call) || (f === 'theme.js' && /^localStorage\.getItem\(key\)$/.test(call)), `${f}: ${call}`);
+    if (f === 'theme.js') assert.match(s, /'\.theme'/, 'theme.js keeps only <storage_key>.theme');
+    if (f === 'main.js') for (const call of s.match(/localStorage\.setItem\(([^)]*)\)/g) || []) assert.match(call, /BRAND\.storage_key( \+ '\.theme')?, /, call);
     for (const m of s.matchAll(/fetch\(([^,)]+)/g)) assert.ok(!/https?:/.test(m[1]), `${f}: ${m[0]}`);
   }
   // pure modules: no DOM

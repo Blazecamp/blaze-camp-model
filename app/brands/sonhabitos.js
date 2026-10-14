@@ -25,6 +25,7 @@ export const BRAND = {
     css: 'brands/sonhabitos/brand.css',
     logo: '\n    <img class="brand-logo" src="brands/sonhabitos/logo.png" width="78" height="48" alt="Son Hábitos">\n    <span class="brand-sub" id="brand-sub">Tu plan de ejercicio</span>\n  '
   },
+  logo_plate: { light: null, dark: null },   // its teal and pink logo reads on both pages (tools/app-qa/themes.mjs checks it; CH7-15)
   assets: ['brand.css', 'logo.png', 'logo-flat.png', 'favicon.svg', 'favicon-64.png', 'icon-180.png'],
   pdf: {
     file_prefix: 'Son-Habitos-plan',

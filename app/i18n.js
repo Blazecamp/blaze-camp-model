@@ -15,6 +15,8 @@ export const STRINGS = {
     'app.load_failed': 'The plan maker did not load. Check your internet and reload the page.',
     'app.reload': 'Reload',
     'lang.toggle': 'Language',
+    'theme.dark': 'Dark mode',
+    'theme.light': 'Light mode',
 
     'nav.back': 'Back',
     'nav.next': 'Next',
@@ -326,6 +328,8 @@ export const STRINGS = {
     'app.load_failed': 'No cargó el creador de planes. Revisa tu internet y vuelve a cargar la página.',
     'app.reload': 'Volver a cargar',
     'lang.toggle': 'Idioma',
+    'theme.dark': 'Modo oscuro',
+    'theme.light': 'Modo claro',
 
     'nav.back': 'Atrás',
     'nav.next': 'Siguiente',

@@ -2,8 +2,16 @@
 
 A static, build-free page that turns a few taps into Coach Lalo's complete training plan, in English or Spanish. It runs the
 engine (`engine/*.mjs`) and the compiled model (`model/*.json`) in the browser. Nothing is sent to a server and nothing about the
-person is stored. The only thing the browser keeps is the language choice (`localStorage` key `bc.lang`, `sh.lang` on the Son
-Hábitos site; R3-GEN-01).
+person is stored. The only things the browser keeps are the language choice (`localStorage` key `bc.lang`, `sh.lang` on the Son
+Hábitos site; R3-GEN-01) and the light / dark choice (`<that key>.theme`, only once the person taps the sun / moon button; coach
+CH7-15).
+
+**Light and dark (CH7-15).** The sun / moon button at the top (next to EN | ES) switches the colours; with no choice the page
+follows the phone. `theme.js` (a plain script, first in `<head>`) applies a kept choice as `<html data-theme>` before the page
+paints; every stylesheet has its light colours on `:root` (also forced by `data-theme="light"`) and its dark colours under
+`@media screen and (prefers-color-scheme: dark) { :root:not([data-theme="light"]) }` and `@media screen { :root[data-theme="dark"] }`.
+Dark is for the screen only: print, the PDF and Save image stay light. Every text reads 4.5:1 and every box a person taps has an
+edge or fill at 3:1 (`--ctl-line`) in both themes: `tools/app-qa/themes.mjs` checks every brand on every screen.
 
 One codebase, two brands: **Blaze Camp** (the default) and **Son Hábitos** (Nati Vera's brand, Spanish first). See "Brands" below.
 

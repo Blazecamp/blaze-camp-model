@@ -18,20 +18,29 @@ function inlineStyles(src, dst) {
   for (let i = 0; i < sk.length; i++) if (dk[i]) inlineStyles(sk[i], dk[i]);
 }
 
-/** @param {HTMLElement} node @param {{scale?:number, background?:string}} [opts] @returns {Promise<Blob>} */
+/**
+ * @param {HTMLElement} node
+ * @param {{scale?:number, background?:string|(() => string), prepare?:() => (() => void)}} [opts] prepare: called right before the
+ *   styles are copied, returns the undo (main.js uses it to take the picture in the light colours, coach CH7-15); background: a
+ *   colour, or a function read while prepared
+ * @returns {Promise<Blob>}
+ */
 export async function nodeToPng(node, opts = {}) {
   // the tips and any open row details are left out of the picture: hide them while measuring and copying the styles
   const hidden = [...node.querySelectorAll('[data-snap-hide]')];
   const prev = hidden.map(el => el.style.display);
   hidden.forEach(el => { el.style.display = 'none'; });
-  let width, height, clone;
+  let width, height, clone, background = typeof opts.background === 'string' ? opts.background : null;
+  const undo = opts.prepare ? opts.prepare() : null;
   try {
+    if (typeof opts.background === 'function') background = opts.background();
     const rect = node.getBoundingClientRect();
     width = Math.ceil(rect.width); height = Math.ceil(rect.height);
     clone = node.cloneNode(true);
     inlineStyles(node, clone);
   } finally {
     hidden.forEach((el, i) => { el.style.display = prev[i]; });
+    if (undo) undo();
   }
   clone.style.margin = '0';
   clone.querySelectorAll('[data-snap-hide]').forEach(el => el.remove());
@@ -45,7 +54,7 @@ export async function nodeToPng(node, opts = {}) {
   const canvas = document.createElement('canvas');
   canvas.width = Math.ceil(width * scale); canvas.height = Math.ceil(height * scale);
   const ctx = canvas.getContext('2d');
-  ctx.fillStyle = opts.background || '#ffffff';
+  ctx.fillStyle = background || '#ffffff';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.scale(scale, scale);
   ctx.drawImage(img, 0, 0);

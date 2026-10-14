@@ -8,6 +8,8 @@
 //        [--website https://theirsite.com] [--short "GYM NAME"] [--credit "..."] [--site https://plan.theirsite.com]
 //        [--tagline-en "..."] [--tagline-es "..."] [--icon <file or URL>] [--force] [--publish [--dry-run] [--no-wait]]
 //   node tools/new-brand.mjs --id <slug> --force [only the flags to change]   (rebuild: everything else is kept from the brand)
+//   node tools/new-brand.mjs --refresh-all   (every white-label brand made again from its own inputs with the current look; no website
+//                                            is read again; then commit app/brands and agent/packs)
 //
 // It writes (and nothing else in the repository):
 //   app/brands/<id>.js         the brand file (the same shape as every brand: tests/app-brand.test.mjs)
@@ -35,8 +37,8 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { normHex, themeVars, contrastProblems, brandCss, rgb } from './white-label/colors.mjs';
-import { sniff, decodePng, encodePng, squareIcon, toHeight } from './white-label/images.mjs';
+import { normHex, themeVars, contrastProblems, brandCss, rgb, logoPlate } from './white-label/colors.mjs';
+import { sniff, decodePng, encodePng, squareIcon, toHeight, logoPixels } from './white-label/images.mjs';
 import { fromWebsite } from './white-label/website.mjs';
 import { findBrowser, logoToPng, wordmarkPng, NO_BROWSER } from './white-label/raster.mjs';
 import { whiteLabelParties } from './brand-legal.mjs';
@@ -63,7 +65,7 @@ function parseArgs(argv) {
     const a = argv[i];
     if (!a.startsWith('--')) fail(`unexpected '${a}'`);
     const k = a.slice(2);
-    if (['force', 'no-build', 'help', 'publish', 'dry-run', 'no-wait', 'legal-name-confirmed'].includes(k)) { o[k] = true; continue; }
+    if (['force', 'no-build', 'help', 'publish', 'dry-run', 'no-wait', 'legal-name-confirmed', 'refresh-all'].includes(k)) { o[k] = true; continue; }
     if (k === 'logo-text' && (i + 1 >= argv.length || argv[i + 1].startsWith('--'))) { o[k] = true; continue; }   // a value is optional
     if (i + 1 >= argv.length) fail(`${a} needs a value`);
     o[k] = argv[++i];
@@ -249,6 +251,11 @@ export async function newBrand(o, io = {}) {
   for (let i = 0; i < white.data.length; i += 4) { const a = white.data[i + 3] / 255; for (let k = 0; k < 3; k++) white.data[i + k] = Math.round(white.data[i + k] * a + 255 * (1 - a)); white.data[i + 3] = 255; }
   assets['logo-flat.png'] = encodePng(white);
   const pdfLogo = { src: `brands/${id}/logo-flat.png`, w: flat.w, h: flat.h };
+  // the plate behind the header logo where it would vanish on the page (CH7-15): a logo with a white box gets a white plate on the
+  // dark page, a dark logo on a transparent background a light plate there, a white logo a dark plate on the light page
+  const plate = logoPlate(logoPixels(head), { light: vars.light.card, dark: vars.dark.card });
+  if (plate.dark) note(`logo: on the dark page it sits on a ${plate.dark} plate (it would not show well on its own)`);
+  if (plate.light) note(`logo: on the light page it sits on a ${plate.light} plate (it would not show well on its own)`);
   if (png.w / png.h > 6) warn(`the logo is very wide (${png.w} x ${png.h}); it is shown at most 150 px wide in the top bar`);
 
   // the icons: from the website's icon or --icon (any image type), else the logo
@@ -296,6 +303,7 @@ export async function newBrand(o, io = {}) {
       logo: `\n    <img class="brand-logo" src="brands/${id}/logo.png" width="${dispW}" height="${dispH}" alt="${attr(name)}">\n    <span class="brand-sub" id="brand-sub">${attr(tag[lang])}</span>\n  `
     },
     assets: assetList,
+    logo_plate: plate,
     pdf: {
       file_prefix: `${asciiName(name)}-plan`,
       author: name,
@@ -336,6 +344,13 @@ export async function newBrand(o, io = {}) {
   // 6. write: the brand file and its assets (a --force run replaces the old assets folder)
   fs.mkdirSync(brandsDir, { recursive: true });
   if (brandsDir !== path.join(ROOT, 'app/brands') && !fs.existsSync(path.join(brandsDir, 'package.json'))) fs.writeFileSync(path.join(brandsDir, 'package.json'), '{ "type": "module" }\n');
+  // a PNG with the same pixels as the one already there keeps its bytes (a rebuild changes no logo or icon that did not change)
+  for (const [f, b] of Object.entries(assets)) {
+    const old = path.join(assetDir, f);
+    if (!f.endsWith('.png') || !fs.existsSync(old)) continue;
+    const ob = fs.readFileSync(old), A = decodePng(ob), N = decodePng(b);
+    if (A && N && A.w === N.w && A.h === N.h && Buffer.from(A.data).equals(Buffer.from(N.data))) assets[f] = ob;
+  }
   fs.rmSync(assetDir, { recursive: true, force: true });
   fs.mkdirSync(assetDir, { recursive: true });
   for (const [f, b] of Object.entries(assets)) fs.writeFileSync(path.join(assetDir, f), b);
@@ -370,6 +385,25 @@ export async function newBrand(o, io = {}) {
   }
   return { id, name, brand: BRAND, files: written, packDir, report, warnings, previewUrl, siteUrl, buildDir, colors: { light: vars.light, dark: vars.dark }, legal: legalGym, published };
 }
+/**
+ * --refresh-all: every white-label brand this tool made (white_label: true, the MARK line) is made again from its own inputs (the
+ * inputs line of its brand file and its logo-src.png / icon-src.png), with the tool's current look (coach 2026-10-14: the light /
+ * dark theme logic, CH7-15, on every preview). No website is read again; the name, colours, logo, legal name and site stay as they
+ * are; brand.css, the logo plate, the icons and the agent pack are remade. Returns [{id, report, warnings, files}].
+ */
+export async function refreshAll(o = {}) {
+  const brandsDir = path.resolve(o['brands-dir'] || path.join(ROOT, 'app/brands'));
+  const out = [];
+  for (const f of fs.readdirSync(brandsDir).filter(x => /^[a-z0-9-]+\.js$/.test(x)).sort()) {
+    const src = fs.readFileSync(path.join(brandsDir, f), 'utf8');
+    if (!src.includes(MARK) || !/"white_label": true/.test(src) || !previousInputs(path.join(brandsDir, f))) continue;
+    const id = f.slice(0, -3);
+    const r = await newBrand({ id, force: true, ...(o['brands-dir'] ? { 'brands-dir': o['brands-dir'] } : {}), ...(o['packs-dir'] ? { 'packs-dir': o['packs-dir'] } : {}), ...(o['no-build'] ? { 'no-build': true } : {}) });
+    out.push({ id, report: r.report, warnings: r.warnings, files: r.files });
+  }
+  return out;
+}
+
 function attr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 
 // ------------------------------------------------------------------------------------------------- command line
@@ -379,6 +413,13 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     const o = parseArgs(process.argv.slice(2));
     if (o.help || !Object.keys(o).length) { console.log(fs.readFileSync(fileURLToPath(import.meta.url), 'utf8').split('\n').filter(l => l.startsWith('//')).slice(1, 37).map(l => l.slice(3)).join('\n')); process.exit(0); }
     if (o['dry-run'] && !o.publish) throw new InputError('--dry-run goes with --publish');
+    if (o['refresh-all']) {
+      if (o.publish || o.id || o['from-website']) throw new InputError('--refresh-all takes no --id, --from-website or --publish (commit and push the refreshed brands yourself)');
+      const done = await refreshAll(o);
+      for (const r of done) { console.log(`${r.id}: made again from its own inputs`); for (const l of r.report.filter(x => /plate|colour/.test(x))) console.log('  ' + l); for (const w of r.warnings) console.log('  note: ' + w); }
+      console.log(done.length ? `${done.length} white-label brand(s) refreshed; check them (tools/app-qa/themes.mjs), then commit app/brands and agent/packs` : 'no white-label brand to refresh');
+      process.exit(0);
+    }
     const r = await newBrand(o);
     // with --publish, stdout is only the link and its state (CH7-13); what was found and made goes to stderr
     const say = o.publish ? (s) => console.error(s) : (s) => console.log(s);

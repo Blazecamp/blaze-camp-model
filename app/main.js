@@ -124,6 +124,59 @@ function applyChrome() {
   document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.value === S.lang)));
   const g = document.querySelector('.lang');
   if (g) g.setAttribute('aria-label', t('lang.toggle'));
+  applyTheme();
+}
+
+// ------------------------------------------------------------------------------------------------- light / dark (coach CH7-15)
+// Default: follow the phone (prefers-color-scheme). The sun / moon button switches to the other theme; the choice is kept in this
+// browser only (`<storage_key>.theme`; app/theme.js applies it before the first paint) and set as <html data-theme>.
+
+const darkMq = typeof window.matchMedia === 'function' ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+function themeNow() {
+  const d = document.documentElement.getAttribute('data-theme');
+  return d === 'dark' || d === 'light' ? d : (darkMq && darkMq.matches ? 'dark' : 'light');
+}
+function toggleTheme() {
+  const next = themeNow() === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  try { localStorage.setItem(BRAND.storage_key + '.theme', next); } catch { /* private mode: for this visit only */ }
+  applyTheme();
+  render();
+}
+function applyTheme() {
+  const dark = themeNow() === 'dark';
+  const b = document.querySelector('.theme-btn');
+  if (b) {
+    b.setAttribute('aria-pressed', String(dark));
+    b.setAttribute('aria-label', t('theme.dark'));
+    b.title = t(dark ? 'theme.light' : 'theme.dark');   // what a tap gives
+  }
+  // the phone's status bar takes the top bar's colour
+  const bar = document.querySelector('.topbar'), meta = document.querySelector('meta[name="theme-color"]');
+  if (bar && meta) { const c = getComputedStyle(bar).backgroundColor; if (c && c !== 'rgba(0, 0, 0, 0)') meta.setAttribute('content', c); }
+}
+if (darkMq) {
+  const onPhone = () => { if (!document.documentElement.hasAttribute('data-theme')) { applyTheme(); render(); } };
+  if (darkMq.addEventListener) darkMq.addEventListener('change', onPhone); else if (darkMq.addListener) darkMq.addListener(onPhone);
+}
+/** '#abc' | '#aabbcc' | 'rgb(r, g, b)' -> [r, g, b], else null */
+function parseColor(s) {
+  s = String(s || '').trim();
+  let m = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(s);
+  if (m) { const x = m[1].length === 3 ? m[1].replace(/./g, c => c + c) : m[1]; return [0, 2, 4].map(i => parseInt(x.slice(i, i + 2), 16)); }
+  m = /^rgba?\(\s*([\d.]+)[\s,]+([\d.]+)[\s,]+([\d.]+)/i.exec(s);
+  return m ? [m[1], m[2], m[3]].map(Number) : null;
+}
+const lum = (c) => { const [r, g, b] = c.map(v => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+/** the text class of a heat-map cell: white text on a dark cell, black on a light one (one of the two always reads 4.5:1) (the cell is the theme's card with the
+ *  accent over it at `a`), so every number reads in both themes */
+function heatText(a) {
+  const cs = getComputedStyle(document.documentElement);
+  const card = parseColor(cs.getPropertyValue('--card')), heat = parseColor('rgb(' + cs.getPropertyValue('--heat-rgb') + ')');
+  const print = a > 0.55 ? ' hi' : '';   // the printed page (always light): white numbers on the strong cells
+  if (!card || !heat) return print;
+  const L = lum(card.map((v, i) => v * (1 - a) + heat[i] * a));
+  return print + (1.05 / (L + 0.05) >= (L + 0.05) / 0.05 ? ' lt' : ' dk');
 }
 
 // ------------------------------------------------------------------------------------------------- render
@@ -865,7 +918,7 @@ function heatHtml(highlight) {
         if (typeof v !== 'number') return sep + '<td class="c">–</td>';
         const a = hi > lo ? 0.16 + 0.84 * (v - lo) / (hi - lo) : 0.5;
         const cur = highlight && weeks[i] === S.week ? ' cur' : '';
-        return sep + `<td class="c${a > 0.55 ? ' hi' : ''}${cur}" style="background:rgba(var(--heat-rgb),${a.toFixed(2)})">${v}</td>`;
+        return sep + `<td class="c${heatText(a)}${cur}" style="background:rgba(var(--heat-rgb),${a.toFixed(2)})">${v}</td>`;
       }).join('');
     };
     const headCells = weeks.map((w, i) => (breaks.includes(i) && i > 0 ? '<th class="sep"></th>' : '') + `<th class="${highlight && w === S.week ? 'cur' : ''}">${w}</th>`).join('');
@@ -977,8 +1030,10 @@ async function saveImage(btn) {
   const startedAt = performance.now();
   btn.disabled = true; btn.textContent = t('plan.saving');
   try {
-    const bg = getComputedStyle(node).backgroundColor || '#fff';
-    const blob = await nodeToPng(node, { background: bg });
+    // the picture is always in the light colours, like the PDF (coach CH7-15): a dark card would print and share badly
+    const root = document.documentElement;
+    const prepare = () => { const was = root.getAttribute('data-theme'); root.setAttribute('data-theme', 'light'); return () => { if (was) root.setAttribute('data-theme', was); else root.removeAttribute('data-theme'); }; };
+    const blob = await nodeToPng(node, { prepare, background: () => getComputedStyle(node).backgroundColor || '#fff' });
     const name = `${BRAND.image_prefix}-week${S.week}-${S.day}.png`;
     await deliver(blob, { name, type: 'png', title: t('plan.share_title', { day: mt('weekday.' + S.day) }), startedAt, words: t });
   } catch {
@@ -1021,6 +1076,7 @@ function act(action, value, el) {
   if (S.screen === 'wizard') markAnswered(action);
   switch (action) {
     case 'lang': return setLang(value);
+    case 'theme': return toggleTheme();
     case 'reload': return location.reload();
     case 'role': return setA({ role: value });
     case 'age': return setA({ age: Math.max(10, Math.min(90, (Number(a.age) || 30) + Number(value))) });
