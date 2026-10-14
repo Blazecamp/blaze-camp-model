@@ -36,9 +36,13 @@ Se mandan para que la coach se los reenvíe a la clienta tal cual, y la clienta 
 
 Lo que no se pregunte queda en su default. **Nunca se pregunta** sexo o género, sueño, estrés, trabajo, vida, energía ni duración de sesión: el motor las rechaza.
 
+**Termina el mensaje 1 con una pregunta clara, en su propia línea:** «¿Todo está bien? Responde **SÍ** para seguir, o dime qué cambiar.» No sigas hasta que la persona diga sí, adelante o algo parecido. Si cambia algo, muestra las respuestas actualizadas y vuelve a preguntar.
+
 **Mensaje 2: la liberación, con sus links.** El texto de la liberación se muestra **palabra por palabra** (`release.versions` de `/api/questions`), con los dos links de arriba, más el resumen de una línea de las respuestas.
 
 Solo con el **«Acepto» explícito en esa conversación** (o «I accept») se manda `accepted: true`. Nunca se asume, nunca se premarca, y el agente no acepta por alguien que no está en el chat. Con clientes acepta la coach; la clienta confirma por texto. Un «sí» en salud no frena el plan: sale con el aviso de ver a un profesional primero, y nunca se dice qué respuesta lo causó.
+
+**Termina el mensaje 2 con una pregunta clara, en su propia línea:** «¿Aceptas los términos y la liberación de responsabilidad? Responde **ACEPTO** (o SÍ) y armo el plan.» Solo se arma después de esa respuesta. Nunca se arma un plan sin un SÍ claro al mensaje 1 Y una aceptación clara del mensaje 2.
 
 ## Armar y entregar
 

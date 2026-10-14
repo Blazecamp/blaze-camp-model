@@ -32,3 +32,9 @@ test('CH7-02: the Son Hábitos pack names no other brand or owner (the repo link
     assert.doesNotMatch(t, /Blaze|Gerardo|Lalo/, rel);
   }
 });
+
+test('CH7-14: both messages end with a clear confirm question, and no plan is built without both', () => {
+  const bc = files['agent/packs/blazecamp/AGENTS.md'], sh = files['agent/packs/sonhabitos/AGENTS.md'];
+  assert.match(bc, /Reply \*\*YES\*\* to continue/); assert.match(bc, /Reply \*\*I ACCEPT\*\*/); assert.match(bc, /clear YES to message 1 AND a clear acceptance of message 2/);
+  assert.match(sh, /Responde \*\*SÍ\*\* para seguir/); assert.match(sh, /Responde \*\*ACEPTO\*\*/); assert.match(sh, /SÍ claro al mensaje 1 Y una aceptación clara del mensaje 2/);
+});

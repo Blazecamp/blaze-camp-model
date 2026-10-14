@@ -11,7 +11,10 @@ Follow [AGENT_PLAYBOOK.md](../../../AGENT_PLAYBOOK.md) step by step. In short:
 1. Get the questions: `node tools/plan.mjs --questions --lang en` (or `--lang es`). Message 1: ask them ALL together, in order,
    each with its proposed answer filled in, so the person only corrects what is wrong. Never ask sex, gender, sleep, stress,
    job, lifestyle, energy or session length.
+   End message 1 with a clear question: "Is everything right? Reply YES to continue, or tell me what to change." Wait for yes.
 2. Message 2: the release word for word with the brand's legal links (in its pack), plus a one-line summary of the answers.
+   End message 2 with a clear question: "Do you accept the terms and the release of liability? Reply I ACCEPT and I will build the plan."
+   Never build without a clear YES to message 1 AND a clear acceptance of message 2 (CH7-14).
 3. Show the release text (`release.versions` in the questions output: `release.client`, `release.coach` for a coach's client,
    `release.minor` too under 18). Build only after an explicit "I accept" in this conversation. Never assume it.
 4. Write the answers to a scratch file and build:

@@ -39,6 +39,8 @@ Spanish, an example body and `check.sh`. An agent given one brand's API reads th
    goal and its details (sport and position, activity, Focus muscles, or gym or bootcamp), then days per week and weekdays,
    then where they train, then options (split, supersets, plan length, start date, tests, extra equipment), then pain, then
    the 5 health questions.
+   **End message 1 with a clear question on its own line:** "Is everything right? Reply **YES** to continue, or tell me
+   what to change." Wait for yes / go ahead. If they change something, show the updated answers and ask again.
 3. **Message 2: the release, with its links,** plus a one-line summary of the answers. Always send the brand's legal links
    with it (the Spanish and English disclaimer pages and the PAR-Q, in the brand's pack), so a coach can forward them to the
    client as they are and the client confirms by text.
@@ -50,6 +52,9 @@ Spanish, an example body and `check.sh`. An agent given one brand's API reads th
    Then ask: "Do you accept the terms and the release of liability?" Build only after an explicit "I accept" (or the same in
    Spanish) **in this conversation**. Never assume it, never pre-tick it, and never accept for someone who is not in the
    conversation. You then send `accepted: true`: by doing so you attest that the person accepted it.
+   **End message 2 with a clear question on its own line:** "Do you accept the terms and the release of liability? Reply
+   **I ACCEPT** (or YES) and I will build the plan." **Never build a plan without a clear YES to message 1 AND a clear
+   acceptance of message 2** (the coach's rule, CH7-14).
 5. **Build.** `build_plan` with the answers (MCP), `node tools/plan.mjs --answers answers.json --lang es` (shell), or
    `POST /api/plan` (HTTP). If the result says answers are missing, ask those and build again. If it says the intake is
    invalid, read the errors to the person in plain words and ask again.

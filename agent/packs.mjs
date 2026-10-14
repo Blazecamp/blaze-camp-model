@@ -56,8 +56,10 @@ const W = {
       'the 5 health questions (unless the health check was skipped)'
     ],
     never: 'What is not asked keeps its default. **Never ask** sex or gender, sleep, stress, job, life, energy or session length: the engine refuses them.',
+    c1: '**End message 1 with a clear question, on its own line:** "Is everything right? Reply **YES** to continue, or tell me what to change." Do not go on until the person says yes, go ahead, or similar. If they change something, show the updated answers and ask again.',
     m2: '**Message 2: the release, with its links.** Show the release text **word for word** (`release.versions` from `/api/questions`), with the two links above, plus a one-line summary of the answers.',
     acc: (c, cl) => `Only with an **explicit "I accept" in that conversation** (or "Acepto") send \`accepted: true\`. Never assume it, never pre-tick it, and never accept for someone who is not in the chat. With clients, ${c} accepts; ${cl} confirms by text. A "yes" on health does not stop the plan: it comes with the warning to see a professional first, and never say which answer caused it.`,
+    c2: '**End message 2 with a clear question, on its own line:** "Do you accept the terms and the release of liability? Reply **I ACCEPT** (or YES) and I will build the plan." Build only after that answer. No plan is ever built without a clear YES to message 1 AND a clear acceptance of message 2.',
     build: 'Build and deliver',
     b1: (l) => `- \`POST /api/plan\` with \`{"answers": {...}, "lang": "${l}", "format": "md"}\`. From the reply keep only \`summary\` and \`link\`: **do not send the plan as text**.`,
     b2: '- 422 → read the `problems` list and ask for that.',
@@ -113,8 +115,10 @@ const W = {
       'las 5 preguntas de salud (si no se omitió la revisión)'
     ],
     never: 'Lo que no se pregunte queda en su default. **Nunca se pregunta** sexo o género, sueño, estrés, trabajo, vida, energía ni duración de sesión: el motor las rechaza.',
+    c1: '**Termina el mensaje 1 con una pregunta clara, en su propia línea:** «¿Todo está bien? Responde **SÍ** para seguir, o dime qué cambiar.» No sigas hasta que la persona diga sí, adelante o algo parecido. Si cambia algo, muestra las respuestas actualizadas y vuelve a preguntar.',
     m2: '**Mensaje 2: la liberación, con sus links.** El texto de la liberación se muestra **palabra por palabra** (`release.versions` de `/api/questions`), con los dos links de arriba, más el resumen de una línea de las respuestas.',
     acc: (c, cl) => `Solo con el **«Acepto» explícito en esa conversación** (o «I accept») se manda \`accepted: true\`. Nunca se asume, nunca se premarca, y el agente no acepta por alguien que no está en el chat. Con clientes acepta ${c}; ${cl} confirma por texto. Un «sí» en salud no frena el plan: sale con el aviso de ver a un profesional primero, y nunca se dice qué respuesta lo causó.`,
+    c2: '**Termina el mensaje 2 con una pregunta clara, en su propia línea:** «¿Aceptas los términos y la liberación de responsabilidad? Responde **ACEPTO** (o SÍ) y armo el plan.» Solo se arma después de esa respuesta. Nunca se arma un plan sin un SÍ claro al mensaje 1 Y una aceptación clara del mensaje 2.',
     build: 'Armar y entregar',
     b1: (l) => `- \`POST /api/plan\` con \`{"answers": {...}, "lang": "${l}", "format": "md"}\`. Del reply se guardan solo \`summary\` y \`link\`: **el plan no se manda como texto**.`,
     b2: '- 422 → se lee la lista `problems` y se pregunta eso.',
@@ -153,7 +157,7 @@ function agentsMd(brand, l, site, links) {
     w.title(b), '', w.intro(b), '',
     `## ${w.api}`, '', w.base(site, b), w.q(l), w.plan, w.oa, w.pb, w.rd, w.qcopy(qFile(l)), '',
     `## ${w.legal}`, '', w.les(links.es), w.len(links.en), w.parq(links.parq), '', w.fwd(c, cl), '',
-    `## ${w.flow}`, '', w.m1(cl), '', ...w.list.map((x, i) => `${i + 1}. ${x}`), '', w.never, '', w.m2, '', w.acc(c, cl), '',
+    `## ${w.flow}`, '', w.m1(cl), '', ...w.list.map((x, i) => `${i + 1}. ${x}`), '', w.never, '', w.c1, '', w.m2, '', w.acc(c, cl), '', w.c2, '',
     `## ${w.build}`, '', w.b1(l), w.b2, w.b3, w.b4, w.b5(cl), '',
     `## ${w.rules}`, '', ...w.r.map(x => `- ${x}`), '',
     '---', '', `${(A.credit || {})[l] || b}`, '', `_${w.gen}_`, ''

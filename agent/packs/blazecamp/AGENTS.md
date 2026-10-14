@@ -36,9 +36,13 @@ They are sent so the coach can forward them to the client as they are, and the c
 
 What is not asked keeps its default. **Never ask** sex or gender, sleep, stress, job, life, energy or session length: the engine refuses them.
 
+**End message 1 with a clear question, on its own line:** "Is everything right? Reply **YES** to continue, or tell me what to change." Do not go on until the person says yes, go ahead, or similar. If they change something, show the updated answers and ask again.
+
 **Message 2: the release, with its links.** Show the release text **word for word** (`release.versions` from `/api/questions`), with the two links above, plus a one-line summary of the answers.
 
 Only with an **explicit "I accept" in that conversation** (or "Acepto") send `accepted: true`. Never assume it, never pre-tick it, and never accept for someone who is not in the chat. With clients, the coach accepts; the client confirms by text. A "yes" on health does not stop the plan: it comes with the warning to see a professional first, and never say which answer caused it.
+
+**End message 2 with a clear question, on its own line:** "Do you accept the terms and the release of liability? Reply **I ACCEPT** (or YES) and I will build the plan." Build only after that answer. No plan is ever built without a clear YES to message 1 AND a clear acceptance of message 2.
 
 ## Build and deliver
 

@@ -96,3 +96,9 @@ His Son Hábitos instructions (the model for every brand), in short: the plan co
 **Answer (verbatim):** "I don't really need a picture of the preview. I need the actual link to the preview right away."
 
 **Reading.** `node tools/new-brand.mjs --from-website <url> --publish` makes the brand, runs its checks (leak check, trial build, contrast), commits only that brand's files to `main`, waits for the previews site, and prints only the link `https://white-label-previews.vercel.app/<id>/` and "live" (or "building, ready in ~1-2 min"). The agent sends the coach the link as soon as it prints; no screenshots in the report (the internal checks stay). The agent asks the coach for nothing unless the website gives no name or logo at all (with no logo, a wordmark of the name is made and the link still goes out; a real logo can follow with `--force --publish`).
+
+## CH7-14 Both agent messages ask to confirm
+
+**Answer (verbatim):** "The agent needs to ask to confirm, both messages should ASK to confirm so it prompts the reader to say YEs or GO AHEAD, but it needs to be clear. Give me the prompt to give to my agents so they know each mesage needs to have that before kicking out a fitness plan"
+
+**Reading.** Message 1 (all the questions with proposed answers) ends with a clear question on its own line: "Is everything right? Reply YES to continue, or tell me what to change." (ES «¿Todo está bien? Responde SÍ para seguir, o dime qué cambiar.»). Message 2 (the release with its links) ends with: "Do you accept the terms and the release of liability? Reply I ACCEPT (or YES) and I will build the plan." (ES «¿Aceptas los términos y la liberación de responsabilidad? Responde ACEPTO (o SÍ) y armo el plan.»). No plan is built without a clear yes to message 1 and a clear acceptance of message 2. In every brand's pack (`agent/packs.mjs`), `AGENT_PLAYBOOK.md`, the build-plan skill and the agents' rule list in `agent/questions.mjs`.
