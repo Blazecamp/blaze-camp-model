@@ -183,16 +183,20 @@ function renderWizard() {
 const chip = (action, value, label, on, extra = '') => `<button type="button" class="chip" data-action="${action}" data-value="${h(value)}" aria-pressed="${on ? 'true' : 'false'}" ${extra}>${label}</button>`;
 const seg = (action, items, cur, cls = '') => `<div class="seg ${cls}" role="group">${items.map(([v, l]) => `<button type="button" data-action="${action}" data-value="${h(v)}" aria-pressed="${String(v) === String(cur)}">${h(l)}</button>`).join('')}</div>`;
 const cardBtn = (action, value, title, sub, on, icon = '') => `<button type="button" class="card-btn" data-action="${action}" data-value="${h(value)}" aria-pressed="${on ? 'true' : 'false'}">${icon ? `<span class="ic" aria-hidden="true">${icon}</span>` : ''}<span class="t">${h(title)}</span>${sub ? `<span class="s">${h(sub)}</span>` : ''}</button>`;
-const selectHtml = (field, label, opts, cur) => `<label class="sel"><span class="label">${h(label)}</span><select data-field="${field}">${opts.map(([v, l]) => `<option value="${h(v)}" ${String(v) === String(cur || '') ? 'selected' : ''}>${h(l)}</option>`).join('')}</select></label>`;
+/** every dropdown and pick list reads A to Z in the shown language (accents ignored); a leading "any" option ('') stays first */
+const abcKey = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const byAbc = (a, b) => { const x = abcKey(a), y = abcKey(b); return x < y ? -1 : x > y ? 1 : 0; };
+const sortOpts = (opts) => [...opts.filter(([v]) => v === ''), ...opts.filter(([v]) => v !== '').sort((a, b) => byAbc(a[1], b[1]))];
+const selectHtml = (field, label, opts, cur) => `<label class="sel"><span class="label">${h(label)}</span><select data-field="${field}">${sortOpts(opts).map(([v, l]) => `<option value="${h(v)}" ${String(v) === String(cur || '') ? 'selected' : ''}>${h(l)}</option>`).join('')}</select></label>`;
 
 /** a question the person has not answered yet pulses softly until they do (coach, 2026-10-13: people slid past the training days) */
 const need = (key) => (S.touched.has(key) ? '' : ' needs');
 const TOUCH = {
   role: 'role', age: 'age', weight: 'weight', unit: 'weight', years: 'years', goal: 'goal',
-  'sport-pick': 'detail', position: 'detail', detail: 'detail', season: 'detail', practice: 'detail', 'act-pick': 'detail', playday: 'playdays',
+  'sport-pick': 'detail', position: 'detail', detail: 'detail', season: 'season', practice: 'detail', 'act-pick': 'detail', playday: 'playdays',
   league: 'detail', style: 'detail', focus: 'detail', format: 'detail',
   days: 'days', weekday: 'weekdays', kit: 'kit', pain: 'pain', 'pain-none': 'pain', sev: 'pain', route: 'health', health: 'health', safety: 'health',
-  accepted: 'accept', guardian: 'accept', season_date: 'detail', event_date: 'detail'
+  accepted: 'accept', guardian: 'accept', season_date: 'season', event_date: 'detail'
 };
 const markAnswered = (action) => { if (TOUCH[action]) S.touched.add(TOUCH[action]); };
 
@@ -261,12 +265,12 @@ const DETAIL = {
     if ((ps.positions || []).length) sels.push(selectHtml('position', t('sport.position_opt'), [['', any], ...ps.positions.map(p => [p.value, mt(p.name_key)])], s.position));
     if (ps.second_choice && (ps.second_choice.options || []).length) sels.push(selectHtml('detail', t('sport.detail_opt', { label: mt(ps.second_choice.name_key) }), [['', any], ...ps.second_choice.options.map(o => [o.value, mt(o.name_key)])], s.detail));
     if (sels.length) out += `<div class="sels">${sels.join('')}</div>`;
-    const seasonWord = t('sport.season.' + s.season) + (s.season !== 'no_season' && s.season_date ? ' ' + s.season_date : '');
-    const open = s.season !== 'no_season' && !s.season_date;
-    out += `<details class="more" data-keep="sport-more" ${open ? 'open' : ''}><summary><span class="st"><span>${h(t('sport.more'))}</span><span class="cur">${h(seasonWord)} · ${h(t('sport.practice'))}: ${h(String(s.practice))}</span></span></summary><div class="body">
-      <div class="field"><span class="label">${h(t('sport.season'))}</span><div class="chips small">${B.SEASON_TYPES.map(x => chip('season', x, h(t('sport.season.' + x)), s.season === x)).join('')}</div>
-      ${s.season !== 'no_season' ? `<p class="hint"><label for="sdate">${h(t('sport.season_date'))}</label></p><input id="sdate" class="date" type="date" min="${today()}" value="${h(s.season_date || '')}" data-field="season_date">` : ''}</div>
-      <div class="field"><span class="label">${h(t('sport.practice'))}</span><div class="chips grid8">${[0, 1, 2, 3, 4, 5, 6, 7].map(n => chip('practice', n, String(n), s.practice === n)).join('')}</div></div></div></details>`;
+    // the season question shows right away and pulses until answered (coach, 2026-10-14: it was hidden and easy to miss);
+    // "off season" is the default answer, so it stays optional
+    out += `<div class="field${need('season')}"><span class="label">${h(t('sport.season_q'))}</span><div class="chips small">${B.SEASON_TYPES.map(x => chip('season', x, h(t('sport.season.' + x)), s.season === x)).join('')}</div>
+      ${s.season !== 'no_season' ? `<p class="hint"><label for="sdate">${h(t('sport.season_date'))}</label></p><input id="sdate" class="date" type="date" min="${today()}" value="${h(s.season_date || '')}" data-field="season_date">` : ''}</div>`;
+    out += `<details class="more" data-keep="sport-more"><summary><span class="st"><span>${h(t('sport.practice'))}</span><span class="cur">${h(String(s.practice))}</span></span></summary><div class="body">
+      <div class="field"><div class="chips grid8">${[0, 1, 2, 3, 4, 5, 6, 7].map(n => chip('practice', n, String(n), s.practice === n)).join('')}</div></div></div></details>`;
     return out;
   },
   activity() {
@@ -382,15 +386,9 @@ function pickListHtml(kind) {
   const q = norm(S.q);
   const match = (name) => !q || norm(name).includes(q);
   let out = '';
-  if (kind === 'sport') {
-    for (const g of P.groups) {
-      const items = P.sports.filter(s => s.group === g.id && match(mt(s.name_key)));
-      if (!items.length) continue;
-      out += `<div class="pick-group">${h(mt(g.name_key))}</div>` + items.map(s => `<button type="button" class="pick-item" data-action="sport-pick" data-value="${h(s.id)}">${h(mt(s.name_key))}</button>`).join('');
-    }
-  } else {
-    out = P.activities.filter(a => match(mt(a.name_key))).map(a => `<button type="button" class="pick-item" data-action="act-pick" data-value="${h(a.id)}">${h(mt(a.name_key))}</button>`).join('');
-  }
+  // one A to Z list in the shown language (coach, 2026-10-14: people scroll to find their sport)
+  const list = (kind === 'sport' ? P.sports : P.activities).map(x => ({ id: x.id, name: mt(x.name_key) })).filter(x => match(x.name)).sort((a, b) => byAbc(a.name, b.name));
+  out = list.map(x => `<button type="button" class="pick-item" data-action="${kind === 'sport' ? 'sport-pick' : 'act-pick'}" data-value="${h(x.id)}">${h(x.name)}</button>`).join('');
   return out || `<p class="hint" style="padding:12px 14px">${h(t('pick.none_found'))}</p>`;
 }
 
@@ -784,7 +782,7 @@ function addHtml() {
   if (!S.hist || !d || !E.EDIT_DAY_KINDS.includes(d.kind)) return '';
   if (S.adding !== S.day) return `<p class="add-line"><button type="button" class="btn small add-btn" data-action="ed-add-open"${S.busy ? ' disabled' : ''}>＋ ${h(t('edit.add'))}</button></p>`;
   const { kinds } = E.addBlocks(S.plan, S.week, S.day, S.model, null);
-  const opts = [['', t('edit.block_auto')], ...kinds.map(k => [k, mt('block.' + k)])].map(([v, l]) => `<option value="${h(v)}"${(S.addBlock || '') === v ? ' selected' : ''}>${h(l)}</option>`).join('');
+  const opts = sortOpts([['', t('edit.block_auto')], ...kinds.map(k => [k, mt('block.' + k)])]).map(([v, l]) => `<option value="${h(v)}"${(S.addBlock || '') === v ? ' selected' : ''}>${h(l)}</option>`).join('');
   return `<section class="add-panel" aria-label="${h(t('edit.add'))}"><div class="ap-h"><b>${h(t('edit.add_title'))}</b><button type="button" class="linkbtn" data-action="ed-add-close">${h(t('edit.close'))}</button></div>
     <div class="ap-opts"><label class="ap-blk"><span class="k">${h(t('edit.block'))}</span><select data-field="addblock">${opts}</select></label>
       <div class="eb-sets"><span class="k">${h(t('edit.sets'))}</span><button type="button" class="eb-step" data-action="ed-add-sets" data-value="-1" aria-label="${h(t('edit.less'))}"${S.addSets <= 1 ? ' disabled' : ''}>−</button><b class="eb-n">${S.addSets}</b><button type="button" class="eb-step" data-action="ed-add-sets" data-value="1" aria-label="${h(t('edit.more'))}"${S.addSets >= 8 ? ' disabled' : ''}>+</button></div></div>

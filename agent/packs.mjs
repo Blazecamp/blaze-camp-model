@@ -175,6 +175,11 @@ function questionsMd(brand, l, q) {
     out.push(`## \`${x.id}\` · ${label}`);
     if (x.when) out.push(`- *${k.when}*: \`${x.when}\``);
     out.push(`- *${k.type}*: ${x.type}`);
+    // sports and activities read A to Z in this language's words (coach, 2026-10-14)
+    if (['sport.id', 'activity.id'].includes(x.id) && Array.isArray(x.choices)) {
+      const key = (o) => String(typeof o.label === 'string' ? o.label : (o.label && o.label.text) || o.value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+      x.choices = [...x.choices].sort((a, b) => (key(a) < key(b) ? -1 : key(a) > key(b) ? 1 : 0));
+    }
     if (Array.isArray(x.choices) && x.choices.length) out.push(`- *${k.opts}*: ` + x.choices.map(o => `${typeof o.label === 'string' ? o.label : (o.label && o.label.text) || o.value} (\`${o.value}\`)`).join(' · '));
     if (x.choices_from) out.push(`- *${k.from}*: \`${x.choices_from}\``);
     if (x.questions) for (const s of x.questions) out.push(`  - \`${s.key}\`: ${typeof s.prompt === 'string' ? s.prompt : s.prompt.text}`);

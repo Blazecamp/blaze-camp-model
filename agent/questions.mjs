@@ -54,6 +54,10 @@ export async function buildQuestions(o = {}) {
     ...((a.style || []).length ? { style: a.style.map(x => opt(x.value, has('activity.style.' + x.value) ? mt('activity.style.' + x.value) : app('activity.style.' + x.value))) } : {}),
     ...(a.event_type ? { has_event_date: true } : {})
   }));
+  // sports and activities A to Z (by the English name here; each language's copy is sorted again in its own words, agent/packs.mjs)
+  const abcKey = (x) => String(x || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const byEn = (a, b) => { const x = abcKey(a.label.en), y = abcKey(b.label.en); return x < y ? -1 : x > y ? 1 : 0; };
+  sports.sort(byEn); activities.sort(byEn);
   const weekdays = B.WEEKDAYS.map(d => opt(d, mt('weekday.' + d)));
 
   const Q = [

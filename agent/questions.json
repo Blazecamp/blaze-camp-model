@@ -442,56 +442,39 @@
      ]
     },
     {
-     "value": "flag_football",
+     "value": "racket_other",
      "label": {
-      "en": "Flag football",
-      "es": "Flag football (fútbol americano sin contacto)"
+      "en": "Badminton / squash / racquetball / table tennis",
+      "es": "Bádminton / squash / ráquetbol / tenis de mesa"
      },
-     "group": "team_field_court",
+     "group": "racket_club",
      "positions": [
       {
-       "value": "QB",
+       "value": "badminton",
        "label": {
-        "en": "Quarterback",
-        "es": "Mariscal de campo (Quarterback)"
+        "en": "Badminton",
+        "es": "Bádminton"
        }
       },
       {
-       "value": "other",
+       "value": "squash",
        "label": {
-        "en": "Any other position (receiver, rusher, center, DB)",
-        "es": "Cualquier otra posición (receptor, rusher, centro, defensivo)"
-       }
-      }
-     ]
-    },
-    {
-     "value": "basketball",
-     "label": {
-      "en": "Basketball",
-      "es": "Baloncesto (básquetbol)"
-     },
-     "group": "team_field_court",
-     "positions": [
-      {
-       "value": "guard",
-       "label": {
-        "en": "Guard (PG / SG)",
-        "es": "Base / escolta (PG / SG)"
+        "en": "Squash",
+        "es": "Squash"
        }
       },
       {
-       "value": "wing",
+       "value": "racquetball",
        "label": {
-        "en": "Wing (SF)",
-        "es": "Alero (SF)"
+        "en": "Racquetball",
+        "es": "Ráquetbol"
        }
       },
       {
-       "value": "big",
+       "value": "table_tennis",
        "label": {
-        "en": "Big (PF / C)",
-        "es": "Ala-pívot / pívot (PF / C)"
+        "en": "Table tennis",
+        "es": "Tenis de mesa"
        }
       }
      ]
@@ -535,77 +518,564 @@
      ]
     },
     {
-     "value": "softball",
+     "value": "basketball",
      "label": {
-      "en": "Softball",
-      "es": "Sóftbol"
+      "en": "Basketball",
+      "es": "Baloncesto (básquetbol)"
      },
      "group": "team_field_court",
      "positions": [
       {
-       "value": "pitcher",
+       "value": "guard",
        "label": {
-        "en": "Pitcher",
-        "es": "Lanzadora (pitcher)"
+        "en": "Guard (PG / SG)",
+        "es": "Base / escolta (PG / SG)"
        }
       },
       {
-       "value": "catcher",
+       "value": "wing",
        "label": {
-        "en": "Catcher",
-        "es": "Receptora (catcher)"
+        "en": "Wing (SF)",
+        "es": "Alero (SF)"
        }
       },
       {
-       "value": "infield",
+       "value": "big",
        "label": {
-        "en": "Infield",
-        "es": "Cuadro interior (infield)"
-       }
-      },
-      {
-       "value": "outfield",
-       "label": {
-        "en": "Outfield",
-        "es": "Jardinera (outfield)"
+        "en": "Big (PF / C)",
+        "es": "Ala-pívot / pívot (PF / C)"
        }
       }
      ]
     },
     {
-     "value": "soccer",
+     "value": "beach_volleyball",
      "label": {
-      "en": "Soccer",
-      "es": "Fútbol (soccer)"
+      "en": "Beach volleyball",
+      "es": "Voleibol de playa"
      },
      "group": "team_field_court",
      "positions": [
       {
-       "value": "goalkeeper",
+       "value": "blocker",
        "label": {
-        "en": "Goalkeeper",
-        "es": "Portero"
+        "en": "Blocker",
+        "es": "Bloqueador"
        }
       },
       {
        "value": "defender",
        "label": {
-        "en": "Defender (center back / full-back)",
-        "es": "Defensa (central / lateral)"
+        "en": "Defender",
+        "es": "Defensor"
+       }
+      }
+     ]
+    },
+    {
+     "value": "bodybuilding_physique",
+     "label": {
+      "en": "Bodybuilding / physique",
+      "es": "Fisicoculturismo (Bodybuilding / Physique)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "bodybuilding",
+       "label": {
+        "en": "Men's bodybuilding",
+        "es": "Fisicoculturismo varonil"
        }
       },
       {
-       "value": "midfielder",
+       "value": "classic",
+       "label": {
+        "en": "Classic physique",
+        "es": "Classic physique"
+       }
+      },
+      {
+       "value": "mens_physique",
+       "label": {
+        "en": "Men's physique",
+        "es": "Men's physique"
+       }
+      },
+      {
+       "value": "bikini",
+       "label": {
+        "en": "Bikini",
+        "es": "Bikini"
+       }
+      },
+      {
+       "value": "wellness",
+       "label": {
+        "en": "Wellness",
+        "es": "Wellness"
+       }
+      },
+      {
+       "value": "figure",
+       "label": {
+        "en": "Figure",
+        "es": "Figure"
+       }
+      },
+      {
+       "value": "womens_physique",
+       "label": {
+        "en": "Women's physique / bodybuilding",
+        "es": "Women's physique / fisicoculturismo femenil"
+       }
+      }
+     ]
+    },
+    {
+     "value": "bowling",
+     "label": {
+      "en": "Bowling",
+      "es": "Boliche (bowling)"
+     },
+     "group": "racket_club"
+    },
+    {
+     "value": "boxing",
+     "label": {
+      "en": "Boxing",
+      "es": "Boxeo"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "light",
+       "label": {
+        "en": "Light",
+        "es": "Ligero"
+       }
+      },
+      {
+       "value": "middle",
+       "label": {
+        "en": "Middle",
+        "es": "Medio"
+       }
+      },
+      {
+       "value": "heavy",
+       "label": {
+        "en": "Heavy",
+        "es": "Pesado"
+       }
+      }
+     ]
+    },
+    {
+     "value": "bjj",
+     "label": {
+      "en": "Brazilian jiu-jitsu / grappling",
+      "es": "Jiu-jitsu brasileño (BJJ) / grappling"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "gi",
+       "label": {
+        "en": "Gi",
+        "es": "Con gi (kimono)"
+       }
+      },
+      {
+       "value": "nogi",
+       "label": {
+        "en": "No-gi / submission grappling",
+        "es": "Sin gi (no-gi) / grappling"
+       }
+      }
+     ]
+    },
+    {
+     "value": "cheerleading",
+     "label": {
+      "en": "Cheerleading / STUNT",
+      "es": "Porrismo / animación (cheerleading, STUNT)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "base",
+       "label": {
+        "en": "Base",
+        "es": "Base"
+       }
+      },
+      {
+       "value": "back_spot",
+       "label": {
+        "en": "Back spot",
+        "es": "Spotter trasero (back spot)"
+       }
+      },
+      {
+       "value": "flyer",
+       "label": {
+        "en": "Flyer",
+        "es": "Volador(a) (flyer)"
+       }
+      },
+      {
+       "value": "tumbler",
+       "label": {
+        "en": "Tumbler / all-around",
+        "es": "Acróbata (tumbler) / completo"
+       }
+      }
+     ]
+    },
+    {
+     "value": "climbing",
+     "label": {
+      "en": "Climbing / bouldering",
+      "es": "Escalada / búlder (bouldering)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "bouldering",
+       "label": {
+        "en": "Bouldering",
+        "es": "Búlder (bouldering)"
+       }
+      },
+      {
+       "value": "lead",
+       "label": {
+        "en": "Lead / sport climbing",
+        "es": "Escalada deportiva (de dificultad)"
+       }
+      },
+      {
+       "value": "speed",
+       "label": {
+        "en": "Speed climbing",
+        "es": "Escalada de velocidad"
+       }
+      }
+     ]
+    },
+    {
+     "value": "dance_team",
+     "label": {
+      "en": "Competitive dance / drill team",
+      "es": "Danza competitiva / equipo de baile (drill team)"
+     },
+     "group": "team_field_court"
+    },
+    {
+     "value": "distance_running",
+     "label": {
+      "en": "Cross country and road running",
+      "es": "Campo traviesa (cross country) y carreras de ruta"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "cross_country",
+       "label": {
+        "en": "Cross country (high school / college)",
+        "es": "Campo traviesa (escolar / universitario)"
+       }
+      },
+      {
+       "value": "5k_10k",
+       "label": {
+        "en": "Road 5K-10K",
+        "es": "Ruta 5K-10K"
+       }
+      },
+      {
+       "value": "half",
+       "label": {
+        "en": "Half marathon",
+        "es": "Medio maratón"
+       }
+      },
+      {
+       "value": "marathon",
+       "label": {
+        "en": "Marathon",
+        "es": "Maratón"
+       }
+      },
+      {
+       "value": "trail_ultra",
+       "label": {
+        "en": "Trail / ultramarathon",
+        "es": "Trail / ultramaratón"
+       }
+      }
+     ]
+    },
+    {
+     "value": "crossfit",
+     "label": {
+      "en": "CrossFit (competitive)",
+      "es": "CrossFit (competitivo)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "individual",
+       "label": {
+        "en": "Individual",
+        "es": "Individual"
+       }
+      },
+      {
+       "value": "team",
+       "label": {
+        "en": "Team",
+        "es": "Equipos"
+       }
+      },
+      {
+       "value": "masters_teens",
+       "label": {
+        "en": "Masters / teens",
+        "es": "Máster / adolescentes"
+       }
+      }
+     ]
+    },
+    {
+     "value": "cycling",
+     "label": {
+      "en": "Cycling",
+      "es": "Ciclismo"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "road",
+       "label": {
+        "en": "Road",
+        "es": "Ruta"
+       }
+      },
+      {
+       "value": "mountain",
+       "label": {
+        "en": "Mountain bike (XC / enduro)",
+        "es": "Ciclismo de montaña (MTB)"
+       }
+      },
+      {
+       "value": "gravel",
+       "label": {
+        "en": "Gravel",
+        "es": "Gravel"
+       }
+      },
+      {
+       "value": "indoor",
+       "label": {
+        "en": "Indoor racing",
+        "es": "Ciclismo indoor (carreras virtuales)"
+       }
+      },
+      {
+       "value": "track_sprint",
+       "label": {
+        "en": "Track sprint / keirin",
+        "es": "Velocidad en pista / keirin"
+       }
+      },
+      {
+       "value": "bmx",
+       "label": {
+        "en": "BMX racing",
+        "es": "BMX (carreras)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "diving",
+     "label": {
+      "en": "Diving",
+      "es": "Clavados"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "springboard",
+       "label": {
+        "en": "Springboard (1 m / 3 m)",
+        "es": "Trampolín (1 m / 3 m)"
+       }
+      },
+      {
+       "value": "platform",
+       "label": {
+        "en": "Platform (5-10 m)",
+        "es": "Plataforma (5-10 m)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "fencing",
+     "label": {
+      "en": "Fencing",
+      "es": "Esgrima"
+     },
+     "group": "combat"
+    },
+    {
+     "value": "field_hockey",
+     "label": {
+      "en": "Field hockey",
+      "es": "Hockey sobre césped"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "forward",
+       "label": {
+        "en": "Forward",
+        "es": "Delantero"
+       }
+      },
+      {
+       "value": "midfield",
        "label": {
         "en": "Midfielder",
         "es": "Mediocampista"
        }
       },
       {
-       "value": "forward",
+       "value": "defense",
        "label": {
-        "en": "Forward (striker / winger)",
-        "es": "Delantero (centro delantero / extremo)"
+        "en": "Defender",
+        "es": "Defensa"
+       }
+      },
+      {
+       "value": "goalkeeper",
+       "label": {
+        "en": "Goalkeeper",
+        "es": "Portero"
+       }
+      }
+     ]
+    },
+    {
+     "value": "figure_skating",
+     "label": {
+      "en": "Figure skating",
+      "es": "Patinaje artístico"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "singles",
+       "label": {
+        "en": "Singles",
+        "es": "Individual"
+       }
+      },
+      {
+       "value": "pairs_dance",
+       "label": {
+        "en": "Pairs / ice dance",
+        "es": "Parejas / danza sobre hielo"
+       }
+      }
+     ]
+    },
+    {
+     "value": "flag_football",
+     "label": {
+      "en": "Flag football",
+      "es": "Flag football (fútbol americano sin contacto)"
+     },
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "QB",
+       "label": {
+        "en": "Quarterback",
+        "es": "Mariscal de campo (Quarterback)"
+       }
+      },
+      {
+       "value": "other",
+       "label": {
+        "en": "Any other position (receiver, rusher, center, DB)",
+        "es": "Cualquier otra posición (receptor, rusher, centro, defensivo)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "golf",
+     "label": {
+      "en": "Golf",
+      "es": "Golf"
+     },
+     "group": "racket_club"
+    },
+    {
+     "value": "gymnastics",
+     "label": {
+      "en": "Gymnastics (artistic)",
+      "es": "Gimnasia artística"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "womens",
+       "label": {
+        "en": "Women's artistic",
+        "es": "Artística femenil"
+       }
+      },
+      {
+       "value": "mens",
+       "label": {
+        "en": "Men's artistic",
+        "es": "Artística varonil"
+       }
+      }
+     ]
+    },
+    {
+     "value": "hyrox",
+     "label": {
+      "en": "HYROX (competitive)",
+      "es": "HYROX (competitivo)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "open",
+       "label": {
+        "en": "Open",
+        "es": "Open"
+       }
+      },
+      {
+       "value": "pro",
+       "label": {
+        "en": "Pro (heavier stations)",
+        "es": "Pro (estaciones más pesadas)"
+       }
+      },
+      {
+       "value": "doubles_relay",
+       "label": {
+        "en": "Doubles / relay",
+        "es": "Dobles / relevos"
        }
       }
      ]
@@ -642,63 +1112,80 @@
      ]
     },
     {
-     "value": "volleyball",
+     "value": "judo",
      "label": {
-      "en": "Volleyball (indoor)",
-      "es": "Voleibol (sala)"
+      "en": "Judo",
+      "es": "Judo"
      },
-     "group": "team_field_court",
+     "group": "combat",
      "positions": [
       {
-       "value": "outside_opposite",
+       "value": "light",
        "label": {
-        "en": "Outside / opposite hitter",
-        "es": "Atacante exterior / opuesto"
+        "en": "Light",
+        "es": "Ligero"
        }
       },
       {
        "value": "middle",
        "label": {
-        "en": "Middle blocker",
-        "es": "Central (bloqueador central)"
+        "en": "Middle",
+        "es": "Medio"
        }
       },
       {
-       "value": "setter",
+       "value": "heavy",
        "label": {
-        "en": "Setter",
-        "es": "Armador (colocador)"
-       }
-      },
-      {
-       "value": "libero",
-       "label": {
-        "en": "Libero / defensive specialist",
-        "es": "Líbero / especialista defensivo"
+        "en": "Heavy",
+        "es": "Pesado"
        }
       }
      ]
     },
     {
-     "value": "beach_volleyball",
+     "value": "karate",
      "label": {
-      "en": "Beach volleyball",
-      "es": "Voleibol de playa"
+      "en": "Karate",
+      "es": "Karate"
      },
-     "group": "team_field_court",
+     "group": "combat",
      "positions": [
       {
-       "value": "blocker",
+       "value": "kumite",
        "label": {
-        "en": "Blocker",
-        "es": "Bloqueador"
+        "en": "Kumite (sparring)",
+        "es": "Kumite (combate)"
        }
       },
       {
-       "value": "defender",
+       "value": "kata",
        "label": {
-        "en": "Defender",
-        "es": "Defensor"
+        "en": "Kata (forms)",
+        "es": "Kata (formas)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "kickboxing_muay_thai",
+     "label": {
+      "en": "Kickboxing / Muay Thai",
+      "es": "Kickboxing / Muay Thai"
+     },
+     "group": "combat",
+     "positions": [
+      {
+       "value": "kickboxing",
+       "label": {
+        "en": "Kickboxing",
+        "es": "Kickboxing"
+       }
+      },
+      {
+       "value": "muay_thai",
+       "label": {
+        "en": "Muay Thai (clinch-heavy)",
+        "es": "Muay Thai (con mucho clinch)"
        }
       }
      ]
@@ -764,39 +1251,144 @@
      }
     },
     {
-     "value": "field_hockey",
+     "value": "mma",
      "label": {
-      "en": "Field hockey",
-      "es": "Hockey sobre césped"
+      "en": "MMA (mixed martial arts)",
+      "es": "MMA (artes marciales mixtas)"
      },
-     "group": "team_field_court",
+     "group": "combat",
      "positions": [
       {
-       "value": "forward",
+       "value": "light",
        "label": {
-        "en": "Forward",
-        "es": "Delantero"
+        "en": "Light",
+        "es": "Ligero"
        }
       },
       {
-       "value": "midfield",
+       "value": "middle",
        "label": {
-        "en": "Midfielder",
-        "es": "Mediocampista"
+        "en": "Middle",
+        "es": "Medio"
        }
       },
       {
-       "value": "defense",
+       "value": "heavy",
        "label": {
-        "en": "Defender",
-        "es": "Defensa"
+        "en": "Heavy",
+        "es": "Pesado"
+       }
+      }
+     ]
+    },
+    {
+     "value": "ocr",
+     "label": {
+      "en": "Obstacle course racing (Spartan and similar)",
+      "es": "Carreras de obstáculos (OCR, Spartan y similares)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "short",
+       "label": {
+        "en": "Short course (5-10 km)",
+        "es": "Recorrido corto (5-10 km)"
        }
       },
       {
-       "value": "goalkeeper",
+       "value": "long",
        "label": {
-        "en": "Goalkeeper",
-        "es": "Portero"
+        "en": "Long course (21-50 km)",
+        "es": "Recorrido largo (21-50 km)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "olympic_weightlifting",
+     "label": {
+      "en": "Olympic weightlifting",
+      "es": "Halterofilia (levantamiento olímpico)"
+     },
+     "group": "strength_fitness"
+    },
+    {
+     "value": "padel",
+     "label": {
+      "en": "Padel (tournament)",
+      "es": "Pádel (torneos)"
+     },
+     "group": "racket_club"
+    },
+    {
+     "value": "pickleball",
+     "label": {
+      "en": "Pickleball (tournament)",
+      "es": "Pickleball (torneos)"
+     },
+     "group": "racket_club",
+     "positions": [
+      {
+       "value": "doubles",
+       "label": {
+        "en": "Doubles / mixed doubles",
+        "es": "Dobles / dobles mixtos"
+       }
+      },
+      {
+       "value": "singles",
+       "label": {
+        "en": "Singles",
+        "es": "Individual"
+       }
+      }
+     ]
+    },
+    {
+     "value": "powerlifting",
+     "label": {
+      "en": "Powerlifting",
+      "es": "Powerlifting (levantamiento de potencia)"
+     },
+     "group": "strength_fitness",
+     "positions": [
+      {
+       "value": "raw",
+       "label": {
+        "en": "Raw / classic",
+        "es": "Raw / clásico"
+       }
+      },
+      {
+       "value": "equipped",
+       "label": {
+        "en": "Equipped",
+        "es": "Equipado"
+       }
+      }
+     ]
+    },
+    {
+     "value": "rowing",
+     "label": {
+      "en": "Rowing (crew)",
+      "es": "Remo"
+     },
+     "group": "aquatic_endurance_track",
+     "positions": [
+      {
+       "value": "sweep",
+       "label": {
+        "en": "Sweep (port / starboard)",
+        "es": "Punta (babor / estribor)"
+       }
+      },
+      {
+       "value": "sculling",
+       "label": {
+        "en": "Sculling",
+        "es": "Scull (dos remos)"
        }
       }
      ]
@@ -833,74 +1425,150 @@
      ]
     },
     {
-     "value": "cheerleading",
+     "value": "skateboarding",
      "label": {
-      "en": "Cheerleading / STUNT",
-      "es": "Porrismo / animación (cheerleading, STUNT)"
+      "en": "Skateboarding (street / park)",
+      "es": "Patineta (skateboarding: street / park)"
      },
-     "group": "team_field_court",
+     "group": "aquatic_endurance_track"
+    },
+    {
+     "value": "ski_snowboard",
+     "label": {
+      "en": "Skiing / snowboarding (competitive)",
+      "es": "Esquí / snowboard (competitivo)"
+     },
+     "group": "aquatic_endurance_track",
      "positions": [
       {
-       "value": "base",
+       "value": "alpine",
        "label": {
-        "en": "Base",
-        "es": "Base"
+        "en": "Alpine racing (slalom / giant slalom)",
+        "es": "Esquí alpino (slalom / gigante)"
        }
       },
       {
-       "value": "back_spot",
+       "value": "speed",
        "label": {
-        "en": "Back spot",
-        "es": "Spotter trasero (back spot)"
+        "en": "Speed (super-G / downhill)",
+        "es": "Velocidad (súper gigante / descenso)"
        }
       },
       {
-       "value": "flyer",
+       "value": "snowboard_race",
        "label": {
-        "en": "Flyer",
-        "es": "Volador(a) (flyer)"
+        "en": "Snowboard racing / snowboard cross",
+        "es": "Snowboard (carreras / cross)"
        }
       },
       {
-       "value": "tumbler",
+       "value": "freestyle",
        "label": {
-        "en": "Tumbler / all-around",
-        "es": "Acróbata (tumbler) / completo"
+        "en": "Freestyle ski or snowboard (moguls, slopestyle, halfpipe, big air)",
+        "es": "Estilo libre en esquí o snowboard (baches, slopestyle, halfpipe, big air)"
        }
       }
      ]
     },
     {
-     "value": "ultimate",
+     "value": "soccer",
      "label": {
-      "en": "Ultimate",
-      "es": "Ultimate (frisbee)"
+      "en": "Soccer",
+      "es": "Fútbol (soccer)"
      },
      "group": "team_field_court",
      "positions": [
       {
-       "value": "handler",
+       "value": "goalkeeper",
        "label": {
-        "en": "Handler",
-        "es": "Handler (lanzador)"
+        "en": "Goalkeeper",
+        "es": "Portero"
        }
       },
       {
-       "value": "cutter",
+       "value": "defender",
        "label": {
-        "en": "Cutter / deep",
-        "es": "Cortador (cutter) / profundo"
+        "en": "Defender (center back / full-back)",
+        "es": "Defensa (central / lateral)"
+       }
+      },
+      {
+       "value": "midfielder",
+       "label": {
+        "en": "Midfielder",
+        "es": "Mediocampista"
+       }
+      },
+      {
+       "value": "forward",
+       "label": {
+        "en": "Forward (striker / winger)",
+        "es": "Delantero (centro delantero / extremo)"
        }
       }
      ]
     },
     {
-     "value": "dance_team",
+     "value": "softball",
      "label": {
-      "en": "Competitive dance / drill team",
-      "es": "Danza competitiva / equipo de baile (drill team)"
+      "en": "Softball",
+      "es": "Sóftbol"
      },
-     "group": "team_field_court"
+     "group": "team_field_court",
+     "positions": [
+      {
+       "value": "pitcher",
+       "label": {
+        "en": "Pitcher",
+        "es": "Lanzadora (pitcher)"
+       }
+      },
+      {
+       "value": "catcher",
+       "label": {
+        "en": "Catcher",
+        "es": "Receptora (catcher)"
+       }
+      },
+      {
+       "value": "infield",
+       "label": {
+        "en": "Infield",
+        "es": "Cuadro interior (infield)"
+       }
+      },
+      {
+       "value": "outfield",
+       "label": {
+        "en": "Outfield",
+        "es": "Jardinera (outfield)"
+       }
+      }
+     ]
+    },
+    {
+     "value": "speed_skating",
+     "label": {
+      "en": "Speed skating (long / short track)",
+      "es": "Patinaje de velocidad (pista larga / corta)"
+     },
+     "group": "aquatic_endurance_track"
+    },
+    {
+     "value": "strongman",
+     "label": {
+      "en": "Strongman",
+      "es": "Strongman (hombre más fuerte)"
+     },
+     "group": "strength_fitness"
+    },
+    {
+     "value": "surfing",
+     "label": {
+      "en": "Surfing (competitive)",
+      "es": "Surf (competitivo)"
+     },
+     "group": "aquatic_endurance_track"
     },
     {
      "value": "swimming",
@@ -977,56 +1645,49 @@
      }
     },
     {
-     "value": "diving",
+     "value": "taekwondo",
      "label": {
-      "en": "Diving",
-      "es": "Clavados"
+      "en": "Taekwondo",
+      "es": "Taekwondo"
      },
-     "group": "aquatic_endurance_track",
+     "group": "combat",
      "positions": [
       {
-       "value": "springboard",
+       "value": "sparring",
        "label": {
-        "en": "Springboard (1 m / 3 m)",
-        "es": "Trampolín (1 m / 3 m)"
+        "en": "Sparring (kyorugi)",
+        "es": "Combate (kyorugi)"
        }
       },
       {
-       "value": "platform",
+       "value": "poomsae",
        "label": {
-        "en": "Platform (5-10 m)",
-        "es": "Plataforma (5-10 m)"
+        "en": "Poomsae (forms)",
+        "es": "Poomsae (formas)"
        }
       }
      ]
     },
     {
-     "value": "water_polo",
+     "value": "tennis",
      "label": {
-      "en": "Water polo",
-      "es": "Waterpolo"
+      "en": "Tennis",
+      "es": "Tenis"
      },
-     "group": "aquatic_endurance_track",
+     "group": "racket_club",
      "positions": [
       {
-       "value": "field",
+       "value": "singles",
        "label": {
-        "en": "Field player (driver, wing, point, defender)",
-        "es": "Jugador de campo (atacante, ala, punto, defensa)"
+        "en": "Singles",
+        "es": "Individual"
        }
       },
       {
-       "value": "center",
+       "value": "doubles",
        "label": {
-        "en": "Center / center defender (2-meter)",
-        "es": "Boya / defensor de boya (2 metros)"
-       }
-      },
-      {
-       "value": "goalkeeper",
-       "label": {
-        "en": "Goalkeeper",
-        "es": "Portero"
+        "en": "Doubles",
+        "es": "Dobles"
        }
       }
      ]
@@ -1119,51 +1780,6 @@
      ]
     },
     {
-     "value": "distance_running",
-     "label": {
-      "en": "Cross country and road running",
-      "es": "Campo traviesa (cross country) y carreras de ruta"
-     },
-     "group": "aquatic_endurance_track",
-     "positions": [
-      {
-       "value": "cross_country",
-       "label": {
-        "en": "Cross country (high school / college)",
-        "es": "Campo traviesa (escolar / universitario)"
-       }
-      },
-      {
-       "value": "5k_10k",
-       "label": {
-        "en": "Road 5K-10K",
-        "es": "Ruta 5K-10K"
-       }
-      },
-      {
-       "value": "half",
-       "label": {
-        "en": "Half marathon",
-        "es": "Medio maratón"
-       }
-      },
-      {
-       "value": "marathon",
-       "label": {
-        "en": "Marathon",
-        "es": "Maratón"
-       }
-      },
-      {
-       "value": "trail_ultra",
-       "label": {
-        "en": "Trail / ultramarathon",
-        "es": "Trail / ultramaratón"
-       }
-      }
-     ]
-    },
-    {
      "value": "triathlon",
      "label": {
       "en": "Triathlon",
@@ -1195,139 +1811,94 @@
      ]
     },
     {
-     "value": "cycling",
+     "value": "ultimate",
      "label": {
-      "en": "Cycling",
-      "es": "Ciclismo"
+      "en": "Ultimate",
+      "es": "Ultimate (frisbee)"
      },
-     "group": "aquatic_endurance_track",
+     "group": "team_field_court",
      "positions": [
       {
-       "value": "road",
+       "value": "handler",
        "label": {
-        "en": "Road",
-        "es": "Ruta"
+        "en": "Handler",
+        "es": "Handler (lanzador)"
        }
       },
       {
-       "value": "mountain",
+       "value": "cutter",
        "label": {
-        "en": "Mountain bike (XC / enduro)",
-        "es": "Ciclismo de montaña (MTB)"
-       }
-      },
-      {
-       "value": "gravel",
-       "label": {
-        "en": "Gravel",
-        "es": "Gravel"
-       }
-      },
-      {
-       "value": "indoor",
-       "label": {
-        "en": "Indoor racing",
-        "es": "Ciclismo indoor (carreras virtuales)"
-       }
-      },
-      {
-       "value": "track_sprint",
-       "label": {
-        "en": "Track sprint / keirin",
-        "es": "Velocidad en pista / keirin"
-       }
-      },
-      {
-       "value": "bmx",
-       "label": {
-        "en": "BMX racing",
-        "es": "BMX (carreras)"
+        "en": "Cutter / deep",
+        "es": "Cortador (cutter) / profundo"
        }
       }
      ]
     },
     {
-     "value": "rowing",
+     "value": "volleyball",
      "label": {
-      "en": "Rowing (crew)",
-      "es": "Remo"
+      "en": "Volleyball (indoor)",
+      "es": "Voleibol (sala)"
      },
-     "group": "aquatic_endurance_track",
+     "group": "team_field_court",
      "positions": [
       {
-       "value": "sweep",
+       "value": "outside_opposite",
        "label": {
-        "en": "Sweep (port / starboard)",
-        "es": "Punta (babor / estribor)"
+        "en": "Outside / opposite hitter",
+        "es": "Atacante exterior / opuesto"
        }
       },
       {
-       "value": "sculling",
+       "value": "middle",
        "label": {
-        "en": "Sculling",
-        "es": "Scull (dos remos)"
+        "en": "Middle blocker",
+        "es": "Central (bloqueador central)"
+       }
+      },
+      {
+       "value": "setter",
+       "label": {
+        "en": "Setter",
+        "es": "Armador (colocador)"
+       }
+      },
+      {
+       "value": "libero",
+       "label": {
+        "en": "Libero / defensive specialist",
+        "es": "Líbero / especialista defensivo"
        }
       }
      ]
     },
     {
-     "value": "ski_snowboard",
+     "value": "water_polo",
      "label": {
-      "en": "Skiing / snowboarding (competitive)",
-      "es": "Esquí / snowboard (competitivo)"
+      "en": "Water polo",
+      "es": "Waterpolo"
      },
      "group": "aquatic_endurance_track",
      "positions": [
       {
-       "value": "alpine",
+       "value": "field",
        "label": {
-        "en": "Alpine racing (slalom / giant slalom)",
-        "es": "Esquí alpino (slalom / gigante)"
+        "en": "Field player (driver, wing, point, defender)",
+        "es": "Jugador de campo (atacante, ala, punto, defensa)"
        }
       },
       {
-       "value": "speed",
+       "value": "center",
        "label": {
-        "en": "Speed (super-G / downhill)",
-        "es": "Velocidad (súper gigante / descenso)"
+        "en": "Center / center defender (2-meter)",
+        "es": "Boya / defensor de boya (2 metros)"
        }
       },
       {
-       "value": "snowboard_race",
+       "value": "goalkeeper",
        "label": {
-        "en": "Snowboard racing / snowboard cross",
-        "es": "Snowboard (carreras / cross)"
-       }
-      },
-      {
-       "value": "freestyle",
-       "label": {
-        "en": "Freestyle ski or snowboard (moguls, slopestyle, halfpipe, big air)",
-        "es": "Estilo libre en esquí o snowboard (baches, slopestyle, halfpipe, big air)"
-       }
-      }
-     ]
-    },
-    {
-     "value": "figure_skating",
-     "label": {
-      "en": "Figure skating",
-      "es": "Patinaje artístico"
-     },
-     "group": "aquatic_endurance_track",
-     "positions": [
-      {
-       "value": "singles",
-       "label": {
-        "en": "Singles",
-        "es": "Individual"
-       }
-      },
-      {
-       "value": "pairs_dance",
-       "label": {
-        "en": "Pairs / ice dance",
-        "es": "Parejas / danza sobre hielo"
+        "en": "Goalkeeper",
+        "es": "Portero"
        }
       }
      ]
@@ -1362,577 +1933,6 @@
        }
       }
      ]
-    },
-    {
-     "value": "boxing",
-     "label": {
-      "en": "Boxing",
-      "es": "Boxeo"
-     },
-     "group": "combat",
-     "positions": [
-      {
-       "value": "light",
-       "label": {
-        "en": "Light",
-        "es": "Ligero"
-       }
-      },
-      {
-       "value": "middle",
-       "label": {
-        "en": "Middle",
-        "es": "Medio"
-       }
-      },
-      {
-       "value": "heavy",
-       "label": {
-        "en": "Heavy",
-        "es": "Pesado"
-       }
-      }
-     ]
-    },
-    {
-     "value": "mma",
-     "label": {
-      "en": "MMA (mixed martial arts)",
-      "es": "MMA (artes marciales mixtas)"
-     },
-     "group": "combat",
-     "positions": [
-      {
-       "value": "light",
-       "label": {
-        "en": "Light",
-        "es": "Ligero"
-       }
-      },
-      {
-       "value": "middle",
-       "label": {
-        "en": "Middle",
-        "es": "Medio"
-       }
-      },
-      {
-       "value": "heavy",
-       "label": {
-        "en": "Heavy",
-        "es": "Pesado"
-       }
-      }
-     ]
-    },
-    {
-     "value": "bjj",
-     "label": {
-      "en": "Brazilian jiu-jitsu / grappling",
-      "es": "Jiu-jitsu brasileño (BJJ) / grappling"
-     },
-     "group": "combat",
-     "positions": [
-      {
-       "value": "gi",
-       "label": {
-        "en": "Gi",
-        "es": "Con gi (kimono)"
-       }
-      },
-      {
-       "value": "nogi",
-       "label": {
-        "en": "No-gi / submission grappling",
-        "es": "Sin gi (no-gi) / grappling"
-       }
-      }
-     ]
-    },
-    {
-     "value": "judo",
-     "label": {
-      "en": "Judo",
-      "es": "Judo"
-     },
-     "group": "combat",
-     "positions": [
-      {
-       "value": "light",
-       "label": {
-        "en": "Light",
-        "es": "Ligero"
-       }
-      },
-      {
-       "value": "middle",
-       "label": {
-        "en": "Middle",
-        "es": "Medio"
-       }
-      },
-      {
-       "value": "heavy",
-       "label": {
-        "en": "Heavy",
-        "es": "Pesado"
-       }
-      }
-     ]
-    },
-    {
-     "value": "karate",
-     "label": {
-      "en": "Karate",
-      "es": "Karate"
-     },
-     "group": "combat",
-     "positions": [
-      {
-       "value": "kumite",
-       "label": {
-        "en": "Kumite (sparring)",
-        "es": "Kumite (combate)"
-       }
-      },
-      {
-       "value": "kata",
-       "label": {
-        "en": "Kata (forms)",
-        "es": "Kata (formas)"
-       }
-      }
-     ]
-    },
-    {
-     "value": "taekwondo",
-     "label": {
-      "en": "Taekwondo",
-      "es": "Taekwondo"
-     },
-     "group": "combat",
-     "positions": [
-      {
-       "value": "sparring",
-       "label": {
-        "en": "Sparring (kyorugi)",
-        "es": "Combate (kyorugi)"
-       }
-      },
-      {
-       "value": "poomsae",
-       "label": {
-        "en": "Poomsae (forms)",
-        "es": "Poomsae (formas)"
-       }
-      }
-     ]
-    },
-    {
-     "value": "kickboxing_muay_thai",
-     "label": {
-      "en": "Kickboxing / Muay Thai",
-      "es": "Kickboxing / Muay Thai"
-     },
-     "group": "combat",
-     "positions": [
-      {
-       "value": "kickboxing",
-       "label": {
-        "en": "Kickboxing",
-        "es": "Kickboxing"
-       }
-      },
-      {
-       "value": "muay_thai",
-       "label": {
-        "en": "Muay Thai (clinch-heavy)",
-        "es": "Muay Thai (con mucho clinch)"
-       }
-      }
-     ]
-    },
-    {
-     "value": "fencing",
-     "label": {
-      "en": "Fencing",
-      "es": "Esgrima"
-     },
-     "group": "combat"
-    },
-    {
-     "value": "powerlifting",
-     "label": {
-      "en": "Powerlifting",
-      "es": "Powerlifting (levantamiento de potencia)"
-     },
-     "group": "strength_fitness",
-     "positions": [
-      {
-       "value": "raw",
-       "label": {
-        "en": "Raw / classic",
-        "es": "Raw / clásico"
-       }
-      },
-      {
-       "value": "equipped",
-       "label": {
-        "en": "Equipped",
-        "es": "Equipado"
-       }
-      }
-     ]
-    },
-    {
-     "value": "olympic_weightlifting",
-     "label": {
-      "en": "Olympic weightlifting",
-      "es": "Halterofilia (levantamiento olímpico)"
-     },
-     "group": "strength_fitness"
-    },
-    {
-     "value": "strongman",
-     "label": {
-      "en": "Strongman",
-      "es": "Strongman (hombre más fuerte)"
-     },
-     "group": "strength_fitness"
-    },
-    {
-     "value": "crossfit",
-     "label": {
-      "en": "CrossFit (competitive)",
-      "es": "CrossFit (competitivo)"
-     },
-     "group": "strength_fitness",
-     "positions": [
-      {
-       "value": "individual",
-       "label": {
-        "en": "Individual",
-        "es": "Individual"
-       }
-      },
-      {
-       "value": "team",
-       "label": {
-        "en": "Team",
-        "es": "Equipos"
-       }
-      },
-      {
-       "value": "masters_teens",
-       "label": {
-        "en": "Masters / teens",
-        "es": "Máster / adolescentes"
-       }
-      }
-     ]
-    },
-    {
-     "value": "hyrox",
-     "label": {
-      "en": "HYROX (competitive)",
-      "es": "HYROX (competitivo)"
-     },
-     "group": "strength_fitness",
-     "positions": [
-      {
-       "value": "open",
-       "label": {
-        "en": "Open",
-        "es": "Open"
-       }
-      },
-      {
-       "value": "pro",
-       "label": {
-        "en": "Pro (heavier stations)",
-        "es": "Pro (estaciones más pesadas)"
-       }
-      },
-      {
-       "value": "doubles_relay",
-       "label": {
-        "en": "Doubles / relay",
-        "es": "Dobles / relevos"
-       }
-      }
-     ]
-    },
-    {
-     "value": "ocr",
-     "label": {
-      "en": "Obstacle course racing (Spartan and similar)",
-      "es": "Carreras de obstáculos (OCR, Spartan y similares)"
-     },
-     "group": "strength_fitness",
-     "positions": [
-      {
-       "value": "short",
-       "label": {
-        "en": "Short course (5-10 km)",
-        "es": "Recorrido corto (5-10 km)"
-       }
-      },
-      {
-       "value": "long",
-       "label": {
-        "en": "Long course (21-50 km)",
-        "es": "Recorrido largo (21-50 km)"
-       }
-      }
-     ]
-    },
-    {
-     "value": "bodybuilding_physique",
-     "label": {
-      "en": "Bodybuilding / physique",
-      "es": "Fisicoculturismo (Bodybuilding / Physique)"
-     },
-     "group": "strength_fitness",
-     "positions": [
-      {
-       "value": "bodybuilding",
-       "label": {
-        "en": "Men's bodybuilding",
-        "es": "Fisicoculturismo varonil"
-       }
-      },
-      {
-       "value": "classic",
-       "label": {
-        "en": "Classic physique",
-        "es": "Classic physique"
-       }
-      },
-      {
-       "value": "mens_physique",
-       "label": {
-        "en": "Men's physique",
-        "es": "Men's physique"
-       }
-      },
-      {
-       "value": "bikini",
-       "label": {
-        "en": "Bikini",
-        "es": "Bikini"
-       }
-      },
-      {
-       "value": "wellness",
-       "label": {
-        "en": "Wellness",
-        "es": "Wellness"
-       }
-      },
-      {
-       "value": "figure",
-       "label": {
-        "en": "Figure",
-        "es": "Figure"
-       }
-      },
-      {
-       "value": "womens_physique",
-       "label": {
-        "en": "Women's physique / bodybuilding",
-        "es": "Women's physique / fisicoculturismo femenil"
-       }
-      }
-     ]
-    },
-    {
-     "value": "gymnastics",
-     "label": {
-      "en": "Gymnastics (artistic)",
-      "es": "Gimnasia artística"
-     },
-     "group": "strength_fitness",
-     "positions": [
-      {
-       "value": "womens",
-       "label": {
-        "en": "Women's artistic",
-        "es": "Artística femenil"
-       }
-      },
-      {
-       "value": "mens",
-       "label": {
-        "en": "Men's artistic",
-        "es": "Artística varonil"
-       }
-      }
-     ]
-    },
-    {
-     "value": "climbing",
-     "label": {
-      "en": "Climbing / bouldering",
-      "es": "Escalada / búlder (bouldering)"
-     },
-     "group": "strength_fitness",
-     "positions": [
-      {
-       "value": "bouldering",
-       "label": {
-        "en": "Bouldering",
-        "es": "Búlder (bouldering)"
-       }
-      },
-      {
-       "value": "lead",
-       "label": {
-        "en": "Lead / sport climbing",
-        "es": "Escalada deportiva (de dificultad)"
-       }
-      },
-      {
-       "value": "speed",
-       "label": {
-        "en": "Speed climbing",
-        "es": "Escalada de velocidad"
-       }
-      }
-     ]
-    },
-    {
-     "value": "tennis",
-     "label": {
-      "en": "Tennis",
-      "es": "Tenis"
-     },
-     "group": "racket_club",
-     "positions": [
-      {
-       "value": "singles",
-       "label": {
-        "en": "Singles",
-        "es": "Individual"
-       }
-      },
-      {
-       "value": "doubles",
-       "label": {
-        "en": "Doubles",
-        "es": "Dobles"
-       }
-      }
-     ]
-    },
-    {
-     "value": "pickleball",
-     "label": {
-      "en": "Pickleball (tournament)",
-      "es": "Pickleball (torneos)"
-     },
-     "group": "racket_club",
-     "positions": [
-      {
-       "value": "doubles",
-       "label": {
-        "en": "Doubles / mixed doubles",
-        "es": "Dobles / dobles mixtos"
-       }
-      },
-      {
-       "value": "singles",
-       "label": {
-        "en": "Singles",
-        "es": "Individual"
-       }
-      }
-     ]
-    },
-    {
-     "value": "padel",
-     "label": {
-      "en": "Padel (tournament)",
-      "es": "Pádel (torneos)"
-     },
-     "group": "racket_club"
-    },
-    {
-     "value": "golf",
-     "label": {
-      "en": "Golf",
-      "es": "Golf"
-     },
-     "group": "racket_club"
-    },
-    {
-     "value": "racket_other",
-     "label": {
-      "en": "Badminton / squash / racquetball / table tennis",
-      "es": "Bádminton / squash / ráquetbol / tenis de mesa"
-     },
-     "group": "racket_club",
-     "positions": [
-      {
-       "value": "badminton",
-       "label": {
-        "en": "Badminton",
-        "es": "Bádminton"
-       }
-      },
-      {
-       "value": "squash",
-       "label": {
-        "en": "Squash",
-        "es": "Squash"
-       }
-      },
-      {
-       "value": "racquetball",
-       "label": {
-        "en": "Racquetball",
-        "es": "Ráquetbol"
-       }
-      },
-      {
-       "value": "table_tennis",
-       "label": {
-        "en": "Table tennis",
-        "es": "Tenis de mesa"
-       }
-      }
-     ]
-    },
-    {
-     "value": "bowling",
-     "label": {
-      "en": "Bowling",
-      "es": "Boliche (bowling)"
-     },
-     "group": "racket_club"
-    },
-    {
-     "value": "skateboarding",
-     "label": {
-      "en": "Skateboarding (street / park)",
-      "es": "Patineta (skateboarding: street / park)"
-     },
-     "group": "aquatic_endurance_track"
-    },
-    {
-     "value": "surfing",
-     "label": {
-      "en": "Surfing (competitive)",
-      "es": "Surf (competitivo)"
-     },
-     "group": "aquatic_endurance_track"
-    },
-    {
-     "value": "speed_skating",
-     "label": {
-      "en": "Speed skating (long / short track)",
-      "es": "Patinaje de velocidad (pista larga / corta)"
-     },
-     "group": "aquatic_endurance_track"
     }
    ],
    "default": null,
@@ -2105,10 +2105,100 @@
    "type": "choice",
    "choices": [
     {
-     "value": "rec_pickleball",
+     "value": "weekend_warrior",
      "label": {
-      "en": "Pickleball",
-      "es": "Pickleball"
+      "en": "A bit of everything",
+      "es": "Un poco de todo"
+     }
+    },
+    {
+     "value": "rec_racket_other",
+     "label": {
+      "en": "Badminton, squash, racquetball or table tennis",
+      "es": "Bádminton, squash, ráquetbol o tenis de mesa"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_bowling",
+     "label": {
+      "en": "Bowling",
+      "es": "Boliche (bowling)"
+     }
+    },
+    {
+     "value": "rec_combat_fitness",
+     "label": {
+      "en": "Boxing, kickboxing or martial-arts classes",
+      "es": "Clases de boxeo, kickboxing o artes marciales"
+     },
+     "style": [
+      {
+       "value": "striking",
+       "label": {
+        "en": "Striking (boxing, kickboxing)",
+        "es": "Golpeo (boxeo, kickboxing)"
+       }
+      },
+      {
+       "value": "grappling",
+       "label": {
+        "en": "Grappling (jiu-jitsu, wrestling)",
+        "es": "Agarre (jiu-jitsu, lucha)"
+       }
+      }
+     ],
+     "has_event_date": true
+    },
+    {
+     "value": "rec_climbing",
+     "label": {
+      "en": "Climbing / bouldering gym",
+      "es": "Escalada / búlder (bouldering) en gimnasio"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "crossfit_class",
+     "label": {
+      "en": "CrossFit-style classes",
+      "es": "Clases estilo CrossFit"
+     }
+    },
+    {
+     "value": "cycling_fitness",
+     "label": {
+      "en": "Cycling / indoor cycling",
+      "es": "Ciclismo / ciclismo indoor"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "dance_fitness",
+     "label": {
+      "en": "Dance and fitness classes",
+      "es": "Baile y clases de fitness"
+     }
+    },
+    {
+     "value": "rec_disc_golf",
+     "label": {
+      "en": "Disc golf",
+      "es": "Disc golf (golf de disco)"
+     }
+    },
+    {
+     "value": "rec_golf",
+     "label": {
+      "en": "Golf",
+      "es": "Golf"
+     }
+    },
+    {
+     "value": "hike_ruck",
+     "label": {
+      "en": "Hiking and rucking",
+      "es": "Senderismo y caminata con mochila (rucking)"
      },
      "has_event_date": true
     },
@@ -2121,10 +2211,32 @@
      "has_event_date": true
     },
     {
-     "value": "rec_tennis",
+     "value": "rec_paddle_water",
      "label": {
-      "en": "Tennis",
-      "es": "Tenis"
+      "en": "Kayak, canoe, wakeboard or water-ski",
+      "es": "Kayak, canoa, wakeboard o esquí acuático"
+     }
+    },
+    {
+     "value": "lap_swim",
+     "label": {
+      "en": "Lap swimming (incl. masters-style workouts)",
+      "es": "Natación por salud (incluye entrenamientos tipo máster)"
+     }
+    },
+    {
+     "value": "rec_mountain_biking",
+     "label": {
+      "en": "Mountain biking",
+      "es": "Ciclismo de montaña (MTB)"
+     },
+     "has_event_date": true
+    },
+    {
+     "value": "rec_ocr",
+     "label": {
+      "en": "Obstacle course race (first Spartan / Tough Mudder)",
+      "es": "Carrera de obstáculos (primer Spartan / Tough Mudder)"
      },
      "has_event_date": true
     },
@@ -2137,11 +2249,12 @@
      "has_event_date": true
     },
     {
-     "value": "rec_golf",
+     "value": "rec_pickleball",
      "label": {
-      "en": "Golf",
-      "es": "Golf"
-     }
+      "en": "Pickleball",
+      "es": "Pickleball"
+     },
+     "has_event_date": true
     },
     {
      "value": "rec_league",
@@ -2216,35 +2329,19 @@
      ]
     },
     {
+     "value": "rec_rowing",
+     "label": {
+      "en": "Rowing / indoor rowing",
+      "es": "Remo / remo indoor"
+     }
+    },
+    {
      "value": "run_fitness",
      "label": {
       "en": "Running for fitness (first 5K / 10K, run club)",
       "es": "Correr por salud (primer 5K / 10K, club de corredores)"
      },
      "has_event_date": true
-    },
-    {
-     "value": "hike_ruck",
-     "label": {
-      "en": "Hiking and rucking",
-      "es": "Senderismo y caminata con mochila (rucking)"
-     },
-     "has_event_date": true
-    },
-    {
-     "value": "cycling_fitness",
-     "label": {
-      "en": "Cycling / indoor cycling",
-      "es": "Ciclismo / ciclismo indoor"
-     },
-     "has_event_date": true
-    },
-    {
-     "value": "lap_swim",
-     "label": {
-      "en": "Lap swimming (incl. masters-style workouts)",
-      "es": "Natación por salud (incluye entrenamientos tipo máster)"
-     }
     },
     {
      "value": "ski_snow_prep",
@@ -2262,102 +2359,12 @@
      }
     },
     {
-     "value": "dance_fitness",
+     "value": "rec_tennis",
      "label": {
-      "en": "Dance and fitness classes",
-      "es": "Baile y clases de fitness"
-     }
-    },
-    {
-     "value": "rec_triathlon",
-     "label": {
-      "en": "Triathlon for fitness (first race / age group)",
-      "es": "Triatlón por salud (primera carrera / grupos de edad)"
+      "en": "Tennis",
+      "es": "Tenis"
      },
      "has_event_date": true
-    },
-    {
-     "value": "rec_rowing",
-     "label": {
-      "en": "Rowing / indoor rowing",
-      "es": "Remo / remo indoor"
-     }
-    },
-    {
-     "value": "crossfit_class",
-     "label": {
-      "en": "CrossFit-style classes",
-      "es": "Clases estilo CrossFit"
-     }
-    },
-    {
-     "value": "weekend_warrior",
-     "label": {
-      "en": "A bit of everything",
-      "es": "Un poco de todo"
-     }
-    },
-    {
-     "value": "rec_combat_fitness",
-     "label": {
-      "en": "Boxing, kickboxing or martial-arts classes",
-      "es": "Clases de boxeo, kickboxing o artes marciales"
-     },
-     "style": [
-      {
-       "value": "striking",
-       "label": {
-        "en": "Striking (boxing, kickboxing)",
-        "es": "Golpeo (boxeo, kickboxing)"
-       }
-      },
-      {
-       "value": "grappling",
-       "label": {
-        "en": "Grappling (jiu-jitsu, wrestling)",
-        "es": "Agarre (jiu-jitsu, lucha)"
-       }
-      }
-     ],
-     "has_event_date": true
-    },
-    {
-     "value": "rec_climbing",
-     "label": {
-      "en": "Climbing / bouldering gym",
-      "es": "Escalada / búlder (bouldering) en gimnasio"
-     },
-     "has_event_date": true
-    },
-    {
-     "value": "rec_ocr",
-     "label": {
-      "en": "Obstacle course race (first Spartan / Tough Mudder)",
-      "es": "Carrera de obstáculos (primer Spartan / Tough Mudder)"
-     },
-     "has_event_date": true
-    },
-    {
-     "value": "rec_racket_other",
-     "label": {
-      "en": "Badminton, squash, racquetball or table tennis",
-      "es": "Bádminton, squash, ráquetbol o tenis de mesa"
-     },
-     "has_event_date": true
-    },
-    {
-     "value": "rec_disc_golf",
-     "label": {
-      "en": "Disc golf",
-      "es": "Disc golf (golf de disco)"
-     }
-    },
-    {
-     "value": "rec_bowling",
-     "label": {
-      "en": "Bowling",
-      "es": "Boliche (bowling)"
-     }
     },
     {
      "value": "rec_trail_running",
@@ -2368,19 +2375,12 @@
      "has_event_date": true
     },
     {
-     "value": "rec_mountain_biking",
+     "value": "rec_triathlon",
      "label": {
-      "en": "Mountain biking",
-      "es": "Ciclismo de montaña (MTB)"
+      "en": "Triathlon for fitness (first race / age group)",
+      "es": "Triatlón por salud (primera carrera / grupos de edad)"
      },
      "has_event_date": true
-    },
-    {
-     "value": "rec_paddle_water",
-     "label": {
-      "en": "Kayak, canoe, wakeboard or water-ski",
-      "es": "Kayak, canoa, wakeboard o esquí acuático"
-     }
     }
    ],
    "default": null,
