@@ -121,7 +121,10 @@ export function themeVars({ primary, accent, ink }) {
   L.shadow = `0 1px 2px rgba(${sh}, .05), 0 6px 22px rgba(${sh}, .07)`;
   // dark: the page is tinted with a brand colour that has a hue (a black or grey brand gets a neutral page), and every brand colour
   // is shown as it stands out there (themeColor: a black brand colour becomes the other colour or a light grey, never black on black)
-  const T = [A0, P0].find(isBrandish) || '#8a8a92';
+  // a brand whose second colour is black or grey (red + black, green + charcoal ...) gets a neutral black page: its colour shows on
+  // buttons and highlights, not as a tinted background (coach, 2026-10-14: the D1 preview's dark page looked off-brand)
+  const neutralSecond = !!accent && !isBrandish(A0);
+  const T = neutralSecond ? '#8a8a92' : ([A0, P0].find(isBrandish) || '#8a8a92');
   const D = {};
   D.bg = mix(mix(T, '#000000', 0.88), '#0b0b0d', 0.4); D.card = mix(D.bg, T, 0.06); D['card-2'] = mix(D.bg, T, 0.1);
   const dSurf = [D.bg, D.card, D['card-2']];
