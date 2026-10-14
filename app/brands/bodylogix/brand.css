@@ -35,7 +35,7 @@
   --font: Inter, "Manrope", "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Roboto, Arial, sans-serif;
   color-scheme: light;
 }
-/* Light only, always (Coach Lalo, 2026-10-13): the dark theme uses the light colours, whatever the phone is set to.
+/* Light only, always (2026-10-13): the dark theme uses the light colours, whatever the phone is set to.
    Re-apply this after any new-brand --force rebuild. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
