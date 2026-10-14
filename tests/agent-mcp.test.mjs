@@ -49,7 +49,7 @@ test('mcp: handshake, tools, a plan built from a sample, the gate, edits and ren
     for (const t of list.result.tools) assert.equal(t.inputSchema.type, 'object');
 
     const brands = await s.call('list_brands', {});
-    assert.deepEqual(brands.result.structuredContent.brands.map(b => b.id), ['blazecamp', 'sonhabitos']);
+    { const ids = brands.result.structuredContent.brands.map(b => b.id); for (const id of ['blazecamp', 'sonhabitos']) assert.ok(ids.includes(id), id); }   // white-label gyms may be added
 
     const q = await s.call('get_questions', { lang: 'en' });
     const qs = JSON.parse(q.result.content[0].text);

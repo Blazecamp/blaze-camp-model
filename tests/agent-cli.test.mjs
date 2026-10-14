@@ -97,7 +97,7 @@ test('cli: --questions (one language), --brands, --link, and edits', () => {
   const q = run(['--questions', '--lang', 'es']);
   assert.equal(q.code, 0, q.err);
   assert.equal(JSON.parse(q.out).questions.find(x => x.id === 'goal').prompt, 'Tu objetivo');
-  assert.deepEqual(JSON.parse(run(['--brands']).out).map(b => b.id), ['blazecamp', 'sonhabitos']);
+  { const ids = JSON.parse(run(['--brands']).out).map(b => b.id); for (const id of ['blazecamp', 'sonhabitos']) assert.ok(ids.includes(id), id); }   // white-label gyms may be added
   const l = run(['--link', '--answers', '-', '--site', 'https://plan.example.org/', '--lang', 'es'], JSON.stringify({ goal: 'general', accepted: true }));
   assert.equal(l.code, 0, l.err);
   assert.match(l.out.trim(), /^https:\/\/plan\.example\.org\/#a=[\w-]+&l=es$/);
